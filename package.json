@@ -6,6 +6,7 @@
   "scripts": {
     "test:ui:regression": "npx playwright test --project=sales-portal-ui --grep @regression|@smoke",
     "test:ui:smoke": "npm run test -- --project=sales-portal-ui --grep @smoke",
+    "test:allure": "playwright test --reporter=allure-playwright",
     "ui-mode": "npx playwright test --ui",
     "html-report-open": "npx playwright show-report",
     "allure-report": "allure generate allure-results -o allure-report --clean",
@@ -39,6 +40,7 @@
     "@types/lodash": "^4.17.21",
     "@types/moment": "^2.13.0",
     "@types/node": "^24.6.2",
+    "allure-commandline": "^2.34.1",
     "allure-playwright": "^3.4.2",
     "eslint": "^9.39.1",
     "eslint-config-prettier": "^10.1.8",
