@@ -1,0 +1,71 @@
+{
+  "type": "module",
+  "name": "aqa-4-playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:ui": "npx playwright test",
+    "test": "npx playwright test",
+    "test:ui:regression": "npx playwright test --project=sales-portal-ui --grep @regression|@smoke",
+    "test:ui:smoke": "npm run test -- --project=sales-portal-ui --grep @smoke",
+    "ui-mode": "npx playwright test --ui",
+    "html-report-open": "npx playwright show-report",
+    "allure-report": "allure generate allure-results -o allure-report --clean",
+    "allure-report-open": "npm run allure-report && allure open allure-report",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prettier": "prettier --config .prettierrc src/**/*.ts --check src/",
+    "prettier:fix": "prettier --config .prettierrc src/**/*.ts --write src/",
+    "format": " npm run prettier && npm run lint",
+    "format:fix": "npm run prettier:fix && npm run lint:fix",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "@faker-js/faker": "^10.1.0",
+    "@jest/globals": "^30.2.0",
+    "@playwright/test": "^1.55.1",
+    "@types/ajv": "^1.0.4",
+    "@types/bson": "^4.2.4",
+    "@types/dotenv": "^8.2.3",
+    "@types/jest": "^30.0.0",
+    "@types/lodash": "^4.17.21",
+    "@types/moment": "^2.13.0",
+    "@types/node": "^24.6.2",
+    "allure-playwright": "^3.4.2",
+    "eslint": "^9.36.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "globals": "^16.4.0",
+    "husky": "^9.1.7",
+    "jest": "^30.2.0",
+    "prettier": "^3.6.2",
+    "ts-jest": "^29.4.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.45.0"
+  },
+  "dependencies": {
+    "@types/numeral": "^2.0.5",
+    "ajv": "^8.17.1",
+    "bson": "^7.0.0",
+    "dotenv": "^17.2.3",
+    "lint-staged": "^16.2.3",
+    "lodash": "^4.17.21",
+    "moment": "^2.30.1",
+    "mongodb": "^7.0.0",
+    "numeral": "^2.0.6"
+  },
+  "lint-staged": {
+    "src/**/*.{ts,tsx,js,jsx}": [
+      "eslint --fix"
+    ],
+    "src/**/*.{ts,tsx,js,jsx,json,md,yml,yaml,css,scss}": [
+      "prettier --write"
+    ]
+  }
+}
