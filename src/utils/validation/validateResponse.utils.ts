@@ -1,6 +1,6 @@
-import { expect } from "@playwright/test";
-import { IResponse, IResponseFields } from "data/types/core.types";
-import { validateJsonSchema } from "./validateSchema.utils";
+import { expect } from '@playwright/test';
+import { IResponse, IResponseFields } from 'data/types/core.types';
+import { validateJsonSchema } from './validateSchema.utils';
 
 export function validateResponse<T extends IResponseFields | null>(
   response: IResponse<T>,
@@ -9,11 +9,13 @@ export function validateResponse<T extends IResponseFields | null>(
     IsSuccess?: boolean;
     ErrorMessage?: string | null;
     schema?: object;
-  },
+  }
 ) {
-  expect.soft(response.status, `Status code should be ${response.status}`).toBe(expected.status);
+  expect.soft(response.status, `Status code should be ${expected.status}`).toBe(response.status);
   if (expected.IsSuccess)
-    expect.soft(response.body!.IsSuccess, `IsSuccess should be ${expected.IsSuccess}`).toBe(expected.IsSuccess);
+    expect
+      .soft(response.body!.IsSuccess, `IsSuccess should be ${expected.IsSuccess}`)
+      .toBe(expected.IsSuccess);
   if (expected.ErrorMessage)
     expect
       .soft(response.body!.ErrorMessage, `ErrorMessage should be ${expected.ErrorMessage}`)
