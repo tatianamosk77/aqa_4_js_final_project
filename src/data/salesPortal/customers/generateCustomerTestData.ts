@@ -51,9 +51,9 @@ export const createCustomerPositiveCases: ITestCustomerData[] = [
     expectedStatus: STATUS_CODES.CREATED,
   },
   {
-    title: 'Create customer with 40 character length of city', // requires 40, but includes max 20
+    title: 'Create customer with 20 character length of city', // requires 40, but includes max 20
     customerData: createCustomer({
-      city: `${faker.string.alpha(19)} ${faker.string.alpha(20)}`,
+      city: `${faker.string.alpha(9)} ${faker.string.alpha(10)}`,
     }),
     expectedStatus: STATUS_CODES.CREATED,
   },

@@ -6,7 +6,7 @@ import { ICustomer } from 'data/types/customer.types';
 export function generateCustomerData(params?: Partial<ICustomer>): ICustomer {
   return {
     email: faker.internet.email(),
-    name: faker.person.fullName(),
+    name: faker.person.firstName() + ' ' + faker.person.lastName(),
     country: getRandomEnumValue(COUNTRIES),
     city: faker.location.city(),
     flat: faker.number.int({ min: 1, max: 9999 }),
