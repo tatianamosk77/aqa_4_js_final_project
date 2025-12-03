@@ -1,5 +1,6 @@
 import { COUNTRIES } from 'data/salesPortal/customers/countries';
 import { ID, IResponseFields, SortOrder } from './core.types';
+import { IOrder } from './order.types';
 
 export interface ICustomer {
   email: string;
@@ -29,6 +30,9 @@ export interface ICustomerResponse extends IResponseFields {
 
 export interface ICustomersResponse extends IResponseFields {
   Customers: ICustomerFromResponse[];
+}
+export interface ICustomerOrdersResponse extends IResponseFields {
+  Orders: IOrder[];
 }
 
 export interface ICustomersSortedResponse extends ICustomersResponse {
