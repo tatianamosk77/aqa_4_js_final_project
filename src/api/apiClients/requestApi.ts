@@ -55,7 +55,7 @@ export class RequestApi extends BaseApiClient {
           body: options.data,
         },
         null,
-        2,
+        2
       ),
       contentType: "application/json",
     });
@@ -69,7 +69,7 @@ export class RequestApi extends BaseApiClient {
           body: response.body,
         },
         null,
-        2,
+        2
       ),
       contentType: "application/json",
     });

@@ -8,15 +8,24 @@ export function validateResponse<T extends IResponseFields | null>(
     status: number;
     IsSuccess?: boolean;
     ErrorMessage?: string | null;
-    schema?: object;
-  },
+    schema?: unknown;
+  }
 ) {
-  expect.soft(response.status, `Status code should be ${response.status}`).toBe(expected.status);
-  if (expected.IsSuccess)
+  expect
+    .soft(response.status, `Status code should be ${expected.status}, got ${response.status}`)
+    .toBe(expected.status);
+
+  if (expected.IsSuccess !== undefined) {
     expect.soft(response.body!.IsSuccess, `IsSuccess should be ${expected.IsSuccess}`).toBe(expected.IsSuccess);
-  if (expected.ErrorMessage)
+  }
+
+  if (expected.ErrorMessage !== undefined) {
     expect
       .soft(response.body!.ErrorMessage, `ErrorMessage should be ${expected.ErrorMessage}`)
       .toBe(expected.ErrorMessage);
-  if (expected.schema) validateJsonSchema(response.body!, expected.schema);
+  }
+
+  if (expected.schema) {
+    validateJsonSchema(expected.schema as Record<string, unknown>, response.body!);
+  }
 }

@@ -1,37 +1,37 @@
 export interface IMetricsOrders {
-    totalRevenue: number;
-    totalOrders: number;
-    averageOrderValue: number;
-    totalCanceledOrders: number;
-    recentOrders: any[];
-    ordersCountPerDay: any[];
+  totalRevenue: number;
+  totalOrders: number;
+  averageOrderValue: number;
+  totalCanceledOrders: number;
+  recentOrders: any[];
+  ordersCountPerDay: any[];
 }
 
 export interface ICustomerGrowth {
-    date: {
-        year: number;
-        month: number;
-        day: number;
-    };
-    count: number;
+  date: {
+    year: number;
+    month: number;
+    day: number;
+  };
+  count: number;
 }
 
 export interface IMetricsCustomers {
-    totalNewCustomers: number;
-    topCustomers: any[];
-    customerGrowth: ICustomerGrowth[];
+  totalNewCustomers: number;
+  topCustomers: any[];
+  customerGrowth: ICustomerGrowth[];
 }
 
 export interface IMetricsProducts {
-    topProducts: any[];
+  topProducts: any[];
 }
 
 export interface IMetricsResponse {
-    IsSuccess: boolean;
-    Metrics: {
-        orders: IMetricsOrders;
-        customers: IMetricsCustomers;
-        products: IMetricsProducts;
-    };
-    ErrorMessage: string | null;
+  IsSuccess: boolean;
+  Metrics: {
+    orders: IMetricsOrders;
+    customers: IMetricsCustomers;
+    products: IMetricsProducts;
+  };
+  ErrorMessage: string | null;
 }

@@ -6,7 +6,6 @@ export const test = base.extend<{
 }>({
   loginAsAdmin: async ({ page, homePage }, use) => {
     await use(async () => {
-
       const emailInput = page.locator("#emailinput");
       const passwordInput = page.locator("#passwordinput");
       const loginButton = page.locator("button[type='submit']");

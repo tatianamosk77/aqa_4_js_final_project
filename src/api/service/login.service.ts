@@ -6,9 +6,8 @@ import { ICredentials } from "data/types/credentials.types";
 import { validateResponse } from "utils/validation/validateResponse.utils";
 import { logStep } from "utils/report/logStep.utils";
 
-
 export class LoginService {
-  constructor(private loginApi: LoginApi) { }
+  constructor(private loginApi: LoginApi) {}
 
   @logStep("Login as Admin via API")
   async loginAsAdmin(customCredentials?: ICredentials) {

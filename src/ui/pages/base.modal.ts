@@ -2,7 +2,7 @@ import { expect } from "@playwright/test";
 import { SalesPortalPage } from "./sales-portal.page";
 
 export abstract class BaseModal extends SalesPortalPage {
-    async waitForClosed() {
-        await expect(this.uniqueElement).not.toBeVisible({ timeout: 10000 });
-    }
+  async waitForClosed() {
+    await expect(this.uniqueElement).not.toBeVisible({ timeout: 10000 });
+  }
 }

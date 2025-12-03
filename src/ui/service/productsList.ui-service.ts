@@ -6,7 +6,6 @@ import { convertToFullDateAndTime } from "utils/date.utils";
 import { expect, Page } from "@playwright/test";
 import { logStep } from "utils/report/logStep.utils";
 
-
 export class ProductsListUIService {
   productsListPage: ProductsListPage;
   addNewProductPage: AddNewProductPage;
@@ -65,7 +64,7 @@ export class ProductsListUIService {
   async assertProductInTable(productName: string, { visible }: { visible: boolean }) {
     await expect(
       this.productsListPage.tableRowByName(productName),
-      `Product "${productName}" should be in table`,
+      `Product "${productName}" should be in table`
     ).toBeVisible({ visible });
   }
 }

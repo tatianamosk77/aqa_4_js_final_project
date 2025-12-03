@@ -11,6 +11,6 @@ export const apiConfig = {
     customerById: (id: string) => `/api/customers/${id}/`,
     customersAll: "/api/customers/all",
 
-    metrics: "/api/metrics"
+    metrics: "/api/metrics",
   },
 };

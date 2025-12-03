@@ -4,7 +4,6 @@ export enum NOTIFICATIONS {
   PRODUCT_DELETED = "Product was successfully deleted",
   PRODUCT_UPDATED = "Product was successfully updated",
   CUSTOMER_CREATED = "Customer was successfully created",
-
 }
 
 export const ERROR_MESSAGES = {
