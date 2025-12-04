@@ -5,12 +5,13 @@ import addFormats from 'ajv-formats';
 //export function validateJsonSchema(body: object, schema: object) {
 
 export function validateJsonSchema(schema: Record<string, unknown>, body: unknown) {
-  const ajv = new Ajv();
+  const ajv = new Ajv({ allErrors: true });
+
+  addFormats(ajv);
+  //  const ajv = new Ajv();
 
   const validate = ajv.compile(schema as AnySchema);
   const isValid = validate(body);
-
-  addFormats(ajv);
 
   expect
     .soft(
