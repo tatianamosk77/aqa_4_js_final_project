@@ -1,0 +1,87 @@
+{
+  "type": "module",
+  "name": "aqa-4-playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:ui:regression": "npx playwright test --project=sales-portal-ui --grep @regression|@smoke",
+    "test:ui:smoke": "npm run test -- --project=sales-portal-ui --grep @smoke",
+    "test:allure": "playwright test --reporter=allure-playwright",
+    "ui-mode": "npx playwright test --ui",
+    "html-report-open": "npx playwright show-report",
+    "allure-report": "allure generate allure-results -o allure-report --clean",
+    "allure-report-open": "npm run allure-report && allure open allure-report",
+    "prettier": "prettier --config .prettierrc src/**/*.ts --check src/",
+    "prettier:fix": "prettier --config .prettierrc src/**/*.ts --write src/",
+    "format:fix": "npm run prettier:fix && npm run lint:fix",
+    "prepare": "husky install",
+    "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
+    "lint:fix": "eslint . --ext .ts,.tsx,.js,.jsx --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint-staged": "lint-staged",
+    "precommit": "npm run lint-staged",
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "test:api": "npx playwright test src/tests/api"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "@faker-js/faker": "^10.1.0",
+    "@jest/globals": "^30.2.0",
+    "@playwright/test": "^1.55.1",
+    "@types/ajv": "^1.0.4",
+    "@types/bson": "^4.2.4",
+    "@types/dotenv": "^8.2.3",
+    "@types/jest": "^30.0.0",
+    "@types/lodash": "^4.17.21",
+    "@types/moment": "^2.13.0",
+    "@types/node": "^24.6.2",
+    "ajv-formats": "^3.0.1",
+    "allure-commandline": "^2.34.1",
+    "allure-playwright": "^3.4.2",
+    "eslint": "^9.39.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-jest": "^29.2.1",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-playwright": "^2.4.0",
+    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "globals": "^16.4.0",
+    "husky": "^9.1.7",
+    "jest": "^30.2.0",
+    "lint-staged": "^16.2.7",
+    "prettier": "^3.7.3",
+    "ts-jest": "^29.4.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.45.0"
+  },
+  "dependencies": {
+    "@types/numeral": "^2.0.5",
+    "ajv": "^8.17.1",
+    "bson": "^7.0.0",
+    "dotenv": "^17.2.3",
+    "lodash": "^4.17.21",
+    "moment": "^2.30.1",
+    "mongodb": "^7.0.0",
+    "numeral": "^2.0.6"
+  },
+  "lint-staged": {
+    "*.{js,ts,jsx,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.json": [
+      "prettier --parser json --write"
+    ],
+    "*.{md,yml,yaml,css,scss}": [
+      "prettier --write"
+    ]
+  }
+}
