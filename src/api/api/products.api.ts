@@ -11,9 +11,8 @@ import {
 import { convertRequestParams } from "utils/queryParams.utils";
 import { logStep } from "utils/report/logStep.utils";
 
-
 export class ProductsApi {
-  constructor(private apiClient: IApiClient) { }
+  constructor(private apiClient: IApiClient) {}
 
   @logStep("POST /api/products")
   async create(product: IProduct, token: string) {

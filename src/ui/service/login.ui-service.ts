@@ -25,7 +25,7 @@ export class LoginUIService {
     await this.loginPage.fillCredentials(credentials);
     await this.loginPage.clickLogin();
     await this.homePage.waitForOpened();
-    const token = (await this.page.context().cookies()).find((c) => c.name === "Authorization")!.value;
+    const token = (await this.page.context().cookies()).find(c => c.name === "Authorization")!.value;
     return token;
   }
 }

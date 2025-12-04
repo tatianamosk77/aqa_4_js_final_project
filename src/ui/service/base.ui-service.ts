@@ -1,5 +1,5 @@
 import { Page } from "@playwright/test";
 
 export abstract class BaseUIService {
-    constructor(protected readonly page: Page) { }
+  constructor(protected readonly page: Page) {}
 }

@@ -7,9 +7,15 @@ export function validateJsonSchema(body: object, schema: object) {
   addFormats(ajv);
   const validate = ajv.compile(schema);
 
+addFormats(ajv);
+
+export function validateJsonSchema(schema: Record<string, unknown>, body: unknown) {
+  const validate = ajv.compile(schema as AnySchema);
   const isValid = validate(body);
 
-  expect.soft(isValid, `Response body should match JSON schema`).toBe(true);
+  expect
+    .soft(isValid, `Response body should match JSON schema. Errors: ${JSON.stringify(validate.errors, null, 2)}`)
+    .toBe(true);
 
   if (isValid) {
     console.log('Data is valid according to the schema.');

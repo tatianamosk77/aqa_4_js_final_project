@@ -22,7 +22,8 @@
     "lint-staged": "lint-staged",
     "precommit": "npm run lint-staged",
     "test": "npx playwright test",
-    "test:ui": "npx playwright test --ui"
+    "test:ui": "npx playwright test --ui",
+    "test:api": "npx playwright test src/tests/api"
   },
   "keywords": [],
   "author": "",
@@ -74,8 +75,15 @@
     "numeral": "^2.0.6"
   },
   "lint-staged": {
-    "*.{js,ts,jsx,tsx}": ["eslint --fix", "prettier --write"],
-    "*.json": ["prettier --parser json --write"],
-    "*.{md,yml,yaml,css,scss}": ["prettier --write"]
+    "*.{js,ts,jsx,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.json": [
+      "prettier --parser json --write"
+    ],
+    "*.{md,yml,yaml,css,scss}": [
+      "prettier --write"
+    ]
   }
 }

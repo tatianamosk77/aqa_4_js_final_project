@@ -8,9 +8,11 @@ import { ProductsListPage } from "ui/pages/products/productsList.page";
 import { TAGS } from "data/tags";
 
 test.describe("[Sales Portal] [Products]", () => {
-  test("Table parsing", {
-    tag: [TAGS.REGRESSION, TAGS.PRODUCTS, TAGS.UI],
-  },
+  test(
+    "Table parsing",
+    {
+      tag: [TAGS.REGRESSION, TAGS.PRODUCTS, TAGS.UI],
+    },
     async ({ page }) => {
       const homePage = new HomePage(page);
       const productsListPage = new ProductsListPage(page);
@@ -40,5 +42,6 @@ test.describe("[Sales Portal] [Products]", () => {
 
       const tableData = await productsListPage.getTableData();
       console.log(tableData);
-    });
+    }
+  );
 });
