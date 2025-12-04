@@ -23,7 +23,8 @@
     "precommit": "npm run lint-staged",
     "test": "npx playwright test",
     "test:ui": "npx playwright test --ui",
-    "test:api": "npx playwright test src/tests/api"
+    "test:api": "npx playwright test src/tests/api",
+    "update-snapshots": "npx playwright test --update-snapshots"
   },
   "keywords": [],
   "author": "",
