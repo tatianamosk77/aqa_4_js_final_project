@@ -23,7 +23,7 @@ SALES_PORTAL_URL=your_url
 SALES_PORTAL_API_URL=your_api_url
 ```
 
-Replace `your_login`, `your_password`, `your_url`, and `your_api_url` with valid values for your environment.
+Replace `your_login`, `your_password`, `your_url`, and `your_api_url` with valid environment values.
 
 ### 3. Running Tests
 
@@ -66,7 +66,7 @@ test.use({ storageState: { cookies: [], origins: [] } });
 - **Open Playwright HTML Report:**
 
   ```bash
-  npm run report-html-open
+  npm run html-report-open
   ```
 
 - **Generate Allure Report:**
