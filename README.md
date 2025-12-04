@@ -17,8 +17,10 @@ npm install
 Create a `.env` file in the project root with the following variables:
 
 ```
-USER_LOGIN=your_login
+USER_NAME=your_login
 USER_PASSWORD=your_password
+SALES_PORTAL_URL=your_url
+SALES_PORTAL_API_URL=your_api_url
 ```
 
 Replace `your_login` and `your_password` with valid credentials.
