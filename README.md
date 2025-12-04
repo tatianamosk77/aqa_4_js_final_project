@@ -23,7 +23,7 @@ SALES_PORTAL_URL=your_url
 SALES_PORTAL_API_URL=your_api_url
 ```
 
-Replace `your_login` and `your_password` with valid credentials.
+Replace `your_login`, `your_password`, `your_url`, and `your_api_url` with valid values for your environment.
 
 ### 3. Running Tests
 
