@@ -1,5 +1,6 @@
-import { COUNTRIES } from "data/salesPortal/customers/countries";
-import { ID, IResponseFields, SortOrder } from "./core.types";
+import { COUNTRIES } from 'data/salesPortal/customers/countries';
+import { ID, IResponseFields, SortOrder } from './core.types';
+import { IOrder } from './order.types';
 
 export interface ICustomer {
   email: string;
@@ -17,7 +18,8 @@ export interface ICreatedOn {
   createdOn: string;
 }
 
-export interface ICustomerInTable extends Pick<ICustomer, "email" | "name" | "country">, ICreatedOn {}
+export interface ICustomerInTable
+  extends Pick<ICustomer, 'email' | 'name' | 'country'>, ICreatedOn {}
 export interface ICustomerDetails extends Required<ICustomer>, ICreatedOn {}
 
 export interface ICustomerFromResponse extends Required<ICustomer>, ICreatedOn, ID {}
@@ -28,6 +30,9 @@ export interface ICustomerResponse extends IResponseFields {
 
 export interface ICustomersResponse extends IResponseFields {
   Customers: ICustomerFromResponse[];
+}
+export interface ICustomerOrdersResponse extends IResponseFields {
+  Orders: IOrder[];
 }
 
 export interface ICustomersSortedResponse extends ICustomersResponse {
@@ -41,7 +46,7 @@ export interface ICustomersSortedResponse extends ICustomersResponse {
     sortOrder: SortOrder;
   };
 }
-export type CustomersSortField = "createdOn" | "country" | "email" | "name";
+export type CustomersSortField = 'createdOn' | 'country' | 'email' | 'name';
 
 export interface IGetCustomersParams {
   country: COUNTRIES[];
@@ -51,4 +56,4 @@ export interface IGetCustomersParams {
   page: number;
   limit: number;
 }
-export type CustomerTableHeader = "Emain" | "Name" | "Country" | "Created On";
+export type CustomerTableHeader = 'Email' | 'Name' | 'Country' | 'Created On';

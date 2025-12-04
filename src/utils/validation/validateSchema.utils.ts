@@ -1,11 +1,11 @@
-import Ajv, { AnySchema } from "ajv";
-import addFormats from "ajv-formats";
-import { expect } from "@playwright/test";
+import { expect } from '@playwright/test';
+import Ajv from 'ajv';
+import addFormats from 'ajv-formats';
 
-const ajv = new Ajv({
-  allErrors: true,
-  strict: true,
-});
+export function validateJsonSchema(body: object, schema: object) {
+  const ajv = new Ajv();
+  addFormats(ajv);
+  const validate = ajv.compile(schema);
 
 addFormats(ajv);
 
@@ -17,7 +17,10 @@ export function validateJsonSchema(schema: Record<string, unknown>, body: unknow
     .soft(isValid, `Response body should match JSON schema. Errors: ${JSON.stringify(validate.errors, null, 2)}`)
     .toBe(true);
 
-  if (!isValid) {
-    console.error("Schema validation errors:", validate.errors);
+  if (isValid) {
+    console.log('Data is valid according to the schema.');
+  } else {
+    console.log('Data is not valid according to the schema.');
+    console.log(validate.errors);
   }
 }
