@@ -1,5 +1,5 @@
-import { NotificationService } from "utils/notifications/notifications.service";
-import { TelegramService } from "utils/notifications/telegram.service";
+import { NotificationService } from 'utils/notifications/notifications.service';
+import { TelegramService } from 'utils/notifications/telegram.service';
 
 export default async function () {
   if (!process.env.CI) return;
@@ -10,5 +10,5 @@ export default async function () {
     
 Link to deployed report:
 
-https://github.com/tatianamosk77/aqa_4_js_final_project/#`);
+https://github.com/tatianamosk77/aqa_4_js_final_project/allure-report/#`);
 }
