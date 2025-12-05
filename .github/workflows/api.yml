@@ -1,0 +1,62 @@
+name: Run Sales Portal API tests
+on:
+  # push:
+  #   branches:
+  #     - main
+  # pull_request:
+
+  schedule:
+    - cron: "0 22 * * *" # 00:00 GMT+2 (22:00 UTC)
+
+  workflow_dispatch: # Manually trigger the workflow
+
+jobs:
+  test:
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+    steps:
+      # Checkout
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+
+      # Install dependencies
+      - name: Install dependencies
+        run: npm ci
+
+      # Install Playwright browsers
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps
+
+      # Run tests
+      - name: Run tests
+        env:
+          SALES_PORTAL_API_URL: ${{ secrets.SALES_PORTAL_API_URL }}
+          SALES_PORTAL_URL: ${{ secrets.SALES_PORTAL_URL }}
+          USER_NAME: ${{ secrets.USER_NAME }}
+          USER_PASSWORD: ${{ secrets.USER_PASSWORD }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: npm run test:api:regression
+        continue-on-error:
+          true
+
+          # Create Allure report
+      - name: Create Allure report
+        run: npm run allure-report
+
+      - name: Save Allure report
+        uses: actions/upload-artifact@v4
+        with:
+          name: regression-report
+          path: ./allure-report
+
+      # Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        if: success()
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./allure-report
+          destination_dir: allure-report
