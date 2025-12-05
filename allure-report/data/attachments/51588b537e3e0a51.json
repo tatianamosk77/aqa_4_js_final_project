@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 15:14:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-1atVJ9anxdN60Bp1VYhSZc/ysJo\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jordan_Towne28@yahoo.com",
+      "name": "Test Customer",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 562,
+      "flat": 1465,
+      "phone": "+6760606433",
+      "createdOn": "2025-12-05T15:14:00.000Z",
+      "notes": "lSl8XaOdtS1NntzKmZFZZdwOiH8BA2QnWbLgmqKEDUnuQvpXbGNqUhzyPI0BxANKCAHCUX7Arm51Z2frbKoU4Y7rlBALZ5i6Z0DjuJ1Ag8ytd1NhTb3O8Jt5JG0tR1Sgk7yeqgsKFs1upVxGT71ZdmwXkcWUzOfWhphUoGj1kPtfR7DvoEwZZRQynOiq1tWwy2CdahQyDyUm6arr9eaNGb58iPR4DsbaHmXcdhDqQgbW51jhtDTsGqRCOH",
+      "_id": "6932f6b81c508c5d5e97c915"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

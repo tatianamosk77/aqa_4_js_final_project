@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 15:14:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-bVV+o1AqEy0hUwbHAoRB7HoqHIg\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Tomas_Graham42@gmail.com",
+      "name": "Arely Lulu",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 289,
+      "flat": 2775,
+      "phone": "+0193668149",
+      "createdOn": "2025-12-05T15:14:00.000Z",
+      "notes": "tF30nQxM9pJK9pSJBMpz84KU5zxYjvqoggb2IEo5st5cxor1recVP2OqMBRSFs6GMoNCSlxdG4eZV4cWw9dhnCnEZ9Mw1eqCnx3FKSoJWZkY7mmvCt82ktVRKM4e0aOenTj3YH9XbdPgF8pBpFgeBKPX5QvAxmhBxt2DOgCElQEzU7u8R9zbrO1yQFQLxAjxJpsRQHBwdLRKTy5Y5I6u9QjJJDXnphaN15FS9TP3kwDD2cpLnPxZhrojeX",
+      "_id": "6932f6b81c508c5d5e97c91c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 15:14:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "195",
+    "etag": "W/\"c3-E5q/mMOFxC50RJsoW7lYkgGkHhk\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Cheese86178",
+      "amount": 550,
+      "price": 77408,
+      "manufacturer": "Samsung",
+      "createdOn": "2025-12-05T15:14:11.000Z",
+      "_id": "6932f6c31c508c5d5e97ccea"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

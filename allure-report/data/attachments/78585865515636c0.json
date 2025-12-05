@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 15:14:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-c89ZcWBUrppdgDpkRGXdb+KF8Vg\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Albert_Walsh@yahoo.com",
+      "name": "Erin Jordan",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 670,
+      "flat": 1070,
+      "phone": "+5232815191",
+      "createdOn": "2025-12-05T15:14:07.000Z",
+      "notes": "YXURt7MBStKXGmJELxpjIsemiORhSs0XZ7zjRicWyKi2j4G6p5RBnxhPyTnaIuYShpJOPGX3FS74mpNt7IvuDV3W35ClzcEIXsvWzTlrgnOhp3qVAwzJzHBAbFt4IwyBrUABdxjCINGeUSleFKJh1BUbJvsaycuXHNqkRThr51vk9htl8ysF59Gdkde8nViGnSqHWCzZkc5pIZCXehWdfTzGza8YJlB7T25yttcckRT2dCE277NqIgA8Ws",
+      "_id": "6932f6bf1c508c5d5e97cb47"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

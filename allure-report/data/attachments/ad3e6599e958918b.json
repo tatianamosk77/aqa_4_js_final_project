@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 15:14:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-7E1YhYyO3FhrlmHQ9FCfF6y6Hho\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Hilbert.Sauer@gmail.com",
+      "name": "Royal Mozell",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 174,
+      "flat": 6794,
+      "phone": "+0258945540",
+      "createdOn": "2025-12-05T15:14:11.000Z",
+      "notes": "b0iKkkAMa88LGUYdFKMsBPGbvTqA6UtATAz0mUsXNQ2MwzJJ9PENpb8MqJYgJ8u2pzpyKrhg8MZQx89xtGo6cbrqtCldZLVJoaSSSZYyOfwSXBe9MbhGLzGFBZKX4adUOeLV9oArgLNUwC4hbyNWOZBoYZsEnVGQQNMisrOAm7izalXus2i0Pl4to5hBSrkidGc8gLeeese8bEh8IdlaE1mOJIXrNMF36cafRYYsYF6f9TPgHjfVp5jKkL",
+      "_id": "6932f6c31c508c5d5e97ccec"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 15:14:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "663",
+    "etag": "W/\"297-bBzHTVqT8jWwwquQdRkei6ON1AM\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "6932f6bd1c508c5d5e97caa4",
+        "email": "Shea_Boyer@hotmail.com",
+        "name": "Else Luna",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 265,
+        "flat": 9432,
+        "phone": "+8505466065",
+        "createdOn": "2025-12-05T15:14:05.000Z",
+        "notes": "x3qYtGXJnJj9EtDnSmN3GXQ3xjSRY562Hmd6KkHBnsewfQPB5ED6n08BzWmi2tuREV7Cimk8qmTkfeefiWRNEy1eedCj67Fne4vNbCpW4kVoD7aBlUKEyZndMJeAntjG1D1cXxYulaiRyqILJgfOC34651LYLgzUokahVRYVSJN8uFTqXGvHDE2jxJKADTqgg6QijJQqlfPiSuu8wE8QNW9QIvj47agQT1zPKCbNzZClxLqowuwZB2yXW5"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Else Luna",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

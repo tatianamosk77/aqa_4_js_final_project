@@ -1,0 +1,159 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 15:14:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4261",
+    "etag": "W/\"10a5-L8Ku1iPb8DduAq70IU5Z3kZGN0w\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "6932f6bd1c508c5d5e97cab0",
+        "email": "Ted_Nienow@gmail.com",
+        "name": "Litzy Cordell",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 243,
+        "flat": 7695,
+        "phone": "+5589138273",
+        "createdOn": "2025-12-05T15:14:05.000Z",
+        "notes": "kuHBAnc8vqI2jBLqKEcDCCyEfaYBQXh62SEOwtnK5IMNaCkrpHjEZAXFWa3REWxWrGWEy9uqe7dIFETGQonBzWe5trGvhC7hs7RFW8bEtv1cLtFhwDJ5t26Jhv8nrOmSORWiYmTUFWQ84bGYxZEY4I08TRpsGCVTo120Q4d1qzrzZBbnBKIymFZssEJZngJ3VFdPp9UB3bewqjqfzQ9jrIhKtYEYoP28a5ku0niIbdeOX00zKCXiaygFh4"
+      },
+      {
+        "_id": "6932f69d1c508c5d5e97c8d4",
+        "email": "Yadira.Stamm4@hotmail.com",
+        "name": "Candace Monahan",
+        "country": "USA",
+        "city": "Carmichael",
+        "street": "N Pearl Street 12",
+        "house": 802,
+        "flat": 9216,
+        "phone": "+785166132931789",
+        "createdOn": "2025-12-05T15:13:33.000Z",
+        "notes": "4nvr7CoJiCicSCI0BzDdy9qao4MKlc"
+      },
+      {
+        "_id": "6932f5831c508c5d5e97c684",
+        "email": "Kellie.Medhurst@yahoo.com",
+        "name": "Richmond Cremin",
+        "country": "USA",
+        "city": "New Loy",
+        "street": "Lavina Ville 55",
+        "house": 196,
+        "flat": 3271,
+        "phone": "+155512345678",
+        "createdOn": "2025-12-05T15:08:51.000Z",
+        "notes": "Updated notes content"
+      },
+      {
+        "_id": "6932f5811c508c5d5e97c608",
+        "email": "tester+C3yNsc@gmail.com",
+        "name": "Della Bednar",
+        "country": "USA",
+        "city": "Port Thelma",
+        "street": "Mill Street 53",
+        "house": 371,
+        "flat": 3228,
+        "phone": "+314793665038709",
+        "createdOn": "2025-12-05T15:08:49.000Z",
+        "notes": "95f76xAuGEgwBN8poPPDPE6hdSwGW4"
+      },
+      {
+        "_id": "6932f54a1c508c5d5e97c461",
+        "email": "tester+sRS676@gmail.com",
+        "name": "Jovany Flatley Erdman",
+        "country": "USA",
+        "city": "Bereniceton",
+        "street": "Moen Points 5",
+        "house": 64,
+        "flat": 3294,
+        "phone": "+057429311113642",
+        "createdOn": "2025-12-05T15:07:54.000Z",
+        "notes": "HMT4rWP4R7zMHxfuILftpPNC4UolNq"
+      },
+      {
+        "_id": "6932f51b1c508c5d5e97bd97",
+        "email": "Reese66@yahoo.com",
+        "name": "Quincy Ollie",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 250,
+        "flat": 1473,
+        "phone": "+3677513082",
+        "createdOn": "2025-12-05T15:07:07.000Z",
+        "notes": "3aQ0vzZktoQYuqPmybj9CJCTAmJdsvfSboMt4MZv6pnOVuQ2FKsV1s1bsHQ1mmdSMg0HSMcYC1F3iYJjbKV2Ro8IF2JxZOxLXMCHR3XYzhjJ4L9dEff90JoORDOFaHyi3UVZ5YzQAhhckLdCi3bN6WtaiG2cWicQfMdGpB0HYJSiHZA1Ag9EsKJI7bFyTL37FBy2IvVR0gTe1O2jKwUJzBZZdDZXwWdumParQNLInF9c7ewhD31HdJtFMJ"
+      },
+      {
+        "_id": "6932f19d1c508c5d5e97b55f",
+        "email": "Hildegard_Blanda14@gmail.com",
+        "name": "Anita Green",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 388,
+        "flat": 1845,
+        "phone": "+3728472568",
+        "createdOn": "2025-12-05T14:52:13.000Z",
+        "notes": "hLXbJwQxZQo8t7xPIbskvkLmrE3ARNE7tw4icyUwXaOoBA6IWvMNQNs8W098uBWc5VDPbFpTTDmosV7m0ZUSAO6I1N4f1spSeUl9c5x1zByJK8McMAYuranGntZuHHMk23HnL3pIDApPXTZujT61AHgLMSOLMLFFtDhBP8NDE9ywM4TkSmp8sPNyfaycIQJqaSwNDreal7ZpL8SSCJJhJLAWlB36lGoqR7a2vazAltds6bDAz6QEbrHG4C"
+      },
+      {
+        "_id": "6932d6281c508c5d5e976fb0",
+        "email": "Lula32@yahoo.com",
+        "name": "Elody Elissa",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 186,
+        "flat": 4401,
+        "phone": "+1481001972",
+        "createdOn": "2025-12-05T12:55:04.000Z",
+        "notes": "LlxfS8x8lAZSbautmzMkWCLtxohO52MEOSbOCHQdAZANQcatpkmMv35O2frDVQJnHjwGTune4EJe6ayXbJnHYwL4MSvmTAearjr8Gt26h5ekEqNMgMt4yt1ta1ZQjS7iL3eoEcK52DzJV60ybgZF9gvteprZxgKR250h0IsZGb5kevtbNuSXxnhqwLMdOGH8NrJlh8vyboMZkIZfl66YlGwgNJOyLZq9GzHHiCMbYQG44KeDciPrQ2yENK"
+      },
+      {
+        "_id": "6932cf6b1c508c5d5e974067",
+        "email": "Matteo_Larson75@gmail.com",
+        "name": "Jaylin Laila",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 419,
+        "flat": 8569,
+        "phone": "+2973100528",
+        "createdOn": "2025-12-05T12:26:19.000Z",
+        "notes": "HdA49OXVbUGfUqZDZb9QTJZrvuIQghKEP9vHpyETqcflS0xdVXim2pmPv8ggM1ipvBlNpcjGEPBtDMZ6vNd6e7J4EDY7ROcT3z2dtmGFeB2E8iiayEEOslSf3q0jpwApslpFKnDTvrieWiqw2S81bXWAULtQNp5tFWNtvfr2GpcNd8lQL7nxCa1wyNcgtPGcIN6qNiKJjlgFlQNznoZgFgp8K9CUMOlXI6kWmScAEkhrubLqQ946O3CAjV"
+      },
+      {
+        "_id": "6932cd911c508c5d5e972be6",
+        "email": "Tierra93@hotmail.com",
+        "name": "Susana Keara",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 166,
+        "flat": 3089,
+        "phone": "+7160901675",
+        "createdOn": "2025-12-05T12:18:25.000Z",
+        "notes": "1grgUpBcBkjMH1WqqqWld7Dz3YszdLVRy6jFsusimW8ID552a254uZVDqbXR6M7nME7UNqlQOonp0THU6FynM5KOcDAVOAPCysDp7MYeogGwJuRYrwSXFLCUDhvGS5N468SlaNMd4UWV76ZSQSRGxiVmISM1WRz50ZxBpfpyV6nfpgAwEVCxRpI2Uz7HXLLcQbXNdmQ9kD5VPIoGRjRMMKEQWXOEKqTuU627ykRgGitdHTsKJPdIxtuo4H"
+      }
+    ],
+    "total": 112,
+    "page": 1,
+    "limit": 10,
+    "search": "USA",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
