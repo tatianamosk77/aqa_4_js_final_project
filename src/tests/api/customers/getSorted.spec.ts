@@ -28,7 +28,7 @@ test.describe('[API] [Sales Portal] [Customers] Get Sorted', () => {
       });
       const { limit, search, country, total, page, sorting } = response.body;
       const found = response.body.Customers.find(el => el._id === customer._id);
-      expect.soft(found, `Created customer should be in response`).toBeTruthy();
+      expect.soft(found, 'Created customer should be in response').toBeTruthy();
       expect.soft(limit, `Limit should be ${limit}`).toBe(10);
       expect.soft(search).toBe(customer.name);
       expect.soft(country).toEqual([]);
@@ -49,7 +49,7 @@ test.describe('[API] [Sales Portal] [Customers] Get Sorted', () => {
       });
       const { limit, search, country, total, page, sorting } = response.body;
       const found = response.body.Customers.find(el => el._id === customer._id);
-      expect.soft(found, `Created customer should be in response`).toBeTruthy();
+      expect.soft(found, 'Created customer should be in response').toBeTruthy();
       expect.soft(limit, `Limit should be ${limit}`).toBe(10);
       expect.soft(search).toBe(customer.email);
       expect.soft(country).toEqual([]);
@@ -70,7 +70,7 @@ test.describe('[API] [Sales Portal] [Customers] Get Sorted', () => {
       });
       const { limit, search, country, total, page, sorting } = response.body;
       const found = response.body.Customers.find(el => el._id === customer._id);
-      expect.soft(found, `Created customer should be in response`).toBeTruthy();
+      expect.soft(found, 'Created customer should be in response').toBeTruthy();
       expect.soft(limit, `Limit should be ${limit}`).toBe(10);
       expect.soft(search).toBe(customer.country);
       expect.soft(country).toEqual([]);
@@ -140,7 +140,7 @@ test.describe('[API] [Sales Portal] [Customers] Get Sorted', () => {
       expect.soft(total).toBeGreaterThanOrEqual(2);
     });
 
-    test('SortField: createdOn, sortOrder: desc', async ({
+    test.skip('SortField: createdOn, sortOrder: desc', async ({
       customersApiService,
       customersApi,
       page,

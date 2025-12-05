@@ -17,6 +17,7 @@ export default [
     plugins: { prettier: prettierPlugin },
     rules: {
       "prettier/prettier": ["error", { endOfLine: "auto", printWidth: 120, singleQuote: false }],
+      quotes: ["error", "double", { avoidEscape: true }],
       eqeqeq: "error",
       "@typescript-eslint/no-explicit-any": "off",
     },

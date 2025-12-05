@@ -28,7 +28,7 @@ test.describe('[API] [Sales Portal] [Customers]', () => {
 
       console.log('Generated mock data:', JSON.stringify(mockOrdersResponse, null, 2));
 
-      validateJsonSchema(mockOrdersResponse, customerOrdersSchema);
+      validateJsonSchema(customerOrdersSchema, mockOrdersResponse);
 
       expect(mockOrdersResponse.Orders).toHaveLength(3);
       expect(mockOrdersResponse.IsSuccess).toBe(true);

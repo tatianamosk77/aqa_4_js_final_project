@@ -2,8 +2,7 @@ import { faker } from "@faker-js/faker";
 import { IProduct, IProductFromResponse } from "data/types/product.types";
 import { getRandomEnumValue } from "utils/enum.utils";
 import { MANUFACTURERS } from "./manufacturers";
-import { ObjectId } from 'mongodb';
-
+import { ObjectId } from "mongodb";
 
 export function generateProductData(params?: Partial<IProduct>): IProduct {
   return {

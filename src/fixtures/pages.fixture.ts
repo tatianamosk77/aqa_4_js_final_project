@@ -33,7 +33,7 @@ export interface IPages {
   addNewProductUIService: AddNewProductUIService;
   addNewCustomerUIService: AddNewCustomerUIService;
   loginUIService: LoginUIService;
-  editUIService: EditProductUIService
+  editUIService: EditProductUIService;
 }
 
 export const test = base.extend<IPages>({
@@ -82,6 +82,5 @@ export const test = base.extend<IPages>({
   editUIService: async ({ page }, use) => {
     await use(new EditProductUIService(page));
   },
-
 });
 export { expect };

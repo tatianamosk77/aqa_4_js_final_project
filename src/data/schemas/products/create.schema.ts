@@ -8,4 +8,5 @@ export const createProductSchema = {
     ...obligatoryFieldsSchema,
   },
   required: ["Product", ...obligatoryRequredFields],
-};
+  additionalProperties: false,
+} as const;

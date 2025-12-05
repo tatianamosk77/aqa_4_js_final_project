@@ -16,7 +16,7 @@ export interface IApi {
   //services
   productsApiService: ProductsApiService;
   loginApiService: LoginService;
-  customersApiService: CustomersApiService
+  customersApiService: CustomersApiService;
 }
 
 const test = base.extend<IApi>({

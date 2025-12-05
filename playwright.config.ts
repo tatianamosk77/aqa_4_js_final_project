@@ -83,11 +83,10 @@ export default defineConfig({
       },
       testDir: "src/tests/ui/integration",
     },
-    {
-      name: "chromium",
-      use: { ...devices["Desktop Chrome"], headless: true },
-    },
-
+    // {
+    //   name: "chromium",
+    //   use: { ...devices["Desktop Chrome"], headless: true },
+    // },
     // {
     //   name: "firefox",
     //   use: { ...devices["Desktop Firefox"] },

@@ -12,8 +12,9 @@ export const errorSchema = {
   properties: {
     ...obligatoryFieldsSchema,
     SchemaErrors: {
-      type: "object",
+      oneOf: [{ type: "object" }, { type: "array" }, { type: "null" }],
     },
   },
   required: [...obligatoryRequredFields],
+  additionalProperties: false,
 };

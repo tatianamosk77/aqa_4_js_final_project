@@ -17,14 +17,13 @@ test.describe("[Sales Portal] [Products]", async () => {
       tag: [TAGS.SMOKE, TAGS.REGRESSION, TAGS.PRODUCTS],
     },
     async ({ addNewProductUIService, productsListPage }) => {
-
       await addNewProductUIService.open();
       const createdProduct = await addNewProductUIService.create();
       id = createdProduct._id;
       token = await productsListPage.getAuthToken();
       await expect(productsListPage.toastMessage).toContainText(NOTIFICATIONS.PRODUCT_CREATED);
       await expect(productsListPage.tableRowByName(createdProduct.name)).toBeVisible();
-    },
+    }
   );
 
   test.afterEach(async ({ productsApiService }) => {
@@ -55,7 +54,7 @@ test.describe("[Sales Portal] [Products]", async () => {
       await productsListPage.waitForOpened();
       await expect(productsListPage.toastMessage).toContainText(NOTIFICATIONS.PRODUCT_CREATED);
       await expect(productsListPage.tableRowByName(productData.name)).toBeVisible();
-    },
+    }
   );
 
   test.skip("Add new product OLD", async ({ page }) => {

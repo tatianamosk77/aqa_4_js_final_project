@@ -4,9 +4,8 @@ import { IRequestOptions } from "data/types/core.types";
 import { ICredentials, ILoginResponse } from "data/types/credentials.types";
 import { logStep } from "utils/report/logStep.utils";
 
-
 export class LoginApi {
-  constructor(private apiClient: IApiClient) { }
+  constructor(private apiClient: IApiClient) {}
 
   @logStep("POST /api/login")
   async login(credentials: ICredentials) {
