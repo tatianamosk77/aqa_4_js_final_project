@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 15:43:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-KJHLAk9ZBkbfTlbhY0NHJqAT61Y\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Thelma.Wuckert@gmail.com",
+      "name": "Tobin Chet",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 480,
+      "flat": 1,
+      "phone": "+3214374911",
+      "createdOn": "2025-12-05T15:43:14.000Z",
+      "notes": "R4GDd1bVpt2rzLeM69thdbHCv1T4RswBsZHz8voMJbKzZDwDR9M2iR8c5X0iUzr6pUpAuySrGcf3cFjgwJ0g2r7bvZB6wbxggEHjM8sM8oO9LcWQWXGZE9MpGzdNyp026Qf4OxKrT6OCIE7ZrqsBP6HWrNRINYAg418KlxDhDZOwSlqMXzmgqv0ha7Zb6M05FYhClC3UzWe6WvpQ1C6u93DnV91QfVIy4fNIm5rKTx1CBswzClqoLZBaWw",
+      "_id": "6932fd921c508c5d5e97d8b1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

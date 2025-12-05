@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 15:43:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "675",
+    "etag": "W/\"2a3-IdDoJ4HEbv/uUnnsAZ4gKfL6l/k\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "6932fd961c508c5d5e97d9d5",
+        "email": "Keanu10@hotmail.com",
+        "name": "Kristy Davion",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 936,
+        "flat": 3959,
+        "phone": "+9093046093",
+        "createdOn": "2025-12-05T15:43:18.000Z",
+        "notes": "K3zuIt4oqlsDux2nw3POMVF3h29SwdZwQdfOBSiDge7x1XRAzNbfyLFKokYZe0QZTJbanaiwkQZxj5otm6EvXqNsIon2ytHGEVeBy4XMC6mNfNwJ4tgErAGTkjw6Yc3vGD8JjRio1pEzvZEQkJIvJ834T5RCKgBmKkTdyXPNmqvr3mWQNw7EbNQqRPc0eYhVQ3fHznhNv4WZU2zVk2aTi4cNlKZ7xH6JGsR2IrR9GX6WGBkYwgEba3LUtZ"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Kristy Davion",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

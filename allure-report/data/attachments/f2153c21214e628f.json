@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 15:43:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "84",
+    "etag": "W/\"54-d+4jQl3k0J+O/mhJ6xFkJzqWgsI\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "IsSuccess": false,
+    "ErrorMessage": "Product with name 'Chicken48328' already exists"
+  }
+}
