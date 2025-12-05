@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 14:16:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-+k+flEuaKA9MDRrwr1yP8aqCajM\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Xavier.Stoltenberg74@gmail.com",
+      "name": "Lenny Daphnee",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 508,
+      "flat": 3374,
+      "phone": "+3767986624",
+      "createdOn": "2025-12-05T14:16:23.000Z",
+      "notes": "cLmS1F7EdU5tlKkwP6Wna6HXjz9bkfmhtvvvrHpucotIWvkFlyJyqzFOdy7VyuS23CnpQ5d31OykSintOzoy3hsCeFKL2ovcI5POeFKmEMZ888Ulhdd6fM3QD4mZBIicTqC9lwhfy6duPTXOuj0M2vF3nT4EZNmxLUxHPV033iYiFCwxMuo6HuJWYW2K42O7GpEHawQmoOPzbSaDQjrqExYqX0QvyvawBS774dTsucSFpZgQ2m2hx0yf1k",
+      "_id": "6932e9371c508c5d5e97ad5c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

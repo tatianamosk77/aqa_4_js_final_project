@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 14:16:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "552",
+    "etag": "W/\"228-UWKCAXCwukI5wwWcWK6ZJuC5u+w\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Emile.Rosenbaum@hotmail.com",
+      "name": "Gerhard Ursula",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 420,
+      "flat": 2956,
+      "phone": "+3723910747",
+      "createdOn": "2025-12-05T14:16:24.000Z",
+      "notes": "ra23ys0EIrldkV82jE4coDQ7MJ1vxqteeb4PLuF4cLqmAlLxpekctjkOmsmRuXkkMIO61LIcbBlkNIdvWLGXK5gObZeAy3YL3Jz0CbLicSfwQJ7xXI6jzUz8mo03PLljPVlW37iuttO48bDnG832nShxLIKQ1dSquoprOvHHrvgTLef3I5Wuk0oIQBpQIHoxAUU2ILmJU5AyWFr89jC9czZMAlUqodlhTsTEzd1rcemDGMOmO3oC5jiNvg",
+      "_id": "6932e9381c508c5d5e97adac"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
