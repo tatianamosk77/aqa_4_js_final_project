@@ -9,11 +9,21 @@ on:
   workflow_dispatch: # Manually trigger the workflow
 
 jobs:
-  test:
-    if: github.event.issue.pull_request != null && contains(github.event.comment.body, 'run-tests')
+  test: 
     timeout-minutes: 60
     runs-on: ubuntu-latest
     steps:
+      - name: Check trigger for PR comment
+        if: github.event_name == 'issue_comment'
+        run: |
+          if [[ "$GITHUB_EVENT_PATH" ]]; then
+            COMMENT=$(jq -r .comment.body < "$GITHUB_EVENT_PATH")
+            if [[ "$COMMENT" != "run-tests" ]]; then
+              echo "Комментарий не /run-tests, пропускаем workflow"
+              exit 0
+            fi
+          fi
+    
       # Checkout
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
