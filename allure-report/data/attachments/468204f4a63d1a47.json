@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 22:15:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-N4L2Sl27SoLLRlzIbHP6OeFH/8M\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Nikolas_Kilback12@gmail.com",
+      "name": "Jaron Ariane",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 211,
+      "flat": 9999,
+      "phone": "+0460965902",
+      "createdOn": "2025-12-05T22:15:06.000Z",
+      "notes": "6rDlTKJOP3H8nyYtRzXjwDmkF3ja3lfj2DiOjvisvCYRHlbQXbE7vW4Zc4oph27gUhXNSoPEVQZCB797esLuBB3c7Qs5C9QHHPlZaDMcrUpAWmQ2DurT8viqcPtaUPtLNyKMdswkno5pNAmVif0yGojOrqUz5MuOOtckjopHZxT6gCJOw7oMrJzHlBvfOu9ZyJxpFqhl7O7O8x7FUEVeR15EaCPeLyXNCMctublrfCCC5SAFxlCySKmc0D",
+      "_id": "6933596a1c508c5d5e98d30d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

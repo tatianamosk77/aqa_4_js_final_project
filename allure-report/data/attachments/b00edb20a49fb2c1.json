@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 22:15:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "539",
+    "etag": "W/\"21b-q2/MdLHytUelv9H5Rw7R0SQeeIc\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Liliane20@gmail.com",
+      "name": "Saul Mayra",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 889,
+      "flat": 717,
+      "phone": "+0993282208",
+      "createdOn": "2025-12-05T22:15:06.000Z",
+      "notes": "dV9cz3ThmXochGhCAIFqTO60Hn9tOdPgVqkqrv05ZZbW9mOm73LzHVTlHfz8I9EQf1FuW9WCyW1LnR6rOx5PeJ8kpma7ZIP5P8CdchbrTihThvNCRpu5sDdQfq01EITq0iFODFAtWrTRvr3CKhq5HQTJONJcyUZCzHn1s4OBABSpzvkv7PnpdbGbEKIEd1ZC7vszw4Yqy2wh1Tl2xaKhO0qx8LbOXVlbp9oI4G5o3ZiMLpyycW7FNgHCNA",
+      "_id": "6933596a1c508c5d5e98d2cf"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

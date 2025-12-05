@@ -1,0 +1,109 @@
+Generated mock data: {
+  "Orders": [
+    {
+      "_id": "3e7b61e707f096bf02a2794e",
+      "status": "Draft",
+      "customer": "19308a48c1b03ca52a43f6a8",
+      "products": [
+        {
+          "_id": "2e1bb6ccc5f6c6b4eb7f00a3",
+          "name": "Incredible Marble Table",
+          "amount": 55,
+          "price": 625,
+          "manufacturer": "Grady, Ziemann and Becker",
+          "notes": "Sopor comptus templum toties abundans quam.",
+          "received": false
+        },
+        {
+          "_id": "4d01ba831eb32e3dcde2e324",
+          "name": "Ergonomic Rubber Pants",
+          "amount": 77,
+          "price": 378,
+          "manufacturer": "Grant, Nikolaus and Weber",
+          "notes": "Suggero vacuus nam xiphias arbustum.",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 63481,
+      "createdOn": "2025-12-05T12:10:50.525Z",
+      "comments": [],
+      "history": [],
+      "assignedManager": null
+    },
+    {
+      "_id": "47fc1ee52b5fa90d15ed94d8",
+      "status": "Draft",
+      "customer": "19308a48c1b03ca52a43f6a8",
+      "products": [
+        {
+          "_id": "8db2dc0babb02bef3f7ee8ea",
+          "name": "Awesome Cotton Fish",
+          "amount": 44,
+          "price": 312,
+          "manufacturer": "Wolff LLC",
+          "notes": "Vox subiungo vigor abstergo accedo aspernatur ustulo.",
+          "received": true
+        }
+      ],
+      "delivery": null,
+      "total_price": 13728,
+      "createdOn": "2025-12-05T04:39:13.572Z",
+      "comments": [],
+      "history": [],
+      "assignedManager": null
+    },
+    {
+      "_id": "1924b60dda5d9d502b2a2a49",
+      "status": "Draft",
+      "customer": "19308a48c1b03ca52a43f6a8",
+      "products": [
+        {
+          "_id": "1eafc8afcbb95ac4bbc0f36e",
+          "name": "Oriental Marble Ball",
+          "amount": 58,
+          "price": 739,
+          "manufacturer": "Jacobi, Glover and Bahringer",
+          "notes": "Tamisium contigo aggero.",
+          "received": false
+        },
+        {
+          "_id": "0dde938e2b3067b9d0d6e63f",
+          "name": "Fresh Silk Pants",
+          "amount": 13,
+          "price": 974,
+          "manufacturer": "Schultz, Fadel and Daugherty",
+          "notes": "Custodia officia culpo vivo aeger odit deripio acer adfectus.",
+          "received": false
+        },
+        {
+          "_id": "ade3f3582ee7cc1fccbaf3cf",
+          "name": "Recycled Metal Sausages",
+          "amount": 54,
+          "price": 507,
+          "manufacturer": "Collier - Gusikowski",
+          "notes": "Curriculum sustineo creptio texo curso decretum velut aeneus ait.",
+          "received": true
+        },
+        {
+          "_id": "bcce5a5cb591e7adb9fa8fac",
+          "name": "Electronic Concrete Sausages",
+          "amount": 39,
+          "price": 773,
+          "manufacturer": "Ernser, Conn and Cassin",
+          "notes": "Curto validus xiphias voveo.",
+          "received": true
+        }
+      ],
+      "delivery": null,
+      "total_price": 113049,
+      "createdOn": "2025-12-04T23:28:46.350Z",
+      "comments": [],
+      "history": [],
+      "assignedManager": null
+    }
+  ],
+  "IsSuccess": true,
+  "ErrorMessage": null
+}
+Data is valid according to the schema.

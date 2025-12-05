@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 22:15:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-PDQX381hLD7nMmdgUr0dcSKgYg0\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Joan7@hotmail.com",
+      "name": "Thalia Ashlynn",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 577,
+      "flat": 7299,
+      "phone": "+4630462362",
+      "createdOn": "2025-12-05T22:15:11.000Z",
+      "notes": "ofLlClIFGMOdTlilKzL8xq8rOOSPCjTFTMvNCHStVl9uvQtuiyExG0WqQifhFqVvQ9JLM6tAePWcpoaoW7UUhv9ziLbqclvtptE6vsk1F9n8GSknseVOjpYlFMdHOmAJXxBV2wKdUdh6jjutzxbufLpH17sfCT8S95v8EUPK5Oi8bngFRUO4KVP5qflfx7HGdqdpSZs6wPnGGDnyb42R4UIriX5E4Kf2a32XskULzQkFWu90qQsZhyMqAS",
+      "_id": "6933596f1c508c5d5e98d493"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
