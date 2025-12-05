@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 15:47:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "203",
+    "etag": "W/\"cb-flIGebIDxJvoblXBOI8/t42JLlc\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Mouse99412",
+      "amount": 132,
+      "price": 67503,
+      "manufacturer": "Apple",
+      "createdOn": "2025-12-05T15:47:32.000Z",
+      "notes": "",
+      "_id": "6932fe941c508c5d5e97e45e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

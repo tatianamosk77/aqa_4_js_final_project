@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 15:47:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-acpVTps6Fty9tXqHXQI3v6ybmpo\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Logan1@gmail.com",
+      "name": "Test Customer",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 41,
+      "flat": 2979,
+      "phone": "+7024612842",
+      "createdOn": "2025-12-05T15:47:20.000Z",
+      "notes": "lNKs5zUqweikpW3gqbLgHehGGQ3R6lttrS2G5LXmXRrn9UuQ6Wlokg548NJz9CW7NdmDNc5LPFmOGinCXor02bDI52A4NrFO2HeubTRqSBQQk92B7G2kiaH8ET5BhzmQm5OWCpc82YfLAio3llCc6C2FEROE42lfWHymeYs1CdYXaxVK0xXdrmYPF0cG3I3T1v2fxDEvMd1ZVe6kNMtwHaiPmy9rVfv2nurTkDnQTIUoQPEc3C0ATE380f",
+      "_id": "6932fe881c508c5d5e97e038"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

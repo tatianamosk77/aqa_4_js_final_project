@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 15:47:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-tfQbjGUPmirk2DDyQEd/ZoZWOvE\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Lois_Lemke@yahoo.com",
+      "name": "Rosemary Elmer",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 807,
+      "flat": 1,
+      "phone": "+0059532486",
+      "createdOn": "2025-12-05T15:47:21.000Z",
+      "notes": "CsVPoQ7DP8pOXFc4073SQq56cV2IQ4mhzWeC8xG3UHP0Kx4i1DO7EQlSVXnbEE6UeqLkjN1OQnjS47us4GW1kQJ7YWW1jBS8JalHhFv2cZ1c4sp0izrOMwc1ZoB8ZpakOVGNvtUd1RaV5O2n1KUTJ5vAIKaNTRCVOCXSkETs3MVEs17WDGy7xJClydfeOIklCTgvRtAYrWz3f40tjgz5L0DTwYBr20YZPrVuPFsGw26ofMkOLUglzjGmmt",
+      "_id": "6932fe891c508c5d5e97e0a4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
