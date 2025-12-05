@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 14:52:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "555",
+    "etag": "W/\"22b-FuTUiLsy1T1Qi3461B3Sv0zPs/g\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ted.Fadel@hotmail.com",
+      "name": "Bridget Henriette",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 381,
+      "flat": 4842,
+      "phone": "+0830988703",
+      "createdOn": "2025-12-05T14:52:13.000Z",
+      "notes": "wRHZ9HVBlTNjiKbJvDXlNlttzFJ7QPUwmHSzAESU73A4nVRhjA56zWYZaLXEhGqWBVqFZSFResjGZWJddGxVdPAHsLlsbo8Llg5tkTvslWjklCfxebrjfdlmWJooejeZQ0VzriarES6ab6tggIa3k4tOk6nwbSBMitHsiqjDPpX0X1tW2Q7YNcf4vJmXgMgo1L7q8iXyOOmvfqUQHblyFjss1slroCJfF83eEwaXmxhya1PCP5LA3FxcYG",
+      "_id": "6932f19d1c508c5d5e97b588"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

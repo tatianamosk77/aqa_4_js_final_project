@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 14:52:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "674",
+    "etag": "W/\"2a2-hv6T4E5OGpsSQoZiUl2g0TJaXWU\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "6932f19d1c508c5d5e97b53e",
+        "email": "Romaine_Reichel33@gmail.com",
+        "name": "Emmie Winona",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 320,
+        "flat": 3196,
+        "phone": "+5763799074",
+        "createdOn": "2025-12-05T14:52:13.000Z",
+        "notes": "QFP2XS3tlvKc0bhfAe7JvzGKghP0kfx0d2Bjm0Bjj77RUqMvQDG6gJ4jMT7R9o5nM0BF4ypBErTcUobxuZC4gmd1qeuWhHYyafYY7c2Vuwu0vjdZJd8Ff0RmER49PgALo2NzdxLnj6DQTwe0dbQQeBAsWMDsIhoYSH38R4VtdlFEmBBW8iimOqIv7x4hsxuR4BpV73yXTnO354CgtTHL6QQxKfvpMkFbxTHty39aNAOUzcQOFDm6qRQNNM"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Emmie Winona",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

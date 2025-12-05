@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 14:52:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "97",
+    "etag": "W/\"61-gKPR6gzjalrIO/viJcDGJW8z+V8\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "IsSuccess": false,
+    "ErrorMessage": "Customer with email 'Chloe.Gerhold@yahoo.com' already exists"
+  }
+}

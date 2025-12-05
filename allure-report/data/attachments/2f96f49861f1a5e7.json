@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 14:52:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "193",
+    "etag": "W/\"c1-YS+SRBvcgsXlKvMGkbfQpvxpWpM\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Bike21438",
+      "amount": 772,
+      "price": 16273,
+      "manufacturer": "Samsung",
+      "createdOn": "2025-12-05T14:52:19.000Z",
+      "_id": "6932f1a31c508c5d5e97b77f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

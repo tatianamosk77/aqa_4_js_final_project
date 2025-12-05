@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 14:52:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-IkycKM/n0Yaf+GBW2X6f30lSf7Y\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jordi43@yahoo.com",
+      "name": "Trisha Bernice",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 869,
+      "flat": 6794,
+      "phone": "+2450451534",
+      "createdOn": "2025-12-05T14:52:12.000Z",
+      "notes": "sVcvDepsYnAREEj8g7vccTUmioIynkLBfkWIxcTJYMqMpZZ8URtHx0TZIrPInmNPmrzBAI7zXVGwybeHzBjEAxwxFRycEwBLuIFb26a4OylEKByreYwbwN49zT17Q34Mptz09KUIrPCsdYZkFsdNdhXxMHASvDPEz20UPpjKD9w5b9OHuDD7Gh4lUVCGGD8eNdoRODgH0TQ0vqQYUAalbk1EDBfOjHnWkw0ZvOv5L4FRP0mX21a448XoIY",
+      "_id": "6932f19c1c508c5d5e97b529"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

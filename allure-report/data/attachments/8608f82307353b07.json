@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 14:52:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "201",
+    "etag": "W/\"c9-J5nrUmWbDDHVs38cOMkUcvvarTY\"",
+    "keep-alive": "timeout=5, max=68",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Tuna80433",
+      "amount": 533,
+      "price": 48171,
+      "manufacturer": "Sony",
+      "createdOn": "2025-12-05T14:52:20.000Z",
+      "notes": "",
+      "_id": "6932f1a41c508c5d5e97b7db"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

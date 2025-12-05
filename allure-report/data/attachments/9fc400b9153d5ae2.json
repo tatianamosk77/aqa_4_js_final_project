@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 14:52:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-DNIHg0hbKOQi7A9LSz2+G+nQL4A\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Arnoldo_Hickle@gmail.com",
+      "name": "Test Customer",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 486,
+      "flat": 2801,
+      "phone": "+6240047466",
+      "createdOn": "2025-12-05T14:52:08.000Z",
+      "notes": "i42ZKN2nHfDJxg9IkaDHTpaBP22PilBGUYDXjUpVqvVhlM5PV5T0jrHGQpx2zAP4jaGNChpt5rPWzFaXwz8bvO8eirgbdR9LxNCEEpPVoNh7bE2NTVwoyMKi1CuhoXmS09bS5fWB1leRtqI7snMzQy69DmP7VbJN9f4qw2ECNOZqCIDQUqYxGCVmOa5VCnLiLnxn7vnLUygU0v7RS2mqk3S0awsS1CSGHH4f98nxlOxYKWmndIMTxE2dKn",
+      "_id": "6932f1981c508c5d5e97b3f2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
