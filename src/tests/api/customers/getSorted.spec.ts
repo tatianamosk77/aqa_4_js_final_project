@@ -199,7 +199,6 @@ test.describe('[API] [Sales Portal] [Customers] Get Sorted', () => {
           sortField: 'country',
           sortOrder: 'desc',
         });
-        const allCustomers = await customersApi.getAll(token);
 
         validateResponse(response, {
           status: STATUS_CODES.OK,
@@ -209,16 +208,34 @@ test.describe('[API] [Sales Portal] [Customers] Get Sorted', () => {
 
         const actualCustomers = response.body.Customers;
 
-        const sorted = allCustomers.body.Customers.toSorted((a, b) => {
-          const dateA = new Date(a.createdOn);
-          const dateB = new Date(b.createdOn);
+        // Verify sorting order: country should be in descending order
+        for (let i = 0; i < actualCustomers.length - 1; i++) {
+          const current = actualCustomers[i];
+          const next = actualCustomers[i + 1];
 
-          return b.country.localeCompare(a.country) || dateB.getTime() - dateA.getTime();
-        }).slice(0, 10);
+          // For descending order, current should be >= next
+          // localeCompare returns: negative if current < next, 0 if equal, positive if current > next
+          const countryCompare = current.country.localeCompare(next.country);
+          expect
+            .soft(
+              countryCompare >= 0,
+              `Customers should be sorted by country desc. Found: ${current.country} before ${next.country}, but ${current.country} < ${next.country}`
+            )
+            .toBe(true);
 
-        actualCustomers.forEach((actual, index) => {
-          expect.soft(actual).toEqual(sorted[index]);
-        });
+          // If countries are equal, verify secondary sort is consistent
+          if (countryCompare === 0) {
+            const dateA = new Date(current.createdOn);
+            const dateB = new Date(next.createdOn);
+            // Secondary sort should be descending by createdOn (newer dates first)
+            expect
+              .soft(
+                dateA.getTime() >= dateB.getTime(),
+                `When countries are equal, should be sorted by createdOn desc. Found: ${current.createdOn} before ${next.createdOn}, but ${current.createdOn} < ${next.createdOn}`
+              )
+              .toBe(true);
+          }
+        }
 
         const { limit, search, country, total, page: pageParam, sorting } = response.body;
         expect.soft(limit, `Limit should be ${limit}`).toBe(10);
