@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 15:07:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "530",
+    "etag": "W/\"212-wrstHTFICVaE/6Rf2vstV5VTohk\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jake8@gmail.com",
+      "name": "Narciso Alec",
+      "country": "France",
+      "city": "D",
+      "street": "testStreet",
+      "house": 922,
+      "flat": 4630,
+      "phone": "+9869456375",
+      "createdOn": "2025-12-05T15:07:01.000Z",
+      "notes": "63FCHxBP7WUBDUd4S5V5SyEm5yNk3v5IHlayMwVS3djumvtbgvxGYVszTfaeZw7sCUlrDFzubE4x1mqmSyQAw4sYZMgKmok9yvCexwCsl8g4l2xr3e4mvWQGtkJrFgaqvhjVYuQq4Y5KHgyUENLLnXlfWLIDRWuqJnGeLWySPWeb5sjNQKIjtzrfUb77UoNMbtCikCpPZiv29ALPJnlEkwhOk2MxtEfKOZNNnSXdJjGWlFDIAoGZ0EmJrS",
+      "_id": "6932f5151c508c5d5e97bc1d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

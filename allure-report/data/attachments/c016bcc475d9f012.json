@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 15:07:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-yVRLhHsktZJgQVfg+nFQXFsvEDE\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Sheldon_Purdy@yahoo.com",
+      "name": "Test Customer",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 775,
+      "flat": 49,
+      "phone": "+6976566048",
+      "createdOn": "2025-12-05T15:07:01.000Z",
+      "notes": "mbnyabrTA7HYJRlUeaV8p95XtObnR7sU76AB2yoiWOEZR1VzgJ6xI43XmvK5c8Prs5ThdDLio953C35CnY8IsD4BfrqEZdfRaha94jEvpX0dyGX256yMopPcTuQ42TrTvLO4z6WaWAr6doFnkD1xouOW0CgnxOBxbgbYf5D8jM8P0mbb6fqQ9CEpA8rSAg19MNcAZG5gRJPYjowcAagjFWIOrdbtiDpRfW7WGIgJnhBhZPCn4yxnk0jM4n",
+      "_id": "6932f5151c508c5d5e97bbf6"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

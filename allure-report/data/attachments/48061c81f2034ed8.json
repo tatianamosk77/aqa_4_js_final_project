@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 15:07:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "204",
+    "etag": "W/\"cc-2Wu0/Sx0aYQQYiq9aVgqh/mn0js\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Keyboard10112",
+      "amount": 490,
+      "price": 7944,
+      "manufacturer": "Sony",
+      "createdOn": "2025-12-05T15:07:13.000Z",
+      "notes": "",
+      "_id": "6932f5211c508c5d5e97bfd1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

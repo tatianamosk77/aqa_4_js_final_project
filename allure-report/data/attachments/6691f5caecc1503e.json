@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 15:07:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "535",
+    "etag": "W/\"217-8G/EqbCisH4IuFj0wQ7fwAMZ9go\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Tony96@gmail.com",
+      "name": "Brice Cecile",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 8,
+      "flat": 279,
+      "phone": "+8978804880",
+      "createdOn": "2025-12-05T15:07:02.000Z",
+      "notes": "7JCTjTwjqwGiuxBgC62j3p2imNX7CfaWuFhv1qgPxfKgCzXEtk9vwnnviOHh8MWkDvTZwM4tXSZGrrhaDHaAZqWuLQob3wAsJq3XCOIyiNMrQDEeI8AfDEOiEbRtvhSi0a2pp4Jbn00aPuULt57g5G5uWLSKvwxft6yptW0EBXQIymBKxBorRSe0WKdd2QoGjLguYP0mb3t2lMmdRnDDcK8z2B67XwMLKjoBTJY0VWWxwBRQjMcuPNTldQ",
+      "_id": "6932f5161c508c5d5e97bc2a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

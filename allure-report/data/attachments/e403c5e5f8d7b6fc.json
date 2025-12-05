@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 15:07:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-OlKnYMeRQApiRb/2+vv+HTelHXQ\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Stephan.Witting@yahoo.com",
+      "name": "Isaac Blaise",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 56,
+      "flat": 881,
+      "phone": "+2984266377",
+      "createdOn": "2025-12-05T15:07:13.000Z",
+      "notes": "haggcIX6GXoq1EGQKq4Cl0kLg5uLV499po13PVYqgaGy6eIcSRptBYfIgLqVo2gwylZGvV3iBqPe6ZCZzWCBeSMoot8YaD4CFwOkKlsbzOCnYKbMo7COfXKAxnUWSEFE8SBGzsvK1q9U36ce02iugS1QVO2qCybgS97hrB0X52abIZf1jzm5ixbzxshdsr0HuqSujkiPmI27TK0zrTOvSDSwkCluirgB2jQsczfye8IUxfAhHYmP65wae6",
+      "_id": "6932f5211c508c5d5e97bfc5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

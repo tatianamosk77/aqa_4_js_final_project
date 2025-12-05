@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 15:07:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "536",
+    "etag": "W/\"218-59bJ66t3lEgP8NZNuNemusGkess\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Johan71@gmail.com",
+      "name": "Karl Dell",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 579,
+      "flat": 3295,
+      "phone": "+6689683346",
+      "createdOn": "2025-12-05T15:07:06.000Z",
+      "notes": "rbKREch1oMXDVK3E8Tty9VD3amMbrscHxAJGEA6hqVS7VF78FqgxIaVk41GY2BX0EJNRJMiMczMZSwaZE88rGaVWxczfXwZf5ShgrbFXFYPATsgkwYL7595WPKk7R8EcSEbSb0Gap6SylaWT55t9p5aqWwL7pe55NV9hjEa8znt56hrpeuoJ5vZ0WubSP8iu4BURYUEAxGg31GE6nvJH3eGAa5OK1W8FSn6Lst6qterEwRN0C8SVupHxWv",
+      "_id": "6932f51a1c508c5d5e97bd61"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
