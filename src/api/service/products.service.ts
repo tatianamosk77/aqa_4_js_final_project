@@ -5,7 +5,7 @@ import { STATUS_CODES } from "data/statusCodes";
 import { IProduct, IProductFromResponse } from "data/types/product.types";
 import { logStep } from "utils/report/logStep.utils";
 import { validateResponse } from "utils/validation/validateResponse.utils";
-import { oneProductResponseSchema, allProductsResponseSchema } from "data/schemas/products/product.schema";
+import { oneProductResponseSchema, allProductsResponseSchema, baseOnlyResponseSchema } from "data/schemas/products/product.schema";
 
 
 export class ProductsApiService {
@@ -30,9 +30,12 @@ export class ProductsApiService {
   async delete(token: string, id: string) {
     const response = await this.productsApi.delete(id, token);
 
-    validateResponse(response, {
-      status: STATUS_CODES.DELETED,
-    });
+  validateResponse(response, {
+    status: STATUS_CODES.DELETED,
+    IsSuccess: true,
+    ErrorMessage: null,
+    schema: baseOnlyResponseSchema,
+  });
   }
 
   @logStep("Get product by ID via API")

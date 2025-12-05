@@ -45,7 +45,7 @@ export const allProductsResponseSchema = {
 export const productsListSchema = {
   type: "object",
   properties: {
-    Products: {
+    Customers: {
       type: "array",
       items: productSchema,
     },
@@ -59,3 +59,13 @@ export const productsListSchema = {
   },
   required: ["Products", "sorting", "IsSuccess", "ErrorMessage", "total", "page", "limit", "search", "manufacturer"],
 };
+
+export const baseOnlyResponseSchema = {
+  type: "object",
+  properties: {
+    ...baseSchemaPart,
+  },
+  required: ["IsSuccess", "ErrorMessage"],
+  additionalProperties: false,
+} as const;
+
