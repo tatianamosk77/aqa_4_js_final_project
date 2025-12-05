@@ -38,7 +38,7 @@ jobs:
           USER_PASSWORD: ${{ secrets.USER_PASSWORD }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: npm run test:api:regression
+        run: npm run test:api
         continue-on-error:
           true
 
