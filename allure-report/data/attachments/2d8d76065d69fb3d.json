@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 19:55:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-T1Iwt6xjkbzIvOdHkMv9vNNDwEs\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Allan_Green93@gmail.com",
+      "name": "Test Customer",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 346,
+      "flat": 5594,
+      "phone": "+2946618315",
+      "createdOn": "2025-12-05T19:55:07.000Z",
+      "notes": "26cThxRdAqano0Nk2Eg0qJyhF9xrKqKbf5cm1sn7OvzBAMgDAzUkI8iR8EgSbTezmnWZKzf2Flsrw4ApmtXR82YpEp5x6WUseXopplwETWBwIwIONrKgYAZGR6VNs7Bvy6W2LCH4I4vkDO1m8duxiU1lxhvXuWYnggTBzZ3a7VIk2FVVbT2ApTHqUhrrseSwTDbVAYCuuakscozMkN9LSpeP9ptYVxtnJ9Nut6OHO2LVdedYmqVqSeNIyH",
+      "_id": "6933389b1c508c5d5e98c253"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

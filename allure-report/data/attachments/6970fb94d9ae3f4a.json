@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 19:55:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-BSziqZA3EzWojPQ57MZXE9ltrc8\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Mathias.Rodriguez@yahoo.com",
+      "name": "Alaina Kaci",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 325,
+      "flat": 9999,
+      "phone": "+4317439749",
+      "createdOn": "2025-12-05T19:55:09.000Z",
+      "notes": "KW7T31f5LqXWhNfdpp14UFsZJxt2Lax5iyco4SC9WIdScDQsD8s4n46xANtqZvIq18lYlwN511XzPxj2F5DF6ATOG0hV8597ZLRABCEHaVYTAMZnJW7mudRLcxZS0Nrpk2XCCRzRd4nHZ37QMFUIXGCWMo3C7O8QABp2ei9zTOjv64MjRshd7gj58jyY0LjnIDWxriPZqFnL2tuV4aedybY663i4V0fVh077scf3k7QHgEMRAejeUI11ql",
+      "_id": "6933389d1c508c5d5e98c2c9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 19:55:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "675",
+    "etag": "W/\"2a3-PL0gqwb3q9B56MVqRMfajG5dTwA\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "693338a01c508c5d5e98c3d9",
+        "email": "Charlie94@hotmail.com",
+        "name": "Arielle Marcelo",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 963,
+        "flat": 7086,
+        "phone": "+2115230868",
+        "createdOn": "2025-12-05T19:55:12.000Z",
+        "notes": "R47zMG3a27K5pqx1vMIbmWjukVaWOmdHFlp7XHLDKdhVBqkuq1Kxv7kCkg4QXihOQPT8D7gKN8kAnOzTf5pVzwHBx4iFhlty8hPtMBvcdl751yoLOPWNFisDYVSwWhhMQ0Sj3BtHHq7LB6LarLWbtCu6lYeMocTqw3MQnGMFMIHRji9xLGbULSocG3vlrXW8E4Lc4EaDAg7ZtzG96unKicx2rqptAkAtIX67awys56WrYZct7xA3cUpNqR"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Arielle Marcelo",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

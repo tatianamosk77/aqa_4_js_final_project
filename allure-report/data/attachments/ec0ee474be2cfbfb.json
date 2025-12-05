@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 19:55:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "538",
+    "etag": "W/\"21a-yh1k2IzDhHl6v1M3WVEbtaAXeiE\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Douglas86@hotmail.com",
+      "name": "Ellis Sven",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 185,
+      "flat": 9780,
+      "phone": "+4382686233",
+      "createdOn": "2025-12-05T19:55:09.000Z",
+      "notes": "71KedGEG0l4DRRYPNwquVwjEcOX1grwuLKUBHLL9DSqtneSQDc8OVCVLOQdnASe780zFB7qNa51luxvzeWo63zCXXL70A54XxZ67h5Uc66y6ADXzfyC64z0MrfVvS0JbNwoXKaIhyDQGuQuae6kPaJ49616id9iCqtmp8lXLhYrgHm7DdjN8fmBXT62ppgwCWpXHrRIp24NxcXNMaLzAHgsQSQ6r3DP1UECZTwrFZxguoa2R4D75SQurU8",
+      "_id": "6933389d1c508c5d5e98c2e6"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

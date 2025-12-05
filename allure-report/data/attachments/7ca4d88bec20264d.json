@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 19:55:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-GKzChMbjJqzh/RJTF1m9VVoQtvA\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Belle.Abbott@gmail.com",
+      "name": "Benedict Aaron",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 339,
+      "flat": 2278,
+      "phone": "+2380129874",
+      "createdOn": "2025-12-05T19:55:13.000Z",
+      "notes": "F6wvtJAJ1EI5Rckl4rtzokPPkdoI6pHC54PDpZKvD80Ga4xoqkEIDE2mBrUUwsxgvOkyoFYFlWt5AlpJsrJxUGtoFYpXW2rsa1DWeUMrFyVJpSQZmzsumDLRGL3jgg7JizhoxhPacK0taG2mNVFNh9gNn1thKWsS9AIvREydLBQ9TIJGKT1rolXldGyuIwBJAg3ddHQ53EDGajjjrPZdrVE1Zhkb4RWteTAfc3TWs3niTS7Ec5pDa83ziI",
+      "_id": "693338a11c508c5d5e98c40a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

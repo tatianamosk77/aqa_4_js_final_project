@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 19:55:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "291",
+    "etag": "W/\"123-0hqf7OsIHZY9bItFbwtDA146H4A\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Juliet86@yahoo.com",
+      "name": "Lelia Celine",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 854,
+      "flat": 6883,
+      "phone": "+1605537663",
+      "createdOn": "2025-12-05T19:55:09.000Z",
+      "notes": "",
+      "_id": "6933389d1c508c5d5e98c31d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
