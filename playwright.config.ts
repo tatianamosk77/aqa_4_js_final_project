@@ -1,7 +1,7 @@
 import { defineConfig, devices } from "@playwright/test";
-import dotenv from "dotenv";
+import { loadEnv } from "utils/env/loadEnv.utils";
 
-dotenv.config();
+loadEnv();
 
 /**
  * Read environment variables from file.
@@ -15,6 +15,7 @@ dotenv.config();
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
+  globalTeardown: "./src/config/global.teardown",
   testDir: "./src/tests",
   /* Run tests in files in parallel */
   fullyParallel: true,
