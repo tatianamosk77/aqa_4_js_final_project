@@ -152,7 +152,7 @@ test.describe('[API] [Sales Portal] [Customers]', () => {
           house: 999,
           notes:
             'FugGijgp9M7HnljmfGpmqL2A8WqDnxSv0XdGDImYs8poMqJgkaD7rbqv9HyZzPZtGU6JxKOhvg6OvihDqoCdQ6aGZ3ekUg9aIZJYuKkXoAP4qwKAyK9dNj5LZMUjZw0SekIs3apD77gwMC8HBgJu9u1R2870NuDwp8wPrEWag5aFIEKmTeoP7XLRlLDYI7cEo8feLmvO9b2nvjs2LtE0DYUPhMuMrqHunMhbPdwieMw16CSYWisdw9hlRz',
-          phone: `+79570919939992323424`,
+          phone: '+79570919939992323424',
           street: 'Sssssssssssttttttttrrrrrrrrrrreeeetttttt',
         };
         const response = await customersApi.update(
@@ -161,7 +161,7 @@ test.describe('[API] [Sales Portal] [Customers]', () => {
           token
         );
         validateResponse(response, {
-          IsSuccess: false,
+          IsSuccess: true,
           status: STATUS_CODES.OK,
           ErrorMessage: null,
           schema: createCustomerSchema,
@@ -187,7 +187,7 @@ test.describe('[API] [Sales Portal] [Customers]', () => {
           flat: 1,
           house: 1,
           notes: '',
-          phone: `+7957091993`,
+          phone: '+7957091993',
           street: 'S',
         };
         const response = await customersApi.update(
@@ -196,7 +196,7 @@ test.describe('[API] [Sales Portal] [Customers]', () => {
           token
         );
         validateResponse(response, {
-          IsSuccess: false,
+          IsSuccess: true,
           status: STATUS_CODES.OK,
           ErrorMessage: null,
           schema: createCustomerSchema,

@@ -37,7 +37,7 @@ export const createCustomerPositiveCases: ITestCustomerData[] = [
   },
   {
     title: 'Create customer with 1 space in name',
-    customerData: createCustomer({ name: `Test Customer` }),
+    customerData: createCustomer({ name: 'Test Customer' }),
     expectedStatus: STATUS_CODES.CREATED,
   },
   {
@@ -47,7 +47,7 @@ export const createCustomerPositiveCases: ITestCustomerData[] = [
   },
   {
     title: 'Create customer with 1 character length of city',
-    customerData: createCustomer({ city: faker.string.alphanumeric(1) }),
+    customerData: createCustomer({ city: faker.string.alpha(1) }),
     expectedStatus: STATUS_CODES.CREATED,
   },
   {
