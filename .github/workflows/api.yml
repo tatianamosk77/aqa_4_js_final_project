@@ -51,6 +51,10 @@ jobs:
         with:
           name: regression-report
           path: ./allure-report
+      
+      # Проверка, что папка есть
+      - name: Debug directory
+        run: ls -R .
 
       # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
