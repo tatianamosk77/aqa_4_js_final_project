@@ -1,12 +1,7 @@
 name: Run Sales Portal API tests
 on:
-  pull_request:
-    branches:
-      - main
-      
-  push:
-    branches:
-      - main
+  issue_comment:
+    types: [created]
 
   schedule:
     - cron: '0 22 * * *' # 00:00 GMT+2 (22:00 UTC)
@@ -15,6 +10,7 @@ on:
 
 jobs:
   test:
+    if: github.event.issue.pull_request != null && contains(github.event.comment.body, 'run-tests')
     timeout-minutes: 60
     runs-on: ubuntu-latest
     steps:
