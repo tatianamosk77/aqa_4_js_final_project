@@ -1,9 +1,9 @@
 name: Run Sales Portal API tests
 on:
-  # push:
-  #   branches:
-  #     - main
-  # pull_request:
+  push:
+    branches:
+      - main
+  pull_request:
 
   schedule:
     - cron: "0 22 * * *" # 00:00 GMT+2 (22:00 UTC)
