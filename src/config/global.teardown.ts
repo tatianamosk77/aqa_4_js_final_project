@@ -10,5 +10,5 @@ export default async function () {
     
 Link to deployed report:
 
-https://github.com/tatianamosk77/aqa_4_js_final_project/allure-report/#`);
+https://tatianamosk77.github.io/aqa-4-playwright/allure-report/#`);
 }

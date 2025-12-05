@@ -6,7 +6,7 @@ on:
   pull_request:
 
   schedule:
-    - cron: "0 22 * * *" # 00:00 GMT+2 (22:00 UTC)
+    - cron: '0 22 * * *' # 00:00 GMT+2 (22:00 UTC)
 
   workflow_dispatch: # Manually trigger the workflow
 
@@ -51,10 +51,6 @@ jobs:
         with:
           name: regression-report
           path: ./allure-report
-      
-      # Проверка, что папка есть
-      - name: Debug directory
-        run: ls -R .
 
       # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
