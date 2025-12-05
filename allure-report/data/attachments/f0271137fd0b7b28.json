@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 17:21:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "539",
+    "etag": "W/\"21b-RD7YRHbFNCyG1IQgWdIo+Ecc2wE\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Arlene2@hotmail.com",
+      "name": "Test Customer",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 835,
+      "flat": 4192,
+      "phone": "+8215177333",
+      "createdOn": "2025-12-05T17:21:25.000Z",
+      "notes": "PTWcuKfe35fzFpaREoM0Ud8mhlCj4iJYrCoxAGiVl5hloJKTZlJNVhiBLtw0J51vR73qZf9m8jXqderrWMbR4cO49NPZOH5boxdQcxxHeSDQoc7tpRzVAkVymtl5yycVLKD4LsWSfWSzLoYHWqiLypgApiSizbEPx3aeD3BbXkgIvyvDrGYA4kkVnK8JSDOie9SSnmgYPY7jj9wXnhulgAf5xGj1vchbRgUtTDCSfCU36J6Vk2t1itBtp8",
+      "_id": "693314951c508c5d5e981044"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

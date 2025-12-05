@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 17:21:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-50rDLYgrWqbI6dByUSV501p3ljI\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jaylin.Weimann@hotmail.com",
+      "name": "Judge Roberta",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 707,
+      "flat": 1186,
+      "phone": "+5097430101",
+      "createdOn": "2025-12-05T17:21:27.000Z",
+      "notes": "tyPtmAwmdNPVnJBKb30jPLFZvJL9cWxR6Vxe065iNt3J3h1JVL0MzRG6ZBKk27fAkJWfj5EnycBLhDd8SqQwxFd1wAqMWb5jSUiXr9DDAQ9U0Y29KGZzYKURvNsS9xUWp9MxBGW4QyeqhU1XRMNFjLpSnIL8Qf2L2DpApx8x1CN7N05BFGhWGy38V9jw7eXAfIWMILmhvCIWj2u9CnSaH6likzf7DVc8BAgdocF8FgOElZrsnoy902rzyS",
+      "_id": "693314971c508c5d5e98110c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

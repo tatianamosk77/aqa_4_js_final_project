@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 17:21:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "204",
+    "etag": "W/\"cc-0Y/imoQxM7F1tU86VvAWUL3PBQU\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Mouse49660",
+      "amount": 646,
+      "price": 54818,
+      "manufacturer": "Google",
+      "createdOn": "2025-12-05T17:21:37.000Z",
+      "notes": "",
+      "_id": "693314a11c508c5d5e981470"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

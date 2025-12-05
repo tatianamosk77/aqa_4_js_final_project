@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 17:21:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "98",
+    "etag": "W/\"62-c0Q7LERNPOvMtHSTmhZt15nHNzE\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "IsSuccess": false,
+    "ErrorMessage": "Customer with email 'Ken.Bogisich@hotmail.com' already exists"
+  }
+}

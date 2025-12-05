@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 17:21:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "292",
+    "etag": "W/\"124-nPBqG0YuxNFJoaUNtGuYi65Rgjs\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Joey_Cole@hotmail.com",
+      "name": "Tyree Lilla",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 268,
+      "flat": 241,
+      "phone": "+5350662751",
+      "createdOn": "2025-12-05T17:21:27.000Z",
+      "notes": "",
+      "_id": "693314971c508c5d5e98111a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
