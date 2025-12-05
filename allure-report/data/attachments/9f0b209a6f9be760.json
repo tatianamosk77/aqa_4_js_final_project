@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 16:33:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "536",
+    "etag": "W/\"218-Q+bFc3XPfQMtv4it6j575DkZcbc\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Luigi17@gmail.com",
+      "name": "Laney Baby",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 81,
+      "flat": 8667,
+      "phone": "+8587659039",
+      "createdOn": "2025-12-05T16:33:53.000Z",
+      "notes": "E2xfdhzO8OjCwqhzo282tFmtPSJeGkq6B2muEQ9kBbSqzGtIuN0VMjxumR4LxB0y9fOFNGvDoCzkc8P0aUZ23brXXTw6dbENfgHGZTxUegeyVaoX1Rd2e3MuEny8fhGvsEVRpQSlpsBpzBrw5tE1viEfhA36x3GRmL5GyBoy23YVB3ap6WI7dcGTMP1W3Fs09RHv8l5L4UJhjg7ZuoDzbyrcxqa9gVoZe5JeRkJeZYRoP5ZHkXkKuZe6Pl",
+      "_id": "693309711c508c5d5e9809a8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

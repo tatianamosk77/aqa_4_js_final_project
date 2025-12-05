@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 16:33:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-2ZwkTvJAsKFmlrQ+coDk3mPeM1c\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Katarina78@yahoo.com",
+      "name": "Abagail Elian",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 45,
+      "flat": 5610,
+      "phone": "+2499148942",
+      "createdOn": "2025-12-05T16:33:48.000Z",
+      "notes": "PpVOsnvD8ZT0yL7juHWP6WBdIAjb8QeQHwoeIhnAAWMdD7GU4C8Yp2c08YvZAMPqajFqP3gmWb22Z887XiVxhqc9ZyiHL8jWuhLTlK4rM21Mjx6oMP3GPgx2jqiWRMwPXwkoviIjIbjdCKfJlHf86tsqgVgco5HZEKYtSUT6CyNLV5Cz5Ed0VHiQozHf4wrCWRd2JIE05ERbECrLrJKu937nkGYGwOpwgUDPYsmFw9TIOtpTYlLb3iysTD",
+      "_id": "6933096c1c508c5d5e980876"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

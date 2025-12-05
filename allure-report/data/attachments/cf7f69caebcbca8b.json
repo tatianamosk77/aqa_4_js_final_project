@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 16:33:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-xI5X0K38wCBJZz2hr/0BY0xRyK8\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Maeve.Grant@gmail.com",
+      "name": "Nolan Murphy",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 347,
+      "flat": 438,
+      "phone": "+8646796611",
+      "createdOn": "2025-12-05T16:33:59.000Z",
+      "notes": "4qsT2SdbfgTLwdYJnmLxx3Y1ueaWcsjewHI3UWHxlc34wZZJZIyXPxLhqt288iLekMDyisOdcyT8CpEPLEQ6jqAx22KoXgluwx2olKQFV0Tqf6inBZW3RxUqekG7dc09EAmHYae6u8SsbbMSWMZnGwMZKudjuxb2gIP4jNa73QVGPB1OHHOcyaxR0GnPl929feVg88XSFn3PR0aAA3gs4W1yHTbEtC2QvWNLAmPUKSd5vavar3TmpuEEpt",
+      "_id": "693309771c508c5d5e980b9c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

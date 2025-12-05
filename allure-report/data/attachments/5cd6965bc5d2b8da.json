@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 16:33:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "276",
+    "etag": "W/\"114-JtLqKqjsQrrxYJzc3XFj8ejtDFY\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Shemar2@gmail.com",
+      "name": "Leo Elissa",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 268,
+      "flat": 5564,
+      "phone": "+4376456416",
+      "createdOn": "2025-12-05T16:33:49.000Z",
+      "_id": "6933096d1c508c5d5e9808b1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

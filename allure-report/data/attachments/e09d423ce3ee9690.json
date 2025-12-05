@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 16:33:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-ocDOwWhe04QhoxQes1DGFmwt71Y\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Pat.Wuckert30@yahoo.com",
+      "name": "Kirsten Bernie",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 805,
+      "flat": 7172,
+      "phone": "+4038345253",
+      "createdOn": "2025-12-05T16:33:53.000Z",
+      "notes": "fVxpObp2JPs98nq1mjnfRiC4CCqIX9sMkVKFeqJw1YYUWHqMqGPd5GASN9PoiInZQP71O6Jdo9NqiSvnKDmyN2eRME7OPZOcO4LA7DSQ2rlKOFHa72i8gUXfiunuzJIAiwdQwJabvPneTPXySFqDLsnxxB52aLPho0EYlCnRwrxbtScGY2ISrV4kKHUNQkhG9RLnByvpv8ccbrAlmVw31alssPMkaMKAKjRo3f1AC5xox4TnjvtLs5nBxn",
+      "_id": "693309711c508c5d5e9809d2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
