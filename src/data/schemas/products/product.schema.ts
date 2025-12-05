@@ -45,7 +45,7 @@ export const allProductsResponseSchema = {
 export const productsListSchema = {
   type: "object",
   properties: {
-    Customers: {
+    Products: {
       type: "array",
       items: productSchema,
     },

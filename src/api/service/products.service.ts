@@ -5,6 +5,8 @@ import { STATUS_CODES } from "data/statusCodes";
 import { IProduct, IProductFromResponse } from "data/types/product.types";
 import { logStep } from "utils/report/logStep.utils";
 import { validateResponse } from "utils/validation/validateResponse.utils";
+import { oneProductResponseSchema, allProductsResponseSchema } from "data/schemas/products/product.schema";
+
 
 export class ProductsApiService {
   constructor(private productsApi: ProductsApi) {}
@@ -18,7 +20,7 @@ export class ProductsApiService {
       status: STATUS_CODES.CREATED,
       IsSuccess: true,
       ErrorMessage: null,
-      schema: createProductSchema,
+      schema: oneProductResponseSchema,
     });
 
     return response.body!.Product;
@@ -37,9 +39,12 @@ export class ProductsApiService {
   async getById(token: string, productId: string) {
     const response = await this.productsApi.getById(productId, token);
 
-    validateResponse(response, {
-      status: STATUS_CODES.OK,
-    });
+  validateResponse(response, {
+    status: STATUS_CODES.OK,
+    IsSuccess: true,
+    ErrorMessage: null,
+    schema: oneProductResponseSchema,
+  });
 
     return response.body!.Product;
   }
@@ -49,8 +54,11 @@ export class ProductsApiService {
     const response = await this.productsApi.update(id, updates, token);
 
     validateResponse(response, {
-      status: STATUS_CODES.OK,
-    });
+    status: STATUS_CODES.OK,
+    IsSuccess: true,
+    ErrorMessage: null,
+    schema: oneProductResponseSchema,
+  });
 
     return response.body!.Product;
   }
@@ -60,8 +68,11 @@ export class ProductsApiService {
     const response = await this.productsApi.getAll(token);
 
     validateResponse(response, {
-      status: STATUS_CODES.OK,
-    });
+    status: STATUS_CODES.OK,
+    IsSuccess: true,
+    ErrorMessage: null,
+    schema: allProductsResponseSchema,
+  });
 
     return response.body!;
   }
