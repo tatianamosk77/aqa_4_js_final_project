@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 16:20:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-tSAUVmQCDD1H63q2mYkaycYmj3o\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Hillary38@hotmail.com",
+      "name": "Test Customer",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 935,
+      "flat": 4924,
+      "phone": "+9254660754",
+      "createdOn": "2025-12-05T16:20:40.000Z",
+      "notes": "PEHVmbdjIbhNYzv8ldLNsOg1mV9Ek2U9zA7U4N0LoHLw9w73OUNADPZAYkaZJB232lbxazdyuTxPTbUcGFKR4ajeTS0ibFwmk5urQrO9gSvQcpbxHCidP7vCfviSYA1il5tIsGHbPb1uqO5HIqYQOBVl5TvCkvJ3OUmQX4N9QyG8LeZxt1FN26diApNKtZEGyfQQkLPZbF596p4KQhal7CEGZt2n76XwgQhHWAiSBwS398qQepW39YIiPe",
+      "_id": "693306581c508c5d5e97ff91"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

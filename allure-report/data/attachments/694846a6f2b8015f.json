@@ -1,0 +1,55 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 16:20:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1162",
+    "etag": "W/\"48a-sybjAB+mVslW1qlpJO1UhlBIIcI\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "6933065d1c508c5d5e980114",
+        "email": "Antonette.Strosin58@hotmail.com",
+        "name": "Virgie Danial",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 331,
+        "flat": 6726,
+        "phone": "+5486875221",
+        "createdOn": "2025-12-05T16:20:45.000Z",
+        "notes": "0MacMRVagBjErheY9iT0ArTxDmJDP6Btx1PksOZxlrJQFJVdgK7dO9PTf8trgk2NsBAzKtAVH4L5IzSqNCfevoHfylAqsVZoOol0ftrzSpxEHYRjY9MeKf1CW8FSbs0f255SbNN0PoJjH0meTVp6JIhAjW7vIw0WtB9O9nGmuwj5zng1HDwP7YxxspxDq5ziZLdpWiac81WevkY1rwi9zD7IbubsYZ4FWmUsrjxNIiUOKVz17uoN9VuRuo"
+      },
+      {
+        "_id": "6933065d1c508c5d5e980119",
+        "email": "Erin61@gmail.com",
+        "name": "Sadye Tate",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 39,
+        "flat": 5870,
+        "phone": "+0331987953",
+        "createdOn": "2025-12-05T16:20:45.000Z",
+        "notes": "GPx0tuYLkPowzUb6ZQDcn5LUFSfvDrmDGw1kvXxNHafNge6nt3cDD0dQQfsKiqwVkkMtQsYwprpGhE4Yh7lJhQPFutOWg0A6K0yioCbYc5IbitOAQ6dZjXUCchhvqgoeFk7NxUeHmpB4i7ZioczhM6nNGo4TrH4HtTKGgtg2h7bhSW2M56zZakDyy67fTkVOz7UlVR00QSVkMxCNkEM0gUVg8Mtmk8Scszfuvz7yqFC3riRUMynKtie8De"
+      }
+    ],
+    "total": 2,
+    "page": 1,
+    "limit": 10,
+    "search": "Ukraine",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

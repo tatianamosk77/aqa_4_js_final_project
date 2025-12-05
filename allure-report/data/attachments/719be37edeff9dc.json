@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 16:20:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "285",
+    "etag": "W/\"11d-7VHGx38zo+/6jQZDO//Hmi/sGGU\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Beth.Towne49@yahoo.com",
+      "name": "Ambrose Jarret",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 710,
+      "flat": 3470,
+      "phone": "+3404312692",
+      "createdOn": "2025-12-05T16:20:41.000Z",
+      "_id": "693306591c508c5d5e980033"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 16:20:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "201",
+    "etag": "W/\"c9-OA7oKeSu2i8nJjt6epAjgoQJazw\"",
+    "keep-alive": "timeout=5, max=68",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Hat90744",
+      "amount": 671,
+      "price": 42119,
+      "manufacturer": "Tesla",
+      "createdOn": "2025-12-05T16:20:51.000Z",
+      "notes": "",
+      "_id": "693306631c508c5d5e9803a0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

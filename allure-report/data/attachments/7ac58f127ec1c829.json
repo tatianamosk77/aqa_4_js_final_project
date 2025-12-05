@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 16:20:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "533",
+    "etag": "W/\"215-Qmfn+RIkgYtpMbIRvWWlinCCWYE\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Milan97@gmail.com",
+      "name": "Grover Josie",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 590,
+      "flat": 1,
+      "phone": "+5973249559",
+      "createdOn": "2025-12-05T16:20:41.000Z",
+      "notes": "RZGTRxefHJaLP27PkdSzhfBOciQb0oepFUOCMZJnheJlewhpP9iIF1b7YPQDMWYVQCGTyywwiNcwNiRY8co7uVOZkpegOMTpatzjbg3rufmE0WVXgtAqLC8NHszjUdfRI2EFDvsvdfPf06TYlCePXpdUq9rY7OMnBf6y2GxnERHQuEUBz4dteSBqn2DLVFoWkQLuUUtk6TRfZAcLlGfTg2ai7L7GAsRvH6mgKOIdV0XdSD5ZB4IcqA6hzU",
+      "_id": "693306591c508c5d5e97ffd5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

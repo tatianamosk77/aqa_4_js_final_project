@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 16:20:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-gneCNZo3E0phzCGNBhviLCrjh1I\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Laurence49@hotmail.com",
+      "name": "Della Vella",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 543,
+      "flat": 6979,
+      "phone": "+7538180818",
+      "createdOn": "2025-12-05T16:20:46.000Z",
+      "notes": "NL1A5bHhiXNAyu6r9iYzGm45aeLVe4nXlMMaUN8h35mXRtuiNcyF36YqI8P8hF7PhuBjMgQz33rw4SLrsA2LhKt7uashfDwrkD7l9oqQeqazZi4bGutCSy75IB4MtXYI6uT6XtwJHkad64rffgX7MgNybdWrZsVZc6qdgdazbQlOKaTJMvkqhWL0Hzf4C97YCRtvAsuzZhinUow0WqfYE02UPYCNVbXNN5TE7UXPbHdgcW94UVC1tB66Ac",
+      "_id": "6933065e1c508c5d5e98019b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 16:20:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-jqOmvDucQzRApTiVz4Cn8R/EmFc\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Carson.Schneider57@hotmail.com",
+      "name": "Brock Lela",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 611,
+      "flat": 7210,
+      "phone": "+5682786500",
+      "createdOn": "2025-12-05T16:20:45.000Z",
+      "notes": "BC5aKIZDHRtkcyyAFZbG0rgmULS58KCfrlrsOZurHRfuq7iO5F4X0VeIq6I9PhjtBLFvw1rmVdmLjnLFZLMoS7oMfCAFRjk3rLYsmEoOLO83Fm9mGeevbUGkWr0XxNBtT0E3OceBekP7jaU0eY2obldfu2h4uqkuN3ttS8JBfySzbBGVVJYPbdlyxGaMOSFhk0FTrZkRrdBj1swOaCTN227ig31cJzxAuNTvMhiL7gTbDVuPkigrgkdHDI",
+      "_id": "6933065d1c508c5d5e980152"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

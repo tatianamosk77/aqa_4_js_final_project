@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 16:20:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "539",
+    "etag": "W/\"21b-WlqqkYDFbAPMrwbt8b5MRAK9nXk\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ted93@yahoo.com",
+      "name": "Adrian Ramiro",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 179,
+      "flat": 4558,
+      "phone": "+1306969097",
+      "createdOn": "2025-12-05T16:20:41.000Z",
+      "notes": "VUVTGJdNVQUioqOHgRzmjufDveX2xxcQmYip1TQvGRqobuCSZb2WfARHC4tTA9Dff0bXJWw5uAP32NHuUhM5C2wjkENOUunazsM4wKxyxJIKUwtvanS05oSh8yAGt0suUZ6DY59XBNzpmXcpp2DtuSlZTnLOIokkRQre394ekdtlGu3ccHymKeUWy1PBy6ZTNrUi17DFgrnh8t3axDyY6HrnCf8jtyHbB5Fmgtt0qgJGxWazA66JNScaqB",
+      "_id": "693306591c508c5d5e98001a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

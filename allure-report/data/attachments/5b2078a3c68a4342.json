@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Fri, 05 Dec 2025 16:20:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "683",
+    "etag": "W/\"2ab-WQNI3sC0gmNA7gL6DfrVzd8FZ6E\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "6933065d1c508c5d5e98012c",
+        "email": "Elmira_Franecki@yahoo.com",
+        "name": "Toni Hans",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 183,
+        "flat": 3602,
+        "phone": "+7336167036",
+        "createdOn": "2025-12-05T16:20:45.000Z",
+        "notes": "iX6SsVyxRkj77xuGkAm4kjoU5hOLiRAQa38v1uFR9mwOMjMyPHrTDSwrGuc0cZdjm9mGvchBNSD3odAxPxaew4DfwI8PjXzqJHTtwVXV0UgLR8gABAdntiqlb83xxpRGuqud5gzZoA9QfRNFdSZDkyqm3LHrEJy1cynNqJxjWjz1eIazaXctkeY9wIBTYZ3wqVTUu4Y44XeoMWrrcIRmiSVAIdIzUhqwMVjPzaykyM1ax2WPBF6XFL0Kep"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Elmira_Franecki@yahoo.com",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
