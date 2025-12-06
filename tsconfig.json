@@ -16,7 +16,7 @@
     // "allowImportingTsExtensions": true,
     "target": "ES2023",
     "lib": ["ES2023", "DOM", "DOM.Iterable"],
-    "types": ["node", "@playwright/test", "expect-playwright"],
+    "types": ["node", "@playwright/test"],
     // Для ESM
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
