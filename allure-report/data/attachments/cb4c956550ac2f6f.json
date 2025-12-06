@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 06 Dec 2025 13:50:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "551",
+    "etag": "W/\"227-5q5TosRWHlWVh1nPwYW6pnT8qxk\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "George_Jacobs10@hotmail.com",
+      "name": "Florian Wilma",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 693,
+      "flat": 1110,
+      "phone": "+7168965969",
+      "createdOn": "2025-12-06T13:50:41.000Z",
+      "notes": "PKWtaLK5JkfE8h1Vib2gslJ7EcxHROsDkaVweQlviPf89fKdd0D9cL70FH1cEVYPchjrKfKIPw7wYN2Nu5jGtAKoFSqci8qh1lFRyKXm4NAwAXmKudLLFaZg6JHO05MjecGpBRn4I4LVOGqyvQZzthAQ8Bu5VLssOt5kyw1X8GyI8G8KF2h5XT2412xx8iLdcvobivNhp0eeAxdiUMUGLAoTwoXUpfmUhgeuEq5DCzVUKdppU6YTWUIrnu",
+      "_id": "693434b11c508c5d5e98dd6a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

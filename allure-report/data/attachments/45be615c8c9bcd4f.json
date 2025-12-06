@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "date": "Sat, 06 Dec 2025 13:50:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "203",
+    "etag": "W/\"cb-f7kSCBNBQrstzdkj8fdM5B/XYys\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Tuna64062",
+      "amount": 390,
+      "price": 93978,
+      "manufacturer": "Xiaomi",
+      "createdOn": "2025-12-06T13:50:47.000Z",
+      "notes": "",
+      "_id": "693434b71c508c5d5e98dfd0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

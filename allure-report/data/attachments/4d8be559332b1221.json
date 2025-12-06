@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 06 Dec 2025 13:50:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "535",
+    "etag": "W/\"217-SWw91krU9uL4IZrks5jLZ7PWPLE\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Natasha90@gmail.com",
+      "name": "Sherman Melissa",
+      "country": "France",
+      "city": "testCity",
+      "street": "i",
+      "house": 784,
+      "flat": 3988,
+      "phone": "+3061554451",
+      "createdOn": "2025-12-06T13:50:37.000Z",
+      "notes": "LR0LnkF3TFx9SSBYhZsoDKUBmvHkRVrlLDYmb7z2eOLgr6uvbX5KKafcKypdbBCqPhEY88EwGP85IsrVQGVVjexZTi21s5g6lbOl5VabDfIWr0uJsuyyRd24jeLUIuf2xfmLGlB0L7OYV6loQnDBQi2TLqoFuFpeqqObjciICzKRbta4NEn0L05oK3Ops3wac59wDGFCQXxYj7sipueDF8YpSztZlKKduVM06RmRC555ubB3q8bHKxt9gI",
+      "_id": "693434ad1c508c5d5e98dc21"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

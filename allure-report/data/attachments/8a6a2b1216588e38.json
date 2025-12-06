@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Sat, 06 Dec 2025 13:50:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "683",
+    "etag": "W/\"2ab-04l9F5eTbhGtm/CRP5XQgCeCjkQ\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "693434b11c508c5d5e98dd7b",
+        "email": "Orie.Flatley95@yahoo.com",
+        "name": "Enid Gisselle",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 12,
+        "flat": 7753,
+        "phone": "+5337871577",
+        "createdOn": "2025-12-06T13:50:41.000Z",
+        "notes": "C783xgcFNxrlXfTRLX5qSLhcTSTNKZWrt2ec3MtpBdGLH2MJdZG87GujSqNz7qqSdaOgthh7Al9yw9emsWCB6QbqadSyhnCxjFXmwGWfi4dr9lcI6fzncyWRDqaJuhHFr9NbYtBxj3ZgatVPfwiq48qi29YnkpVWYkdHdTt8LlKA99R9LyomZGWZaSsJBLJlUrt5wtfnCgi1uPcHz4UVhdVDpR5ufPdfe5uGsBM9kBwyvHWCzuEYAuchgz"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Orie.Flatley95@yahoo.com",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

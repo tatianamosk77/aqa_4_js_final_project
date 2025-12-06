@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 06 Dec 2025 13:50:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-Baj/R45Z6KW8MkmZzbzrdupdeEE\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Roberta.Fadel@yahoo.com",
+      "name": "Manley Adrain",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 842,
+      "flat": 9606,
+      "phone": "+6372507959",
+      "createdOn": "2025-12-06T13:50:36.000Z",
+      "notes": "YACAfwQEOkToluBvG79tecopBnY4fy6kqM8Tkw7nfGweDTj7nvEFwrLUhI6oYHDxQaO8NSvaNxIgfeJDQXWndoC2eyAtlM6wXvQaMwt9hrIMqoJogOL2IB9PtA6ERemiOBikZ7cMYQLNSRrBp9KYKzklWpZ1VoNTNmolkFGoAniV585jENtqAOyLQL6ZvWli9k0j9GSae8ofuihcNxWIE6CeEUblaATjtCw6t4UYKxU1A0kTlQUFXYkdrC",
+      "_id": "693434ac1c508c5d5e98dbec"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

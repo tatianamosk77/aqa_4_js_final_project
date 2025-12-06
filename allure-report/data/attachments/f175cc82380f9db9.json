@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Sat, 06 Dec 2025 13:50:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "665",
+    "etag": "W/\"299-6Ka3/z3Y8d283eJ2w6nuhzJMgXE\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "693434b11c508c5d5e98dd73",
+        "email": "Myrl80@hotmail.com",
+        "name": "Otho Jeremie",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 155,
+        "flat": 1203,
+        "phone": "+5212541230",
+        "createdOn": "2025-12-06T13:50:41.000Z",
+        "notes": "X7zqBoCtH4Rn5dSl3EqtkG5m6Oq0HYSTPrFdXYfnG3kSxZX0cytkONwVKbxRuhPDkS8U6ANFQXljgPEdgs8MsNAqJNM8U8fbKfmsoDZViekasHid8dbbAzwRwUXnw5RVGQRflOHbNDFQO4kwvxSW9Sqtgk2x9vY9pVDnH3ALLALPpJVPFBKt3Xu0ytVWQvAChwNJxkcIqNU4ntYBk5cXGECpfnAypmgiGC3QWSSwsCmpDfWrHBZz17f4bS"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Otho Jeremie",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

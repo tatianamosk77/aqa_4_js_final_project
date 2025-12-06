@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 06 Dec 2025 13:50:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "295",
+    "etag": "W/\"127-zfEZYS+zfTtxenVWR00QKk1JNRQ\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Uriah_Grimes@yahoo.com",
+      "name": "Rudy Marcella",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 305,
+      "flat": 5862,
+      "phone": "+8789073331",
+      "createdOn": "2025-12-06T13:50:38.000Z",
+      "notes": "",
+      "_id": "693434ae1c508c5d5e98dca0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
