@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Sat, 06 Dec 2025 22:14:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "688",
+    "etag": "W/\"2b0-fnscU+IFfnJIRBkO4nGYUZ1mMIw\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "6934aade1c508c5d5e98ec27",
+        "email": "Madeline_Wuckert-Beier@gmail.com",
+        "name": "Rosella Francisca",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 63,
+        "flat": 6288,
+        "phone": "+4951890493",
+        "createdOn": "2025-12-06T22:14:54.000Z",
+        "notes": "nZMrIWghq95uT9iispqc8SfL8fdvnEupFuZmS7oCZrl48iJ0aPA3jR5H2qXpIoEg7mLFNGLpsEsvAWDj0WENk8r7MEDYv0ROJJwWAxI4527fJxRHDJrCwsJVmUoYEY8xBKLb6ejwuzjy8BorueIBI0cOe28Wbbv48PuNndodqOAUXo6eHxxKNIP1NleNcVKHb2xiefrnumcHWLZffoTRZYxLvrhIcYrys6aeHjxi6bFT7ATyf00jxzYLxe"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Rosella Francisca",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

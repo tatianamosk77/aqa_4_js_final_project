@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 06 Dec 2025 22:14:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-9Xb3p/OaFAjcn8QHWTr3ffOAV0w\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Curt_Larson55@gmail.com",
+      "name": "Test Customer",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 284,
+      "flat": 3769,
+      "phone": "+7065707729",
+      "createdOn": "2025-12-06T22:14:49.000Z",
+      "notes": "3mYQEgR45ZK5LOXzBeRYjoIDZcFtAW3FRs5eYzZfDTa53OxqcZzxwfUPlte8etI7ZrmCFuoMkM4SkHuD5vOO1ICTTwTeCVP7YmHiY9UTk6bmGtnYx19224eMB5pK45W0O14vaRunE7P75xRjoBZ00PnNu5fJv86lZGgbWjJY010Ng7wlIOKEfRTFF6UFuMtpP5eojiFYh3BU38Orb18xFDoJY0BYHQgOBZFxkSrpQLe37qEOCNKHlIe0jD",
+      "_id": "6934aad91c508c5d5e98ea90"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

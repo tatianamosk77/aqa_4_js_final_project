@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MjMzN2NlMWM1MDhjNWQ1ZTk1MzM1ZCIsInJvbGVzIjpbIlVTRVIiXSwiaWF0IjoxNzY1MDU5Mjg5LCJleHAiOjE3NjUxNDU2ODl9.TXpxCTKazvlGUxNjg1-z9oMyRjfeueJt2MUoCnwjVT8"
+  },
+  "body": {
+    "email": "Johnpaul.Wiza@hotmail.com",
+    "name": "Kody Robin",
+    "country": "Russia",
+    "city": "testCity",
+    "flat": 6962,
+    "house": 73,
+    "notes": "Invalid notes with <symbol>",
+    "phone": "+7524349268",
+    "street": "testStreet"
+  }
+}

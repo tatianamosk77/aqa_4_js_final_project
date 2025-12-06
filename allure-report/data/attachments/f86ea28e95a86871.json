@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 06 Dec 2025 22:14:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-1ymVDpEKRaziLPHhR6SsCZXmoCI\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Kody.Wiegand@gmail.com",
+      "name": "Dan Don",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 105,
+      "flat": 6614,
+      "phone": "+7030395074",
+      "createdOn": "2025-12-06T22:14:55.000Z",
+      "notes": "vbzbbkoimk1rjOQw33VzZuGlfbDVrtvtRjdJQ9BHnwBypp668kr2fa2PzSlLoP0bVChFlMF2k1CLMwWXZjruJ5vNYpAUZDBbhxsfiVA5d6PbBfk4bH4SpoJic3skQRVB3gyNySgewyQ1lBDGbr1y5nXBBWQGFvsAw9GDYNcv4qrziSTCryeycPZPWAXAYLEhQt1KlfselrB4JAzzzb9iIJmGNnFYHjQvSJ1jT9yd7BIkLyrNnDf0Yqf7xd",
+      "_id": "6934aadf1c508c5d5e98ec59"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

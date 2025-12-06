@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 06 Dec 2025 22:14:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-yfg5aB26cyXyGt9yakz6/Xvywt0\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Perry_Koch@gmail.com",
+      "name": "Kiana Helen",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 249,
+      "flat": 4797,
+      "phone": "+2910473316",
+      "createdOn": "2025-12-06T22:14:56.000Z",
+      "notes": "oOGebIPZELWgRQzskBykxTaekiHmO5ExkkXf3jddkVzcBpUZZKC3nZe0XtnOjDhXe6fRmtUTGRZND0lCaHPfrl18g5SigIf45NgLGaE8Xpes1253UHZXIg5XefAeTKk73uH1Kuk8M4di1pUNcCsoILvdjD8h2ZtHLDTu6xoaqyuVSFMGEQ4RfbLxjpm3JM7hIm4wKS6nhjt2iNA0j2O2MlYZ4CMB5CdD9BgHx857C95ytVuejdPAbC3S0w",
+      "_id": "6934aae01c508c5d5e98ec87"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 06 Dec 2025 22:14:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "290",
+    "etag": "W/\"122-TLglRCCcrmvzbbUIe0RqyWPy3po\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Reyna72@yahoo.com",
+      "name": "Mercedes Jackson",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 191,
+      "flat": 8272,
+      "phone": "+2807963252",
+      "createdOn": "2025-12-06T22:14:51.000Z",
+      "notes": "",
+      "_id": "6934aadb1c508c5d5e98eb5f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

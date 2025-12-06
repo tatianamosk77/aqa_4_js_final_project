@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 06 Dec 2025 22:14:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "553",
+    "etag": "W/\"229-DL9apI2CY+3QM0PbbvsIc/5y89I\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Nels.Cummerata81@yahoo.com",
+      "name": "Maximilian Kamille",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 293,
+      "flat": 92,
+      "phone": "+4340066772",
+      "createdOn": "2025-12-06T22:14:49.000Z",
+      "notes": "64RceBggUqgMEJys9VDJkPbbVeupzNrpEtMIMBAfnEHVtzct18pu7pDQ3gslhIZPju3l9r5NcP4CdsQetWlfCtPS3M9fGhNsZusBAyfCBQeXyszWa923NS9OnuwOaBtXy8OtOrrvjVfZiHffgvsyqGFWW3uukWc4eviRjD780HlmPGxqDvYzIA4qZkJ30yCkuuklMIkLf2uzhSd90g28x8Wc2KXdjD6jMRpP11ZVVZz9KvF9CA6sqe2Rd6",
+      "_id": "6934aad91c508c5d5e98ea6c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
