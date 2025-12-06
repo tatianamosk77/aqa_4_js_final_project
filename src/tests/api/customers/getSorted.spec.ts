@@ -210,8 +210,8 @@ test.describe('[API] [Sales Portal] [Customers] Get Sorted', () => {
 
         // Verify sorting order: country should be in descending order
         for (let i = 0; i < actualCustomers.length - 1; i++) {
-          const current = actualCustomers[i];
-          const next = actualCustomers[i + 1];
+          const current = actualCustomers[i]!;
+          const next = actualCustomers[i + 1]!;
 
           // For descending order, current should be >= next
           // localeCompare returns: negative if current < next, 0 if equal, positive if current > next
