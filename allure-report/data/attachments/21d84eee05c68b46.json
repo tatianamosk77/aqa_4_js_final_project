@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Sun, 07 Dec 2025 22:14:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "664",
+    "etag": "W/\"298-6gSjkq+uy5vnrhz1KV9m9u0I2fw\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "6935fc301c508c5d5e99e65a",
+        "email": "Emiliano62@hotmail.com",
+        "name": "Icie Dina",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 961,
+        "flat": 7166,
+        "phone": "+0877387908",
+        "createdOn": "2025-12-07T22:14:08.000Z",
+        "notes": "ckJ7C6kMRy1bjZfvRsLbe5FhIhYaoGUGuh0vhqZ331JPPUhh1NAJNfY9E0I8LsrVnS2W0T1omhTxMiCD11feBX79mnwqOwcqaQyd8efgsSh6ni1KoSIwVE4jOUjLEfwpCeTLL4MRsI2UOmpDGubjBnoM50Ga1TGuLeX9HdfbipihiQJ1SEL8PMZ0eN8iWK2VdhDcsM9qNEORMCsZ1m0yotwbscokN1W0eT0ry1jAtxzL83GT25KynLGCea"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Icie Dina",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 07 Dec 2025 22:14:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-L76Okc1285rJk3gvHTtvjCUS/1g\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Emil_Zulauf25@yahoo.com",
+      "name": "Luella August",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 253,
+      "flat": 2153,
+      "phone": "+7035936709",
+      "createdOn": "2025-12-07T22:14:09.000Z",
+      "notes": "k8O4ty5Kg2w8F9tMcJTiiZZvlgrdV3whal7it1TlrSmKUN43kcL0bvF5wwrwsq0DOvjoyoXm2RYkvTYbtxJQgwjAbLcN0qc5R5F8H3p4IGmDtq5gnX55PtUHmGpKWdVxLcKwEGHzDjwwERCpX2xcQVYglhljaHkPgrL1o3hlZRfvDr8reKeiF3MswVZ1YxcfOhauivdFw7yDN8zoXnTwiq8OxuKOXdQVbCzYgq9y0NWGg0VSStXhYy9Tjr",
+      "_id": "6935fc311c508c5d5e99e6cf"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,109 @@
+Generated mock data: {
+  "Orders": [
+    {
+      "_id": "f0531a5bdeddfdcdb1a911db",
+      "status": "Draft",
+      "customer": "19308a48c1b03ca52a43f6a8",
+      "products": [
+        {
+          "_id": "81c7dca4ffa8d8edc539dacc",
+          "name": "Bespoke Granite Soap",
+          "amount": 7,
+          "price": 222,
+          "manufacturer": "Mayert - Spinka",
+          "notes": "Deleo capillus perspiciatis vindico calculus ventosus.",
+          "received": false
+        },
+        {
+          "_id": "7dad229f238f6b3d5b7a0d5f",
+          "name": "Rustic Wooden Bacon",
+          "amount": 49,
+          "price": 867,
+          "manufacturer": "Franecki - Cartwright",
+          "notes": "Bellicus laboriosam vinculum trans apto desino.",
+          "received": true
+        },
+        {
+          "_id": "9d9234496a8dc8624da1acdf",
+          "name": "Licensed Metal Tuna",
+          "amount": 39,
+          "price": 847,
+          "manufacturer": "D'Amore, Ritchie and Lynch",
+          "notes": "Campana truculenter sapiente argentum quas.",
+          "received": false
+        },
+        {
+          "_id": "7afb14dfb4bfe75e3c4ba50e",
+          "name": "Fantastic Ceramic Shoes",
+          "amount": 1,
+          "price": 600,
+          "manufacturer": "Runolfsson Group",
+          "notes": "Vesco tabernus velociter laborum strenuus solus triumphus valeo tepidus conspergo.",
+          "received": false
+        },
+        {
+          "_id": "33dad65b26673c4afb3edea9",
+          "name": "Fantastic Cotton Fish",
+          "amount": 70,
+          "price": 655,
+          "manufacturer": "Oberbrunner - Hickle",
+          "notes": "Curiositas temptatio atque quos quos cicuta vomica nihil tamquam audacia.",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 123520,
+      "createdOn": "2025-12-07T07:25:25.045Z",
+      "comments": [],
+      "history": [],
+      "assignedManager": null
+    },
+    {
+      "_id": "0025e5a3ac22df3e7fbccf45",
+      "status": "Draft",
+      "customer": "19308a48c1b03ca52a43f6a8",
+      "products": [
+        {
+          "_id": "8c4c62f9bd0bbfc3e408b24b",
+          "name": "Bespoke Bronze Table",
+          "amount": 28,
+          "price": 647,
+          "manufacturer": "Bailey Group",
+          "notes": "Comes vulariter trepide cupressus vehemens.",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 18116,
+      "createdOn": "2025-12-06T23:37:38.935Z",
+      "comments": [],
+      "history": [],
+      "assignedManager": null
+    },
+    {
+      "_id": "efdd2cbb8631bf426dde5c30",
+      "status": "Draft",
+      "customer": "19308a48c1b03ca52a43f6a8",
+      "products": [
+        {
+          "_id": "bbd1436a3935ee1be02fb9a7",
+          "name": "Awesome Bamboo Salad",
+          "amount": 11,
+          "price": 797,
+          "manufacturer": "Monahan Inc",
+          "notes": "Advenio ad cultura textor ait alioqui ambitus auditor.",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 8767,
+      "createdOn": "2025-12-07T06:14:00.773Z",
+      "comments": [],
+      "history": [],
+      "assignedManager": null
+    }
+  ],
+  "IsSuccess": true,
+  "ErrorMessage": null
+}
+Data is valid according to the schema.

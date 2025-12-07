@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 07 Dec 2025 22:14:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-ZKUG1YGwhChW0k7AIHvr+WdyWHs\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Elijah_Brakus@yahoo.com",
+      "name": "Test Customer",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 847,
+      "flat": 8229,
+      "phone": "+4050526218",
+      "createdOn": "2025-12-07T22:14:02.000Z",
+      "notes": "blNXAc1lGBlmPDImnDbT9whBMxmiOoRMXhiIJRsGm4LlutGYoF5D1471GxNE9XHxIbmZ8kT7lLBdlGkDysTTdUjv1nQoSYxa2MQYrdMWTJwviM3pDgN5fmW3QEZXp1gfyMkk1nxOrnWeJTRXd9VVc7aOuAlLeEhCH5KPkNdBFbGtjih9zcdfIkn4BCzScqFs0FddKfHhRpjCwqGLiSKsaaC8PnTPyhHz7voDT7YfWEtfzfL0lhAnaOUIwu",
+      "_id": "6935fc2a1c508c5d5e99e4aa"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

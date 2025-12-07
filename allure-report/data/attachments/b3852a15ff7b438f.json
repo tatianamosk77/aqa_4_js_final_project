@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "date": "Sun, 07 Dec 2025 22:14:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "204",
+    "etag": "W/\"cc-XTTmp8Eu94pdSeEkgLYrtqEdGR8\"",
+    "keep-alive": "timeout=5, max=70",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Chips79639",
+      "amount": 108,
+      "price": 73246,
+      "manufacturer": "Xiaomi",
+      "createdOn": "2025-12-07T22:14:13.000Z",
+      "notes": "",
+      "_id": "6935fc351c508c5d5e99e8d0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

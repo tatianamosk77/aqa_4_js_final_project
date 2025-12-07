@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 07 Dec 2025 22:14:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "304",
+    "etag": "W/\"130-TDyX8fWUZncJmoyVNtCjPSl/sa8\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Clemmie_Lubowitz-Deckow@gmail.com",
+      "name": "Jean Sister",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 286,
+      "flat": 6438,
+      "phone": "+5319794627",
+      "createdOn": "2025-12-07T22:14:04.000Z",
+      "notes": "",
+      "_id": "6935fc2c1c508c5d5e99e58b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
