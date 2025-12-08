@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 08 Dec 2025 17:30:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "554",
+    "etag": "W/\"22a-jGzPy0HscwZqKTyHxPgXwT2JVH0\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Camden.Homenick@hotmail.com",
+      "name": "Kristopher Sigrid",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 720,
+      "flat": 6982,
+      "phone": "+7736717337",
+      "createdOn": "2025-12-08T17:30:49.000Z",
+      "notes": "8tTdmSJgPCSzdVt3cZssUAn1H68dT4CtiQVg9glSELqaxPLg9ScmaTL0YVrvAOHj07IbVe2gwC19jjMSKhXG3HziiUYXmLnNLNQvFnKInmW8bxiJ2l8YpJy9JMYu0kzi3SBvwCkNA907MGuDKcEkfNYAERrJAY0c9zRpZTAAq8rMyMl3L7ug4H65OASo76kHvEh57y598PIF1XVjWSyHoKj6a2AmH0JCPPG8ztae0ekOjXbiUVbsKcaTaJ",
+      "_id": "69370b491c508c5d5e9a4d4d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

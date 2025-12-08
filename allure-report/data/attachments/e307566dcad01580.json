@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "date": "Mon, 08 Dec 2025 17:30:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "284",
+    "etag": "W/\"11c-SrC78dzfR0e2FNiHLHNR1jrDY7E\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Hosea_Collier@gmail.com",
+      "name": "Katlyn Dana",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 109,
+      "flat": 4866,
+      "phone": "+6990501633",
+      "createdOn": "2025-12-08T17:30:51.000Z",
+      "_id": "69370b4b1c508c5d5e9a4e15"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

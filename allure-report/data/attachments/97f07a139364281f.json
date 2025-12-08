@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 08 Dec 2025 17:30:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-wB/K5+J/dqVVinFJJuf7e4MpxkE\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Alisa11@gmail.com",
+      "name": "Ronny Devante",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 624,
+      "flat": 2565,
+      "phone": "+7734526745",
+      "createdOn": "2025-12-08T17:30:50.000Z",
+      "notes": "ItnLowRaGVy2EijiSFVVYnTFkNtljbzk575mYinuqMjhh92Ne2lrdEavT4ti1yGUhhULtxj5hBsEmuakmnrzNoTvR84DZcO6Dfgs1hqzHNTTCHq5ZBhrt0E3op5PqR2sQj2vS8ofDk0Slq6CtRJYHdoHoLf1RPjsTeZByrdxjkUzpxJh6TkJSLEHLiBClrEf36GMky3K1XRtd7maEA5tOHgIoLc0FnckZzjpBpvr0wWjBW4pbTBiPzwEPq",
+      "_id": "69370b4a1c508c5d5e9a4d88"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

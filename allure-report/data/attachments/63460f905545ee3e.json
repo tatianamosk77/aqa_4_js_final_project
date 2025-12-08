@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 08 Dec 2025 17:30:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-KoGHR6YOOc69rKMnat1P3py8/DE\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Kendrick74@yahoo.com",
+      "name": "Test Customer",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 715,
+      "flat": 2831,
+      "phone": "+2892508593",
+      "createdOn": "2025-12-08T17:30:49.000Z",
+      "notes": "g0Sjusteleda7dE9W7XIAsR30WY7sQsKRpRAJ4hW8E5t1P8qhcCSnwVmF7pJ5e4U746nOGz1Y16Z9vLfQyoCl2mw1wPmPrPNwJANmcczjCXD2Pknlswb2dCQVUO7ymbeiHiuboJipsnifuiT7wWi9uJ4N126UfKLchm8L76DVxa4BcBGuRpj6TJPSEkNeDr99gPVpi7YF8zCQQo0zG9nuzi6XCCemKhcIKhUfk8L4e4TNppK3dV43DQlc5",
+      "_id": "69370b491c508c5d5e9a4d4f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

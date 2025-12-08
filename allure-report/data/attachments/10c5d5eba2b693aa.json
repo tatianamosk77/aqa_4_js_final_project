@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Mon, 08 Dec 2025 17:30:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "684",
+    "etag": "W/\"2ac-YAzR3eROCB6BSTJ0OCyoW6rlktE\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "69370b4e1c508c5d5e9a4ee7",
+        "email": "Cloyd.Lebsack41@gmail.com",
+        "name": "Allan Belle",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 538,
+        "flat": 9044,
+        "phone": "+0414453970",
+        "createdOn": "2025-12-08T17:30:54.000Z",
+        "notes": "aIVIT83AI3tZCDSGm9FXNIRuHkj3G3bfioLjxUkO821IxEkY7mv9iafGxa60gOCZ0zMR9uHhYTBQZXmdISDWA4F2rZIrTrbnhD0PVD1Pr0BqCeqyCFIFOH5dkSCfmmtmFxJA4Ms9Dr7curZJrakSGDVykGflopQPqd4KKrpYU179MvReQGsehFgF800ruMAnCsYEjvRN2xT5YSAURPuzQM915OQNEPZ2Vf981nQrYmhEn0dRJBod63aRLY"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Cloyd.Lebsack41@gmail.com",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

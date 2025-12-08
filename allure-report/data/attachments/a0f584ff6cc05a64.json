@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 08 Dec 2025 17:30:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-RTT4OSJXQzh8cw4X67KylWsw2Z4\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Chet.Leuschke@gmail.com",
+      "name": "Consuelo Rene",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 948,
+      "flat": 1915,
+      "phone": "+9032684364",
+      "createdOn": "2025-12-08T17:30:55.000Z",
+      "notes": "asC0Fvp1kBZuweTV3zTJkl3MCIUavpbZd901jhZC5rvRjmjDzTQnwnGUfmYNjq8oosM7gBCOH4svIfdw0IrUvrdwfwYhNLeQHqkZHygFv3ZhIqVtF2NEY8iN8U2Yf9ZJSbOfIIw9gQRPrn00eU0xuKu2qO5j1e7Puqw9FNu8iRO1pGiLx9BJrGyeSw39UUSrCDSTfJAPVigNjy6cbV3kn6IZTwJ2KBbiUYOg0PaA0zTVkVMeC8N6EqhwhM",
+      "_id": "69370b4f1c508c5d5e9a4f16"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

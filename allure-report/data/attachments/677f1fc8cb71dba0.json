@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Mon, 08 Dec 2025 17:30:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "678",
+    "etag": "W/\"2a6-1QpJx8EBhbTbw3QULkAGNgm8BTY\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "69370b4e1c508c5d5e9a4ee3",
+        "email": "Santina.Heidenreich@yahoo.com",
+        "name": "Reyna Alexane",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 727,
+        "flat": 7721,
+        "phone": "+7489745967",
+        "createdOn": "2025-12-08T17:30:54.000Z",
+        "notes": "uwtkZrsCCZlRXhkHq6eptwbSpDpeTZAai9bWWIpVRMB4oQwhUrvj1l1QB2y9up1DWycRSTWN1j3lW6hODMo7N80HjpEBOchhpm9ioXyhxLLMmPgG6NFOeQ5G6tPG6Bds4CA1ozjh0aNOlrZvni9nTokFWag8xVOHhbRkG5mjGf60Jc7HQaE2hnW8brrRaRQh0i785IpTzssPrvYLiMr0F6letlD6ZMPBNml2mDqzWEVWYP2tpgJoqU0auf"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Reyna Alexane",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
