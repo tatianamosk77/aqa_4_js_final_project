@@ -2,20 +2,22 @@ import {
   test as base,
   expect,
   // Page
-} from "@playwright/test";
-import { AddNewCustomerPage } from "ui/pages/customers/addNewCustomerPage";
-import { CustomersListPage } from "ui/pages/customers/customerListPage";
-import { HomePage } from "ui/pages/home.page";
-import { AddNewProductPage } from "ui/pages/products/addNewProduct.page";
-import { ProductsListPage } from "ui/pages/products/productsList.page";
-import { LoginPage } from "ui/pages/sign-in.page";
-import { AddNewCustomerUIService } from "ui/service/addNewCustomer.ui-service";
-import { AddNewProductUIService } from "ui/service/addNewProduct.ui-service";
-import { CustomersListUIService } from "ui/service/customersList.ui-service";
-import { EditProductUIService } from "ui/service/editProduct.ui-service";
-import { HomeUIService } from "ui/service/home.ui-service";
-import { LoginUIService } from "ui/service/login.ui-service";
-import { ProductsListUIService } from "ui/service/productsList.ui-service";
+} from '@playwright/test';
+import { AddNewCustomerPage } from 'ui/pages/customers/addNewCustomerPage';
+import { CustomersListPage } from 'ui/pages/customers/customerListPage';
+import { HomePage } from 'ui/pages/home.page';
+import { AddNewProductPage } from 'ui/pages/products/addNewProduct.page';
+import { ProductsListPage } from 'ui/pages/products/productsList.page';
+import { LoginPage } from 'ui/pages/sign-in.page';
+import { AddNewCustomerUIService } from 'ui/service/addNewCustomer.ui-service';
+import { AddNewProductUIService } from 'ui/service/addNewProduct.ui-service';
+import { CustomersListUIService } from 'ui/service/customersList.ui-service';
+import { EditProductUIService } from 'ui/service/editProduct.ui-service';
+import { HomeUIService } from 'ui/service/home.ui-service';
+import { LoginUIService } from 'ui/service/login.ui-service';
+import { ProductsListUIService } from 'ui/service/productsList.ui-service';
+import { EditCustomerUIService } from 'ui/service/editCustomer.ui-service';
+import { CustomerDetailsPage } from 'ui/pages/customers';
 
 export interface IPages {
   //pages
@@ -25,6 +27,7 @@ export interface IPages {
   customersListPage: CustomersListPage;
   addNewProductPage: AddNewProductPage;
   addNewCustomerPage: AddNewCustomerPage;
+  customerDetailsPage: CustomerDetailsPage;
 
   //ui-services
   homeUIService: HomeUIService;
@@ -33,6 +36,7 @@ export interface IPages {
   addNewProductUIService: AddNewProductUIService;
   addNewCustomerUIService: AddNewCustomerUIService;
   loginUIService: LoginUIService;
+  editCustomerUIService: EditCustomerUIService;
   editUIService: EditProductUIService;
 }
 
@@ -57,6 +61,9 @@ export const test = base.extend<IPages>({
   addNewCustomerPage: async ({ page }, use) => {
     await use(new AddNewCustomerPage(page));
   },
+  customerDetailsPage: async ({ page }, use) => {
+    await use(new CustomerDetailsPage(page));
+  },
 
   //ui-services
   homeUIService: async ({ page }, use) => {
@@ -66,8 +73,13 @@ export const test = base.extend<IPages>({
   productsListUIService: async ({ page }, use) => {
     await use(new ProductsListUIService(page));
   },
-  customersListUIService: async ({ page }, use) => {
-    await use(new CustomersListUIService(page));
+  customersListUIService: async (
+    { addNewCustomerPage, customerDetailsPage, customersListPage },
+    use
+  ) => {
+    await use(
+      new CustomersListUIService(customersListPage, addNewCustomerPage, customerDetailsPage)
+    );
   },
 
   addNewProductUIService: async ({ page }, use) => {
@@ -75,6 +87,9 @@ export const test = base.extend<IPages>({
   },
   addNewCustomerUIService: async ({ page }, use) => {
     await use(new AddNewCustomerUIService(page));
+  },
+  editCustomerUIService: async ({ page }, use) => {
+    await use(new EditCustomerUIService(page));
   },
   loginUIService: async ({ page }, use) => {
     await use(new LoginUIService(page));
