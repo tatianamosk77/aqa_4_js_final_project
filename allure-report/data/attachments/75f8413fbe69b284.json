@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Mon, 08 Dec 2025 17:33:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "671",
+    "etag": "W/\"29f-WMy9MWiMSUZWG4b71m358CpmMiQ\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "69370c041c508c5d5e9a5a29",
+        "email": "Emerson35@yahoo.com",
+        "name": "Obie Macy",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 891,
+        "flat": 9864,
+        "phone": "+5147157842",
+        "createdOn": "2025-12-08T17:33:56.000Z",
+        "notes": "h9Isa5MpmRbgCBrrcYlVMhj8uv1uJS0uBpuXFCqcCHGa74GSxP4rMUxZtwss497iew685IIPjsyzUjxZsVc4n5TTVM9kDkC8hZbETQnBBbXHDjBAqDfTpjgExsbRlOs4rxm1eUs7sjYH14b4xzaSCwfcKEuWc0z2ZS7PZ283x7uShozjhFmqjtRDdWs8p3LTm7eDZbfA5TLuRiTYaGiUpEXdfEk2Whu3CL41VFxiApiDI4eFk3PIoQo59C"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Emerson35@yahoo.com",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

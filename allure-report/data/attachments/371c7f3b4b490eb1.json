@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 08 Dec 2025 17:33:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-P4tyxBuofHKM8CL9aNYXwpLtjyc\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jessika.Hessel@yahoo.com",
+      "name": "Germaine Jake",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 591,
+      "flat": 306,
+      "phone": "+6124100894",
+      "createdOn": "2025-12-08T17:33:55.000Z",
+      "notes": "LqPiFmXJiYYJFj8K5u2Zz1VRBQkAtXlfjxQdjzUguNlQhbPm9C8iq28Nz1XKLECEUAJjzIjiptzJa8RW8UDiYN53NniBRWOWAsPwJQWU7ZtMu1y1hwQl1CNspDyuVQGZL0TAnszWVu7wOTMoCQ7YFD2S7YKPOOgUFr9FetX4u3oi8gvsxQyH59fxMvHjQeDHrmMCzNjlXffJmlmTRnuD3Y9WwaCgqsP4JA5Wn5mNlZZyM6eiYWFlo4dusX",
+      "_id": "69370c031c508c5d5e9a5a13"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

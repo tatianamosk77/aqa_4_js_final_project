@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "date": "Mon, 08 Dec 2025 17:33:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "96",
+    "etag": "W/\"60-1ojCzmWTosLXLSrgWAb2fZ8Y7mU\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "IsSuccess": false,
+    "ErrorMessage": "Customer with email 'Thora_Jast22@yahoo.com' already exists"
+  }
+}

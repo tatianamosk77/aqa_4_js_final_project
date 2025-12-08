@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 08 Dec 2025 17:33:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-GNkW5f7jw/qFXgskMZp2ig6ikH8\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ben.Little@hotmail.com",
+      "name": "Pedro Benjamin",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 508,
+      "flat": 1618,
+      "phone": "+5957035970",
+      "createdOn": "2025-12-08T17:33:51.000Z",
+      "notes": "YJQjrwqDByty0IA3slqST4tNqiGybHwvCVziJvi7KX5AvbGLAVR8cKA4EBzq0vqhnZdSk7LQfeOG1BTMoMNeZqGFQ02cN0MuEOqGxmcUadvWhWq6wbHDO1XaFtF2X4OQQ7KGf5k8iNrYCon0QT0TmtZc9QIgTpQCjIaPr4Gq8lcTbRf5EBNOdGWDt066ynvd7lz4TMz25LOPxPQfzmPqOQbWu31QvGIonr31eXFJxSrlNun2W5tJwRAdN4",
+      "_id": "69370bff1c508c5d5e9a58be"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

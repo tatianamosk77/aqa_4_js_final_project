@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 08 Dec 2025 17:34:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-azFe4gazIolwhqrDVIbJvYzJKUM\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Mohamed_Dare@yahoo.com",
+      "name": "Luigi Rex",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 832,
+      "flat": 5268,
+      "phone": "+1158911242",
+      "createdOn": "2025-12-08T17:34:02.000Z",
+      "notes": "mFnBLdyVR7KBuv3Hwq5WL3CmaDpQyHPTXco9LkLGJjtIUoN2oRt7SGnGCyF5VmMDtlm7Zh7d4RDNn4psx2waSCAsvlGmJ5FlSne4RFApDtLvo6yqaFxo1OA1P8eInZ678e7qbxAxfl4Fsh8arnyUFm3gyR7Dufy8vdKUwMWCkNN23g8jGzyndxryaweCdq6MBcOZZUH1o71Ta99VUAlgyKtf7eFxXGMbrczms5N2bfmE63fiIWmMfkEY4i",
+      "_id": "69370c0a1c508c5d5e9a5c67"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

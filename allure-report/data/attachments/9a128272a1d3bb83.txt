@@ -1,0 +1,109 @@
+Generated mock data: {
+  "Orders": [
+    {
+      "_id": "9a9fc3fbbef31aa0ba6a3831",
+      "status": "Draft",
+      "customer": "19308a48c1b03ca52a43f6a8",
+      "products": [
+        {
+          "_id": "7c1cfdb56bfa5d0b8cae0d0c",
+          "name": "Intelligent Rubber Pizza",
+          "amount": 9,
+          "price": 483,
+          "manufacturer": "Bartell - Hagenes",
+          "notes": "Adflicto catena contego paens pecus.",
+          "received": false
+        },
+        {
+          "_id": "c1abd6a5aace36e4ebdbe796",
+          "name": "Rustic Rubber Pizza",
+          "amount": 5,
+          "price": 980,
+          "manufacturer": "Macejkovic, Strosin and Bechtelar",
+          "notes": "Tolero vulticulus aeger.",
+          "received": false
+        },
+        {
+          "_id": "ae1c0bfeabdad67bb50deede",
+          "name": "Rustic Granite Bacon",
+          "amount": 15,
+          "price": 284,
+          "manufacturer": "Heller LLC",
+          "notes": "Casus adulatio tempore.",
+          "received": false
+        },
+        {
+          "_id": "ecbc347bf8a1af16afdd51e3",
+          "name": "Practical Metal Salad",
+          "amount": 22,
+          "price": 925,
+          "manufacturer": "Becker, Blick and Mueller",
+          "notes": "Verumtamen aggero clibanus.",
+          "received": true
+        }
+      ],
+      "delivery": null,
+      "total_price": 33857,
+      "createdOn": "2025-12-08T14:41:53.702Z",
+      "comments": [],
+      "history": [],
+      "assignedManager": null
+    },
+    {
+      "_id": "abc0824f6afdfd267a9bb5dc",
+      "status": "Draft",
+      "customer": "19308a48c1b03ca52a43f6a8",
+      "products": [
+        {
+          "_id": "863ab7df6b5bd3d41dbf2adb",
+          "name": "Handmade Granite Chicken",
+          "amount": 59,
+          "price": 616,
+          "manufacturer": "Hickle and Sons",
+          "notes": "Coma quia velociter cena venio est voluntarius barba sonitus.",
+          "received": false
+        },
+        {
+          "_id": "ddddb20c6fb5d9aad5e1f984",
+          "name": "Modern Bronze Pants",
+          "amount": 98,
+          "price": 664,
+          "manufacturer": "Kessler LLC",
+          "notes": "Sufficio capitulus cruentus.",
+          "received": true
+        }
+      ],
+      "delivery": null,
+      "total_price": 101416,
+      "createdOn": "2025-12-08T13:50:12.042Z",
+      "comments": [],
+      "history": [],
+      "assignedManager": null
+    },
+    {
+      "_id": "517d92cafdb07ba8b9a2fd31",
+      "status": "Draft",
+      "customer": "19308a48c1b03ca52a43f6a8",
+      "products": [
+        {
+          "_id": "f5dfd87909ba78b08ec7be36",
+          "name": "Tasty Ceramic Shoes",
+          "amount": 20,
+          "price": 606,
+          "manufacturer": "Armstrong Group",
+          "notes": "Vado deputo cruentus aperiam stipes artificiose cerno attero absorbeo.",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 12120,
+      "createdOn": "2025-12-07T22:16:32.552Z",
+      "comments": [],
+      "history": [],
+      "assignedManager": null
+    }
+  ],
+  "IsSuccess": true,
+  "ErrorMessage": null
+}
+Data is valid according to the schema.

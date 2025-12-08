@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 08 Dec 2025 17:33:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-lYEBU+AH9EsgEi7YxrYhJTCK4UE\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Verdie.Beier73@hotmail.com",
+      "name": "Test Customer",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 634,
+      "flat": 5112,
+      "phone": "+4687829963",
+      "createdOn": "2025-12-08T17:33:51.000Z",
+      "notes": "VnsuRYsbswPbkfGUwY7ifT9FA7VQSqPrm0UloPWXcNNvK46d0fMnRfZvEOiQLB20WQ6gURo98nnxdEZ4YzOVpBMKFBZzSXieyTTYQ87NGphctfSKhHFWsYsU6zc47jGKkbbJjzY6Y7PsL1SLDVxvRaTu9vkDcVtRyTlg7b3vfgIGIbrmpBHxdw3eNPsFX5CbTsaequmyu2rsmj3tfDj6UCfOZKP5OsymeWM4wP9t8gCoZrZqJOtiqBwLz9",
+      "_id": "69370bff1c508c5d5e9a5899"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

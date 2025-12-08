@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 08 Dec 2025 17:33:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-BiEqHpsaNMkJNM3B7hSt9YW+Aic\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Cullen.Stokes@yahoo.com",
+      "name": "Adrien Linnie",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 870,
+      "flat": 3216,
+      "phone": "+7561452347",
+      "createdOn": "2025-12-08T17:33:56.000Z",
+      "notes": "HW5Oh22umKb7Erf1nLZ5glI1CPQYu6T655YrjfmKsJMhhVnEvIxEcCnNr5HRnygMIJ8N92VqZgWDwW5CHBI1ML3OEacwXVLojIIAkiSU9uatXlYxmFqIG74uVO1PM4PBefdC3YwC4oQaQVDE7vHelAYJ9NJ23Q9fF1CJHNb2EPeAbZfgezegNPBUAIqnAoJS9pbrx0zBduzsEHNqWTgLiQjk7U0b8bq5z0r2p8KqcSfTjDs3mcfT9ah7m2",
+      "_id": "69370c041c508c5d5e9a5a3d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
