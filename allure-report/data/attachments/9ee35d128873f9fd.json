@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 08 Dec 2025 22:15:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-Wtzb20yBHgvcDuujrDzvPQfsB44\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jordyn.Becker@yahoo.com",
+      "name": "Jarred Alicia",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 308,
+      "flat": 1188,
+      "phone": "+9765101784",
+      "createdOn": "2025-12-08T22:15:38.000Z",
+      "notes": "3Fspt7baqMgrkmrGCXQHY3Upgyhl3fzCNH5Es17CCHTHLnNwezHnJdRRMtBSpiWbfegA7h79y9PETlfhOPvVhFSOL3W04c7Yh5neiICyd5bufEbwCfaJ0RQZa2JvicMzn2ljnzSXpH68TmA0ZlpRjS56HJv4d1IAKNYiKmt7KjU23RLblzHItpInooFM085d9iKt2xWrKaCGpdevDN7ggIhiAPLE1OvkcqtNw21cLUymWcOe780Dc099Fw",
+      "_id": "69374e0a1c508c5d5e9ac540"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

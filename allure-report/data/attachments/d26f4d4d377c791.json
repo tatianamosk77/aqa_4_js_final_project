@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "date": "Mon, 08 Dec 2025 22:15:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "203",
+    "etag": "W/\"cb-FE8i2EIAIgBTo85PXd81C3BdAGg\"",
+    "keep-alive": "timeout=5, max=73",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Table89300",
+      "amount": 644,
+      "price": 53850,
+      "manufacturer": "Tesla",
+      "createdOn": "2025-12-08T22:15:38.000Z",
+      "notes": "",
+      "_id": "69374e0a1c508c5d5e9ac53e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

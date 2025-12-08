@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 08 Dec 2025 22:15:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "307",
+    "etag": "W/\"133-7CMb3ag3n1qFLn9zJSn3t3dRoVY\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ronaldo_Konopelski@yahoo.com",
+      "name": "Maxime April",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 364,
+      "flat": 5325,
+      "phone": "+5307736944",
+      "createdOn": "2025-12-08T22:15:23.000Z",
+      "notes": "",
+      "_id": "69374dfb1c508c5d5e9ac162"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

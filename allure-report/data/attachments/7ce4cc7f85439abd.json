@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 08 Dec 2025 22:15:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-ydUws7vUYmDkUgeUWTy+e1xi1eI\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Barry5@hotmail.com",
+      "name": "Adelle Frederik",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 560,
+      "flat": 7302,
+      "phone": "+3328561009",
+      "createdOn": "2025-12-08T22:15:33.000Z",
+      "notes": "I6Cptx0xRH2ZwMBtBdKbx5nip4QLIPRPaW6hm14CtuzsB7MZWK8VnVI03SoTXERNL7tpEo76Pe3nOIAZwHP5zdz05iKehyledrWzYgAuLg6VNRQ9gPqM9DyXiWopqEgVO5k3up2mOyMLBDGlivM9RP2Sm3diZOqs0qz36a6IXhLcmq9WHrZaDWAietena2OfkiwRoCG1FeLgjOeguK1lBIvAjAeelPQTc7bMO145EFJ0mHT7TP36BYjVNo",
+      "_id": "69374e051c508c5d5e9ac288"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
