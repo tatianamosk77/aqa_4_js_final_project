@@ -50,7 +50,7 @@ export class ProductsListUIService {
 
   @logStep("Open Products List Page")
   async open() {
-    await this.productsListPage.open("products");
+    await this.productsListPage.open();
     await this.productsListPage.waitForOpened();
   }
 
