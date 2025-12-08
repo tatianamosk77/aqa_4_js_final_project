@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 08 Dec 2025 17:38:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-lHzao7je1xa+qXF9abUgJcHoCt8\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Bert_Crona@hotmail.com",
+      "name": "Pierre Lelah",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 269,
+      "flat": 4024,
+      "phone": "+3134020630",
+      "createdOn": "2025-12-08T17:38:42.000Z",
+      "notes": "LhG49rJey4DPY7yXgjNyBESOIRLbwToYuVUkRNXhKRweMvMTp7HHTIPKv9x5zyrlVhc7v7fMnAIp2oJue9Nst0M63NQEVKXVN1guUkFSExjFwwR8In7uPqWjH2uR5NzweX8LX0sLvuGtgpY9UmpJaRR3GojiOJsPp7lzak09tXsaPwAOHp5ZlT62FcWf7IDOouGv33odYUe9yn59iK7g8hwqgnZSMax4UlASi8jdxvAHdR0qZxL5y0d9zY",
+      "_id": "69370d221c508c5d5e9a66d5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 08 Dec 2025 17:38:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-gcx/sBSHInas6JPDypywsK+aPS4\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Raoul45@hotmail.com",
+      "name": "Enoch Anthony",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 306,
+      "flat": 9761,
+      "phone": "+4395185701",
+      "createdOn": "2025-12-08T17:38:42.000Z",
+      "notes": "pjp9MX97th1DIVdt94GLzOgVhcPqNuU3rWsqqwPlbW7CnEYwfyKEZnhRpyyX4wY7YhpgZqiRQnp9hLXrFcLYvzVbP0zFTfxRsSAlTSqyW0d2KtfJnvDd6SHHPDlsQArvEoZqivLtIALIE5Btu9VHp6Wfpux6jwmkE7hb5sRxoxtM405brIoDkDjM9cmxNzJbklS3chrgVXObA640CNbxknVrBdoD4ZuLaIE6DanmrSKMmNjg16OyKxa2MC",
+      "_id": "69370d221c508c5d5e9a670a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

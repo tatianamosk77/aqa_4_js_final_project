@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Mon, 08 Dec 2025 17:38:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "692",
+    "etag": "W/\"2b4-BDtWt5zVa7i3NQS7BDPbgo/GrEE\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "69370d211c508c5d5e9a66aa",
+        "email": "Jorge.Marvin28@gmail.com",
+        "name": "Deion Jedidiah",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 855,
+        "flat": 9475,
+        "phone": "+0366995325",
+        "createdOn": "2025-12-08T17:38:41.000Z",
+        "notes": "i9y72OBi28BiIT694jXzGWHbX2dMNxI10dtmil1FXqC7nxZdzfb0PNxKCXcBXDLlyThrbquURMKnl1f84jxBaudKeCOvkqTEGMFigfOWcIbQ31KkcBZtWMCBJ8DuOawP8KhOvO4llykaZuRB5QTCd0kcSvSudS5VK4uoRct7D6c2OHzSI2LfmrLn3nbTzDg8CpBHrDt8lWLbTSrp3KrjNIcO2viBLSEQioayRmFoSjsR929NUt9u6szQRN"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Jorge.Marvin28@gmail.com",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

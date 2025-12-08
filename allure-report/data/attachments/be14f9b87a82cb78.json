@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 08 Dec 2025 17:38:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-sAch9rNeM4yQhnt/4JK+DlETOQg\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Angelita.Kreiger@gmail.com",
+      "name": "Rose Imani",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 19,
+      "flat": 7071,
+      "phone": "+5539940810",
+      "createdOn": "2025-12-08T17:38:41.000Z",
+      "notes": "F2SzVocY2yV9aoihjX84HWfhPoTIMZmDVu9Tva7veLSNhSmsSpN8KcUzV4eUEaZDDBaP0TwlgQT5eitBl3Fmb2M6bd8hOGswWT3SvG6jg4JqN8VlKsD3uwmxiv6juW5jNFlLLNjmhFQoUebCMBStnb6PzyYxlVUHG1vMInDmADYUnE9iWP13uB7t4uJ51a764646QUX7QSyY4cM2WckUbJSSba4dLA4jjr0kWlguDoSManQz97AKVE73v3",
+      "_id": "69370d211c508c5d5e9a66b7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

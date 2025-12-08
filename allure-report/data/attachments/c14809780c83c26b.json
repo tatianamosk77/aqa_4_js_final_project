@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 08 Dec 2025 17:38:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-19XWujFRXZLIHQcgYGA5Rg92osU\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Mara75@hotmail.com",
+      "name": "Micaela Laverna",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 610,
+      "flat": 1,
+      "phone": "+2104115468",
+      "createdOn": "2025-12-08T17:38:37.000Z",
+      "notes": "pH7wCiAoVRUEaC6N1nLjciymNy8VsxnJTPTq1vLLAuwOwUvZhE6F8lWp7F6sAxs5w67UIw9UazBbU6NFdebsGiUZxLgHcfo5YsZ4hVBSneyRJpvPoPQlGWbVgvWmtJMfbmV12qh4poouLtfeFS5rO2po7djhwBFo91Uklto7fdQVv3bK7MTwsE5gTHepiIgdAvp39XFu4HF1ygQg9Q0B0kSepWkqzenLvwKEewmbUTtg5pHgKnJsEteE6q",
+      "_id": "69370d1d1c508c5d5e9a6598"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
