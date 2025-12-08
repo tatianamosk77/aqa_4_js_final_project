@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Mon, 08 Dec 2025 17:45:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "690",
+    "etag": "W/\"2b2-DhHRUjlGhSp61jcF3wMdG3FdyPo\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "69370ecc1c508c5d5e9a6f4e",
+        "email": "Tyrel.Smitham64@gmail.com",
+        "name": "Lance Meta",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 525,
+        "flat": 8268,
+        "phone": "+9169794360",
+        "createdOn": "2025-12-08T17:45:48.000Z",
+        "notes": "SXcYFT3jlWsHk3oqwbqJxqIGvnqCAnNC3v5PUjyaXHvNz2w9D2Ff5ZCgbVwN9RMo87S7GHonldaQVjv2XkfeQVZZ41C1PyQiUucPT77OmTNltrKrpTlWRMN2FR6SRuFBqoHmf1QL3gg2hvyIoKVre2qfVJTOQQyjnkBKnQzKq3RvFtjQhkSELUAhFLh6c3BDdfRF1eCSRDK8QQZgvYtf2ig4lP72Uw1LfyuZbQK7fOlL8n4VvfD5WXASRi"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Tyrel.Smitham64@gmail.com",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

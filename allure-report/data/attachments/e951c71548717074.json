@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "date": "Mon, 08 Dec 2025 17:45:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "228",
+    "etag": "W/\"e4-e+lst3Gu8oDf7TTNPKYWTjXpcjk\"",
+    "connection": "close"
+  },
+  "body": {
+    "IsSuccess": false,
+    "ErrorMessage": "Incorrect request body",
+    "SchemaErrors": [
+      {
+        "instancePath": "",
+        "schemaPath": "#/required",
+        "keyword": "required",
+        "params": {
+          "missingProperty": "phone"
+        },
+        "message": "must have required property 'phone'"
+      }
+    ]
+  }
+}
