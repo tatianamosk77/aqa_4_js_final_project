@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 08 Dec 2025 17:24:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "558",
+    "etag": "W/\"22e-I/+p6qM1uHKgxPfj0lv2X97q5jE\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Alexandra.Shanahan@hotmail.com",
+      "name": "Marilou Alexandre",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 332,
+      "flat": 7209,
+      "phone": "+0844117172",
+      "createdOn": "2025-12-08T17:24:20.000Z",
+      "notes": "BdE5O7psFE34kQmYvfOT4UhSNfbLnktRj2KZvRNrfgpKJv4Tk5xL1LwIpEfUFstZUTe5kj7C28L4YAzMlTTzbkbzdo1ZduHW35VTH59iTdUAAvx02wnuq6GZRO67SVEoMWVNlrX9PCYDPhoL0ngw4xTiEjd8UvjOKHv6WlsVEHyZlwQyjl8bDpMl5ahC2LPuo3zQrI20oQrLlG2SQHDUWJJxAEOc0wJP3HADrQlb76qO36FyQjVUgV3pYd",
+      "_id": "693709c41c508c5d5e9a4153"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

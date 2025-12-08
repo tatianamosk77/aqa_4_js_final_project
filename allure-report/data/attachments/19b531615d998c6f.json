@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 08 Dec 2025 17:24:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-skCeo03V3+JZdrKTO9lM8XJSGHs\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Napoleon_Conn28@hotmail.com",
+      "name": "Test Customer",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 434,
+      "flat": 4457,
+      "phone": "+2926424609",
+      "createdOn": "2025-12-08T17:24:14.000Z",
+      "notes": "MGGq1DnBLb9GaFzKFE4XnbMwSrzXNB1xb6oDx8ZZOwV91cLI1Fj72ncMRrZnCucIPNjIENl88NYLduvsGyjBOlGnUNMFZLfTgAeW6kg3YfxJK0wK2QObs0iKeN8BDsuhfHGa1pW1fY5W5bFDXO9c3CUMsnzFHc6B8n0zD0o7qKTtQlfY5CatDZnpI1ezQVW6dgkhsxfdw4xPkLMoth41CNd9kdl6HdObI9IUckWfNzPvrjAwQ4BvLk6W4e",
+      "_id": "693709be1c508c5d5e9a3f84"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "date": "Mon, 08 Dec 2025 17:24:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "288",
+    "etag": "W/\"120-l6d84thY8Pc8BlgNeo6o63mLaCw\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Cade.Hoeger81@hotmail.com",
+      "name": "Elvie Donavon",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 759,
+      "flat": 6385,
+      "phone": "+2554516142",
+      "createdOn": "2025-12-08T17:24:16.000Z",
+      "_id": "693709c01c508c5d5e9a4031"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

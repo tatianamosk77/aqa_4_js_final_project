@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "date": "Mon, 08 Dec 2025 17:24:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "193",
+    "etag": "W/\"c1-2AzbYEZdscNXV3gM2ldMkYiwQ7w\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Cheese75009",
+      "amount": 86,
+      "price": 7558,
+      "manufacturer": "Samsung",
+      "createdOn": "2025-12-08T17:24:27.000Z",
+      "_id": "693709cb1c508c5d5e9a43b2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

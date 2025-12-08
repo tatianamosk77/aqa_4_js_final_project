@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 08 Dec 2025 17:24:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "555",
+    "etag": "W/\"22b-hvrsw3aOLpRaJJKqI7P0SQ7MPNc\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Dominique.Abernathy@gmail.com",
+      "name": "Wilfrid Lindsay",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 368,
+      "flat": 6828,
+      "phone": "+0835753752",
+      "createdOn": "2025-12-08T17:24:15.000Z",
+      "notes": "VhZXRQApv3lEVhTMI9FAHQPEuYqG8gHHdCJJr8wanQ9aLzzf8zaHW1c6xEXFXQLaK2XAq1C2zcRnhOo9RpagwdoypcnOS4kuBFGaMq6n5jf4StJ4ULmhuLmy848X25gzAbKIDZVoxA8HNQzJ4O9hFA7MZ6I4CqjVHvtu4bqJcNrIkUJ3Z4U6WDNPSpf4LciVQ6Wh09yET82opMCEK11lVIxYnzvkgetp2OQXl2ZbChQlYWOK6sfmiLbiIN",
+      "_id": "693709bf1c508c5d5e9a401d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

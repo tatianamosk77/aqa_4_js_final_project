@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 08 Dec 2025 17:24:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-a9C/F3A0YT4ReNSR1DQXHdJRb/s\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Oscar47@gmail.com",
+      "name": "Lucas Martina",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 967,
+      "flat": 3033,
+      "phone": "+2340283016",
+      "createdOn": "2025-12-08T17:24:20.000Z",
+      "notes": "oRDpwu5987ZEUN8zvSWDfLAozSVTSDyeOOPONhx8NzpRwBBllUQjgs97oGKhtyEI3oRhAIFh82JO0KoYN3vml2LIrT5JPx1RdSpO4YanmDmPBze0LaarsZe1yavpgnpogRefedQcwCNikhTCAwGC0fLeG7J3h2CpKtztVMKnxvkyzOvZftudHlRpgaQBtcRcYDoXztgV4VupXs6OwWy130o42lNTkjYC6Rk0scVXlWePpXueqeNPro0Nu2",
+      "_id": "693709c41c508c5d5e9a411f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
