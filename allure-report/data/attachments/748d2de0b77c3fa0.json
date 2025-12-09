@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Tue, 09 Dec 2025 22:16:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "665",
+    "etag": "W/\"299-+J0xL3vTX7Qn6Fnosv3MRp+eOKI\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "69389fba1c508c5d5e9facfd",
+        "email": "Treva.Batz@yahoo.com",
+        "name": "Wava Oceane",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 230,
+        "flat": 1188,
+        "phone": "+1162131634",
+        "createdOn": "2025-12-09T22:16:26.000Z",
+        "notes": "xacc8rQNn1VlDjU8McBNdJOfUNGdCxMfPeGEP4qDo6gNExqbYKNu0zL5dxocUPU2kgzQi73PYym32MZ93I1xcv6c2VcRZZeYwPHhkcd2DsLe5IzPEX2ysCl49ddaQkn4GKSyoZTbh8wE69TNYAR82oM8HG8ubveLRjskXIWyaCoAHnn59agPw8lrfdRPLWJxEVbPrlQcnpBDvlxGvhTCpFi6kjvhmy9WiZIN6raikYJgj9q5cjujBTnIaF"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Wava Oceane",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

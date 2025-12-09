@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 09 Dec 2025 22:16:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-emJdfqMzb/ucYVUZsYh+TJIHu5c\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Cristal42@gmail.com",
+      "name": "Kasey Amanda",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 506,
+      "flat": 1203,
+      "phone": "+0790424915",
+      "createdOn": "2025-12-09T22:16:28.000Z",
+      "notes": "eJ5dRXPIixxvPsN2GzbljfmlbEeg39P5uBQNiFd6cngmw7AJDekHzOxYEL2nsEXL5FCjaQ9o0pqt7rBkmPzWwFuPOQjJmmGoJGd2opwNBiApwkn9RjEdzgcD0PVq7PsBbcGTZAdTHmYratf85CaQIcBOk2Fx61KfNQ1pJnFKYYXhYvtzMUh9v7te5QZL1arsNeDiFmRfFNY4kzmrxOwJ3k4tcdO0oWAiOY0A7imex3pb1ShEe9nicNgQ4Z",
+      "_id": "69389fbc1c508c5d5e9fad60"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 09 Dec 2025 22:16:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-XhW1HOlu5Z5zyenw9yJDdmW9J6g\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ottilie53@yahoo.com",
+      "name": "Test Customer",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 496,
+      "flat": 2188,
+      "phone": "+0540525627",
+      "createdOn": "2025-12-09T22:16:19.000Z",
+      "notes": "gXStk6AZRXFbIPWzXqJM7HmktLW4FwJuD05OcDpPSEBc0vqg6ewKt6RO4Nd4rOT47Y0COAKqP1QxLPSvEjcgxnXNCkRooH45SwUDoBzItOgV6YPfM4dW3fV5bNc1vUyFGpFI7F0n0BsJITs6OlLdWGBzNp4kFxe5meBcABqIj7CrmQQCvDKNELJHwCOkmgyjoq3axG9t5dYdQnFShfcC6se3XhWEjSIcf0Ekf4DAv9OOlFrC6hTlgDOQxr",
+      "_id": "69389fb31c508c5d5e9fab5f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

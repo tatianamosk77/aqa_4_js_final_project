@@ -1,0 +1,171 @@
+Generated mock data: {
+  "Orders": [
+    {
+      "_id": "c9ff33a7e5b941d1dbfa0bb7",
+      "status": "Draft",
+      "customer": "19308a48c1b03ca52a43f6a8",
+      "products": [
+        {
+          "_id": "bf8258daaefe84be332a91be",
+          "name": "Recycled Metal Car",
+          "amount": 26,
+          "price": 175,
+          "manufacturer": "Rutherford LLC",
+          "notes": "Labore deserunt consequuntur validus exercitationem arcus summopere.",
+          "received": true
+        },
+        {
+          "_id": "a2afa8bedda66cb4d8b18e9d",
+          "name": "Electronic Silk Ball",
+          "amount": 86,
+          "price": 998,
+          "manufacturer": "Christiansen, Roob and Sawayn",
+          "notes": "Volubilis totus ventus deprimo uberrime avaritia repudiandae crapula absens volaticus.",
+          "received": true
+        },
+        {
+          "_id": "e5ba39a769ea85342fd7a1dd",
+          "name": "Handcrafted Metal Tuna",
+          "amount": 47,
+          "price": 785,
+          "manufacturer": "Lesch and Sons",
+          "notes": "Bis tripudio caritas reiciendis id.",
+          "received": true
+        },
+        {
+          "_id": "8deeeffeb6e2fcbb50eff720",
+          "name": "Handcrafted Gold Ball",
+          "amount": 12,
+          "price": 158,
+          "manufacturer": "Brown Inc",
+          "notes": "Ademptio votum astrum utor super ab accommodo.",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 129169,
+      "createdOn": "2025-12-09T05:19:01.612Z",
+      "comments": [],
+      "history": [],
+      "assignedManager": null
+    },
+    {
+      "_id": "d2ebb42a32ee2f53ea7ffc92",
+      "status": "Draft",
+      "customer": "19308a48c1b03ca52a43f6a8",
+      "products": [
+        {
+          "_id": "bf7ff3b0b867dbe4ffa49bce",
+          "name": "Frozen Rubber Chair",
+          "amount": 90,
+          "price": 514,
+          "manufacturer": "Beatty - Lemke",
+          "notes": "Ratione adhaero tam vinco tandem thema ipsam aduro combibo.",
+          "received": false
+        },
+        {
+          "_id": "ee5ec6aeb1e7ddafeb4dd815",
+          "name": "Handcrafted Cotton Table",
+          "amount": 99,
+          "price": 768,
+          "manufacturer": "Fadel, O'Hara and Barrows",
+          "notes": "Arguo abeo suppono defetiscor caelum atrocitas confero statim.",
+          "received": false
+        },
+        {
+          "_id": "3e91ea9b64e6a5fdcbbe7dcc",
+          "name": "Ergonomic Steel Bacon",
+          "amount": 64,
+          "price": 66,
+          "manufacturer": "Crooks, Harvey and Huels",
+          "notes": "Cunae taceo amet comitatus infit cum canis strues voluptates alius.",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 126516,
+      "createdOn": "2025-12-09T00:42:01.656Z",
+      "comments": [],
+      "history": [],
+      "assignedManager": null
+    },
+    {
+      "_id": "95bac4bfa0a7cfe2c65b9c1f",
+      "status": "Draft",
+      "customer": "19308a48c1b03ca52a43f6a8",
+      "products": [
+        {
+          "_id": "d08b088d16bd867fb2daf87e",
+          "name": "Luxurious Rubber Towels",
+          "amount": 99,
+          "price": 612,
+          "manufacturer": "Erdman, Koepp and Ryan",
+          "notes": "Vester suscipio tepesco quas blanditiis tracto crebro.",
+          "received": true
+        },
+        {
+          "_id": "d1bd84ead09bbc8d51c71f6b",
+          "name": "Sleek Granite Pizza",
+          "amount": 89,
+          "price": 551,
+          "manufacturer": "Halvorson Inc",
+          "notes": "Sodalitas ex vinculum confugo vespillo deorsum.",
+          "received": true
+        }
+      ],
+      "delivery": null,
+      "total_price": 109627,
+      "createdOn": "2025-12-09T04:22:17.084Z",
+      "comments": [],
+      "history": [],
+      "assignedManager": null
+    }
+  ],
+  "IsSuccess": true,
+  "ErrorMessage": null
+}
+Data is not valid according to the schema.
+[
+  {
+    instancePath: '/Orders/0/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/0/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/allOf/0/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/1/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/1/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/allOf/0/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/2/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/2/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/allOf/0/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  }
+]

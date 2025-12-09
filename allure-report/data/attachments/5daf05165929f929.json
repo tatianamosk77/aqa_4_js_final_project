@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 09 Dec 2025 22:16:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "290",
+    "etag": "W/\"122-0fdG6geFUmwFfiVAel7ZYopmTOg\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Marco87@yahoo.com",
+      "name": "Nola Zachary",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 429,
+      "flat": 2845,
+      "phone": "+1114456483",
+      "createdOn": "2025-12-09T22:16:21.000Z",
+      "notes": "",
+      "_id": "69389fb51c508c5d5e9fac40"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,153 @@
+Generated mock data: {
+  "Orders": [
+    {
+      "_id": "dc5f2ce5e956c8a1a69bdbd2",
+      "status": "Draft",
+      "customer": "19308a48c1b03ca52a43f6a8",
+      "products": [
+        {
+          "_id": "bebff07e5fb4dbeef746b7a5",
+          "name": "Intelligent Bronze Gloves",
+          "amount": 33,
+          "price": 491,
+          "manufacturer": "Rempel, Maggio and Funk",
+          "notes": "Tendo cedo verbum creo ullam aut subvenio tantillus ultra.",
+          "received": true
+        },
+        {
+          "_id": "b3ef15dbc2a7cbeebbec5ead",
+          "name": "Ergonomic Bronze Fish",
+          "amount": 5,
+          "price": 459,
+          "manufacturer": "Wolff - Quitzon",
+          "notes": "Texo creo conculco esse valeo sapiente.",
+          "received": true
+        },
+        {
+          "_id": "89baac79d13eae76f850a4cb",
+          "name": "Handcrafted Granite Towels",
+          "amount": 44,
+          "price": 189,
+          "manufacturer": "Bruen Inc",
+          "notes": "Ante sophismata vorax acquiro clam turba.",
+          "received": true
+        },
+        {
+          "_id": "7a8fdeacfbb96f2572af3e49",
+          "name": "Handmade Rubber Towels",
+          "amount": 65,
+          "price": 112,
+          "manufacturer": "Orn and Sons",
+          "notes": "Audax molestiae attollo ciminatio brevis sustineo demo arca.",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 34094,
+      "createdOn": "2025-12-09T15:42:49.580Z",
+      "comments": [],
+      "history": [],
+      "assignedManager": null
+    },
+    {
+      "_id": "2a20fda9fce53db4dc7a5ace",
+      "status": "Draft",
+      "customer": "19308a48c1b03ca52a43f6a8",
+      "products": [
+        {
+          "_id": "ff5368af1bb647b0144aece3",
+          "name": "Intelligent Gold Chicken",
+          "amount": 38,
+          "price": 347,
+          "manufacturer": "Pollich, Powlowski and Dickens",
+          "notes": "Fugit damno accommodo tactus suppono tabgo tamen.",
+          "received": true
+        },
+        {
+          "_id": "2a33c7ef7dfa55dfdb3dd8ba",
+          "name": "Recycled Rubber Gloves",
+          "amount": 68,
+          "price": 866,
+          "manufacturer": "Hane LLC",
+          "notes": "Sequi sui crux arguo subvenio.",
+          "received": true
+        }
+      ],
+      "delivery": null,
+      "total_price": 72074,
+      "createdOn": "2025-12-09T05:40:41.358Z",
+      "comments": [],
+      "history": [],
+      "assignedManager": null
+    },
+    {
+      "_id": "d3cedaeacafd8deb51d6999b",
+      "status": "Draft",
+      "customer": "19308a48c1b03ca52a43f6a8",
+      "products": [
+        {
+          "_id": "123b5bc0c7dd25cc213dcbb6",
+          "name": "Handmade Concrete Chicken",
+          "amount": 16,
+          "price": 29,
+          "manufacturer": "Graham Inc",
+          "notes": "Demergo tribuo apostolus recusandae.",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 464,
+      "createdOn": "2025-12-09T18:53:17.532Z",
+      "comments": [],
+      "history": [],
+      "assignedManager": null
+    }
+  ],
+  "IsSuccess": true,
+  "ErrorMessage": null
+}
+Data is not valid according to the schema.
+[
+  {
+    instancePath: '/Orders/0/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/0/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/allOf/0/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/1/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/1/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/allOf/0/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/2/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/2/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/allOf/0/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  }
+]
