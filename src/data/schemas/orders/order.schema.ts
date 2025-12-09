@@ -1,6 +1,9 @@
 import { obligatoryFieldsSchema, obligatoryRequredFields } from '../core.schema';
+import { customerSchema } from 'data/schemas/customers/customer.schema';
+import { ORDER_STATUS } from 'data/orders/statuses.data';
+import { commentOrderSchema } from 'data/schemas/comments/orderComments.schema';
 
-export const orderProductSchema = {
+export const productInOrderSchema = {
   type: 'object',
   properties: {
     _id: { type: 'string' },
@@ -15,7 +18,7 @@ export const orderProductSchema = {
   additionalProperties: false,
 };
 
-export const historyPerformerSchema = {
+export const performerSchema = {
   type: 'object',
   properties: {
     _id: { type: 'string' },
@@ -26,7 +29,7 @@ export const historyPerformerSchema = {
       type: 'array',
       items: { type: 'string' },
     },
-    createdOn: { type: 'string' },
+    createdOn: { type: 'string' }, // Дата в формате '2025/10/23 16:51:13'
   },
   required: ['_id', 'username', 'firstName', 'lastName', 'roles', 'createdOn'],
   additionalProperties: false,
@@ -39,13 +42,13 @@ export const orderHistoryItemSchema = {
     customer: { type: 'string' },
     products: {
       type: 'array',
-      items: orderProductSchema,
+      items: productInOrderSchema,
     },
-    total_price: { type: 'integer', minimum: 0 },
+    total_price: { type: 'number', minimum: 0 },
     delivery: { type: ['object', 'null'] },
-    changedOn: { type: 'string', format: 'date-time' },
+    changedOn: { type: 'string', format: 'date-time' }, // ISO 8601: "2025-12-09T10:16:39.000Z"
     action: { type: 'string' },
-    performer: historyPerformerSchema,
+    performer: performerSchema,
     assignedManager: { type: ['string', 'null'] },
   },
   required: [
@@ -62,7 +65,6 @@ export const orderHistoryItemSchema = {
   additionalProperties: false,
 };
 
-// временно
 export const assignedManagerSchema = {
   type: 'object',
   properties: {
@@ -70,8 +72,64 @@ export const assignedManagerSchema = {
     username: { type: 'string' },
     firstName: { type: 'string' },
     lastName: { type: 'string' },
+    roles: {
+      type: 'array',
+      items: { type: 'string' },
+    },
   },
-  required: ['_id', 'username', 'firstName', 'lastName'],
+  required: ['_id', 'username', 'firstName', 'lastName', 'roles'],
+  additionalProperties: false,
+};
+// // временно
+// export const assignedManagerSchema = {
+//   type: 'object',
+//   properties: {
+//     _id: { type: 'string' },
+//     username: { type: 'string' },
+//     firstName: { type: 'string' },
+//     lastName: { type: 'string' },
+//   },
+//   required: ['_id', 'username', 'firstName', 'lastName'],
+//   additionalProperties: false,
+// };
+
+export const deliverySchema = {
+  type: 'object',
+  properties: {
+    address: {
+      type: 'object',
+      properties: {
+        country: {
+          type: 'string',
+        },
+        city: {
+          type: 'string',
+        },
+        street: {
+          type: 'string',
+        },
+        house: {
+          type: 'number',
+        },
+        flat: {
+          type: 'number',
+        },
+      },
+
+      required: ['country', 'city', 'street', 'house', 'flat'],
+      additionalProperties: false,
+    },
+    finalDate: {
+      type: 'string',
+      format: 'date-time',
+    },
+    condition: {
+      type: 'string',
+      enum: ['Pickup', 'Delivery'],
+    },
+  },
+
+  required: ['address', 'finalDate', 'condition'],
   additionalProperties: false,
 };
 
@@ -79,18 +137,21 @@ export const orderSchema = {
   type: 'object',
   properties: {
     _id: { type: 'string' },
-    status: { type: 'string' },
-    customer: { type: 'string' },
+    status: { type: 'string', enum: Object.values(ORDER_STATUS) },
+    // status: { type: 'string' },
+    customer: { type: 'object', allOf: [customerSchema] },
     products: {
       type: 'array',
-      items: orderProductSchema,
+      items: productInOrderSchema,
     },
-    delivery: { type: ['object', 'null'] },
-    total_price: { type: 'integer', minimum: 0 },
+    delivery: {
+      oneOf: [{ type: 'null' }, { allOf: [deliverySchema] }],
+    },
+    total_price: { type: 'number', minimum: 0 },
     createdOn: { type: 'string', format: 'date-time' },
     comments: {
       type: 'array',
-      items: { type: 'object' }, // временно
+      items: commentOrderSchema,
     },
     history: {
       type: 'array',
