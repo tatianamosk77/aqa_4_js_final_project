@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 09 Dec 2025 21:25:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-hZk74dcdhyyJn/pSgAitJC1fl7o\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Zachery.McDermott@hotmail.com",
+      "name": "Sage Monroe",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 60,
+      "flat": 1490,
+      "phone": "+2361584436",
+      "createdOn": "2025-12-09T21:25:21.000Z",
+      "notes": "jcEXOnapKewnXTPGiimw4zcd9FYcG9htrn8h91uhCyGpdWgzTYFYw4n2pWj8LigkjB7OabPnruOKx5UfIYj86jyyCT2omyfNMmD3Zgt9A8Aqoya3p6vGtT3f6Ou2Gt2i3vd3NXBMOMbotyj1oTY4tPlG8FUnzIhH0Ky8FZrQYCTXy6p3wnqFWxKPjtbCaX9TLWicxLaugzs5LXOQBCnX800NByg6lN4lp3M4CM4R9FGoH6Px3IEAK9gQeE",
+      "_id": "693893c11c508c5d5e9f5504"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

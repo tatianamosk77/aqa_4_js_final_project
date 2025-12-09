@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "date": "Tue, 09 Dec 2025 21:25:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "196",
+    "etag": "W/\"c4-ok9H9bOMHKUuBRsIPJiszLs/MZ0\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Chair13465",
+      "amount": 978,
+      "price": 64492,
+      "manufacturer": "Microsoft",
+      "createdOn": "2025-12-09T21:25:27.000Z",
+      "_id": "693893c71c508c5d5e9f5826"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

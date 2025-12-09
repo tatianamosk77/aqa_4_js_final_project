@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "date": "Tue, 09 Dec 2025 21:25:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "97",
+    "etag": "W/\"61-sqc6ckmipPFizOU/41Ys0JyPbRA\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "IsSuccess": false,
+    "ErrorMessage": "Customer with email 'Wallace.Fadel@yahoo.com' already exists"
+  }
+}

@@ -1,0 +1,198 @@
+Generated mock data: {
+  "Orders": [
+    {
+      "_id": "d0e28c10ea6fa06921d3d71d",
+      "status": "Draft",
+      "customer": "19308a48c1b03ca52a43f6a8",
+      "products": [
+        {
+          "_id": "b5f7131ef022fdaca594ffb9",
+          "name": "Electronic Granite Chicken",
+          "amount": 14,
+          "price": 836,
+          "manufacturer": "Roberts, Heidenreich and Wolf",
+          "notes": "Deleniti reprehenderit somniculosus perferendis deorsum.",
+          "received": false
+        },
+        {
+          "_id": "1e0f3a4429b9ef65b0deab0e",
+          "name": "Recycled Bronze Bike",
+          "amount": 88,
+          "price": 34,
+          "manufacturer": "Dietrich LLC",
+          "notes": "Cerno suasoria territo.",
+          "received": true
+        },
+        {
+          "_id": "13bda3fd1a0b3cee939defa5",
+          "name": "Handcrafted Plastic Computer",
+          "amount": 62,
+          "price": 400,
+          "manufacturer": "Bailey, O'Hara and Mayer",
+          "notes": "At tener catena denuncio civis vorax.",
+          "received": true
+        },
+        {
+          "_id": "f8f98c08e1e4be129f9ccd3e",
+          "name": "Handmade Cotton Chips",
+          "amount": 90,
+          "price": 590,
+          "manufacturer": "Murray - Lehner",
+          "notes": "Volaticus volutabrum cimentarius certus una vicinus aurum absens.",
+          "received": true
+        },
+        {
+          "_id": "bfab24bf6e6abb9857a8b9e0",
+          "name": "Fantastic Gold Chips",
+          "amount": 67,
+          "price": 681,
+          "manufacturer": "Thompson and Sons",
+          "notes": "Animadverto attollo deputo sortitus pecus.",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 138223,
+      "createdOn": "2025-12-09T17:15:22.780Z",
+      "comments": [],
+      "history": [],
+      "assignedManager": null
+    },
+    {
+      "_id": "7aefbca8633e4d0806da5be0",
+      "status": "Draft",
+      "customer": "19308a48c1b03ca52a43f6a8",
+      "products": [
+        {
+          "_id": "965ab605df9ee159e0bad07b",
+          "name": "Modern Wooden Bike",
+          "amount": 25,
+          "price": 110,
+          "manufacturer": "Reichel - Hyatt",
+          "notes": "Victus sulum depulso ut triduana decerno benevolentia solio maiores et.",
+          "received": false
+        },
+        {
+          "_id": "8abd6341a8f0e0bb6eebbfa3",
+          "name": "Refined Silk Bike",
+          "amount": 19,
+          "price": 986,
+          "manufacturer": "Kertzmann - Carroll",
+          "notes": "Ipsum advenio acquiro nulla tristis confugo.",
+          "received": true
+        }
+      ],
+      "delivery": null,
+      "total_price": 21484,
+      "createdOn": "2025-12-09T16:01:28.285Z",
+      "comments": [],
+      "history": [],
+      "assignedManager": null
+    },
+    {
+      "_id": "936fd8ff95dcafa36f6ba675",
+      "status": "Draft",
+      "customer": "19308a48c1b03ca52a43f6a8",
+      "products": [
+        {
+          "_id": "def1bf4dbfab1d3cedde692b",
+          "name": "Electronic Concrete Shirt",
+          "amount": 72,
+          "price": 750,
+          "manufacturer": "Gislason - Brekke",
+          "notes": "Capio id cohibeo vomer bellicus accommodo maxime coaegresco alius arguo.",
+          "received": true
+        },
+        {
+          "_id": "1de786fe89a42dfbd859d42f",
+          "name": "Electronic Aluminum Cheese",
+          "amount": 65,
+          "price": 611,
+          "manufacturer": "Beatty - Ritchie",
+          "notes": "Cetera cenaculum arceo ara.",
+          "received": false
+        },
+        {
+          "_id": "4ee8edd4f1a9acee8db0d59f",
+          "name": "Fresh Cotton Pants",
+          "amount": 70,
+          "price": 662,
+          "manufacturer": "Kozey, Gerhold and Kautzer",
+          "notes": "Delibero vomito ascisco cibo admoveo culpa admoneo.",
+          "received": true
+        },
+        {
+          "_id": "cfc6c5afc6251fa7803f2ac3",
+          "name": "Handmade Bronze Shoes",
+          "amount": 88,
+          "price": 975,
+          "manufacturer": "Dibbert Group",
+          "notes": "Vulgivagus quaerat dedecor vicissitudo vulariter cohaero.",
+          "received": false
+        },
+        {
+          "_id": "9bfafdd56cbd9d5ed8b9d19e",
+          "name": "Recycled Wooden Car",
+          "amount": 98,
+          "price": 33,
+          "manufacturer": "Stamm - Marvin",
+          "notes": "Coepi annus artificiose vorago succurro constans ab.",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 229089,
+      "createdOn": "2025-12-09T02:50:05.604Z",
+      "comments": [],
+      "history": [],
+      "assignedManager": null
+    }
+  ],
+  "IsSuccess": true,
+  "ErrorMessage": null
+}
+Data is not valid according to the schema.
+[
+  {
+    instancePath: '/Orders/0/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/0/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/allOf/0/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/1/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/1/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/allOf/0/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/2/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/2/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/allOf/0/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  }
+]

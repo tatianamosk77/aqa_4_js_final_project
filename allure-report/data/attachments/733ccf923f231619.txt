@@ -1,0 +1,180 @@
+Generated mock data: {
+  "Orders": [
+    {
+      "_id": "bc28996fa3dfcddcdc22cdf2",
+      "status": "Draft",
+      "customer": "19308a48c1b03ca52a43f6a8",
+      "products": [
+        {
+          "_id": "00ac2b1deffe7aaadb5face6",
+          "name": "Tasty Metal Computer",
+          "amount": 91,
+          "price": 225,
+          "manufacturer": "Stoltenberg, Dare and Mosciski",
+          "notes": "Tego maiores cupressus curiositas tolero.",
+          "received": true
+        },
+        {
+          "_id": "bada61d5bdb84128ac1d31fa",
+          "name": "Sleek Cotton Shirt",
+          "amount": 32,
+          "price": 999,
+          "manufacturer": "Witting Inc",
+          "notes": "Dolorum universe admoneo colo patria tot thermae viscus mollitia vallum.",
+          "received": true
+        },
+        {
+          "_id": "1b2e8cc061dfc23d4bf7e4a0",
+          "name": "Intelligent Plastic Cheese",
+          "amount": 74,
+          "price": 267,
+          "manufacturer": "Stokes - Franey",
+          "notes": "Tactus cauda cum.",
+          "received": true
+        }
+      ],
+      "delivery": null,
+      "total_price": 72201,
+      "createdOn": "2025-12-09T13:17:18.589Z",
+      "comments": [],
+      "history": [],
+      "assignedManager": null
+    },
+    {
+      "_id": "8f9a2c14e53afbfe2da1ebed",
+      "status": "Draft",
+      "customer": "19308a48c1b03ca52a43f6a8",
+      "products": [
+        {
+          "_id": "ebf2a6149edc29fbd4fac617",
+          "name": "Electronic Metal Keyboard",
+          "amount": 58,
+          "price": 824,
+          "manufacturer": "Schulist LLC",
+          "notes": "Depraedor venio conicio bardus arca excepturi.",
+          "received": true
+        },
+        {
+          "_id": "5ef7f8cabffd3ab6ab5ef8fe",
+          "name": "Rustic Ceramic Chicken",
+          "amount": 70,
+          "price": 946,
+          "manufacturer": "Little - Tillman",
+          "notes": "Depopulo arca aeger cruciamentum ter vomer ancilla.",
+          "received": true
+        },
+        {
+          "_id": "468f1cac4e5ade207d1699eb",
+          "name": "Luxurious Granite Chicken",
+          "amount": 90,
+          "price": 922,
+          "manufacturer": "Lehner - O'Keefe",
+          "notes": "Tot curiositas toties clementia.",
+          "received": true
+        }
+      ],
+      "delivery": null,
+      "total_price": 196992,
+      "createdOn": "2025-12-09T10:37:52.799Z",
+      "comments": [],
+      "history": [],
+      "assignedManager": null
+    },
+    {
+      "_id": "0f0f6c1e14f7f059ca4dd8c6",
+      "status": "Draft",
+      "customer": "19308a48c1b03ca52a43f6a8",
+      "products": [
+        {
+          "_id": "5ebb320c77d117db5ef71dbd",
+          "name": "Electronic Marble Keyboard",
+          "amount": 63,
+          "price": 183,
+          "manufacturer": "Turcotte, Hermann and Legros",
+          "notes": "Amicitia arma absque corpus sequi placeat solitudo absum enim.",
+          "received": true
+        },
+        {
+          "_id": "95371b3ac39e1d07dd48fbb0",
+          "name": "Small Steel Bike",
+          "amount": 13,
+          "price": 454,
+          "manufacturer": "Hane - Welch",
+          "notes": "Considero consequatur adficio damnatio confido.",
+          "received": false
+        },
+        {
+          "_id": "3de34af67d69baaef16bfa9a",
+          "name": "Modern Bronze Bacon",
+          "amount": 63,
+          "price": 894,
+          "manufacturer": "Pagac and Sons",
+          "notes": "Subnecto calco tutamen capitulus subnecto contabesco terebro decimus.",
+          "received": true
+        },
+        {
+          "_id": "852bbe1a284ac27575537d42",
+          "name": "Incredible Gold Salad",
+          "amount": 53,
+          "price": 629,
+          "manufacturer": "Kling, Fadel and Schumm",
+          "notes": "Avarus vestigium absconditus vulpes valetudo.",
+          "received": true
+        }
+      ],
+      "delivery": null,
+      "total_price": 107090,
+      "createdOn": "2025-12-09T16:13:25.319Z",
+      "comments": [],
+      "history": [],
+      "assignedManager": null
+    }
+  ],
+  "IsSuccess": true,
+  "ErrorMessage": null
+}
+Data is not valid according to the schema.
+[
+  {
+    instancePath: '/Orders/0/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/0/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/allOf/0/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/1/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/1/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/allOf/0/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/2/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/2/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/allOf/0/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  }
+]

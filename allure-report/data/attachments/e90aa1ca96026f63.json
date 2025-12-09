@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "date": "Tue, 09 Dec 2025 21:25:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "201",
+    "etag": "W/\"c9-f/vpXMhPW9sC9G7QFSMACOJ6yMw\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Hat97706",
+      "amount": 544,
+      "price": 43808,
+      "manufacturer": "Apple",
+      "createdOn": "2025-12-09T21:25:27.000Z",
+      "notes": "",
+      "_id": "693893c71c508c5d5e9f5828"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
