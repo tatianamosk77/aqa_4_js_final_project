@@ -2,7 +2,6 @@ import { IApiClient } from 'api/apiClients/types';
 import { apiConfig } from 'config/apiConfig';
 import { IRequestOptions } from 'data/types/core.types';
 import { INotificationResponse } from 'data/types/notification.type';
-import { IProductResponse } from 'data/types/product.types';
 import { logStep } from 'utils/report/logStep.utils';
 
 export class NotificationsApi {
@@ -34,7 +33,7 @@ export class NotificationsApi {
       },
     };
 
-    return await this.apiClient.send<IProductResponse>(options);
+    return await this.apiClient.send<INotificationResponse>(options);
   }
 
   @logStep('PATCH /api/notifications/mark-all-read')
@@ -49,6 +48,6 @@ export class NotificationsApi {
       },
     };
 
-    return await this.apiClient.send<IProductResponse>(options);
+    return await this.apiClient.send<INotificationResponse>(options);
   }
 }
