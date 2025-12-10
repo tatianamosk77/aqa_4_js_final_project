@@ -10,9 +10,10 @@ export const apiConfig = {
     customers: '/api/customers',
     customerById: (id: string) => `/api/customers/${id}/`,
     customerOrders: (id: string) => `/api/customers/${id}/orders/`,
-
     customersAll: '/api/customers/all',
-
     metrics: '/api/metrics',
+    notifications: '/api/notifications',
+    readNotification: (id: string) => `/api/notifications/${id}/read`,
+    readAllNotifications: '/api/notifications/mark-all-read',
   },
 };

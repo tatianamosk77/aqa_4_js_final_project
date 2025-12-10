@@ -1,17 +1,19 @@
-import { test as base, expect } from "@playwright/test";
-import { RequestApi } from "api/apiClients/requestApi";
-import { ProductsApi } from "api/api/products.api";
-import { LoginApi } from "api/api/login.api";
-import { LoginService } from "api/service/login.service";
-import { ProductsApiService } from "api/service/products.service";
-import { CustomersApi } from "api/api/customers.api";
-import { CustomersApiService } from "api/service/customers.service";
+import { test as base, expect } from '@playwright/test';
+import { RequestApi } from 'api/apiClients/requestApi';
+import { ProductsApi } from 'api/api/products.api';
+import { LoginApi } from 'api/api/login.api';
+import { LoginService } from 'api/service/login.service';
+import { ProductsApiService } from 'api/service/products.service';
+import { CustomersApi } from 'api/api/customers.api';
+import { CustomersApiService } from 'api/service/customers.service';
+import { NotificationsApi } from 'api/api/notifications.api';
 
 export interface IApi {
   // api
   productsApi: ProductsApi;
   loginApi: LoginApi;
   customersApi: CustomersApi;
+  notificationsApi: NotificationsApi;
 
   //services
   productsApiService: ProductsApiService;
@@ -36,6 +38,11 @@ const test = base.extend<IApi>({
   loginApi: async ({ request }, use) => {
     const apiClient = new RequestApi(request);
     const api = new LoginApi(apiClient);
+    await use(api);
+  },
+  notificationsApi: async ({ request }, use) => {
+    const apiClient = new RequestApi(request);
+    const api = new NotificationsApi(apiClient);
     await use(api);
   },
 
