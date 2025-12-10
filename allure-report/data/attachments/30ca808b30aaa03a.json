@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "date": "Wed, 10 Dec 2025 22:17:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "192",
+    "etag": "W/\"c0-93SZjxTkplwDZBxyQsBaKsZAjYI\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Chair9301",
+      "amount": 369,
+      "price": 40393,
+      "manufacturer": "Google",
+      "createdOn": "2025-12-10T22:17:13.000Z",
+      "_id": "6939f1691c508c5d5eacce42"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

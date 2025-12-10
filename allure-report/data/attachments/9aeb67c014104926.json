@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 10 Dec 2025 22:16:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-pjhhevu7uNzWHbyJnhEU0ivHvS8\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Cathy_Tillman@hotmail.com",
+      "name": "Test Customer",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 96,
+      "flat": 14,
+      "phone": "+3957079613",
+      "createdOn": "2025-12-10T22:16:44.000Z",
+      "notes": "pNlQNIqP1z2gDIDpLvJ4V7PsWODpocZyRb3WGuzDq8YtDCPFNBfB2gbPyXH09VnIVQQWIxMwZ6shCncsj7XwgUPJeZIk5MX2K6MKmGrzaBCctWvEkqU7o3qf0aExqG83iLBcXKpm2BE7JMaCJKHFQeOVwZDKYHRpb2TS5TqMhsEZqoFP11reDyosfkcuxFBkeAPtSUqc1UWqUCndRGCwbr7ptiXRaBw0AFSLzQnso2ANpTJLYEJFhmwWKT",
+      "_id": "6939f14c1c508c5d5eacc15f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

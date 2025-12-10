@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "date": "Wed, 10 Dec 2025 22:17:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "207",
+    "etag": "W/\"cf-V7sPMABUFvj8j0SfqIuiMobJJuI\"",
+    "keep-alive": "timeout=5, max=70",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Salad47985",
+      "amount": 167,
+      "price": 43580,
+      "manufacturer": "Microsoft",
+      "createdOn": "2025-12-10T22:17:19.000Z",
+      "notes": "",
+      "_id": "6939f16f1c508c5d5eacd361"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

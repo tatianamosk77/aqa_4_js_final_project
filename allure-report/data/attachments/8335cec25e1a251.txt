@@ -1,0 +1,198 @@
+Generated mock data: {
+  "Orders": [
+    {
+      "_id": "1d1deab0d7d65519dad58e4d",
+      "status": "Draft",
+      "customer": "19308a48c1b03ca52a43f6a8",
+      "products": [
+        {
+          "_id": "eb1bbd2a9cd7bd6f754e04f8",
+          "name": "Modern Steel Keyboard",
+          "amount": 24,
+          "price": 100,
+          "manufacturer": "Dach LLC",
+          "notes": "Numquam statim callide tenuis volutabrum vesper bestia facere tubineus.",
+          "received": false
+        },
+        {
+          "_id": "778d9afe60d18cef9b81de8b",
+          "name": "Intelligent Steel Sausages",
+          "amount": 85,
+          "price": 212,
+          "manufacturer": "Barrows Group",
+          "notes": "Debitis aliqua virgo adeptio centum corpus iste crastinus angustus stips.",
+          "received": true
+        },
+        {
+          "_id": "97f0bbe50fcb1fefcd278b9b",
+          "name": "Soft Marble Bacon",
+          "amount": 13,
+          "price": 194,
+          "manufacturer": "Grady Group",
+          "notes": "Patrocinor tutis ut sollers quod non depopulo iusto.",
+          "received": true
+        }
+      ],
+      "delivery": null,
+      "total_price": 22942,
+      "createdOn": "2025-12-10T17:37:50.637Z",
+      "comments": [],
+      "history": [],
+      "assignedManager": null
+    },
+    {
+      "_id": "bcada4fae25b6bed5a711dbd",
+      "status": "Draft",
+      "customer": "19308a48c1b03ca52a43f6a8",
+      "products": [
+        {
+          "_id": "83f648a2d3ca5891ba7ae6cd",
+          "name": "Handcrafted Rubber Towels",
+          "amount": 90,
+          "price": 911,
+          "manufacturer": "Osinski, Halvorson and Prosacco",
+          "notes": "Canonicus uter vitae comparo verecundia canis candidus.",
+          "received": false
+        },
+        {
+          "_id": "4d612db6deb071cfddc3fbab",
+          "name": "Awesome Rubber Bike",
+          "amount": 50,
+          "price": 177,
+          "manufacturer": "Jakubowski - Toy",
+          "notes": "Molestias taceo amaritudo.",
+          "received": false
+        },
+        {
+          "_id": "e11fc0c37bd8ed06be41c485",
+          "name": "Bespoke Aluminum Tuna",
+          "amount": 88,
+          "price": 757,
+          "manufacturer": "Mohr, Jacobs and Little",
+          "notes": "Coma tamisium neque.",
+          "received": true
+        },
+        {
+          "_id": "c73855dd3514abff89105fcc",
+          "name": "Electronic Metal Table",
+          "amount": 68,
+          "price": 939,
+          "manufacturer": "Parker - Rice",
+          "notes": "Desidero suppono rerum vobis anser velut calco curriculum sum aspicio.",
+          "received": true
+        }
+      ],
+      "delivery": null,
+      "total_price": 221308,
+      "createdOn": "2025-12-10T10:36:03.252Z",
+      "comments": [],
+      "history": [],
+      "assignedManager": null
+    },
+    {
+      "_id": "95f89f932ac0615e419247aa",
+      "status": "Draft",
+      "customer": "19308a48c1b03ca52a43f6a8",
+      "products": [
+        {
+          "_id": "99e72c1cad1f7b3e593ca829",
+          "name": "Awesome Wooden Shoes",
+          "amount": 2,
+          "price": 879,
+          "manufacturer": "Langworth - Schimmel",
+          "notes": "Ea provident calco denuncio thymbra.",
+          "received": true
+        },
+        {
+          "_id": "a8fda70e4ce10e3e20a5bd4b",
+          "name": "Incredible Bronze Computer",
+          "amount": 12,
+          "price": 445,
+          "manufacturer": "Moen, Jaskolski and Miller",
+          "notes": "Vulgaris uberrime tersus solium summopere substantia dolorum deprimo ultio aegrus.",
+          "received": true
+        },
+        {
+          "_id": "a40a48f3f944caca2728e732",
+          "name": "Handmade Concrete Chair",
+          "amount": 20,
+          "price": 549,
+          "manufacturer": "Feeney LLC",
+          "notes": "Thalassinus centum cultellus caelum verto laboriosam compono.",
+          "received": false
+        },
+        {
+          "_id": "5f71fb47e6ac80f4dcac9fc9",
+          "name": "Oriental Marble Cheese",
+          "amount": 15,
+          "price": 724,
+          "manufacturer": "Mosciski, Morissette and Walker",
+          "notes": "Clam tremo conspergo utpote astrum.",
+          "received": false
+        },
+        {
+          "_id": "fcd2ffdb550c5ddf0c97f4d7",
+          "name": "Tasty Gold Sausages",
+          "amount": 3,
+          "price": 303,
+          "manufacturer": "Spinka - Cormier",
+          "notes": "Sodalitas sodalitas verumtamen currus nisi vester valde succurro creator teneo.",
+          "received": true
+        }
+      ],
+      "delivery": null,
+      "total_price": 29847,
+      "createdOn": "2025-12-10T21:54:42.900Z",
+      "comments": [],
+      "history": [],
+      "assignedManager": null
+    }
+  ],
+  "IsSuccess": true,
+  "ErrorMessage": null
+}
+Data is not valid according to the schema.
+[
+  {
+    instancePath: '/Orders/0/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/0/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/allOf/0/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/1/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/1/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/allOf/0/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/2/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/2/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/allOf/0/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  }
+]
