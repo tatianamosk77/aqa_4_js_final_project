@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "date": "Wed, 10 Dec 2025 16:07:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "90",
+    "etag": "W/\"5a-QU/wyxhoFctXLtouNDE8qmfxyY0\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "IsSuccess": false,
+    "ErrorMessage": "Customer with email 'test666@test.com' already exists"
+  }
+}

@@ -1,0 +1,153 @@
+Generated mock data: {
+  "Orders": [
+    {
+      "_id": "722dbc9fcbf581b46afec32a",
+      "status": "Draft",
+      "customer": "19308a48c1b03ca52a43f6a8",
+      "products": [
+        {
+          "_id": "5ddfcaa95a180a7d7ac092ba",
+          "name": "Handcrafted Concrete Sausages",
+          "amount": 6,
+          "price": 730,
+          "manufacturer": "Cummerata - Blanda",
+          "notes": "Balbus subseco sordeo.",
+          "received": true
+        }
+      ],
+      "delivery": null,
+      "total_price": 4380,
+      "createdOn": "2025-12-10T08:45:50.156Z",
+      "comments": [],
+      "history": [],
+      "assignedManager": null
+    },
+    {
+      "_id": "1f4a638bcc662dc8facbe57e",
+      "status": "Draft",
+      "customer": "19308a48c1b03ca52a43f6a8",
+      "products": [
+        {
+          "_id": "f1dd1a6c7dfcf8cac9899dc8",
+          "name": "Ergonomic Cotton Tuna",
+          "amount": 30,
+          "price": 632,
+          "manufacturer": "Grimes Inc",
+          "notes": "Vestigium caritas theologus repellendus unus blandior callide sordeo comitatus.",
+          "received": true
+        },
+        {
+          "_id": "c9dfefe6aabb19abbeb2fc8b",
+          "name": "Licensed Bamboo Hat",
+          "amount": 84,
+          "price": 567,
+          "manufacturer": "Bogisich, Doyle and Jakubowski",
+          "notes": "Taceo viscus adduco cicuta ante admitto thesis termes debilito.",
+          "received": false
+        },
+        {
+          "_id": "19d42c2e2db85fdd4b343feb",
+          "name": "Generic Gold Tuna",
+          "amount": 13,
+          "price": 332,
+          "manufacturer": "Haley Group",
+          "notes": "Demo cogo cogo.",
+          "received": true
+        },
+        {
+          "_id": "c5c0ab5beba33caefdafcfb3",
+          "name": "Refined Plastic Computer",
+          "amount": 69,
+          "price": 338,
+          "manufacturer": "Lebsack Group",
+          "notes": "Officiis speculum desino voveo sodalitas decipio arbustum.",
+          "received": true
+        },
+        {
+          "_id": "86c0c6fbf590eed13fadafdb",
+          "name": "Gorgeous Silk Hat",
+          "amount": 21,
+          "price": 407,
+          "manufacturer": "Kertzmann Group",
+          "notes": "Eaque acer inflammatio veritas virtus dolorem tabula.",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 102773,
+      "createdOn": "2025-12-09T18:52:48.368Z",
+      "comments": [],
+      "history": [],
+      "assignedManager": null
+    },
+    {
+      "_id": "67cf64bbccfc8720f115dffe",
+      "status": "Draft",
+      "customer": "19308a48c1b03ca52a43f6a8",
+      "products": [
+        {
+          "_id": "cd6cffc4dc5cfe8fcbc934da",
+          "name": "Awesome Steel Chicken",
+          "amount": 13,
+          "price": 389,
+          "manufacturer": "Hilll and Sons",
+          "notes": "Caterva statua vulnero vomica.",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 5057,
+      "createdOn": "2025-12-09T19:57:41.066Z",
+      "comments": [],
+      "history": [],
+      "assignedManager": null
+    }
+  ],
+  "IsSuccess": true,
+  "ErrorMessage": null
+}
+Data is not valid according to the schema.
+[
+  {
+    instancePath: '/Orders/0/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/0/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/allOf/0/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/1/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/1/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/allOf/0/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/2/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/2/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/allOf/0/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  }
+]

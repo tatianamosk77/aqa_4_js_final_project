@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 10 Dec 2025 16:07:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-5tCk4AUfCUxd/NWaJcc3o3b4rp0\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Isabella76@hotmail.com",
+      "name": "Test Customer",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 235,
+      "flat": 4388,
+      "phone": "+6652649680",
+      "createdOn": "2025-12-10T16:07:08.000Z",
+      "notes": "UxyU8xzvp3RIie9wzCO6UomagNNxqxa7qNJrkn6y0gYhaVOsLUcaLktArvKS7GaT37zaj0EcbXTOfMtIr0D3CRw3flBKsX86jiDxuu6AQBCkpKzkiDKzf7yMnarp4lMXLzUcGSlnylrBbIRfCtyjpUIs1xqRXA6LTygrGqvHgFA61ym0wwpg7aNdzAF5akuSAJr1sdFJmBfHDoBvcSf4nDbOwZDPdEAsM1Vjr9KJhqAK9p7UhiuNNynbVd",
+      "_id": "69399aac1c508c5d5ea1b775"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

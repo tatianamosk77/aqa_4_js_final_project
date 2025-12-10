@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 10 Dec 2025 16:07:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-ZhHmch+K6hLG+tRtlolJPwWEZ5A\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Elisa.Lindgren40@gmail.com",
+      "name": "Carmen Adella",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 349,
+      "flat": 1190,
+      "phone": "+5094794141",
+      "createdOn": "2025-12-10T16:07:15.000Z",
+      "notes": "ImmdbKraYZ9QgYUUSqGmmdBKFyDEhJ7hH9mZ42Vuh44S3K41JX8UYzzOSiVQegHwGSWYDAkIBxrFPUB3G9iWxd3BDUDPH5afmp5UF14I6n5grKVF9qNkPX0q4pHmqpkmv4XVt9RlakQoPIDHoeVG7zKGr0FDhtS1sq84JO6futzWNAe862nr6RYjzMpMnvBSFSyU5Refv6V05aQGEDBmw3ip229uCJ0utWxnFosrsjmm5va4FpNuhT9kw3",
+      "_id": "69399ab31c508c5d5ea1b92c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

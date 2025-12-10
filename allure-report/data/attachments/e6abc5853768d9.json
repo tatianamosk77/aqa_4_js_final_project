@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Wed, 10 Dec 2025 16:07:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "671",
+    "etag": "W/\"29f-dSNsJ2t/TNYx/RjSgGYyO3u3uNs\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "69399ab31c508c5d5ea1b8fe",
+        "email": "Opal_Botsford48@hotmail.com",
+        "name": "Joy Abigale",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 925,
+        "flat": 466,
+        "phone": "+1152505590",
+        "createdOn": "2025-12-10T16:07:15.000Z",
+        "notes": "AovWiDBq16iIVUa445yuCBXDoYQD0WihopxZQ2sMfwT91xN5a4t5pFFYTLMLqQTPwqtDKljECXkXqRJ8jS14FO5YgccunPWwnPgPYPt12K93LLACjXZHEqn72bS1BvEJhc62LytbARmZMwBAci6AkptdUvuHYW5Lygby7a5qOm5SUgyGIOcvCQELmYYMMu2smWI09irJemJiix8FHY3LiEwC3RIi1obFoaakJg6zWgkAWJpyvPIU2dDWfC"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Joy Abigale",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
