@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 11 Dec 2025 22:19:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "555",
+    "etag": "W/\"22b-D5IQfl1OjKog7Lpp1GvKp/vtWxY\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Dexter.Champlin@hotmail.com",
+      "name": "Francesca Veronica",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 487,
+      "flat": 3681,
+      "phone": "+1362750737",
+      "createdOn": "2025-12-11T22:19:19.000Z",
+      "notes": "rIiDkBoMq69jq1zJGqfD3htSFO87GcSOA2kNsBdBtt7q5luQjXRSJ1IRn1ztFB3rOJdtcbcDL28SVowM8ntJzSfdegqQEP4PN8ZZKKts9A4S1wYDNcUohtBjjH50Tx3jbZWkTVks4OnpB4FT0P49pAYpfvsXlgz29flYqmYe8KS5CGNOElZLtnQWv5YfjrJf2KxXnthv6s5XPdIj6zNXFtgsQ8h5mmfczDeVGunZ2zrjcX6rKzyPwhKoHQ",
+      "_id": "693b43671c508c5d5eb7fd3c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

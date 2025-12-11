@@ -1,0 +1,180 @@
+Generated mock data: {
+  "Orders": [
+    {
+      "_id": "ba29ee3ba29500f8bbce5c7b",
+      "status": "Draft",
+      "customer": "19308a48c1b03ca52a43f6a8",
+      "products": [
+        {
+          "_id": "5b5043ee98b08407e25fdaf7",
+          "name": "Unbranded Bronze Mouse",
+          "amount": 62,
+          "price": 332,
+          "manufacturer": "Stiedemann, Hoeger and Kris",
+          "notes": "Amissio barba magni natus volubilis surculus paulatim voco.",
+          "received": false
+        },
+        {
+          "_id": "98ee55d1ffbc840eccb9d09d",
+          "name": "Electronic Aluminum Car",
+          "amount": 70,
+          "price": 259,
+          "manufacturer": "Torphy, Cartwright and Weber",
+          "notes": "Approbo clementia abundans cimentarius summopere vespillo adiuvo.",
+          "received": true
+        }
+      ],
+      "delivery": null,
+      "total_price": 38714,
+      "createdOn": "2025-12-11T18:09:51.750Z",
+      "comments": [],
+      "history": [],
+      "assignedManager": null
+    },
+    {
+      "_id": "8088da4c7d33fd1e8104b68e",
+      "status": "Draft",
+      "customer": "19308a48c1b03ca52a43f6a8",
+      "products": [
+        {
+          "_id": "bc46d6a87dc823db16a35d5c",
+          "name": "Tasty Wooden Pizza",
+          "amount": 53,
+          "price": 698,
+          "manufacturer": "Hettinger - Franey",
+          "notes": "Angelus virgo cur creptio thesaurus delectus cuppedia.",
+          "received": false
+        },
+        {
+          "_id": "87f99d3cc9ee1df38ef64bc5",
+          "name": "Gorgeous Metal Pizza",
+          "amount": 38,
+          "price": 79,
+          "manufacturer": "Schinner and Sons",
+          "notes": "Circumvenio libero benevolentia demens creber umbra approbo.",
+          "received": false
+        },
+        {
+          "_id": "bc5b8aca6b0dcb027cee1faa",
+          "name": "Sleek Ceramic Chips",
+          "amount": 92,
+          "price": 768,
+          "manufacturer": "Balistreri Inc",
+          "notes": "Ciminatio derideo cui.",
+          "received": true
+        },
+        {
+          "_id": "a49c04bff2abcf93ee6ba7f4",
+          "name": "Licensed Marble Chicken",
+          "amount": 74,
+          "price": 970,
+          "manufacturer": "Vandervort and Sons",
+          "notes": "Saepe dolores conicio custodia constans.",
+          "received": false
+        },
+        {
+          "_id": "3d6eedbe62da0fbf51dddd73",
+          "name": "Small Wooden Towels",
+          "amount": 11,
+          "price": 130,
+          "manufacturer": "Franey Group",
+          "notes": "Antiquus solum iste vetus ventosus ultra minima calcar demoror beneficium.",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 183862,
+      "createdOn": "2025-12-11T20:28:37.782Z",
+      "comments": [],
+      "history": [],
+      "assignedManager": null
+    },
+    {
+      "_id": "ef2516a1fcae3a226f437d21",
+      "status": "Draft",
+      "customer": "19308a48c1b03ca52a43f6a8",
+      "products": [
+        {
+          "_id": "cef765bb4d5e545efa05ae51",
+          "name": "Refined Rubber Pizza",
+          "amount": 30,
+          "price": 379,
+          "manufacturer": "Gibson, Ritchie and Mayert",
+          "notes": "Tergo eius ver derideo auditor.",
+          "received": true
+        },
+        {
+          "_id": "a5dadcaeec693bcabca3db18",
+          "name": "Luxurious Bronze Tuna",
+          "amount": 35,
+          "price": 319,
+          "manufacturer": "Rippin Inc",
+          "notes": "Ara rerum admiratio auctor conqueror.",
+          "received": false
+        },
+        {
+          "_id": "4b2cf3dc5b879e13b6d43edc",
+          "name": "Luxurious Steel Table",
+          "amount": 59,
+          "price": 497,
+          "manufacturer": "Quigley, Walker and Ortiz",
+          "notes": "Tunc quidem virtus cupiditate asperiores celebrer thymbra aufero.",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 51858,
+      "createdOn": "2025-12-11T03:27:59.235Z",
+      "comments": [],
+      "history": [],
+      "assignedManager": null
+    }
+  ],
+  "IsSuccess": true,
+  "ErrorMessage": null
+}
+Data is not valid according to the schema.
+[
+  {
+    instancePath: '/Orders/0/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/0/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/allOf/0/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/1/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/1/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/allOf/0/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/2/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/2/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/allOf/0/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  }
+]

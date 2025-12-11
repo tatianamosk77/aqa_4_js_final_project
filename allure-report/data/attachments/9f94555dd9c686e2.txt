@@ -1,0 +1,11 @@
+Data is valid according to the schema.
+Data is valid according to the schema.
+apiRequestContext.fetch: Request context disposed.
+Call log:
+  - → GET https://aqa-course-project.app//api/customers/all
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.37 Safari/537.36
+    - accept: */*
+    - accept-encoding: gzip,deflate,br
+    - content-type: application/json
+    - Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MjMzN2NlMWM1MDhjNWQ1ZTk1MzM1ZCIsInJvbGVzIjpbIlVTRVIiXSwiaWF0IjoxNzY1NDgzMTY1LCJleHAiOjE3NjU1Njk1NjV9.bmUULYR1p_p1O3XaX2aKI5kpHbRUC_0MMBE2-1f1TfQ
+

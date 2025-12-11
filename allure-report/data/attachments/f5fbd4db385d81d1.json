@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "date": "Thu, 11 Dec 2025 22:20:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "203",
+    "etag": "W/\"cb-ThBYXhta/Y6HD/sR7ci0Xigfqec\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Chips80038",
+      "amount": 23,
+      "price": 44822,
+      "manufacturer": "Xiaomi",
+      "createdOn": "2025-12-11T22:20:05.000Z",
+      "notes": "",
+      "_id": "693b43951c508c5d5eb80dd6"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

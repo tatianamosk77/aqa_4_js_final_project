@@ -1,0 +1,198 @@
+Generated mock data: {
+  "Orders": [
+    {
+      "_id": "93c4abbb4ed45ee61b6cf0bc",
+      "status": "Draft",
+      "customer": "19308a48c1b03ca52a43f6a8",
+      "products": [
+        {
+          "_id": "6aca8acf96fad44ada1baaaf",
+          "name": "Sleek Cotton Table",
+          "amount": 17,
+          "price": 70,
+          "manufacturer": "Stracke LLC",
+          "notes": "Studio ara sol.",
+          "received": true
+        },
+        {
+          "_id": "83604dbe43ed8e1ceaf2899a",
+          "name": "Gorgeous Metal Salad",
+          "amount": 77,
+          "price": 376,
+          "manufacturer": "Rosenbaum, Doyle and D'Amore",
+          "notes": "Crebro accusantium minima absum.",
+          "received": true
+        },
+        {
+          "_id": "deaadb548ca44d2ba8c31010",
+          "name": "Refined Cotton Pizza",
+          "amount": 32,
+          "price": 255,
+          "manufacturer": "Rohan, Erdman and Schaden",
+          "notes": "Cura labore confero caste.",
+          "received": false
+        },
+        {
+          "_id": "cdb7f41e4ca54a7daaba75b6",
+          "name": "Generic Aluminum Car",
+          "amount": 83,
+          "price": 670,
+          "manufacturer": "Crooks - Bartell",
+          "notes": "Valetudo vinum conscendo venia aut amiculum attonbitus.",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 93912,
+      "createdOn": "2025-12-11T03:01:24.683Z",
+      "comments": [],
+      "history": [],
+      "assignedManager": null
+    },
+    {
+      "_id": "deede084d4a1f82987bebb0b",
+      "status": "Draft",
+      "customer": "19308a48c1b03ca52a43f6a8",
+      "products": [
+        {
+          "_id": "2ee39a84c610b60ad4dab9af",
+          "name": "Modern Cotton Hat",
+          "amount": 42,
+          "price": 386,
+          "manufacturer": "Mohr - Sawayn",
+          "notes": "Audentia tot tergum odit.",
+          "received": true
+        },
+        {
+          "_id": "f1e8ddbb6d593c5ac4db3bb5",
+          "name": "Fantastic Aluminum Pizza",
+          "amount": 7,
+          "price": 623,
+          "manufacturer": "Hahn LLC",
+          "notes": "Cariosus aequitas ascisco thymum bellicus caste tamquam argumentum vapulus alioqui.",
+          "received": false
+        },
+        {
+          "_id": "007a9c47bbea5e0dfdbd7be6",
+          "name": "Recycled Steel Car",
+          "amount": 19,
+          "price": 851,
+          "manufacturer": "Rolfson, Lubowitz and Reynolds",
+          "notes": "Totidem constans depromo tertius tendo alveus vigor.",
+          "received": true
+        },
+        {
+          "_id": "2d6d968fd6b1d1eb38bd15ce",
+          "name": "Generic Metal Mouse",
+          "amount": 87,
+          "price": 796,
+          "manufacturer": "Cassin, Cartwright and Dare",
+          "notes": "Conscendo adsum vicissitudo toties sollers capillus adduco.",
+          "received": true
+        },
+        {
+          "_id": "b520fd8a7c8b7fdf39db0f3c",
+          "name": "Practical Silk Hat",
+          "amount": 14,
+          "price": 576,
+          "manufacturer": "Stehr, Kiehn and Ullrich",
+          "notes": "Sto vociferor error vomito talus tepidus.",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 114058,
+      "createdOn": "2025-12-11T04:06:08.296Z",
+      "comments": [],
+      "history": [],
+      "assignedManager": null
+    },
+    {
+      "_id": "ea23db083cd6afdc28e69e41",
+      "status": "Draft",
+      "customer": "19308a48c1b03ca52a43f6a8",
+      "products": [
+        {
+          "_id": "bb5ce5ade6bb7632ef0a259a",
+          "name": "Soft Metal Soap",
+          "amount": 43,
+          "price": 788,
+          "manufacturer": "Weimann - Ebert",
+          "notes": "Quia cupressus tenax curto votum crastinus adopto.",
+          "received": false
+        },
+        {
+          "_id": "ed6ca03a259bda3b0ead9293",
+          "name": "Frozen Plastic Shoes",
+          "amount": 40,
+          "price": 826,
+          "manufacturer": "Langosh, Walker and Bednar",
+          "notes": "Desino ipsa triduana.",
+          "received": true
+        },
+        {
+          "_id": "5aa324ba7664c9ce36bca4ef",
+          "name": "Frozen Metal Chicken",
+          "amount": 29,
+          "price": 914,
+          "manufacturer": "Stoltenberg Inc",
+          "notes": "Auctor conicio suus denuncio torrens virga artificiose.",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 93430,
+      "createdOn": "2025-12-11T18:27:04.189Z",
+      "comments": [],
+      "history": [],
+      "assignedManager": null
+    }
+  ],
+  "IsSuccess": true,
+  "ErrorMessage": null
+}
+Data is not valid according to the schema.
+[
+  {
+    instancePath: '/Orders/0/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/0/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/allOf/0/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/1/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/1/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/allOf/0/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/2/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/2/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/allOf/0/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  }
+]

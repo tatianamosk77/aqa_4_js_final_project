@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "date": "Thu, 11 Dec 2025 22:17:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "291",
+    "etag": "W/\"123-0xjOLktgQ8EDhv269nBaRqV7xhs\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Opal.Predovic@yahoo.com",
+      "name": "Verner Armani",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 87,
+      "flat": 8521,
+      "phone": "+7015656218",
+      "createdOn": "2025-12-11T22:17:27.000Z",
+      "_id": "693b42f71c508c5d5eb7e1ab"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
