@@ -32,11 +32,11 @@ export interface INotificationFromResponse extends INotification, ID {}
 // export interface INotificationDetails extends Required<INotification> { }
 
 // Ответ API для одного уведомления
-export interface INotificationResponse extends IResponseFields {
-  Notification: INotificationFromResponse;
-}
+// export interface INotificationResponse extends IResponseFields {
+//   Notifications: INotificationFromResponse;
+// }
 
 // Ответ API для списка уведомлений (как в примере)
-export interface INotificationsResponse extends IResponseFields {
+export interface INotificationResponse extends IResponseFields {
   Notifications: INotificationFromResponse[];
 }
