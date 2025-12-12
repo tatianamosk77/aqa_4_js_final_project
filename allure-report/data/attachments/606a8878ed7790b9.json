@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 12 Dec 2025 22:45:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-IVuXBItr3q2GGTssgodhhloyRQA\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Tillman81@hotmail.com",
+      "name": "Dan Mallie",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 889,
+      "flat": 4060,
+      "phone": "+6815382159",
+      "createdOn": "2025-12-12T22:45:21.000Z",
+      "notes": "tlhQKSJaDW5kVfGjplxm6ijWb4shH61c7zlEVRyYfVCSG3GL07CS207X3jLGFPtqQcZtTDl4C2JILMja1jwQ2qms3cSviTZdflvzDuqGagOKZ5OgYbZBGrvFeoKGmMk4gUvhTfkVQ7MvrnxDJX3KPf8wxwXXxab2CgfHuRBIuxR3D42WlyfnS1jXtDxrByKfm03dMUZf3SA7y95BNpFg4FcG75vfNG4SliSQQBMIXFvq8rmQu04DV6fMrY",
+      "_id": "693c9b011c508c5d5ebdea42"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

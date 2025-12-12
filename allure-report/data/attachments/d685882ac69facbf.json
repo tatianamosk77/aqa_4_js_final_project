@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 12 Dec 2025 22:45:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-N4h/38Uw0SNsH3f0h8fF1AE5cxs\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Arturo_Jast@yahoo.com",
+      "name": "Belle Megane",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 445,
+      "flat": 7773,
+      "phone": "+3233450804",
+      "createdOn": "2025-12-12T22:45:05.000Z",
+      "notes": "iw4g2sdMcT0kOA1xDC2HttIPtv0gNujpDDnsGD3kzeffFV42ZRnTe9DPuuD3fciKVpIDttXH23x86ypif2lIN2OQ7fhK2ewQdnTovGqjEG2xbo0gAENtDCAa5WzbHbF65W1YhLV12FrQAu4W4Cwpth6a9K6WVaOnVgvYDCVTnICU1TuuR4XBIr0pW5MmCUvwDOgKS8e5Bc1wGyCjDvYQX2ilbl5mB5GTDcNQM3IDhNh7v09nMQrlxw3d2f",
+      "_id": "693c9af11c508c5d5ebde8a9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

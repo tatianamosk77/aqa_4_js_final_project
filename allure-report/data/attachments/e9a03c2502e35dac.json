@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 12 Dec 2025 22:45:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "564",
+    "etag": "W/\"234-iXu4/kWioN6IkkQWH5cyS2ddYkk\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Antonina.Ledner-Mosciski@gmail.com",
+      "name": "Percy Taurean",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 845,
+      "flat": 6813,
+      "phone": "+8534936181",
+      "createdOn": "2025-12-12T22:45:43.000Z",
+      "notes": "bIdFclOq0NcVy6f40muYrrfAPMfX8Sn5K6fLd0DAZNP3MnnAkbxLf39qhdArgneWfWwNgTTYbNOnC3HJyRINlFkAZWujRQyW4A67kMxWPRd3DU1c9rJojEmWvWFiQfDhK2XLsEq3auMvQnZnfTXJSe69l9pfgWFQkx9wK12nr5JWyGRYbJL1c7SZwI3PCJbGDbMJ8QAXD5kxrbQ7quX26kYCbM6ZuAwrNm2A3vNBrsOvSnmves23JJAjzq",
+      "_id": "693c9b171c508c5d5ebdec5e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

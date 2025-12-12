@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Fri, 12 Dec 2025 22:45:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "660",
+    "etag": "W/\"294-UFP3MZUDcpocFhS3nc65UALHl5Q\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Notifications": [
+      {
+        "_id": "693c65c01c508c5d5ebd1300",
+        "userId": "692337ce1c508c5d5e95335d",
+        "type": "unassigned",
+        "orderId": "693c65bd1c508c5d5ebd12cf",
+        "message": "You have been unassigned from order",
+        "read": true,
+        "expiresAt": "2025-12-13T18:58:08.255Z",
+        "createdAt": "2025-12-12T18:58:08.255Z",
+        "updatedAt": "2025-12-12T22:45:29.473Z"
+      },
+      {
+        "_id": "693c65bf1c508c5d5ebd12f4",
+        "userId": "692337ce1c508c5d5e95335d",
+        "type": "assigned",
+        "orderId": "693c65bd1c508c5d5ebd12cf",
+        "message": "You have been assigned to order",
+        "read": true,
+        "expiresAt": "2025-12-13T18:58:07.778Z",
+        "createdAt": "2025-12-12T18:58:07.778Z",
+        "updatedAt": "2025-12-12T22:45:29.473Z"
+      }
+    ],
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

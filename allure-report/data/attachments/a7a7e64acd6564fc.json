@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 12 Dec 2025 22:45:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "293",
+    "etag": "W/\"125-rx/vVlp2vQO+11OEU1YX6l56vaw\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jess_Lesch67@yahoo.com",
+      "name": "Della Dixie",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 916,
+      "flat": 520,
+      "phone": "+6162643241",
+      "createdOn": "2025-12-12T22:45:11.000Z",
+      "notes": "",
+      "_id": "693c9af71c508c5d5ebde962"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 12 Dec 2025 22:45:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-0LNV263EdNF2C+HTpFxymPry+v0\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "_id": "693c9aff1c508c5d5ebdea0f",
+      "email": "Ola.Metz38@yahoo.com",
+      "name": "Jairo Thora",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 201,
+      "flat": 8298,
+      "phone": "+2072941207",
+      "createdOn": "2025-12-12T22:45:19.000Z",
+      "notes": "yJfMkd5sh1vpTFOvROrTeQNqHFwuvN1xh4J3JhQ5FV6R6GuXC9deIqDRWQxGMBMDyexgWzAaeq2FmUGPaCujDl0KfsEi9BdZXAFE7NzbhIihL3C4Nf1htbctt5dIKTpuc0jFUVRpCNTj1TG1Vie3LKhZEP7CET7vDapJGeZK9U1ATSeqT09ubo37ArcHdyZ4iBkIqotrNurrCcFkgldqr28s3hQkd14meGUthNh3Lh4QpS3fgAYbxCw6T5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

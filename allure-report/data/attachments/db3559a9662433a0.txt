@@ -1,0 +1,216 @@
+Generated mock data: {
+  "Orders": [
+    {
+      "_id": "dfdff141095cb2f7666406e3",
+      "status": "Draft",
+      "customer": "19308a48c1b03ca52a43f6a8",
+      "products": [
+        {
+          "_id": "7a6daf39274fbd03b94e68dc",
+          "name": "Unbranded Silk Chips",
+          "amount": 73,
+          "price": 312,
+          "manufacturer": "Green, Paucek and Koelpin",
+          "notes": "Talio cimentarius placeat.",
+          "received": true
+        },
+        {
+          "_id": "b6c0af087c75d2fc3df3db3a",
+          "name": "Soft Metal Chair",
+          "amount": 35,
+          "price": 958,
+          "manufacturer": "Heathcote - Nader",
+          "notes": "Vilicus cenaculum coerceo dens architecto.",
+          "received": false
+        },
+        {
+          "_id": "0c1e1ad8c21a5f2f51b92f6f",
+          "name": "Luxurious Marble Bacon",
+          "amount": 48,
+          "price": 885,
+          "manufacturer": "Spencer - Will",
+          "notes": "Coaegresco crepusculum timor vinitor.",
+          "received": true
+        },
+        {
+          "_id": "25b95566baf8112b70f122ba",
+          "name": "Small Bamboo Chips",
+          "amount": 31,
+          "price": 565,
+          "manufacturer": "Turner - Champlin",
+          "notes": "Adversus sol incidunt ventus beatae attollo creator calculus sodalitas.",
+          "received": false
+        },
+        {
+          "_id": "df5faefae2d18c14b782b627",
+          "name": "Generic Bronze Shirt",
+          "amount": 48,
+          "price": 249,
+          "manufacturer": "Krajcik, Torp and Leannon",
+          "notes": "Conduco beatus trepide.",
+          "received": true
+        }
+      ],
+      "delivery": null,
+      "total_price": 128253,
+      "createdOn": "2025-12-12T10:31:35.013Z",
+      "comments": [],
+      "history": [],
+      "assignedManager": null
+    },
+    {
+      "_id": "bd96fc29283e7ebddb5bba78",
+      "status": "Draft",
+      "customer": "19308a48c1b03ca52a43f6a8",
+      "products": [
+        {
+          "_id": "1c2b908b78bd01e6bcbdb1ff",
+          "name": "Ergonomic Concrete Computer",
+          "amount": 95,
+          "price": 75,
+          "manufacturer": "Williamson Inc",
+          "notes": "Arto deserunt celebrer.",
+          "received": true
+        },
+        {
+          "_id": "dbd0c3f516be0ecbe6f9e0e4",
+          "name": "Ergonomic Plastic Computer",
+          "amount": 86,
+          "price": 213,
+          "manufacturer": "Terry Group",
+          "notes": "Vereor congregatio apostolus comptus aufero paens charisma aegrus adversus.",
+          "received": false
+        },
+        {
+          "_id": "dcbba0ca8ebddc0adadeccb0",
+          "name": "Soft Ceramic Sausages",
+          "amount": 7,
+          "price": 536,
+          "manufacturer": "Armstrong, Medhurst and Graham",
+          "notes": "Suppono amita textus caput.",
+          "received": false
+        },
+        {
+          "_id": "ac9607fbf0c0b68bdd78a124",
+          "name": "Fresh Gold Chips",
+          "amount": 58,
+          "price": 483,
+          "manufacturer": "Hettinger, Vandervort and Stoltenberg",
+          "notes": "Canonicus soluta tum tepidus votum ceno natus accusamus absorbeo.",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 57209,
+      "createdOn": "2025-12-12T17:13:05.801Z",
+      "comments": [],
+      "history": [],
+      "assignedManager": null
+    },
+    {
+      "_id": "bd2aefe36f7b6aefbac9c85f",
+      "status": "Draft",
+      "customer": "19308a48c1b03ca52a43f6a8",
+      "products": [
+        {
+          "_id": "d826d57c07c5f9f59baaf56e",
+          "name": "Small Concrete Shirt",
+          "amount": 10,
+          "price": 314,
+          "manufacturer": "VonRueden and Sons",
+          "notes": "Adeo arguo impedit infit dolores abscido denuo autus substantia.",
+          "received": true
+        },
+        {
+          "_id": "c53f10cc3e28c64da8ff6edf",
+          "name": "Recycled Plastic Chicken",
+          "amount": 42,
+          "price": 707,
+          "manufacturer": "Dicki - King",
+          "notes": "Abscido comedo derideo crastinus velum decens conculco pecto demo amplitudo.",
+          "received": false
+        },
+        {
+          "_id": "f449ee52395f0deaf5aff86b",
+          "name": "Sleek Ceramic Chair",
+          "amount": 31,
+          "price": 644,
+          "manufacturer": "Frami - Heathcote",
+          "notes": "Ultra recusandae torqueo creptio totus apparatus animi.",
+          "received": true
+        },
+        {
+          "_id": "f7b698b9ee6df5f176edf787",
+          "name": "Practical Bronze Pizza",
+          "amount": 6,
+          "price": 314,
+          "manufacturer": "Wyman, Cruickshank and Lang",
+          "notes": "Concido coadunatio trado valeo venia termes id quisquam.",
+          "received": true
+        },
+        {
+          "_id": "faaca56981a1bcccdfc15fdd",
+          "name": "Modern Rubber Car",
+          "amount": 82,
+          "price": 461,
+          "manufacturer": "Mraz LLC",
+          "notes": "Paulatim velum civitas sono talus debilito saepe curo.",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 92484,
+      "createdOn": "2025-12-12T07:37:54.632Z",
+      "comments": [],
+      "history": [],
+      "assignedManager": null
+    }
+  ],
+  "IsSuccess": true,
+  "ErrorMessage": null
+}
+Data is not valid according to the schema.
+[
+  {
+    instancePath: '/Orders/0/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/0/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/allOf/0/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/1/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/1/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/allOf/0/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/2/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/2/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/allOf/0/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  }
+]
