@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Fri, 12 Dec 2025 22:15:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "674",
+    "etag": "W/\"2a2-jxYWDcqP/XNWHw9wh46X5tMpWF0\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "693c940b1c508c5d5ebd7d54",
+        "email": "Tyler.Waters@yahoo.com",
+        "name": "Rosalee Unique",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 840,
+        "flat": 5650,
+        "phone": "+7764456879",
+        "createdOn": "2025-12-12T22:15:39.000Z",
+        "notes": "W5NgU79pTlqKsnApwbQTCgQO2cA9q3vsBcjCRPleO0eBfMc6Zi84sKlFM3umYzDyNyR8AQLOEtuWqTR0CsmCNuQsj4WjM4ufdlcc2Q85Np069jgm9Az98gFC1OMvgtyxNLRGLbgbr5ChmxPVSBRlTQ02AoCYuYjnFwRnAoANFu1iLWBNBprmEIuXig08ZGQv5VduFqW2rkO89WdGVCYHMLNwXWPhqMrCxBBMCVorh2qexw4iV02judlLQi"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Rosalee Unique",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

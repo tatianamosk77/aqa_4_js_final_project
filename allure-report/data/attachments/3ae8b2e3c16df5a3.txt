@@ -1,0 +1,126 @@
+Generated mock data: {
+  "Orders": [
+    {
+      "_id": "cb7ecfefa70afb5bde4d6cde",
+      "status": "Draft",
+      "customer": "19308a48c1b03ca52a43f6a8",
+      "products": [
+        {
+          "_id": "8404cbde8f9300acd9bcdaa7",
+          "name": "Sleek Bronze Table",
+          "amount": 65,
+          "price": 625,
+          "manufacturer": "Carter - Erdman",
+          "notes": "Id decens canto vulticulus verbera id circumvenio clibanus.",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 40625,
+      "createdOn": "2025-12-12T02:26:28.318Z",
+      "comments": [],
+      "history": [],
+      "assignedManager": null
+    },
+    {
+      "_id": "04c1c64eace2df1dd7ba9bee",
+      "status": "Draft",
+      "customer": "19308a48c1b03ca52a43f6a8",
+      "products": [
+        {
+          "_id": "ae5cb8edc1376f947c9fd5d2",
+          "name": "Generic Steel Table",
+          "amount": 17,
+          "price": 672,
+          "manufacturer": "Price, Stokes and Tillman",
+          "notes": "Communis vel vitae.",
+          "received": false
+        },
+        {
+          "_id": "e1bec7c7ba0bba2e1aeb83e9",
+          "name": "Bespoke Gold Mouse",
+          "amount": 50,
+          "price": 606,
+          "manufacturer": "Dare, Lowe and Upton",
+          "notes": "Commodi sordeo sopor.",
+          "received": true
+        }
+      ],
+      "delivery": null,
+      "total_price": 41724,
+      "createdOn": "2025-12-12T06:39:14.588Z",
+      "comments": [],
+      "history": [],
+      "assignedManager": null
+    },
+    {
+      "_id": "5a840671fb3e9c57d4517adc",
+      "status": "Draft",
+      "customer": "19308a48c1b03ca52a43f6a8",
+      "products": [
+        {
+          "_id": "09ff5e82beb832db85c03f4c",
+          "name": "Frozen Concrete Chair",
+          "amount": 1,
+          "price": 793,
+          "manufacturer": "Reichert, Purdy and Swaniawski",
+          "notes": "Conitor talis sto.",
+          "received": true
+        }
+      ],
+      "delivery": null,
+      "total_price": 793,
+      "createdOn": "2025-12-12T19:30:47.227Z",
+      "comments": [],
+      "history": [],
+      "assignedManager": null
+    }
+  ],
+  "IsSuccess": true,
+  "ErrorMessage": null
+}
+Data is not valid according to the schema.
+[
+  {
+    instancePath: '/Orders/0/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/0/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/allOf/0/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/1/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/1/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/allOf/0/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/2/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  },
+  {
+    instancePath: '/Orders/2/customer',
+    schemaPath: '#/properties/Orders/items/properties/customer/allOf/0/type',
+    keyword: 'type',
+    params: { type: 'object' },
+    message: 'must be object'
+  }
+]

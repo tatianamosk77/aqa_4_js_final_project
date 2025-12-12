@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "date": "Fri, 12 Dec 2025 22:15:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "292",
+    "etag": "W/\"124-He2hkjrAkmim9GVWIMCAiFODhvQ\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Lonie.Quigley17@hotmail.com",
+      "name": "Frederique Delia",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 747,
+      "flat": 2198,
+      "phone": "+1030187804",
+      "createdOn": "2025-12-12T22:15:32.000Z",
+      "_id": "693c94041c508c5d5ebd7b98"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

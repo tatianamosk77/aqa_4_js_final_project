@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 12 Dec 2025 22:15:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-ZNDBpDEQOxkOFqfxoVfkGYmzbGk\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Dave_Boyer@hotmail.com",
+      "name": "Dereck Daisy",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 370,
+      "flat": 1039,
+      "phone": "+0599580338",
+      "createdOn": "2025-12-12T22:15:41.000Z",
+      "notes": "0Q7UWyZMSQn6xghbdnbNWBRUGKho5V60F7Zp78bZfsdFod5kGlWSWPJevVOSYXHwZ9Cm6FYGq99hQ5nOxUyXSQEimHztIL5JQUDAMmERpddL0VaDFPcyQ8S8qWBDucqjWtDSiYAEaK9Ed6ewVXk6PBayCGqZ4Dy8HsVUgnRLbQyndNpFTWJEzmLGMty1Hly4RJ7SjfAcFSMX4y3iyUYdFk6kVp9RqOJiv05s4KcrsgEVcxzrYcC9m3PdBj",
+      "_id": "693c940d1c508c5d5ebd7dc3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
