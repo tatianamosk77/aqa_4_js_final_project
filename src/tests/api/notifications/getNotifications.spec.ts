@@ -7,22 +7,12 @@ import { getNotificationsResponseSchema } from 'data/schemas/notifications/getNo
 test.describe('[API] [Sales Portal] [Notifications]', () => {
   let token = '';
 
-  // test.afterEach(async ({ customersApiService }) => {
-  //     if (ids.length) {
-  //         for (const id of ids) {
-  //             await customersApiService.delete(token, id);
-  //         }
-  //         ids.length = 0;
-  //     }
-  // });
-
   test(
     'Get All Notifications',
     {
       tag: [TAGS.REGRESSION, TAGS.NOTIFICATIONS, TAGS.API],
     },
     async ({ loginApiService, notificationsApi }) => {
-      //TODO: Preconditions
       token = await loginApiService.loginAsAdmin();
 
       const getNotificationsResponse = await notificationsApi.get(token);
@@ -32,11 +22,8 @@ test.describe('[API] [Sales Portal] [Notifications]', () => {
         IsSuccess: true,
         ErrorMessage: null,
       });
-      // //TODO: Assert
-      // const actualCustomers = getCustomersResponse.body.Customers;
 
-      // expect(actualCustomers).toEqual(expect.arrayContaining([customer1, customer2]));
-      // //expect(actualCustomers).toHaveLength(2);
+      // TODO: should add expects for checking the response
     }
   );
 });

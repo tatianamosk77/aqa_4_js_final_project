@@ -7,22 +7,12 @@ import { getNotificationsResponseSchema } from 'data/schemas/notifications/getNo
 test.describe('[API] [Sales Portal] [Notifications]', () => {
   let token = '';
 
-  // test.afterEach(async ({ customersApiService }) => {
-  //     if (ids.length) {
-  //         for (const id of ids) {
-  //             await customersApiService.delete(token, id);
-  //         }
-  //         ids.length = 0;
-  //     }
-  // });
-
   test(
     'Read all notifications',
     {
       tag: [TAGS.REGRESSION, TAGS.NOTIFICATIONS, TAGS.API],
     },
     async ({ loginApiService, notificationsApi }) => {
-      //TODO: Preconditions
       token = await loginApiService.loginAsAdmin();
 
       const getNotificationsResponse = await notificationsApi.readAll(token);
