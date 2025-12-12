@@ -3,7 +3,6 @@ import { IOrderDelivery, IOrderData, IOrderRequestParams } from 'data/types/orde
 import { ORDER_STATUS } from 'data/orders/statuses.data';
 import { logStep } from 'utils/report/logStep.utils';
 
-
 export class OrdersAPIController {
   constructor(private ordersApi: OrdersApi) {}
 

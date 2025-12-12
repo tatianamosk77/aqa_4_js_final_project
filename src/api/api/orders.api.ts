@@ -1,7 +1,12 @@
 import { IApiClient } from 'api/apiClients/types';
 import { apiConfig } from 'config/apiConfig';
 import { IRequestOptions } from 'data/types/core.types';
-import { IOrderData, IOrderFilteredResponse, IOrderRequestParams, IOrderResponse } from 'data/types/order.types';
+import {
+  IOrderData,
+  IOrderFilteredResponse,
+  IOrderRequestParams,
+  IOrderResponse,
+} from 'data/types/order.types';
 import { ORDER_STATUS } from 'data/orders/statuses.data';
 import { IOrderDelivery } from 'data/types/order.types';
 import { convertRequestParams } from 'utils/queryParams.utils';

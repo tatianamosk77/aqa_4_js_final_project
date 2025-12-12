@@ -146,4 +146,29 @@ export class OrdersApiService {
       schema: updateOrderResponseSchema,
     });
   }
+
+  @logStep('Setup test notifications: Create order, assign manager, add comment')
+  async setupTestNotifications(
+    token: string,
+    orderData: IOrderData,
+    managerId: string,
+    commentText: string = 'Test comment for notification'
+  ): Promise<string> {
+    try {
+      const createdOrder = await this.create(orderData, token);
+      const orderId = createdOrder._id;
+
+      await this.assignManager(token, orderId, managerId);
+
+      await this.addComment(token, orderId, commentText);
+
+      return orderId;
+    } catch (error) {
+      if (error instanceof Error) {
+        throw new Error(`Setup of test notifications failed: ${error.message}`);
+      } else {
+        throw new Error(`Setup of test notifications failed: ${String(error)}`);
+      }
+    }
+  }
 }
