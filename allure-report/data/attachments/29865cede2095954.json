@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 12 Dec 2025 19:02:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-oq286zVeAyJ/0JogM4nxej5UPKA\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ezequiel22@gmail.com",
+      "name": "Kim Mustafa",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 734,
+      "flat": 6876,
+      "phone": "+0683967414",
+      "createdOn": "2025-12-12T19:02:32.000Z",
+      "notes": "ON3OCC9I5hBOjdriRwxQMcgCvML46jfXX4PJmBjoZBLC40Cyf85sXat4DTevnpQEe2cwbxhER6K8dVD6l8n3PwlNrhlJmIXpw9Hm7xnhqinf16eQwIGjG6PjbmSIM2scpgaiqNiojhgw9TUABZaHDLDXAVe1PSrrjZb5XdIWfbKVuRRNS51IHCdGSzcT5PMoBRfzMHiIX7kIQhTp2pmhii6YOsr1rvauQ4JcSyJohF3fLOljh8vacIO4cf",
+      "_id": "693c66c81c508c5d5ebd1384"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

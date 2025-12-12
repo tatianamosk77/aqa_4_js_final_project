@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 12 Dec 2025 19:02:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "551",
+    "etag": "W/\"227-QlZD15vDbJNgxhTbqXZxJIw2Ohk\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Stephanie_Kovacek@gmail.com",
+      "name": "Test Customer",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 612,
+      "flat": 8507,
+      "phone": "+9623876158",
+      "createdOn": "2025-12-12T19:02:33.000Z",
+      "notes": "g8u89mMALD37VuVPZjrR1lMdUrl8oNoj7XzlDTnZDHOjGMuEjLvbXI6OWChUJJbtj1oztwTS5xyXDFpv3vMXdYJa3gmUZxUmJrzJvFR6kFBebUCtt1rOECuL0gHAl2lBcJ6cHqHNDq24b1UJOxXWvG3YOh3ZdqM95lRdNH5zKn4IBhw1zVgjRvzlSikf1MzMQlYTqsCKs3q7Cmfex7FawKE4L15boCkzgZV9mYXj2WzgzlCA8n4aTMxvw4",
+      "_id": "693c66c91c508c5d5ebd1397"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

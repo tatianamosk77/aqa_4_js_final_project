@@ -1,0 +1,146 @@
+{
+  "headers": {
+    "date": "Fri, 12 Dec 2025 19:02:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4733",
+    "etag": "W/\"127d-R+To8HjAzhXEGe3XIk+GNbgj9aE\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "693c66d01c508c5d5ebd153a",
+        "email": "Evalyn.Schimmel47@hotmail.com",
+        "name": "Stacy Kellie",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 943,
+        "flat": 339,
+        "phone": "+8724300636",
+        "createdOn": "2025-12-12T19:02:40.000Z",
+        "notes": "4o242xTdLBumQkb5Ga46BZmqBjhd28QHTs4rV04uEBcwSPub4pTqqwHKh8wLJP1upuehUSH4jHcsnMTL9wMeRJnkUZE1DYV1JmwvX1lle5094YPgG9zN5FAwyrMAaXlNlhG6RmnS9e9qX04RsgK6EGFZLaCqT3l7cnjEn3pwCrdZ2pNpQJdAz8KcY8ERz5bHz3RTEwIVvP9QDWzGifqlFDsfmtbXhYUMKrsmiwz3zxQAtjjkIDOmoGtsYl"
+      },
+      {
+        "_id": "693c66cf1c508c5d5ebd1519",
+        "email": "Trace91@hotmail.com",
+        "name": "Talon Erich",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 519,
+        "flat": 7335,
+        "phone": "+4313842915",
+        "createdOn": "2025-12-12T19:02:39.000Z",
+        "notes": "mIJxBQxSmDiRYZy8TESNFlmAc5KGbzPCn0nWdl0oCHyasyca0Ad4LaaTTR5bAfyIbwvS76YFBc7UmfihztPmpBEVgH4jRnkUHO9VCwYVmdhZxhs4KqKH8OpJ8SL4mjaJNENZwetEQiBXLIpxTd9IsPOOFt7E1jsZpT8WClReIiLNKQB0ooooTjCgdXzZLDoHyMdU2WKWTXLLacg2ShhVvDOiEVM5ZqwbVh2n0aYGi2xVITg7ygUM4sGV9D"
+      },
+      {
+        "_id": "693c39471c508c5d5ebcef59",
+        "email": "Stan98@gmail.com",
+        "name": "Alf Isabella",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 243,
+        "flat": 9004,
+        "phone": "+8201363802",
+        "createdOn": "2025-12-12T15:48:23.000Z",
+        "notes": "4BiaPECnr2JaGV2LY4hx5bl6pwPn6OlUzRrWDXC5OBttVzQGJ8DC1EmuALPosiiUyuMpDHtDgNZrCUueTPBccXwL4uozOVaZJIV8zlvaYswha0cfP3zHOuSCXDUPJH4XtOQQgOeueb3qDxQuynqwLVNJ5tMXH8m7mnLKDRTGIUJgoGCIki2bqHA9WT9LNnc1L0XfaVAl8SLDZ7Wg3o5LiDDTmosf83nkhpSlA2cowHFixK26hwT47eZ5Nf"
+      },
+      {
+        "_id": "693c39471c508c5d5ebcef61",
+        "email": "Manuela.Christiansen@yahoo.com",
+        "name": "Elsie Vicente",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 221,
+        "flat": 7483,
+        "phone": "+2007399997",
+        "createdOn": "2025-12-12T15:48:23.000Z",
+        "notes": "TbFoltkSAVPRaFYxeOpkarq9nvefnafOR5EPPACVhBb5U7jvsylR4aUqaGmKQRpkWXlwHajEXGw5fWTeSiii00ZGL1IT9gnnuO0h8H0SkpNnTUDpcoM9Yq7bUD5qJRgWvMQ2Uix225ZCxrPBezfSHGItITUUyLBwO2amk0IaXZaJTUvTY2KfPcOAHZsQoJbB0ISWvYGfKU0vbEIEkWG34TB66AyqF2oWIcTLMug2NP5HYQsbCxJX4frJKY"
+      },
+      {
+        "_id": "693c39191c508c5d5ebceedd",
+        "email": "Pearlie_Wilderman50@yahoo.com",
+        "name": "Julius Travis",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 605,
+        "flat": 2526,
+        "phone": "+8470966518",
+        "createdOn": "2025-12-12T15:47:37.000Z",
+        "notes": "0IVwBJ6vAequ82HZKPeqm69a0blEw83w0PlvWYOr15q8BX2u53qyQvlQqDQujTIwEjS5K51CRHQVhgKAIZgE1icTgt1iKFZmNT8hBLj5VqVMaq8zt60ubw3AfjDnnD3cAJcCwmUgrKLDegHz8JLRcjVcRpGgOVMr6YHymNpMUbl6iQhwwZKPUKh4GBhuKBaP1ZO6N06hBKlnXuZ7t4TNeMJQXCpPiCkmuol6J7udTCV1V4dFoL9717NY5x"
+      },
+      {
+        "_id": "693c39121c508c5d5ebcecfe",
+        "email": "Adell_Wisozk@yahoo.com",
+        "name": "Jannie Icie",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 509,
+        "flat": 3335,
+        "phone": "+2167102101",
+        "createdOn": "2025-12-12T15:47:30.000Z",
+        "notes": "yM4CR4nZVAnmX79LMYT0fqwthhujzTsrQb2IW1kTeyx4RWW8O73vy3yR541TsO31I8S23NKa3uhtYz8EPjTIjDYIDr87idiuGVHFeZSiR7Va12MhAoYC0IX9sv7xHaRHAudRT6Tt4IR62dDKFdiV08yxyhDpNymgfzGDpk8vc7Z5agg9M1t8JZUujp53lpBNsIvUZ1TXuPYxJzPYbxnOvHa98ov4uiL4VymTmRelwUrxd5r825EwhY87rD"
+      },
+      {
+        "_id": "693c38391c508c5d5ebce8e1",
+        "email": "Otis.McClure@hotmail.com",
+        "name": "Shirley Norma",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 349,
+        "flat": 8197,
+        "phone": "+8714763138",
+        "createdOn": "2025-12-12T15:43:53.000Z",
+        "notes": "KzT36ctjSPES0oPuj8oDDNNWU0ktnNg6TTuczcZWwKthTaR8mSLMkRxmJqIqGUK77VjJIdzzKUgYwRn63g9YDpY0DigvW6gpM0BzdSFnlxHExT1rvbyck4qcCThM4aLXCfHKHyAwxIInuUFLulQpIb0Qbz45Bu33l14AR1DG2bPiyLLAJxUJFUuOkFcKKAkjfExtvFLjt3qHyUPfO8BUi5swQdRn0yy3p6UzvSCjoEU7Imq6oIm2MahoLA"
+      },
+      {
+        "_id": "693c35db1c508c5d5ebce50b",
+        "email": "Rahul.Johnston-Kuhlman40@hotmail.com",
+        "name": "Tad Katharina",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 928,
+        "flat": 4563,
+        "phone": "+6636306145",
+        "createdOn": "2025-12-12T15:33:47.000Z",
+        "notes": "0cFi0VQ2eRmDagf6yhLIaWZZ7Zg8K65Sva6WkTOVfRO4B7CR0JfwUfmKI0gtnZ5LRgHfz7KZ8htawQEfoPIcUdlEUM7ecLFwaHJ4NXxl5a8zOKGTBfExs9FJBkauUpMzczCWlyaTpMGro7pdTpGxvuzcamTRoNq7JWTbAOadIPXWzSvh5D7Io7052RV5A56ZZov7QxMCi1b61cSUF87PKkejZ56NZwd2KbDU1yMreZtT0NNnMdDHeZfZtR"
+      },
+      {
+        "_id": "693c35861c508c5d5ebce3ee",
+        "email": "Connor.Rutherford39@hotmail.com",
+        "name": "Hazel Guadalupe",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 71,
+        "flat": 440,
+        "phone": "+3019633038",
+        "createdOn": "2025-12-12T15:32:22.000Z",
+        "notes": "R8EOIZrXmBFge2FUCOEDRXHsZr0kZXLsGOb6ZqTG54T7q9kHTLO56rJmEkEZoq2SrR0TfFVba664Xg9A60z0QSFoPJz6Rak9F0ZthqeJPzhV3CcrdrEppzvUsMAnXOyxrGoAZCjoCxwwckMQ6ifKZdnyy2zpyRFhqjrXBnAIGAoF8HBwxQJEDvq5O4YEcnENVhjO1QzzlF7NW8TF1cRvYqlkh18CRt12Clgcw6N2h3GX30ow6ejcq0ea4y"
+      }
+    ],
+    "total": 9,
+    "page": 1,
+    "limit": 10,
+    "search": "Great Britain",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

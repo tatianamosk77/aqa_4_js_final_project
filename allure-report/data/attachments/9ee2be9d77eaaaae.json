@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 12 Dec 2025 19:02:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-+JZKTk9BfHLezfmWAWWpb6l8Wm4\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Litzy26@hotmail.com",
+      "name": "Ronny Calista",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 169,
+      "flat": 6702,
+      "phone": "+6020057221",
+      "createdOn": "2025-12-12T19:02:42.000Z",
+      "notes": "zF8ClCfPWpc780mv2KS8Fh8CjRHbhV4ujWzxcHU7NId0inU8HhOMfiIF5eVSBHFfHvXazXvjyDmAH89KPw3htNUwmKIWHxKPd0KvBzYQK437tb7qxWETQJOOnpWJluJ0xnPerDnKAUuUwTMb8MWQV7fWZeqAKatclENp58pSKaJCuL8v10PTtuQz9WqNg01pi86adTiPktKQFAGyymvHIlXJaHM0MJZWZ4ZmmxLPM1KDzRNXdLffR0DFk3",
+      "_id": "693c66d21c508c5d5ebd1562"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 12 Dec 2025 19:02:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-1v5AWZIIbhLVYj1C3JERS2P4AW8\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Marc10@gmail.com",
+      "name": "Eveline Carlee",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 596,
+      "flat": 9999,
+      "phone": "+6162442705",
+      "createdOn": "2025-12-12T19:02:34.000Z",
+      "notes": "00LbXuON7HZUvk2gzAojMlQIki8yvxuSoCzlPj6ovdJ8Zo3mnxZujtgxn4IsftaVvJbnrgZMsXPlSWAI9jUiTedBCDZqdKuCMDSGowbSlizifa8OKt0Mf472YPDK1BWjTUETZp0IIYV9J8uq0tbST1ouSMXrqbXr2qaaYl8tEJWIlTsVuWalJzA2PHMUeP71IlhmljkTN8YDu8SG947gpqRIl6fbnL7vY1hNIEiJdyn5vkLlBzGqdQz4Pi",
+      "_id": "693c66ca1c508c5d5ebd1409"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
