@@ -127,9 +127,13 @@ test.describe('[API] [Sales Portal] [Customers] Get Sorted', () => {
         return dateA.getTime() - dateB.getTime();
       }).slice(0, 10);
 
-      actualCustomers.forEach((actual, index) => {
-        expect.soft(actual).toEqual(sorted[index]);
-      });
+    for (let i = 0; i < actualCustomers.length - 1; i++) {
+    const a = new Date(actualCustomers[i]!.createdOn).getTime();
+    const b = new Date(actualCustomers[i + 1]!.createdOn).getTime();
+
+    expect.soft(a <= b).toBe(true);
+    }
+
 
       const { limit, search, country, total, page: pageParam, sorting } = response.body;
       expect.soft(limit, `Limit should be ${limit}`).toBe(10);

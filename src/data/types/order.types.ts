@@ -1,8 +1,9 @@
-import { IResponseFields, SortOrder } from 'data/types/core.types';
-import { IProduct } from './product.types';
-import { ORDER_STATUS } from 'data/orders/statuses.data';
-import { COUNTRIES } from 'data/salesPortal/customers/countries';
-import { DELIVERY, LOCATION } from 'data/orders/delivery.data';
+import { IResponseFields, SortOrder } from "data/types/core.types";
+import { IProduct } from "./product.types";
+import { ORDER_STATUS } from "data/orders/statuses.data";
+import { COUNTRIES } from "data/salesPortal/customers/countries";
+import { DELIVERY, LOCATION } from "data/orders/delivery.data";
+import { ICustomerFromResponse } from "./customer.types";
 
 export interface IOrderProduct {
   _id: string;
@@ -29,7 +30,7 @@ export interface IOrderHistoryItem {
   changedOn: string;
   action: string;
   performer: IHistoryPerformer;
-  assignedManager: string | null;
+  assignedManager: IAssignedManager | string | null; // ⬅ было string | null
 }
 
 export interface IHistoryPerformer {
@@ -46,6 +47,7 @@ export interface IAssignedManager {
   username: string;
   firstName: string;
   lastName: string;
+  createdOn: string; // ⬅ добавлено, т.к. приходит в ответе
 }
 
 export interface IOrderData {
@@ -60,7 +62,7 @@ export interface IOrderDataWithId extends IOrderData {
 export interface IOrder {
   _id: string;
   status: string;
-  customer: string;
+  customer: ICustomerFromResponse;
   products: IOrderProduct[];
   delivery: IOrderDelivery | null;
   total_price: number;
@@ -88,7 +90,7 @@ export interface IAddress {
   flat?: number;
 }
 
-export type OrdersSortField = 'createdOn' | 'status' | 'total_price' | 'customer';
+export type OrdersSortField = "createdOn" | "status" | "total_price" | "customer";
 
 export interface IOrderFilteredResponse extends IResponseFields {
   Orders: IOrderFromResponse[];

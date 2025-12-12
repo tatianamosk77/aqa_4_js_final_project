@@ -1,191 +1,189 @@
-import { obligatoryFieldsSchema, obligatoryRequredFields } from '../core.schema';
-import { customerSchema } from 'data/schemas/customers/customer.schema';
-import { ORDER_STATUS } from 'data/orders/statuses.data';
-import { commentOrderSchema } from 'data/schemas/comments/orderComments.schema';
+import { obligatoryFieldsSchema, obligatoryRequredFields } from "../core.schema";
+import { customerSchema } from "data/schemas/customers/customer.schema";
+import { ORDER_STATUS } from "data/orders/statuses.data";
+import { commentOrderSchema } from "data/schemas/comments/orderComments.schema";
 
 export const productInOrderSchema = {
-  type: 'object',
+  type: "object",
   properties: {
-    _id: { type: 'string' },
-    name: { type: 'string' },
-    amount: { type: 'integer', minimum: 0 },
-    price: { type: 'integer', minimum: 0 },
-    manufacturer: { type: 'string' },
-    notes: { type: 'string' },
-    received: { type: 'boolean' },
+    _id: { type: "string" },
+    name: { type: "string" },
+    amount: { type: "integer", minimum: 0 },
+    price: { type: "integer", minimum: 0 },
+    manufacturer: { type: "string" },
+    notes: { type: "string" },
+    received: { type: "boolean" },
   },
-  required: ['_id', 'name', 'amount', 'price', 'manufacturer', 'notes', 'received'],
+  required: ["_id", "name", "amount", "price", "manufacturer", "notes", "received"],
   additionalProperties: false,
 };
 
 export const performerSchema = {
-  type: 'object',
+  type: "object",
   properties: {
-    _id: { type: 'string' },
-    username: { type: 'string' },
-    firstName: { type: 'string' },
-    lastName: { type: 'string' },
+    _id: { type: "string" },
+    username: { type: "string" },
+    firstName: { type: "string" },
+    lastName: { type: "string" },
     roles: {
-      type: 'array',
-      items: { type: 'string' },
+      type: "array",
+      items: { type: "string" },
     },
-    createdOn: { type: 'string' }, // Дата в формате '2025/10/23 16:51:13'
+    createdOn: { type: "string" }, // Дата в формате '2025/10/23 16:51:13'
   },
-  required: ['_id', 'username', 'firstName', 'lastName', 'roles', 'createdOn'],
+  required: ["_id", "username", "firstName", "lastName", "roles", "createdOn"],
   additionalProperties: false,
 };
 
 export const orderHistoryItemSchema = {
-  type: 'object',
+  type: "object",
   properties: {
-    status: { type: 'string' },
-    customer: { type: 'string' },
+    status: { type: "string" },
+    customer: { type: "string" },
     products: {
-      type: 'array',
+      type: "array",
       items: productInOrderSchema,
     },
-    total_price: { type: 'number', minimum: 0 },
-    delivery: { type: ['object', 'null'] },
-    changedOn: { type: 'string', format: 'date-time' }, // ISO 8601: "2025-12-09T10:16:39.000Z"
-    action: { type: 'string' },
+    total_price: { type: "number", minimum: 0 },
+    delivery: { type: ["object", "null"] },
+    changedOn: { type: "string", format: "date-time" },
+    action: { type: "string" },
     performer: performerSchema,
-    assignedManager: { type: ['string', 'null'] },
+    assignedManager: { type: ["string", "object", "null"] },
   },
   required: [
-    'status',
-    'customer',
-    'products',
-    'total_price',
-    'delivery',
-    'changedOn',
-    'action',
-    'performer',
-    'assignedManager',
+    "status",
+    "customer",
+    "products",
+    "total_price",
+    "delivery",
+    "changedOn",
+    "action",
+    "performer",
+    "assignedManager",
   ],
   additionalProperties: false,
 };
 
 export const assignedManagerSchema = {
-  type: 'object',
+  type: "object",
   properties: {
-    _id: { type: 'string' },
-    username: { type: 'string' },
-    firstName: { type: 'string' },
-    lastName: { type: 'string' },
+    _id: { type: "string" },
+    username: { type: "string" },
+    firstName: { type: "string" },
+    lastName: { type: "string" },
     roles: {
-      type: 'array',
-      items: { type: 'string' },
+      type: "array",
+      items: { type: "string" },
     },
+    createdOn: { type: "string" }, 
   },
-  required: ['_id', 'username', 'firstName', 'lastName', 'roles'],
+  required: ["_id", "username", "firstName", "lastName", "roles", "createdOn"],
   additionalProperties: false,
 };
-// // временно
-// export const assignedManagerSchema = {
-//   type: 'object',
-//   properties: {
-//     _id: { type: 'string' },
-//     username: { type: 'string' },
-//     firstName: { type: 'string' },
-//     lastName: { type: 'string' },
-//   },
-//   required: ['_id', 'username', 'firstName', 'lastName'],
-//   additionalProperties: false,
-// };
 
 export const deliverySchema = {
-  type: 'object',
+  type: "object",
   properties: {
     address: {
-      type: 'object',
+      type: "object",
       properties: {
         country: {
-          type: 'string',
+          type: "string",
         },
         city: {
-          type: 'string',
+          type: "string",
         },
         street: {
-          type: 'string',
+          type: "string",
         },
         house: {
-          type: 'number',
+          type: "number",
         },
         flat: {
-          type: 'number',
+          type: "number",
         },
       },
 
-      required: ['country', 'city', 'street', 'house', 'flat'],
+      required: ["country", "city", "street", "house", "flat"],
       additionalProperties: false,
     },
     finalDate: {
-      type: 'string',
-      format: 'date-time',
+      type: "string",
+      format: "date-time",
     },
     condition: {
-      type: 'string',
-      enum: ['Pickup', 'Delivery'],
+      type: "string",
+      enum: ["Pickup", "Delivery"],
     },
   },
 
-  required: ['address', 'finalDate', 'condition'],
+  required: ["address", "finalDate", "condition"],
   additionalProperties: false,
 };
 
 export const orderSchema = {
-  type: 'object',
+  type: "object",
   properties: {
-    _id: { type: 'string' },
-    status: { type: 'string', enum: Object.values(ORDER_STATUS) },
-    // status: { type: 'string' },
-    customer: { type: 'object', allOf: [customerSchema] },
+    _id: { type: "string" },
+    status: { type: "string", enum: Object.values(ORDER_STATUS) },
+    customer: { type: "object", allOf: [customerSchema] },
     products: {
-      type: 'array',
+      type: "array",
       items: productInOrderSchema,
     },
     delivery: {
-      oneOf: [{ type: 'null' }, { allOf: [deliverySchema] }],
+      oneOf: [{ type: "null" }, { allOf: [deliverySchema] }],
     },
-    total_price: { type: 'number', minimum: 0 },
-    createdOn: { type: 'string', format: 'date-time' },
+    total_price: { type: "number", minimum: 0 },
+    createdOn: { type: "string", format: "date-time" },
     comments: {
-      type: 'array',
+      type: "array",
       items: commentOrderSchema,
     },
     history: {
-      type: 'array',
+      type: "array",
       items: orderHistoryItemSchema,
     },
     assignedManager: {
-      oneOf: [{ type: 'string' }, assignedManagerSchema, { type: 'null' }],
+      oneOf: [{ type: "string" }, assignedManagerSchema, { type: "null" }],
     },
   },
   required: [
-    '_id',
-    'status',
-    'customer',
-    'products',
-    'delivery',
-    'total_price',
-    'createdOn',
-    'comments',
-    'history',
-    'assignedManager',
+    "_id",
+    "status",
+    "customer",
+    "products",
+    "delivery",
+    "total_price",
+    "createdOn",
+    "comments",
+    "history",
+    "assignedManager",
   ],
   additionalProperties: false,
 };
 
+export const orderInListSchema = {
+  ...orderSchema,
+  properties: {
+    ...orderSchema.properties,
+    customer: {
+      oneOf: [{ type: "string" }, { type: "object", allOf: [customerSchema] }],
+    },
+  },
+};
+
 export const getCustomerOrdersSchema = {
-  type: 'object',
+  type: "object",
   properties: {
     Orders: {
-      type: 'array',
-      items: orderSchema,
+      type: "array",
+      items: orderInListSchema 
     },
     ...obligatoryFieldsSchema,
   },
-  required: ['Orders', ...obligatoryRequredFields],
+  required: ["Orders", ...obligatoryRequredFields],
   additionalProperties: false,
 };
 
