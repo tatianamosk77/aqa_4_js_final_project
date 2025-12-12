@@ -37,6 +37,29 @@ export class NotificationsApiService {
     return unreadNotification ? unreadNotification._id : null;
   }
 
+  @logStep('Get first unread notification ID for specific order')
+  async getFirstUnreadNotificationIdForOrder(
+    token: string,
+    orderId: string
+  ): Promise<string | null> {
+    const response = await this.getAll(token);
+
+    const unreadNotification = response.Notifications.find(
+      notification => !notification.read && notification.orderId === orderId
+    );
+
+    return unreadNotification ? unreadNotification._id : null;
+  }
+
+  @logStep('Get all unread notification IDs for specific order')
+  async getAllUnreadNotificationIdsForOrder(token: string, orderId: string): Promise<string[]> {
+    const response = await this.getAll(token);
+
+    return response.Notifications.filter(
+      notification => !notification.read && notification.orderId === orderId
+    ).map(notification => notification._id);
+  }
+
   @logStep('Get first notification ID')
   async getFirstNotificationId(token: string): Promise<string | null> {
     const response = await this.getAll(token);
