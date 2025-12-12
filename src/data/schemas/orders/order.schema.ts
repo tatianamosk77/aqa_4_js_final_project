@@ -2,6 +2,7 @@ import { obligatoryFieldsSchema, obligatoryRequredFields } from '../core.schema'
 import { customerSchema } from 'data/schemas/customers/customer.schema';
 import { ORDER_STATUS } from 'data/orders/statuses.data';
 import { commentOrderSchema } from 'data/schemas/comments/orderComments.schema';
+import { ordersMetaSchema } from '../base.schemas';
 
 export const productInOrderSchema = {
   type: 'object',
@@ -35,6 +36,23 @@ export const performerSchema = {
   additionalProperties: false,
 };
 
+export const assignedManagerSchema = {
+  type: 'object',
+  properties: {
+    _id: { type: 'string' },
+    username: { type: 'string' },
+    firstName: { type: 'string' },
+    lastName: { type: 'string' },
+    roles: {
+      type: 'array',
+      items: { type: 'string' },
+    },
+    createdOn: { type: 'string' },
+  },
+  required: ['_id', 'username', 'firstName', 'lastName', 'roles', 'createdOn'],
+  additionalProperties: false,
+};
+
 export const orderHistoryItemSchema = {
   type: 'object',
   properties: {
@@ -49,8 +67,11 @@ export const orderHistoryItemSchema = {
     changedOn: { type: 'string', format: 'date-time' }, // ISO 8601: "2025-12-09T10:16:39.000Z"
     action: { type: 'string' },
     performer: performerSchema,
-    assignedManager: { type: ['string', 'null'] },
+    assignedManager: {
+      oneOf: [{ type: 'string' }, assignedManagerSchema, { type: 'null' }],
+    },
   },
+
   required: [
     'status',
     'customer',
@@ -65,21 +86,6 @@ export const orderHistoryItemSchema = {
   additionalProperties: false,
 };
 
-export const assignedManagerSchema = {
-  type: 'object',
-  properties: {
-    _id: { type: 'string' },
-    username: { type: 'string' },
-    firstName: { type: 'string' },
-    lastName: { type: 'string' },
-    roles: {
-      type: 'array',
-      items: { type: 'string' },
-    },
-  },
-  required: ['_id', 'username', 'firstName', 'lastName', 'roles'],
-  additionalProperties: false,
-};
 // // временно
 // export const assignedManagerSchema = {
 //   type: 'object',
@@ -187,6 +193,19 @@ export const getCustomerOrdersSchema = {
   },
   required: ['Orders', ...obligatoryRequredFields],
   additionalProperties: false,
+};
+
+export const ordersListSchema = {
+  type: 'object',
+  properties: {
+    Orders: {
+      type: 'array',
+      items: orderSchema,
+    },
+    ...ordersMetaSchema.properties,
+    ...obligatoryFieldsSchema,
+  },
+  required: ['Orders', ...obligatoryRequredFields],
 };
 
 export const customerOrdersSchema = getCustomerOrdersSchema;
