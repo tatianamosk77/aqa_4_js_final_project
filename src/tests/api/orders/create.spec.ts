@@ -15,27 +15,28 @@ test.describe("[API] [Sales Portal] [Orders] [Create]", () => {
   let orderId: string | null = null;
   let customerId: string | null = null;
   let productIds: string[] = [];
+  let created = false; 
 
   test.beforeEach(async ({ loginApiService }) => {
     token = await loginApiService.loginAsAdmin();
     orderId = null;
     customerId = null;
     productIds = [];
+    created = false; 
   });
+  
+test.afterEach(async ({ request }) => {
+  if (!orderId) return;
 
-  test.afterEach(async ({ ordersApiService, customersApiService, productsApiService }) => {
-    if (orderId) {
-      await ordersApiService.delete(orderId, token).catch(() => {});
-    }
-    if (customerId) {
-      await customersApiService.delete(token, customerId).catch(() => {});
-    }
-    productIds.forEach(id => productsApiService.delete(token, id).catch(() => {}));
+  const headers = { Authorization: `Bearer ${token}` };
 
-    orderId = null;
-    customerId = null;
-    productIds = [];
-  });
+  await Promise.allSettled([
+    request.delete(`/api/orders/${orderId}`, { headers, failOnStatusCode: false }),
+  ]);
+
+  orderId = null;
+});
+
 
   test(
     "Should create order with all valid data (token, valid customerId, productId) and one product",
@@ -48,6 +49,8 @@ test.describe("[API] [Sales Portal] [Orders] [Create]", () => {
 
       customerId = createdCustomer._id;
       productIds = [createdProduct._id];
+
+      created = true; 
 
       const order = await ordersApiService.create(
         { customer: createdCustomer._id, products: [createdProduct._id] },
@@ -88,6 +91,8 @@ test.describe("[API] [Sales Portal] [Orders] [Create]", () => {
 
       customerId = createdCustomer._id;
       productIds = extractIds(createdProducts);
+
+      created = true; // ✅ ресурсы созданы, нужно чистить
 
       const order = await ordersApiService.create(
         { customer: createdCustomer._id, products: productIds },
@@ -130,6 +135,8 @@ test.describe("[API] [Sales Portal] [Orders] [Create]", () => {
       customerId = createdCustomer._id;
       productIds = extractIds(createdProducts);
 
+      created = true; // ✅ customer/products созданы — надо удалить, хоть order и не создался
+
       const response = await ordersController.create(
         { customer: createdCustomer._id, products: productIds },
         token
@@ -153,6 +160,8 @@ test.describe("[API] [Sales Portal] [Orders] [Create]", () => {
       const createdProduct = await productsApiService.create(token);
       productIds = [createdProduct._id];
 
+      created = true; // ✅ product создан — надо удалить
+
       const response = await ordersController.create(
         { customer: invalidCustomerId, products: [createdProduct._id] },
         token
@@ -175,6 +184,8 @@ test.describe("[API] [Sales Portal] [Orders] [Create]", () => {
 
       const createdCustomer = await customersApiService.create(token);
       customerId = createdCustomer._id;
+
+      created = true; // ✅ customer создан — надо удалить
 
       const response = await ordersController.create(
         { customer: createdCustomer._id, products: [invalidProductId] },
@@ -201,6 +212,8 @@ test.describe("[API] [Sales Portal] [Orders] [Create]", () => {
 
       customerId = createdCustomer._id;
       productIds = extractIds(createdProducts);
+
+      created = true; // ✅ customer/products созданы — надо удалить
 
       const invalidProductId = generateID();
       const mixedProductIds = [...productIds, invalidProductId];

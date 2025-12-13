@@ -1,5 +1,6 @@
-import { faker } from "@faker-js/faker";
-import { IOrder, IOrderProduct } from "data/types/order.types";
+import { faker } from '@faker-js/faker';
+import { IOrder, IOrderProduct } from 'data/types/order.types';
+import { generateCustomerFromResponse } from 'data/salesPortal/customers/generateCustomerData';
 
 export function generateOrderProductData(): IOrderProduct {
   return {
@@ -15,19 +16,19 @@ export function generateOrderProductData(): IOrderProduct {
 
 export function generateOrderData(customerId: string): IOrder {
   const productsCount = faker.number.int({ min: 1, max: 5 });
-  const products = Array.from({ length: productsCount }, () => generateOrderProductData());
+  const products = Array.from({ length: productsCount }, generateOrderProductData);
 
-  const total_price = products.reduce((sum, product) => {
-    return sum + product.price * product.amount;
-  }, 0);
+  const total_price = products.reduce((sum, product) => sum + product.price * product.amount, 0);
+
+  const customer = generateCustomerFromResponse({ _id: customerId });
 
   return {
     _id: faker.database.mongodbObjectId(),
-    status: faker.helpers.arrayElement(["Draft"]),
-    customer: customerId,
-    products: products,
+    status: faker.helpers.arrayElement(['Draft']),
+    customer, // ✅ customer теперь ICustomerFromResponse
+    products,
     delivery: null,
-    total_price: total_price,
+    total_price,
     createdOn: faker.date.recent().toISOString(),
     comments: [],
     history: [],
@@ -35,7 +36,7 @@ export function generateOrderData(customerId: string): IOrder {
   };
 }
 
-export function generateCustomerOrdersResponse(customerId: string, count: number = 2) {
+export function generateCustomerOrdersResponse(customerId: string, count = 2) {
   return {
     Orders: Array.from({ length: count }, () => generateOrderData(customerId)),
     IsSuccess: true,
