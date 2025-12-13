@@ -1,0 +1,161 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 22:15:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4161",
+    "etag": "W/\"1041-RDHidbRNNP1u3OV51ynUl+OOdlg\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693de5791c508c5d5ec67a01",
+      "status": "Draft",
+      "customer": {
+        "_id": "693de57b1c508c5d5ec67ac8",
+        "email": "Sarai92@hotmail.com",
+        "name": "Dorothy Norbert",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 620,
+        "flat": 5200,
+        "phone": "+4587192246",
+        "createdOn": "2025-12-13T22:15:23.000Z",
+        "notes": "0JEylNfXVYVJma0VR5v5MyBrHjgsx8y2PBaS4FHTPIGpKS4DGIZ1UdpRugAAk6t3HQrpkppKx2iwejRarVttuBcB1GU6EqqHlUMAeVXH79KycmavbzIlH1Xo2xWaOWnf6mWjiKb4KCggeNmoHS3uWWMIWhs8MHUF2vE6jhSbHPmrPhHO5FiSPZbcETeDI3NCNT4Mthq6UfdTMz8NqTAZfDumBj3IxV5wgAyvQCbcRA5zpW0ZrfTtVg5glI"
+      },
+      "products": [
+        {
+          "_id": "693de57c1c508c5d5ec67aca",
+          "name": "Gloves3700",
+          "amount": 343,
+          "price": 64864,
+          "manufacturer": "Tesla",
+          "notes": "Qt84kDcy81u4zS6wShvlTy6ZsCOhJHgegTkP5JWFGDjbBLBodgST9ssnC8aehZ3EmIdWnD0HPfdfvIggxvU0C7y5i0tD6Tt0OCpxYTb3N4tJx5K8S86uszgnsV2VxcxeWzY8LUW9618r0sLTqnOFolt1WcXlmMCMLoNMRBYERW3HLnoPSzt6lFQ5apjfeaL5CB1kH1yyQeEDHKcUZcyXipQeDbkGtfRyFf7KlWB9hfQvOJuCqvflXH1zT2",
+          "received": false
+        },
+        {
+          "_id": "693de57c1c508c5d5ec67ace",
+          "name": "Keyboard76001",
+          "amount": 931,
+          "price": 56960,
+          "manufacturer": "Google",
+          "notes": "2NglrGnxG87sc7lpgxNaMAzlGnfYpdH5X7JC4wpBMtW2VvSBU8laZb6MKcHcTIPCm87N9L2aTR2i1yhJkGBBGF8WxxVSQhVjm77f47hTyts76kAHt0UtRx64x9PdPHUg4dqEjvXU3dGDV68CdzOM5Vv5Y6NOraciXPCyBlD3IRY1jrdG12Iuk9kkmGVoxcBN1OuY6uPnpLWNipPaWoglnsoHPrtRCnbgqVfDfdWexMtrm90QIgMOI8fNIC",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 121824,
+      "createdOn": "2025-12-13T22:15:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693de57b1c508c5d5ec67ac8",
+          "products": [
+            {
+              "_id": "693de5791c508c5d5ec679ee",
+              "name": "Table63873",
+              "amount": 311,
+              "price": 58217,
+              "manufacturer": "Amazon",
+              "notes": "Yu8SE1OsgKwKU85ebxk5CupOtXREXjZXFJd8E6rxADQMCv0MUN0RQ46tcViYkp3FVPdfb8YCsg94N1yfSPDrJrZMBM1R6Popq2ZPIWTpi8EmW1s8jWNE1dWltPrDbPORcaLZUb0ZPDWx48gT5hbbvpPcVs8M9ecTjHcq7RQl8f6gxY5fPkHC00el4m4OSF5B8avoCVvsYeGGsZwFPNaEL3Tpyvcw92CLQ3DPVQc84EhlaCav8QDDlsEWkK",
+              "received": false
+            }
+          ],
+          "total_price": 121824,
+          "delivery": null,
+          "changedOn": "2025-12-13T22:15:24.000Z",
+          "action": "Customer changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693de5781c508c5d5ec679db",
+          "products": [
+            {
+              "_id": "693de57c1c508c5d5ec67aca",
+              "name": "Gloves3700",
+              "amount": 343,
+              "price": 64864,
+              "manufacturer": "Tesla",
+              "notes": "Qt84kDcy81u4zS6wShvlTy6ZsCOhJHgegTkP5JWFGDjbBLBodgST9ssnC8aehZ3EmIdWnD0HPfdfvIggxvU0C7y5i0tD6Tt0OCpxYTb3N4tJx5K8S86uszgnsV2VxcxeWzY8LUW9618r0sLTqnOFolt1WcXlmMCMLoNMRBYERW3HLnoPSzt6lFQ5apjfeaL5CB1kH1yyQeEDHKcUZcyXipQeDbkGtfRyFf7KlWB9hfQvOJuCqvflXH1zT2",
+              "received": false
+            },
+            {
+              "_id": "693de57c1c508c5d5ec67ace",
+              "name": "Keyboard76001",
+              "amount": 931,
+              "price": 56960,
+              "manufacturer": "Google",
+              "notes": "2NglrGnxG87sc7lpgxNaMAzlGnfYpdH5X7JC4wpBMtW2VvSBU8laZb6MKcHcTIPCm87N9L2aTR2i1yhJkGBBGF8WxxVSQhVjm77f47hTyts76kAHt0UtRx64x9PdPHUg4dqEjvXU3dGDV68CdzOM5Vv5Y6NOraciXPCyBlD3IRY1jrdG12Iuk9kkmGVoxcBN1OuY6uPnpLWNipPaWoglnsoHPrtRCnbgqVfDfdWexMtrm90QIgMOI8fNIC",
+              "received": false
+            }
+          ],
+          "total_price": 121824,
+          "delivery": null,
+          "changedOn": "2025-12-13T22:15:24.000Z",
+          "action": "Requested products changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693de5781c508c5d5ec679db",
+          "products": [
+            {
+              "_id": "693de5791c508c5d5ec679ee",
+              "name": "Table63873",
+              "amount": 311,
+              "price": 58217,
+              "manufacturer": "Amazon",
+              "notes": "Yu8SE1OsgKwKU85ebxk5CupOtXREXjZXFJd8E6rxADQMCv0MUN0RQ46tcViYkp3FVPdfb8YCsg94N1yfSPDrJrZMBM1R6Popq2ZPIWTpi8EmW1s8jWNE1dWltPrDbPORcaLZUb0ZPDWx48gT5hbbvpPcVs8M9ecTjHcq7RQl8f6gxY5fPkHC00el4m4OSF5B8avoCVvsYeGGsZwFPNaEL3Tpyvcw92CLQ3DPVQc84EhlaCav8QDDlsEWkK",
+              "received": false
+            }
+          ],
+          "total_price": 58217,
+          "delivery": null,
+          "changedOn": "2025-12-13T22:15:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

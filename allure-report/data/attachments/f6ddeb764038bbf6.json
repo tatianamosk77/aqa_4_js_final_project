@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 22:15:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-b7ZmIizwv40uDuVAVc1RZZbqsAI\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Amya.Senger@hotmail.com",
+      "name": "Helga Marcus",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 63,
+      "flat": 926,
+      "phone": "+7906305441",
+      "createdOn": "2025-12-13T22:15:09.000Z",
+      "notes": "USi2PNDO5UdYOnRGG5GgLg7PSilr87EipRAyxNelnTTgUQ3dHVbP8im0uFUDVgznlA0fWdTLQi6hOUMTXOkC5pTyRm6SsK2PLF4x80fFrCKRV1YKdRWmKDwqDf567YjUsqbxSOFmQ4tqcyLgaTnjjAD6wG2qQLi64NhS1BIfpQf2GkpUoY0zBqrerZtS8xL5anMi4oa5VFD3egXqGOJcSoUCRLKEKNn7cepnkfyqL8vqkym1dbBkbdaMaU",
+      "_id": "693de56d1c508c5d5ec67756"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

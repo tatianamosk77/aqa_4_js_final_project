@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 22:15:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-bjpWHc/5hP4X9FmkWWo77dKMbWc\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693de5781c508c5d5ec679df",
+        "email": "Julian21@yahoo.com",
+        "name": "Abagail Marques",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 765,
+        "flat": 2910,
+        "phone": "+5383682934",
+        "createdOn": "2025-12-13T22:15:20.000Z",
+        "notes": "KMum4L5qzOrRFqfTSnNtNXfs19D9UqyPRL6jfnTPIV9RGp2CnEDh8dE2KQV0RiYVtDq0IfvPtyjqVcFpNED5ZhbQuvbo7myU3jkTOHJUWqNUIsTJApBGpFXfDoDmGrNQ43n6J5uOQU8vxBgWwePDpSXX8Zx04JvNdNMzkcFxklUWZsHxwahej35ruhHPsY69uKuAiwzFqTRKjn3PZWNGBgdtX6BFahjESW7geUKyP2J4k9U4eTktL2JmtW"
+      },
+      "products": [
+        {
+          "_id": "693de5791c508c5d5ec679ff",
+          "name": "Bacon93649",
+          "amount": 689,
+          "price": 31663,
+          "manufacturer": "Microsoft",
+          "notes": "CLiJpnZhvugh9YR3XgJr3Yq3lao85PpXgm1illQcGd6xmG56CcB76mUDXg114CjHwXo2Ag24ppWfHRRxcP2yHZGxemjA4HObCM8Wi749BaFRxsOZJUI51pnGN2Gdu7dRY5p2IOjU0QSBfAvTWHmoSFv1PR9vSPZcDcBNFCpajKNkpWz1Mwu9xAShqykJD4lNutzfN54Y0EyoMlPTY0jVsLQQ63SXIs8aVW3HJXOycUASXAft4GRi3HzlMI",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 31663,
+      "createdOn": "2025-12-13T22:15:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693de5781c508c5d5ec679df",
+          "products": [
+            {
+              "_id": "693de5791c508c5d5ec679ff",
+              "name": "Bacon93649",
+              "amount": 689,
+              "price": 31663,
+              "manufacturer": "Microsoft",
+              "notes": "CLiJpnZhvugh9YR3XgJr3Yq3lao85PpXgm1illQcGd6xmG56CcB76mUDXg114CjHwXo2Ag24ppWfHRRxcP2yHZGxemjA4HObCM8Wi749BaFRxsOZJUI51pnGN2Gdu7dRY5p2IOjU0QSBfAvTWHmoSFv1PR9vSPZcDcBNFCpajKNkpWz1Mwu9xAShqykJD4lNutzfN54Y0EyoMlPTY0jVsLQQ63SXIs8aVW3HJXOycUASXAft4GRi3HzlMI",
+              "received": false
+            }
+          ],
+          "total_price": 31663,
+          "delivery": null,
+          "changedOn": "2025-12-13T22:15:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693de5791c508c5d5ec67a1c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

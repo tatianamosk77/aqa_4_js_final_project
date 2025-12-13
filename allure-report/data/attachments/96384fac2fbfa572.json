@@ -1,0 +1,207 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 22:14:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5168",
+    "etag": "W/\"1430-ahRnA4+AePkJjAKlnWAFkRgepSU\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Notifications": [
+      {
+        "_id": "693dc08b1c508c5d5ec5e11d",
+        "userId": "692337ce1c508c5d5e95335d",
+        "type": "unassigned",
+        "orderId": "693dc08a1c508c5d5ec5e0b9",
+        "message": "You have been unassigned from order",
+        "read": false,
+        "expiresAt": "2025-12-14T19:37:47.101Z",
+        "createdAt": "2025-12-13T19:37:47.101Z",
+        "updatedAt": "2025-12-13T19:37:47.101Z"
+      },
+      {
+        "_id": "693dc08a1c508c5d5ec5e0f5",
+        "userId": "692337ce1c508c5d5e95335d",
+        "type": "assigned",
+        "orderId": "693dc08a1c508c5d5ec5e0bb",
+        "message": "You have been assigned to order",
+        "read": false,
+        "expiresAt": "2025-12-14T19:37:46.478Z",
+        "createdAt": "2025-12-13T19:37:46.478Z",
+        "updatedAt": "2025-12-13T19:37:46.478Z"
+      },
+      {
+        "_id": "693dc08a1c508c5d5ec5e0f0",
+        "userId": "692337ce1c508c5d5e95335d",
+        "type": "assigned",
+        "orderId": "693dc08a1c508c5d5ec5e0b9",
+        "message": "You have been assigned to order",
+        "read": false,
+        "expiresAt": "2025-12-14T19:37:46.463Z",
+        "createdAt": "2025-12-13T19:37:46.464Z",
+        "updatedAt": "2025-12-13T19:37:46.464Z"
+      },
+      {
+        "_id": "693dc08a1c508c5d5ec5e0ed",
+        "userId": "692337ce1c508c5d5e95335d",
+        "type": "assigned",
+        "orderId": "693dc08a1c508c5d5ec5e0b7",
+        "message": "You have been assigned to order",
+        "read": false,
+        "expiresAt": "2025-12-14T19:37:46.458Z",
+        "createdAt": "2025-12-13T19:37:46.458Z",
+        "updatedAt": "2025-12-13T19:37:46.458Z"
+      },
+      {
+        "_id": "693dc0791c508c5d5ec5da1f",
+        "userId": "692337ce1c508c5d5e95335d",
+        "type": "assigned",
+        "orderId": "693dc0791c508c5d5ec5d9fa",
+        "message": "You have been assigned to order",
+        "read": false,
+        "expiresAt": "2025-12-14T19:37:29.746Z",
+        "createdAt": "2025-12-13T19:37:29.747Z",
+        "updatedAt": "2025-12-13T19:37:29.747Z"
+      },
+      {
+        "_id": "693d88241c508c5d5ec3032b",
+        "userId": "692337ce1c508c5d5e95335d",
+        "type": "assigned",
+        "orderId": "693d88231c508c5d5ec30297",
+        "message": "You have been assigned to order",
+        "read": true,
+        "expiresAt": "2025-12-14T15:37:08.345Z",
+        "createdAt": "2025-12-13T15:37:08.345Z",
+        "updatedAt": "2025-12-13T19:37:26.892Z"
+      },
+      {
+        "_id": "693d88241c508c5d5ec302ba",
+        "userId": "692337ce1c508c5d5e95335d",
+        "type": "assigned",
+        "orderId": "693d88231c508c5d5ec30295",
+        "message": "You have been assigned to order",
+        "read": true,
+        "expiresAt": "2025-12-14T15:37:08.239Z",
+        "createdAt": "2025-12-13T15:37:08.239Z",
+        "updatedAt": "2025-12-13T19:37:26.892Z"
+      },
+      {
+        "_id": "693d881f1c508c5d5ec3011e",
+        "userId": "692337ce1c508c5d5e95335d",
+        "type": "unassigned",
+        "orderId": "693d881e1c508c5d5ec3006f",
+        "message": "You have been unassigned from order",
+        "read": true,
+        "expiresAt": "2025-12-14T15:37:03.745Z",
+        "createdAt": "2025-12-13T15:37:03.745Z",
+        "updatedAt": "2025-12-13T19:37:26.892Z"
+      },
+      {
+        "_id": "693d881e1c508c5d5ec300cb",
+        "userId": "692337ce1c508c5d5e95335d",
+        "type": "assigned",
+        "orderId": "693d881e1c508c5d5ec3006f",
+        "message": "You have been assigned to order",
+        "read": true,
+        "expiresAt": "2025-12-14T15:37:02.872Z",
+        "createdAt": "2025-12-13T15:37:02.872Z",
+        "updatedAt": "2025-12-13T19:37:26.892Z"
+      },
+      {
+        "_id": "693d87871c508c5d5ec2de46",
+        "userId": "692337ce1c508c5d5e95335d",
+        "type": "assigned",
+        "orderId": "693d87861c508c5d5ec2de34",
+        "message": "You have been assigned to order",
+        "read": true,
+        "expiresAt": "2025-12-14T15:34:31.229Z",
+        "createdAt": "2025-12-13T15:34:31.229Z",
+        "updatedAt": "2025-12-13T19:37:26.892Z"
+      },
+      {
+        "_id": "693d4e951c508c5d5ec0b607",
+        "userId": "692337ce1c508c5d5e95335d",
+        "type": "assigned",
+        "orderId": "693d4e951c508c5d5ec0b5bb",
+        "message": "You have been assigned to order",
+        "read": true,
+        "expiresAt": "2025-12-14T11:31:33.869Z",
+        "createdAt": "2025-12-13T11:31:33.870Z",
+        "updatedAt": "2025-12-13T15:34:23.280Z"
+      },
+      {
+        "_id": "693d4e8e1c508c5d5ec0b4a3",
+        "userId": "692337ce1c508c5d5e95335d",
+        "type": "unassigned",
+        "orderId": "693d4e8d1c508c5d5ec0b43d",
+        "message": "You have been unassigned from order",
+        "read": true,
+        "expiresAt": "2025-12-14T11:31:26.722Z",
+        "createdAt": "2025-12-13T11:31:26.723Z",
+        "updatedAt": "2025-12-13T15:34:23.280Z"
+      },
+      {
+        "_id": "693d4e8e1c508c5d5ec0b484",
+        "userId": "692337ce1c508c5d5e95335d",
+        "type": "assigned",
+        "orderId": "693d4e8d1c508c5d5ec0b44d",
+        "message": "You have been assigned to order",
+        "read": true,
+        "expiresAt": "2025-12-14T11:31:26.421Z",
+        "createdAt": "2025-12-13T11:31:26.422Z",
+        "updatedAt": "2025-12-13T15:34:23.280Z"
+      },
+      {
+        "_id": "693d4e8e1c508c5d5ec0b47e",
+        "userId": "692337ce1c508c5d5e95335d",
+        "type": "assigned",
+        "orderId": "693d4e8d1c508c5d5ec0b43d",
+        "message": "You have been assigned to order",
+        "read": true,
+        "expiresAt": "2025-12-14T11:31:26.376Z",
+        "createdAt": "2025-12-13T11:31:26.376Z",
+        "updatedAt": "2025-12-13T15:34:23.280Z"
+      },
+      {
+        "_id": "693d4e531c508c5d5ec0a325",
+        "userId": "692337ce1c508c5d5e95335d",
+        "type": "assigned",
+        "orderId": "693d4e531c508c5d5ec0a308",
+        "message": "You have been assigned to order",
+        "read": true,
+        "expiresAt": "2025-12-14T11:30:27.363Z",
+        "createdAt": "2025-12-13T11:30:27.364Z",
+        "updatedAt": "2025-12-13T15:34:23.280Z"
+      },
+      {
+        "_id": "693c65c01c508c5d5ebd1300",
+        "userId": "692337ce1c508c5d5e95335d",
+        "type": "unassigned",
+        "orderId": "693c65bd1c508c5d5ebd12cf",
+        "message": "You have been unassigned from order",
+        "read": true,
+        "expiresAt": "2025-12-13T18:58:08.255Z",
+        "createdAt": "2025-12-12T18:58:08.255Z",
+        "updatedAt": "2025-12-12T22:45:29.473Z"
+      },
+      {
+        "_id": "693c65bf1c508c5d5ebd12f4",
+        "userId": "692337ce1c508c5d5e95335d",
+        "type": "assigned",
+        "orderId": "693c65bd1c508c5d5ebd12cf",
+        "message": "You have been assigned to order",
+        "read": true,
+        "expiresAt": "2025-12-13T18:58:07.778Z",
+        "createdAt": "2025-12-12T18:58:07.778Z",
+        "updatedAt": "2025-12-12T22:45:29.473Z"
+      }
+    ],
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

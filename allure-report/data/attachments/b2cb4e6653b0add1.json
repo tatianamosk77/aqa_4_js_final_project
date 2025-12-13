@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 22:15:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1981",
+    "etag": "W/\"7bd-GVDq98/cECq2QkWnjoCA9S6xSBQ\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693de56f1c508c5d5ec677b5",
+      "status": "Draft",
+      "customer": {
+        "_id": "693de56e1c508c5d5ec6776c",
+        "email": "Amelie.Hermann98@gmail.com",
+        "name": "Irving Lelah",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 390,
+        "flat": 5746,
+        "phone": "+8601299709",
+        "createdOn": "2025-12-13T22:15:10.000Z",
+        "notes": "tH8BZ9lfDKUfc1M7NoUgnd7BRqc3KJyk6SNkT3ArYRmXKKYql5Rlr2HHZIBwi8T05AJ1GHlAgXXnSBrfUQtb8DXcpVTkhCDfgJ2HDnh26INKw2YY4CcAEKKj69y3VRQKD1lvHsqKyqoX5gV6FmHvqs1Xg60gO6dhAOuPjXmXC9sCqN83pCKeNwWtiCv4LelwY9rYIhUQfflMNGAvodlxS8lxsNlLMi79iuq3DYkocYAKAzte2dMJt8BS4S"
+      },
+      "products": [
+        {
+          "_id": "693de56f1c508c5d5ec6778f",
+          "name": "Fish9720",
+          "amount": 908,
+          "price": 78565,
+          "manufacturer": "Samsung",
+          "notes": "0OsJH9eTM8yWOz79UbwSdOjITD80d1GvAec3ex6KwCNuMO9IlKfpykKTfV6OBcMeq1nihhg5lhLPtFw0EM0oF047Zog0xpRGWXU1nCHxbNNq0mWoWk9kwugrKAZD0k2cTl4ZA57gPOgNsRRQBsQV3DZa4mMgXWbam92tp2pvOWK8AwLMnIyxiuwcN2EMtDFpp4lIbYSpMvF4IoH8X08FmNsH1t2c44BWG5cFLMrhYAlekASfZLPpgylp5B",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 78565,
+      "createdOn": "2025-12-13T22:15:11.000Z",
+      "comments": [
+        {
+          "text": "autotest comment",
+          "createdOn": "2025-12-13T22:15:11.000Z",
+          "_id": "693de5701c508c5d5ec677db"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693de56e1c508c5d5ec6776c",
+          "products": [
+            {
+              "_id": "693de56f1c508c5d5ec6778f",
+              "name": "Fish9720",
+              "amount": 908,
+              "price": 78565,
+              "manufacturer": "Samsung",
+              "notes": "0OsJH9eTM8yWOz79UbwSdOjITD80d1GvAec3ex6KwCNuMO9IlKfpykKTfV6OBcMeq1nihhg5lhLPtFw0EM0oF047Zog0xpRGWXU1nCHxbNNq0mWoWk9kwugrKAZD0k2cTl4ZA57gPOgNsRRQBsQV3DZa4mMgXWbam92tp2pvOWK8AwLMnIyxiuwcN2EMtDFpp4lIbYSpMvF4IoH8X08FmNsH1t2c44BWG5cFLMrhYAlekASfZLPpgylp5B",
+              "received": false
+            }
+          ],
+          "total_price": 78565,
+          "delivery": null,
+          "changedOn": "2025-12-13T22:15:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

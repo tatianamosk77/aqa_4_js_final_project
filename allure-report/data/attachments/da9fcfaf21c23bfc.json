@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 22:14:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-5E5R83lggC+fbmMlgsSloFJLB8Y\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Gaetano.Sporer@hotmail.com",
+      "name": "Russell Louisa",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 270,
+      "flat": 3730,
+      "phone": "+8728518442",
+      "createdOn": "2025-12-13T22:14:43.000Z",
+      "notes": "LQU1eBKmS8mh2jMcYrVuXoKD1iglhge8yZoGVGMeQ2BlbGqkJ0XSl2Yx4sGJgEiCexQFi8eOnG1VMealj6vjCqWIZmNDEz8PqMR5Xyd3PpenfLeUhXiUEXrqyHcGR0pMPvLjKZMCkisZcaZLeCcOLkeCJZnujDhaXCdtJpsnOqchsMmZ2jEdbUJOGSsJpCJlFZqvtrazFVe5hB3OAfEYEWXNGRJmsXOvkmOw7C3MDXJ8qsAbvK6E1RIdB3",
+      "_id": "693de5531c508c5d5ec673ef"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

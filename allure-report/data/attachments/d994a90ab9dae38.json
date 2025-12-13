@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 22:14:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1886",
+    "etag": "W/\"75e-Rp+XNJrLIRvb2u7jMMMl1vH9yfw\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693de5611c508c5d5ec674f4",
+        "email": "Nasir.Abernathy36@yahoo.com",
+        "name": "Buford Velma",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 951,
+        "flat": 5109,
+        "phone": "+6130495451",
+        "createdOn": "2025-12-13T22:14:57.000Z",
+        "notes": "dO2KglOJkk3F4C8dCLG6toVLyxNsvAmeasbnRGAV7hRS8SjPbhcWh9DtZI9V5mebGSe2Zf3apajzHloBLzB0twsYe2QoOaGL0Zof2mhJ5XYISqdBfoRe8SCJyX3dRuzYIqI95GwqSskyySZhaOL2WPXnqvqSqanotG1v6CVggVoWTwqrxuUsudgSh6kDPpooaJGkvkpzAANeEX5PxLZlJXFwiOikliWxdjL6Tkr4MRC0qUPBOrg7bbCA5y"
+      },
+      "products": [
+        {
+          "_id": "693de5621c508c5d5ec67508",
+          "name": "Sausages17291",
+          "amount": 460,
+          "price": 1578,
+          "manufacturer": "Microsoft",
+          "notes": "0VAlcnUzxNy4vPoiEvIRpSvZD83WgW6A9kHnJZF3rwteHQY9F8cBWh8a4Vfzlgy694A5sX0E6hEbvOKFwDWHA1Zc9k4V918dAcw8b01P7MXIeb7DgLpQ5vCXQon35IL6abPWzgzocHd3gr41rT3wHY39Xql7pkt20x7Zt2YNL8t1d2JnXXow3YWOqPKe8G2BQ9kB505Ekb2DLcaba5SAHf1fXz9lh9AZdnoP9M9St9p4NASOVnSeNbBFU8",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 1578,
+      "createdOn": "2025-12-13T22:14:58.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693de5611c508c5d5ec674f4",
+          "products": [
+            {
+              "_id": "693de5621c508c5d5ec67508",
+              "name": "Sausages17291",
+              "amount": 460,
+              "price": 1578,
+              "manufacturer": "Microsoft",
+              "notes": "0VAlcnUzxNy4vPoiEvIRpSvZD83WgW6A9kHnJZF3rwteHQY9F8cBWh8a4Vfzlgy694A5sX0E6hEbvOKFwDWHA1Zc9k4V918dAcw8b01P7MXIeb7DgLpQ5vCXQon35IL6abPWzgzocHd3gr41rT3wHY39Xql7pkt20x7Zt2YNL8t1d2JnXXow3YWOqPKe8G2BQ9kB505Ekb2DLcaba5SAHf1fXz9lh9AZdnoP9M9St9p4NASOVnSeNbBFU8",
+              "received": false
+            }
+          ],
+          "total_price": 1578,
+          "delivery": null,
+          "changedOn": "2025-12-13T22:14:58.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693de5621c508c5d5ec67518"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

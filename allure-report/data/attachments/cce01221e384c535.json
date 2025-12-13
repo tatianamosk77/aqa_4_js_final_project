@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 22:15:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1878",
+    "etag": "W/\"756-xnim7/44TwQWs2dbEZNy2OGO6wU\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693de57c1c508c5d5ec67acc",
+        "email": "Katarina_Barton69@gmail.com",
+        "name": "Mikayla Johnpaul",
+        "country": "France",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 615,
+        "flat": 1999,
+        "phone": "+9423703925",
+        "createdOn": "2025-12-13T22:15:24.000Z",
+        "notes": "C4HFcXPM9wUcPBtR2ucg18QI9TYeU9y4RJSnCr358CtYuc6liAYfTFsHKnc1bNflthQ26UISNFUTanVSeN8rmklpOhN4hkaNO0tQCzei7gizqUsFgSVXQV3mjsMGMm5qR9D64DB1k7hbpIfVvvv21JQ8X8yyUh8tfmNiAnMUApekpMpJpK6PCDRHEdeoY4RT1eeLep509RUnRbJYzh8dtXWsXFs3JDDhLkgN0y8EoP9av88r4CtCz1qdBb"
+      },
+      "products": [
+        {
+          "_id": "693de57d1c508c5d5ec67aea",
+          "name": "Pizza18967",
+          "amount": 856,
+          "price": 55228,
+          "manufacturer": "Sony",
+          "notes": "EMY1gBJNtPsJ66mHDhtXtIilL2C5Mr5MBgrKiNK20jmXLW7UdfA4egggPRSTPtRjoqjEMRl8hMW30a9SEuiCuHMfiKA12GYe5CJZVPjThWPBjvmu6OPsslD0C63uwo1oeEI33amtEpaIwTfz3omM9RJExD3QdDcRhTTjJhJVzbrSjMxMcclgmaQn4vqHebD17z4bo7MNIYV3qXsPjWqlLMaxyjNzNJsnaGJtVeM3FK69HopzahsTVmsAqm",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 55228,
+      "createdOn": "2025-12-13T22:15:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693de57c1c508c5d5ec67acc",
+          "products": [
+            {
+              "_id": "693de57d1c508c5d5ec67aea",
+              "name": "Pizza18967",
+              "amount": 856,
+              "price": 55228,
+              "manufacturer": "Sony",
+              "notes": "EMY1gBJNtPsJ66mHDhtXtIilL2C5Mr5MBgrKiNK20jmXLW7UdfA4egggPRSTPtRjoqjEMRl8hMW30a9SEuiCuHMfiKA12GYe5CJZVPjThWPBjvmu6OPsslD0C63uwo1oeEI33amtEpaIwTfz3omM9RJExD3QdDcRhTTjJhJVzbrSjMxMcclgmaQn4vqHebD17z4bo7MNIYV3qXsPjWqlLMaxyjNzNJsnaGJtVeM3FK69HopzahsTVmsAqm",
+              "received": false
+            }
+          ],
+          "total_price": 55228,
+          "delivery": null,
+          "changedOn": "2025-12-13T22:15:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693de57d1c508c5d5ec67af7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

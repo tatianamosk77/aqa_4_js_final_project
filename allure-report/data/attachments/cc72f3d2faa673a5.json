@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 22:15:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-AAXmm4PlMZeMDAb/Ni1fhqP8BLA\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Julian21@yahoo.com",
+      "name": "Abagail Marques",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 765,
+      "flat": 2910,
+      "phone": "+5383682934",
+      "createdOn": "2025-12-13T22:15:20.000Z",
+      "notes": "KMum4L5qzOrRFqfTSnNtNXfs19D9UqyPRL6jfnTPIV9RGp2CnEDh8dE2KQV0RiYVtDq0IfvPtyjqVcFpNED5ZhbQuvbo7myU3jkTOHJUWqNUIsTJApBGpFXfDoDmGrNQ43n6J5uOQU8vxBgWwePDpSXX8Zx04JvNdNMzkcFxklUWZsHxwahej35ruhHPsY69uKuAiwzFqTRKjn3PZWNGBgdtX6BFahjESW7geUKyP2J4k9U4eTktL2JmtW",
+      "_id": "693de5781c508c5d5ec679df"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

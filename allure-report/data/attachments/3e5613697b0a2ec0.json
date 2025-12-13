@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 22:15:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-pAs0WzZlt9oNZuLNKfgDj4vFmAo\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Paul20@hotmail.com",
+      "name": "Helen Guido",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 484,
+      "flat": 1923,
+      "phone": "+0081226419",
+      "createdOn": "2025-12-13T22:15:21.000Z",
+      "notes": "o2udCCy8EMx4nZaLZrtLXQWYXEXnh0L7r4RnioxFMY3VXogwI8WRAJUau5Ymfn3YSo7nfpkHYRgfmYt6kQVuQ6mBpXkj1ripvgcZRk8Tzs5c2xQ249HXxV8fOKkLkH7sat0T9PgW6x1a6c2OkVc0wR1RRbM1vMasfQcNr8VTSIsNIE5tNMbdVpkXmprlfyWSrwDZPrFcsmSo0mtEellInO91jjy6bh6IYI4MgyOgOldWSMPdRKqoCUBKbJ",
+      "_id": "693de5791c508c5d5ec679f4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

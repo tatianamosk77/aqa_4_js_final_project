@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 22:15:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-cotY0j4I6saVvAoGfPxerhMPpuM\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693de5731c508c5d5ec67895",
+        "email": "Janae.Schaden71@gmail.com",
+        "name": "Santos Green",
+        "country": "France",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 777,
+        "flat": 6234,
+        "phone": "+2978046940",
+        "createdOn": "2025-12-13T22:15:15.000Z",
+        "notes": "brSjfLIiezzsBsinkFa6EsutkLJ01oy4xfqlReBDK5qQTLwGx5rKik9K9ru5hsrRJucv1fi0IlZMmQYJQIwpUMXwInYPpWnsHf4YxKlHfNKDkvms9ArKduUpMINaBBJ6s72uBhsAuaMk6zKgkurga7Lh76cX08P49QNGjgNZglfXZbf6QzXd0SbaaaBAdoxdVPP2bJJVh9kNGShajlsIhaTc0tTlJCKtkPHWFJp6VICHJcJRYpPdRTYd3S"
+      },
+      "products": [
+        {
+          "_id": "693de5741c508c5d5ec678ac",
+          "name": "Keyboard58479",
+          "amount": 222,
+          "price": 23419,
+          "manufacturer": "Google",
+          "notes": "Mt8N6ko8xxl243Lmm10dLuCr5C3V8ggqg1PvqgYyrQJHG3uJxDbOVZr61Ok7NC0mOsMLAmO3BatWdE55hikW84SBRWf8wLSqtmMcMiQtlygU4AXXy9KXuYh97CmXHMlCA66YJzyQHRFgKa0T1yuthuscKWOm6ii8kkE66MJ5G7E0DTZq3KskegVwJeW8CiXrcLDpvCZn502A0Qevo94UAnhltwZMLD60kqPFpWjtCu7fPzAecklfWDFZu9",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 23419,
+      "createdOn": "2025-12-13T22:15:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693de5731c508c5d5ec67895",
+          "products": [
+            {
+              "_id": "693de5741c508c5d5ec678ac",
+              "name": "Keyboard58479",
+              "amount": 222,
+              "price": 23419,
+              "manufacturer": "Google",
+              "notes": "Mt8N6ko8xxl243Lmm10dLuCr5C3V8ggqg1PvqgYyrQJHG3uJxDbOVZr61Ok7NC0mOsMLAmO3BatWdE55hikW84SBRWf8wLSqtmMcMiQtlygU4AXXy9KXuYh97CmXHMlCA66YJzyQHRFgKa0T1yuthuscKWOm6ii8kkE66MJ5G7E0DTZq3KskegVwJeW8CiXrcLDpvCZn502A0Qevo94UAnhltwZMLD60kqPFpWjtCu7fPzAecklfWDFZu9",
+              "received": false
+            }
+          ],
+          "total_price": 23419,
+          "delivery": null,
+          "changedOn": "2025-12-13T22:15:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693de5741c508c5d5ec678c8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

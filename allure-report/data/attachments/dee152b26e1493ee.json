@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 22:14:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "307",
+    "etag": "W/\"133-pyG9F2njH9+hdfyquEKjmsY5EN0\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Antone_Zemlak81@hotmail.com",
+      "name": "Porter Megane",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 638,
+      "flat": 1312,
+      "phone": "+8510996914",
+      "createdOn": "2025-12-13T22:14:32.000Z",
+      "notes": "",
+      "_id": "693de5481c508c5d5ec6730f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 22:14:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-P/L1wLYLyXo0yz8g3J7PDQelM6k\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Benton.Johns@gmail.com",
+      "name": "Selina Carmela",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 140,
+      "flat": 4259,
+      "phone": "+5351498000",
+      "createdOn": "2025-12-13T22:14:45.000Z",
+      "notes": "lUyK9SoNPNGaFXlYwN7FKMoHI3sbmI2VTXY72YzFHzNCDhSwokZGknEK5WhHXS9rJbRptYtpgcoQ1ZgcsKsrPDWIdR8jnPalibKbLzNQ4QpiBYksHyEU4y1pd56YjePLA2qmHjvm0scWAlVvjds7Q1U87vd8EAms58jTCoardblJDVCZQFJzEAUlGD7M5OzMubamn2sLU2ll8UutQJf6W3PpXZtZXZUoynYC0MeqrH3V8tPj1aE0dAwfe4",
+      "_id": "693de5551c508c5d5ec67406"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

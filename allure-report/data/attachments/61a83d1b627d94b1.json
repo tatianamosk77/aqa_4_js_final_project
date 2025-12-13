@@ -1,0 +1,159 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 22:14:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5105",
+    "etag": "W/\"13f1-X3rDFIPuvitr+pMbiRWwlbw0Z/w\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "693de5551c508c5d5ec67402",
+        "email": "Rosella.Luettgen@yahoo.com",
+        "name": "Providenci Blair",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 330,
+        "flat": 6117,
+        "phone": "+7894738303",
+        "createdOn": "2025-12-13T22:14:45.000Z",
+        "notes": "uT8Z9EI7aSrMqq2eXnenPen1kyzyzufocyH0ek1nNh1lCccqqQBjO6V3q6RhukUZT3Umei7oLoRnTo2WQhAGsklayOjbfINZKE8mo35xLDD5j1BR2cDgmFLv3faVsDAhpLw92nIh8jrAeEcUJZc5uH0kXnfNZKkmCMCJ5MkLfcyH7yhlWi3iprKJv44lkj0U3MtyGDVyIJyQaywvkSY0oGlegeXp82R4sXY5IxQby9DvTSVDAUePlu4tc1"
+      },
+      {
+        "_id": "693dd31c1c508c5d5ec671e1",
+        "email": "Eve63@gmail.com",
+        "name": "Reilly Oma",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 497,
+        "flat": 7775,
+        "phone": "+1330622423",
+        "createdOn": "2025-12-13T20:57:00.000Z",
+        "notes": "nC1S6WTiMdlHK6kXfhjb472qs1Uyk7WUG77tldnKqvGVH0ywh0kawjuZ6q0y3igQKatAxSO4tXNItV8krvPpZEFE8h5hwsIChBQyDUyUkQ6coZs31tbJ87bFDMW9noohYGi653TGJ8mRqqZzDBOx5Zb9Z6yk4mACQO40PjOtb01WzpYGi7ykcVVtfupi7xEvUmksbxiHnJFkI7k29T91tkPk1umpQ6EHSBaxrJ9HmENrx5zArlYKetYcgD"
+      },
+      {
+        "_id": "693dd2e61c508c5d5ec66e5e",
+        "email": "Abby.Hamill25@gmail.com",
+        "name": "Helen Wilfrid",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 843,
+        "flat": 1518,
+        "phone": "+2445012845",
+        "createdOn": "2025-12-13T20:56:06.000Z",
+        "notes": "SHq6qcc1dlr5JPjSlg9DWEzCG9Ma2I2ogvzdYjYUJfqxptd8T9IGNqyEVA3yMcEToF4BzQlv2w7wkO0u0q8nnN89PA2i1Nsb9kNlbPNxjh72cx3PwVKO6uon7CbLKwtsJdcmnhrwdwcm9GfIQUn5YX8v5YOQZPDh3nkwBcJ93UF0IjGo8kv56bXen02S2A3z1IzagKUp6vbnvIhD9C8vuQn2Ncn9dCtDw0KIgyCS3fVSna0DtIx2nPuDAx"
+      },
+      {
+        "_id": "693dd2da1c508c5d5ec66be3",
+        "email": "Jordan.Schowalter@yahoo.com",
+        "name": "Joey Zelda",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 219,
+        "flat": 4968,
+        "phone": "+3349061761",
+        "createdOn": "2025-12-13T20:55:54.000Z",
+        "notes": "6EKahDKGiZn3LxtVZ1zxX55H4isq06NXxsJqkxBcpx4mYVGYJFrjOxJqZBq9kUHclN4voYIdwJSvgVzWiMZqbAOdafCegXXIAKQ7DDCneVpm9P02OW2BSOnW7daKWbMEQ3tfIxuwd6cAk5qKd0nuVmEUCXNePTqVjWTwLtNL12eCPubkr1kPMz5AR1lHoyyJSrfostOPHyI1gkDDdXgDqk4K6dPoCCYEhxDwOKNiWrSsErOZAO8e1PribA"
+      },
+      {
+        "_id": "693dd2d91c508c5d5ec66b8d",
+        "email": "Leopold77@gmail.com",
+        "name": "Bella Peyton",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 226,
+        "flat": 2138,
+        "phone": "+3864220824",
+        "createdOn": "2025-12-13T20:55:53.000Z",
+        "notes": "uuare64jGxWJmCIzfQouOiEF9NkS1tMCNypctA2fgpXWbwkmoZ7sHz420pJuSG3qwAnl4FSuEXd2egw6X0UmZVpTKG8HYq1gTuxRjHYd00kr1JsYaX0oDCNmuGqN4pDKInx71XCyg0fiyG5FlycdYYEoVRInRmD6RyjjkklNKlYAg6qZobrnKnlmlhG1b23wdripvLSGQZrOimiWx2gkJrWY6d1bWUXMHBXx2KdJ9uacdEh7TtJIJs1H8u"
+      },
+      {
+        "_id": "693dd2d51c508c5d5ec66af4",
+        "email": "Kyler.Nicolas-Lang64@yahoo.com",
+        "name": "Graciela Jon",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 409,
+        "flat": 6588,
+        "phone": "+6358415277",
+        "createdOn": "2025-12-13T20:55:49.000Z",
+        "notes": "ms6qE3YDrv5u9w89fCexEVp6XvBlH3eSIKM4SCzaQ7uj2CqewdSztc6uT7uiQnIfs4Mf8CQY23P1mG6cBKg2KrAyYarbpzxbdHMzAQLsIc8kEbQwESKkiU1dul9X7hUsLJHamUZE6pI74auH3LkDFpa39h7FTWSg4uj6aULhnjFpZ42GBDwu2GCe9uqn1L97gX4qcJDq2Sfgwe2s5QBK38aEmgmx3PPBH0nXfxkR3h8Ojyqbm3FqgpoWUR"
+      },
+      {
+        "_id": "693dd2d11c508c5d5ec66a2b",
+        "email": "Tevin.Wolf52@yahoo.com",
+        "name": "Leann Marilie",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 824,
+        "flat": 3239,
+        "phone": "+6001668681",
+        "createdOn": "2025-12-13T20:55:45.000Z",
+        "notes": "w3zwDs7uQ1qoGaDLTU4YheCwltr2SqK1iMhMvraQsgX4UNxgQKlpALNy4n5apjhY2aP7CZbrCLUMyK4HSe2HHJKiuv6wy8oS3GFo2xJQ5WZ62sGuUhJ2A52p1VUiTYHvJ2eFh3ZCcMjGRBYjT0GLQMfrR6vOP8QXAw1QtaxLDy3MAKZVcWoQEZxgYFgIgjpk8ITmVbpHizFpo6oXCbzuXLp6UZf3bsz2tp1eptEWPe5T3xmTnrYSB8f9PI"
+      },
+      {
+        "_id": "693dcf851c508c5d5ec6572d",
+        "email": "Beverly.Mohr@gmail.com",
+        "name": "Jessie Hudson",
+        "country": "USA",
+        "city": "Larsonmouth",
+        "street": "Johns Fort",
+        "house": 50,
+        "flat": 788,
+        "phone": "+15258096581",
+        "createdOn": "2025-12-13T20:41:41.000Z",
+        "notes": "Lj3k9itwIetVR2A6FTmj3MbFe1EWa8IJhEOg7NaM167o225kaFdgDDKDY3aJq7lef4P4MCulRxSAijVTo2BwBypRiS0YoqfNAVNkwrlmbBhWCu6Fc5Rke3PiWHFy020JwXFPoUl0M186uay4IRDTbWwZmEMuDvaaFd8q7VZzZydyC8O7QMWLZzmXAYqf26ecppQQCmemDwG0CWBBQOKSPmcssQwyXJDQyxf0EH9VRPVY9FyxSgh56IZSyQ"
+      },
+      {
+        "_id": "693dcf6b1c508c5d5ec65370",
+        "email": "Earnest_Schaden@gmail.com",
+        "name": "Laverna Raynor",
+        "country": "USA",
+        "city": "New Jabari",
+        "street": "West Shores",
+        "house": 48,
+        "flat": 310,
+        "phone": "+18097726798",
+        "createdOn": "2025-12-13T20:41:15.000Z",
+        "notes": "5oOxvRHlPi7B5bGgZGCTJRrrF2RxN9ISLLh9tJzq4ITkcYzXkMRVyhaq941OjRQgRsPpAy2PSgVr5g8FefjcjhyzlyHAXpvX3etXlwNoHYbzxpstbDEIBF5Qf6Ai0ln4ek0YwX3pXGRDj9zYaHENpGDTrHEhx4B5mz1bfisK6yT0ND7GRTCrHIiWBtA75GLYtyuDlsH44mmaInUs3nFZADT0sA3ToMOYnEMUZGJdba3KnPVa8MjipjZbzj"
+      },
+      {
+        "_id": "693dcf671c508c5d5ec652b6",
+        "email": "Morton.Collins@yahoo.com",
+        "name": "Kiera Watsica",
+        "country": "USA",
+        "city": "Brookline",
+        "street": "Maple Road",
+        "house": 20,
+        "flat": 619,
+        "phone": "+18106470166",
+        "createdOn": "2025-12-13T20:41:11.000Z",
+        "notes": "fEp82DCQdULILboCya1oCA961tKTwCEwndkhmQfqexlCzY4b4GgILEPIBzxZympXAUyhIc8VFoPTe9W8xS0vt412T0VwINsiPocEGCYuLc2ZeVcdZH8ex0tdO8WPRqfB6H4KEgi1gbnfULVdam234087IjB8PdLIU2M5SN8UhzDh3Y2wXTEIsqLLk9Cf5pEmyjKsVDLfJZUh2Zs2rscxZMPlXwBrpqEpTKD4LEVj4c69zYA3iULpEmv5Yj"
+      }
+    ],
+    "total": 435,
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "country": [],
+    "sorting": {
+      "sortField": "country",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

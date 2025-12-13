@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 22:14:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "554",
+    "etag": "W/\"22a-Fqs4kME3ISV8SsWAVQ4qAyoVtYg\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jacques.Wuckert@gmail.com",
+      "name": "Genevieve Johnathon",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 678,
+      "flat": 4247,
+      "phone": "+8128660608",
+      "createdOn": "2025-12-13T22:14:46.000Z",
+      "notes": "WIDy8VP6qKZfa8G65ZKpoDM3zTX4aeHBzC0lX7VyhE9Iz35DBxWfIKgDs5qFuPxsCRJ1lxmUmprorORokYTJslfEeumdicDV1uOp5qM1gcqHqKeoI13eXLallBFCjoUIqO1NJe0i2mKwRtVZS6Y70lEQIp7TOvErXAjgr6SLAPBTopYH4oJAAvY2ySYPLdLaMs8sV9YGQfvlZIMtO2EEsXbpvrOFb0pMXtHmWVmtzY5Q90Kc3bkO9g5F2a",
+      "_id": "693de5561c508c5d5ec6740b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
