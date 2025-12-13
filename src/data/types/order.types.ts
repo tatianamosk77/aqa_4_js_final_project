@@ -59,6 +59,15 @@ export interface IOrderDataWithId extends IOrderData {
   _id: string;
 }
 
+export interface IOrderData {
+  customer: string;
+  products: string[];
+}
+
+export interface IOrderDataWithId extends IOrderData {
+  _id: string;
+}
+
 export interface IOrder {
   _id: string;
   status: string;

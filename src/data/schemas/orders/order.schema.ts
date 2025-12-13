@@ -35,6 +35,23 @@ export const performerSchema = {
   additionalProperties: false,
 };
 
+export const assignedManagerSchema = {
+  type: 'object',
+  properties: {
+    _id: { type: 'string' },
+    username: { type: 'string' },
+    firstName: { type: 'string' },
+    lastName: { type: 'string' },
+    roles: {
+      type: 'array',
+      items: { type: 'string' },
+    },
+    createdOn: { type: 'string' },
+  },
+  required: ['_id', 'username', 'firstName', 'lastName', 'roles', 'createdOn'],
+  additionalProperties: false,
+};
+
 export const orderHistoryItemSchema = {
   type: "object",
   properties: {
@@ -51,6 +68,7 @@ export const orderHistoryItemSchema = {
     performer: performerSchema,
     assignedManager: { type: ["string", "object", "null"] },
   },
+
   required: [
     "status",
     "customer",
@@ -185,6 +203,19 @@ export const getCustomerOrdersSchema = {
   },
   required: ["Orders", ...obligatoryRequredFields],
   additionalProperties: false,
+};
+
+export const ordersListSchema = {
+  type: 'object',
+  properties: {
+    Orders: {
+      type: 'array',
+      items: orderSchema,
+    },
+    ...ordersMetaSchema.properties,
+    ...obligatoryFieldsSchema,
+  },
+  required: ['Orders', ...obligatoryRequredFields],
 };
 
 export const customerOrdersSchema = getCustomerOrdersSchema;

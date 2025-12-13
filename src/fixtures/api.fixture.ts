@@ -50,6 +50,17 @@ const test = base.extend<IApi>({
     const api = new LoginApi(apiClient);
     await use(api);
   },
+  notificationsApi: async ({ request }, use) => {
+    const apiClient = new RequestApi(request);
+    const api = new NotificationsApi(apiClient);
+    await use(api);
+  },
+
+  ordersApi: async ({ request }, use) => {
+    const apiClient = new RequestApi(request);
+    const api = new OrdersApi(apiClient);
+    await use(api);
+  },
 
   //services
   productsApiService: async ({ productsApi }, use) => {
