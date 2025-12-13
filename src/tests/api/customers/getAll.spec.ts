@@ -1,12 +1,12 @@
-import { test, expect } from 'fixtures/api.fixture';
-import { STATUS_CODES } from 'data/statusCodes';
-import { validateResponse } from 'utils/validation/validateResponse.utils';
-import { TAGS } from 'data/tags';
-import { getAllCustomersSchema } from 'data/schemas/customers/getAll.schema';
+import { test, expect } from "fixtures/api.fixture";
+import { STATUS_CODES } from "data/statusCodes";
+import { validateResponse } from "utils/validation/validateResponse.utils";
+import { TAGS } from "data/tags";
+import { getAllCustomersSchema } from "data/schemas/customers/getAll.schema";
 
-test.describe('[API] [Sales Portal] [Customers]', () => {
+test.describe("[API] [Sales Portal] [Customers]", () => {
   const ids: string[] = [];
-  let token = '';
+  let token = "";
 
   test.afterEach(async ({ customersApiService }) => {
     if (ids.length) {
@@ -18,7 +18,7 @@ test.describe('[API] [Sales Portal] [Customers]', () => {
   });
 
   test(
-    'Get All Customers',
+    "Get All Customers",
     {
       tag: [TAGS.REGRESSION, TAGS.CUSTOMERS, TAGS.API],
     },

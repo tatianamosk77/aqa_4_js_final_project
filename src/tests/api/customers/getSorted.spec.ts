@@ -1,22 +1,22 @@
-import { test, expect } from 'fixtures/api.fixture';
-import { STATUS_CODES } from 'data/statusCodes';
-import { validateResponse } from 'utils/validation/validateResponse.utils';
-import { TAGS } from 'data/tags';
+import { test, expect } from "fixtures/api.fixture";
+import { STATUS_CODES } from "data/statusCodes";
+import { validateResponse } from "utils/validation/validateResponse.utils";
+import { TAGS } from "data/tags";
 
-test.describe('[API] [Sales Portal] [Customers] Get Sorted', () => {
-  test.describe('Search', () => {
-    let id = '';
-    let token = '';
+test.describe("[API] [Sales Portal] [Customers] Get Sorted", () => {
+  test.describe("Search", () => {
+    let id = "";
+    let token = "";
 
     test.beforeEach(async ({ loginApiService }) => {
       token = await loginApiService.loginAsAdmin();
     });
     test.afterEach(async ({ customersApiService }) => {
       if (id) await customersApiService.delete(token, id);
-      id = '';
+      id = "";
     });
 
-    test('Search by name', async ({ customersApiService, customersApi }) => {
+    test("Search by name", async ({ customersApiService, customersApi }) => {
       const customer = await customersApiService.create(token);
 
       const response = await customersApi.getSorted(token, { search: customer.name });
@@ -28,16 +28,16 @@ test.describe('[API] [Sales Portal] [Customers] Get Sorted', () => {
       });
       const { limit, search, country, total, page, sorting } = response.body;
       const found = response.body.Customers.find(el => el._id === customer._id);
-      expect.soft(found, 'Created customer should be in response').toBeTruthy();
+      expect.soft(found, "Created customer should be in response").toBeTruthy();
       expect.soft(limit, `Limit should be ${limit}`).toBe(10);
       expect.soft(search).toBe(customer.name);
       expect.soft(country).toEqual([]);
       expect.soft(page).toBe(1);
-      expect.soft(sorting).toEqual({ sortField: 'createdOn', sortOrder: 'desc' });
+      expect.soft(sorting).toEqual({ sortField: "createdOn", sortOrder: "desc" });
       expect.soft(total).toBeGreaterThanOrEqual(1);
     });
 
-    test('Search by email', async ({ customersApiService, customersApi }) => {
+    test("Search by email", async ({ customersApiService, customersApi }) => {
       const customer = await customersApiService.create(token);
 
       const response = await customersApi.getSorted(token, { search: customer.email });
@@ -49,16 +49,16 @@ test.describe('[API] [Sales Portal] [Customers] Get Sorted', () => {
       });
       const { limit, search, country, total, page, sorting } = response.body;
       const found = response.body.Customers.find(el => el._id === customer._id);
-      expect.soft(found, 'Created customer should be in response').toBeTruthy();
+      expect.soft(found, "Created customer should be in response").toBeTruthy();
       expect.soft(limit, `Limit should be ${limit}`).toBe(10);
       expect.soft(search).toBe(customer.email);
       expect.soft(country).toEqual([]);
       expect.soft(page).toBe(1);
-      expect.soft(sorting).toEqual({ sortField: 'createdOn', sortOrder: 'desc' });
+      expect.soft(sorting).toEqual({ sortField: "createdOn", sortOrder: "desc" });
       expect.soft(total).toBeGreaterThanOrEqual(1);
     });
 
-    test('Search by country', async ({ customersApiService, customersApi }) => {
+    test("Search by country", async ({ customersApiService, customersApi }) => {
       const customer = await customersApiService.create(token);
 
       const response = await customersApi.getSorted(token, { search: customer.country });
@@ -70,19 +70,19 @@ test.describe('[API] [Sales Portal] [Customers] Get Sorted', () => {
       });
       const { limit, search, country, total, page, sorting } = response.body;
       const found = response.body.Customers.find(el => el._id === customer._id);
-      expect.soft(found, 'Created customer should be in response').toBeTruthy();
+      expect.soft(found, "Created customer should be in response").toBeTruthy();
       expect.soft(limit, `Limit should be ${limit}`).toBe(10);
       expect.soft(search).toBe(customer.country);
       expect.soft(country).toEqual([]);
       expect.soft(page).toBe(1);
-      expect.soft(sorting).toEqual({ sortField: 'createdOn', sortOrder: 'desc' });
+      expect.soft(sorting).toEqual({ sortField: "createdOn", sortOrder: "desc" });
       expect.soft(total).toBeGreaterThanOrEqual(1);
     });
   });
 
-  test.describe('Sorting', () => {
+  test.describe("Sorting", () => {
     const ids: string[] = [];
-    let token = '';
+    let token = "";
 
     test.beforeEach(async ({ loginApiService }) => {
       token = await loginApiService.loginAsAdmin();
@@ -96,7 +96,7 @@ test.describe('[API] [Sales Portal] [Customers] Get Sorted', () => {
       }
     });
 
-    test('SortField: createdOn, sortOrder: asc', async ({
+    test("SortField: createdOn, sortOrder: asc", async ({
       customersApiService,
       customersApi,
       page,
@@ -107,10 +107,9 @@ test.describe('[API] [Sales Portal] [Customers] Get Sorted', () => {
 
       ids.push(customer1._id, customer2._id);
       const response = await customersApi.getSorted(token, {
-        sortField: 'createdOn',
-        sortOrder: 'asc',
+        sortField: "createdOn",
+        sortOrder: "asc",
       });
-      const allCustomers = await customersApi.getAll(token);
 
       validateResponse(response, {
         status: STATUS_CODES.OK,
@@ -120,31 +119,23 @@ test.describe('[API] [Sales Portal] [Customers] Get Sorted', () => {
 
       const actualCustomers = response.body.Customers;
 
-      const sorted = allCustomers.body.Customers.toSorted((a, b) => {
-        const dateA = new Date(a.createdOn);
-        const dateB = new Date(b.createdOn);
+      for (let i = 0; i < actualCustomers.length - 1; i++) {
+        const a = new Date(actualCustomers[i]!.createdOn).getTime();
+        const b = new Date(actualCustomers[i + 1]!.createdOn).getTime();
 
-        return dateA.getTime() - dateB.getTime();
-      }).slice(0, 10);
-
-    for (let i = 0; i < actualCustomers.length - 1; i++) {
-    const a = new Date(actualCustomers[i]!.createdOn).getTime();
-    const b = new Date(actualCustomers[i + 1]!.createdOn).getTime();
-
-    expect.soft(a <= b).toBe(true);
-    }
-
+        expect.soft(a <= b).toBe(true);
+      }
 
       const { limit, search, country, total, page: pageParam, sorting } = response.body;
       expect.soft(limit, `Limit should be ${limit}`).toBe(10);
-      expect.soft(search).toBe('');
+      expect.soft(search).toBe("");
       expect.soft(country).toEqual([]);
       expect.soft(pageParam).toBe(1);
-      expect.soft(sorting).toEqual({ sortField: 'createdOn', sortOrder: 'asc' });
+      expect.soft(sorting).toEqual({ sortField: "createdOn", sortOrder: "asc" });
       expect.soft(total).toBeGreaterThanOrEqual(2);
     });
 
-    test.skip('SortField: createdOn, sortOrder: desc', async ({
+    test.skip("SortField: createdOn, sortOrder: desc", async ({
       customersApiService,
       customersApi,
       page,
@@ -155,8 +146,8 @@ test.describe('[API] [Sales Portal] [Customers] Get Sorted', () => {
 
       ids.push(customer1._id, customer2._id);
       const response = await customersApi.getSorted(token, {
-        sortField: 'createdOn',
-        sortOrder: 'desc',
+        sortField: "createdOn",
+        sortOrder: "desc",
       });
       const allCustomers = await customersApi.getAll(token);
 
@@ -181,15 +172,15 @@ test.describe('[API] [Sales Portal] [Customers] Get Sorted', () => {
 
       const { limit, search, country, total, page: pageParam, sorting } = response.body;
       expect.soft(limit, `Limit should be ${limit}`).toBe(10);
-      expect.soft(search).toBe('');
+      expect.soft(search).toBe("");
       expect.soft(country).toEqual([]);
       expect.soft(pageParam).toBe(1);
-      expect.soft(sorting).toEqual({ sortField: 'createdOn', sortOrder: 'desc' });
+      expect.soft(sorting).toEqual({ sortField: "createdOn", sortOrder: "desc" });
       expect.soft(total).toBeGreaterThanOrEqual(2);
     });
 
     test(
-      'SortField: country, sortOrder: desc',
+      "SortField: country, sortOrder: desc",
       {
         tag: [TAGS.REGRESSION, TAGS.CUSTOMERS, TAGS.API],
       },
@@ -200,8 +191,8 @@ test.describe('[API] [Sales Portal] [Customers] Get Sorted', () => {
 
         ids.push(customer1._id, customer2._id);
         const response = await customersApi.getSorted(token, {
-          sortField: 'country',
-          sortOrder: 'desc',
+          sortField: "country",
+          sortOrder: "desc",
         });
 
         validateResponse(response, {
@@ -243,10 +234,10 @@ test.describe('[API] [Sales Portal] [Customers] Get Sorted', () => {
 
         const { limit, search, country, total, page: pageParam, sorting } = response.body;
         expect.soft(limit, `Limit should be ${limit}`).toBe(10);
-        expect.soft(search).toBe('');
+        expect.soft(search).toBe("");
         expect.soft(country).toEqual([]);
         expect.soft(pageParam).toBe(1);
-        expect.soft(sorting).toEqual({ sortField: 'country', sortOrder: 'desc' });
+        expect.soft(sorting).toEqual({ sortField: "country", sortOrder: "desc" });
         expect.soft(total).toBeGreaterThanOrEqual(2);
       }
     );

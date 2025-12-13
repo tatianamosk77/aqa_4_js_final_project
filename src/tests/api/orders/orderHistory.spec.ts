@@ -234,7 +234,10 @@ function cleanupOrderFx(
   void (async () => {
     try {
       await deps.ordersApiService.delete(fx.orderId, fx.token);
-    } catch {}
+    } catch (error) {
+      console.error("Error:", error);
+      throw error;
+    }
 
     deps.customersApiService.delete(fx.token, fx.customerId).catch(() => {});
     fx.productIds.forEach(id => deps.productsApiService.delete(fx.token, id).catch(() => {}));
@@ -242,9 +245,16 @@ function cleanupOrderFx(
 }
 
 test.describe("[API] [Sales Portal] [Orders] [History]", () => {
-  test("Should store a record if order has been created",
+  test(
+    "Should store a record if order has been created",
     { tag: [TAGS.API, TAGS.REGRESSION] },
-    async ({ loginApiService, ordersController, ordersApiService, customersApiService, productsApiService }) => {
+    async ({
+      loginApiService,
+      ordersController,
+      ordersApiService,
+      customersApiService,
+      productsApiService,
+    }) => {
       const token = await loginApiService.loginAsAdmin();
 
       const fx = await createDraftOrderFx({
@@ -260,9 +270,16 @@ test.describe("[API] [Sales Portal] [Orders] [History]", () => {
     }
   );
 
-  test("Should store a record if customer has been changed",
+  test(
+    "Should store a record if customer has been changed",
     { tag: [TAGS.API, TAGS.REGRESSION] },
-    async ({ loginApiService, ordersController, ordersApiService, customersApiService, productsApiService }) => {
+    async ({
+      loginApiService,
+      ordersController,
+      ordersApiService,
+      customersApiService,
+      productsApiService,
+    }) => {
       const token = await loginApiService.loginAsAdmin();
 
       const fx = await createDraftOrderFx({
@@ -295,9 +312,16 @@ test.describe("[API] [Sales Portal] [Orders] [History]", () => {
     }
   );
 
-  test("Should store a record if product has been added",
+  test(
+    "Should store a record if product has been added",
     { tag: [TAGS.API, TAGS.REGRESSION] },
-    async ({ loginApiService, ordersController, ordersApiService, customersApiService, productsApiService }) => {
+    async ({
+      loginApiService,
+      ordersController,
+      ordersApiService,
+      customersApiService,
+      productsApiService,
+    }) => {
       const token = await loginApiService.loginAsAdmin();
 
       const fx = await createDraftOrderFx({
@@ -331,9 +355,16 @@ test.describe("[API] [Sales Portal] [Orders] [History]", () => {
     }
   );
 
-  test("Should store a record if product has been deleted",
+  test(
+    "Should store a record if product has been deleted",
     { tag: [TAGS.API, TAGS.REGRESSION] },
-    async ({ loginApiService, ordersController, ordersApiService, customersApiService, productsApiService }) => {
+    async ({
+      loginApiService,
+      ordersController,
+      ordersApiService,
+      customersApiService,
+      productsApiService,
+    }) => {
       const token = await loginApiService.loginAsAdmin();
 
       const fx = await createDraftOrderFx({
@@ -365,9 +396,16 @@ test.describe("[API] [Sales Portal] [Orders] [History]", () => {
     }
   );
 
-  test("Should store a record if order moved to IN_PROCESS",
+  test(
+    "Should store a record if order moved to IN_PROCESS",
     { tag: [TAGS.API, TAGS.REGRESSION] },
-    async ({ loginApiService, ordersController, ordersApiService, customersApiService, productsApiService }) => {
+    async ({
+      loginApiService,
+      ordersController,
+      ordersApiService,
+      customersApiService,
+      productsApiService,
+    }) => {
       const token = await loginApiService.loginAsAdmin();
 
       const fx = await createDraftOrderWithDeliveryFx({
@@ -397,9 +435,16 @@ test.describe("[API] [Sales Portal] [Orders] [History]", () => {
     }
   );
 
-  test("Should store a record if delivery added",
+  test(
+    "Should store a record if delivery added",
     { tag: [TAGS.API, TAGS.REGRESSION] },
-    async ({ loginApiService, ordersController, ordersApiService, customersApiService, productsApiService }) => {
+    async ({
+      loginApiService,
+      ordersController,
+      ordersApiService,
+      customersApiService,
+      productsApiService,
+    }) => {
       const token = await loginApiService.loginAsAdmin();
 
       const fx = await createDraftOrderFx({
@@ -437,9 +482,16 @@ test.describe("[API] [Sales Portal] [Orders] [History]", () => {
     }
   );
 
-  test("Should store a record if delivery edited",
+  test(
+    "Should store a record if delivery edited",
     { tag: [TAGS.API, TAGS.REGRESSION] },
-    async ({ loginApiService, ordersController, ordersApiService, customersApiService, productsApiService }) => {
+    async ({
+      loginApiService,
+      ordersController,
+      ordersApiService,
+      customersApiService,
+      productsApiService,
+    }) => {
       const token = await loginApiService.loginAsAdmin();
 
       const fx = await createDraftOrderWithDeliveryFx({
@@ -478,9 +530,16 @@ test.describe("[API] [Sales Portal] [Orders] [History]", () => {
     }
   );
 
-  test("Should store a record if partially received",
+  test(
+    "Should store a record if partially received",
     { tag: [TAGS.API, TAGS.REGRESSION] },
-    async ({ loginApiService, ordersController, ordersApiService, customersApiService, productsApiService }) => {
+    async ({
+      loginApiService,
+      ordersController,
+      ordersApiService,
+      customersApiService,
+      productsApiService,
+    }) => {
       const token = await loginApiService.loginAsAdmin();
 
       const fx = await createInProcessOrderFx({
@@ -512,9 +571,16 @@ test.describe("[API] [Sales Portal] [Orders] [History]", () => {
     }
   );
 
-  test("Should store a record if fully received",
+  test(
+    "Should store a record if fully received",
     { tag: [TAGS.API, TAGS.REGRESSION] },
-    async ({ loginApiService, ordersController, ordersApiService, customersApiService, productsApiService }) => {
+    async ({
+      loginApiService,
+      ordersController,
+      ordersApiService,
+      customersApiService,
+      productsApiService,
+    }) => {
       const token = await loginApiService.loginAsAdmin();
 
       const fx = await createInProcessOrderFx({
@@ -545,9 +611,16 @@ test.describe("[API] [Sales Portal] [Orders] [History]", () => {
     }
   );
 
-  test("Should store a record if canceled",
+  test(
+    "Should store a record if canceled",
     { tag: [TAGS.API, TAGS.REGRESSION] },
-    async ({ loginApiService, ordersController, ordersApiService, customersApiService, productsApiService }) => {
+    async ({
+      loginApiService,
+      ordersController,
+      ordersApiService,
+      customersApiService,
+      productsApiService,
+    }) => {
       const token = await loginApiService.loginAsAdmin();
 
       const fx = await createInProcessOrderFx({
@@ -577,9 +650,16 @@ test.describe("[API] [Sales Portal] [Orders] [History]", () => {
     }
   );
 
-  test("Should store a record if reopened",
+  test(
+    "Should store a record if reopened",
     { tag: [TAGS.API, TAGS.REGRESSION] },
-    async ({ loginApiService, ordersController, ordersApiService, customersApiService, productsApiService }) => {
+    async ({
+      loginApiService,
+      ordersController,
+      ordersApiService,
+      customersApiService,
+      productsApiService,
+    }) => {
       const token = await loginApiService.loginAsAdmin();
 
       const fx = await createCanceledOrderFx({

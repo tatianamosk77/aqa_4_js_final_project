@@ -9,7 +9,13 @@ test.describe("[Sales Portal] [Products]", () => {
     {
       tag: [TAGS.SMOKE, TAGS.REGRESSION, TAGS.PRODUCTS, TAGS.UI],
     },
-    async ({ productsListUIService, homeUIService, productsApiService, productsListPage, productsApi }) => {
+    async ({
+      productsListUIService,
+      homeUIService,
+      productsApiService,
+      productsListPage,
+      productsApi,
+    }) => {
       const token = await productsListPage.getAuthToken();
       await productsListPage.open();
       const createdProduct = await productsApiService.create(token);

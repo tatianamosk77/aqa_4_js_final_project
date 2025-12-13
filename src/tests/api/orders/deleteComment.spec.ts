@@ -64,9 +64,16 @@ test.describe("[API] [Sales Portal] [Orders] [Comments] [Delete]", () => {
     deps.productsApiService.delete(fx.token, fx.productId).catch(() => {});
   }
 
-  test("Should delete a comment with all valid data (token, orderId, commentId)",
+  test(
+    "Should delete a comment with all valid data (token, orderId, commentId)",
     { tag: [TAGS.API, TAGS.SMOKE, TAGS.REGRESSION] },
-    async ({ loginApiService, customersApiService, productsApiService, ordersApiService, ordersController }) => {
+    async ({
+      loginApiService,
+      customersApiService,
+      productsApiService,
+      ordersApiService,
+      ordersController,
+    }) => {
       const token = await loginApiService.loginAsAdmin();
       const fx = await createOrderWithCommentFx({
         token,
@@ -99,9 +106,16 @@ test.describe("[API] [Sales Portal] [Orders] [Comments] [Delete]", () => {
     }
   );
 
-  test("Should NOT delete a comment with orderId invalid (non existing)",
+  test(
+    "Should NOT delete a comment with orderId invalid (non existing)",
     { tag: [TAGS.API, TAGS.REGRESSION] },
-    async ({ loginApiService, customersApiService, productsApiService, ordersApiService, ordersController }) => {
+    async ({
+      loginApiService,
+      customersApiService,
+      productsApiService,
+      ordersApiService,
+      ordersController,
+    }) => {
       const token = await loginApiService.loginAsAdmin();
       const fx = await createOrderWithCommentFx({
         token,
@@ -125,9 +139,16 @@ test.describe("[API] [Sales Portal] [Orders] [Comments] [Delete]", () => {
     }
   );
 
-  test("Should NOT delete a comment with commentId invalid",
+  test(
+    "Should NOT delete a comment with commentId invalid",
     { tag: [TAGS.API, TAGS.REGRESSION] },
-    async ({ loginApiService, customersApiService, productsApiService, ordersApiService, ordersController }) => {
+    async ({
+      loginApiService,
+      customersApiService,
+      productsApiService,
+      ordersApiService,
+      ordersController,
+    }) => {
       const token = await loginApiService.loginAsAdmin();
       const fx = await createOrderWithCommentFx({
         token,

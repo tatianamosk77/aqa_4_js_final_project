@@ -1,19 +1,19 @@
-import { test, expect } from 'fixtures/api.fixture';
-import { STATUS_CODES } from 'data/statusCodes';
-import _ from 'lodash';
-import { validateResponse } from 'utils/validation/validateResponse.utils';
-import { ERROR_MESSAGES } from 'data/salesPortal/notifications';
-import { errorSchema } from 'data/schemas/core.schema';
-import { TAGS } from 'data/tags';
-import { generateCustomerData } from 'data/salesPortal/customers/generateCustomerData';
-import { createCustomerSchema } from 'data/schemas/customers/create.schema';
-import { getRandomEnumValue } from 'utils/enum.utils';
-import { COUNTRIES } from 'data/salesPortal/customers/countries';
+import { test, expect } from "fixtures/api.fixture";
+import { STATUS_CODES } from "data/statusCodes";
+import _ from "lodash";
+import { validateResponse } from "utils/validation/validateResponse.utils";
+import { ERROR_MESSAGES } from "data/salesPortal/notifications";
+import { errorSchema } from "data/schemas/core.schema";
+import { TAGS } from "data/tags";
+import { generateCustomerData } from "data/salesPortal/customers/generateCustomerData";
+import { createCustomerSchema } from "data/schemas/customers/create.schema";
+import { getRandomEnumValue } from "utils/enum.utils";
+import { COUNTRIES } from "data/salesPortal/customers/countries";
 
-test.describe('[API] [Sales Portal] [Customers]', () => {
-  test.describe('Smoke', () => {
+test.describe("[API] [Sales Portal] [Customers]", () => {
+  test.describe("Smoke", () => {
     const ids: string[] = [];
-    let token = '';
+    let token = "";
 
     test.afterEach(async ({ customersApiService }) => {
       if (ids.length) {
@@ -25,7 +25,7 @@ test.describe('[API] [Sales Portal] [Customers]', () => {
     });
 
     test(
-      'Update customer',
+      "Update customer",
       {
         tag: [TAGS.SMOKE, TAGS.REGRESSION, TAGS.CUSTOMERS, TAGS.API],
       },
@@ -52,15 +52,15 @@ test.describe('[API] [Sales Portal] [Customers]', () => {
         });
 
         const updatedCustomer = updatedCustomerResponse.body.Customer;
-        expect(_.omit(updatedCustomer, ['_id', 'createdOn'])).toEqual(updatedCustomerData);
+        expect(_.omit(updatedCustomer, ["_id", "createdOn"])).toEqual(updatedCustomerData);
         expect(createdCustomer._id).toBe(updatedCustomer._id);
       }
     );
   });
 
-  test.describe('NOT SMOKE', () => {
+  test.describe("NOT SMOKE", () => {
     const ids: string[] = [];
-    let token = '';
+    let token = "";
 
     test.beforeEach(async ({ loginApiService }) => {
       token = await loginApiService.loginAsAdmin();
@@ -75,7 +75,7 @@ test.describe('[API] [Sales Portal] [Customers]', () => {
     });
 
     test(
-      'Should NOT update customer without token',
+      "Should NOT update customer without token",
       {
         tag: [TAGS.REGRESSION, TAGS.CUSTOMERS, TAGS.API],
       },
@@ -83,7 +83,7 @@ test.describe('[API] [Sales Portal] [Customers]', () => {
         const customer = await customersApiService.create(token);
         ids.push(customer._id);
 
-        const response = await customersApi.update(customer._id, generateCustomerData(), '');
+        const response = await customersApi.update(customer._id, generateCustomerData(), "");
         validateResponse(response, {
           IsSuccess: false,
           status: STATUS_CODES.UNAUTHORIZED,
@@ -94,12 +94,12 @@ test.describe('[API] [Sales Portal] [Customers]', () => {
     );
 
     test(
-      'Should NOT update customer with not existing id',
+      "Should NOT update customer with not existing id",
       {
         tag: [TAGS.REGRESSION, TAGS.CUSTOMERS, TAGS.API],
       },
       async ({ customersApi }) => {
-        const id = '690a3cfbef33a32d75a96737';
+        const id = "690a3cfbef33a32d75a96737";
         const response = await customersApi.update(id, generateCustomerData(), token);
         validateResponse(response, {
           IsSuccess: false,
@@ -111,7 +111,7 @@ test.describe('[API] [Sales Portal] [Customers]', () => {
     );
 
     test(
-      'Should NOT update customer with existing customer email',
+      "Should NOT update customer with existing customer email",
       {
         tag: [TAGS.REGRESSION, TAGS.CUSTOMERS, TAGS.API],
       },
@@ -136,7 +136,7 @@ test.describe('[API] [Sales Portal] [Customers]', () => {
     );
 
     test(
-      'Should update customer with max valid data',
+      "Should update customer with max valid data",
       {
         tag: [TAGS.REGRESSION, TAGS.CUSTOMERS, TAGS.API],
       },
@@ -144,16 +144,16 @@ test.describe('[API] [Sales Portal] [Customers]', () => {
         const customer = await customersApiService.create(token);
         ids.push(customer._id);
         const customerData = {
-          email: 'test666@test.com',
-          name: 'Customeeeeeeeeeeer Customeeeeeeeeeeeeeer',
+          email: "test666@test.com",
+          name: "Customeeeeeeeeeeer Customeeeeeeeeeeeeeer",
           country: getRandomEnumValue(COUNTRIES),
-          city: 'Ciiiiiiiitttttyyyyyy', // requires 40, but successful with 20
+          city: "Ciiiiiiiitttttyyyyyy", // requires 40, but successful with 20
           flat: 9999,
           house: 999,
           notes:
-            'FugGijgp9M7HnljmfGpmqL2A8WqDnxSv0XdGDImYs8poMqJgkaD7rbqv9HyZzPZtGU6JxKOhvg6OvihDqoCdQ6aGZ3ekUg9aIZJYuKkXoAP4qwKAyK9dNj5LZMUjZw0SekIs3apD77gwMC8HBgJu9u1R2870NuDwp8wPrEWag5aFIEKmTeoP7XLRlLDYI7cEo8feLmvO9b2nvjs2LtE0DYUPhMuMrqHunMhbPdwieMw16CSYWisdw9hlRz',
-          phone: '+79570919939992323424',
-          street: 'Sssssssssssttttttttrrrrrrrrrrreeeetttttt',
+            "FugGijgp9M7HnljmfGpmqL2A8WqDnxSv0XdGDImYs8poMqJgkaD7rbqv9HyZzPZtGU6JxKOhvg6OvihDqoCdQ6aGZ3ekUg9aIZJYuKkXoAP4qwKAyK9dNj5LZMUjZw0SekIs3apD77gwMC8HBgJu9u1R2870NuDwp8wPrEWag5aFIEKmTeoP7XLRlLDYI7cEo8feLmvO9b2nvjs2LtE0DYUPhMuMrqHunMhbPdwieMw16CSYWisdw9hlRz",
+          phone: "+79570919939992323424",
+          street: "Sssssssssssttttttttrrrrrrrrrrreeeetttttt",
         };
         const response = await customersApi.update(
           customer._id,
@@ -167,12 +167,12 @@ test.describe('[API] [Sales Portal] [Customers]', () => {
           schema: createCustomerSchema,
         });
 
-        expect(_.omit(response.body.Customer, ['_id', 'createdOn'])).toEqual(customerData);
+        expect(_.omit(response.body.Customer, ["_id", "createdOn"])).toEqual(customerData);
       }
     );
 
     test(
-      'Should update customer with min valid data',
+      "Should update customer with min valid data",
       {
         tag: [TAGS.REGRESSION, TAGS.CUSTOMERS, TAGS.API],
       },
@@ -180,15 +180,15 @@ test.describe('[API] [Sales Portal] [Customers]', () => {
         const customer = await customersApiService.create(token);
         ids.push(customer._id);
         const customerData = {
-          email: 'test666@test.com',
-          name: 'N',
+          email: "test666@test.com",
+          name: "N",
           country: COUNTRIES.CANADA,
-          city: 'C',
+          city: "C",
           flat: 1,
           house: 1,
-          notes: '',
-          phone: '+7957091993',
-          street: 'S',
+          notes: "",
+          phone: "+7957091993",
+          street: "S",
         };
         const response = await customersApi.update(
           customer._id,
@@ -201,7 +201,7 @@ test.describe('[API] [Sales Portal] [Customers]', () => {
           ErrorMessage: null,
           schema: createCustomerSchema,
         });
-        expect(_.omit(response.body.Customer, ['_id', 'createdOn'])).toEqual(customerData);
+        expect(_.omit(response.body.Customer, ["_id", "createdOn"])).toEqual(customerData);
       }
     );
   });

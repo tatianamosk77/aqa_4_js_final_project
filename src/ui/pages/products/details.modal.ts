@@ -30,7 +30,8 @@ export class ProductDetailsModal extends SalesPortalPage {
 
   @logStep("Get data from ProductDetailsModal")
   async getData(): Promise<IProductDetails> {
-    const [name, amount, price, manufacturer, createdOn, notes] = await this.productValue.allInnerTexts();
+    const [name, amount, price, manufacturer, createdOn, notes] =
+      await this.productValue.allInnerTexts();
 
     return {
       name: name!,

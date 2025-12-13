@@ -5,7 +5,10 @@ import { STATUS_CODES } from "data/statusCodes";
 import { IProduct, IProductFromResponse } from "data/types/product.types";
 import { logStep } from "utils/report/logStep.utils";
 import { validateResponse } from "utils/validation/validateResponse.utils";
-import { oneProductResponseSchema, allProductsResponseSchema } from "data/schemas/products/product.schema";
+import {
+  oneProductResponseSchema,
+  allProductsResponseSchema,
+} from "data/schemas/products/product.schema";
 
 export class ProductsApiService {
   constructor(private productsApi: ProductsApi) {}

@@ -26,9 +26,16 @@ test.describe("[API] [Sales Portal] [Orders] [Get by ID]", () => {
     productIds.forEach(id => deps.productsApiService.delete(token, id).catch(() => {}));
   }
 
-  test("Should get order with valid id and token",
+  test(
+    "Should get order with valid id and token",
     { tag: [TAGS.API, TAGS.SMOKE, TAGS.REGRESSION] },
-    async ({ loginApiService, customersApiService, productsApiService, ordersApiService, ordersController }) => {
+    async ({
+      loginApiService,
+      customersApiService,
+      productsApiService,
+      ordersApiService,
+      ordersController,
+    }) => {
       const token = await loginApiService.loginAsAdmin();
 
       const [customer, product] = await Promise.all([
@@ -72,7 +79,8 @@ test.describe("[API] [Sales Portal] [Orders] [Get by ID]", () => {
     }
   );
 
-  test("Should NOT get order with non-existent id",
+  test(
+    "Should NOT get order with non-existent id",
     { tag: [TAGS.API, TAGS.REGRESSION] },
     async ({ loginApiService, ordersController }) => {
       const token = await loginApiService.loginAsAdmin();
@@ -94,9 +102,16 @@ test.describe("[API] [Sales Portal] [Orders] [Get by ID]", () => {
     }
   );
 
-  test("Should NOT get order with invalid token",
+  test(
+    "Should NOT get order with invalid token",
     { tag: [TAGS.API, TAGS.REGRESSION] },
-    async ({ loginApiService, customersApiService, productsApiService, ordersApiService, ordersController }) => {
+    async ({
+      loginApiService,
+      customersApiService,
+      productsApiService,
+      ordersApiService,
+      ordersController,
+    }) => {
       const token = await loginApiService.loginAsAdmin();
 
       const [customer, product] = await Promise.all([
@@ -131,9 +146,16 @@ test.describe("[API] [Sales Portal] [Orders] [Get by ID]", () => {
     }
   );
 
-  test("Should NOT get order without token",
+  test(
+    "Should NOT get order without token",
     { tag: [TAGS.API, TAGS.REGRESSION] },
-    async ({ loginApiService, customersApiService, productsApiService, ordersApiService, ordersController}) => {
+    async ({
+      loginApiService,
+      customersApiService,
+      productsApiService,
+      ordersApiService,
+      ordersController,
+    }) => {
       const token = await loginApiService.loginAsAdmin();
 
       const [customer, product] = await Promise.all([

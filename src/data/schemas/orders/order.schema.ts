@@ -78,7 +78,7 @@ export const assignedManagerSchema = {
       type: "array",
       items: { type: "string" },
     },
-    createdOn: { type: "string" }, 
+    createdOn: { type: "string" },
   },
   required: ["_id", "username", "firstName", "lastName", "roles", "createdOn"],
   additionalProperties: false,
@@ -181,7 +181,7 @@ export const getCustomerOrdersSchema = {
   properties: {
     Orders: {
       type: "array",
-      items: orderInListSchema 
+      items: orderInListSchema,
     },
     ...obligatoryFieldsSchema,
   },
@@ -190,16 +190,16 @@ export const getCustomerOrdersSchema = {
 };
 
 export const ordersListSchema = {
-  type: 'object',
+  type: "object",
   properties: {
     Orders: {
-      type: 'array',
+      type: "array",
       items: orderSchema,
     },
     ...ordersMetaSchema.properties,
     ...obligatoryFieldsSchema,
   },
-  required: ['Orders', ...obligatoryRequredFields],
+  required: ["Orders", ...obligatoryRequredFields],
 };
 
 export const customerOrdersSchema = getCustomerOrdersSchema;

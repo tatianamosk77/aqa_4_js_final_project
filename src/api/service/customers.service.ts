@@ -116,5 +116,3 @@ export class CustomersApiService {
     return response.body as ICustomerOrdersResponse;
   }
 }
-
-

@@ -37,7 +37,8 @@ test.describe("[API] [Sales Portal] [Orders] [Create]", () => {
     productIds = [];
   });
 
-  test("Should create order with all valid data (token, valid customerId, productId) and one product",
+  test(
+    "Should create order with all valid data (token, valid customerId, productId) and one product",
     { tag: [TAGS.API, TAGS.SMOKE, TAGS.REGRESSION] },
     async ({ ordersController, ordersApiService, customersApiService, productsApiService }) => {
       const [createdCustomer, createdProduct] = await Promise.all([
@@ -76,7 +77,8 @@ test.describe("[API] [Sales Portal] [Orders] [Create]", () => {
     }
   );
 
-  test("Should create order with all valid data (token, valid customerId, productId) and 5 products",
+  test(
+    "Should create order with all valid data (token, valid customerId, productId) and 5 products",
     { tag: [TAGS.API, TAGS.REGRESSION] },
     async ({ ordersController, ordersApiService, customersApiService, productsApiService }) => {
       const [createdCustomer, createdProducts] = await Promise.all([
@@ -116,7 +118,8 @@ test.describe("[API] [Sales Portal] [Orders] [Create]", () => {
     }
   );
 
-  test("Should NOT create order with all valid data (token, valid customerId, productId) and 6 products",
+  test(
+    "Should NOT create order with all valid data (token, valid customerId, productId) and 6 products",
     { tag: [TAGS.API, TAGS.REGRESSION] },
     async ({ ordersController, customersApiService, productsApiService }) => {
       const [createdCustomer, createdProducts] = await Promise.all([
@@ -141,7 +144,8 @@ test.describe("[API] [Sales Portal] [Orders] [Create]", () => {
     }
   );
 
-  test("Should NOT create order with invalid customerId",
+  test(
+    "Should NOT create order with invalid customerId",
     { tag: [TAGS.API, TAGS.REGRESSION] },
     async ({ ordersController, productsApiService }) => {
       const invalidCustomerId = generateID();
@@ -163,7 +167,8 @@ test.describe("[API] [Sales Portal] [Orders] [Create]", () => {
     }
   );
 
-  test("Should NOT create order with 1 invalid productId",
+  test(
+    "Should NOT create order with 1 invalid productId",
     { tag: [TAGS.API, TAGS.REGRESSION] },
     async ({ ordersController, customersApiService }) => {
       const invalidProductId = generateID();
@@ -185,7 +190,8 @@ test.describe("[API] [Sales Portal] [Orders] [Create]", () => {
     }
   );
 
-  test("Should NOT create order if one of productIds is invalid",
+  test(
+    "Should NOT create order if one of productIds is invalid",
     { tag: [TAGS.API, TAGS.REGRESSION] },
     async ({ ordersController, customersApiService, productsApiService }) => {
       const [createdCustomer, createdProducts] = await Promise.all([

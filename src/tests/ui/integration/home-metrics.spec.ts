@@ -10,9 +10,11 @@ test.describe("[Integration] [Sales Portal] [Home Metrics]", () => {
     {
       tag: [TAGS.VISUAL_REGRESSION, TAGS.PRODUCTS, TAGS.INTEGRATION],
     },
-    async ({ loginAsAdmin, homePage, page, mock }) => {
+    async ({ loginAsAdmin, homePage, mock }) => {
       const expectedOrdersThisYear = 150;
-      const mockData = HomeMetricsTestBuilder.create().withOrdersThisYear(expectedOrdersThisYear).build();
+      const mockData = HomeMetricsTestBuilder.create()
+        .withOrdersThisYear(expectedOrdersThisYear)
+        .build();
 
       await mock.homePageMetrics(mockData);
       await loginAsAdmin();
@@ -29,10 +31,12 @@ test.describe("[Integration] [Sales Portal] [Home Metrics]", () => {
     {
       tag: [TAGS.VISUAL_REGRESSION, TAGS.PRODUCTS, TAGS.INTEGRATION],
     },
-    async ({ loginAsAdmin, homePage, page, mock }) => {
+    async ({ loginAsAdmin, homePage, mock }) => {
       const expectedNewCustomers = 42;
 
-      const mockData = HomeMetricsTestBuilder.create().withNewCustomers(expectedNewCustomers).build();
+      const mockData = HomeMetricsTestBuilder.create()
+        .withNewCustomers(expectedNewCustomers)
+        .build();
 
       await mock.homePageMetrics(mockData);
       await loginAsAdmin();
@@ -52,7 +56,9 @@ test.describe("[Integration] [Sales Portal] [Home Metrics]", () => {
     async ({ loginAsAdmin, homePage, page, mock }) => {
       const expectedCanceledOrders = 8;
 
-      const mockData = HomeMetricsTestBuilder.create().withCanceledOrders(expectedCanceledOrders).build();
+      const mockData = HomeMetricsTestBuilder.create()
+        .withCanceledOrders(expectedCanceledOrders)
+        .build();
 
       await mock.homePageMetrics(mockData);
       await loginAsAdmin();
@@ -72,7 +78,9 @@ test.describe("[Integration] [Sales Portal] [Home Metrics]", () => {
     async ({ loginAsAdmin, homePage, page, mock }) => {
       const expectedTotalRevenue = 50000;
 
-      const mockData = HomeMetricsTestBuilder.create().withTotalRevenue(expectedTotalRevenue).build();
+      const mockData = HomeMetricsTestBuilder.create()
+        .withTotalRevenue(expectedTotalRevenue)
+        .build();
 
       await mock.homePageMetrics(mockData);
       await loginAsAdmin();
@@ -93,7 +101,9 @@ test.describe("[Integration] [Sales Portal] [Home Metrics]", () => {
     async ({ loginAsAdmin, homePage, page, mock }) => {
       const expectedAvgOrderValue = 375;
 
-      const mockData = HomeMetricsTestBuilder.create().withAvgOrderValue(expectedAvgOrderValue).build();
+      const mockData = HomeMetricsTestBuilder.create()
+        .withAvgOrderValue(expectedAvgOrderValue)
+        .build();
 
       await mock.homePageMetrics(mockData);
       await loginAsAdmin();

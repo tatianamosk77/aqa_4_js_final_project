@@ -24,7 +24,7 @@ export class LoginService {
     return token;
   }
 
-    @logStep("Login as Admin via API (with user)")
+  @logStep("Login as Admin via API (with user)")
   async loginAsAdminWithUser(customCredentials?: ICredentials) {
     const response = await this.loginApi.login(customCredentials ?? credentials);
     validateResponse(response, {
@@ -37,9 +37,8 @@ export class LoginService {
     const token = headers["authorization"]!;
     expect(token).toBeTruthy();
 
-    const userId = response.body!.User._id; 
+    const userId = response.body!.User._id;
 
     return { token, userId };
   }
-
 }

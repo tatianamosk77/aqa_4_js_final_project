@@ -1,14 +1,14 @@
-import { test } from 'fixtures/api.fixture';
-import { STATUS_CODES } from 'data/statusCodes';
-import { validateResponse } from 'utils/validation/validateResponse.utils';
-import { TAGS } from 'data/tags';
-import { getNotificationsResponseSchema } from 'data/schemas/notifications/getNotifications.schema';
+import { test } from "fixtures/api.fixture";
+import { STATUS_CODES } from "data/statusCodes";
+import { validateResponse } from "utils/validation/validateResponse.utils";
+import { TAGS } from "data/tags";
+import { getNotificationsResponseSchema } from "data/schemas/notifications/getNotifications.schema";
 
-test.describe('[API] [Sales Portal] [Notifications]', () => {
-  let token = '';
+test.describe("[API] [Sales Portal] [Notifications]", () => {
+  let token = "";
 
   test(
-    'Read one notification',
+    "Read one notification",
     {
       tag: [TAGS.REGRESSION, TAGS.NOTIFICATIONS, TAGS.API],
     },
@@ -16,7 +16,7 @@ test.describe('[API] [Sales Portal] [Notifications]', () => {
       token = await loginApiService.loginAsAdmin();
 
       const getNotificationsResponse = await notificationsApi.readOne(
-        '693998861c508c5d5ea1b17d', // временно
+        "693998861c508c5d5ea1b17d", // временно
         token
       );
       validateResponse(getNotificationsResponse, {

@@ -37,7 +37,8 @@ test.describe("[API] [Sales Portal] [Orders] [Delete]", () => {
     productId = null;
   });
 
-  test("Should delete order with valid id and token",
+  test(
+    "Should delete order with valid id and token",
     { tag: [TAGS.API, TAGS.SMOKE, TAGS.REGRESSION] },
     async ({ customersApiService, productsApiService, ordersApiService, ordersController }) => {
       const [customer, product] = await Promise.all([
@@ -73,7 +74,8 @@ test.describe("[API] [Sales Portal] [Orders] [Delete]", () => {
     }
   );
 
-  test("Should NOT delete order with invalid token",
+  test(
+    "Should NOT delete order with invalid token",
     { tag: [TAGS.API, TAGS.REGRESSION] },
     async ({ customersApiService, productsApiService, ordersApiService, ordersController }) => {
       const invalidToken = "Invalid access token";
@@ -103,7 +105,8 @@ test.describe("[API] [Sales Portal] [Orders] [Delete]", () => {
     }
   );
 
-  test("Should NOT delete order without token",
+  test(
+    "Should NOT delete order without token",
     { tag: [TAGS.API, TAGS.REGRESSION] },
     async ({ customersApiService, productsApiService, ordersApiService, ordersController }) => {
       const emptyToken = "";
@@ -133,7 +136,8 @@ test.describe("[API] [Sales Portal] [Orders] [Delete]", () => {
     }
   );
 
-  test("Should NOT delete order with invalid orderId format",
+  test(
+    "Should NOT delete order with invalid orderId format",
     { tag: [TAGS.API, TAGS.REGRESSION] },
     async ({ loginApiService, ordersController }) => {
       const token = await loginApiService.loginAsAdmin();
@@ -142,7 +146,8 @@ test.describe("[API] [Sales Portal] [Orders] [Delete]", () => {
     }
   );
 
-  test("Should NOT delete order with non-existent orderId",
+  test(
+    "Should NOT delete order with non-existent orderId",
     { tag: [TAGS.API, TAGS.REGRESSION] },
     async ({ loginApiService, ordersController }) => {
       const token = await loginApiService.loginAsAdmin();
@@ -159,7 +164,8 @@ test.describe("[API] [Sales Portal] [Orders] [Delete]", () => {
     }
   );
 
-  test("Should create order and return it by schema (sanity, uses createOrderSchema)",
+  test(
+    "Should create order and return it by schema (sanity, uses createOrderSchema)",
     { tag: [TAGS.API, TAGS.REGRESSION] },
     async ({ customersApiService, productsApiService, ordersController }) => {
       const [customer, product] = await Promise.all([

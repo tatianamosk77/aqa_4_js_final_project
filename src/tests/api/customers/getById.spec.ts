@@ -1,19 +1,19 @@
-import { test, expect } from 'fixtures/api.fixture';
-import { STATUS_CODES } from 'data/statusCodes';
-import { validateResponse } from 'utils/validation/validateResponse.utils';
-import { TAGS } from 'data/tags';
-import { getCustomerSchema } from 'data/schemas/customers/get.schema';
+import { test, expect } from "fixtures/api.fixture";
+import { STATUS_CODES } from "data/statusCodes";
+import { validateResponse } from "utils/validation/validateResponse.utils";
+import { TAGS } from "data/tags";
+import { getCustomerSchema } from "data/schemas/customers/get.schema";
 
-test.describe('[API] [Sales Portal] [Customers]', () => {
-  let id = '';
-  let token = '';
+test.describe("[API] [Sales Portal] [Customers]", () => {
+  let id = "";
+  let token = "";
 
   test.afterEach(async ({ customersApiService }) => {
     await customersApiService.delete(token, id);
   });
 
   test(
-    'Get Customer By Id',
+    "Get Customer By Id",
     {
       tag: [TAGS.REGRESSION, TAGS.CUSTOMERS, TAGS.API],
     },

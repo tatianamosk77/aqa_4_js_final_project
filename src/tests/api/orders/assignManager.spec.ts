@@ -62,7 +62,8 @@ test.describe("[API] [Sales Portal] [Orders] [Assign Manager]", () => {
     deps.productsApiService.delete(token, productId).catch(() => {});
   }
 
-  test("Should assign manager with valid orderId, managerId and token",
+  test(
+    "Should assign manager with valid orderId, managerId and token",
     { tag: [TAGS.API, TAGS.SMOKE, TAGS.REGRESSION] },
     async ({
       loginApiService,
@@ -121,9 +122,16 @@ test.describe("[API] [Sales Portal] [Orders] [Assign Manager]", () => {
     }
   );
 
-  test("Should NOT assign manager with invalid token",
+  test(
+    "Should NOT assign manager with invalid token",
     { tag: [TAGS.API, TAGS.REGRESSION] },
-    async ({ loginApiService, customersApiService, productsApiService, ordersApiService, ordersController }) => {
+    async ({
+      loginApiService,
+      customersApiService,
+      productsApiService,
+      ordersApiService,
+      ordersController,
+    }) => {
       const token = await loginApiService.loginAsAdmin();
       const invalidToken = "Invalid access token";
 
@@ -147,9 +155,16 @@ test.describe("[API] [Sales Portal] [Orders] [Assign Manager]", () => {
     }
   );
 
-  test("Should NOT assign manager without token",
+  test(
+    "Should NOT assign manager without token",
     { tag: [TAGS.API, TAGS.REGRESSION] },
-    async ({ loginApiService, customersApiService, productsApiService, ordersApiService, ordersController }) => {
+    async ({
+      loginApiService,
+      customersApiService,
+      productsApiService,
+      ordersApiService,
+      ordersController,
+    }) => {
       const token = await loginApiService.loginAsAdmin();
       const emptyToken = "";
 
@@ -173,7 +188,8 @@ test.describe("[API] [Sales Portal] [Orders] [Assign Manager]", () => {
     }
   );
 
-  test("Should NOT assign manager with missing orderId",
+  test(
+    "Should NOT assign manager with missing orderId",
     { tag: [TAGS.API, TAGS.REGRESSION] },
     async ({ loginApiService, ordersController }) => {
       const token = await loginApiService.loginAsAdmin();
@@ -185,7 +201,8 @@ test.describe("[API] [Sales Portal] [Orders] [Assign Manager]", () => {
     }
   );
 
-  test("Should NOT assign manager with invalid orderId format",
+  test(
+    "Should NOT assign manager with invalid orderId format",
     { tag: [TAGS.API, TAGS.REGRESSION] },
     async ({ loginApiService, ordersController }) => {
       const token = await loginApiService.loginAsAdmin();
@@ -196,7 +213,8 @@ test.describe("[API] [Sales Portal] [Orders] [Assign Manager]", () => {
     }
   );
 
-  test("Should NOT assign manager with non-existent orderId",
+  test(
+    "Should NOT assign manager with non-existent orderId",
     { tag: [TAGS.API, TAGS.REGRESSION] },
     async ({ loginApiService, ordersController }) => {
       const token = await loginApiService.loginAsAdmin();
@@ -213,9 +231,16 @@ test.describe("[API] [Sales Portal] [Orders] [Assign Manager]", () => {
     }
   );
 
-  test("Should NOT assign manager with empty managerId",
+  test(
+    "Should NOT assign manager with empty managerId",
     { tag: [TAGS.API, TAGS.REGRESSION] },
-    async ({ loginApiService, customersApiService, productsApiService, ordersApiService, ordersController }) => {
+    async ({
+      loginApiService,
+      customersApiService,
+      productsApiService,
+      ordersApiService,
+      ordersController,
+    }) => {
       const token = await loginApiService.loginAsAdmin();
 
       const fx = await createOrderFx({
@@ -234,9 +259,16 @@ test.describe("[API] [Sales Portal] [Orders] [Assign Manager]", () => {
     }
   );
 
-  test("Should NOT assign manager with invalid managerId format",
+  test(
+    "Should NOT assign manager with invalid managerId format",
     { tag: [TAGS.API, TAGS.REGRESSION] },
-    async ({ loginApiService, customersApiService, productsApiService, ordersApiService, ordersController }) => {
+    async ({
+      loginApiService,
+      customersApiService,
+      productsApiService,
+      ordersApiService,
+      ordersController,
+    }) => {
       const token = await loginApiService.loginAsAdmin();
 
       const fx = await createOrderFx({
@@ -246,15 +278,24 @@ test.describe("[API] [Sales Portal] [Orders] [Assign Manager]", () => {
         ordersApiService,
       });
 
-      await expect(ordersController.assignManager(fx.orderId, "12345", token)).rejects.toThrow(/status 500/i);
+      await expect(ordersController.assignManager(fx.orderId, "12345", token)).rejects.toThrow(
+        /status 500/i
+      );
 
       await cleanupAssignFx(fx, { ordersApiService, customersApiService, productsApiService });
     }
   );
 
-  test("Should NOT assign manager with non-existent managerId",
+  test(
+    "Should NOT assign manager with non-existent managerId",
     { tag: [TAGS.API, TAGS.REGRESSION] },
-    async ({ loginApiService, customersApiService, productsApiService, ordersApiService, ordersController }) => {
+    async ({
+      loginApiService,
+      customersApiService,
+      productsApiService,
+      ordersApiService,
+      ordersController,
+    }) => {
       const token = await loginApiService.loginAsAdmin();
       const nonexistentManagerId = generateID();
 
