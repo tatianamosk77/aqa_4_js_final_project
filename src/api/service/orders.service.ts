@@ -1,174 +1,181 @@
-import { OrdersApi } from 'api/api/orders.api';
-import { IOrderData, IOrderDelivery } from 'data/types/order.types';
-import { IOrderRequestParams } from 'data/types/order.types';
-import { logStep } from 'utils/report/logStep.utils';
-import { validateResponse } from 'utils/validation/validateResponse.utils';
-import { STATUS_CODES } from 'data/statusCodes';
-import { ordersListSchema } from 'data/schemas/orders/order.schema';
-import { createOrderSchema } from 'data/schemas/orders/create.shema';
-import { ORDER_STATUS } from 'data/orders/statuses.data';
-import { getOrderSchema } from 'data/schemas/orders/getOrder.schema';
-import { updateOrderResponseSchema } from 'data/schemas/orders/updateOrder.schema';
+import { OrdersApi } from "api/api/orders.api";
+import { createOrderSchema } from "data/schemas/orders/create.shema";
+import { getOrderSchema } from "data/schemas/orders/getOrder.schema";
+import { orderDeliverySchema } from "data/schemas/orders/postOrderDelivery.schema";
+import { orderReceiveSchema } from "data/schemas/orders/postOrdersReceive.schema";
+import { STATUS_CODES } from "data/statusCodes";
+import {
+  IOrderData,
+  IOrderDelivery,
+  IOrderFilteredResponse,
+  IOrderRequestParams,
+} from "data/types/order.types";
+import { ORDER_STATUS } from "data/orders/statuses.data";
+import { logStep } from "utils/report/logStep.utils";
+import { validateResponse } from "utils/validation/validateResponse.utils";
 
 export class OrdersApiService {
   constructor(private ordersApi: OrdersApi) {}
 
-  @logStep('Create order')
-  async create(orderData: IOrderData, token: string) {
-    const response = await this.ordersApi.create(orderData, token);
+  @logStep("Create order via API")
+  async create(data: IOrderData, token: string) {
+    const response = await this.ordersApi.create(data, token);
+
     validateResponse(response, {
       status: STATUS_CODES.CREATED,
       IsSuccess: true,
       ErrorMessage: null,
       schema: createOrderSchema,
     });
-    return response.body.Order;
+
+    return response.body!.Order;
   }
 
-  @logStep('Get order')
-  async getById(token: string, orderId: string) {
-    const response = await this.ordersApi.getById(orderId, token);
+  @logStep("Get order by ID via API")
+  async getById(id: string, token: string) {
+    const response = await this.ordersApi.getById(id, token);
+
     validateResponse(response, {
       status: STATUS_CODES.OK,
       IsSuccess: true,
       ErrorMessage: null,
       schema: getOrderSchema,
     });
-    return response.body.Order;
+
+    return response.body!.Order;
   }
 
-  @logStep('Update order')
-  async update(token: string, orderId: string, orderData: IOrderData) {
-    const response = await this.ordersApi.update(orderId, orderData, token);
-    validateResponse(response, {
-      status: STATUS_CODES.OK,
-      IsSuccess: true,
-      ErrorMessage: null,
-      schema: updateOrderResponseSchema,
-    });
-    return response.body.Order;
-  }
-
-  @logStep('Delete order')
-  async delete(token: string, orderId: string) {
-    const response = await this.ordersApi.delete(orderId, token);
-    validateResponse(response, {
-      status: STATUS_CODES.DELETED,
-      IsSuccess: true,
-      ErrorMessage: null,
-    });
-  }
-
-  @logStep('Get filtered orders')
-  async getFiltered(token: string, params?: IOrderRequestParams) {
+  @logStep("Get filtered and sorted list of orders via API")
+  async getFiltered(token: string, params?: Partial<IOrderRequestParams>) {
     const response = await this.ordersApi.getFiltered(token, params);
+
     validateResponse(response, {
       status: STATUS_CODES.OK,
       IsSuccess: true,
       ErrorMessage: null,
-      schema: ordersListSchema,
     });
-    return response.body;
+
+    return response.body as IOrderFilteredResponse;
   }
 
-  @logStep('Assign manager to order')
-  async assignManager(token: string, orderId: string, managerId: string) {
-    const response = await this.ordersApi.assignManager(orderId, managerId, token);
+  @logStep("Update order via API")
+  async update(id: string, data: IOrderData, token: string) {
+    const response = await this.ordersApi.update(id, data, token);
+
     validateResponse(response, {
       status: STATUS_CODES.OK,
       IsSuccess: true,
       ErrorMessage: null,
-      schema: updateOrderResponseSchema,
+      schema: getOrderSchema,
     });
+
+    return response.body!.Order;
   }
 
-  @logStep('Unassign manager from order')
-  async unassignManager(token: string, orderId: string) {
-    const response = await this.ordersApi.unassignManager(orderId, token);
-    validateResponse(response, {
-      status: STATUS_CODES.OK,
-      IsSuccess: true,
-      ErrorMessage: null,
-      schema: updateOrderResponseSchema,
-    });
-  }
+  @logStep("Delete order via API")
+  async delete(id: string, token: string): Promise<void> {
+    const response = await this.ordersApi.delete(id, token);
 
-  @logStep('Add comment to order')
-  async addComment(token: string, orderId: string, comment: string) {
-    const response = await this.ordersApi.addComment(orderId, comment, token);
-    validateResponse(response, {
-      status: STATUS_CODES.OK,
-      IsSuccess: true,
-      ErrorMessage: null,
-      schema: updateOrderResponseSchema,
-    });
-  }
-
-  @logStep('Delete comment from order')
-  async deleteComment(orderId: string, token: string, commentId: string) {
-    const response = await this.ordersApi.deleteComment(orderId, commentId, token);
     validateResponse(response, {
       status: STATUS_CODES.DELETED,
-      IsSuccess: true,
-      ErrorMessage: null,
     });
   }
 
-  @logStep('Update delivery')
-  async updateDelivery(token: string, orderId: string, delivery: IOrderDelivery) {
-    const response = await this.ordersApi.updateDelivery(orderId, delivery, token);
+  @logStep("Assign manager to order via API")
+  async assignManager(orderId: string, managerId: string, token: string) {
+    const response = await this.ordersApi.assignManager(orderId, managerId, token);
+
     validateResponse(response, {
       status: STATUS_CODES.OK,
       IsSuccess: true,
       ErrorMessage: null,
-      schema: updateOrderResponseSchema,
+      schema: getOrderSchema,
     });
+
+    return response.body!.Order;
   }
 
-  @logStep('Receive order')
-  async receive(token: string, orderId: string, productIds: string[]) {
-    const response = await this.ordersApi.receiveProducts(orderId, productIds, token);
+  @logStep("Unassign manager from order via API")
+  async unassignManager(orderId: string, token: string) {
+    const response = await this.ordersApi.unassignManager(orderId, token);
+
     validateResponse(response, {
       status: STATUS_CODES.OK,
       IsSuccess: true,
       ErrorMessage: null,
-      schema: updateOrderResponseSchema,
+      schema: getOrderSchema,
     });
+
+    return response.body!.Order;
   }
 
-  @logStep('Update order status')
-  async updateStatus(token: string, orderId: string, status: ORDER_STATUS) {
-    const response = await this.ordersApi.updateStatus(orderId, status, token);
+  @logStep("Add comment to order via API")
+  async addComment(id: string, text: string, token: string) {
+    const response = await this.ordersApi.addComment(id, text, token);
+
     validateResponse(response, {
       status: STATUS_CODES.OK,
       IsSuccess: true,
       ErrorMessage: null,
-      schema: updateOrderResponseSchema,
+      schema: getOrderSchema,
     });
+
+    return response.body!.Order;
   }
 
-  @logStep('Setup test notifications: Create order, assign manager, add comment')
-  async setupTestNotifications(
-    token: string,
-    orderData: IOrderData,
-    managerId: string,
-    commentText: string = 'Test comment for notification'
-  ): Promise<string> {
-    try {
-      const createdOrder = await this.create(orderData, token);
-      const orderId = createdOrder._id;
+  @logStep("Delete order comment via API")
+  async deleteComment(orderId: string, commentId: string, token: string) {
+    const response = await this.ordersApi.deleteComment(orderId, commentId, token);
 
-      await this.assignManager(token, orderId, managerId);
+    validateResponse(response, {
+      status: STATUS_CODES.OK,
+      IsSuccess: true,
+      ErrorMessage: null,
+      schema: getOrderSchema,
+    });
 
-      await this.addComment(token, orderId, commentText);
+    return response.body!.Order;
+  }
 
-      return orderId;
-    } catch (error) {
-      if (error instanceof Error) {
-        throw new Error(`Setup of test notifications failed: ${error.message}`);
-      } else {
-        throw new Error(`Setup of test notifications failed: ${String(error)}`);
-      }
-    }
+  @logStep("Update order delivery via API")
+  async updateDelivery(id: string, delivery: IOrderDelivery, token: string) {
+    const response = await this.ordersApi.updateDelivery(id, delivery, token);
+
+    validateResponse(response, {
+      status: STATUS_CODES.OK,
+      IsSuccess: true,
+      ErrorMessage: null,
+      schema: orderDeliverySchema,
+    });
+
+    return response.body!.Order;
+  }
+
+  @logStep("Receive products for order via API")
+  async receiveProducts(id: string, productIds: string[], token: string) {
+    const response = await this.ordersApi.receiveProducts(id, productIds, token);
+
+    validateResponse(response, {
+      status: STATUS_CODES.OK,
+      IsSuccess: true,
+      ErrorMessage: null,
+      schema: orderReceiveSchema,
+    });
+
+    return response.body!.Order;
+  }
+
+  @logStep("Update order status via API")
+  async updateStatus(id: string, status: ORDER_STATUS, token: string) {
+    const response = await this.ordersApi.updateStatus(id, status, token);
+
+    validateResponse(response, {
+      status: STATUS_CODES.OK,
+      IsSuccess: true,
+      ErrorMessage: null,
+      schema: getOrderSchema,
+    });
+
+    return response.body!.Order;
   }
 }

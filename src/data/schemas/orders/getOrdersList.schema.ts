@@ -1,22 +1,22 @@
-import { orderSchema } from './order.schema';
-import { ordersMetaSchema } from '../base.schemas';
-import { obligatoryFieldsSchema, obligatoryRequredFields } from '../core.schema';
+import { orderSchema } from "./order.schema";
+import { ordersMetaSchema } from "../base.schemas";
+import { obligatoryFieldsSchema, obligatoryRequredFields } from "../core.schema";
 
 export const getOrdersListSchema = {
-  type: 'object',
+  type: "object",
   properties: {
     Orders: {
-      type: 'array',
+      type: "array",
       items: {
         allOf: [orderSchema],
       },
     },
     Metadata: {
-      type: 'object',
+      type: "object",
       allOf: [ordersMetaSchema],
     },
     ...obligatoryFieldsSchema,
   },
-  required: ['Orders', 'Metadata', ...obligatoryRequredFields],
+  required: ["Orders", "Metadata", ...obligatoryRequredFields],
   additionalProperties: false,
 };
