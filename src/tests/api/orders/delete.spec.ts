@@ -13,24 +13,35 @@ test.describe("[API] [Sales Portal] [Orders] [Delete]", () => {
   let orderId: string | null = null;
   let customerId: string | null = null;
   let productId: string | null = null;
+  let created = false; 
 
   test.beforeEach(async ({ loginApiService }) => {
     token = await loginApiService.loginAsAdmin();
     orderId = null;
     customerId = null;
     productId = null;
+    created = false; 
   });
 
-  test.afterEach(async ({ ordersApiService, customersApiService, productsApiService }) => {
-    if (orderId) {
-      await ordersApiService.delete(orderId, token).catch(() => {});
-    }
-    if (customerId) {
-      await customersApiService.delete(token, customerId).catch(() => {});
-    }
-    if (productId) {
-      productsApiService.delete(token, productId).catch(() => {});
-    }
+  test.afterEach(async ({ request }) => {
+    if (!created) return;
+
+    const headers = { Authorization: `Bearer ${token}` };
+
+    const safeDelete = async (url: string) => {
+      try {
+        await request.delete(url, {
+          headers,
+          failOnStatusCode: false,
+        });
+      } catch {
+        void 0;
+      }
+    };
+
+    if (orderId) await safeDelete(`/api/orders/${orderId}`);
+    if (customerId) await safeDelete(`/api/customers/${customerId}`);
+    if (productId) await safeDelete(`/api/products/${productId}`);
 
     orderId = null;
     customerId = null;
@@ -49,11 +60,13 @@ test.describe("[API] [Sales Portal] [Orders] [Delete]", () => {
       customerId = customer._id;
       productId = product._id;
 
-      const created = await ordersApiService.create(
+      const createdOrder = await ordersApiService.create(
         { customer: customer._id, products: [product._id] },
         token
       );
-      orderId = created._id;
+
+      orderId = createdOrder._id;
+      created = true; // ✅ важно
 
       const deleteResponse = await ordersController.delete(orderId, token);
 
@@ -70,7 +83,7 @@ test.describe("[API] [Sales Portal] [Orders] [Delete]", () => {
         ErrorMessage: `Order with id '${orderId}' wasn't found`,
       });
 
-      orderId = null;
+      orderId = null; // уже удалён
     }
   );
 
@@ -88,11 +101,13 @@ test.describe("[API] [Sales Portal] [Orders] [Delete]", () => {
       customerId = customer._id;
       productId = product._id;
 
-      const created = await ordersApiService.create(
+      const createdOrder = await ordersApiService.create(
         { customer: customer._id, products: [product._id] },
         token
       );
-      orderId = created._id;
+
+      orderId = createdOrder._id;
+      created = true; // ✅ заказ реально создан
 
       const response = await ordersController.delete(orderId, invalidToken);
 
@@ -119,11 +134,13 @@ test.describe("[API] [Sales Portal] [Orders] [Delete]", () => {
       customerId = customer._id;
       productId = product._id;
 
-      const created = await ordersApiService.create(
+      const createdOrder = await ordersApiService.create(
         { customer: customer._id, products: [product._id] },
         token
       );
-      orderId = created._id;
+
+      orderId = createdOrder._id;
+      created = true;
 
       const response = await ordersController.delete(orderId, emptyToken);
 
@@ -141,7 +158,6 @@ test.describe("[API] [Sales Portal] [Orders] [Delete]", () => {
     { tag: [TAGS.API, TAGS.REGRESSION] },
     async ({ loginApiService, ordersController }) => {
       const token = await loginApiService.loginAsAdmin();
-
       await expect(ordersController.delete("12345", token)).rejects.toThrow(/status 500/i);
     }
   );
@@ -189,6 +205,7 @@ test.describe("[API] [Sales Portal] [Orders] [Delete]", () => {
       });
 
       orderId = createResponse.body!.Order._id;
+      created = true;
       expect(orderId).toBeTruthy();
     }
   );

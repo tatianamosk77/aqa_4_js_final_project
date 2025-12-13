@@ -35,7 +35,7 @@ test.describe("[API] [Sales Portal] [Customers]", () => {
       expect(mockOrdersResponse.ErrorMessage).toBeNull();
 
       mockOrdersResponse.Orders.forEach(order => {
-        expect(order.customer).toBe(customerId);
+        expect(order.customer._id).toBe(customerId);
         expect(order).toHaveProperty("_id");
         expect(order).toHaveProperty("status");
         expect(order).toHaveProperty("products");
