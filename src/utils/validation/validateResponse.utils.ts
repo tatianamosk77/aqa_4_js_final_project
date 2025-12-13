@@ -1,6 +1,6 @@
-import { expect } from '@playwright/test';
-import { IResponse, IResponseFields } from 'data/types/core.types';
-import { validateJsonSchema } from './validateSchema.utils';
+import { expect } from "@playwright/test";
+import { IResponse, IResponseFields } from "data/types/core.types";
+import { validateJsonSchema } from "./validateSchema.utils";
 
 export function validateResponse<T extends IResponseFields | null>(
   response: IResponse<T>,
@@ -29,7 +29,7 @@ export function validateResponse<T extends IResponseFields | null>(
   }
 
   // Ensure body is an object (not array, string, number, etc.)
-  if (typeof response.body !== 'object' || Array.isArray(response.body)) {
+  if (typeof response.body !== "object" || Array.isArray(response.body)) {
     expect
       .soft(
         false,

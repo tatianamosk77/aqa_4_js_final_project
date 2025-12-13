@@ -1,12 +1,12 @@
-import { TAGS } from 'data/tags';
-import { ICustomer } from 'data/types/customer.types';
-import { expect, test } from 'fixtures/business.fixture';
+import { TAGS } from "data/tags";
+import { ICustomer } from "data/types/customer.types";
+import { expect, test } from "fixtures/business.fixture";
 
-test.describe('[Sales Portal] [Customers]', () => {
-  let id = '';
-  let token = '';
+test.describe("[Sales Portal] [Customers]", () => {
+  let id = "";
+  let token = "";
 
-  const fields = ['name', 'email', 'country'] as (keyof ICustomer)[];
+  const fields = ["name", "email", "country"] as (keyof ICustomer)[];
   for (const field of fields) {
     test(
       `Search by ${field} field`,
@@ -28,9 +28,9 @@ test.describe('[Sales Portal] [Customers]', () => {
 
   test.afterEach(async ({ customersApiService }) => {
     if (id) await customersApiService.delete(token, id);
-    id = '';
+    id = "";
   });
-  test.skip('Search by name', async ({
+  test.skip("Search by name", async ({
     loginUIService,
     customersApiService,
     customersListUIService,
@@ -43,7 +43,7 @@ test.describe('[Sales Portal] [Customers]', () => {
     await expect(customersListPage.tableRowByName(customer.name)).toBeVisible();
   });
 
-  test.skip('Search by email', async ({
+  test.skip("Search by email", async ({
     loginUIService,
     customersApiService,
     customersListUIService,
@@ -56,7 +56,7 @@ test.describe('[Sales Portal] [Customers]', () => {
     await expect(customersListPage.tableRowByName(customer.email)).toBeVisible();
   });
 
-  test.skip('Search by country', async ({
+  test.skip("Search by country", async ({
     loginUIService,
     customersApiService,
     customersListUIService,

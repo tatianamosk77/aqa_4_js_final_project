@@ -16,9 +16,12 @@ export class ProductsListPage extends SalesPortalPage {
   readonly tableRowByName = (productName: string) =>
     this.page.locator("table tbody tr", { has: this.page.locator("td", { hasText: productName }) });
   readonly tableRowByIndex = (index: number) => this.page.locator("table tbody tr").nth(index);
-  readonly nameCell = (productName: string) => this.tableRowByName(productName).locator("td").nth(0);
-  readonly priceCell = (productName: string) => this.tableRowByName(productName).locator("td").nth(1);
-  readonly manufacturerCell = (productName: string) => this.tableRowByName(productName).locator("td").nth(2);
+  readonly nameCell = (productName: string) =>
+    this.tableRowByName(productName).locator("td").nth(0);
+  readonly priceCell = (productName: string) =>
+    this.tableRowByName(productName).locator("td").nth(1);
+  readonly manufacturerCell = (productName: string) =>
+    this.tableRowByName(productName).locator("td").nth(2);
   // readonly createdOnCell = (productName: string) => this.tableRowByName(productName).locator("td").nth(3);
   readonly createdOnCell = (nameOrIndex: string | number) =>
     typeof nameOrIndex === "string"
@@ -26,16 +29,23 @@ export class ProductsListPage extends SalesPortalPage {
       : this.tableRowByIndex(nameOrIndex).locator("td").nth(3);
   readonly tableHeader = this.page.locator("thead th div[current]");
   // readonly nameHeader = this.tableHeader.nth(0);
-  readonly tableHeaderNamed = (name: ProductsTableHeader) => this.tableHeader.filter({ hasText: name });
+  readonly tableHeaderNamed = (name: ProductsTableHeader) =>
+    this.tableHeader.filter({ hasText: name });
 
-  readonly tableHeaderArrow = (name: ProductsTableHeader, { direction }: { direction: "asc" | "desc" }) =>
+  readonly tableHeaderArrow = (
+    name: ProductsTableHeader,
+    { direction }: { direction: "asc" | "desc" }
+  ) =>
     this.page
       .locator("thead th", { has: this.page.locator("div[current]", { hasText: name }) })
       .locator(`i.${direction === "asc" ? "bi-arrow-down" : "bi-arrow-up"}`);
 
-  readonly editButton = (productName: string) => this.tableRowByName(productName).getByTitle("Edit");
-  readonly detailsButton = (productName: string) => this.tableRowByName(productName).getByTitle("Details");
-  readonly deleteButton = (productName: string) => this.tableRowByName(productName).getByTitle("Delete");
+  readonly editButton = (productName: string) =>
+    this.tableRowByName(productName).getByTitle("Edit");
+  readonly detailsButton = (productName: string) =>
+    this.tableRowByName(productName).getByTitle("Details");
+  readonly deleteButton = (productName: string) =>
+    this.tableRowByName(productName).getByTitle("Delete");
 
   readonly searchInput = this.page.locator("#search");
   readonly searchButton = this.page.locator("#search-products");
@@ -72,7 +82,9 @@ export class ProductsListPage extends SalesPortalPage {
     // };
 
     //variant 3
-    const [name, price, manufacturer, createdOn] = await this.tableRowByName(productName).locator("td").allInnerTexts();
+    const [name, price, manufacturer, createdOn] = await this.tableRowByName(productName)
+      .locator("td")
+      .allInnerTexts();
     return {
       name: name!,
       price: +price!.replace("$", ""),

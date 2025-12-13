@@ -1,3 +1,10 @@
+import { IResponseFields, SortOrder } from "data/types/core.types";
+import { IProduct } from "./product.types";
+import { ORDER_STATUS } from "data/orders/statuses.data";
+import { COUNTRIES } from "data/salesPortal/customers/countries";
+import { DELIVERY, LOCATION } from "data/orders/delivery.data";
+import { ICustomerFromResponse } from "./customer.types";
+
 export interface IOrderProduct {
   _id: string;
   name: string;
@@ -9,7 +16,9 @@ export interface IOrderProduct {
 }
 
 export interface IOrderDelivery {
-  [key: string]: any; // временно
+  finalDate: string;
+  condition: DELIVERY;
+  address: IAddress;
 }
 
 export interface IOrderHistoryItem {
@@ -21,7 +30,7 @@ export interface IOrderHistoryItem {
   changedOn: string;
   action: string;
   performer: IHistoryPerformer;
-  assignedManager: string | null;
+  assignedManager: IAssignedManager | string | null; // ⬅ было string | null
 }
 
 export interface IHistoryPerformer {
@@ -38,12 +47,31 @@ export interface IAssignedManager {
   username: string;
   firstName: string;
   lastName: string;
+  createdOn: string; // ⬅ добавлено, т.к. приходит в ответе
+}
+
+export interface IOrderData {
+  customer: string;
+  products: string[];
+}
+
+export interface IOrderDataWithId extends IOrderData {
+  _id: string;
+}
+
+export interface IOrderData {
+  customer: string;
+  products: string[];
+}
+
+export interface IOrderDataWithId extends IOrderData {
+  _id: string;
 }
 
 export interface IOrder {
   _id: string;
   status: string;
-  customer: string;
+  customer: ICustomerFromResponse;
   products: IOrderProduct[];
   delivery: IOrderDelivery | null;
   total_price: number;
@@ -51,4 +79,54 @@ export interface IOrder {
   comments: any[];
   history: IOrderHistoryItem[];
   assignedManager: IAssignedManager | string | null;
+}
+
+export interface IOrderFromResponse extends IOrder {
+  readonly _id: string;
+}
+
+export interface IProductFromOrder extends IProduct {
+  _id: string;
+  received: boolean;
+}
+
+export interface IAddress {
+  location?: LOCATION;
+  country?: COUNTRIES;
+  city?: string;
+  street?: string;
+  house?: number;
+  flat?: number;
+}
+
+export type OrdersSortField = "createdOn" | "status" | "total_price" | "customer";
+
+export interface IOrderFilteredResponse extends IResponseFields {
+  Orders: IOrderFromResponse[];
+  total: number;
+  page: number;
+  limit: number;
+  search: string;
+  status: ORDER_STATUS[];
+  sorting: {
+    sortField: OrdersSortField;
+    sortOrder: SortOrder;
+  };
+}
+
+export interface IOrderRequestParams extends Record<
+  string,
+  string | number | string[] | undefined
+> {
+  page?: number;
+  limit?: number;
+  search?: string;
+  status?: ORDER_STATUS | ORDER_STATUS[];
+  sortField?: OrdersSortField;
+  sortOrder?: SortOrder;
+  managerIds?: string[];
+}
+
+export interface IOrderResponse extends IResponseFields {
+  Order: IOrderFromResponse;
 }

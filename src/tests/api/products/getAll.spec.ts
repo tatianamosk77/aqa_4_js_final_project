@@ -20,12 +20,15 @@ test.describe("[API] [Sales Portal] [Products]", () => {
       if (product?._id) {
         try {
           await productsApiService.delete(token, product._id);
-        } catch {}
+        } catch {
+          // ignore cleanup errors
+        }
       }
     });
 
     test.describe("Positive", () => {
-      test("Should get all products successfully",
+      test(
+        "Should get all products successfully",
         { tag: [TAGS.API, TAGS.PRODUCTS, TAGS.SMOKE, TAGS.REGRESSION] },
         async ({ productsApi }) => {
           const response = await productsApi.getAll(token);
@@ -44,7 +47,8 @@ test.describe("[API] [Sales Portal] [Products]", () => {
     });
 
     test.describe("Negative", () => {
-      test("Should NOT get all products with empty token",
+      test(
+        "Should NOT get all products with empty token",
         { tag: [TAGS.API, TAGS.PRODUCTS, TAGS.REGRESSION] },
         async ({ productsApi }) => {
           const emptyToken = "";
@@ -58,7 +62,8 @@ test.describe("[API] [Sales Portal] [Products]", () => {
         }
       );
 
-      test("Should NOT get all products with invalid token",
+      test(
+        "Should NOT get all products with invalid token",
         { tag: [TAGS.API, TAGS.PRODUCTS, TAGS.REGRESSION] },
         async ({ productsApi }) => {
           const invalidToken = "Invalid access token";

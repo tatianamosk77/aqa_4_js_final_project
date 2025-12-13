@@ -1,38 +1,38 @@
-import { SalesPortalPage } from '../sales-portal.page';
-import { logStep } from 'utils/report/logStep.utils';
-import { COUNTRIES } from 'data/salesPortal/customers/countries';
-import { ICustomerDetails } from 'data/types/customer.types';
+import { SalesPortalPage } from "../sales-portal.page";
+import { logStep } from "utils/report/logStep.utils";
+import { COUNTRIES } from "data/salesPortal/customers/countries";
+import { ICustomerDetails } from "data/types/customer.types";
 
 export class CustomerDetailsPage extends SalesPortalPage {
-  readonly uniqueElement = this.page.locator('#customer-info-container');
+  readonly uniqueElement = this.page.locator("#customer-info-container");
 
-  readonly title = this.uniqueElement.locator('h3');
-  readonly editButton = this.uniqueElement.locator('#edit-customer-pencil');
-  readonly backButton = this.uniqueElement.locator('.back-link');
-  readonly emailValue = this.uniqueElement.locator('#customer-email');
-  readonly nameValue = this.uniqueElement.locator('#customer-name');
-  readonly phoneValue = this.uniqueElement.locator('#customer-phone');
-  readonly countryValue = this.uniqueElement.locator('#customer-country');
-  readonly cityValue = this.uniqueElement.locator('#customer-city');
-  readonly streetValue = this.uniqueElement.locator('#customer-street');
-  readonly houseValue = this.uniqueElement.locator('#customer-house');
-  readonly flatValue = this.uniqueElement.locator('#customer-flat');
-  readonly createdOnValue = this.uniqueElement.locator('#customer-created-on');
-  readonly notesValue = this.uniqueElement.locator('#customer-notes');
+  readonly title = this.uniqueElement.locator("h3");
+  readonly editButton = this.uniqueElement.locator("#edit-customer-pencil");
+  readonly backButton = this.uniqueElement.locator(".back-link");
+  readonly emailValue = this.uniqueElement.locator("#customer-email");
+  readonly nameValue = this.uniqueElement.locator("#customer-name");
+  readonly phoneValue = this.uniqueElement.locator("#customer-phone");
+  readonly countryValue = this.uniqueElement.locator("#customer-country");
+  readonly cityValue = this.uniqueElement.locator("#customer-city");
+  readonly streetValue = this.uniqueElement.locator("#customer-street");
+  readonly houseValue = this.uniqueElement.locator("#customer-house");
+  readonly flatValue = this.uniqueElement.locator("#customer-flat");
+  readonly createdOnValue = this.uniqueElement.locator("#customer-created-on");
+  readonly notesValue = this.uniqueElement.locator("#customer-notes");
 
-  readonly customerValue = this.uniqueElement.locator('p');
+  readonly customerValue = this.uniqueElement.locator("p");
 
-  @logStep('Click edit button on CustomersDetailsModal')
+  @logStep("Click edit button on CustomersDetailsModal")
   async clickEdit() {
     await this.editButton.click();
   }
 
-  @logStep('Click back button `Customers` on CustomersDetailsModal')
+  @logStep("Click back button `Customers` on CustomersDetailsModal")
   async clickBack() {
     await this.backButton.click();
   }
 
-  @logStep('Get data from CustomerDetailsModal')
+  @logStep("Get data from CustomerDetailsModal")
   async getData(): Promise<ICustomerDetails> {
     // const [email, name, country, city, street, house, flat, phone, notes, createdOn] = await this.customerValue.allInnerTexts();
     const email = await this.emailValue.innerText();
@@ -56,7 +56,7 @@ export class CustomerDetailsPage extends SalesPortalPage {
       flat: +flat!,
       phone: phone!,
       createdOn: createdOn!,
-      notes: notes === '-' ? '' : notes!,
+      notes: notes === "-" ? "" : notes!,
     };
   }
 }

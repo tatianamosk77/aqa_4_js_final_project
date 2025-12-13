@@ -24,12 +24,15 @@ test.describe("[API] [Sales Portal] [Products]", () => {
       if (productId) {
         try {
           await productsApiService.delete(token, productId);
-        } catch {}
+        } catch {
+          // ignore cleanup errors
+        }
       }
     });
 
     test.describe("Positive", () => {
-      test("Should update product successfully",
+      test(
+        "Should update product successfully",
         { tag: [TAGS.API, TAGS.PRODUCTS, TAGS.SMOKE, TAGS.REGRESSION] },
         async ({ productsApi }) => {
           const updateProductData = generateProductData();
@@ -49,7 +52,8 @@ test.describe("[API] [Sales Portal] [Products]", () => {
     });
 
     test.describe("Negative", () => {
-      test("Should NOT update product with empty token",
+      test(
+        "Should NOT update product with empty token",
         { tag: [TAGS.API, TAGS.PRODUCTS, TAGS.REGRESSION] },
         async ({ productsApi }) => {
           const emptyToken = "";
@@ -64,7 +68,8 @@ test.describe("[API] [Sales Portal] [Products]", () => {
         }
       );
 
-      test("Should NOT update product with invalid token",
+      test(
+        "Should NOT update product with invalid token",
         { tag: [TAGS.API, TAGS.PRODUCTS, TAGS.REGRESSION] },
         async ({ productsApi }) => {
           const invalidToken = "Invalid Token";
@@ -79,7 +84,8 @@ test.describe("[API] [Sales Portal] [Products]", () => {
         }
       );
 
-      test("Should NOT update product with duplicate name",
+      test(
+        "Should NOT update product with duplicate name",
         { tag: [TAGS.API, TAGS.PRODUCTS, TAGS.REGRESSION] },
         async ({ productsApi, productsApiService }) => {
           const firstProduct = await productsApiService.create(token, generateProductData());
@@ -89,7 +95,11 @@ test.describe("[API] [Sales Portal] [Products]", () => {
             name: firstProduct.name,
           };
 
-          const duplicateResponse = await productsApi.update(productId, duplicateProductData, token);
+          const duplicateResponse = await productsApi.update(
+            productId,
+            duplicateProductData,
+            token
+          );
 
           validateResponse(duplicateResponse, {
             status: STATUS_CODES.CONFLICT,
@@ -102,7 +112,8 @@ test.describe("[API] [Sales Portal] [Products]", () => {
         }
       );
 
-      test("Should NOT update non-existent product",
+      test(
+        "Should NOT update non-existent product",
         { tag: [TAGS.API, TAGS.PRODUCTS, TAGS.REGRESSION] },
         async ({ productsApi, productsApiService }) => {
           const testProduct = await productsApiService.create(token, generateProductData());

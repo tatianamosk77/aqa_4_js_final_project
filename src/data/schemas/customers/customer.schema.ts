@@ -1,52 +1,52 @@
-import { COUNTRIES } from 'data/salesPortal/customers/countries';
+import { COUNTRIES } from "data/salesPortal/customers/countries";
 
 export const customerSchema = {
-  type: 'object',
+  type: "object",
   properties: {
-    _id: { type: 'string' },
+    _id: { type: "string" },
     email: {
-      type: 'string',
+      type: "string",
     },
     name: {
-      type: 'string',
+      type: "string",
     },
     country: {
-      type: 'string',
+      type: "string",
       enum: Object.values(COUNTRIES),
     },
     city: {
-      type: 'string',
+      type: "string",
     },
     street: {
-      type: 'string',
+      type: "string",
     },
     house: {
-      type: 'number',
+      type: "number",
     },
     flat: {
-      type: 'number',
+      type: "number",
     },
     phone: {
-      type: 'string',
+      type: "string",
     },
     createdOn: {
-      type: 'string',
+      type: "string",
     },
     notes: {
-      type: 'string',
+      type: "string",
     },
   },
   required: [
-    '_id',
-    'email',
-    'name',
-    'city',
-    'street',
-    'house',
-    'flat',
-    'country',
-    'phone',
-    'createdOn',
+    "_id",
+    "email",
+    "name",
+    "city",
+    "street",
+    "house",
+    "flat",
+    "country",
+    "phone",
+    "createdOn",
   ],
   additionalProperties: false,
 };

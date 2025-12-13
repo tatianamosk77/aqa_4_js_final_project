@@ -1,7 +1,7 @@
-import { APIRequestContext, APIResponse, test } from '@playwright/test';
-import { IRequestOptions, IResponse } from 'data/types/core.types';
-import { BaseApiClient } from './baseApiClient';
-import _ from 'lodash';
+import { APIRequestContext, APIResponse, test } from "@playwright/test";
+import { IRequestOptions, IResponse } from "data/types/core.types";
+import { BaseApiClient } from "./baseApiClient";
+import _ from "lodash";
 export class RequestApi extends BaseApiClient {
   constructor(private requestContext: APIRequestContext) {
     super();
@@ -13,14 +13,14 @@ export class RequestApi extends BaseApiClient {
   async send<T extends object | null>(options: IRequestOptions): Promise<IResponse<T>> {
     try {
       const url = options.baseURL + options.url;
-      const fetchOptions = _.omit(options, ['baseURL', 'url']);
+      const fetchOptions = _.omit(options, ["baseURL", "url"]);
 
       await this.attachRequest(options);
 
       this.response = await this.requestContext.fetch(url, fetchOptions);
 
       if (this.response.status() >= 500)
-        throw new Error('Request failed with status ' + this.response.status());
+        throw new Error("Request failed with status " + this.response.status());
       const result = await this.transformResponse();
 
       await this.attachResponse(options, result);
@@ -34,7 +34,7 @@ export class RequestApi extends BaseApiClient {
 
   protected async transformResponse() {
     let body: object | null = null;
-    const contentType = this.response!.headers()['content-type'] || '';
+    const contentType = this.response!.headers()["content-type"] || "";
     const status = this.response!.status();
 
     // For 204 No Content, always return null
@@ -50,7 +50,7 @@ export class RequestApi extends BaseApiClient {
     let responseText: string;
     try {
       responseText = await this.response!.text();
-    } catch (error) {
+    } catch {
       // If we can't read the response, return null
       return {
         status,
@@ -60,7 +60,7 @@ export class RequestApi extends BaseApiClient {
     }
 
     // If response is empty, return null
-    if (!responseText || responseText.trim() === '') {
+    if (!responseText || responseText.trim() === "") {
       return {
         status,
         body: null,
@@ -69,11 +69,11 @@ export class RequestApi extends BaseApiClient {
     }
 
     // Try to parse as JSON if content-type suggests JSON
-    if (contentType.includes('application/json')) {
+    if (contentType.includes("application/json")) {
       try {
         const parsed = JSON.parse(responseText);
         // Ensure body is an object (not array, string, number, etc.)
-        if (parsed !== null && typeof parsed === 'object' && !Array.isArray(parsed)) {
+        if (parsed !== null && typeof parsed === "object" && !Array.isArray(parsed)) {
           body = parsed;
         } else if (parsed === null) {
           body = null;
@@ -81,7 +81,7 @@ export class RequestApi extends BaseApiClient {
           // If parsed value is not an object, return null
           body = null;
         }
-      } catch (error) {
+      } catch {
         // If JSON parsing fails, return null
         body = null;
       }
@@ -107,7 +107,7 @@ export class RequestApi extends BaseApiClient {
         null,
         2
       ),
-      contentType: 'application/json',
+      contentType: "application/json",
     });
   }
 
@@ -126,7 +126,7 @@ export class RequestApi extends BaseApiClient {
           null,
           2
         ),
-        contentType: 'application/json',
+        contentType: "application/json",
       }
     );
   }

@@ -1,6 +1,6 @@
-import { expect } from '@playwright/test';
-import Ajv, { AnySchema } from 'ajv';
-import addFormats from 'ajv-formats';
+import { expect } from "@playwright/test";
+import Ajv, { AnySchema } from "ajv";
+import addFormats from "ajv-formats";
 
 //export function validateJsonSchema(body: object, schema: object) {
 
@@ -21,9 +21,9 @@ export function validateJsonSchema(schema: Record<string, unknown>, body: unknow
     .toBe(true);
 
   if (isValid) {
-    console.log('Data is valid according to the schema.');
+    console.log("Data is valid according to the schema.");
   } else {
-    console.log('Data is not valid according to the schema.');
+    console.log("Data is not valid according to the schema.");
     console.log(validate.errors);
   }
 }
