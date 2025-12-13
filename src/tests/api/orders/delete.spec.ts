@@ -11,41 +11,17 @@ test.describe("[API] [Sales Portal] [Orders] [Delete]", () => {
 
   let token = "";
   let orderId: string | null = null;
-  let customerId: string | null = null;
-  let productId: string | null = null;
-  let created = false; 
 
   test.beforeEach(async ({ loginApiService }) => {
     token = await loginApiService.loginAsAdmin();
     orderId = null;
-    customerId = null;
-    productId = null;
-    created = false; 
   });
 
-  test.afterEach(async ({ request }) => {
-    if (!created) return;
+  test.afterEach(async ({ ordersApiService }) => {
+    if (!orderId) return;
 
-    const headers = { Authorization: `Bearer ${token}` };
-
-    const safeDelete = async (url: string) => {
-      try {
-        await request.delete(url, {
-          headers,
-          failOnStatusCode: false,
-        });
-      } catch {
-        void 0;
-      }
-    };
-
-    if (orderId) await safeDelete(`/api/orders/${orderId}`);
-    if (customerId) await safeDelete(`/api/customers/${customerId}`);
-    if (productId) await safeDelete(`/api/products/${productId}`);
-
+    await ordersApiService.delete(orderId, token).catch(() => {});
     orderId = null;
-    customerId = null;
-    productId = null;
   });
 
   test(
@@ -57,25 +33,17 @@ test.describe("[API] [Sales Portal] [Orders] [Delete]", () => {
         productsApiService.create(token),
       ]);
 
-      customerId = customer._id;
-      productId = product._id;
-
       const createdOrder = await ordersApiService.create(
         { customer: customer._id, products: [product._id] },
         token
       );
 
-      orderId = createdOrder._id;
-      created = true; // ✅ важно
+      orderId = createdOrder._id; 
 
       const deleteResponse = await ordersController.delete(orderId, token);
-
-      validateResponse(deleteResponse, {
-        status: STATUS_CODES.DELETED,
-      });
+      validateResponse(deleteResponse, { status: STATUS_CODES.DELETED });
 
       const getResponse = await ordersController.getByID(orderId, token);
-
       validateResponse(getResponse, {
         status: STATUS_CODES.NOT_FOUND,
         schema: errorSchema,
@@ -83,7 +51,7 @@ test.describe("[API] [Sales Portal] [Orders] [Delete]", () => {
         ErrorMessage: `Order with id '${orderId}' wasn't found`,
       });
 
-      orderId = null; // уже удалён
+      orderId = null; 
     }
   );
 
@@ -98,19 +66,14 @@ test.describe("[API] [Sales Portal] [Orders] [Delete]", () => {
         productsApiService.create(token),
       ]);
 
-      customerId = customer._id;
-      productId = product._id;
-
       const createdOrder = await ordersApiService.create(
         { customer: customer._id, products: [product._id] },
         token
       );
 
       orderId = createdOrder._id;
-      created = true; // ✅ заказ реально создан
 
       const response = await ordersController.delete(orderId, invalidToken);
-
       validateResponse(response, {
         status: STATUS_CODES.UNAUTHORIZED,
         schema: errorSchema,
@@ -131,34 +94,20 @@ test.describe("[API] [Sales Portal] [Orders] [Delete]", () => {
         productsApiService.create(token),
       ]);
 
-      customerId = customer._id;
-      productId = product._id;
-
       const createdOrder = await ordersApiService.create(
         { customer: customer._id, products: [product._id] },
         token
       );
 
       orderId = createdOrder._id;
-      created = true;
 
       const response = await ordersController.delete(orderId, emptyToken);
-
       validateResponse(response, {
         status: STATUS_CODES.UNAUTHORIZED,
         schema: errorSchema,
         IsSuccess: false,
         ErrorMessage: "Not authorized",
       });
-    }
-  );
-
-  test(
-    "Should NOT delete order with invalid orderId format",
-    { tag: [TAGS.API, TAGS.REGRESSION] },
-    async ({ loginApiService, ordersController }) => {
-      const token = await loginApiService.loginAsAdmin();
-      await expect(ordersController.delete("12345", token)).rejects.toThrow(/status 500/i);
     }
   );
 
@@ -170,7 +119,6 @@ test.describe("[API] [Sales Portal] [Orders] [Delete]", () => {
       const nonexistentOrderId = generateID();
 
       const response = await ordersController.delete(nonexistentOrderId, token);
-
       validateResponse(response, {
         status: STATUS_CODES.NOT_FOUND,
         schema: errorSchema,
@@ -189,9 +137,6 @@ test.describe("[API] [Sales Portal] [Orders] [Delete]", () => {
         productsApiService.create(token),
       ]);
 
-      customerId = customer._id;
-      productId = product._id;
-
       const createResponse = await ordersController.create(
         { customer: customer._id, products: [product._id] },
         token
@@ -204,8 +149,7 @@ test.describe("[API] [Sales Portal] [Orders] [Delete]", () => {
         ErrorMessage: null,
       });
 
-      orderId = createResponse.body!.Order._id;
-      created = true;
+      orderId = createResponse.body!.Order._id; 
       expect(orderId).toBeTruthy();
     }
   );

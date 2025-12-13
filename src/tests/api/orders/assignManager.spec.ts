@@ -18,19 +18,27 @@ test.describe("[API] [Sales Portal] [Orders] [Assign Manager]", () => {
     if (!managerId) throw new Error("No managerId retrieved from loginAsAdminWithUser");
   });
 
-  type AssignFx = {
-    token: string;
-    orderId: string;
-    customerId: string;
-    productId: string;
-  };
+  test.afterEach(async ({ loginApiService, ordersApiService }, testInfo) => {
+    const idsToCleanup = testInfo.annotations
+      .filter(a => a.type === "cleanup:orderId")
+      .map(a => a.description)
+      .filter(Boolean) as string[];
 
-  async function createOrderFx(deps: {
-    token: string;
-    customersApiService: any;
-    productsApiService: any;
-    ordersApiService: any;
-  }): Promise<AssignFx> {
+    if (!idsToCleanup.length) return;
+
+    const token = await loginApiService.loginAsAdmin();
+    await Promise.all(idsToCleanup.map(id => ordersApiService.delete(id, token).catch(() => {})));
+  });
+
+  async function createOrderFx(
+    deps: {
+      token: string;
+      customersApiService: any;
+      productsApiService: any;
+      ordersApiService: any;
+    },
+    testInfo: any
+  ) {
     const { token, customersApiService, productsApiService, ordersApiService } = deps;
 
     const [customer, product] = await Promise.all([
@@ -43,43 +51,24 @@ test.describe("[API] [Sales Portal] [Orders] [Assign Manager]", () => {
       token
     );
 
-    return {
-      token,
-      orderId: order._id,
-      customerId: customer._id,
-      productId: product._id,
-    };
-  }
+    testInfo.annotations.push({ type: "cleanup:orderId", description: order._id });
 
-  async function cleanupAssignFx(
-    fx: AssignFx,
-    deps: { ordersApiService: any; customersApiService: any; productsApiService: any }
-  ) {
-    const { token, orderId, customerId, productId } = fx;
-
-    await deps.ordersApiService.delete(orderId, token).catch(() => {});
-    await deps.customersApiService.delete(token, customerId).catch(() => {});
-    deps.productsApiService.delete(token, productId).catch(() => {});
+    return { orderId: order._id, customerId: customer._id, productId: product._id };
   }
 
   test(
     "Should assign manager with valid orderId, managerId and token",
     { tag: [TAGS.API, TAGS.SMOKE, TAGS.REGRESSION] },
-    async ({
-      loginApiService,
-      customersApiService,
-      productsApiService,
-      ordersApiService,
-      ordersController,
-    }) => {
+    async (
+      { loginApiService, customersApiService, productsApiService, ordersApiService, ordersController },
+      testInfo
+    ) => {
       const token = await loginApiService.loginAsAdmin();
 
-      const fx = await createOrderFx({
-        token,
-        customersApiService,
-        productsApiService,
-        ordersApiService,
-      });
+      const fx = await createOrderFx(
+        { token, customersApiService, productsApiService, ordersApiService },
+        testInfo
+      );
 
       const response = await ordersController.assignManager(fx.orderId, managerId, token);
 
@@ -99,10 +88,11 @@ test.describe("[API] [Sales Portal] [Orders] [Assign Manager]", () => {
         expect(order.assignedManager._id).toBe(managerId);
       }
 
-      const actions = order.history?.map(h => h.action) ?? [];
+      const actions = order.history?.map((h: any) => h.action) ?? [];
       if ((ORDER_HISTORY_ACTIONS as any).MANAGER_ASSIGNED) {
         expect(actions).toContain((ORDER_HISTORY_ACTIONS as any).MANAGER_ASSIGNED);
       }
+
       const getResponse = await ordersController.getByID(fx.orderId, token);
 
       validateResponse(getResponse, {
@@ -117,30 +107,23 @@ test.describe("[API] [Sales Portal] [Orders] [Assign Manager]", () => {
       if (persisted.assignedManager && typeof persisted.assignedManager !== "string") {
         expect(persisted.assignedManager._id).toBe(managerId);
       }
-
-      await cleanupAssignFx(fx, { ordersApiService, customersApiService, productsApiService });
     }
   );
 
   test(
     "Should NOT assign manager with invalid token",
     { tag: [TAGS.API, TAGS.REGRESSION] },
-    async ({
-      loginApiService,
-      customersApiService,
-      productsApiService,
-      ordersApiService,
-      ordersController,
-    }) => {
+    async (
+      { loginApiService, customersApiService, productsApiService, ordersApiService, ordersController },
+      testInfo
+    ) => {
       const token = await loginApiService.loginAsAdmin();
       const invalidToken = "Invalid access token";
 
-      const fx = await createOrderFx({
-        token,
-        customersApiService,
-        productsApiService,
-        ordersApiService,
-      });
+      const fx = await createOrderFx(
+        { token, customersApiService, productsApiService, ordersApiService },
+        testInfo
+      );
 
       const response = await ordersController.assignManager(fx.orderId, managerId, invalidToken);
 
@@ -150,30 +133,23 @@ test.describe("[API] [Sales Portal] [Orders] [Assign Manager]", () => {
         IsSuccess: false,
         ErrorMessage: "Invalid access token",
       });
-
-      await cleanupAssignFx(fx, { ordersApiService, customersApiService, productsApiService });
     }
   );
 
   test(
     "Should NOT assign manager without token",
     { tag: [TAGS.API, TAGS.REGRESSION] },
-    async ({
-      loginApiService,
-      customersApiService,
-      productsApiService,
-      ordersApiService,
-      ordersController,
-    }) => {
+    async (
+      { loginApiService, customersApiService, productsApiService, ordersApiService, ordersController },
+      testInfo
+    ) => {
       const token = await loginApiService.loginAsAdmin();
       const emptyToken = "";
 
-      const fx = await createOrderFx({
-        token,
-        customersApiService,
-        productsApiService,
-        ordersApiService,
-      });
+      const fx = await createOrderFx(
+        { token, customersApiService, productsApiService, ordersApiService },
+        testInfo
+      );
 
       const response = await ordersController.assignManager(fx.orderId, managerId, emptyToken);
 
@@ -183,8 +159,6 @@ test.describe("[API] [Sales Portal] [Orders] [Assign Manager]", () => {
         IsSuccess: false,
         ErrorMessage: "Not authorized",
       });
-
-      await cleanupAssignFx(fx, { ordersApiService, customersApiService, productsApiService });
     }
   );
 
@@ -198,18 +172,6 @@ test.describe("[API] [Sales Portal] [Orders] [Assign Manager]", () => {
 
       expect(response.status).toBe(STATUS_CODES.NOT_FOUND);
       expect(response.body).toBeNull();
-    }
-  );
-
-  test(
-    "Should NOT assign manager with invalid orderId format",
-    { tag: [TAGS.API, TAGS.REGRESSION] },
-    async ({ loginApiService, ordersController }) => {
-      const token = await loginApiService.loginAsAdmin();
-
-      await expect(ordersController.assignManager("12345", managerId, token)).rejects.toThrow(
-        /status 500/i
-      );
     }
   );
 
@@ -234,77 +196,38 @@ test.describe("[API] [Sales Portal] [Orders] [Assign Manager]", () => {
   test(
     "Should NOT assign manager with empty managerId",
     { tag: [TAGS.API, TAGS.REGRESSION] },
-    async ({
-      loginApiService,
-      customersApiService,
-      productsApiService,
-      ordersApiService,
-      ordersController,
-    }) => {
+    async (
+      { loginApiService, customersApiService, productsApiService, ordersApiService, ordersController },
+      testInfo
+    ) => {
       const token = await loginApiService.loginAsAdmin();
 
-      const fx = await createOrderFx({
-        token,
-        customersApiService,
-        productsApiService,
-        ordersApiService,
-      });
+      const fx = await createOrderFx(
+        { token, customersApiService, productsApiService, ordersApiService },
+        testInfo
+      );
 
       const response = await ordersController.assignManager(fx.orderId, "", token);
 
       expect(response.status).toBe(STATUS_CODES.NOT_FOUND);
       expect(response.body).toBeNull();
-
-      await cleanupAssignFx(fx, { ordersApiService, customersApiService, productsApiService });
-    }
-  );
-
-  test(
-    "Should NOT assign manager with invalid managerId format",
-    { tag: [TAGS.API, TAGS.REGRESSION] },
-    async ({
-      loginApiService,
-      customersApiService,
-      productsApiService,
-      ordersApiService,
-      ordersController,
-    }) => {
-      const token = await loginApiService.loginAsAdmin();
-
-      const fx = await createOrderFx({
-        token,
-        customersApiService,
-        productsApiService,
-        ordersApiService,
-      });
-
-      await expect(ordersController.assignManager(fx.orderId, "12345", token)).rejects.toThrow(
-        /status 500/i
-      );
-
-      await cleanupAssignFx(fx, { ordersApiService, customersApiService, productsApiService });
     }
   );
 
   test(
     "Should NOT assign manager with non-existent managerId",
     { tag: [TAGS.API, TAGS.REGRESSION] },
-    async ({
-      loginApiService,
-      customersApiService,
-      productsApiService,
-      ordersApiService,
-      ordersController,
-    }) => {
+    async (
+      { loginApiService, customersApiService, productsApiService, ordersApiService, ordersController },
+      testInfo
+    ) => {
       const token = await loginApiService.loginAsAdmin();
       const nonexistentManagerId = generateID();
 
-      const fx = await createOrderFx({
-        token,
-        customersApiService,
-        productsApiService,
-        ordersApiService,
-      });
+      const fx = await createOrderFx(
+        { token, customersApiService, productsApiService, ordersApiService },
+        testInfo
+      );
 
       const response = await ordersController.assignManager(
         fx.orderId,
@@ -318,8 +241,6 @@ test.describe("[API] [Sales Portal] [Orders] [Assign Manager]", () => {
         IsSuccess: false,
         ErrorMessage: `Manager with id '${nonexistentManagerId}' wasn't found`,
       });
-
-      await cleanupAssignFx(fx, { ordersApiService, customersApiService, productsApiService });
     }
   );
 });

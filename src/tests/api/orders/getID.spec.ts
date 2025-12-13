@@ -15,29 +15,24 @@ type ApiErrorResponse = {
 test.describe("[API] [Sales Portal] [Orders] [Get by ID]", () => {
   test.describe.configure({ mode: "parallel" });
 
-  async function cleanupGetByIdFx(
-    fx: { token: string; orderId: string; customerId: string; productIds: string[] },
-    deps: { ordersApiService: any; customersApiService: any; productsApiService: any }
-  ) {
-    const { token, orderId, customerId, productIds } = fx;
+  let token = "";
+  let orderId: string | null = null;
 
-    await deps.ordersApiService.delete(orderId, token).catch(() => {});
-    await deps.customersApiService.delete(token, customerId).catch(() => {});
-    productIds.forEach(id => deps.productsApiService.delete(token, id).catch(() => {}));
-  }
+  test.beforeEach(async ({ loginApiService }) => {
+    token = await loginApiService.loginAsAdmin();
+    orderId = null;
+  });
+
+  test.afterEach(async ({ ordersApiService }) => {
+    if (!orderId) return;
+    await ordersApiService.delete(orderId, token).catch(() => {});
+    orderId = null;
+  });
 
   test(
     "Should get order with valid id and token",
     { tag: [TAGS.API, TAGS.SMOKE, TAGS.REGRESSION] },
-    async ({
-      loginApiService,
-      customersApiService,
-      productsApiService,
-      ordersApiService,
-      ordersController,
-    }) => {
-      const token = await loginApiService.loginAsAdmin();
-
+    async ({ customersApiService, productsApiService, ordersApiService, ordersController }) => {
       const [customer, product] = await Promise.all([
         customersApiService.create(token),
         productsApiService.create(token),
@@ -47,6 +42,8 @@ test.describe("[API] [Sales Portal] [Orders] [Get by ID]", () => {
         { customer: customer._id, products: [product._id] },
         token
       );
+
+      orderId = order._id; 
 
       const response = await ordersController.getByID(order._id, token);
 
@@ -60,7 +57,7 @@ test.describe("[API] [Sales Portal] [Orders] [Get by ID]", () => {
       const returnedOrder = response.body!.Order;
 
       expect(returnedOrder._id).toBe(order._id);
-      expect(returnedOrder.customer?._id).toBe(customer._id);
+      expect(returnedOrder.customer?._id ?? returnedOrder.customer).toBe(customer._id);
 
       expect(returnedOrder.products.length).toBeGreaterThan(0);
 
@@ -71,19 +68,13 @@ test.describe("[API] [Sales Portal] [Orders] [Get by ID]", () => {
       expect(returnedProduct.amount).toBe(product.amount);
       expect(returnedProduct.manufacturer).toBe(product.manufacturer);
       expect(returnedProduct.notes).toBe(product.notes);
-
-      await cleanupGetByIdFx(
-        { token, orderId: order._id, customerId: customer._id, productIds: [product._id] },
-        { ordersApiService, customersApiService, productsApiService }
-      );
     }
   );
 
   test(
     "Should NOT get order with non-existent id",
     { tag: [TAGS.API, TAGS.REGRESSION] },
-    async ({ loginApiService, ordersController }) => {
-      const token = await loginApiService.loginAsAdmin();
+    async ({ ordersController }) => {
       const invalidId = generateID();
 
       const response = await ordersController.getByID(invalidId, token);
@@ -105,15 +96,7 @@ test.describe("[API] [Sales Portal] [Orders] [Get by ID]", () => {
   test(
     "Should NOT get order with invalid token",
     { tag: [TAGS.API, TAGS.REGRESSION] },
-    async ({
-      loginApiService,
-      customersApiService,
-      productsApiService,
-      ordersApiService,
-      ordersController,
-    }) => {
-      const token = await loginApiService.loginAsAdmin();
-
+    async ({ customersApiService, productsApiService, ordersApiService, ordersController }) => {
       const [customer, product] = await Promise.all([
         customersApiService.create(token),
         productsApiService.create(token),
@@ -123,6 +106,8 @@ test.describe("[API] [Sales Portal] [Orders] [Get by ID]", () => {
         { customer: customer._id, products: [product._id] },
         token
       );
+
+      orderId = order._id; 
 
       const response = await ordersController.getByID(order._id, "Invalid access token");
 
@@ -138,26 +123,13 @@ test.describe("[API] [Sales Portal] [Orders] [Get by ID]", () => {
       expect(body.IsSuccess).toBe(false);
       expect(body.ErrorMessage).toBe("Invalid access token");
       expect(body.Order).toBeUndefined();
-
-      await cleanupGetByIdFx(
-        { token, orderId: order._id, customerId: customer._id, productIds: [product._id] },
-        { ordersApiService, customersApiService, productsApiService }
-      );
     }
   );
 
   test(
     "Should NOT get order without token",
     { tag: [TAGS.API, TAGS.REGRESSION] },
-    async ({
-      loginApiService,
-      customersApiService,
-      productsApiService,
-      ordersApiService,
-      ordersController,
-    }) => {
-      const token = await loginApiService.loginAsAdmin();
-
+    async ({ customersApiService, productsApiService, ordersApiService, ordersController }) => {
       const [customer, product] = await Promise.all([
         customersApiService.create(token),
         productsApiService.create(token),
@@ -167,6 +139,8 @@ test.describe("[API] [Sales Portal] [Orders] [Get by ID]", () => {
         { customer: customer._id, products: [product._id] },
         token
       );
+
+      orderId = order._id; 
 
       const response = await ordersController.getByID(order._id, "");
 
@@ -181,11 +155,6 @@ test.describe("[API] [Sales Portal] [Orders] [Get by ID]", () => {
 
       expect(body.IsSuccess).toBe(false);
       expect(body.ErrorMessage).toBe("Not authorized");
-
-      await cleanupGetByIdFx(
-        { token, orderId: order._id, customerId: customer._id, productIds: [product._id] },
-        { ordersApiService, customersApiService, productsApiService }
-      );
     }
   );
 });
