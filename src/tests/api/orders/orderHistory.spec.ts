@@ -609,7 +609,6 @@ test.describe("[API] [Sales Portal] [Orders] [History]", () => {
       cleanupOrderFx(fx, { ordersApiService, customersApiService, productsApiService });
     }
   );
-
   test(
     "Should store a record if canceled",
     { tag: [TAGS.API, TAGS.REGRESSION] },
