@@ -11,32 +11,21 @@ test.describe("[API] [Sales Portal] [Orders] [Create]", () => {
   test.describe.configure({ mode: "parallel" });
 
   let token = "";
-
   let orderId: string | null = null;
-  let customerId: string | null = null;
-  let productIds: string[] = [];
-  let created = false; 
+  let orderCreated = false;
 
   test.beforeEach(async ({ loginApiService }) => {
     token = await loginApiService.loginAsAdmin();
     orderId = null;
-    customerId = null;
-    productIds = [];
-    created = false; 
+    orderCreated = false;
   });
-  
-test.afterEach(async ({ request }) => {
-  if (!orderId) return;
 
-  const headers = { Authorization: `Bearer ${token}` };
-
-  await Promise.allSettled([
-    request.delete(`/api/orders/${orderId}`, { headers, failOnStatusCode: false }),
-  ]);
-
-  orderId = null;
-});
-
+  test.afterEach(async ({ ordersApiService }) => {
+    if (!orderCreated || !orderId) return;
+    await ordersApiService.delete(orderId, token).catch(() => {});
+    orderId = null;
+    orderCreated = false;
+  });
 
   test(
     "Should create order with all valid data (token, valid customerId, productId) and one product",
@@ -47,23 +36,19 @@ test.afterEach(async ({ request }) => {
         productsApiService.create(token),
       ]);
 
-      customerId = createdCustomer._id;
-      productIds = [createdProduct._id];
-
-      created = true; 
-
       const order = await ordersApiService.create(
         { customer: createdCustomer._id, products: [createdProduct._id] },
         token
       );
 
       orderId = order._id;
+      orderCreated = true;
 
       expect(orderId).toBeTruthy();
       expect(order.customer?._id ?? order.customer).toBe(createdCustomer._id);
       expect(order.products.length).toBe(1);
 
-      const getResponse = await ordersController.getByID(orderId!, token);
+      const getResponse = await ordersController.getByID(orderId, token);
 
       validateResponse(getResponse, {
         status: STATUS_CODES.OK,
@@ -89,10 +74,7 @@ test.afterEach(async ({ request }) => {
         productsApiService.createBulk(5, token),
       ]);
 
-      customerId = createdCustomer._id;
-      productIds = extractIds(createdProducts);
-
-      created = true; // ✅ ресурсы созданы, нужно чистить
+      const productIds = extractIds(createdProducts);
 
       const order = await ordersApiService.create(
         { customer: createdCustomer._id, products: productIds },
@@ -100,11 +82,12 @@ test.afterEach(async ({ request }) => {
       );
 
       orderId = order._id;
+      orderCreated = true;
 
       expect(orderId).toBeTruthy();
       expect(order.products.length).toBe(5);
 
-      const getResponse = await ordersController.getByID(orderId!, token);
+      const getResponse = await ordersController.getByID(orderId, token);
 
       validateResponse(getResponse, {
         status: STATUS_CODES.OK,
@@ -132,10 +115,7 @@ test.afterEach(async ({ request }) => {
         productsApiService.createBulk(6, token),
       ]);
 
-      customerId = createdCustomer._id;
-      productIds = extractIds(createdProducts);
-
-      created = true; // ✅ customer/products созданы — надо удалить, хоть order и не создался
+      const productIds = extractIds(createdProducts);
 
       const response = await ordersController.create(
         { customer: createdCustomer._id, products: productIds },
@@ -158,9 +138,6 @@ test.afterEach(async ({ request }) => {
       const invalidCustomerId = generateID();
 
       const createdProduct = await productsApiService.create(token);
-      productIds = [createdProduct._id];
-
-      created = true; // ✅ product создан — надо удалить
 
       const response = await ordersController.create(
         { customer: invalidCustomerId, products: [createdProduct._id] },
@@ -183,9 +160,6 @@ test.afterEach(async ({ request }) => {
       const invalidProductId = generateID();
 
       const createdCustomer = await customersApiService.create(token);
-      customerId = createdCustomer._id;
-
-      created = true; // ✅ customer создан — надо удалить
 
       const response = await ordersController.create(
         { customer: createdCustomer._id, products: [invalidProductId] },
@@ -210,16 +184,11 @@ test.afterEach(async ({ request }) => {
         productsApiService.createBulk(3, token),
       ]);
 
-      customerId = createdCustomer._id;
-      productIds = extractIds(createdProducts);
-
-      created = true; // ✅ customer/products созданы — надо удалить
-
+      const productIds = extractIds(createdProducts);
       const invalidProductId = generateID();
-      const mixedProductIds = [...productIds, invalidProductId];
 
       const response = await ordersController.create(
-        { customer: createdCustomer._id, products: mixedProductIds },
+        { customer: createdCustomer._id, products: [...productIds, invalidProductId] },
         token
       );
 
