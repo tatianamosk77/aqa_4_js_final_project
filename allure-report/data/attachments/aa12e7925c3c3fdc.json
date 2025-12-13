@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 15:34:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-4/RPnVXFPAjYVWGoJmyzuYu7Fzw\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Charley56@hotmail.com",
+      "name": "Percival Deven",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 71,
+      "flat": 7747,
+      "phone": "+2669941575",
+      "createdOn": "2025-12-13T15:34:11.000Z",
+      "notes": "0oZdmQ5UTZNcwdscQepOx1TrxfG7DrG1vtpnr2KvJmXN0EDOlWTYx3ir5NQBvN4S2WxCmkZhSsj3tejpdHno1unLEgfhB5SIjMKvVQ6OqssSGMrJrtq7k1OmyI6yxzVT2CgAOeZrM4KtPIc9YVKAp6w4p4zdjWkI3MzDNv2epj0DdgtvrjzKL2RX5VsGD9VZyzFKElteoHD5NgOl0sStJJSKWxIN5ZsA2A4GB7iILu7c6RvzVSzwuQxiOv",
+      "_id": "693d87731c508c5d5ec2dcb0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

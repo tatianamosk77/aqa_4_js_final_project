@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 15:36:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-IBnJ+1FxUwrqOoxLWtk6sQxT8mU\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d87e11c508c5d5ec2f05c",
+        "email": "Emmy.Wilderman14@gmail.com",
+        "name": "Flavie Arvilla",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 376,
+        "flat": 2792,
+        "phone": "+8289272861",
+        "createdOn": "2025-12-13T15:36:01.000Z",
+        "notes": "s7CjjuSyoRgKRckUUrzQv5RSR7G7wECgXstDdk1F9x5NaLRFgIGOvQmuup69vTS49p0ukFHQmsjCRny1Udvvbzih6i0qRq5VGpw8UrHVffgMdidaVezSCB2xbX6KxG7fZYGUUVIlFCd2BKkg4HTsvf5bUprB9H6jrgz1ESXzu2ruxoBsIhSXU8Qt3nNNlkCCN3TKtjcR7kYbDVqEwg10tZT5SVh93U3Sy8JISa4IWSDsgfN7Ea3PN3at9X"
+      },
+      "products": [
+        {
+          "_id": "693d87e31c508c5d5ec2f0bd",
+          "name": "Computer23059",
+          "amount": 170,
+          "price": 70652,
+          "manufacturer": "Apple",
+          "notes": "Gjv1gVRK4D3eaizHapqZ1WjJtDNYxuIzY9aXleqbAyHSPKwiLXWmxkk4Z41F7isFC8twHmX0YLbDjZ6kkAddYIXLpMGrVMlqLeFs6i0NN4UckzTDjLjTaRhWM9bdKSygszgk8WrlQlEy8Yf5poxxCKhV6GQNKwjjgvan8ujmRyBm1KHOytZQI691eVr8hPYTg7vP51kb8ZFYk2C5NCSLLK57bFX0mvsJl4c1XYjiiNt4bFOH0O7obo9ZZa",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 70652,
+      "createdOn": "2025-12-13T15:36:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d87e11c508c5d5ec2f05c",
+          "products": [
+            {
+              "_id": "693d87e31c508c5d5ec2f0bd",
+              "name": "Computer23059",
+              "amount": 170,
+              "price": 70652,
+              "manufacturer": "Apple",
+              "notes": "Gjv1gVRK4D3eaizHapqZ1WjJtDNYxuIzY9aXleqbAyHSPKwiLXWmxkk4Z41F7isFC8twHmX0YLbDjZ6kkAddYIXLpMGrVMlqLeFs6i0NN4UckzTDjLjTaRhWM9bdKSygszgk8WrlQlEy8Yf5poxxCKhV6GQNKwjjgvan8ujmRyBm1KHOytZQI691eVr8hPYTg7vP51kb8ZFYk2C5NCSLLK57bFX0mvsJl4c1XYjiiNt4bFOH0O7obo9ZZa",
+              "received": false
+            }
+          ],
+          "total_price": 70652,
+          "delivery": null,
+          "changedOn": "2025-12-13T15:36:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d87e31c508c5d5ec2f107"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

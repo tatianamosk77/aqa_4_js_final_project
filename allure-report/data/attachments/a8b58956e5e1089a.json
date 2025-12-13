@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 15:36:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3866",
+    "etag": "W/\"f1a-PXCPzqEykkyb5ckVN+yexn7lxhY\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693d87f31c508c5d5ec2f434",
+      "status": "In Process",
+      "customer": {
+        "_id": "693d87e81c508c5d5ec2f305",
+        "email": "Johan75@gmail.com",
+        "name": "Bianka Markus",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 604,
+        "flat": 7218,
+        "phone": "+1880179453",
+        "createdOn": "2025-12-13T15:36:08.000Z",
+        "notes": "2QhLRilODdJIQUDnuF8nyll1HoR1pB9BcYeYjyeAl54d2Kjoy6pETjmhsV8Y1INj2W8HqeaJMVQJYXG0xq7amIXPzfV3Yezsc2tSIS4zPNVKBQTmGgvCVg994lfco3OAl8mXp57eGGnBZSc6JrYP8GGgeXEbfXzHNKsrGVPMaX23HsyDQeJV5XFbYYNLw46uUG4tqMt5ZC0lwKPAr6TA07B0AxR4aEIW7o91NCjEBbg2I53idMKT4hrAbv"
+      },
+      "products": [
+        {
+          "_id": "693d87e91c508c5d5ec2f3de",
+          "name": "Pizza94938",
+          "amount": 263,
+          "price": 27779,
+          "manufacturer": "Samsung",
+          "notes": "rbWiZOIMTpvlIZP3rSYJPZMe8fAmyMrQrCT1fJhjdd1jqQewIHgHP2wrlgMJ4kwbuL0iCEyu9I7R64MHhMraRL6golhOVRnRzexzRX6WfWNEpejXtL3MbOhtAcw32ube1PPYhrMGRKrYEGG1z6QpG37gfntzrhxgDU45bBvIWcjubzmi2PGQPeFLc9o13MQAtrlIa0PbjFdCRQXACuQyP3fZjv3tBpb5vSQr3W3E7OYGJ9kQxagNiIjkFv",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Billiefort",
+          "street": "149 Hillard Burgs",
+          "house": 67,
+          "flat": 18
+        },
+        "finalDate": "2026-06-12T17:02:59.514Z",
+        "condition": "Delivery"
+      },
+      "total_price": 27779,
+      "createdOn": "2025-12-13T15:36:19.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "693d87e81c508c5d5ec2f305",
+          "products": [
+            {
+              "_id": "693d87e91c508c5d5ec2f3de",
+              "name": "Pizza94938",
+              "amount": 263,
+              "price": 27779,
+              "manufacturer": "Samsung",
+              "notes": "rbWiZOIMTpvlIZP3rSYJPZMe8fAmyMrQrCT1fJhjdd1jqQewIHgHP2wrlgMJ4kwbuL0iCEyu9I7R64MHhMraRL6golhOVRnRzexzRX6WfWNEpejXtL3MbOhtAcw32ube1PPYhrMGRKrYEGG1z6QpG37gfntzrhxgDU45bBvIWcjubzmi2PGQPeFLc9o13MQAtrlIa0PbjFdCRQXACuQyP3fZjv3tBpb5vSQr3W3E7OYGJ9kQxagNiIjkFv",
+              "received": false
+            }
+          ],
+          "total_price": 27779,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Billiefort",
+              "street": "149 Hillard Burgs",
+              "house": 67,
+              "flat": 18
+            },
+            "finalDate": "2026-06-12T17:02:59.514Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-13T15:36:20.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693d87e81c508c5d5ec2f305",
+          "products": [
+            {
+              "_id": "693d87e91c508c5d5ec2f3de",
+              "name": "Pizza94938",
+              "amount": 263,
+              "price": 27779,
+              "manufacturer": "Samsung",
+              "notes": "rbWiZOIMTpvlIZP3rSYJPZMe8fAmyMrQrCT1fJhjdd1jqQewIHgHP2wrlgMJ4kwbuL0iCEyu9I7R64MHhMraRL6golhOVRnRzexzRX6WfWNEpejXtL3MbOhtAcw32ube1PPYhrMGRKrYEGG1z6QpG37gfntzrhxgDU45bBvIWcjubzmi2PGQPeFLc9o13MQAtrlIa0PbjFdCRQXACuQyP3fZjv3tBpb5vSQr3W3E7OYGJ9kQxagNiIjkFv",
+              "received": false
+            }
+          ],
+          "total_price": 27779,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Billiefort",
+              "street": "149 Hillard Burgs",
+              "house": 67,
+              "flat": 18
+            },
+            "finalDate": "2026-06-12T17:02:59.514Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-13T15:36:20.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693d87e81c508c5d5ec2f305",
+          "products": [
+            {
+              "_id": "693d87e91c508c5d5ec2f3de",
+              "name": "Pizza94938",
+              "amount": 263,
+              "price": 27779,
+              "manufacturer": "Samsung",
+              "notes": "rbWiZOIMTpvlIZP3rSYJPZMe8fAmyMrQrCT1fJhjdd1jqQewIHgHP2wrlgMJ4kwbuL0iCEyu9I7R64MHhMraRL6golhOVRnRzexzRX6WfWNEpejXtL3MbOhtAcw32ube1PPYhrMGRKrYEGG1z6QpG37gfntzrhxgDU45bBvIWcjubzmi2PGQPeFLc9o13MQAtrlIa0PbjFdCRQXACuQyP3fZjv3tBpb5vSQr3W3E7OYGJ9kQxagNiIjkFv",
+              "received": false
+            }
+          ],
+          "total_price": 27779,
+          "delivery": null,
+          "changedOn": "2025-12-13T15:36:19.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

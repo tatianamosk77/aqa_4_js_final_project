@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 15:35:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1869",
+    "etag": "W/\"74d-gcjxWc9sCEeIVrhHfg/NpwuShp4\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693d87d21c508c5d5ec2ed08",
+      "status": "Draft",
+      "customer": {
+        "_id": "693d87d01c508c5d5ec2ec78",
+        "email": "Eusebio0@hotmail.com",
+        "name": "Zelma Lonny",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 234,
+        "flat": 8724,
+        "phone": "+6284117180",
+        "createdOn": "2025-12-13T15:35:44.000Z",
+        "notes": "Sp325GfbB8U7cuGGH0uXrx5KgVUT6JXyj0CoRus3T7UsFkzcVpAtVivtIvyY0OFbgja2EyTi9u4Alby4YbZGZlQTSHc9JbWCjXfVeZJwiiAj7iOVPepc3yxmFJw3N0JWm8hAZQ5wFk8SpKKmR0YEB3AWXXBnLmYgf84sZKgMBSlheBLZiFAs4bqz8UuzJU3mM7Wis2BXUI8m7mdEWzgzu4kztYaEiVqULWU2Y0gn6CoTz4aFBgFTKccIkx"
+      },
+      "products": [
+        {
+          "_id": "693d87d11c508c5d5ec2ecd3",
+          "name": "Pants2477",
+          "amount": 999,
+          "price": 77111,
+          "manufacturer": "Amazon",
+          "notes": "MPCSDLpfEnkgQ46iAya8fsVPPoC1mBSKB5nBP46z8EVBeQ5XIhC0fRoTm97gMGsSOFZKZ2XgD6urK1nfeKigCaCAjo0mJaqJ0DAEVkVLgEqBEMnkja1BpFQset9qQDPv6QnAkCJ46SQnxZpibHKx08nOk2WQbKKgtK2ge7jFtzu9RhxqPPsdJpckWTPlMdYE4IBb8N7hzeROdH0oP0x2BBV81bIZ1v7KMtLp9agiSi683mkhLqO5clUQQV",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 77111,
+      "createdOn": "2025-12-13T15:35:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d87d01c508c5d5ec2ec78",
+          "products": [
+            {
+              "_id": "693d87d11c508c5d5ec2ecd3",
+              "name": "Pants2477",
+              "amount": 999,
+              "price": 77111,
+              "manufacturer": "Amazon",
+              "notes": "MPCSDLpfEnkgQ46iAya8fsVPPoC1mBSKB5nBP46z8EVBeQ5XIhC0fRoTm97gMGsSOFZKZ2XgD6urK1nfeKigCaCAjo0mJaqJ0DAEVkVLgEqBEMnkja1BpFQset9qQDPv6QnAkCJ46SQnxZpibHKx08nOk2WQbKKgtK2ge7jFtzu9RhxqPPsdJpckWTPlMdYE4IBb8N7hzeROdH0oP0x2BBV81bIZ1v7KMtLp9agiSi683mkhLqO5clUQQV",
+              "received": false
+            }
+          ],
+          "total_price": 77111,
+          "delivery": null,
+          "changedOn": "2025-12-13T15:35:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

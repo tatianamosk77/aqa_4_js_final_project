@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 15:33:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-BUZImgmOroZzpZuiLsPhqZq01vU\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Gene.Terry@gmail.com",
+      "name": "Test Customer",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 320,
+      "flat": 6017,
+      "phone": "+6312281880",
+      "createdOn": "2025-12-13T15:33:20.000Z",
+      "notes": "2SVG0mvayg0lYavl7TGrW0WfWa6uAVko6pauWQVyhyAUgWTW5tAHLiFWBtJXJIPvNY8pEGvRaZDenTisF4tfrfsE0EUUwDc7E962dPjJZ01PeWXaKiuOele6mg9yZrYiWX3rE9zXfEX8Idgjw0Zg2qriKmLhqe4GxUARJU92MwG5s7tPmmXAwUXJPzuWQOaFbmVCZsoOK5u0q29nOMRzf0uy6NQYaNq6qw8ZDgwMzAinC9H1kWGnAhsrKE",
+      "_id": "693d87401c508c5d5ec2d969"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

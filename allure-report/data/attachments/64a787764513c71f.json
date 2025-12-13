@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 15:36:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-WlpawvafqaHBdkzT9Zrx08Q3ORw\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Shawn.Hessel@gmail.com",
+      "name": "Mark Dedrick",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 201,
+      "flat": 6935,
+      "phone": "+7777418684",
+      "createdOn": "2025-12-13T15:35:52.000Z",
+      "notes": "v3g5pdAa6rOwHEK5pOubihP2md0YA1G3naADcSl7OuZQRjHM0ervlz1iKQesE6JZlsUcp6hnSuGDUopCxQGmX9HOJWnFpmhBMK0hOq9vBJ8tBRhodUSwFs0JwdKkkkkTA0ne3U0SBP6ONbHyMUM8pdwu6Hhop2ZShj5LL0vjeud30AeFdZOpPVIRHh1iMKpczGNrBFkhbv7xHmm2jm7gGJonnkZ9uBt0mEf2VoxjeU6u32hx5DMnbAf0SP",
+      "_id": "693d87d81c508c5d5ec2f043"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

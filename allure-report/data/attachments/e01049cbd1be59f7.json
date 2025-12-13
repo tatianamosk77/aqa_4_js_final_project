@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 15:34:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-NxKdlkyTmpTFLArZqYgYfuAoF2U\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Nicholas_Nolan@gmail.com",
+      "name": "Terrill Kathlyn",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 177,
+      "flat": 952,
+      "phone": "+0859300207",
+      "createdOn": "2025-12-13T15:34:29.000Z",
+      "notes": "HTsJ6hLk8wAdlB2ZaWTg3VHNPkSqi2apUgMPhtXSn9pSMjyH3r1GpGhTxDERaZ8iSicaHB3HRi1TtoOxLS1dyeL9QkSpzf9Si1P4rdo9M7L6ldqeuPEZwtn2EUueCbkRcFzwEy5sbSpxKTIXk1v1EazH3IbuTcu4iMxxBurm8zwJO2o45BXnAIcFvXc9xrtszUfDu6K9qssX2js97J4CceF1YG5fF1Bcj1ilqUZrhlzxevc47fS0wTunWI",
+      "_id": "693d87851c508c5d5ec2de25"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

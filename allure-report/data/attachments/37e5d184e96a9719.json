@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 15:33:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-cLYKqO930PDP6PWcGDq1g9dU9Cc\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Lorenzo_Huels15@gmail.com",
+      "name": "Erik Colten",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 925,
+      "flat": 1,
+      "phone": "+3423393510",
+      "createdOn": "2025-12-13T15:33:26.000Z",
+      "notes": "Yrvj1UTBSxYPyk2GAho6U6bUH1xGLj25w5g5MAEmMfpeS57agn9obXl6aLVQDJ3DGr4Pmvy4inRUdv6CNNAO89EM8lsxzcZ1h72hSpaydKlaYDcuzZGDbgakEU8Nil84FH6o5FlRvI7pQa6NOTDmyycdNevgjBVCDMOThfvlaQl45Lvdm7CK4qe9mINROWR33knA42W6VMUSCDMrJcrqwyVX2ekQApjTKL9geb1IWwrCzk2O0txy9IAmGM",
+      "_id": "693d87461c508c5d5ec2d9c9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

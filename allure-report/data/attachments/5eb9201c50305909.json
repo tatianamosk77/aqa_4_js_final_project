@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 15:36:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1862",
+    "etag": "W/\"746-DlTsvQmXJ02gfXH6pkmkIfmiojA\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d88081c508c5d5ec2fbaf",
+        "email": "Forrest_Tillman@gmail.com",
+        "name": "Lucio Shad",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 637,
+        "flat": 9259,
+        "phone": "+8431183212",
+        "createdOn": "2025-12-13T15:36:40.000Z",
+        "notes": "LOyGumr6zAAQBc961ArYhKmWQxQZ2rq0ktZLbkGg9BmLtRuE5ikwaQJUgKcdxFPZRQ5Zo6vJT4XcHNYlJS1Vfpdu0Qd6HVLKJtaNYSlHRvtte4cu4NNaQchKmpPJhkCpa8VpGkjpAtKTrNLFsb49HR65ZD2QRpwZiVCtzGf28WPInJuZYMj8lR3o4KbcGC5MqRZfMGvy6GeAei0F16zSrcXqMDp1TABQAeWwbaGwkRCmNVnfhpmnzM30Hd"
+      },
+      "products": [
+        {
+          "_id": "693d88091c508c5d5ec2fbc8",
+          "name": "Bike38711",
+          "amount": 70,
+          "price": 377,
+          "manufacturer": "Google",
+          "notes": "b8XHjqYzI8lFYZ6HqYkHFC9Di5YVzkGXgZ8YhP6La6e844Jjh9vj1LRI2kzqOZojh8VEwLBXBKlIGX5hmRPorTMNGh10RlQeZ5omxu7ksSrRb1lYugDnnHqkPI5aqxwzXxxsOwOSV6JIIybXOYQIBepFsWBBFkjIOPm3Ts0KJYq9mUclb9EE4ErvskHvZVUCi1xFT5y4geVP6o0OUQb4uFIZv25NGcKXnL1w80s5pYSvpPd27siGE9zXqW",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 377,
+      "createdOn": "2025-12-13T15:36:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d88081c508c5d5ec2fbaf",
+          "products": [
+            {
+              "_id": "693d88091c508c5d5ec2fbc8",
+              "name": "Bike38711",
+              "amount": 70,
+              "price": 377,
+              "manufacturer": "Google",
+              "notes": "b8XHjqYzI8lFYZ6HqYkHFC9Di5YVzkGXgZ8YhP6La6e844Jjh9vj1LRI2kzqOZojh8VEwLBXBKlIGX5hmRPorTMNGh10RlQeZ5omxu7ksSrRb1lYugDnnHqkPI5aqxwzXxxsOwOSV6JIIybXOYQIBepFsWBBFkjIOPm3Ts0KJYq9mUclb9EE4ErvskHvZVUCi1xFT5y4geVP6o0OUQb4uFIZv25NGcKXnL1w80s5pYSvpPd27siGE9zXqW",
+              "received": false
+            }
+          ],
+          "total_price": 377,
+          "delivery": null,
+          "changedOn": "2025-12-13T15:36:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d880d1c508c5d5ec2fc32"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 15:34:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-UXw41nF3AgUosgt/ozZOBM3sKP8\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Vladimir.Bode@gmail.com",
+      "name": "Frederick Jessy",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 688,
+      "flat": 1755,
+      "phone": "+9262837897",
+      "createdOn": "2025-12-13T15:33:59.000Z",
+      "notes": "hvn54lCLC0cgSM1vUkzyqQAjxt1OEpNis2s2Ah5XVYiQXhZIdLcYdrTwcMwoiaUsh7KXiOgwILUqHNhwqpgzGZTObBwEQttYXnactgoZ0eR0tGvReZSGntxmbWdsgdMMyNoU03rae9qAFNCXm2UNRQSKapRVxsN3KwFfpJseMaB2dTQLPNIdA3IyRf17CqySyyGdgng5QIWZeL0VBht3NjXLqU6wr4OB4Loj3AeWYchawoOCOzPVlJhdn6",
+      "_id": "693d87671c508c5d5ec2dc08"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

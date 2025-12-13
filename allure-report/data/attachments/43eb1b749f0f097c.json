@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 15:37:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2939",
+    "etag": "W/\"b7b-PI2WsnzEGr1bwWSRncMBF0SuxBE\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693d88231c508c5d5ec30297",
+      "status": "Draft",
+      "customer": {
+        "_id": "693d88221c508c5d5ec301ea",
+        "email": "Helmer53@gmail.com",
+        "name": "Shyanne Zaria",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 479,
+        "flat": 7272,
+        "phone": "+8068753621",
+        "createdOn": "2025-12-13T15:37:06.000Z",
+        "notes": "TtfsjYRh2rZy1IsoO0PqOYnZUjNzOdPJFrAtfkHkFyQvmy4nHXIiaroMwuXzpU3qxPZTXY5JFRxWsaDmhc8esAq8SnpVY7DHVZBfWUs35q3J24VCgJaSlOwsqj438XTuIaNN3Ai1FV9RtIEOuNF1RlcSKJyhC842nZfxfKTKIYMVx9s4XE6qk66UOMGfs0mIfPMN0hcm0SIU8zP6f7DVzWlhFFtDDzGp8rt4M7B24NhWbOeEhmTjEEu5qV"
+      },
+      "products": [
+        {
+          "_id": "693d88221c508c5d5ec30273",
+          "name": "Shirt63587",
+          "amount": 451,
+          "price": 16241,
+          "manufacturer": "Samsung",
+          "notes": "GgJOHrc4sos5vgOu89dVyZ3HnvcJ6IzLk3q4rcELfchmggu8tMbXmtIZ8Heiwfj0BeqvrUSsGjaTS3cNl5pODi1iof67E9825pmDC37EeaLyvgyCBIzW3ZClt5wdPM8rZ7tMS1vWI6oqq0iXQZtOZMMsQ6Di9ZMuSQX0lJmRxqE2bUqk7wwo6ufOzeacAOuqHc22z7c9YjHMXGkyD0SndVJ9RwU3cvUiyZYdZ65SImdmYtvOMQGk6qVpXF",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 16241,
+      "createdOn": "2025-12-13T15:37:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d88221c508c5d5ec301ea",
+          "products": [
+            {
+              "_id": "693d88221c508c5d5ec30273",
+              "name": "Shirt63587",
+              "amount": 451,
+              "price": 16241,
+              "manufacturer": "Samsung",
+              "notes": "GgJOHrc4sos5vgOu89dVyZ3HnvcJ6IzLk3q4rcELfchmggu8tMbXmtIZ8Heiwfj0BeqvrUSsGjaTS3cNl5pODi1iof67E9825pmDC37EeaLyvgyCBIzW3ZClt5wdPM8rZ7tMS1vWI6oqq0iXQZtOZMMsQ6Di9ZMuSQX0lJmRxqE2bUqk7wwo6ufOzeacAOuqHc22z7c9YjHMXGkyD0SndVJ9RwU3cvUiyZYdZ65SImdmYtvOMQGk6qVpXF",
+              "received": false
+            }
+          ],
+          "total_price": 16241,
+          "delivery": null,
+          "changedOn": "2025-12-13T15:37:08.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "693d88221c508c5d5ec301ea",
+          "products": [
+            {
+              "_id": "693d88221c508c5d5ec30273",
+              "name": "Shirt63587",
+              "amount": 451,
+              "price": 16241,
+              "manufacturer": "Samsung",
+              "notes": "GgJOHrc4sos5vgOu89dVyZ3HnvcJ6IzLk3q4rcELfchmggu8tMbXmtIZ8Heiwfj0BeqvrUSsGjaTS3cNl5pODi1iof67E9825pmDC37EeaLyvgyCBIzW3ZClt5wdPM8rZ7tMS1vWI6oqq0iXQZtOZMMsQ6Di9ZMuSQX0lJmRxqE2bUqk7wwo6ufOzeacAOuqHc22z7c9YjHMXGkyD0SndVJ9RwU3cvUiyZYdZ65SImdmYtvOMQGk6qVpXF",
+              "received": false
+            }
+          ],
+          "total_price": 16241,
+          "delivery": null,
+          "changedOn": "2025-12-13T15:37:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337ce1c508c5d5e95335d",
+        "username": "student14@gmail.com",
+        "firstName": "Bill",
+        "lastName": "Schuppe",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:26"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

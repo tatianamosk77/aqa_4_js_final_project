@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 15:37:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-A0zYltuvSU0d1VEaP+rqZ8vNC5w\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Kian.Bartoletti@gmail.com",
+      "name": "Stefan Wava",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 258,
+      "flat": 8030,
+      "phone": "+3010283476",
+      "createdOn": "2025-12-13T15:37:20.000Z",
+      "notes": "hk85jNXxJIxHYmDgjZ8QJk54VftSIMKDkr1Mf2RkeSAp2e5VqKZg5ORSgyYBjXcpZin7bkF2qdCJGO6GLS3VrpfHHEgRJREzq9vZzso4AABy1nr2153jdjyz9Kcs7MJA8HErXXfYnSfJGtof0dlQRkiPN7au1gnGjgYJkmZIDgmiLXCn0KpOlOoD7gX5ZkBEJHSQSC798dOCgFhgocTy3Q89sYGS9Fn13TVljg2uqjWNPlw9xAjl2uHbef",
+      "_id": "693d88301c508c5d5ec30599"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

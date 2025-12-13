@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 15:37:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5396",
+    "etag": "W/\"1514-VSlKOFX9oelTc7M1QLJPmTXBG5s\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693d881e1c508c5d5ec3007c",
+      "status": "In Process",
+      "customer": {
+        "_id": "693d881c1c508c5d5ec30024",
+        "email": "Derick_Herzog@gmail.com",
+        "name": "Corrine Georgette",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 650,
+        "flat": 2817,
+        "phone": "+4814514941",
+        "createdOn": "2025-12-13T15:37:00.000Z",
+        "notes": "QFRfbkUCwUfvthhG5V7yYozzG8luLLvTCo1J3yXMHVpJRvH86RoWtd1JJ7vxNydJc7emGU5Zo9Pj8q05w5v2IbOpuRt30fHDGwp0j4UgQjblXPstlCnJrRgORmNdGD5ZJ8F1yAVJFlsgLjzqHyaOr0074JuJNdBVzvESTKIAoSMsiISXs7J5Ne2G0lOKefbrCtnw1mQi7pVDd6oPIeuLfC195Gv7s9ZP7ldBqAmao4Ox4EKtiHhFA4tlTq"
+      },
+      "products": [
+        {
+          "_id": "693d881e1c508c5d5ec3003f",
+          "name": "Tuna407",
+          "amount": 521,
+          "price": 14425,
+          "manufacturer": "Amazon",
+          "notes": "rXNoEJvmKH2pTDYjpQGsVgLDGqckjqUJ6l8uEPRAPELrUQqdPNiGgFrcKtWO395gbF3cxpBzj5SGDm9lEQB6lFmijT4KKl4itRx6u2Uro5NheH280oLoS2uST4a4T5gC4qpTzRAkdPOI3VSLrLmZ2ldJ8t7KWLPFzDWbPx25KzvO27Lieir79SWXs6cjGWablrMnaMhmQF99xhjJTooMtdz9scWJPo1yriiUwIaWZroLxIlvWixq6ehYCJ",
+          "received": false
+        },
+        {
+          "_id": "693d881e1c508c5d5ec3003d",
+          "name": "Chair96577",
+          "amount": 826,
+          "price": 59835,
+          "manufacturer": "Google",
+          "notes": "8MsAEg2RX75QEAJUSK7iiL6egm3wtzRpjyx5Pb6HKCzilrcJf1kX1VuHRv1gS6IKV1nhLFPFoEVduRtDrQMVxBM5ExWOLz3BWPP96128GtBpTe3xNq1qssiWwiA38b4X9T7debrtkfXOzdLJEi8fzreYA9uXjkJaTakTnk1H2gO0NaRFot3czs3HEsAX3O0M29CNdDvokTZywhi1CeVKGHcFL1V4iLvi91Uze1PA2rJJwQJu660RbsGa1E",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Irondequoit",
+          "street": "626 Zboncak Ridges",
+          "house": 31,
+          "flat": 5
+        },
+        "finalDate": "2026-03-11T23:50:17.681Z",
+        "condition": "Delivery"
+      },
+      "total_price": 74260,
+      "createdOn": "2025-12-13T15:37:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "693d881c1c508c5d5ec30024",
+          "products": [
+            {
+              "_id": "693d881e1c508c5d5ec3003f",
+              "name": "Tuna407",
+              "amount": 521,
+              "price": 14425,
+              "manufacturer": "Amazon",
+              "notes": "rXNoEJvmKH2pTDYjpQGsVgLDGqckjqUJ6l8uEPRAPELrUQqdPNiGgFrcKtWO395gbF3cxpBzj5SGDm9lEQB6lFmijT4KKl4itRx6u2Uro5NheH280oLoS2uST4a4T5gC4qpTzRAkdPOI3VSLrLmZ2ldJ8t7KWLPFzDWbPx25KzvO27Lieir79SWXs6cjGWablrMnaMhmQF99xhjJTooMtdz9scWJPo1yriiUwIaWZroLxIlvWixq6ehYCJ",
+              "received": false
+            },
+            {
+              "_id": "693d881e1c508c5d5ec3003d",
+              "name": "Chair96577",
+              "amount": 826,
+              "price": 59835,
+              "manufacturer": "Google",
+              "notes": "8MsAEg2RX75QEAJUSK7iiL6egm3wtzRpjyx5Pb6HKCzilrcJf1kX1VuHRv1gS6IKV1nhLFPFoEVduRtDrQMVxBM5ExWOLz3BWPP96128GtBpTe3xNq1qssiWwiA38b4X9T7debrtkfXOzdLJEi8fzreYA9uXjkJaTakTnk1H2gO0NaRFot3czs3HEsAX3O0M29CNdDvokTZywhi1CeVKGHcFL1V4iLvi91Uze1PA2rJJwQJu660RbsGa1E",
+              "received": false
+            }
+          ],
+          "total_price": 74260,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Irondequoit",
+              "street": "626 Zboncak Ridges",
+              "house": 31,
+              "flat": 5
+            },
+            "finalDate": "2026-03-11T23:50:17.681Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-13T15:37:04.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693d881c1c508c5d5ec30024",
+          "products": [
+            {
+              "_id": "693d881e1c508c5d5ec3003f",
+              "name": "Tuna407",
+              "amount": 521,
+              "price": 14425,
+              "manufacturer": "Amazon",
+              "notes": "rXNoEJvmKH2pTDYjpQGsVgLDGqckjqUJ6l8uEPRAPELrUQqdPNiGgFrcKtWO395gbF3cxpBzj5SGDm9lEQB6lFmijT4KKl4itRx6u2Uro5NheH280oLoS2uST4a4T5gC4qpTzRAkdPOI3VSLrLmZ2ldJ8t7KWLPFzDWbPx25KzvO27Lieir79SWXs6cjGWablrMnaMhmQF99xhjJTooMtdz9scWJPo1yriiUwIaWZroLxIlvWixq6ehYCJ",
+              "received": false
+            },
+            {
+              "_id": "693d881e1c508c5d5ec3003d",
+              "name": "Chair96577",
+              "amount": 826,
+              "price": 59835,
+              "manufacturer": "Google",
+              "notes": "8MsAEg2RX75QEAJUSK7iiL6egm3wtzRpjyx5Pb6HKCzilrcJf1kX1VuHRv1gS6IKV1nhLFPFoEVduRtDrQMVxBM5ExWOLz3BWPP96128GtBpTe3xNq1qssiWwiA38b4X9T7debrtkfXOzdLJEi8fzreYA9uXjkJaTakTnk1H2gO0NaRFot3czs3HEsAX3O0M29CNdDvokTZywhi1CeVKGHcFL1V4iLvi91Uze1PA2rJJwQJu660RbsGa1E",
+              "received": false
+            }
+          ],
+          "total_price": 74260,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Irondequoit",
+              "street": "626 Zboncak Ridges",
+              "house": 31,
+              "flat": 5
+            },
+            "finalDate": "2026-03-11T23:50:17.681Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-13T15:37:03.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693d881c1c508c5d5ec30024",
+          "products": [
+            {
+              "_id": "693d881e1c508c5d5ec3003f",
+              "name": "Tuna407",
+              "amount": 521,
+              "price": 14425,
+              "manufacturer": "Amazon",
+              "notes": "rXNoEJvmKH2pTDYjpQGsVgLDGqckjqUJ6l8uEPRAPELrUQqdPNiGgFrcKtWO395gbF3cxpBzj5SGDm9lEQB6lFmijT4KKl4itRx6u2Uro5NheH280oLoS2uST4a4T5gC4qpTzRAkdPOI3VSLrLmZ2ldJ8t7KWLPFzDWbPx25KzvO27Lieir79SWXs6cjGWablrMnaMhmQF99xhjJTooMtdz9scWJPo1yriiUwIaWZroLxIlvWixq6ehYCJ",
+              "received": false
+            },
+            {
+              "_id": "693d881e1c508c5d5ec3003d",
+              "name": "Chair96577",
+              "amount": 826,
+              "price": 59835,
+              "manufacturer": "Google",
+              "notes": "8MsAEg2RX75QEAJUSK7iiL6egm3wtzRpjyx5Pb6HKCzilrcJf1kX1VuHRv1gS6IKV1nhLFPFoEVduRtDrQMVxBM5ExWOLz3BWPP96128GtBpTe3xNq1qssiWwiA38b4X9T7debrtkfXOzdLJEi8fzreYA9uXjkJaTakTnk1H2gO0NaRFot3czs3HEsAX3O0M29CNdDvokTZywhi1CeVKGHcFL1V4iLvi91Uze1PA2rJJwQJu660RbsGa1E",
+              "received": false
+            }
+          ],
+          "total_price": 74260,
+          "delivery": null,
+          "changedOn": "2025-12-13T15:37:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

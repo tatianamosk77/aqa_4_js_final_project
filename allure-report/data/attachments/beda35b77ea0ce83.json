@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 15:33:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "290",
+    "etag": "W/\"122-mMfbCIc/Ou9HEU6Hap6ydT/oggs\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Unique_Predovic95@gmail.com",
+      "name": "Bradford Berta",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 10,
+      "flat": 3469,
+      "phone": "+4654397789",
+      "createdOn": "2025-12-13T15:33:38.000Z",
+      "_id": "693d87521c508c5d5ec2da3b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

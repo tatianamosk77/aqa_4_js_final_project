@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 15:37:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-ERCxlurSLSlWNiB0f6hkhAxA5Ak\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Derick_Herzog@gmail.com",
+      "name": "Corrine Georgette",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 650,
+      "flat": 2817,
+      "phone": "+4814514941",
+      "createdOn": "2025-12-13T15:37:00.000Z",
+      "notes": "QFRfbkUCwUfvthhG5V7yYozzG8luLLvTCo1J3yXMHVpJRvH86RoWtd1JJ7vxNydJc7emGU5Zo9Pj8q05w5v2IbOpuRt30fHDGwp0j4UgQjblXPstlCnJrRgORmNdGD5ZJ8F1yAVJFlsgLjzqHyaOr0074JuJNdBVzvESTKIAoSMsiISXs7J5Ne2G0lOKefbrCtnw1mQi7pVDd6oPIeuLfC195Gv7s9ZP7ldBqAmao4Ox4EKtiHhFA4tlTq",
+      "_id": "693d881c1c508c5d5ec30024"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
