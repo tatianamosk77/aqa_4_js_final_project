@@ -9,6 +9,8 @@ import { CustomersApiService } from "api/service/customers.service";
 import { OrdersApi } from "api/api/orders.api";
 import { OrdersAPIController } from "api/controllers/orders.controller";
 import { OrdersApiService } from "api/service/orders.service";
+import { NotificationsApi } from "api/api/notifications.api";
+import { NotificationsApiService } from "api/service/notifications.service";
 
 export interface IApi {
   // api
@@ -16,6 +18,7 @@ export interface IApi {
   loginApi: LoginApi;
   customersApi: CustomersApi;
   ordersApi: OrdersApi;
+  notificationsApi: NotificationsApi;
 
   //services
   productsApiService: ProductsApiService;
@@ -23,6 +26,7 @@ export interface IApi {
   customersApiService: CustomersApiService;
   ordersApiService: OrdersApiService;
   ordersController: OrdersAPIController;
+  notificationsApiService: NotificationsApiService;
 }
 
 const test = base.extend<IApi>({
@@ -36,12 +40,6 @@ const test = base.extend<IApi>({
   customersApi: async ({ request }, use) => {
     const apiClient = new RequestApi(request);
     const api = new CustomersApi(apiClient);
-    await use(api);
-  },
-
-  ordersApi: async ({ request }, use) => {
-    const apiClient = new RequestApi(request);
-    const api = new OrdersApi(apiClient);
     await use(api);
   },
 
@@ -82,6 +80,9 @@ const test = base.extend<IApi>({
   ordersController: async ({ ordersApi }, use) => {
     const controller = new OrdersAPIController(ordersApi);
     await use(controller);
+  },
+  notificationsApiService: async ({ notificationsApi }, use) => {
+    await use(new NotificationsApiService(notificationsApi));
   },
 });
 
