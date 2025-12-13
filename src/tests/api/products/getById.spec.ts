@@ -27,7 +27,8 @@ test.describe("[API] [Sales Portal] [Products]", () => {
     });
 
     test.describe("Positive", () => {
-      test("Should get product by id successfully",
+      test(
+        "Should get product by id successfully",
         { tag: [TAGS.API, TAGS.PRODUCTS, TAGS.SMOKE, TAGS.REGRESSION] },
         async ({ productsApi }) => {
           const response = await productsApi.getById(product._id, token);
@@ -45,7 +46,8 @@ test.describe("[API] [Sales Portal] [Products]", () => {
     });
 
     test.describe("Negative", () => {
-      test("Should NOT get product by id with empty token",
+      test(
+        "Should NOT get product by id with empty token",
         { tag: [TAGS.API, TAGS.PRODUCTS, TAGS.REGRESSION] },
         async ({ productsApi }) => {
           const emptyToken = "";
@@ -59,7 +61,8 @@ test.describe("[API] [Sales Portal] [Products]", () => {
         }
       );
 
-      test("Should NOT get product by id with invalid token",
+      test(
+        "Should NOT get product by id with invalid token",
         { tag: [TAGS.API, TAGS.PRODUCTS, TAGS.REGRESSION] },
         async ({ productsApi }) => {
           const invalidToken = "Invalid Token";
@@ -73,7 +76,8 @@ test.describe("[API] [Sales Portal] [Products]", () => {
         }
       );
 
-      test("Should NOT get non-existent product by id",
+      test(
+        "Should NOT get non-existent product by id",
         { tag: [TAGS.API, TAGS.PRODUCTS, TAGS.REGRESSION] },
         async ({ productsApi }) => {
           const productId = "684f45261c508c5d5e553e8a";

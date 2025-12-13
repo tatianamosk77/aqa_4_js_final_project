@@ -1,10 +1,10 @@
-import { test, expect } from 'fixtures/api.fixture';
-import { STATUS_CODES } from 'data/statusCodes';
-import { TAGS } from 'data/tags.js';
+import { test, expect } from "fixtures/api.fixture";
+import { STATUS_CODES } from "data/statusCodes";
+import { TAGS } from "data/tags.js";
 
-test.describe('[API] [Sales Portal] [Customers]', () => {
+test.describe("[API] [Sales Portal] [Customers]", () => {
   test(
-    'Delete Customer',
+    "Delete Customer",
     {
       tag: [TAGS.SMOKE, TAGS.REGRESSION, TAGS.CUSTOMERS, TAGS.API],
     },

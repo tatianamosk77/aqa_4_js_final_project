@@ -1,4 +1,4 @@
-import { ID, IResponseFields } from './core.types';
+import { ID, IResponseFields } from "./core.types";
 
 export interface INotification {
   userId: string;
@@ -12,12 +12,12 @@ export interface INotification {
 }
 
 export type NotificationType =
-  | 'commentAdded'
-  | 'assigned'
-  | 'statusChanged'
-  | 'dueDateApproaching'
-  | 'paymentReceived'
-  | 'newOrder';
+  | "commentAdded"
+  | "assigned"
+  | "statusChanged"
+  | "dueDateApproaching"
+  | "paymentReceived"
+  | "newOrder";
 
 export interface INotificationFromResponse extends INotification, ID {}
 export interface INotificationResponse extends IResponseFields {

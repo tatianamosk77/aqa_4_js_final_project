@@ -32,8 +32,12 @@ test.describe("[Sales Portal] [Products]", () => {
       await expect(productsListPage.tableRowByName(productData.name)).toBeVisible();
 
       await expect.soft(productsListPage.nameCell(productData.name)).toHaveText(productData.name);
-      await expect.soft(productsListPage.priceCell(productData.name)).toHaveText(`$${productData.price.toString()}`);
-      await expect.soft(productsListPage.manufacturerCell(productData.name)).toHaveText(productData.manufacturer);
+      await expect
+        .soft(productsListPage.priceCell(productData.name))
+        .toHaveText(`$${productData.price.toString()}`);
+      await expect
+        .soft(productsListPage.manufacturerCell(productData.name))
+        .toHaveText(productData.manufacturer);
 
       const productFromTable = await productsListPage.getProductData(productData.name);
       const expectedProduct = _.omit(productData, ["notes", "amount"]);

@@ -1,4 +1,4 @@
-import { test, expect } from "fixtures/api.fixture";
+import { test } from "fixtures/api.fixture";
 import { STATUS_CODES } from "data/statusCodes";
 import { TAGS } from "data/tags";
 import { IProductFromResponse } from "data/types/product.types";
@@ -19,12 +19,15 @@ test.describe("[API] [Sales Portal] [Products]", () => {
       if (product?._id) {
         try {
           await productsApiService.delete(token, product._id);
-        } catch {}
+        } catch {
+          // ignore cleanup errors
+        }
       }
     });
 
     test.describe("Positive", () => {
-      test("Should delete product successfully",
+      test(
+        "Should delete product successfully",
         { tag: [TAGS.API, TAGS.PRODUCTS, TAGS.SMOKE, TAGS.REGRESSION] },
         async ({ productsApi }) => {
           const productId = product._id;
@@ -48,7 +51,8 @@ test.describe("[API] [Sales Portal] [Products]", () => {
     });
 
     test.describe("Negative", () => {
-      test("Should NOT delete product with empty token",
+      test(
+        "Should NOT delete product with empty token",
         { tag: [TAGS.API, TAGS.PRODUCTS, TAGS.REGRESSION] },
         async ({ productsApi }) => {
           const emptyToken = "";
@@ -62,7 +66,8 @@ test.describe("[API] [Sales Portal] [Products]", () => {
         }
       );
 
-      test("Should NOT delete product with invalid token",
+      test(
+        "Should NOT delete product with invalid token",
         { tag: [TAGS.API, TAGS.PRODUCTS, TAGS.REGRESSION] },
         async ({ productsApi }) => {
           const invalidToken = "Invalid Token";
@@ -76,7 +81,8 @@ test.describe("[API] [Sales Portal] [Products]", () => {
         }
       );
 
-      test("Should NOT delete non-existent product",
+      test(
+        "Should NOT delete non-existent product",
         { tag: [TAGS.API, TAGS.PRODUCTS, TAGS.REGRESSION] },
         async ({ productsApi }) => {
           const productId = "684f45261c508c5d5e553e8a";

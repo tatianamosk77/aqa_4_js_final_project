@@ -1,11 +1,11 @@
-import { NOTIFICATIONS } from 'data/salesPortal/notifications';
-import { STATUS_CODES } from 'data/statusCodes';
-import { TAGS } from 'data/tags';
-import { expect, test } from 'fixtures/business.fixture';
+import { NOTIFICATIONS } from "data/salesPortal/notifications";
+import { STATUS_CODES } from "data/statusCodes";
+import { TAGS } from "data/tags";
+import { expect, test } from "fixtures/business.fixture";
 
-test.describe('[Sales Portal] [Customers]', () => {
+test.describe("[Sales Portal] [Customers]", () => {
   test(
-    'Delete',
+    "Delete",
     {
       tag: [TAGS.SMOKE, TAGS.REGRESSION, TAGS.CUSTOMERS, TAGS.UI],
     },
@@ -19,7 +19,7 @@ test.describe('[Sales Portal] [Customers]', () => {
       const token = await customersListPage.getAuthToken();
       await customersListPage.open();
       const createdCustomer = await customersApiService.create(token);
-      await homeUIService.openModule('Customers');
+      await homeUIService.openModule("Customers");
       await customersListUIService.deleteCustomer(createdCustomer.email);
       const deleted = await customersApi.getById(createdCustomer._id, token);
       expect(deleted.status).toBe(STATUS_CODES.NOT_FOUND);

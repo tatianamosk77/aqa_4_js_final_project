@@ -1,6 +1,6 @@
-import { IApiClient } from 'api/apiClients/types';
-import { apiConfig } from 'config/apiConfig';
-import { IRequestOptions } from 'data/types/core.types';
+import { IApiClient } from "api/apiClients/types";
+import { apiConfig } from "config/apiConfig";
+import { IRequestOptions } from "data/types/core.types";
 import {
   IGetCustomersParams,
   ICustomer,
@@ -8,21 +8,21 @@ import {
   ICustomersResponse,
   ICustomersSortedResponse,
   ICustomerOrdersResponse,
-} from 'data/types/customer.types';
-import { convertRequestParams } from 'utils/queryParams.utils';
-import { logStep } from 'utils/report/logStep.utils';
+} from "data/types/customer.types";
+import { convertRequestParams } from "utils/queryParams.utils";
+import { logStep } from "utils/report/logStep.utils";
 
 export class CustomersApi {
   constructor(private apiClient: IApiClient) {}
 
-  @logStep('POST /api/customers')
+  @logStep("POST /api/customers")
   async create(customer: ICustomer, token: string) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL, //backend url
       url: apiConfig.endpoints.customers, //endpoint address
-      method: 'post',
+      method: "post",
       headers: {
-        'content-type': 'application/json',
+        "content-type": "application/json",
         Authorization: `Bearer ${token}`,
       },
       data: customer,
@@ -30,14 +30,14 @@ export class CustomersApi {
     return await this.apiClient.send<ICustomerResponse>(options);
   }
 
-  @logStep('PUT /api/customers{id}')
+  @logStep("PUT /api/customers{id}")
   async update(id: string, newCustomer: ICustomer, token: string) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,
       url: apiConfig.endpoints.customerById(id),
-      method: 'put',
+      method: "put",
       headers: {
-        'content-type': 'application/json',
+        "content-type": "application/json",
         Authorization: `Bearer ${token}`,
       },
       data: newCustomer,
@@ -46,14 +46,14 @@ export class CustomersApi {
     return await this.apiClient.send<ICustomerResponse>(options);
   }
 
-  @logStep('GET /api/customers/{id}')
+  @logStep("GET /api/customers/{id}")
   async getById(id: string, token: string) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,
       url: apiConfig.endpoints.customerById(id),
-      method: 'get',
+      method: "get",
       headers: {
-        'content-type': 'application/json',
+        "content-type": "application/json",
         Authorization: `Bearer ${token}`,
       },
     };
@@ -61,14 +61,14 @@ export class CustomersApi {
     return await this.apiClient.send<ICustomerResponse>(options);
   }
 
-  @logStep('GET /api/customers/all')
+  @logStep("GET /api/customers/all")
   async getAll(token: string) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,
       url: apiConfig.endpoints.customersAll,
-      method: 'get',
+      method: "get",
       headers: {
-        'content-type': 'application/json',
+        "content-type": "application/json",
         Authorization: `Bearer ${token}`,
       },
     };
@@ -76,14 +76,14 @@ export class CustomersApi {
     return await this.apiClient.send<ICustomersResponse>(options);
   }
 
-  @logStep('GET /api/customers') //sorted
+  @logStep("GET /api/customers") //sorted
   async getSorted(token: string, params?: Partial<IGetCustomersParams>) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,
-      url: apiConfig.endpoints.customers + (params ? convertRequestParams(params) : ''),
-      method: 'get',
+      url: apiConfig.endpoints.customers + (params ? convertRequestParams(params) : ""),
+      method: "get",
       headers: {
-        'content-type': 'application/json',
+        "content-type": "application/json",
         Authorization: `Bearer ${token}`,
       },
     };
@@ -91,14 +91,14 @@ export class CustomersApi {
     return await this.apiClient.send<ICustomersSortedResponse>(options);
   }
 
-  @logStep('DELETE /api/customers/{id}')
+  @logStep("DELETE /api/customers/{id}")
   async delete(id: string, token: string) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,
       url: apiConfig.endpoints.customerById(id),
-      method: 'delete',
+      method: "delete",
       headers: {
-        'content-type': 'application/json',
+        "content-type": "application/json",
         Authorization: `Bearer ${token}`,
       },
     };
@@ -106,14 +106,14 @@ export class CustomersApi {
     return await this.apiClient.send<null>(options);
   }
   // --------------------------
-  @logStep('GET /api/customers/id/orders')
+  @logStep("GET /api/customers/id/orders")
   async getCustomerOrders(id: string, token: string) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,
       url: apiConfig.endpoints.customerOrders(id),
-      method: 'get',
+      method: "get",
       headers: {
-        'content-type': 'application/json',
+        "content-type": "application/json",
         Authorization: `Bearer ${token}`,
       },
     };

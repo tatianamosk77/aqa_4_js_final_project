@@ -1,16 +1,16 @@
-import { obligatoryFieldsSchema, obligatoryRequredFields } from '../core.schema';
-import { customerSchema } from './customer.schema';
+import { obligatoryFieldsSchema, obligatoryRequredFields } from "../core.schema";
+import { customerSchema } from "./customer.schema";
 
 export const getAllCustomersSchema = {
-  type: 'object',
+  type: "object",
   properties: {
     Customers: {
-      type: 'array',
+      type: "array",
       items: {
         ...customerSchema,
       },
     },
     ...obligatoryFieldsSchema,
   },
-  required: ['Customers', ...obligatoryRequredFields],
+  required: ["Customers", ...obligatoryRequredFields],
 };

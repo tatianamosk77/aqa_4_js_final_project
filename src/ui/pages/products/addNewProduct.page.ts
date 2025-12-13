@@ -16,7 +16,8 @@ export class AddNewProductPage extends SalesPortalPage {
   @logStep("Fill in product form for creation")
   async fillForm(productData: Partial<IProduct>) {
     if (productData.name) await this.nameInput.fill(productData.name);
-    if (productData.manufacturer) await this.manufacturerSelect.selectOption(productData.manufacturer);
+    if (productData.manufacturer)
+      await this.manufacturerSelect.selectOption(productData.manufacturer);
     if (productData.price) await this.priceInput.fill(productData.price.toString());
     if (productData.amount) await this.amountInput.fill(productData.amount.toString());
     if (productData.notes) await this.notesInput.fill(productData.notes);

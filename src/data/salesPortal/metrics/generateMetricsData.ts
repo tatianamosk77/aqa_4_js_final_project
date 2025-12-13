@@ -47,7 +47,8 @@ export function generateMetricsData(overrides?: Partial<IMetricsResponse>): IMet
 }
 
 function generateCustomerGrowthData() {
-  const { START_YEAR, START_MONTH, START_DAY, DAYS_COUNT, DAYS_IN_MONTH } = DEFAULT_METRICS.DATE_RANGE;
+  const { START_YEAR, START_MONTH, START_DAY, DAYS_COUNT, DAYS_IN_MONTH } =
+    DEFAULT_METRICS.DATE_RANGE;
 
   return Array.from({ length: DAYS_COUNT }, (_, index) => {
     const daysFromStart = index;
@@ -71,7 +72,7 @@ function deepMerge(target: any, source: any): any {
 
   const result = { ...target };
   for (const key in source) {
-    if (source.hasOwnProperty(key)) {
+    if (Object.prototype.hasOwnProperty.call(source, key)) {
       if (typeof source[key] === "object" && !Array.isArray(source[key])) {
         result[key] = deepMerge(target[key], source[key]);
       } else {

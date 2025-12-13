@@ -1,8 +1,8 @@
-import { Page } from '@playwright/test';
-import { HomeModuleButton, HomePage } from 'ui/pages/home.page';
-import { ProductsListPage } from 'ui/pages/products/productsList.page';
-import { CustomersListPage } from 'ui/pages/customers/customerListPage';
-import { logStep } from 'utils/report/logStep.utils';
+import { Page } from "@playwright/test";
+import { HomeModuleButton, HomePage } from "ui/pages/home.page";
+import { ProductsListPage } from "ui/pages/products/productsList.page";
+import { CustomersListPage } from "ui/pages/customers/customerListPage";
+import { logStep } from "utils/report/logStep.utils";
 
 export class HomeUIService {
   homePage: HomePage;
@@ -14,14 +14,14 @@ export class HomeUIService {
     this.customersListPage = new CustomersListPage(page);
   }
 
-  @logStep('Open module on Home page')
+  @logStep("Open module on Home page")
   async openModule(moduleName: HomeModuleButton) {
     await this.homePage.clickOnViewModule(moduleName);
 
-    if (moduleName === 'Products') {
+    if (moduleName === "Products") {
       await this.productsListPage.waitForOpened();
     }
-    if (moduleName === 'Customers') {
+    if (moduleName === "Customers") {
       await this.customersListPage.waitForOpened();
     }
   }

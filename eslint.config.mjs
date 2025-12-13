@@ -23,6 +23,12 @@ export default [
     },
   },
   {
-    ignores: ["node_modules", "**/dist/**", "eslint.config.mts", "playwright-report", "test-results"],
+    ignores: [
+      "node_modules",
+      "**/dist/**",
+      "eslint.config.mts",
+      "playwright-report",
+      "test-results",
+    ],
   },
 ];

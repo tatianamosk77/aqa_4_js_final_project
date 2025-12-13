@@ -76,7 +76,8 @@ test.describe("[API] [Sales Portal] [Orders] [Update]", () => {
     return { orderId: created._id, customerId: customer._id, productId: product._id };
   }
 
-  test("Should update order with all valid data (token, valid customerId, productId)",
+  test(
+    "Should update order with all valid data (token, valid customerId, productId)",
     { tag: [TAGS.API, TAGS.REGRESSION, TAGS.SMOKE] },
     async ({ customersApiService, productsApiService, ordersApiService, ordersController }) => {
       await createBaseOrderFx({ token, customersApiService, productsApiService, ordersApiService });
@@ -126,7 +127,8 @@ test.describe("[API] [Sales Portal] [Orders] [Update]", () => {
     }
   );
 
-  test("Should NOT update order with invalid token",
+  test(
+    "Should NOT update order with invalid token",
     { tag: [TAGS.API, TAGS.REGRESSION] },
     async ({ customersApiService, productsApiService, ordersApiService, ordersController }) => {
       const invalidToken = "Invalid access token";
@@ -153,7 +155,8 @@ test.describe("[API] [Sales Portal] [Orders] [Update]", () => {
     }
   );
 
-  test("Should NOT update order without token",
+  test(
+    "Should NOT update order without token",
     { tag: [TAGS.API, TAGS.REGRESSION] },
     async ({ customersApiService, productsApiService, ordersApiService, ordersController }) => {
       const emptyToken = "";
@@ -180,7 +183,8 @@ test.describe("[API] [Sales Portal] [Orders] [Update]", () => {
     }
   );
 
-  test("Should NOT update order with customer value missing",
+  test(
+    "Should NOT update order with customer value missing",
     { tag: [TAGS.API, TAGS.REGRESSION] },
     async ({ customersApiService, productsApiService, ordersApiService, ordersController }) => {
       const fx = await createBaseOrderFx({
@@ -205,7 +209,8 @@ test.describe("[API] [Sales Portal] [Orders] [Update]", () => {
     }
   );
 
-  test("Should NOT update order with non-existent customerId",
+  test(
+    "Should NOT update order with non-existent customerId",
     { tag: [TAGS.API, TAGS.REGRESSION] },
     async ({ customersApiService, productsApiService, ordersApiService, ordersController }) => {
       const fx = await createBaseOrderFx({
@@ -232,7 +237,8 @@ test.describe("[API] [Sales Portal] [Orders] [Update]", () => {
     }
   );
 
-  test("Should NOT update order without products (empty array)",
+  test(
+    "Should NOT update order without products (empty array)",
     { tag: [TAGS.API, TAGS.REGRESSION] },
     async ({ customersApiService, productsApiService, ordersApiService, ordersController }) => {
       const fx = await createBaseOrderFx({
@@ -257,7 +263,8 @@ test.describe("[API] [Sales Portal] [Orders] [Update]", () => {
     }
   );
 
-  test("Should NOT update order with 1 invalid productId",
+  test(
+    "Should NOT update order with 1 invalid productId",
     { tag: [TAGS.API, TAGS.REGRESSION] },
     async ({ customersApiService, productsApiService, ordersApiService, ordersController }) => {
       const fx = await createBaseOrderFx({
@@ -284,7 +291,8 @@ test.describe("[API] [Sales Portal] [Orders] [Update]", () => {
     }
   );
 
-  test("Should NOT update order if one of productIds is invalid",
+  test(
+    "Should NOT update order if one of productIds is invalid",
     { tag: [TAGS.API, TAGS.REGRESSION] },
     async ({ customersApiService, productsApiService, ordersApiService, ordersController }) => {
       const [customer, products] = await Promise.all([

@@ -1,5 +1,5 @@
-import { NotificationService } from 'utils/notifications/notifications.service';
-import { TelegramService } from 'utils/notifications/telegram.service';
+import { NotificationService } from "utils/notifications/notifications.service";
+import { TelegramService } from "utils/notifications/telegram.service";
 
 export default async function () {
   if (!process.env.CI) return;

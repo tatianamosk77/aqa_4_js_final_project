@@ -1,15 +1,15 @@
-import { test, expect } from 'fixtures/business.fixture';
-import { NOTIFICATIONS } from 'data/salesPortal/notifications';
-import _ from 'lodash';
-import { convertToDateAndTime } from 'utils/date.utils';
-import { TAGS } from 'data/tags';
+import { test, expect } from "fixtures/business.fixture";
+import { NOTIFICATIONS } from "data/salesPortal/notifications";
+import _ from "lodash";
+import { convertToDateAndTime } from "utils/date.utils";
+import { TAGS } from "data/tags";
 
-test.describe('[Sales Portal] [Customers] [E2E Update]', async () => {
-  let id = '';
-  let token = '';
+test.describe("[Sales Portal] [Customers] [E2E Update]", async () => {
+  let id = "";
+  let token = "";
 
   test(
-    'Update customer with services',
+    "Update customer with services",
     {
       tag: [TAGS.SMOKE, TAGS.REGRESSION, TAGS.CUSTOMERS, TAGS.UI],
     },
@@ -34,7 +34,7 @@ test.describe('[Sales Portal] [Customers] [E2E Update]', async () => {
       const actual = await customerDetailsPage.getData();
 
       expect(actual).toEqual({
-        ..._.omit(editedCustomer, ['_id']),
+        ..._.omit(editedCustomer, ["_id"]),
         createdOn: convertToDateAndTime(editedCustomer.createdOn),
       });
     }
@@ -42,6 +42,6 @@ test.describe('[Sales Portal] [Customers] [E2E Update]', async () => {
 
   test.afterEach(async ({ customersApiService }) => {
     if (id) await customersApiService.delete(token, id);
-    id = '';
+    id = "";
   });
 });

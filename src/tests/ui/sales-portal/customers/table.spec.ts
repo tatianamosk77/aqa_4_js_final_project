@@ -1,15 +1,15 @@
-import test, { expect } from '@playwright/test';
-import { generateCustomerDataNew } from 'data/salesPortal/customers/generateCustomerData';
-import { NOTIFICATIONS } from 'data/salesPortal/notifications';
-import _ from 'lodash';
-import { HomePage } from 'ui/pages/home.page';
-import { AddNewCustomerPage } from 'ui/pages/customers/addNewCustomerPage';
-import { CustomersListPage } from 'ui/pages/customers/customerListPage';
-import { TAGS } from 'data/tags';
+import test, { expect } from "@playwright/test";
+import { generateCustomerDataNew } from "data/salesPortal/customers/generateCustomerData";
+import { NOTIFICATIONS } from "data/salesPortal/notifications";
+import _ from "lodash";
+import { HomePage } from "ui/pages/home.page";
+import { AddNewCustomerPage } from "ui/pages/customers/addNewCustomerPage";
+import { CustomersListPage } from "ui/pages/customers/customerListPage";
+import { TAGS } from "data/tags";
 
-test.describe('[Sales Portal] [Customers]', () => {
+test.describe("[Sales Portal] [Customers]", () => {
   test(
-    'Table parsing',
+    "Table parsing",
     {
       tag: [TAGS.REGRESSION, TAGS.CUSTOMERS, TAGS.UI],
     },
@@ -20,7 +20,7 @@ test.describe('[Sales Portal] [Customers]', () => {
 
       await homePage.open();
       await homePage.waitForOpened();
-      await homePage.clickOnViewModule('Customers');
+      await homePage.clickOnViewModule("Customers");
       await customersListPage.waitForOpened();
       await customersListPage.clickAddNewCustomer();
       await addNewCustomerPage.waitForOpened();
@@ -35,8 +35,8 @@ test.describe('[Sales Portal] [Customers]', () => {
 
       const customerFromTable = await customersListPage.getCustomerData(customerData.email);
 
-      const expectedCustomerInTable = _.pick(customerData, ['email', 'name', 'country']);
-      const actualCustomerInTable = _.omit(customerFromTable, ['createdOn']);
+      const expectedCustomerInTable = _.pick(customerData, ["email", "name", "country"]);
+      const actualCustomerInTable = _.omit(customerFromTable, ["createdOn"]);
 
       expect(actualCustomerInTable).toEqual(expectedCustomerInTable);
 

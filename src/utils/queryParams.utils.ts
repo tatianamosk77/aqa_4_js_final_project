@@ -7,7 +7,9 @@
  *          properly encoded and concatenated by '&'. If no parameters are provided,
  *          returns an empty string.
  */
-export function convertRequestParams<T extends Record<string, string | number | Array<string>>>(params: T) {
+export function convertRequestParams<T extends Record<string, string | number | Array<string>>>(
+  params: T
+) {
   if (!params) return "";
   let url = "?";
   for (const key of Object.keys(params)) {

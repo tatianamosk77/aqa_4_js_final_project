@@ -12,11 +12,14 @@ interface ITestData {
   expectedErrorMessage?: string;
 }
 
-const createProduct = (overrides: Partial<IProduct>): Partial<IProduct> => generateProductData(overrides);
+const createProduct = (overrides: Partial<IProduct>): Partial<IProduct> =>
+  generateProductData(overrides);
 
-const createNegativeProduct = (overrides: Partial<IProduct>): Partial<IProduct> => generateProductData(overrides);
+const createNegativeProduct = (overrides: Partial<IProduct>): Partial<IProduct> =>
+  generateProductData(overrides);
 
-const omitField = (field: keyof IProduct): Partial<IProduct> => _.omit(generateProductData(), field);
+const omitField = (field: keyof IProduct): Partial<IProduct> =>
+  _.omit(generateProductData(), field);
 
 export const createProductPositiveCases: ITestData[] = [
   {

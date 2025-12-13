@@ -1,12 +1,12 @@
-import { test, expect } from 'fixtures/business.fixture';
-import { TAGS } from 'data/tags';
-import { customerOrdersSchema } from 'data/schemas/orders/order.schema';
-import { generateCustomerOrdersResponse } from 'data/salesPortal/orders/generateOrderData';
-import { validateJsonSchema } from 'utils/validation/validateSchema.utils';
+import { test, expect } from "fixtures/business.fixture";
+import { TAGS } from "data/tags";
+import { customerOrdersSchema } from "data/schemas/orders/order.schema";
+import { generateCustomerOrdersResponse } from "data/salesPortal/orders/generateOrderData";
+import { validateJsonSchema } from "utils/validation/validateSchema.utils";
 
-test.describe('[API] [Sales Portal] [Customers]', () => {
+test.describe("[API] [Sales Portal] [Customers]", () => {
   const ids: string[] = [];
-  const token = '';
+  const token = "";
 
   test.afterEach(async ({ customersApiService }) => {
     if (ids.length) {
@@ -18,15 +18,15 @@ test.describe('[API] [Sales Portal] [Customers]', () => {
   });
 
   test(
-    'Get Customer Orders - Schema Validation',
+    "Get Customer Orders - Schema Validation",
     {
       tag: [TAGS.REGRESSION, TAGS.CUSTOMERS, TAGS.API],
     },
     async () => {
-      const customerId = '19308a48c1b03ca52a43f6a8'; // any id
+      const customerId = "19308a48c1b03ca52a43f6a8"; // any id
       const mockOrdersResponse = generateCustomerOrdersResponse(customerId, 3);
 
-      console.log('Generated mock data:', JSON.stringify(mockOrdersResponse, null, 2));
+      console.log("Generated mock data:", JSON.stringify(mockOrdersResponse, null, 2));
 
       validateJsonSchema(customerOrdersSchema, mockOrdersResponse);
 
@@ -36,11 +36,11 @@ test.describe('[API] [Sales Portal] [Customers]', () => {
 
       mockOrdersResponse.Orders.forEach(order => {
         expect(order.customer).toBe(customerId);
-        expect(order).toHaveProperty('_id');
-        expect(order).toHaveProperty('status');
-        expect(order).toHaveProperty('products');
-        expect(order).toHaveProperty('total_price');
-        expect(order).toHaveProperty('createdOn');
+        expect(order).toHaveProperty("_id");
+        expect(order).toHaveProperty("status");
+        expect(order).toHaveProperty("products");
+        expect(order).toHaveProperty("total_price");
+        expect(order).toHaveProperty("createdOn");
 
         if (order.products.length > 0) {
           const calculatedTotal = order.products.reduce(
