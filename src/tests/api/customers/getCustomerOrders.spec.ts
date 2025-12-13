@@ -35,12 +35,17 @@ test.describe('[API] [Sales Portal] [Customers]', () => {
       expect(mockOrdersResponse.ErrorMessage).toBeNull();
 
       mockOrdersResponse.Orders.forEach(order => {
-        expect(order.customer).toBe(customerId);
-        expect(order).toHaveProperty('_id');
-        expect(order).toHaveProperty('status');
-        expect(order).toHaveProperty('products');
-        expect(order).toHaveProperty('total_price');
-        expect(order).toHaveProperty('createdOn');
+      const customer = order.customer as unknown;
+
+      const customerIdFromOrder =
+      typeof customer === 'string' ? customer : (customer as { _id: string })._id;
+
+      expect(customerIdFromOrder).toBe(customerId);
+      expect(order).toHaveProperty('_id');
+      expect(order).toHaveProperty('status');
+      expect(order).toHaveProperty('products');
+      expect(order).toHaveProperty('total_price');
+      expect(order).toHaveProperty('createdOn');
 
         if (order.products.length > 0) {
           const calculatedTotal = order.products.reduce(

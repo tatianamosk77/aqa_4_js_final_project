@@ -1,6 +1,6 @@
 import { OrdersApi } from "api/api/orders.api";
 import { IOrderDelivery, IOrderData, IOrderRequestParams } from "data/types/order.types";
-import { ORDER_STATUS } from "data/orders/statuses.data";
+import { ORDER_STATUS } from "data/salesPortal/orders/statuses.data";
 import { logStep } from "utils/report/logStep.utils";
 
 export class OrdersAPIController {

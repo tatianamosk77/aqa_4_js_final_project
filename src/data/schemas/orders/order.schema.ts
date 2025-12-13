@@ -1,6 +1,6 @@
 import { obligatoryFieldsSchema, obligatoryRequredFields } from "../core.schema";
 import { customerSchema } from "data/schemas/customers/customer.schema";
-import { ORDER_STATUS } from "data/orders/statuses.data";
+import { ORDER_STATUS } from "data/salesPortal/orders/statuses.data";
 import { commentOrderSchema } from "data/schemas/comments/orderComments.schema";
 import { ordersMetaSchema } from "../base.schemas";
 
@@ -78,7 +78,7 @@ export const assignedManagerSchema = {
       type: "array",
       items: { type: "string" },
     },
-    createdOn: { type: "string" }, 
+    createdOn: { type: "string" },
   },
   required: ["_id", "username", "firstName", "lastName", "roles", "createdOn"],
   additionalProperties: false,
@@ -181,7 +181,7 @@ export const getCustomerOrdersSchema = {
   properties: {
     Orders: {
       type: "array",
-      items: orderInListSchema 
+      items: orderInListSchema,
     },
     ...obligatoryFieldsSchema,
   },

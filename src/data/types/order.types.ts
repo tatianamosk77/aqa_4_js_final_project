@@ -1,8 +1,8 @@
 import { IResponseFields, SortOrder } from "data/types/core.types";
 import { IProduct } from "./product.types";
-import { ORDER_STATUS } from "data/orders/statuses.data";
+import { ORDER_STATUS } from "data/salesPortal/orders/statuses.data";
 import { COUNTRIES } from "data/salesPortal/customers/countries";
-import { DELIVERY, LOCATION } from "data/orders/delivery.data";
+import { DELIVERY, LOCATION } from "data/salesPortal/orders/delivery.data";
 import { ICustomerFromResponse } from "./customer.types";
 
 export interface IOrderProduct {

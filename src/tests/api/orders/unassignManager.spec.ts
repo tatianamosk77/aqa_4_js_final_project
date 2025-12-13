@@ -5,7 +5,7 @@ import { validateResponse } from "utils/validation/validateResponse.utils";
 import { getOrderSchema } from "data/schemas/orders/getOrder.schema";
 import { errorSchema } from "data/schemas/core.schema";
 import { generateID } from "utils/generateID.utils";
-import { ORDER_HISTORY_ACTIONS } from "data/orders/historyActions.data";
+import { ORDER_HISTORY_ACTIONS } from "data/salesPortal/orders/historyActions.data";
 
 test.describe("[API] [Sales Portal] [Orders] [Unassign Manager]", () => {
   test.describe.configure({ mode: "parallel" });
@@ -54,9 +54,16 @@ test.describe("[API] [Sales Portal] [Orders] [Unassign Manager]", () => {
     deps.productsApiService.delete(token, productId).catch(() => {});
   }
 
-  test("Should unassign manager with valid orderId and token",
+  test(
+    "Should unassign manager with valid orderId and token",
     { tag: [TAGS.API, TAGS.SMOKE, TAGS.REGRESSION] },
-    async ({ loginApiService, ordersController, ordersApiService, customersApiService, productsApiService }) => {
+    async ({
+      loginApiService,
+      ordersController,
+      ordersApiService,
+      customersApiService,
+      productsApiService,
+    }) => {
       const [token, admin] = await Promise.all([
         loginApiService.loginAsAdmin(),
         loginApiService.loginAsAdminWithUser(),
@@ -107,9 +114,16 @@ test.describe("[API] [Sales Portal] [Orders] [Unassign Manager]", () => {
     }
   );
 
-  test("Should NOT unassign manager with invalid token",
+  test(
+    "Should NOT unassign manager with invalid token",
     { tag: [TAGS.API, TAGS.REGRESSION] },
-    async ({ loginApiService, ordersController, ordersApiService, customersApiService, productsApiService }) => {
+    async ({
+      loginApiService,
+      ordersController,
+      ordersApiService,
+      customersApiService,
+      productsApiService,
+    }) => {
       const invalidToken = "Invalid access token";
 
       const [token, admin] = await Promise.all([
@@ -142,9 +156,16 @@ test.describe("[API] [Sales Portal] [Orders] [Unassign Manager]", () => {
     }
   );
 
-  test("Should NOT unassign manager without token",
+  test(
+    "Should NOT unassign manager without token",
     { tag: [TAGS.API, TAGS.REGRESSION] },
-    async ({ loginApiService, ordersController, ordersApiService, customersApiService, productsApiService }) => {
+    async ({
+      loginApiService,
+      ordersController,
+      ordersApiService,
+      customersApiService,
+      productsApiService,
+    }) => {
       const emptyToken = "";
 
       const [token, admin] = await Promise.all([
@@ -177,7 +198,8 @@ test.describe("[API] [Sales Portal] [Orders] [Unassign Manager]", () => {
     }
   );
 
-  test("Should NOT unassign manager with invalid orderId format",
+  test(
+    "Should NOT unassign manager with invalid orderId format",
     { tag: [TAGS.API, TAGS.REGRESSION] },
     async ({ loginApiService, ordersController }) => {
       const token = await loginApiService.loginAsAdmin();
@@ -186,7 +208,8 @@ test.describe("[API] [Sales Portal] [Orders] [Unassign Manager]", () => {
     }
   );
 
-  test("Should NOT unassign manager with non-existent orderId",
+  test(
+    "Should NOT unassign manager with non-existent orderId",
     { tag: [TAGS.API, TAGS.REGRESSION] },
     async ({ loginApiService, ordersController }) => {
       const token = await loginApiService.loginAsAdmin();
@@ -203,9 +226,16 @@ test.describe("[API] [Sales Portal] [Orders] [Unassign Manager]", () => {
     }
   );
 
-  test("Should allow unassigning when no manager is assigned (no error, history added)",
+  test(
+    "Should allow unassigning when no manager is assigned (no error, history added)",
     { tag: [TAGS.API, TAGS.REGRESSION] },
-    async ({ loginApiService, ordersController, ordersApiService, customersApiService, productsApiService }) => {
+    async ({
+      loginApiService,
+      ordersController,
+      ordersApiService,
+      customersApiService,
+      productsApiService,
+    }) => {
       const token = await loginApiService.loginAsAdmin();
 
       const fx = await createOrderFx({

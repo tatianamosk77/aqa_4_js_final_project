@@ -1,6 +1,6 @@
 import { faker } from '@faker-js/faker';
 import { COUNTRIES } from './countries';
-import { ICustomer } from 'data/types/customer.types';
+import { ICustomer, ICustomerFromResponse } from 'data/types/customer.types';
 
 // Валидные значения country для API (исключаем UK, так как API принимает только "Great Britain")
 const VALID_COUNTRIES = [
@@ -45,3 +45,21 @@ export function generateCustomerDataNew(params?: Partial<ICustomer>): ICustomer 
     ...params,
   };
 }
+
+export function generateCustomerFromResponse(
+  params?: Partial<ICustomerFromResponse> & { _id?: string }
+): ICustomerFromResponse {
+  const base = generateCustomerDataNew(params);
+
+  return {
+    _id: params?._id ?? faker.database.mongodbObjectId(),
+    createdOn: params?.createdOn ?? faker.date.recent().toISOString(),
+
+    ...base,
+    notes: (params as any)?.notes ?? base.notes ?? faker.string.alphanumeric({ length: 250 }),
+    ...params,
+  } as ICustomerFromResponse;
+}
+
+
+

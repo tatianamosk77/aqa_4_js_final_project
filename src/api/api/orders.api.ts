@@ -1,23 +1,28 @@
-import { IApiClient } from 'api/apiClients/types';
-import { apiConfig } from 'config/apiConfig';
-import { IRequestOptions } from 'data/types/core.types';
-import { IOrderData, IOrderFilteredResponse, IOrderRequestParams, IOrderResponse } from 'data/types/order.types';
-import { ORDER_STATUS } from 'data/orders/statuses.data';
-import { IOrderDelivery } from 'data/types/order.types';
-import { convertRequestParams } from 'utils/queryParams.utils';
-import { logStep } from 'utils/report/logStep.utils';
+import { IApiClient } from "api/apiClients/types";
+import { apiConfig } from "config/apiConfig";
+import { IRequestOptions } from "data/types/core.types";
+import {
+  IOrderData,
+  IOrderFilteredResponse,
+  IOrderRequestParams,
+  IOrderResponse,
+} from "data/types/order.types";
+import { ORDER_STATUS } from "data/salesPortal/orders/statuses.data";
+import { IOrderDelivery } from "data/types/order.types";
+import { convertRequestParams } from "utils/queryParams.utils";
+import { logStep } from "utils/report/logStep.utils";
 
 export class OrdersApi {
   constructor(private apiClient: IApiClient) {}
 
-  @logStep('POST /api/orders')
+  @logStep("POST /api/orders")
   async create(order: IOrderData, token: string) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,
       url: apiConfig.endpoints.orders,
-      method: 'post',
+      method: "post",
       headers: {
-        'content-type': 'application/json',
+        "content-type": "application/json",
         Authorization: `Bearer ${token}`,
       },
       data: order,
@@ -25,23 +30,23 @@ export class OrdersApi {
     return await this.apiClient.send<IOrderResponse>(options);
   }
 
-  @logStep('GET /api/orders/{id}')
+  @logStep("GET /api/orders/{id}")
   async getById(id: string, token: string) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,
       url: apiConfig.endpoints.orderById(id),
-      method: 'get',
+      method: "get",
       headers: {
-        'content-type': 'application/json',
+        "content-type": "application/json",
         Authorization: `Bearer ${token}`,
       },
     };
     return await this.apiClient.send<IOrderResponse>(options);
   }
 
-  @logStep('GET /api/orders')
+  @logStep("GET /api/orders")
   async getFiltered(token: string, params?: Partial<IOrderRequestParams>) {
-    let queryString = '';
+    let queryString = "";
     if (params) {
       const filteredParams: Record<string, string | number | string[]> = {};
       for (const [key, value] of Object.entries(params)) {
@@ -50,29 +55,29 @@ export class OrdersApi {
         }
       }
       queryString =
-        Object.keys(filteredParams).length > 0 ? convertRequestParams(filteredParams) : '';
+        Object.keys(filteredParams).length > 0 ? convertRequestParams(filteredParams) : "";
     }
 
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,
       url: apiConfig.endpoints.orders + queryString,
-      method: 'get',
+      method: "get",
       headers: {
-        'content-type': 'application/json',
+        "content-type": "application/json",
         Authorization: `Bearer ${token}`,
       },
     };
     return await this.apiClient.send<IOrderFilteredResponse>(options);
   }
 
-  @logStep('PUT /api/orders/{id}')
+  @logStep("PUT /api/orders/{id}")
   async update(id: string, order: IOrderData, token: string) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,
       url: apiConfig.endpoints.orderById(id),
-      method: 'put',
+      method: "put",
       headers: {
-        'content-type': 'application/json',
+        "content-type": "application/json",
         Authorization: `Bearer ${token}`,
       },
       data: order,
@@ -80,56 +85,56 @@ export class OrdersApi {
     return await this.apiClient.send<IOrderResponse>(options);
   }
 
-  @logStep('DELETE /api/orders/{id}')
+  @logStep("DELETE /api/orders/{id}")
   async delete(id: string, token: string) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,
       url: apiConfig.endpoints.orderById(id),
-      method: 'delete',
+      method: "delete",
       headers: {
-        'content-type': 'application/json',
+        "content-type": "application/json",
         Authorization: `Bearer ${token}`,
       },
     };
     return await this.apiClient.send<null>(options);
   }
 
-  @logStep('PUT /api/orders/{id}/assign-manager/{managerId}')
+  @logStep("PUT /api/orders/{id}/assign-manager/{managerId}")
   async assignManager(orderId: string, managerId: string, token: string) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,
       url: apiConfig.endpoints.orderAssignManager(orderId, managerId),
-      method: 'put',
+      method: "put",
       headers: {
-        'content-type': 'application/json',
+        "content-type": "application/json",
         Authorization: `Bearer ${token}`,
       },
     };
     return await this.apiClient.send<IOrderResponse>(options);
   }
 
-  @logStep('PUT /api/orders/{id}/unassign-manager')
+  @logStep("PUT /api/orders/{id}/unassign-manager")
   async unassignManager(orderId: string, token: string) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,
       url: apiConfig.endpoints.orderUnassignManager(orderId),
-      method: 'put',
+      method: "put",
       headers: {
-        'content-type': 'application/json',
+        "content-type": "application/json",
         Authorization: `Bearer ${token}`,
       },
     };
     return await this.apiClient.send<IOrderResponse>(options);
   }
 
-  @logStep('POST /api/orders/{id}/comments')
+  @logStep("POST /api/orders/{id}/comments")
   async addComment(id: string, text: string, token: string) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,
       url: apiConfig.endpoints.orderComment(id),
-      method: 'post',
+      method: "post",
       headers: {
-        'content-type': 'application/json',
+        "content-type": "application/json",
         Authorization: `Bearer ${token}`,
       },
       data: { comment: text },
@@ -137,28 +142,28 @@ export class OrdersApi {
     return await this.apiClient.send<IOrderResponse>(options);
   }
 
-  @logStep('DELETE /api/orders/{orderId}/comments/{commentId}')
+  @logStep("DELETE /api/orders/{orderId}/comments/{commentId}")
   async deleteComment(orderId: string, commentId: string, token: string) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,
       url: apiConfig.endpoints.orderCommentById(orderId, commentId),
-      method: 'delete',
+      method: "delete",
       headers: {
-        'content-type': 'application/json',
+        "content-type": "application/json",
         Authorization: `Bearer ${token}`,
       },
     };
     return await this.apiClient.send<IOrderResponse>(options);
   }
 
-  @logStep('POST /api/orders/{id}/delivery')
+  @logStep("POST /api/orders/{id}/delivery")
   async updateDelivery(id: string, delivery: IOrderDelivery, token: string) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,
       url: apiConfig.endpoints.orderDelivery(id),
-      method: 'post',
+      method: "post",
       headers: {
-        'content-type': 'application/json',
+        "content-type": "application/json",
         Authorization: `Bearer ${token}`,
       },
       data: delivery,
@@ -166,14 +171,14 @@ export class OrdersApi {
     return await this.apiClient.send<IOrderResponse>(options);
   }
 
-  @logStep('POST /api/orders/{id}/receive')
+  @logStep("POST /api/orders/{id}/receive")
   async receiveProducts(id: string, productIds: string[], token: string) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,
       url: apiConfig.endpoints.orderReceive(id),
-      method: 'post',
+      method: "post",
       headers: {
-        'content-type': 'application/json',
+        "content-type": "application/json",
         Authorization: `Bearer ${token}`,
       },
       data: { products: productIds },
@@ -181,14 +186,14 @@ export class OrdersApi {
     return await this.apiClient.send<IOrderResponse>(options);
   }
 
-  @logStep('PUT /api/orders/{id}/status')
+  @logStep("PUT /api/orders/{id}/status")
   async updateStatus(id: string, status: ORDER_STATUS, token: string) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,
       url: apiConfig.endpoints.orderStatus(id),
-      method: 'put',
+      method: "put",
       headers: {
-        'content-type': 'application/json',
+        "content-type": "application/json",
         Authorization: `Bearer ${token}`,
       },
       data: { status },
