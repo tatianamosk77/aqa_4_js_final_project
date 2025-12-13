@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:30:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-/jVzFAxOfwOx5kN9MOKQwHpLzgk\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d4e721c508c5d5ec0ace5",
+        "email": "Aubree51@hotmail.com",
+        "name": "Prudence Ellie",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 720,
+        "flat": 9933,
+        "phone": "+0841844878",
+        "createdOn": "2025-12-13T11:30:58.000Z",
+        "notes": "EyVSwmaFPZspjYU8n8zfZe5Rp9X9BMXlr7K1bEOp1MnelwSQXXHhFlP71e2NIzzYD2xJXAFr6YEQ5xP3n7GGFpfigDOurWLVBkhOicOKbfPzzz8lwSqmMwoIKORwjnv5ZIJPrDxOpBNMHs06W10kWGhvnaRRBxAftvDoUs2fZMG2m1stQBaYxhC4bHkD3G2abVeAQNGJpWDSwYUgSmO4ypHdvIeknY9jQaf8n7kA4rdPKhk8rOl1USdGG4"
+      },
+      "products": [
+        {
+          "_id": "693d4e731c508c5d5ec0acf5",
+          "name": "Pizza77390",
+          "amount": 413,
+          "price": 79397,
+          "manufacturer": "Google",
+          "notes": "91MhT3KJUQRV2hvcQajhEqnhbw852O2KPnlFF4JNosha6ZbqUIkRP0C66c5wYqSPYO2T2AqFF4mRyufHqme0l498Jk53CpibZSEXaSUdRfccRoUuAV2jwMNJgtdmeEPaXfjQDYxF9WaJkU4SL1tfAJPaq1Ruz6bPbu5k0Zus6E8bL2hVMpO1nty7mJxMpKNMsKpns1M77lWqiU9fQr8O25DCHYonRKKwWJOHf1OofwfWNp05zJtfSYffrj",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 79397,
+      "createdOn": "2025-12-13T11:30:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d4e721c508c5d5ec0ace5",
+          "products": [
+            {
+              "_id": "693d4e731c508c5d5ec0acf5",
+              "name": "Pizza77390",
+              "amount": 413,
+              "price": 79397,
+              "manufacturer": "Google",
+              "notes": "91MhT3KJUQRV2hvcQajhEqnhbw852O2KPnlFF4JNosha6ZbqUIkRP0C66c5wYqSPYO2T2AqFF4mRyufHqme0l498Jk53CpibZSEXaSUdRfccRoUuAV2jwMNJgtdmeEPaXfjQDYxF9WaJkU4SL1tfAJPaq1Ruz6bPbu5k0Zus6E8bL2hVMpO1nty7mJxMpKNMsKpns1M77lWqiU9fQr8O25DCHYonRKKwWJOHf1OofwfWNp05zJtfSYffrj",
+              "received": false
+            }
+          ],
+          "total_price": 79397,
+          "delivery": null,
+          "changedOn": "2025-12-13T11:30:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d4e731c508c5d5ec0ad36"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

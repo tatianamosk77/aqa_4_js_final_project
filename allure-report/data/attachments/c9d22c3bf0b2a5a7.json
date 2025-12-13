@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:29:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-J3JKD/jwDOTa0siBJ+OL1R5C0yI\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Maggie_Schiller@hotmail.com",
+      "name": "Katharina Kirk",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 348,
+      "flat": 9999,
+      "phone": "+5035673280",
+      "createdOn": "2025-12-13T11:29:36.000Z",
+      "notes": "AEkwTP25aTzuNwWyP5x5WXnemwwll3y37epDQe0DgWFCPHnbXuyzh180kkedi3lBpDgI7sEwOqMi4NG0nVBYwpHP3COe7NUo65ANNddgICg1y5hw9coasaDyyBawpWEjBOk6haUqyHSMSgzA9I8AlP3LuuBD5SP0JR61L1pF8kVewnExk3Vs14DV8VJeTq7maoJou6dFOtOjY0He71Pz8BBiuLMpR08DTdHnJ0Qzk51HhSshTQYpA9RQYz",
+      "_id": "693d4e201c508c5d5ec0970b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

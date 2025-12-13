@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:30:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-uUkXw+nr3EC7GMexkYtFD7g9b3I\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "William.Howell@yahoo.com",
+      "name": "Kelsie Bradford",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 276,
+      "flat": 6619,
+      "phone": "+4370041652",
+      "createdOn": "2025-12-13T11:30:15.000Z",
+      "notes": "2aIPKbV34by2SDXDRfUBiRP9RyQL9RKAIRQWZBMJrz2NriEcIsIKZpqgexA27jc8Ep8r6w8DHjd0OZ02i4rMYU9vkngOaBY2piUPT3hxxzybiGYgVtSidsRISDJKdlcnpVxh4RA7wYlSDPOZPzxdXJsPRW2M92U4Cu6XreT1nQigQpDFXUHrqNTAgaUrRrZo4sxMBcgFzE7jdWjhrRwVlji1TUjQmnAt1T4YLwDvCO9zDP4UU463mp5tEQ",
+      "_id": "693d4e471c508c5d5ec0a0a7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

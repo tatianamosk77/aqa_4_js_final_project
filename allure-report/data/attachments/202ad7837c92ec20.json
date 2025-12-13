@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:30:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-lO08P1ij230J6CY2E4DFFs/3WE4\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Edison60@hotmail.com",
+      "name": "Dimitri Casimir",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 248,
+      "flat": 2328,
+      "phone": "+1538463279",
+      "createdOn": "2025-12-13T11:30:46.000Z",
+      "notes": "Ga1mXTsopWYctuwsdC2OyYSCuizp1HHJFpKtMox5aT8tuvSBAGGdpJcQQyUOnFunNWVlq5N3PO7bYkbCPsCkHg78dZe6tSz8JslForECMc5shdFEIKCjRSS4jxlEavDwrAyXZnDlERcrkOCyNAQZVygHvVOCrCyhLjK7x54Opsn9QFNdTuXCfJ9htfdhM0gjL2JRbzUQcy5DXMRgBUW0B1EyY9FiwrfN1kS4L2mGtUtUCOGMCsa1FEwmuT",
+      "_id": "693d4e661c508c5d5ec0a903"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

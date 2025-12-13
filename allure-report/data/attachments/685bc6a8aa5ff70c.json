@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:31:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "537",
+    "etag": "W/\"219-zwHUlcWP6NXxgd78pEVx+3UDjM8\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Hank52@hotmail.com",
+      "name": "Betsy Faye",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 27,
+      "flat": 7174,
+      "phone": "+5095895074",
+      "createdOn": "2025-12-13T11:31:24.000Z",
+      "notes": "fGIWMXStZ0a3zSLmI2brsmSooE8i80QIywt7vc2LCOHKbxXw2toilqhzunbOWEZGARNGV5l3eAIoX2zsr2LHQ2yPorNfZV8jlPCZv5B4muyxBXnK3kGwr3yte7PO1jv31blnlKtWfAdyqD1bZLIkq2USyyQgJQfvSqf7GZwhQwlxaSOz13WTDw7pX7tk13bdfkh7Uv6EluszVtNIMCGqtN54Yjt5wZKDAg3DuJKIBDGq79f04osbXsnjg6",
+      "_id": "693d4e8c1c508c5d5ec0b3f0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

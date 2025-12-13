@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:30:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "256",
+    "etag": "W/\"100-UOnpK0+QpLe5q9gSNMfsczI/hmQ\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "_id": "693d4e461c508c5d5ec0a07d",
+      "email": "test666@test.com",
+      "name": "N",
+      "country": "Canada",
+      "city": "C",
+      "street": "S",
+      "house": 1,
+      "flat": 1,
+      "phone": "+7957091993",
+      "createdOn": "2025-12-13T11:30:14.000Z",
+      "notes": ""
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

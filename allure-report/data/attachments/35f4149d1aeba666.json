@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:31:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-Ee1E4xAJKgnPGEbciLwYzmJ1e1Q\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Agustina.Berge@hotmail.com",
+      "name": "Lenore Caesar",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 150,
+      "flat": 7689,
+      "phone": "+3288781067",
+      "createdOn": "2025-12-13T11:31:39.000Z",
+      "notes": "aFbJY1sYx2t9HbKgkpwT8Eya3XpI6SlQ2Py1zyiZQ0ZQqwjPp3qTeklpnRBo67b9KQ7CBpwAUrnPSoamfXGbbD1VJuwMH4wNSqjSCo2uZYMqcPEQ8TIu19yVP34D3TpTmvnQFqWiP9PDK8KNuR9fy4mPe7CkHFt9qNuqk97T8QygfgUOFnq7c0a7QT26BUjVXuNWNSxbapwP4dmYhwPP0M4nwyK4DEGDjskiNwsDakLGQU61d63IDOVGjS",
+      "_id": "693d4e9b1c508c5d5ec0b7f4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

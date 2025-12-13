@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:31:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2969",
+    "etag": "W/\"b99-ZLp2QkRlDY3YmFCbjfshk65LEp4\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693d4e811c508c5d5ec0b10e",
+      "status": "Draft",
+      "customer": {
+        "_id": "693d4e801c508c5d5ec0b0ce",
+        "email": "Gordon.Labadie@yahoo.com",
+        "name": "Florida Ben",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 366,
+        "flat": 9095,
+        "phone": "+3143773050",
+        "createdOn": "2025-12-13T11:31:12.000Z",
+        "notes": "fUz2RXRSH5X0pWsyBJRjiOPmyQKJI1GHeovlHcLMkrcY3UbSuX1tkZHXb8YPtDpDs2xHokZsJ6XIGuTlWOxkh2xiAXloY7gjGu97NMhx1ow6koABCiptUH4k9umct8vVrvYsL6hd0C70okoN4VV4zQX8Nwsm8c9pw8cFZGQNPlKGbhJklXJKxH13GdMbzzTCOnA0lOqH2mICc1GiyXX3R2L9UbGcfXpLWTrhKfi7f1rhLOpCTT3OUGTPJb"
+      },
+      "products": [
+        {
+          "_id": "693d4e801c508c5d5ec0b0ee",
+          "name": "Pants26971",
+          "amount": 269,
+          "price": 53829,
+          "manufacturer": "Microsoft",
+          "notes": "clMnN8vGo6A0P7LMVO413uwjzn8ywb4IL97adyJBKP5xXEWGbTtdBP4BcGP6aheTqsifZZLlhWGYNi1Isr6KNWMbv2lsfqLd09w3MOtx8xXMyVb4an3lQDz5lmoBQZmq73dLOoAa6pl5tJXT7B6OJO9Itm708e8DMIejZuVv694DQw87VTnr07Klq4odN1phgTx0hIiIqmrr5Gqq8U8jxiRuMmtApzcOSu5PCMzBQPtScImWt7RhdARriA",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Charlottesville",
+          "street": "679 S Franklin Street",
+          "house": 88,
+          "flat": 90
+        },
+        "finalDate": "2026-02-18T18:15:12.970Z",
+        "condition": "Delivery"
+      },
+      "total_price": 53829,
+      "createdOn": "2025-12-13T11:31:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d4e801c508c5d5ec0b0ce",
+          "products": [
+            {
+              "_id": "693d4e801c508c5d5ec0b0ee",
+              "name": "Pants26971",
+              "amount": 269,
+              "price": 53829,
+              "manufacturer": "Microsoft",
+              "notes": "clMnN8vGo6A0P7LMVO413uwjzn8ywb4IL97adyJBKP5xXEWGbTtdBP4BcGP6aheTqsifZZLlhWGYNi1Isr6KNWMbv2lsfqLd09w3MOtx8xXMyVb4an3lQDz5lmoBQZmq73dLOoAa6pl5tJXT7B6OJO9Itm708e8DMIejZuVv694DQw87VTnr07Klq4odN1phgTx0hIiIqmrr5Gqq8U8jxiRuMmtApzcOSu5PCMzBQPtScImWt7RhdARriA",
+              "received": false
+            }
+          ],
+          "total_price": 53829,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Charlottesville",
+              "street": "679 S Franklin Street",
+              "house": 88,
+              "flat": 90
+            },
+            "finalDate": "2026-02-18T18:15:12.970Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-13T11:31:14.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693d4e801c508c5d5ec0b0ce",
+          "products": [
+            {
+              "_id": "693d4e801c508c5d5ec0b0ee",
+              "name": "Pants26971",
+              "amount": 269,
+              "price": 53829,
+              "manufacturer": "Microsoft",
+              "notes": "clMnN8vGo6A0P7LMVO413uwjzn8ywb4IL97adyJBKP5xXEWGbTtdBP4BcGP6aheTqsifZZLlhWGYNi1Isr6KNWMbv2lsfqLd09w3MOtx8xXMyVb4an3lQDz5lmoBQZmq73dLOoAa6pl5tJXT7B6OJO9Itm708e8DMIejZuVv694DQw87VTnr07Klq4odN1phgTx0hIiIqmrr5Gqq8U8jxiRuMmtApzcOSu5PCMzBQPtScImWt7RhdARriA",
+              "received": false
+            }
+          ],
+          "total_price": 53829,
+          "delivery": null,
+          "changedOn": "2025-12-13T11:31:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:29:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "676",
+    "etag": "W/\"2a4-WQO0mqcZTk/yg5Nz1T33xjoJJkc\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "693d4e321c508c5d5ec09a52",
+        "email": "Phoebe_Waters96@gmail.com",
+        "name": "Natalie Audrey",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 457,
+        "flat": 4302,
+        "phone": "+5821850871",
+        "createdOn": "2025-12-13T11:29:54.000Z",
+        "notes": "CdgZRreWeeEALzeXgd7OUovXbjHjD3d4J2ZChClcAkfuZ5yUC3yuLayTgdzNZGU1gE7mxpzb9jLx5X2tDMXMwoDpKHSroVwHRrQUVGOYgRsg9schcHWs2Z5m1wO3rSVbdmrK9ndJfpD4yhpi1NYptzARwAN39QuxTEF8gtaKlzlntSXtAtZFt8YABClnqEBN85gRsSBIbPCIik6OPEZBve415YMSbYgbS2NJ1tn8sgfC16azWogdWPKiRx"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Natalie Audrey",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

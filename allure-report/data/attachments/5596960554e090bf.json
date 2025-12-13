@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:29:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "679",
+    "etag": "W/\"2a7-uFYlaZ+Hd174ADvmp99WGmD9nzE\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "693d4e351c508c5d5ec09b5f",
+        "email": "Jacquelyn74@gmail.com",
+        "name": "Kailee Zackery",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 689,
+        "flat": 2130,
+        "phone": "+1462345694",
+        "createdOn": "2025-12-13T11:29:57.000Z",
+        "notes": "FItwIOiSVQ6gnAZdVJXhRn2BOl91zDQKH6xedBwbgLOMiIdvgo8r8jadydawHFjlpp4CUNYUdohDufEohrsugoUkxLvCTZ50V8V6RnXQ7IMWLlxPhuAaMPklrRDIherTzWS4cdFD8XbgHy5AnovbOEV84M8z9Rk7V0cFIjhU4Zvsg28vCbVNrrPfxsuwEUCpFPsXFLZ5DgRyzuvU8ZwuLCorjVBczk0mwDsdSbufRjscSGToTTpxOAOZRL"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Jacquelyn74@gmail.com",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

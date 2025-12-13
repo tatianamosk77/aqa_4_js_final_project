@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:31:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1980",
+    "etag": "W/\"7bc-CtnFXXTUB4FMGezjfs139bBdNRk\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693d4e731c508c5d5ec0ad32",
+      "status": "Draft",
+      "customer": {
+        "_id": "693d4e721c508c5d5ec0ace7",
+        "email": "Dominique.Johns4@hotmail.com",
+        "name": "Maximillian Gussie",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 54,
+        "flat": 4817,
+        "phone": "+9097935665",
+        "createdOn": "2025-12-13T11:30:58.000Z",
+        "notes": "C9Q9vlstkbe4TjmU2mNBCPFjyYoiYNxXZzlID47aHY0fbU7knz2nBSOUjRBrekiCyH2HHmo6J6ag5x8rntMCQu9zwR2af1SG3Syza8kTeSuMJKioCzzwUCtakxeYDgDdQQJSs6cxagWHq1YuGoi0WTiKa3RmjWYMyFGyWfggUUMic8uKIcAnXa7xvYU0njNE9J7KagDtOBPejJzF6MRPBSFhbxiTMCQSXGF9yl1p64ikzcDffv2nbCNT0q"
+      },
+      "products": [
+        {
+          "_id": "693d4e731c508c5d5ec0acf1",
+          "name": "Soap94579",
+          "amount": 6,
+          "price": 9540,
+          "manufacturer": "Microsoft",
+          "notes": "XnJunntHoDkc8VhQPr0Wik5OxBThj45YSi9UfGOMxidzqWRfJJD17zNdZhxfDxoodfEbg8zc71nu1oSbFGl6I1Fy4ncsU0lmoa3M1B8WXcbBzuoQHS1Rc2bJsQJ9V8AD6plajEcFhjpr4mwZCK1cskwT3T3OmXou19KXpjpp7UOs8FKrOCGsOxdXieylvaTfWNP3zobNuN25beSGrGVjbw5cIRwcChmYsTXpBGF6rHYQzHkM8DQlEek92U",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 9540,
+      "createdOn": "2025-12-13T11:30:59.000Z",
+      "comments": [
+        {
+          "text": "autotest comment",
+          "createdOn": "2025-12-13T11:31:00.000Z",
+          "_id": "693d4e741c508c5d5ec0ad7d"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d4e721c508c5d5ec0ace7",
+          "products": [
+            {
+              "_id": "693d4e731c508c5d5ec0acf1",
+              "name": "Soap94579",
+              "amount": 6,
+              "price": 9540,
+              "manufacturer": "Microsoft",
+              "notes": "XnJunntHoDkc8VhQPr0Wik5OxBThj45YSi9UfGOMxidzqWRfJJD17zNdZhxfDxoodfEbg8zc71nu1oSbFGl6I1Fy4ncsU0lmoa3M1B8WXcbBzuoQHS1Rc2bJsQJ9V8AD6plajEcFhjpr4mwZCK1cskwT3T3OmXou19KXpjpp7UOs8FKrOCGsOxdXieylvaTfWNP3zobNuN25beSGrGVjbw5cIRwcChmYsTXpBGF6rHYQzHkM8DQlEek92U",
+              "received": false
+            }
+          ],
+          "total_price": 9540,
+          "delivery": null,
+          "changedOn": "2025-12-13T11:30:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

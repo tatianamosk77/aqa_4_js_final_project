@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:30:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-SaMzwis9cNFiaGZBQjJFZx+2Thw\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693d4e701c508c5d5ec0ac15",
+      "status": "Draft",
+      "customer": {
+        "_id": "693d4e6f1c508c5d5ec0abde",
+        "email": "Amara.Romaguera-Streich15@gmail.com",
+        "name": "Lavinia Ashleigh",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 637,
+        "flat": 7257,
+        "phone": "+6625560301",
+        "createdOn": "2025-12-13T11:30:55.000Z",
+        "notes": "o8AxoN9gd3qNVjYHZcrEQF4thmJhLnaW5MbHTOT4Mrx3Ena3mKEHJNoBZJBKDyQ20bFSJIk4n1V9xdVezYVno4PTWFSR7NH8aSHbrhA9dGqVbXcCgDFoqB6zNtrKBSbaEieRTM3l0nMSO9VrcudFaAG5O6iHis5aaSqiIAhNmnZQrIHp2WMdQPNcFMNYgyaJPEaRcrH0wLYakrlUL3d0m4vqSZ3ZBgI2EGsAFbeHFaSPtXEbk5nTPYzvJJ"
+      },
+      "products": [
+        {
+          "_id": "693d4e701c508c5d5ec0abe1",
+          "name": "Bike85936",
+          "amount": 357,
+          "price": 98255,
+          "manufacturer": "Google",
+          "notes": "2JO2JbMrmcokTO2eVKXBkUqtX8J3nqXGjyzcw7n9HiCUxvxYdUEKgZKxkBONeup6rcaXoDOMLSCHpyRINteCEZ0pvkTJz8x1l2KjusPKbOaIUj9bqqhC58CHfzWVO9ukLS7au0HO0OJtyVpf1aNERH2jPAmSf33V5KWXfgfEujV6w04dUdT3c1Wtoqt5FbSA9RUfRe8ZCMNLp4roIPQaDEBT0jIvaHroMlEk9u1FiUfEINdVPvQBfnMiO7",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 98255,
+      "createdOn": "2025-12-13T11:30:56.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d4e6f1c508c5d5ec0abde",
+          "products": [
+            {
+              "_id": "693d4e701c508c5d5ec0abe1",
+              "name": "Bike85936",
+              "amount": 357,
+              "price": 98255,
+              "manufacturer": "Google",
+              "notes": "2JO2JbMrmcokTO2eVKXBkUqtX8J3nqXGjyzcw7n9HiCUxvxYdUEKgZKxkBONeup6rcaXoDOMLSCHpyRINteCEZ0pvkTJz8x1l2KjusPKbOaIUj9bqqhC58CHfzWVO9ukLS7au0HO0OJtyVpf1aNERH2jPAmSf33V5KWXfgfEujV6w04dUdT3c1Wtoqt5FbSA9RUfRe8ZCMNLp4roIPQaDEBT0jIvaHroMlEk9u1FiUfEINdVPvQBfnMiO7",
+              "received": false
+            }
+          ],
+          "total_price": 98255,
+          "delivery": null,
+          "changedOn": "2025-12-13T11:30:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

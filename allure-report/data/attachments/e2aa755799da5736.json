@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:29:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-PdHA3SiA64aqqS5irquY/lBrBRE\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Kip.Raynor@yahoo.com",
+      "name": "Candido Daniella",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 569,
+      "flat": 6342,
+      "phone": "+9031054596",
+      "createdOn": "2025-12-13T11:29:54.000Z",
+      "notes": "72K5F4GKqX5lwtnirfFCzAmIYQbcCteT2av8C2c604ygMjXxs1mZxFuRtpumfZ90YzzqHnggOWlcc4RKryr92v4WR8WuaFXuVYXH5HhuHy512dftgv4t1zJmBwPeDcnce9CAZUwj0Ei54wAm4BRq9RTX8RkbFSQvEz60xftdybSnDRK9gPr4WTa0LgwVumP7lYPBOLL2UDplkEg0EZdKljROpxYDMJSNVR7JbbYMSLZppz5HnCVhnvdeW0",
+      "_id": "693d4e321c508c5d5ec09a56"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

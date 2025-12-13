@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:31:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4813",
+    "etag": "W/\"12cd-XP/tO+6CwzOOv/qt0+eL2H073js\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693d4e8b1c508c5d5ec0b2f7",
+      "status": "Canceled",
+      "customer": {
+        "_id": "693d4e891c508c5d5ec0b2bc",
+        "email": "Cydney2@hotmail.com",
+        "name": "Kellie Eloy",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 178,
+        "flat": 9343,
+        "phone": "+9064079946",
+        "createdOn": "2025-12-13T11:31:21.000Z",
+        "notes": "S0ywPI6yZu0fybkb8XBe5zFvFeS8ZT5FD58Z0OFobzUUIMiV3UBZRb5EQsTfXthwn44L3pwpIckUE0D5pl7ZAmruHVWyktp0fiFBSCqUqqltU6vj4GZuFRix734Lsju4pFywD6gvTP3dy7dIswveVRmewF46JpHONCcwDypQJPWM4WyhzVsa9z5kmYDbJIMtHyeeacFk6HMU4R2UpLbD7D80P9E2lAyAgksMhKTbO3Yxhd9iG7Q2c32K2f"
+      },
+      "products": [
+        {
+          "_id": "693d4e8a1c508c5d5ec0b2d9",
+          "name": "Pants65730",
+          "amount": 545,
+          "price": 37719,
+          "manufacturer": "Microsoft",
+          "notes": "ehbD5xRmyNRC9DDXGxQhh4yDyNzHzX22VvoPO9sUnZGO32QmkGE4OYlFpNUowu8aeEy8mJlZC7Kv86umdX1qe7CU8oDpcFuAAjEIAY14bkBA5C0grETFZbI8yrEL8GKhlbSGtWl0dhD8Q0AukWEQnBzexvouG0p7YTjFO1mmLecu4l8tLGhBGEalcQYcoR8gzASiXMb7byPUv0nWv4CXL5bJjB1hS9Gcj2eTJ7wDtJazFnC6dPWrJIerC5",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Bahringerchester",
+          "street": "8010 Spring Street",
+          "house": 16,
+          "flat": 44
+        },
+        "finalDate": "2026-08-06T16:23:03.102Z",
+        "condition": "Delivery"
+      },
+      "total_price": 37719,
+      "createdOn": "2025-12-13T11:31:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "693d4e891c508c5d5ec0b2bc",
+          "products": [
+            {
+              "_id": "693d4e8a1c508c5d5ec0b2d9",
+              "name": "Pants65730",
+              "amount": 545,
+              "price": 37719,
+              "manufacturer": "Microsoft",
+              "notes": "ehbD5xRmyNRC9DDXGxQhh4yDyNzHzX22VvoPO9sUnZGO32QmkGE4OYlFpNUowu8aeEy8mJlZC7Kv86umdX1qe7CU8oDpcFuAAjEIAY14bkBA5C0grETFZbI8yrEL8GKhlbSGtWl0dhD8Q0AukWEQnBzexvouG0p7YTjFO1mmLecu4l8tLGhBGEalcQYcoR8gzASiXMb7byPUv0nWv4CXL5bJjB1hS9Gcj2eTJ7wDtJazFnC6dPWrJIerC5",
+              "received": false
+            }
+          ],
+          "total_price": 37719,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Bahringerchester",
+              "street": "8010 Spring Street",
+              "house": 16,
+              "flat": 44
+            },
+            "finalDate": "2026-08-06T16:23:03.102Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-13T11:31:25.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "693d4e891c508c5d5ec0b2bc",
+          "products": [
+            {
+              "_id": "693d4e8a1c508c5d5ec0b2d9",
+              "name": "Pants65730",
+              "amount": 545,
+              "price": 37719,
+              "manufacturer": "Microsoft",
+              "notes": "ehbD5xRmyNRC9DDXGxQhh4yDyNzHzX22VvoPO9sUnZGO32QmkGE4OYlFpNUowu8aeEy8mJlZC7Kv86umdX1qe7CU8oDpcFuAAjEIAY14bkBA5C0grETFZbI8yrEL8GKhlbSGtWl0dhD8Q0AukWEQnBzexvouG0p7YTjFO1mmLecu4l8tLGhBGEalcQYcoR8gzASiXMb7byPUv0nWv4CXL5bJjB1hS9Gcj2eTJ7wDtJazFnC6dPWrJIerC5",
+              "received": false
+            }
+          ],
+          "total_price": 37719,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Bahringerchester",
+              "street": "8010 Spring Street",
+              "house": 16,
+              "flat": 44
+            },
+            "finalDate": "2026-08-06T16:23:03.102Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-13T11:31:23.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693d4e891c508c5d5ec0b2bc",
+          "products": [
+            {
+              "_id": "693d4e8a1c508c5d5ec0b2d9",
+              "name": "Pants65730",
+              "amount": 545,
+              "price": 37719,
+              "manufacturer": "Microsoft",
+              "notes": "ehbD5xRmyNRC9DDXGxQhh4yDyNzHzX22VvoPO9sUnZGO32QmkGE4OYlFpNUowu8aeEy8mJlZC7Kv86umdX1qe7CU8oDpcFuAAjEIAY14bkBA5C0grETFZbI8yrEL8GKhlbSGtWl0dhD8Q0AukWEQnBzexvouG0p7YTjFO1mmLecu4l8tLGhBGEalcQYcoR8gzASiXMb7byPUv0nWv4CXL5bJjB1hS9Gcj2eTJ7wDtJazFnC6dPWrJIerC5",
+              "received": false
+            }
+          ],
+          "total_price": 37719,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Bahringerchester",
+              "street": "8010 Spring Street",
+              "house": 16,
+              "flat": 44
+            },
+            "finalDate": "2026-08-06T16:23:03.102Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-13T11:31:23.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693d4e891c508c5d5ec0b2bc",
+          "products": [
+            {
+              "_id": "693d4e8a1c508c5d5ec0b2d9",
+              "name": "Pants65730",
+              "amount": 545,
+              "price": 37719,
+              "manufacturer": "Microsoft",
+              "notes": "ehbD5xRmyNRC9DDXGxQhh4yDyNzHzX22VvoPO9sUnZGO32QmkGE4OYlFpNUowu8aeEy8mJlZC7Kv86umdX1qe7CU8oDpcFuAAjEIAY14bkBA5C0grETFZbI8yrEL8GKhlbSGtWl0dhD8Q0AukWEQnBzexvouG0p7YTjFO1mmLecu4l8tLGhBGEalcQYcoR8gzASiXMb7byPUv0nWv4CXL5bJjB1hS9Gcj2eTJ7wDtJazFnC6dPWrJIerC5",
+              "received": false
+            }
+          ],
+          "total_price": 37719,
+          "delivery": null,
+          "changedOn": "2025-12-13T11:31:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

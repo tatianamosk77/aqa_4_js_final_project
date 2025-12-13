@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:31:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3407",
+    "etag": "W/\"d4f-VJUfBiQEV0L780JXZ5sKlOfbDYo\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693d4e7d1c508c5d5ec0b017",
+      "status": "Draft",
+      "customer": {
+        "_id": "693d4e7d1c508c5d5ec0afe0",
+        "email": "Herminia.Rogahn@hotmail.com",
+        "name": "Kristoffer Rashad",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 312,
+        "flat": 5050,
+        "phone": "+0350894141",
+        "createdOn": "2025-12-13T11:31:09.000Z",
+        "notes": "carj4eVUQIyClwSbFxMIpJX3UzgEIwExiOOaG6wlXjJVPnHYqnM1nN7pTYoEy9801KeGfeuNtifGgcIbvA8penaSaTYOBy17PyS7A3eAINdl6Tfu3abVlIrVE69CtSsJnYOR697fNPbgvNL1vwXGnn7EqZts8WyplP5EAOhtgrFPTbjCkrwuyjiGMr3B2LLscgApjIM2WUtv2gNY5vN8FfMTpFsLr5Nx6PjUb3zRIhFFhM29I1q3SOL9qE"
+      },
+      "products": [
+        {
+          "_id": "693d4e7d1c508c5d5ec0affa",
+          "name": "Chicken40303",
+          "amount": 210,
+          "price": 15812,
+          "manufacturer": "Sony",
+          "notes": "P6a6Z2yceI4d0XTc3aUL9oK2YW0XXrHFcB4IyMhD3Woq59TMAHEHOr6gsU6uxGclz77sGVPzz4cM0LOYXvTVUwdo2TY9thd93rnJittHSMU9IDip9rjNwyN3HrFGgFxb1p2QtcjP9bBdyEXBihuddIszpiwsmHD5txN0z0QdhDvwoExRaOWozNAxGOLzdidjq2kQcwdImwt0c6FHpDTjSPKEYE657UC0eF8Ng75dgyeOjFUsvZFel8exuG",
+          "received": false
+        },
+        {
+          "_id": "693d4e811c508c5d5ec0b13e",
+          "name": "Bike44708",
+          "amount": 414,
+          "price": 13219,
+          "manufacturer": "Sony",
+          "notes": "5GTtWdybMAFs4rbAMcBV097DZQtvl5eEe8EcJ7zRYF9PuzwgwN5sXPPJYxE9XRHm5lfdvsvbnsMP5axuNbdDTAx09HOPNpITUI837LRhg08IPQbF79DD5gIdt9Dtp9GeIbnWmH8RzTmKJyJ7QdZcNHsR7d8lexHHJ0mTRJfms84ibiEhx89r5PFh22Iicxvdk92ZI6drDCOYPXIrmzhWrTdf3HXhNwIPKdmUWbhFHXKx9yR2QIZA8sgsFm",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 29031,
+      "createdOn": "2025-12-13T11:31:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d4e7d1c508c5d5ec0afe0",
+          "products": [
+            {
+              "_id": "693d4e7d1c508c5d5ec0affa",
+              "name": "Chicken40303",
+              "amount": 210,
+              "price": 15812,
+              "manufacturer": "Sony",
+              "notes": "P6a6Z2yceI4d0XTc3aUL9oK2YW0XXrHFcB4IyMhD3Woq59TMAHEHOr6gsU6uxGclz77sGVPzz4cM0LOYXvTVUwdo2TY9thd93rnJittHSMU9IDip9rjNwyN3HrFGgFxb1p2QtcjP9bBdyEXBihuddIszpiwsmHD5txN0z0QdhDvwoExRaOWozNAxGOLzdidjq2kQcwdImwt0c6FHpDTjSPKEYE657UC0eF8Ng75dgyeOjFUsvZFel8exuG",
+              "received": false
+            },
+            {
+              "_id": "693d4e811c508c5d5ec0b13e",
+              "name": "Bike44708",
+              "amount": 414,
+              "price": 13219,
+              "manufacturer": "Sony",
+              "notes": "5GTtWdybMAFs4rbAMcBV097DZQtvl5eEe8EcJ7zRYF9PuzwgwN5sXPPJYxE9XRHm5lfdvsvbnsMP5axuNbdDTAx09HOPNpITUI837LRhg08IPQbF79DD5gIdt9Dtp9GeIbnWmH8RzTmKJyJ7QdZcNHsR7d8lexHHJ0mTRJfms84ibiEhx89r5PFh22Iicxvdk92ZI6drDCOYPXIrmzhWrTdf3HXhNwIPKdmUWbhFHXKx9yR2QIZA8sgsFm",
+              "received": false
+            }
+          ],
+          "total_price": 29031,
+          "delivery": null,
+          "changedOn": "2025-12-13T11:31:14.000Z",
+          "action": "Requested products changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693d4e7d1c508c5d5ec0afe0",
+          "products": [
+            {
+              "_id": "693d4e7d1c508c5d5ec0affa",
+              "name": "Chicken40303",
+              "amount": 210,
+              "price": 15812,
+              "manufacturer": "Sony",
+              "notes": "P6a6Z2yceI4d0XTc3aUL9oK2YW0XXrHFcB4IyMhD3Woq59TMAHEHOr6gsU6uxGclz77sGVPzz4cM0LOYXvTVUwdo2TY9thd93rnJittHSMU9IDip9rjNwyN3HrFGgFxb1p2QtcjP9bBdyEXBihuddIszpiwsmHD5txN0z0QdhDvwoExRaOWozNAxGOLzdidjq2kQcwdImwt0c6FHpDTjSPKEYE657UC0eF8Ng75dgyeOjFUsvZFel8exuG",
+              "received": false
+            }
+          ],
+          "total_price": 15812,
+          "delivery": null,
+          "changedOn": "2025-12-13T11:31:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

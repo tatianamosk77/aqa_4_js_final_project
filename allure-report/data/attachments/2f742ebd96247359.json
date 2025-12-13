@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:29:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "310",
+    "etag": "W/\"136-TvWx2OtIVd4eZCjlZw517haTcw4\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Grayson.Kovacek60@hotmail.com",
+      "name": "Reginald Maeve",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 674,
+      "flat": 4424,
+      "phone": "+5284823943",
+      "createdOn": "2025-12-13T11:29:40.000Z",
+      "notes": "",
+      "_id": "693d4e241c508c5d5ec09771"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

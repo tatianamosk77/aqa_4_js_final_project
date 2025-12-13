@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:30:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-ix3qhRJnPfT64eXs3Rn2KeZ9dOc\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Flavio_Mante@yahoo.com",
+      "name": "Annalise Juana",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 182,
+      "flat": 1801,
+      "phone": "+4314735917",
+      "createdOn": "2025-12-13T11:30:25.000Z",
+      "notes": "ZxlVtj4AbOs5YSSbNOeqJ03ukXGFb5jX01yRYMVTtfQrTOKfpOzojaZ3NlvBW3lXtCSL7YDh9bFUaGgPozzqmzvYnqxgc9P7d32fXHW2idx7NJ1lyK6KagjggezteqDgvEUp7ZBsCTxoBHzmek2qXGlCkH7t6ME6tPYZcM8nDvPdGBDWGe1HGowWfAIeSSzNYiDDatO90E1dwGwvCyBuNMvV5b2zKk9DLzVygn7sfNTu1FqPwWdOgnLofx",
+      "_id": "693d4e511c508c5d5ec0a2db"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

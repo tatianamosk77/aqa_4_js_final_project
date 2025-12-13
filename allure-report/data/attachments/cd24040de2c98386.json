@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:31:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "238",
+    "etag": "W/\"ee-t1LzlkfSh9OG0hkFILZZ+4swiO4\"",
+    "connection": "close"
+  },
+  "body": {
+    "IsSuccess": false,
+    "ErrorMessage": "Incorrect request body",
+    "SchemaErrors": [
+      {
+        "instancePath": "/products",
+        "schemaPath": "#/properties/products/minItems",
+        "keyword": "minItems",
+        "params": {
+          "limit": 1
+        },
+        "message": "must NOT have fewer than 1 items"
+      }
+    ]
+  }
+}

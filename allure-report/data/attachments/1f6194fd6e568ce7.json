@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:30:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "558",
+    "etag": "W/\"22e-UcKp9aJkX+3VjPh4pDQ6H0rKbt0\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Sasha.Hammes-Russel@yahoo.com",
+      "name": "Sandra Virgil",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 754,
+      "flat": 365,
+      "phone": "+5469886133",
+      "createdOn": "2025-12-13T11:30:04.000Z",
+      "notes": "x2BIcfPDqJGmkEK13iGFczfTa99CV5wM9JHJ6ZWXMErHqrInm9flrrP6EcLUinD4YbveItVJ3ZwcF7rnKrjYULgOaC4X6JWTYYVyZ5fytN3BSeL0xhDC5JYvB9cMy7fIL0oASLgigkMD4pBNoaFDQEckVcJqkmNkKDgyAvBpRzHFvFtsYiOBx004zTpxOrwSetnsu3xy203aPVBerdqZRsq1w5TuLn8qoT1UqryPfEjljKPryBFnu7XMfF",
+      "_id": "693d4e3c1c508c5d5ec09d5f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:30:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-8xDGXsjCbyijYVzHG+hWz66/GOI\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ruthe.Renner@hotmail.com",
+      "name": "Yvette Golda",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 146,
+      "flat": 3480,
+      "phone": "+9824438735",
+      "createdOn": "2025-12-13T11:30:11.000Z",
+      "notes": "KL3sdbWUTPxnL4mW5Jgwv7jKZyQZtqZVdP9big5qjFjIlb5KZlwanvBceQLCQrateDZDCIqsOMtBZgMnAgAhVagYgduEggni7rbZXwUOv7bJY7208kbBpa6RpGQ6X6DJpQbORq3RBqaVqAS2D4PijZKCL71uRutT1RN3NGWQxPSUBipvdzhGW79y9iCf3idAsVL6G2WAwZKOZSDrsNqptP5DmqMbyuU6xAMTfdOGEBlJDBhtkduIuSm7Da",
+      "_id": "693d4e431c508c5d5ec09f09"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

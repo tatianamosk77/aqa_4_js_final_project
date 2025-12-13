@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:31:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1873",
+    "etag": "W/\"751-KufCerUSvTX9B164YndUEuATi5g\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693d4e951c508c5d5ec0b5bd",
+      "status": "Draft",
+      "customer": {
+        "_id": "693d4e921c508c5d5ec0b568",
+        "email": "Trace_Abbott@yahoo.com",
+        "name": "Lindsey Kaitlyn",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 130,
+        "flat": 515,
+        "phone": "+0313941101",
+        "createdOn": "2025-12-13T11:31:30.000Z",
+        "notes": "rKM3w1579zWVqyS4MUGa7knzRLVCDmFdgmDsXA5wJZY5O72JI9AzEivIP295gFYV8dw0xNFdoOYECsyRMhQMMLktAC5LVO0mQMa8Cx7j1pAqIBIG3QnCWGZz70qsP0gQC8alZoLnuoXjAbtlSipk9DfxgIGgOm7dtfhjtRWQo5BnN5cfMAy3OSD0z3lMgWcJEgMn9H90QGUKQIs2LTwhF1pZ4CwPL0ABiCQqhWtOr0O6YMA1QBeFNBYpL3"
+      },
+      "products": [
+        {
+          "_id": "693d4e921c508c5d5ec0b56e",
+          "name": "Car52432",
+          "amount": 306,
+          "price": 62809,
+          "manufacturer": "Samsung",
+          "notes": "Bazn2Q3G14nERisntn2QIHE0GLSLJbv8y9ehEyJAfi6O5KCSa86DhKUmaDP95ozhHEAA0Tvhnj9H8xBsdhqA33ajxDpiem271nSwCXp9ZqJsETk0AAnKfJc25mJAoiykywFhxaV5d0nsAtgePvDCO74sOGb21uBkHpbiznazVkL5aKnks4PM8LhYsacOb5cc0dH67O8skb9Scma4Tk8EJHASvQJWJcypBWGBsbTELw6HhCMSQr2NGP6sCv",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 62809,
+      "createdOn": "2025-12-13T11:31:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d4e921c508c5d5ec0b568",
+          "products": [
+            {
+              "_id": "693d4e921c508c5d5ec0b56e",
+              "name": "Car52432",
+              "amount": 306,
+              "price": 62809,
+              "manufacturer": "Samsung",
+              "notes": "Bazn2Q3G14nERisntn2QIHE0GLSLJbv8y9ehEyJAfi6O5KCSa86DhKUmaDP95ozhHEAA0Tvhnj9H8xBsdhqA33ajxDpiem271nSwCXp9ZqJsETk0AAnKfJc25mJAoiykywFhxaV5d0nsAtgePvDCO74sOGb21uBkHpbiznazVkL5aKnks4PM8LhYsacOb5cc0dH67O8skb9Scma4Tk8EJHASvQJWJcypBWGBsbTELw6HhCMSQr2NGP6sCv",
+              "received": false
+            }
+          ],
+          "total_price": 62809,
+          "delivery": null,
+          "changedOn": "2025-12-13T11:31:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

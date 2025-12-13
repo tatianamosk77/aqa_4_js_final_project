@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:31:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-v4qXnS10VTNQisFJ8L2ALnVzK1Y\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Edwin.Huels@gmail.com",
+      "name": "Nicholaus Jack",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 696,
+      "flat": 1894,
+      "phone": "+0747857004",
+      "createdOn": "2025-12-13T11:31:03.000Z",
+      "notes": "PdadydaH2IIzRoOhBTbpd8Emc5FPUu1hD2zDbx8zBWtuqSMzMnsX14PQuFSt692xTHEIh1w2BoJBXIfGLIspGtgOibvHmse5nCH4Z533gEjzJFJVb0FnMua6vCZWTpquZfy24WUkAjMztFq3UrVt8j1rPqski4f523u5Nk500hIwH9fzP6rmb0acXLJacc0VopnvIMB8muXHMoxUOhDrfviQaMWxe79art6aBfbjkleAmGcIjUCeSFQ5rt",
+      "_id": "693d4e771c508c5d5ec0aea8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

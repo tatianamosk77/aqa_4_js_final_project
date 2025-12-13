@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:31:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "202",
+    "etag": "W/\"ca-XlFKNO2lru3oL0vCg3p/uqbqd18\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Table45558",
+      "amount": 170,
+      "price": 71867,
+      "manufacturer": "Sony",
+      "createdOn": "2025-12-13T11:31:56.000Z",
+      "notes": "",
+      "_id": "693d4eac1c508c5d5ec0bc51"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:30:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-2xhoXjNRvYb7a8RofbWimt6qidg\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Joannie_Orn@hotmail.com",
+      "name": "Cynthia Shirley",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 162,
+      "flat": 9126,
+      "phone": "+9323027521",
+      "createdOn": "2025-12-13T11:30:31.000Z",
+      "notes": "bufIPJsYS8yVWw7GLdk7WbhehmxRyajH5zrmziNn6I5FCvOVBON4mgCysiA5uSh6J5hefNb9WYyC8sg09HaFOqbZdNCvzNZMKlDoTmGeuwCvgUxWd7iWWnhAIywdabDoq7lwAgVDjlOmAU6P6w64SVChciP9hjOZfPZfG50eSy1FQgI4FAnE1UBP3mFEffmRWr24Y1GmpEhPhcr7ga1MGqQ9xwJ9CdAm6LL3l87aSKviN5Ene4k5BOWFwi",
+      "_id": "693d4e571c508c5d5ec0a4cb"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:29:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-rmvUNZ/spfPEo2aHWnbihYqjG24\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ryder_Harvey@yahoo.com",
+      "name": "Test Customer",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 137,
+      "flat": 5383,
+      "phone": "+3382600566",
+      "createdOn": "2025-12-13T11:29:24.000Z",
+      "notes": "yWUMjVl05ghXw5fSNUS5Dqv47WyNWClcHwH1sRDY2wuXvvmaj6oKyFjBCwa4rLyrvUEnhArnuyi12WWTj4KIGFHrY0S42FgHzBXSzmU8uqyhd9R1q3W881mXYWeU3uzPqfW4iOvpQMiyb1lFsih8LyIVHP7dth7Br2QbzZE7HVpSuJEVAhj1Xpzp5ynksmVmpbHRLYsqgH6slpJVBc4Vk9ztJOtAZJSKe89N4HczZz0aRDtdakA2XVmjTU",
+      "_id": "693d4e141c508c5d5ec0954a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:31:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2928",
+    "etag": "W/\"b70-+tp4gdPuffhReYfeyFxS+xclSz4\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693d4e8d1c508c5d5ec0b44d",
+      "status": "Draft",
+      "customer": {
+        "_id": "693d4e8c1c508c5d5ec0b405",
+        "email": "Leon_Ebert82@hotmail.com",
+        "name": "Jaiden Ryley",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 812,
+        "flat": 8124,
+        "phone": "+8330161260",
+        "createdOn": "2025-12-13T11:31:24.000Z",
+        "notes": "47SIpzt6T33q0ON3eJ5IM2aWBwxk8I6EtT7kYOudk7w47NWOAzXVVhjh6EGUcii7BeeOLz2S7JjTKglfZ3CZEHkVglLsDKr7Xn4DBqWR1EhG9Ng1KGDEDrt5c0mKIDykMP45HW5pMqrGJjbvKSkdVOgdH9oTlQQDDRkEv3u8fi87UMPyAhcEHI5nplZkVe5rXhCSnQuqyEpA8MFL37ngIOKacs2nLnPcEvkCzkMhBtZ7NX1JSkH6vfLxF0"
+      },
+      "products": [
+        {
+          "_id": "693d4e8d1c508c5d5ec0b41b",
+          "name": "Pants86740",
+          "amount": 205,
+          "price": 7620,
+          "manufacturer": "Amazon",
+          "notes": "QoKD9fUnwLbBGfBf9SfKYXhcE1feKNsh9E8M9ioPm0W7XbmwOxPeYmG96IOIOr8UDTyh0lZSEhDeAVIfaI6woanJsewQDPwDArnvjweVpmkODnkL54WodiqpSFUSBl243qoRXFZWeuVMpmbrTxB8ZZNye67oQl5bBMhRGCM0s1SoYu8XHIXHjcUwVacuNYzU59WAOtxp5tPE4rsK7DtB2EpiT2LJXyrQO6AWtvnW8qtSNUZK4dAfa7C69T",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 7620,
+      "createdOn": "2025-12-13T11:31:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d4e8c1c508c5d5ec0b405",
+          "products": [
+            {
+              "_id": "693d4e8d1c508c5d5ec0b41b",
+              "name": "Pants86740",
+              "amount": 205,
+              "price": 7620,
+              "manufacturer": "Amazon",
+              "notes": "QoKD9fUnwLbBGfBf9SfKYXhcE1feKNsh9E8M9ioPm0W7XbmwOxPeYmG96IOIOr8UDTyh0lZSEhDeAVIfaI6woanJsewQDPwDArnvjweVpmkODnkL54WodiqpSFUSBl243qoRXFZWeuVMpmbrTxB8ZZNye67oQl5bBMhRGCM0s1SoYu8XHIXHjcUwVacuNYzU59WAOtxp5tPE4rsK7DtB2EpiT2LJXyrQO6AWtvnW8qtSNUZK4dAfa7C69T",
+              "received": false
+            }
+          ],
+          "total_price": 7620,
+          "delivery": null,
+          "changedOn": "2025-12-13T11:31:26.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "693d4e8c1c508c5d5ec0b405",
+          "products": [
+            {
+              "_id": "693d4e8d1c508c5d5ec0b41b",
+              "name": "Pants86740",
+              "amount": 205,
+              "price": 7620,
+              "manufacturer": "Amazon",
+              "notes": "QoKD9fUnwLbBGfBf9SfKYXhcE1feKNsh9E8M9ioPm0W7XbmwOxPeYmG96IOIOr8UDTyh0lZSEhDeAVIfaI6woanJsewQDPwDArnvjweVpmkODnkL54WodiqpSFUSBl243qoRXFZWeuVMpmbrTxB8ZZNye67oQl5bBMhRGCM0s1SoYu8XHIXHjcUwVacuNYzU59WAOtxp5tPE4rsK7DtB2EpiT2LJXyrQO6AWtvnW8qtSNUZK4dAfa7C69T",
+              "received": false
+            }
+          ],
+          "total_price": 7620,
+          "delivery": null,
+          "changedOn": "2025-12-13T11:31:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337ce1c508c5d5e95335d",
+        "username": "student14@gmail.com",
+        "firstName": "Bill",
+        "lastName": "Schuppe",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:26"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

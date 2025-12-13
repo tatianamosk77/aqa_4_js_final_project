@@ -1,0 +1,258 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:31:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6687",
+    "etag": "W/\"1a1f-vS24KSTFFMJAqWsAaUrOhOpE0Zc\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693d4e871c508c5d5ec0b1fd",
+      "status": "Partially Received",
+      "customer": {
+        "_id": "693d4e851c508c5d5ec0b1c7",
+        "email": "Viviane61@gmail.com",
+        "name": "Teagan Oda",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 694,
+        "flat": 1747,
+        "phone": "+6718249435",
+        "createdOn": "2025-12-13T11:31:17.000Z",
+        "notes": "YAGe5p4nBtEjSY5PSQ9x1hjLJuq4wHknTdhVMjKN5GmEXkHyOKmtbNZw73mWGVRdBb2FGuz7e5NLtFvZD8uKDbZuUFtpZFPgUbbGBR3ojRBkG8fXdRVcHqclGLPiCcBGizAWMtROcYA7d3bzYATGMeq0TD0NGL5K203TIFofPhJD8zpre6EblU4Tuaizc2o5I55PrxI0TWmrhH5THA3SJJkYoLv9eh8z7U36eCYlgiBIfCjoNf3PbTXQAX"
+      },
+      "products": [
+        {
+          "_id": "693d4e851c508c5d5ec0b1cb",
+          "name": "Pants30692",
+          "amount": 865,
+          "price": 90866,
+          "manufacturer": "Google",
+          "notes": "XdsNZ7jMWXmkX40nUDWbvBxmLBCSVlXeJ6epl2rugXlo0oKXVMMxMvIpEfirJZihDgI3kz6OvverUzjDsERm7qU6kHTQAcHG9hrARDeGMdVcBpjZLxQG5mm9HI6glf9KSO1S9JeEaXAdAeTnvBfkL4ZTNirebloXfb4iA62xNnxNaUjkYhcqQWpBopyW4chhvgjFjdJcwJCteiutMgpizDZsZsiXSKW1srDBWDPUxJZfILNcVFxGWS2n6i",
+          "received": true
+        },
+        {
+          "_id": "693d4e851c508c5d5ec0b1cd",
+          "name": "Table97582",
+          "amount": 534,
+          "price": 8943,
+          "manufacturer": "Apple",
+          "notes": "ESYIb0tvqeMPu6nC5C5azDNIWHb6DRUMYopbNMOz3kgvf4FjyVRcUzoiRBbUBO0DiAeOMCNI5NxnHpAiyKoUgLvkZjKMRvuvV8kS5mkiRnuxrbusxXz2YON9D68mlMis66RoicxQs2b28RVX86oIKE6gCJ9koEDwWmaUWgtadr7KrVc5Qb9JxluzG22VV4IHPyUigFktriPrWWmkSKr7Pc6er40Nq7QGrJVOcHlbKJ1N4z09VNke78Bfsj",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Westminster",
+          "street": "737 Bridge Road",
+          "house": 66,
+          "flat": 96
+        },
+        "finalDate": "2026-09-16T08:16:57.023Z",
+        "condition": "Delivery"
+      },
+      "total_price": 99809,
+      "createdOn": "2025-12-13T11:31:19.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Partially Received",
+          "customer": "693d4e851c508c5d5ec0b1c7",
+          "products": [
+            {
+              "_id": "693d4e851c508c5d5ec0b1cb",
+              "name": "Pants30692",
+              "amount": 865,
+              "price": 90866,
+              "manufacturer": "Google",
+              "notes": "XdsNZ7jMWXmkX40nUDWbvBxmLBCSVlXeJ6epl2rugXlo0oKXVMMxMvIpEfirJZihDgI3kz6OvverUzjDsERm7qU6kHTQAcHG9hrARDeGMdVcBpjZLxQG5mm9HI6glf9KSO1S9JeEaXAdAeTnvBfkL4ZTNirebloXfb4iA62xNnxNaUjkYhcqQWpBopyW4chhvgjFjdJcwJCteiutMgpizDZsZsiXSKW1srDBWDPUxJZfILNcVFxGWS2n6i",
+              "received": true
+            },
+            {
+              "_id": "693d4e851c508c5d5ec0b1cd",
+              "name": "Table97582",
+              "amount": 534,
+              "price": 8943,
+              "manufacturer": "Apple",
+              "notes": "ESYIb0tvqeMPu6nC5C5azDNIWHb6DRUMYopbNMOz3kgvf4FjyVRcUzoiRBbUBO0DiAeOMCNI5NxnHpAiyKoUgLvkZjKMRvuvV8kS5mkiRnuxrbusxXz2YON9D68mlMis66RoicxQs2b28RVX86oIKE6gCJ9koEDwWmaUWgtadr7KrVc5Qb9JxluzG22VV4IHPyUigFktriPrWWmkSKr7Pc6er40Nq7QGrJVOcHlbKJ1N4z09VNke78Bfsj",
+              "received": false
+            }
+          ],
+          "total_price": 99809,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Westminster",
+              "street": "737 Bridge Road",
+              "house": 66,
+              "flat": 96
+            },
+            "finalDate": "2026-09-16T08:16:57.023Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-13T11:31:21.000Z",
+          "action": "Received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "693d4e851c508c5d5ec0b1c7",
+          "products": [
+            {
+              "_id": "693d4e851c508c5d5ec0b1cb",
+              "name": "Pants30692",
+              "amount": 865,
+              "price": 90866,
+              "manufacturer": "Google",
+              "notes": "XdsNZ7jMWXmkX40nUDWbvBxmLBCSVlXeJ6epl2rugXlo0oKXVMMxMvIpEfirJZihDgI3kz6OvverUzjDsERm7qU6kHTQAcHG9hrARDeGMdVcBpjZLxQG5mm9HI6glf9KSO1S9JeEaXAdAeTnvBfkL4ZTNirebloXfb4iA62xNnxNaUjkYhcqQWpBopyW4chhvgjFjdJcwJCteiutMgpizDZsZsiXSKW1srDBWDPUxJZfILNcVFxGWS2n6i",
+              "received": false
+            },
+            {
+              "_id": "693d4e851c508c5d5ec0b1cd",
+              "name": "Table97582",
+              "amount": 534,
+              "price": 8943,
+              "manufacturer": "Apple",
+              "notes": "ESYIb0tvqeMPu6nC5C5azDNIWHb6DRUMYopbNMOz3kgvf4FjyVRcUzoiRBbUBO0DiAeOMCNI5NxnHpAiyKoUgLvkZjKMRvuvV8kS5mkiRnuxrbusxXz2YON9D68mlMis66RoicxQs2b28RVX86oIKE6gCJ9koEDwWmaUWgtadr7KrVc5Qb9JxluzG22VV4IHPyUigFktriPrWWmkSKr7Pc6er40Nq7QGrJVOcHlbKJ1N4z09VNke78Bfsj",
+              "received": false
+            }
+          ],
+          "total_price": 99809,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Westminster",
+              "street": "737 Bridge Road",
+              "house": 66,
+              "flat": 96
+            },
+            "finalDate": "2026-09-16T08:16:57.023Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-13T11:31:20.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693d4e851c508c5d5ec0b1c7",
+          "products": [
+            {
+              "_id": "693d4e851c508c5d5ec0b1cb",
+              "name": "Pants30692",
+              "amount": 865,
+              "price": 90866,
+              "manufacturer": "Google",
+              "notes": "XdsNZ7jMWXmkX40nUDWbvBxmLBCSVlXeJ6epl2rugXlo0oKXVMMxMvIpEfirJZihDgI3kz6OvverUzjDsERm7qU6kHTQAcHG9hrARDeGMdVcBpjZLxQG5mm9HI6glf9KSO1S9JeEaXAdAeTnvBfkL4ZTNirebloXfb4iA62xNnxNaUjkYhcqQWpBopyW4chhvgjFjdJcwJCteiutMgpizDZsZsiXSKW1srDBWDPUxJZfILNcVFxGWS2n6i",
+              "received": false
+            },
+            {
+              "_id": "693d4e851c508c5d5ec0b1cd",
+              "name": "Table97582",
+              "amount": 534,
+              "price": 8943,
+              "manufacturer": "Apple",
+              "notes": "ESYIb0tvqeMPu6nC5C5azDNIWHb6DRUMYopbNMOz3kgvf4FjyVRcUzoiRBbUBO0DiAeOMCNI5NxnHpAiyKoUgLvkZjKMRvuvV8kS5mkiRnuxrbusxXz2YON9D68mlMis66RoicxQs2b28RVX86oIKE6gCJ9koEDwWmaUWgtadr7KrVc5Qb9JxluzG22VV4IHPyUigFktriPrWWmkSKr7Pc6er40Nq7QGrJVOcHlbKJ1N4z09VNke78Bfsj",
+              "received": false
+            }
+          ],
+          "total_price": 99809,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Westminster",
+              "street": "737 Bridge Road",
+              "house": 66,
+              "flat": 96
+            },
+            "finalDate": "2026-09-16T08:16:57.023Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-13T11:31:19.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693d4e851c508c5d5ec0b1c7",
+          "products": [
+            {
+              "_id": "693d4e851c508c5d5ec0b1cb",
+              "name": "Pants30692",
+              "amount": 865,
+              "price": 90866,
+              "manufacturer": "Google",
+              "notes": "XdsNZ7jMWXmkX40nUDWbvBxmLBCSVlXeJ6epl2rugXlo0oKXVMMxMvIpEfirJZihDgI3kz6OvverUzjDsERm7qU6kHTQAcHG9hrARDeGMdVcBpjZLxQG5mm9HI6glf9KSO1S9JeEaXAdAeTnvBfkL4ZTNirebloXfb4iA62xNnxNaUjkYhcqQWpBopyW4chhvgjFjdJcwJCteiutMgpizDZsZsiXSKW1srDBWDPUxJZfILNcVFxGWS2n6i",
+              "received": false
+            },
+            {
+              "_id": "693d4e851c508c5d5ec0b1cd",
+              "name": "Table97582",
+              "amount": 534,
+              "price": 8943,
+              "manufacturer": "Apple",
+              "notes": "ESYIb0tvqeMPu6nC5C5azDNIWHb6DRUMYopbNMOz3kgvf4FjyVRcUzoiRBbUBO0DiAeOMCNI5NxnHpAiyKoUgLvkZjKMRvuvV8kS5mkiRnuxrbusxXz2YON9D68mlMis66RoicxQs2b28RVX86oIKE6gCJ9koEDwWmaUWgtadr7KrVc5Qb9JxluzG22VV4IHPyUigFktriPrWWmkSKr7Pc6er40Nq7QGrJVOcHlbKJ1N4z09VNke78Bfsj",
+              "received": false
+            }
+          ],
+          "total_price": 99809,
+          "delivery": null,
+          "changedOn": "2025-12-13T11:31:19.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

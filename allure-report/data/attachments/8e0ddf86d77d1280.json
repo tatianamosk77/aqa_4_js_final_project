@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:30:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-ZY/3QfFDuce7NV1kzwE/3vQVV9c\"",
+    "keep-alive": "timeout=5, max=78",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Brent2@hotmail.com",
+      "name": "Cristopher Foster",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 596,
+      "flat": 6032,
+      "phone": "+4207273564",
+      "createdOn": "2025-12-13T11:30:45.000Z",
+      "notes": "82yHPJ4GVaJhBBwtdMbRz0G2Ks49um5iIYeVHY366jQeth7Jw0DjJ1kBOvmKVcaY1H8OIp3JyevhNaOK9eeFeXfDbANDekcap2GkqbRGztpriVqlrnopk8zqemXFaCrnVGsyMaXyqCuYq6BdTn4Eu4UipUnm6OLdTAYlqbMuhTI8rUMq5e9F5ibq4s5pDEiMUZgTGQd7ySP4BTuLBPHCWHXeU1jMvm0P94h0AlRtcuTTVbea9ViyuiPCS7",
+      "_id": "693d4e651c508c5d5ec0a896"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 11:30:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-+wt7guPNdQSzxF8XPRJfBsy95Ks\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693d4e521c508c5d5ec0a303",
+        "email": "Westley.Hirthe@yahoo.com",
+        "name": "Kayleigh Jermaine",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 862,
+        "flat": 4626,
+        "phone": "+4513108403",
+        "createdOn": "2025-12-13T11:30:26.000Z",
+        "notes": "ESspS1wdYZlXnHTQvEojmaqiZyOUadHlUdEf5NVrvbTkmR8ER5XRuS75CWjj7SqrHChCazK07c3JbHr4QcjKovIHNBrzXzUqMx34gwzewSWQGhBaifo9LVQLRusdHaKbZ9YNewZVsRbLbb2FSyW10DzjmaR3OZTjqY9taHP6CRp4ToTelGwEmwOXubJhVsI50I3zigdGQjYXnHdx9sNqXP5Y2OOtDwTH0Cry80xJ1OVVXyCuiJrJd21cMv"
+      },
+      "products": [
+        {
+          "_id": "693d4e531c508c5d5ec0a348",
+          "name": "Pants81730",
+          "amount": 961,
+          "price": 81876,
+          "manufacturer": "Sony",
+          "notes": "Eqpp5ggHtGJ7UKCRSBsRMhRosBsFCRurGvDkN1UozUQRH0JalpIkbJbkdkRgEfQkZp80rEoyOjQK12jtILKgQehc49YGT0DdGpXZlmPGGwKmeUltjfI1Eo2QAF8hT8lJAfxOyVCveWSaxtoyEAEnabvkspYGeyl33oN4GRjdXcHqrUC9dQi5L77kEg8uRYnCQMkDS8oPpTkSp6rOaU0gyHKn4gjjWOPnmNCGkDZQehtCxeenQhzzZMaXo4",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 81876,
+      "createdOn": "2025-12-13T11:30:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693d4e521c508c5d5ec0a303",
+          "products": [
+            {
+              "_id": "693d4e531c508c5d5ec0a348",
+              "name": "Pants81730",
+              "amount": 961,
+              "price": 81876,
+              "manufacturer": "Sony",
+              "notes": "Eqpp5ggHtGJ7UKCRSBsRMhRosBsFCRurGvDkN1UozUQRH0JalpIkbJbkdkRgEfQkZp80rEoyOjQK12jtILKgQehc49YGT0DdGpXZlmPGGwKmeUltjfI1Eo2QAF8hT8lJAfxOyVCveWSaxtoyEAEnabvkspYGeyl33oN4GRjdXcHqrUC9dQi5L77kEg8uRYnCQMkDS8oPpTkSp6rOaU0gyHKn4gjjWOPnmNCGkDZQehtCxeenQhzzZMaXo4",
+              "received": false
+            }
+          ],
+          "total_price": 81876,
+          "delivery": null,
+          "changedOn": "2025-12-13T11:30:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693d4e531c508c5d5ec0a36e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
