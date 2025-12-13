@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 19:37:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "537",
+    "etag": "W/\"219-lFLxVU6x7/K2NkeXRUCo0zSnRPw\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Will5@yahoo.com",
+      "name": "Elena Tomasa",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 736,
+      "flat": 4985,
+      "phone": "+7054896389",
+      "createdOn": "2025-12-13T19:37:26.000Z",
+      "notes": "GMBamLcMHmM5KNZLPTnZHkOsjYQvIrGT9wMk2FkdqovuqGMowcgyIuknZn1Jharqf1AKFUExX841WsieDKGMqxOBfwtq9kiYOuAzp49PV82TVTlUgj0UnDu5dAnhH3aNanf0kREvV8dpODJ1sLs31RjCnuOuxPrcesgHiLygzNYvMnPJmPcE16rO2EetJ6yqUzHhZSG4Z7W9sXdLedkTu6i8ISsQQQmyVQmnrI3ugaPrDVclv9SMAg0KDx",
+      "_id": "693dc0761c508c5d5ec5d968"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

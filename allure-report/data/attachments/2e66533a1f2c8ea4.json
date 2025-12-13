@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 19:37:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-SuNMpAC66DVAA3LK29p4cyZFb/Q\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693dc08d1c508c5d5ec5e2d4",
+        "email": "Carter96@yahoo.com",
+        "name": "Marquis Augustine",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 410,
+        "flat": 6411,
+        "phone": "+9200686125",
+        "createdOn": "2025-12-13T19:37:49.000Z",
+        "notes": "aaqYbMmSwwJZIuQ9iJRjueBMuX6D8zT0iVPRTAr3mj4vcyU7yMLlhH5bYeJjHSnR2OPqAELgWVyafDLEGVz1ChsaVODGVPQzq6xb5HWsEXmwmyNMEqX3PrDruEwomCCEmJOFneurar3U1xxINvXXqHZShP6aMC9NSA1D0gAB5wITAQ677lS5qf2e6Onl0XZ0JlIBmnD7iI6yqHDbittJvfriw9cPP2SaY7iAiBW8F78pgWZgc7JqngMC6p"
+      },
+      "products": [
+        {
+          "_id": "693dc08f1c508c5d5ec5e319",
+          "name": "Chicken88582",
+          "amount": 822,
+          "price": 79899,
+          "manufacturer": "Google",
+          "notes": "uy0sudt5ZzbI3K5XDmqQGZ5lP5yjCosgaOtH9ujEj15nPfemIChTeyWNMFARShMeONK9CgWeP5eL7G8sdNshIWzt4N8CB3jxqo7c8K6W8mv4OZ6cg16asbVzHHwGeFMIqbn7JSLfkoplk7AREv5Kv40k8P3InYterpUAx9s37sJazKQAZmpjdjLE9TUsNKuz8mMyYYScwsP3gn6V9GoKkNTC45DbHhrXWv2QaZPcYvSnVrjbVjMfhhXMTm",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 79899,
+      "createdOn": "2025-12-13T19:37:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693dc08d1c508c5d5ec5e2d4",
+          "products": [
+            {
+              "_id": "693dc08f1c508c5d5ec5e319",
+              "name": "Chicken88582",
+              "amount": 822,
+              "price": 79899,
+              "manufacturer": "Google",
+              "notes": "uy0sudt5ZzbI3K5XDmqQGZ5lP5yjCosgaOtH9ujEj15nPfemIChTeyWNMFARShMeONK9CgWeP5eL7G8sdNshIWzt4N8CB3jxqo7c8K6W8mv4OZ6cg16asbVzHHwGeFMIqbn7JSLfkoplk7AREv5Kv40k8P3InYterpUAx9s37sJazKQAZmpjdjLE9TUsNKuz8mMyYYScwsP3gn6V9GoKkNTC45DbHhrXWv2QaZPcYvSnVrjbVjMfhhXMTm",
+              "received": false
+            }
+          ],
+          "total_price": 79899,
+          "delivery": null,
+          "changedOn": "2025-12-13T19:37:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693dc0901c508c5d5ec5e38c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

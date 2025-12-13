@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 19:37:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "554",
+    "etag": "W/\"22a-4vZ7tW1xnv0JEm5DuazkBTNvVns\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Adrian.Shields@gmail.com",
+      "name": "Asia Bertrand",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 811,
+      "flat": 8335,
+      "phone": "+6685034553",
+      "createdOn": "2025-12-13T19:37:36.000Z",
+      "notes": "9Vj6AiSW4fCpOpPWMQw6TQJsp1Coi7H5PGSQK0HWA7phf0mBkrADLCw2ltnMQWjt8FJZqXpyik6hPBAhaCV1NH7ZmHnVfGr5O9HvRnPtZOxGoNTN3XgFxYzy4NtO2YAj0PMGUWNbDzlF6ivOvySnZllOiQYz8tQhLQ1NnWIIK7Ww6FDiEZPx3EWDaL95qnwNIPquuaNooPjwuyK8n3cMnCDuQxv7RvxcsyIx7PqnHoNsS5cDltpirAuSo0",
+      "_id": "693dc0801c508c5d5ec5dd17"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

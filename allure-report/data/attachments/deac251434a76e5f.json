@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 19:37:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-oklFI7QFU2BwwJaUdj6UoR4hVXs\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Valerie56@yahoo.com",
+      "name": "Oren Gillian",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 723,
+      "flat": 5538,
+      "phone": "+1744313293",
+      "createdOn": "2025-12-13T19:37:33.000Z",
+      "notes": "d7VDdJXs1TvAUGoW5uEGawSCUr5xyO4A2gdtbWGt6MndiZjxGaynH0SNqYuJWdtChr8v0oM1d8VGIhBWY5CCp3BJtqBCRUpN6SPbxmJquRAeY9EKF03iEaP96HJFdXAJRbHYh80gJrGGu675siMTiKq1IscpdTNj0ZuEt1Zk2mS0oS6JhtQdKtZKTpLDqvz5n2d0MifWXJZzFLAIQOoOx1Tj3Mw84PAUyigyTpm3JfYUPS2Y8nVTnAU7Mx",
+      "_id": "693dc07d1c508c5d5ec5dbd1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

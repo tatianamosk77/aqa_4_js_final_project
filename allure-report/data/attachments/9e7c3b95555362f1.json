@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 19:37:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "94",
+    "etag": "W/\"5e-NYgr3T8ulLvIgX8zsiKSEJBjhLo\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "IsSuccess": false,
+    "ErrorMessage": "Customer with email 'Jarred43@hotmail.com' already exists"
+  }
+}

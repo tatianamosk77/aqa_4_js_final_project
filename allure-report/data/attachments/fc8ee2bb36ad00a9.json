@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 19:37:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "562",
+    "etag": "W/\"232-ZlcjlL+dB76jT6+L9zCjaD+xloM\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Cristopher_Strosin@hotmail.com",
+      "name": "Uriel Jaqueline",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 220,
+      "flat": 9999,
+      "phone": "+0913805303",
+      "createdOn": "2025-12-13T19:37:11.000Z",
+      "notes": "f2gRY1UlyVMaJnaxsqiPG8iqTXB7UXe7yjEQDyZUEGGrHhPYqZuSrmEFeGA0gFJpIGYoUCDaj8t71oiojua0SHYEpFLGuCpbFGlD8Imcv61i04MeZT5InQPxbFH1URn4zvmxuxJRdZeM81iOuIBQvYlHQOdvQ8QTOPRYD6M48OOB2VZHOhlXP4WzPrUPVLuqQy2LmvA4WU6u8Qzxm8BRyVmo5ROh207K2en4dLEbAbLaYd1GsJ8q4mWg4I",
+      "_id": "693dc0671c508c5d5ec5d7c5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

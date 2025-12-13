@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 19:37:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-R4O/M1UEd1pUML7upyPblbq7TL4\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Joey.Koch@gmail.com",
+      "name": "Vicky Liliane",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 103,
+      "flat": 9232,
+      "phone": "+3109155237",
+      "createdOn": "2025-12-13T19:37:49.000Z",
+      "notes": "aewldHO9pbkVO8JRCzow1jlJySnmfBCjFWaQsgCNY2EfUgxHdy6Xjw7V0pdLqeP9HnN08ieCrY5un4vVo57QPWAMt7zfx5fX6Aslz1d46EQqZfEGYt9ajwQLM0ivTIFncQH6WqNd5oBqNT4sqHFcYq6SCymNtv1Ot49Pjc95CsmoQOVImPtIjGwBWBXeeC1zjaaUwJq8bYx7ohocR68IFu0hKVs5qXsDrOAOTnQCYlBZr61lhkis0P6kYy",
+      "_id": "693dc08d1c508c5d5ec5e2d2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

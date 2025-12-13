@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 19:37:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-LDqLNlhmE+1kPYfKs+SLgrdPzEs\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Issac13@gmail.com",
+      "name": "Santiago Athena",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 524,
+      "flat": 9583,
+      "phone": "+5796925934",
+      "createdOn": "2025-12-13T19:37:18.000Z",
+      "notes": "mP03J52NweD753VLDzvNJsfJI9JemmjV7jGbfBAceBDNPJUGtuJrNTyEUyuiikm8pla95UfP6c7TKTyDqDBnxa0qEoodu0abOINZdSbRL7J0Z28mCBhSUlKrPGUATPqc7qfyMcgAZJUYV4UR20azcjcVshS17V7WsbtfkCX27woDX8VQMQKzh8lpkJDTVW9iX4BzM2kMqPY9ygYRPPJTwEo92mH2NHsmPeqBbxHl85gJGkvjaeAbOMqmvT",
+      "_id": "693dc06e1c508c5d5ec5d8a0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

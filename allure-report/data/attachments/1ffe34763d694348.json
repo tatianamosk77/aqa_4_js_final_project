@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 19:37:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-8GJeE2u67BDoWkX/IFGrTEZd9F4\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Giovanni53@gmail.com",
+      "name": "Pedro Consuelo",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 714,
+      "flat": 2869,
+      "phone": "+9809356014",
+      "createdOn": "2025-12-13T19:37:40.000Z",
+      "notes": "hYVAGtQnzgjMyZzbEO76DnT6LnREOsw5n79wf5fYFird27J5NC2LJd1HCPkRHNPzxHq0NH4HBCkAbUCrj3ul0ASBCxfgnhXOaSxZ1aIEa2HMj9SYhxVd5JBp2vOJNlD0eAk9D2Anu5u74ootBwx9g8biS1J8KMdVht8TCjS6LaB18DSxoRJraxGeVgMNgDxfY6fCmalMn8auzP7FlEsHOgdwarCiz0Kc3POORCo8h49qwUGeHh6wADIkmj",
+      "_id": "693dc0841c508c5d5ec5de0f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

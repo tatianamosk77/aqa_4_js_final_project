@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 19:37:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1881",
+    "etag": "W/\"759-bvJsKQnX8Qg5B6vaK961+pcS0nc\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693dc08d1c508c5d5ec5e2d6",
+        "email": "Rodrick_Bahringer15@hotmail.com",
+        "name": "Liza Zander",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 833,
+        "flat": 9438,
+        "phone": "+3830566289",
+        "createdOn": "2025-12-13T19:37:49.000Z",
+        "notes": "G5ZMfUWx7ciycSOGqp0tfLoTUoNEy2Hvt4lPiPugoUj5PWdlxiKVUPqdUbWo0y8X3voyikGsjbj9t0ZmGstlIFu9IV2vKmIzoFRYYa5XMkC1Wzp4K953IUm6pgnC4zAhhcwSfWm2T4haTE45xmLxQCh0kCTaSRRZhR64pNHbPePQiNHvPWSr82diOL0SKu12hfm4gB6pmuWvG4GiuUfg5SVvXLJKLbR2cTQ5QiT7BBU6Uv3wAUcRNS0c1Q"
+      },
+      "products": [
+        {
+          "_id": "693dc08d1c508c5d5ec5e2d0",
+          "name": "Bacon51182",
+          "amount": 182,
+          "price": 55987,
+          "manufacturer": "Amazon",
+          "notes": "8aiXYrd17ije1f9B2cPUcd801rNOpkPiVE16qezL1Rfc3l1sIHHsU42bkETRwp4aqlhTEJD5apfUvZBnvZ0DQG9L9yFVHLQREpHJpclhIbdadOervqbQRqiod6KvnqEuy8Td6UeD8026O95eQ7H2CetFM9Z0cf7JHSqtbLpzdsohevzRnbftoMfKb3yAWh2tEciUov9b0is1O2fznpG5EhyUhVcGmignnL8D9oGjPpA08mg51F0r0b7Cvx",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 55987,
+      "createdOn": "2025-12-13T19:37:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693dc08d1c508c5d5ec5e2d6",
+          "products": [
+            {
+              "_id": "693dc08d1c508c5d5ec5e2d0",
+              "name": "Bacon51182",
+              "amount": 182,
+              "price": 55987,
+              "manufacturer": "Amazon",
+              "notes": "8aiXYrd17ije1f9B2cPUcd801rNOpkPiVE16qezL1Rfc3l1sIHHsU42bkETRwp4aqlhTEJD5apfUvZBnvZ0DQG9L9yFVHLQREpHJpclhIbdadOervqbQRqiod6KvnqEuy8Td6UeD8026O95eQ7H2CetFM9Z0cf7JHSqtbLpzdsohevzRnbftoMfKb3yAWh2tEciUov9b0is1O2fznpG5EhyUhVcGmignnL8D9oGjPpA08mg51F0r0b7Cvx",
+              "received": false
+            }
+          ],
+          "total_price": 55987,
+          "delivery": null,
+          "changedOn": "2025-12-13T19:37:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693dc08e1c508c5d5ec5e2f0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

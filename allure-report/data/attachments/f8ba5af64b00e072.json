@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 19:37:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1893",
+    "etag": "W/\"765-eBNzfj0/3IGsiWH075RGd8v5oZA\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693dc07a1c508c5d5ec5da56",
+        "email": "Damion_Luettgen58@yahoo.com",
+        "name": "Estevan Brando",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 641,
+        "flat": 7026,
+        "phone": "+3856012025",
+        "createdOn": "2025-12-13T19:37:30.000Z",
+        "notes": "XazZMi3ARluu63GiyQtVTeudtxbN7YGVHu01wAbvoPxSxnRJZPvalQWQKWvSTcuHpXOTRWjBs9VZaqg3XRuRSC5GBieLydYpbyC6Tnd9bJaQveiP6qiJqLIfx77yb6WyX2lBn3yF4k5eyato5hE6YgFrJqEK3DA0i3dHHRo1cAom4ALxx8fpYW7t7UDDh1z2asw6qWcjr60SRY7HEZ3prz19HjkmXGd3LCQYzWrATS3K9sjJkLv1XH04l4"
+      },
+      "products": [
+        {
+          "_id": "693dc07b1c508c5d5ec5da78",
+          "name": "Keyboard79769",
+          "amount": 650,
+          "price": 87724,
+          "manufacturer": "Amazon",
+          "notes": "EtdLqbCVGRR8MTwfpZs5xc4p5IzeLa5cbraQbr7wQqS9powF65GPclLbUM2UlR8cSYGBj3jxJvMcKKnkybpiydamz0O1CPF9KOGWrzhA9TbZglFQcbzRZX5PFvgtlgh1ZLjTMg1WpbtgI6SD4CiRARxKnag5TQLRMSfuFCQTPjE7E7RmCGbfB8K3itbNiZRnSZZpLPsXiHRYLs9NBBsxl1qwljj4mSer4q2hK2pryOKYt4jBq4JGF17uHO",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 87724,
+      "createdOn": "2025-12-13T19:37:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693dc07a1c508c5d5ec5da56",
+          "products": [
+            {
+              "_id": "693dc07b1c508c5d5ec5da78",
+              "name": "Keyboard79769",
+              "amount": 650,
+              "price": 87724,
+              "manufacturer": "Amazon",
+              "notes": "EtdLqbCVGRR8MTwfpZs5xc4p5IzeLa5cbraQbr7wQqS9powF65GPclLbUM2UlR8cSYGBj3jxJvMcKKnkybpiydamz0O1CPF9KOGWrzhA9TbZglFQcbzRZX5PFvgtlgh1ZLjTMg1WpbtgI6SD4CiRARxKnag5TQLRMSfuFCQTPjE7E7RmCGbfB8K3itbNiZRnSZZpLPsXiHRYLs9NBBsxl1qwljj4mSer4q2hK2pryOKYt4jBq4JGF17uHO",
+              "received": false
+            }
+          ],
+          "total_price": 87724,
+          "delivery": null,
+          "changedOn": "2025-12-13T19:37:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693dc07b1c508c5d5ec5daa5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

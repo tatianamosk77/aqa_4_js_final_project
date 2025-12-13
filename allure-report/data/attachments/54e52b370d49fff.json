@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 19:37:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-MjEMj0u3u6xodY84kPcc4yxBfPE\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Anibal78@hotmail.com",
+      "name": "Reyes Edyth",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 223,
+      "flat": 984,
+      "phone": "+1068357987",
+      "createdOn": "2025-12-13T19:37:48.000Z",
+      "notes": "eZ17wIpe9rFNCbIc3rx2x6lkJIPA0oIzT30b1uZ1HqXLysG8qSP9o5i2DFrvtG8Xy8vJ9mVWfQieHeZ4kNMguWgPjYL150sHZUghgpbAkOoCAH7UTDRK6MHFGMFhrsJ9IQs2xXH63DSxF9chR6mGaWW8SyWN0wtyfqwmvYx1Eglkn17EQPMmy8x0F7cUNZbGeTNoOfULajTtCQh7enq1JbKrEqbiMXQlKcEQhH2ecerD1H7XYZHcEZfyEC",
+      "_id": "693dc08c1c508c5d5ec5e1c5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

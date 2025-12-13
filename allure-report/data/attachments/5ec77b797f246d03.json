@@ -1,0 +1,161 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 19:37:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4168",
+    "etag": "W/\"1048-fZKWN2IeJz/0ZvsKPrJscGgjUgI\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693dc08e1c508c5d5ec5e2f0",
+      "status": "Draft",
+      "customer": {
+        "_id": "693dc08f1c508c5d5ec5e372",
+        "email": "Jovany_Kuhlman-Erdman68@yahoo.com",
+        "name": "Shirley Margret",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 449,
+        "flat": 1462,
+        "phone": "+4747308147",
+        "createdOn": "2025-12-13T19:37:51.000Z",
+        "notes": "3zW6ZIisPfYqq0A93LPukW59umrEn0zU6hDo29z9WX04wy3tFHozODwbimkp04sZDEi4r5EKKQQYOYnZTKFygB0c3k82CUjH7B89XoB41IZharCkLYzIcGLT63qxJzB1udjw0OVbUcrCSvP160zlKToSHNoXYOVhGnHoXl2BaeHJCHydNNZbqOR5MzD57Ik8iMO3xARocP2ngEkDnxMtSrIWY8e9MAZevXPjx7NDRoy8T0p8mluvgCzs3j"
+      },
+      "products": [
+        {
+          "_id": "693dc08f1c508c5d5ec5e37c",
+          "name": "Salad59436",
+          "amount": 346,
+          "price": 82146,
+          "manufacturer": "Google",
+          "notes": "pqwQ6lrmNFG8ODfyCWFnQzRsukdgmZ74DOZCZ5vgZ4mto62zZ6enNerU0IjpxO1zTnz5cseYyq5XaFKjpMmfeoOk86w4ncl7su56hhtHmzzUWEZEAEGhKxgPPwU4K2pKDEE941Mv4oSq42NyqjMo9ecbaCvJlhGtypGb9TPd1pCdnQj0n6U2Jw1S4dWAd5y5HYbBrZZSuINcywRwxXc90w1Mw3IOsh5wGGuv3EQAuk7D0HvOsgTEBzf3sg",
+          "received": false
+        },
+        {
+          "_id": "693dc0901c508c5d5ec5e37e",
+          "name": "Mouse83057",
+          "amount": 50,
+          "price": 67843,
+          "manufacturer": "Xiaomi",
+          "notes": "nGEuEijEhAscaRbeVcXr2NKMXAJXy6m44HCnv3T58ziznmvPm26emLb7M387l5lfjzZNdoRQoabevKiWj1l4eo5SodpyJJr5p2skdiukAOAsdaoEOhJqksmFltlfLFSq8gHTvJqXA7VLyH9LidMm8s9gsxyv95kEzWeHRlTgYevxn0zXiMnEKQ6KXmP0Mu7iBOVjKnfN0dxuC9tsbZw3N9KNxZIHvmM6yLuUEm2Y4vNJGhGYVC4APmWE7K",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 149989,
+      "createdOn": "2025-12-13T19:37:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693dc08f1c508c5d5ec5e372",
+          "products": [
+            {
+              "_id": "693dc08d1c508c5d5ec5e2d0",
+              "name": "Bacon51182",
+              "amount": 182,
+              "price": 55987,
+              "manufacturer": "Amazon",
+              "notes": "8aiXYrd17ije1f9B2cPUcd801rNOpkPiVE16qezL1Rfc3l1sIHHsU42bkETRwp4aqlhTEJD5apfUvZBnvZ0DQG9L9yFVHLQREpHJpclhIbdadOervqbQRqiod6KvnqEuy8Td6UeD8026O95eQ7H2CetFM9Z0cf7JHSqtbLpzdsohevzRnbftoMfKb3yAWh2tEciUov9b0is1O2fznpG5EhyUhVcGmignnL8D9oGjPpA08mg51F0r0b7Cvx",
+              "received": false
+            }
+          ],
+          "total_price": 149989,
+          "delivery": null,
+          "changedOn": "2025-12-13T19:37:52.000Z",
+          "action": "Customer changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693dc08d1c508c5d5ec5e2d6",
+          "products": [
+            {
+              "_id": "693dc08f1c508c5d5ec5e37c",
+              "name": "Salad59436",
+              "amount": 346,
+              "price": 82146,
+              "manufacturer": "Google",
+              "notes": "pqwQ6lrmNFG8ODfyCWFnQzRsukdgmZ74DOZCZ5vgZ4mto62zZ6enNerU0IjpxO1zTnz5cseYyq5XaFKjpMmfeoOk86w4ncl7su56hhtHmzzUWEZEAEGhKxgPPwU4K2pKDEE941Mv4oSq42NyqjMo9ecbaCvJlhGtypGb9TPd1pCdnQj0n6U2Jw1S4dWAd5y5HYbBrZZSuINcywRwxXc90w1Mw3IOsh5wGGuv3EQAuk7D0HvOsgTEBzf3sg",
+              "received": false
+            },
+            {
+              "_id": "693dc0901c508c5d5ec5e37e",
+              "name": "Mouse83057",
+              "amount": 50,
+              "price": 67843,
+              "manufacturer": "Xiaomi",
+              "notes": "nGEuEijEhAscaRbeVcXr2NKMXAJXy6m44HCnv3T58ziznmvPm26emLb7M387l5lfjzZNdoRQoabevKiWj1l4eo5SodpyJJr5p2skdiukAOAsdaoEOhJqksmFltlfLFSq8gHTvJqXA7VLyH9LidMm8s9gsxyv95kEzWeHRlTgYevxn0zXiMnEKQ6KXmP0Mu7iBOVjKnfN0dxuC9tsbZw3N9KNxZIHvmM6yLuUEm2Y4vNJGhGYVC4APmWE7K",
+              "received": false
+            }
+          ],
+          "total_price": 149989,
+          "delivery": null,
+          "changedOn": "2025-12-13T19:37:52.000Z",
+          "action": "Requested products changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693dc08d1c508c5d5ec5e2d6",
+          "products": [
+            {
+              "_id": "693dc08d1c508c5d5ec5e2d0",
+              "name": "Bacon51182",
+              "amount": 182,
+              "price": 55987,
+              "manufacturer": "Amazon",
+              "notes": "8aiXYrd17ije1f9B2cPUcd801rNOpkPiVE16qezL1Rfc3l1sIHHsU42bkETRwp4aqlhTEJD5apfUvZBnvZ0DQG9L9yFVHLQREpHJpclhIbdadOervqbQRqiod6KvnqEuy8Td6UeD8026O95eQ7H2CetFM9Z0cf7JHSqtbLpzdsohevzRnbftoMfKb3yAWh2tEciUov9b0is1O2fznpG5EhyUhVcGmignnL8D9oGjPpA08mg51F0r0b7Cvx",
+              "received": false
+            }
+          ],
+          "total_price": 55987,
+          "delivery": null,
+          "changedOn": "2025-12-13T19:37:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

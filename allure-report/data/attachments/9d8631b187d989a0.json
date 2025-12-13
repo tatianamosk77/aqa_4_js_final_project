@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "date": "Sat, 13 Dec 2025 19:37:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "292",
+    "etag": "W/\"124-Afgs/kiFu4Vz875daJIk3Gi4FxE\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Brandi_Armstrong9@gmail.com",
+      "name": "Addison Jeanette",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 439,
+      "flat": 6086,
+      "phone": "+7245414087",
+      "createdOn": "2025-12-13T19:37:13.000Z",
+      "_id": "693dc0691c508c5d5ec5d80b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
