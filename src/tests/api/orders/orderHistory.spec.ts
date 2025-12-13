@@ -234,9 +234,8 @@ function cleanupOrderFx(
   void (async () => {
     try {
       await deps.ordersApiService.delete(fx.orderId, fx.token);
-    } catch (error) {
-      console.error("Error:", error);
-      throw error;
+    } catch {
+      // ignore cleanup errors
     }
 
     deps.customersApiService.delete(fx.token, fx.customerId).catch(() => {});

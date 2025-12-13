@@ -5,4 +5,5 @@ export const NOTIFICATION_TYPES = {
   DUE_DATE_APPROACHING: "dueDateApproaching",
   PAYMENT_RECEIVED: "paymentReceived",
   NEW_ORDER: "newOrder",
+  UNASSIGNED: "unassigned",
 } as const;

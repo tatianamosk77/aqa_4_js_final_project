@@ -24,9 +24,8 @@ test.describe("[API] [Sales Portal] [Products]", () => {
       if (productId) {
         try {
           await productsApiService.delete(token, productId);
-        } catch (error) {
-          console.error("Error:", error);
-          throw error;
+        } catch {
+          // ignore cleanup errors
         }
       }
     });
