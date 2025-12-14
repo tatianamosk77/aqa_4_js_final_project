@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 22:15:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-JKpVJZjPC/QOqw4bW5Fn38FAuf8\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693f37071c508c5d5ec8890c",
+        "email": "Jerome_Schuster@yahoo.com",
+        "name": "Hilbert Hermina",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 542,
+        "flat": 6782,
+        "phone": "+4949747626",
+        "createdOn": "2025-12-14T22:15:35.000Z",
+        "notes": "XdJp8HQQHwXMXwky47hFiLlidnA5MxZQA8IOshBylqJu1F9da58jU5awbneZowO8P82GFFCUS6c8Db1fTY8PmcAyYRrJG2J1XnuQY0VFrvCHHqS08Z0sGSARIKYV8GU0rhVNZ6i62SR6RCUnZmJgw0wB5tASCWa9RifQMAEzexsXIWb57xoETrkuEdMDQnMgyW8Lc5b5fS1mRGE8X7EBbqfLcSzWSC2gWFytxsa9CuFR7CAtfmjRHC4MWH"
+      },
+      "products": [
+        {
+          "_id": "693f37081c508c5d5ec889c9",
+          "name": "Cheese77523",
+          "amount": 971,
+          "price": 82367,
+          "manufacturer": "Amazon",
+          "notes": "dmVOYqAOJyJlJE0fpZJQ1mKxy9nf4gZKuz39TeNZyG1FV0Td0DchRwGegcdMV8cZd0MGNx5nmDYK426ZpEH6NbuUkyUfxhGMl7R6WaN8elmP2m8WuBGETP9xqj2AXst1hrQ22xYqmQurL4NiA5Mk6udrD1liEjx2ZIW4nafrkBiOFMgZsOfMaEOmZSjtNsEbeYZMbI8rhQt591aDrDQNVccWWe6nUjp4lrzJIpw58rt0MRjoV9S05sVk9k",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 82367,
+      "createdOn": "2025-12-14T22:15:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693f37071c508c5d5ec8890c",
+          "products": [
+            {
+              "_id": "693f37081c508c5d5ec889c9",
+              "name": "Cheese77523",
+              "amount": 971,
+              "price": 82367,
+              "manufacturer": "Amazon",
+              "notes": "dmVOYqAOJyJlJE0fpZJQ1mKxy9nf4gZKuz39TeNZyG1FV0Td0DchRwGegcdMV8cZd0MGNx5nmDYK426ZpEH6NbuUkyUfxhGMl7R6WaN8elmP2m8WuBGETP9xqj2AXst1hrQ22xYqmQurL4NiA5Mk6udrD1liEjx2ZIW4nafrkBiOFMgZsOfMaEOmZSjtNsEbeYZMbI8rhQt591aDrDQNVccWWe6nUjp4lrzJIpw58rt0MRjoV9S05sVk9k",
+              "received": false
+            }
+          ],
+          "total_price": 82367,
+          "delivery": null,
+          "changedOn": "2025-12-14T22:15:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693f37091c508c5d5ec889d2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

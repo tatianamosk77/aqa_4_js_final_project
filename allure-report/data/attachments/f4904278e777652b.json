@@ -1,0 +1,161 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 22:16:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4152",
+    "etag": "W/\"1038-4EGJ/CDTpA0BktKMMAhRaeHaCog\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693f372a1c508c5d5ec891ad",
+      "status": "Draft",
+      "customer": {
+        "_id": "693f372e1c508c5d5ec892ca",
+        "email": "Leann.Gutmann70@gmail.com",
+        "name": "Victoria Daren",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 728,
+        "flat": 4738,
+        "phone": "+7004230729",
+        "createdOn": "2025-12-14T22:16:14.000Z",
+        "notes": "6HVzexbYUYXQkOTHriymiNDR7s4ke9uhqXTEatrJZn2S42ia7tZzfJuUG37fxGWpfnbePjWBF0nI1GuHRTTsD2sZJUIcw4lzBTRflwYUY19YHUO7M5ckYUspU8rEED4bSwkm38SeYa3Gc9dtm5U8ACdbC4fpJH32TOXjFxMFjosAHCmz3WaLRdRr6gFWAcpv6ELn9SqXGOogI6kWexWYbDVYQGa6fzuzIow7sWSKjefS4Z019PI3LfUdY7"
+      },
+      "products": [
+        {
+          "_id": "693f372f1c508c5d5ec892ee",
+          "name": "Soap57318",
+          "amount": 617,
+          "price": 95166,
+          "manufacturer": "Apple",
+          "notes": "u3pmsu7YwNr625edRYECR6rndRhDgyXuGEQccSMD9gGs8RgdFOorRpe9n8unjI6kR5eT69vAR5sRvQ2VbEGAF90kVwNwPqqUj2fu04PUQ0k8eZEnOnl14D5oSY77ntUeyVl0a7gTXzH56zHU8bhTGxjoAGpuqnUgnVZFCa7IFwTQzSvUgNGKGjmnjViEksH3Scz8l9x2bWFq7dqJiL4sQsI8Q1tRQegN2HeJoy1niOUG0ArJP52ToSjnmH",
+          "received": false
+        },
+        {
+          "_id": "693f37301c508c5d5ec89398",
+          "name": "Bike80839",
+          "amount": 825,
+          "price": 6031,
+          "manufacturer": "Apple",
+          "notes": "mr8gnPUhnIO53BLuEABYEHc97MNOkBIrGSyp3Z0PCiMTaCS4viJro8WUudDZpcSmqT3w7ixFTlJEFmMNtuXi6tn7N05UjgMs1pIAgR9af1A4YYU4xERm4Rplz3BWRlSXjnAQBvVp8Bhw2bq0pm0lBf7wUgpdEc8XYHgCLAsbEoukslM1BEbuvhUVwxobhydHfl9cfmGTEJLyencForJlQdiJZsz4DfhlmpGQQ8yk0AuvB9S2mtP5XLu76w",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 101197,
+      "createdOn": "2025-12-14T22:16:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693f372e1c508c5d5ec892ca",
+          "products": [
+            {
+              "_id": "693f37291c508c5d5ec8919b",
+              "name": "Shirt59979",
+              "amount": 401,
+              "price": 41341,
+              "manufacturer": "Google",
+              "notes": "3eBGqjrmNuzGjYTsS0JknHA5B3aemx2m4CU0TXRjQA7BVwfczPgzoyFX8KASVqp4nUg3re91QHH8tKPQUaX14TMrQerDWGLca9RthmXg0TM85tognUAWUr2ydr5aYK2rTErutSNkGxcy3kIxLlProFa3r687QLfyFDv4thKyVyOzHux6t1Ej7MXIF75TH3vBdhuXYw74J8L1zZeLNMZKhHX2xHdF7eHw6i99TcIVonDREGzE1AwdtWetdi",
+              "received": false
+            }
+          ],
+          "total_price": 101197,
+          "delivery": null,
+          "changedOn": "2025-12-14T22:16:17.000Z",
+          "action": "Customer changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693f37281c508c5d5ec890bf",
+          "products": [
+            {
+              "_id": "693f372f1c508c5d5ec892ee",
+              "name": "Soap57318",
+              "amount": 617,
+              "price": 95166,
+              "manufacturer": "Apple",
+              "notes": "u3pmsu7YwNr625edRYECR6rndRhDgyXuGEQccSMD9gGs8RgdFOorRpe9n8unjI6kR5eT69vAR5sRvQ2VbEGAF90kVwNwPqqUj2fu04PUQ0k8eZEnOnl14D5oSY77ntUeyVl0a7gTXzH56zHU8bhTGxjoAGpuqnUgnVZFCa7IFwTQzSvUgNGKGjmnjViEksH3Scz8l9x2bWFq7dqJiL4sQsI8Q1tRQegN2HeJoy1niOUG0ArJP52ToSjnmH",
+              "received": false
+            },
+            {
+              "_id": "693f37301c508c5d5ec89398",
+              "name": "Bike80839",
+              "amount": 825,
+              "price": 6031,
+              "manufacturer": "Apple",
+              "notes": "mr8gnPUhnIO53BLuEABYEHc97MNOkBIrGSyp3Z0PCiMTaCS4viJro8WUudDZpcSmqT3w7ixFTlJEFmMNtuXi6tn7N05UjgMs1pIAgR9af1A4YYU4xERm4Rplz3BWRlSXjnAQBvVp8Bhw2bq0pm0lBf7wUgpdEc8XYHgCLAsbEoukslM1BEbuvhUVwxobhydHfl9cfmGTEJLyencForJlQdiJZsz4DfhlmpGQQ8yk0AuvB9S2mtP5XLu76w",
+              "received": false
+            }
+          ],
+          "total_price": 101197,
+          "delivery": null,
+          "changedOn": "2025-12-14T22:16:17.000Z",
+          "action": "Requested products changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "693f37281c508c5d5ec890bf",
+          "products": [
+            {
+              "_id": "693f37291c508c5d5ec8919b",
+              "name": "Shirt59979",
+              "amount": 401,
+              "price": 41341,
+              "manufacturer": "Google",
+              "notes": "3eBGqjrmNuzGjYTsS0JknHA5B3aemx2m4CU0TXRjQA7BVwfczPgzoyFX8KASVqp4nUg3re91QHH8tKPQUaX14TMrQerDWGLca9RthmXg0TM85tognUAWUr2ydr5aYK2rTErutSNkGxcy3kIxLlProFa3r687QLfyFDv4thKyVyOzHux6t1Ej7MXIF75TH3vBdhuXYw74J8L1zZeLNMZKhHX2xHdF7eHw6i99TcIVonDREGzE1AwdtWetdi",
+              "received": false
+            }
+          ],
+          "total_price": 41341,
+          "delivery": null,
+          "changedOn": "2025-12-14T22:16:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

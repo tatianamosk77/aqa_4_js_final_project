@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 22:17:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "82",
+    "etag": "W/\"52-wBCfFgMdfrct4ZbV9zhr/5XxRX8\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "IsSuccess": false,
+    "ErrorMessage": "Product with name 'Shirt19270' already exists"
+  }
+}

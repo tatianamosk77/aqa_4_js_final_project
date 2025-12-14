@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 22:14:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "290",
+    "etag": "W/\"122-VJaNO4g4k4twYp7BTcH+YVpcKHk\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Dejuan.Gerhold28@gmail.com",
+      "name": "Karson Enrique",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 970,
+      "flat": 3120,
+      "phone": "+7592735847",
+      "createdOn": "2025-12-14T22:14:49.000Z",
+      "_id": "693f36d91c508c5d5ec88630"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

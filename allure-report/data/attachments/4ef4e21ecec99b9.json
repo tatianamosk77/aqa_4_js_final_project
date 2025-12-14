@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 22:15:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "686",
+    "etag": "W/\"2ae-xCV7pjBUgBzv6nnYTW3aTnIZiVI\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "693f36e71c508c5d5ec886fb",
+        "email": "Esteban_Schmidt75@yahoo.com",
+        "name": "Neha Haven",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 896,
+        "flat": 780,
+        "phone": "+1586957006",
+        "createdOn": "2025-12-14T22:15:03.000Z",
+        "notes": "UDzSsEELT4i3gcXt47pkjN4HJCMPs0ez5YL3E2OofmODDBgYqsiXl641bzsfYDZb0noYdFOxUI3MGjUPn86kZID50MDyS4xw1nZsbLvS7grAtl0krrUBxZM8Ximdu5E54rgj7vmAkzfwd8uz8N4HzFA6HpZH4raKHYgpbcN0QaBHL26x5UGf1WdgO6jdz057FPXfGm8QzPUyCBsKXTt072nkzsWeMvhUYTgSuJm6mPUJ9eEmm7fY09yaa0"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Esteban_Schmidt75@yahoo.com",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

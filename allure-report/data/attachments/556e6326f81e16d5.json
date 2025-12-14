@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 22:15:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-NdCm0TH0nPvzUtiWmP/f+ntOp6A\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Pasquale.Walsh@hotmail.com",
+      "name": "Lynn Harry",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 818,
+      "flat": 2525,
+      "phone": "+0995785634",
+      "createdOn": "2025-12-14T22:15:57.000Z",
+      "notes": "AE8GJUqTRuVD7bixFMYsq30H5p52XqC2uSPNAvM5PvEkrOQ0dE23o3FEjc430YvVffUm7oWDWngGRm81qPzhLYIFKoiwjYvXN8UqqTFU5sHqPsw53FbRAfC4YfRzrUYT8gUysq0DtqseH7V8Nczn4wNTuhvgR18EoiRhu2cVp8AZ7QSoTuwVVZrWka3inBhudjhQx7ZP8zvHcZ7OJopddinMqM6fPN2Vwy9BMpdv2OSaSAHFME4vHyddLD",
+      "_id": "693f371d1c508c5d5ec88d1b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

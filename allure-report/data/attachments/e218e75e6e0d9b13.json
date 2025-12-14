@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 22:15:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-TJhNgb1kjLeFbNIhvtc2CUByZzk\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693f370d1c508c5d5ec88b24",
+        "email": "Adela.Dare-Leffler@gmail.com",
+        "name": "Allene Otilia",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 119,
+        "flat": 6946,
+        "phone": "+9622899036",
+        "createdOn": "2025-12-14T22:15:41.000Z",
+        "notes": "jrwgnDEbILgOub68Iv44b5Jk1VxY4X5z5AJbaELiUkNuHRnFS4QdV0YIV2xtjFYtKh1I0IuNyAI0YTZo8YB6nTvFRS4JH1nQjekoybKVwqmg1nYNXxeGwPOUIhJXyoiakPFvZFVgbOuISuR0zDtXBygWH72fUUawwUbCyUmnzuBe8XCIn0SG79INqCrZIYb4pF6dMD1iBmjtqANvHCE0Wr1l82dtozLdfGezmDM2LyOaLkWJKenakwEZX1"
+      },
+      "products": [
+        {
+          "_id": "693f370f1c508c5d5ec88b83",
+          "name": "Gloves32883",
+          "amount": 310,
+          "price": 11785,
+          "manufacturer": "Apple",
+          "notes": "fuEyBGs6fqg61FxPaCUHxggDtEYO2OPc3Tiv9JFn5Q8BgDMr3taO5ZJBXoeTQXfuvIdZ01stB73w75emjMhmavEqcvfHaCjFW7rZl5wjoiE75peAVmkX6SdCpj2WG4TiFViIpMaO72mSxz7sJ8kawUmq6qpZetfKO2bmA46TY8smdcyVlglyLCmY9NF1i2drBCm5qu43KY66KYdT4Vx9dtiGAVlFPoGPRtAxlmCnBdHdL25BnX83dejvsB",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 11785,
+      "createdOn": "2025-12-14T22:15:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693f370d1c508c5d5ec88b24",
+          "products": [
+            {
+              "_id": "693f370f1c508c5d5ec88b83",
+              "name": "Gloves32883",
+              "amount": 310,
+              "price": 11785,
+              "manufacturer": "Apple",
+              "notes": "fuEyBGs6fqg61FxPaCUHxggDtEYO2OPc3Tiv9JFn5Q8BgDMr3taO5ZJBXoeTQXfuvIdZ01stB73w75emjMhmavEqcvfHaCjFW7rZl5wjoiE75peAVmkX6SdCpj2WG4TiFViIpMaO72mSxz7sJ8kawUmq6qpZetfKO2bmA46TY8smdcyVlglyLCmY9NF1i2drBCm5qu43KY66KYdT4Vx9dtiGAVlFPoGPRtAxlmCnBdHdL25BnX83dejvsB",
+              "received": false
+            }
+          ],
+          "total_price": 11785,
+          "delivery": null,
+          "changedOn": "2025-12-14T22:15:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693f37131c508c5d5ec88b99"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

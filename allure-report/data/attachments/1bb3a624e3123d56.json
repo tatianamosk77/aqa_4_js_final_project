@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 22:15:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-0r+oEgTsDGdqFJ80VuDEBS7lyl0\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693f37191c508c5d5ec88c84",
+        "email": "Zander95@hotmail.com",
+        "name": "Federico Vivian",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 321,
+        "flat": 8396,
+        "phone": "+5807458867",
+        "createdOn": "2025-12-14T22:15:53.000Z",
+        "notes": "yXmI3tV88AQYXYDwzciJ7fim66fLBKhGRR63q8HL77Jsneq0dJB4f3PuVhz2flfflixBqUNOOj83mZGPCJ2deV93a9MKaIPCOEPE26keU58kmCBHhjJw1motGSf2GAIM925o2ISRJxEgBaQiU3ehyyGYlM0kkueSkEOFx3u02tFddJloXhxhKNB1z6Ww4BUml7Qun6bRCGOXszRYLiRSIwTMMltOmgzK25xH4IfqzInplhEAKuDxqVmveB"
+      },
+      "products": [
+        {
+          "_id": "693f371b1c508c5d5ec88cc9",
+          "name": "Keyboard62966",
+          "amount": 273,
+          "price": 19453,
+          "manufacturer": "Samsung",
+          "notes": "DPqNDlNSJCCJFlY5WrybuHd35J2NDEgK1k3xvIQRWjzum1yaPdo5uSMmNe3Wfi9aFqbX9GEAVcYfditVN8ZilGoiMUvNF3ahtUeSPSIPuF6MgtuIHwYnDH7YZXmjCJUarMe44d8mf1HSWQ90HcrzJE7YAOMOk0B0NOJm6Ac9zTaUatXht62sb2Fz6WKLsL5NuZlnMzH9MnPeEvxEDsmHGY1PRNtMYnlqm3FP7eqgNsDiIhVIHX1CenFlkK",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 19453,
+      "createdOn": "2025-12-14T22:15:55.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693f37191c508c5d5ec88c84",
+          "products": [
+            {
+              "_id": "693f371b1c508c5d5ec88cc9",
+              "name": "Keyboard62966",
+              "amount": 273,
+              "price": 19453,
+              "manufacturer": "Samsung",
+              "notes": "DPqNDlNSJCCJFlY5WrybuHd35J2NDEgK1k3xvIQRWjzum1yaPdo5uSMmNe3Wfi9aFqbX9GEAVcYfditVN8ZilGoiMUvNF3ahtUeSPSIPuF6MgtuIHwYnDH7YZXmjCJUarMe44d8mf1HSWQ90HcrzJE7YAOMOk0B0NOJm6Ac9zTaUatXht62sb2Fz6WKLsL5NuZlnMzH9MnPeEvxEDsmHGY1PRNtMYnlqm3FP7eqgNsDiIhVIHX1CenFlkK",
+              "received": false
+            }
+          ],
+          "total_price": 19453,
+          "delivery": null,
+          "changedOn": "2025-12-14T22:15:55.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693f371b1c508c5d5ec88cdb"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

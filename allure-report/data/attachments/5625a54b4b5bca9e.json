@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 22:14:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "302",
+    "etag": "W/\"12e-IDwCUN/AaflQ88TY/5uU0U2DkeM\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Noelia_Wilderman66@yahoo.com",
+      "name": "Felipa Franco",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 876,
+      "flat": 1322,
+      "phone": "+8999263999",
+      "createdOn": "2025-12-14T22:14:49.000Z",
+      "notes": "",
+      "_id": "693f36d91c508c5d5ec88632"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

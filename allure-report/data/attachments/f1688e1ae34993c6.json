@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 22:16:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-Ug4S0j3XQL5bemEHRMzqv6fd150\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693f371f1c508c5d5ec88d76",
+        "email": "Iva_Hessel48@gmail.com",
+        "name": "Winnifred Carlos",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 786,
+        "flat": 9649,
+        "phone": "+3989214481",
+        "createdOn": "2025-12-14T22:15:59.000Z",
+        "notes": "Lvc7pyPTklnUPLYrGOUfW3qCEjZfjoxJ9Yv8AJXzXjthPT3ytAswROf2z37nTaNbwQeU0Gfus2h4mUU2INHhGwzqHoTEquORjxcQgzHiqsIceKpBwKBgx7TLjqGh3AOmI0syCeUzyLPK2aNueFZF8itGGLEtiC6w7I63QK3mG14Wcex8pdvtuhohKdgTreAMJEDSKVfGE5UcapfGAfw0w9zKbbqqGTEAGAlZAQ7YvkiNAm9UZTJHy8GP5v"
+      },
+      "products": [
+        {
+          "_id": "693f37201c508c5d5ec88dcb",
+          "name": "Mouse29347",
+          "amount": 497,
+          "price": 60507,
+          "manufacturer": "Amazon",
+          "notes": "Zj0g6zkTzqINdgEW1fz1DiX4LWD7Qhv8HYC5Ltbto12VqfwqrJCJGd0UEqDwCf6gtXt75pEAEo0evdPQRHreNLSeTjJAIAPIeDQwoiv0tbkXi9NA2hFBVA0vsCKI7SeH03XhpElPtj4i7mWIEgxJfwO1E6WaD2fdxU6U4ZmbvmGlJ0WMuEPNMUxK7DDrg77HnkNmCSj4WvrkyM2hajfi6pdfoJejbUtPKamcYybkaU7ja8jBgdczsejSXb",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 60507,
+      "createdOn": "2025-12-14T22:16:00.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693f371f1c508c5d5ec88d76",
+          "products": [
+            {
+              "_id": "693f37201c508c5d5ec88dcb",
+              "name": "Mouse29347",
+              "amount": 497,
+              "price": 60507,
+              "manufacturer": "Amazon",
+              "notes": "Zj0g6zkTzqINdgEW1fz1DiX4LWD7Qhv8HYC5Ltbto12VqfwqrJCJGd0UEqDwCf6gtXt75pEAEo0evdPQRHreNLSeTjJAIAPIeDQwoiv0tbkXi9NA2hFBVA0vsCKI7SeH03XhpElPtj4i7mWIEgxJfwO1E6WaD2fdxU6U4ZmbvmGlJ0WMuEPNMUxK7DDrg77HnkNmCSj4WvrkyM2hajfi6pdfoJejbUtPKamcYybkaU7ja8jBgdczsejSXb",
+              "received": false
+            }
+          ],
+          "total_price": 60507,
+          "delivery": null,
+          "changedOn": "2025-12-14T22:16:00.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693f37201c508c5d5ec88de2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

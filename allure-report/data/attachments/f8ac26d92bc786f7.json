@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 14 Dec 2025 22:15:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-8gKzAM4HgV7uR2JCBYI3knMtx+A\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Aliyah.Macejkovic@yahoo.com",
+      "name": "Otto Brock",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 973,
+      "flat": 8045,
+      "phone": "+7175441075",
+      "createdOn": "2025-12-14T22:15:08.000Z",
+      "notes": "NUBUL2ro1aIeOkJts3rjL90Mvo4LUY1voIHvW82okU6iahi2kiQ6n3NhyTN9IkmtQzUr6XQCAj9azWd3ooJ3xXwtLEfcdrNe8dfNqIgLQFwRRTmpYo9aooik35fnbFfRRTjia69Ejyzl4nUx5eMZNaeFvPnHpFDoFCjRoTscrfXQqW1hW5hS3u05EzcQ4GoLCAtomZ83gwCABzkXEuX8zQ6b6VKw1Nck2ZPLfmk59uJg4bh7O7QjWjw2G4",
+      "_id": "693f36ec1c508c5d5ec88727"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
