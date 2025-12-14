@@ -57,13 +57,8 @@ test.describe('[API] [Sales Portal] [Customers]', () => {
       expect(order).toHaveProperty('createdOn');
       expect(order!.customer).toBe(customer._id);
 
-      // Проверка total_price безопасно
       expect(typeof order!.total_price).toBe('number');
       expect(order!.total_price).toBeGreaterThanOrEqual(0);
-
-      // Логируем для отладки
-      console.log('Products:', order!.products);
-      console.log('Returned total_price:', order!.total_price);
   });
 
   test('Should get orders for customer with multiple orders',
@@ -102,7 +97,9 @@ test.describe('[API] [Sales Portal] [Customers]', () => {
       expect(response.Orders).toHaveLength(0);
   });
 
-  test('Should fail with invalid token', async ({ customersApi }) => {
+  test('Should fail with invalid token', 
+  { tag: [TAGS.API, TAGS.REGRESSION, TAGS.CUSTOMERS] },
+  async ({ customersApi }) => {
   const response = await customersApi.getCustomerOrders('someId', 'invalidToken');
   validateResponse(response, {
     status: STATUS_CODES.UNAUTHORIZED,
@@ -111,7 +108,9 @@ test.describe('[API] [Sales Portal] [Customers]', () => {
   });
 });
 
-test('Should fail for non-existent customer', async ({ customersApi }) => {
+test('Should fail for non-existent customer', 
+  { tag: [TAGS.API, TAGS.REGRESSION, TAGS.CUSTOMERS] },
+  async ({ customersApi }) => {
   const nonExistentId = '693f135c1c508c665ec860f6';
   const response = await customersApi.getCustomerOrders(nonExistentId, token);
   validateResponse(response, {
