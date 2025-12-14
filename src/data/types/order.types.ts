@@ -130,3 +130,6 @@ export interface IOrderRequestParams extends Record<
 export interface IOrderResponse extends IResponseFields {
   Order: IOrderFromResponse;
 }
+export interface ICustomerOrder extends Omit<IOrder, "customer"> {
+  customer: string;
+}

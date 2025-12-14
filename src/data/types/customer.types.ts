@@ -1,6 +1,6 @@
 import { COUNTRIES } from "data/salesPortal/customers/countries";
 import { ID, IResponseFields, SortOrder } from "./core.types";
-import { IOrder } from "./order.types";
+import { ICustomerOrder, IOrder } from "./order.types";
 
 export interface ICustomer {
   email: string;
@@ -57,3 +57,6 @@ export interface IGetCustomersParams {
   limit: number;
 }
 export type CustomerTableHeader = "Email" | "Name" | "Country" | "Created On";
+export interface ICustomerOrdersByIdResponse extends IResponseFields {
+  Orders: ICustomerOrder[];
+}
