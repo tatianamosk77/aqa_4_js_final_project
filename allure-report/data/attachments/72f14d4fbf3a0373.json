@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 11:04:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "212",
+    "etag": "W/\"d4-5SRVl/9G9cnD3T+o+CRjiqu9iY8\"",
+    "connection": "close"
+  },
+  "body": {
+    "IsSuccess": false,
+    "ErrorMessage": "Incorrect request body",
+    "SchemaErrors": [
+      {
+        "instancePath": "/flat",
+        "schemaPath": "#/properties/flat/type",
+        "keyword": "type",
+        "params": {
+          "type": "integer"
+        },
+        "message": "must be integer"
+      }
+    ]
+  }
+}

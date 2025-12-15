@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 11:04:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "539",
+    "etag": "W/\"21b-kAma+wdhm63CF1L8b9f1ts4Y/2Q\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Mayra39@hotmail.com",
+      "name": "Theo Cleta",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 437,
+      "flat": 8264,
+      "phone": "+5271101938",
+      "createdOn": "2025-12-15T11:04:53.000Z",
+      "notes": "hrAHmORl2jkLZgH571VqvLhDDwatcMmX4zYHnASEACTtVSMyemX4B4AX4WJo4n2gT1u22I0OQWq6kNdXdlgSpYecz23dwXqw6FPzm73W8aYDVNjV9zApTKoXtDWNFxYYp5gZJK8p8lNtg6o2ue3PeXrf8xtVvOHRHcfK0XLDUThq6eiKZJEKLifShtnJIHD0UdZpfpC3sjcY77tlNjp4zcFzn3RUaFwOvJScK9rdNlPQHpORBru3JDxWlI",
+      "_id": "693feb551c508c5d5ec95811"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

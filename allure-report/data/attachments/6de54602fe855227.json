@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 11:04:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-hEVc2dNKqp6+wlLhLqIf+vajJPY\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Edwin_Reichel@hotmail.com",
+      "name": "g",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 579,
+      "flat": 5699,
+      "phone": "+1439038991",
+      "createdOn": "2025-12-15T11:04:35.000Z",
+      "notes": "camUkGI5mrPqevEbzrEsQiUEovWWPKfUXOF5X6hDuVyLX9uq0soF7kGv5h5nCNMLDCW6BPIsFVA6MBzTp1sjLBEQJPftMNhdjOgg2s4hq346FqknhxsHgWu67lA9aJmOSO8RLqJCTZFn1ctxCmxHGAmug6pbCyBvXLUzo0TL1arwMeyqausSxLJ2Rwz7vpm2Ivn02V2huASvnKy1xE1oHyfZPUopF5BTJHKpTCBGPYBP0ayc9bdN5fPGIO",
+      "_id": "693feb431c508c5d5ec95301"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

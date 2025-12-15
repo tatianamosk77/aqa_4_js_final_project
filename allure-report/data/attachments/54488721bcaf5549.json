@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 11:04:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-KHJ+EAbGUKLxVI2vcNn6wsrLbgw\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "_id": "693feb4c1c508c5d5ec9556d",
+      "email": "Golden.Quigley@gmail.com",
+      "name": "Zakary Fern",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 315,
+      "flat": 196,
+      "phone": "+9200606147",
+      "createdOn": "2025-12-15T11:04:44.000Z",
+      "notes": "w41iwAqv0OVRIB3WSab1huofWzsY5ndwDCmD6AD1fCI7QhF4HKiVpy5Fvkgz1pJlRPyCwEMSi9yaCEg3shYBEi2Neh1Lb5bvsHfryQPfQoZDH3B91u4nYmXXCGxEj6NaitjDDxpRoRl8j4e7WNtdS6bkHqe271HfGVyP9j6e2TonRS1KjWPHDap6NBlTgmbsmM3fDFQw7rAXgaqy5lkrhB5xn4jx22Udj2hAaG8DaFiX64rW2l6mgy2g8z"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

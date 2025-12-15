@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 11:04:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "303",
+    "etag": "W/\"12f-0m8uep+pL4nHpoe2CyjeSPJ2kWs\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jaquelin_Daniel5@hotmail.com",
+      "name": "Charlene Elisa",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 100,
+      "flat": 4796,
+      "phone": "+2095356500",
+      "createdOn": "2025-12-15T11:04:38.000Z",
+      "notes": "",
+      "_id": "693feb461c508c5d5ec953f0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

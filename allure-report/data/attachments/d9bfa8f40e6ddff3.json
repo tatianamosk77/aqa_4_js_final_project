@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 11:04:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-jwQgz+XQdlzpygcdeeLqnt3enjU\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693feb551c508c5d5ec95808",
+        "email": "Norris_Schiller-Lowe14@yahoo.com",
+        "name": "Aileen Willow",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 586,
+        "flat": 1162,
+        "phone": "+3833118858",
+        "createdOn": "2025-12-15T11:04:53.000Z",
+        "notes": "hHWeb7TwhJtGSpajKFd0QgBTjWhvDgxLS0epCIfQUh2CdltIzvJunKbH1S3K2rbj3RV09URWbiiJBCCWeAtRWQskJzZABSEdwnK3Af7AdvQPGUBnaLbLmNfuUusx4n5awRqL0xHoYBq4WGCKClSbVLOB5pkNtyhISgZQF4cmbGy57dus6qFC1x1zVuZ8EG586AejP53WRFvUcn5EYzH0UrK8Z84oR40fCueuXTs980uJRZ4RwJnDaR6bjT"
+      },
+      "products": [
+        {
+          "_id": "693feb551c508c5d5ec9580a",
+          "name": "Mouse51416",
+          "amount": 550,
+          "price": 86516,
+          "manufacturer": "Apple",
+          "notes": "l11TU0DP66xRr9ojadl7W6A2bCiwBwgncD9uNuSzL6KPVvMWMl1lIhVkO0G8VrcoZlsGCIDRnUHH9qXxTBurOahddaURMvtDXuMyVaZSHYAq47JA6PkiiqhJqsJE1m0sjlMQCwE05N7vir8YyGAbGBD30EBKYsYBNrbEOAV1usaj44eAAkkrsOhwIbeVnmwPVvnb18Lm9NxbyRbsKTl67nDFau2vbskmSXm22Ar4OfO1PNXfhxQbBuSYoA",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 86516,
+      "createdOn": "2025-12-15T11:04:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693feb551c508c5d5ec95808",
+          "products": [
+            {
+              "_id": "693feb551c508c5d5ec9580a",
+              "name": "Mouse51416",
+              "amount": 550,
+              "price": 86516,
+              "manufacturer": "Apple",
+              "notes": "l11TU0DP66xRr9ojadl7W6A2bCiwBwgncD9uNuSzL6KPVvMWMl1lIhVkO0G8VrcoZlsGCIDRnUHH9qXxTBurOahddaURMvtDXuMyVaZSHYAq47JA6PkiiqhJqsJE1m0sjlMQCwE05N7vir8YyGAbGBD30EBKYsYBNrbEOAV1usaj44eAAkkrsOhwIbeVnmwPVvnb18Lm9NxbyRbsKTl67nDFau2vbskmSXm22Ar4OfO1PNXfhxQbBuSYoA",
+              "received": false
+            }
+          ],
+          "total_price": 86516,
+          "delivery": null,
+          "changedOn": "2025-12-15T11:04:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693feb551c508c5d5ec95824"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

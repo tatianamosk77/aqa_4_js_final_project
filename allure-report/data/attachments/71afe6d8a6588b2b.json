@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 11:04:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "552",
+    "etag": "W/\"228-RXf0LDl9vCljOb8PqQvKZqDwtpc\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Santa.Ortiz@hotmail.com",
+      "name": "Christiana Trystan",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 861,
+      "flat": 1156,
+      "phone": "+5658652512",
+      "createdOn": "2025-12-15T11:04:49.000Z",
+      "notes": "nGvKnn4lx4BTNrPJueRwsjh4T9NuOzAyMnASgfS3XbuW3byB3Y2trG7bgH43VOHDmARMhNmdAWdg2zAOX7y6rpyi1TMe0CaWbEJWF9rut2sPh87Jh18YZn8BQAvQJ3iT07BySeshLf5cARdoDVsiL9vaYFwo9bT7BI1gC4BQZZQy5kdn8b1cMv8F50RNB8XovhlofNMhzY2HwKdBRVp5TK70MqcAeI1Fgcfb9R4HuzSdvKQ05yYbiZJE67",
+      "_id": "693feb511c508c5d5ec9567b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

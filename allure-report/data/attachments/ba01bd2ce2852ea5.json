@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 11:04:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-+pDx7TzwnKHmp0WtKfjUmcBMKfE\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "693feb4a1c508c5d5ec954b2",
+        "email": "Clementina.Anderson@hotmail.com",
+        "name": "Rowland Juvenal",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 86,
+        "flat": 4164,
+        "phone": "+3894130348",
+        "createdOn": "2025-12-15T11:04:42.000Z",
+        "notes": "3ZKr4H4ZwyjR3Nifv1UoPyYZeHhjUqk9roD6vvfFKYcwxVSGRViPgjPXDr964kUTN6WlvJdRP9dXZMZTvQoNGGmmkGAJsvoW9ny338MPg4OjOgjwApzJBkFDuvFrBXHLeNJy2zOmE5z7lvq9NZLYqVRJoTGb1WCZdozU5f3nksgnRa2iH7oijXppqTHQbeEwEUAeGimcpypwqjq7Q5qv9gcY4pfMLuKtMpC1Rzu7NStDz4VH94H2Jk93Om"
+      },
+      "products": [
+        {
+          "_id": "693feb4a1c508c5d5ec954c7",
+          "name": "Bacon87186",
+          "amount": 317,
+          "price": 48371,
+          "manufacturer": "Amazon",
+          "notes": "tl1Xy1SABE81uHJGCn0TNtxuG03rgB1NAygOuxo4mxfX2vbI4DNFt8aQ0zyvN5R1FmvDDyl7XxSoflTtJdxhgA9VObvqIUboACOH1YO1ZvXvfmG80uA54cosWJhiswe5qvQ6ytO2g2eMhOFjb2zhHp5JrlmB4PCfPraUrRkWv5W3u19SpbNvCrdVvBB8z9CwkskAFCzQNMPTRE5hgL3NUqwlxfTlDaSrbSwyiTp2Yi9Pwy8FXFxKQrFt4e",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 48371,
+      "createdOn": "2025-12-15T11:04:42.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693feb4a1c508c5d5ec954b2",
+          "products": [
+            {
+              "_id": "693feb4a1c508c5d5ec954c7",
+              "name": "Bacon87186",
+              "amount": 317,
+              "price": 48371,
+              "manufacturer": "Amazon",
+              "notes": "tl1Xy1SABE81uHJGCn0TNtxuG03rgB1NAygOuxo4mxfX2vbI4DNFt8aQ0zyvN5R1FmvDDyl7XxSoflTtJdxhgA9VObvqIUboACOH1YO1ZvXvfmG80uA54cosWJhiswe5qvQ6ytO2g2eMhOFjb2zhHp5JrlmB4PCfPraUrRkWv5W3u19SpbNvCrdVvBB8z9CwkskAFCzQNMPTRE5hgL3NUqwlxfTlDaSrbSwyiTp2Yi9Pwy8FXFxKQrFt4e",
+              "received": false
+            }
+          ],
+          "total_price": 48371,
+          "delivery": null,
+          "changedOn": "2025-12-15T11:04:42.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "693feb4a1c508c5d5ec954e1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

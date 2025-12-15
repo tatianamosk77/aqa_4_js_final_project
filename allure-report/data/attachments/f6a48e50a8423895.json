@@ -1,0 +1,73 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 11:04:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1410",
+    "etag": "W/\"582-V5DwX9inOfrgnqPe3Zctp3ex3kE\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Orders": [
+      {
+        "_id": "693feb4a1c508c5d5ec954df",
+        "status": "Draft",
+        "customer": "693feb4a1c508c5d5ec954b0",
+        "products": [
+          {
+            "_id": "693feb4a1c508c5d5ec954c5",
+            "name": "Table62372",
+            "amount": 839,
+            "price": 19330,
+            "manufacturer": "Samsung",
+            "notes": "Ci7OeH0ONUpomt78qFioLmjoGeXjMistNAJnCFPOetS7NTxJ8VguaiZpFH3d1napNrTTIzCGPauJJhL7523X7tlYCz8U36jrceJorr6zmNvaWKfY0cNjGf05snx8Z3NC8sldEK8kqGRikTt5niCN3hE6MBJCJOlZHfeaYbqW0eGKXEZPVAZSeBqdMSLbeyXyofERuAO7rU2Te4cXlyRF1hrRfeNjJu1OIavJBdlxCnPE7bR2e94C4o3Brd",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 19330,
+        "createdOn": "2025-12-15T11:04:42.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "693feb4a1c508c5d5ec954b0",
+            "products": [
+              {
+                "_id": "693feb4a1c508c5d5ec954c5",
+                "name": "Table62372",
+                "amount": 839,
+                "price": 19330,
+                "manufacturer": "Samsung",
+                "notes": "Ci7OeH0ONUpomt78qFioLmjoGeXjMistNAJnCFPOetS7NTxJ8VguaiZpFH3d1napNrTTIzCGPauJJhL7523X7tlYCz8U36jrceJorr6zmNvaWKfY0cNjGf05snx8Z3NC8sldEK8kqGRikTt5niCN3hE6MBJCJOlZHfeaYbqW0eGKXEZPVAZSeBqdMSLbeyXyofERuAO7rU2Te4cXlyRF1hrRfeNjJu1OIavJBdlxCnPE7bR2e94C4o3Brd",
+                "received": false
+              }
+            ],
+            "total_price": 19330,
+            "delivery": null,
+            "changedOn": "2025-12-15T11:04:42.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337ce1c508c5d5e95335d",
+              "username": "student14@gmail.com",
+              "firstName": "Bill",
+              "lastName": "Schuppe",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:26"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      }
+    ],
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

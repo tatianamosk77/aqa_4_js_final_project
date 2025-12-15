@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 11:04:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1961",
+    "etag": "W/\"7a9-XxSz9nkdbUVK10zOu6tEqkkJq8c\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693feb561c508c5d5ec9589b",
+      "status": "Draft",
+      "customer": {
+        "_id": "693feb561c508c5d5ec95871",
+        "email": "Boris53@gmail.com",
+        "name": "Briana Karlee",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 694,
+        "flat": 7601,
+        "phone": "+9368808373",
+        "createdOn": "2025-12-15T11:04:54.000Z",
+        "notes": "sabBYMZQGIYynKaLmb9tK1Eq4j9A199oHRX6i51KgZsHKw4B2xoiRp6nVcxyx9odUS5Wrx3iyQkFL58bp9yOtElc7271GIZ84HDNZhKC6vjmaXKDsXJmWRaM9GTZoI6CEXIXtRnoZsnrD8XRv9RZA0CxpLKRYpfEGenHd0bOp555LMarNOvEu3OngBPDQgCvuyhgXML1CFUMQYusBvCN02dzP6EduEQJdqrsKPKC9cUKKAnocVh6O7fCKZ"
+      },
+      "products": [
+        {
+          "_id": "693feb561c508c5d5ec95874",
+          "name": "Gloves29087",
+          "amount": 49,
+          "price": 53335,
+          "manufacturer": "Sony",
+          "notes": "zfqJSKJQ9YqVI71JNZuUyVpZp3l644uiAfDA7rDRh26mdrqCgZvR8aOfRIWwlGOXKqmAuBg79Z3QUsPOGszYGCQsC8YL4n36NjnDHI9sLkyd0LrbXFhDyqJ6oSdPDzkvOHIxBLidSNlUaHLelQrqEjjsRuGslcoHMNj3WguHg7YM4nTKNxWM93LQ0YvneAoPIG8trEYeMlFyTI8Ywhuu0Si2glnBRsRX5onPbu9zBENAMwxsarydoqFOUS",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 53335,
+      "createdOn": "2025-12-15T11:04:54.000Z",
+      "comments": [
+        {
+          "text": "autotest comment",
+          "createdOn": "2025-12-15T11:04:54.000Z",
+          "_id": "693feb561c508c5d5ec958c3"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693feb561c508c5d5ec95871",
+          "products": [
+            {
+              "_id": "693feb561c508c5d5ec95874",
+              "name": "Gloves29087",
+              "amount": 49,
+              "price": 53335,
+              "manufacturer": "Sony",
+              "notes": "zfqJSKJQ9YqVI71JNZuUyVpZp3l644uiAfDA7rDRh26mdrqCgZvR8aOfRIWwlGOXKqmAuBg79Z3QUsPOGszYGCQsC8YL4n36NjnDHI9sLkyd0LrbXFhDyqJ6oSdPDzkvOHIxBLidSNlUaHLelQrqEjjsRuGslcoHMNj3WguHg7YM4nTKNxWM93LQ0YvneAoPIG8trEYeMlFyTI8Ywhuu0Si2glnBRsRX5onPbu9zBENAMwxsarydoqFOUS",
+              "received": false
+            }
+          ],
+          "total_price": 53335,
+          "delivery": null,
+          "changedOn": "2025-12-15T11:04:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

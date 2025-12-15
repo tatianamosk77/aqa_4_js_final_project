@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 11:04:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "283",
+    "etag": "W/\"11b-M1DNHho7bYJR9YL2pAh8cdK4ReA\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Blanche63@hotmail.com",
+      "name": "Marty Rebeca",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 371,
+      "flat": 5412,
+      "phone": "+3251806548",
+      "createdOn": "2025-12-15T11:04:37.000Z",
+      "_id": "693feb451c508c5d5ec953db"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 11:04:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2942",
+    "etag": "W/\"b7e-qSQWlx9vG2WusWiLOr7U99WXkMg\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693feb591c508c5d5ec959e0",
+      "status": "Draft",
+      "customer": {
+        "_id": "693feb591c508c5d5ec959a2",
+        "email": "Tina_Greenfelder57@gmail.com",
+        "name": "Kennedy Ethelyn",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 777,
+        "flat": 2184,
+        "phone": "+7068247314",
+        "createdOn": "2025-12-15T11:04:57.000Z",
+        "notes": "m5fYzGek1vnK2J8PuPdhJ0fVS4xFPTfRSM1cTDIVIupn2bVTgNPgA91YRUqAoTcZcXaIITVqrCrY78asytHbXuxLB8j6HXECnksnvuEQfXOHBEqpjTJ0tBAYn5FzZpGY0lisHCgtG2MEoB3LswZ8TTcwowgGEujYVC5ta7kWBQpfxQ2UPw3nfeIp1Gq1c5FOtlsaGh7D0TgblaX6lsKZqLjxHzpQDDGEInQtp5KHK4hwSbkNPINgeF0YEt"
+      },
+      "products": [
+        {
+          "_id": "693feb591c508c5d5ec959bf",
+          "name": "Cheese933",
+          "amount": 53,
+          "price": 93150,
+          "manufacturer": "Amazon",
+          "notes": "b7Llba3dvCtd8TxA1N05Y2qVUaz6c6iyLQJMhdkZXcCOyqZvqaMyNE0Dw7xodpULehM4qeSVit4IwCAQjtTY65kG07vtE20PGcVBrN2ed4cCP2dFz8h7DM3C4tbfScc3pcE8CjMTVxqx5Soq9ao0SW7E2dvNslriET6lEWY8jvT5M3Tik7pzOAzBaj2v7lttSZWWSAUJUAiEIwoLYMg3UIgS8mo8dzYxavGzfCSI4ODjfIojIhrFhX9QsD",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 93150,
+      "createdOn": "2025-12-15T11:04:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693feb591c508c5d5ec959a2",
+          "products": [
+            {
+              "_id": "693feb591c508c5d5ec959bf",
+              "name": "Cheese933",
+              "amount": 53,
+              "price": 93150,
+              "manufacturer": "Amazon",
+              "notes": "b7Llba3dvCtd8TxA1N05Y2qVUaz6c6iyLQJMhdkZXcCOyqZvqaMyNE0Dw7xodpULehM4qeSVit4IwCAQjtTY65kG07vtE20PGcVBrN2ed4cCP2dFz8h7DM3C4tbfScc3pcE8CjMTVxqx5Soq9ao0SW7E2dvNslriET6lEWY8jvT5M3Tik7pzOAzBaj2v7lttSZWWSAUJUAiEIwoLYMg3UIgS8mo8dzYxavGzfCSI4ODjfIojIhrFhX9QsD",
+              "received": false
+            }
+          ],
+          "total_price": 93150,
+          "delivery": null,
+          "changedOn": "2025-12-15T11:04:57.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "693feb591c508c5d5ec959a2",
+          "products": [
+            {
+              "_id": "693feb591c508c5d5ec959bf",
+              "name": "Cheese933",
+              "amount": 53,
+              "price": 93150,
+              "manufacturer": "Amazon",
+              "notes": "b7Llba3dvCtd8TxA1N05Y2qVUaz6c6iyLQJMhdkZXcCOyqZvqaMyNE0Dw7xodpULehM4qeSVit4IwCAQjtTY65kG07vtE20PGcVBrN2ed4cCP2dFz8h7DM3C4tbfScc3pcE8CjMTVxqx5Soq9ao0SW7E2dvNslriET6lEWY8jvT5M3Tik7pzOAzBaj2v7lttSZWWSAUJUAiEIwoLYMg3UIgS8mo8dzYxavGzfCSI4ODjfIojIhrFhX9QsD",
+              "received": false
+            }
+          ],
+          "total_price": 93150,
+          "delivery": null,
+          "changedOn": "2025-12-15T11:04:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337ce1c508c5d5e95335d",
+        "username": "student14@gmail.com",
+        "firstName": "Bill",
+        "lastName": "Schuppe",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:26"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

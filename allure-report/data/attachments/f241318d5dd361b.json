@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 11:04:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-NbOIfnTsUVbsZy89y9LNI7W3ybw\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ronny.Denesik75@hotmail.com",
+      "name": "Ahmed Lily",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 520,
+      "flat": 8170,
+      "phone": "+4888108675",
+      "createdOn": "2025-12-15T11:04:54.000Z",
+      "notes": "Oac4zyyTMspoJBFSL7KpdSQqY7dkyjyXFcGWzpdXDwFd2zQvfWLp5xeqV2cDhYPbuh4kyxNHmRVEpyPR159aQAnJnLzLuAK4xsqleQkqbW0TUdYAbYoGAsCMfPGebw9rz85YwPTOZfD6XI0B4urpKsYyyvEP2UE5UfYPzYjNPyGnQrXsebu5yQA36Ub0VewrnEvXVAXMLSj5lwlDlL4kR5db8JlvetoKMLASH5qCcRxog5bO7F34mf4Tvy",
+      "_id": "693feb561c508c5d5ec9584b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
