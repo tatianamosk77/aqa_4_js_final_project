@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 22:16:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-m0gVYCJejJTCroQcND0hJlE2tKY\"",
+    "keep-alive": "timeout=5, max=72",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Duncan3@yahoo.com",
+      "name": "German Yvette",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 847,
+      "flat": 5972,
+      "phone": "+3122338088",
+      "createdOn": "2025-12-15T22:16:09.000Z",
+      "notes": "maVfigsCkqtQf0AqOr129Z9vlhguwB5zMuCiqm0r9lmIKLNLOlrPfvBxAPCtos7wV2ltyYREd9xzQ414DgFl121In4tIJ9wW3mBn6inDOBDz7VlmdJBaYabORvU2XbjpbhFpRPPnLkV3em7YFlDCt3foirkLrX2qzaV1Ca3pqUOW4pNgbKCRKPxP0rVXTXorzwyqYuBUVMnfVQsKMyZNo7ZcGe0b4olcpAq3V0MWbVfKw8Q0Oeb8LGvE8h",
+      "_id": "694088a91c508c5d5ecc4a2a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

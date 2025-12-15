@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 22:16:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-Mb73hEffPT8V47hi7+veQJg3pYw\"",
+    "keep-alive": "timeout=5, max=53",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Magdalena_Kozey@hotmail.com",
+      "name": "Carolina Edgardo",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 763,
+      "flat": 8529,
+      "phone": "+6985284295",
+      "createdOn": "2025-12-15T22:16:16.000Z",
+      "notes": "1Y8mvOTRoC4BfClCMa14PXVIFDxMJNr911N6W7Yz4r8TifTeYMUaX4Cz0JOBTIOsRYZfvLEhkedbrpRc1wvEKTCoZtTRbVStz0qJoaOGvz29qjjofnxOZNBLKrAkLptNXmFUgr7l3KzT6VaKMCLWGElgLJ42TjPPAylaVTPxfiL4uM11Alw6LRi5377Ldx0UoV8mqKd2aNj1aXkaJYdwe1aEF2ZkSd2QH4LOZr9uUU0iceD3KkrqJBT5m3",
+      "_id": "694088b01c508c5d5ecc4d0b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

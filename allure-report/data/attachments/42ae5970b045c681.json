@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 22:16:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-h/0uqG/FrCEcZUe9SxusbFiJdC4\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "William.Bahringer@hotmail.com",
+      "name": "Abe Helena",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 270,
+      "flat": 7987,
+      "phone": "+1061007808",
+      "createdOn": "2025-12-15T22:16:18.000Z",
+      "notes": "BSI6kQhzal75Sf6G4nLMJh7MOtMtoRc92zNZy7BFUoC2Wd1uvJa2bdVMAufp7WDgtMUJgwVDMfiKyiwrueaqafoMsVu2VUIvhEUFWo4lfgMP5L3ARtPX815eZmyT3kiK7c6qMlrGAVnXqQ8QRPGLSSA5MPRKm0lSqdM4AtnJAcJ3yKEUSHeGFv03lgbbdaf1XXzQtciMBpvZOzpJhenHXV2TqmudtF2AgwEJzJmUN0wS6furxNXyuacwJq",
+      "_id": "694088b21c508c5d5ecc4dc8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

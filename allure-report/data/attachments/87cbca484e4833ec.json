@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 22:16:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1876",
+    "etag": "W/\"754-7ZNQU3leOUUZ7xgg6vq3Lq00NZE\"",
+    "keep-alive": "timeout=5, max=72",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694088aa1c508c5d5ecc4a49",
+        "email": "Bertha.Abshire91@gmail.com",
+        "name": "Florida Destiny",
+        "country": "France",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 977,
+        "flat": 5087,
+        "phone": "+2860546570",
+        "createdOn": "2025-12-15T22:16:10.000Z",
+        "notes": "qg9Cb7sN0l7eG5SqvUXlG80E9CVGQV93np4Fr2r8Y3fC7Gg6HUWVnPYjiQxuSi81JaBCQRakMz2vfoK6v1poum7hb5cah2SMouoTKncV432q88gI0PAqCvcsNNYuMZuZPcP9VTybTY8Shy0jCFIs19cRX51XStUNTJwLCei2JD5QMLUVnMVPiYAtuwXao4BZZvY7LxveWEpiR8CpEebsIvej7Hx9onL4haspGq5fgGMA05kTQeuewAEUvl"
+      },
+      "products": [
+        {
+          "_id": "694088aa1c508c5d5ecc4a58",
+          "name": "Shirt83218",
+          "amount": 525,
+          "price": 5347,
+          "manufacturer": "Google",
+          "notes": "rrDKfwJSitDtBiMXDg0zweeoF33rgfqo43GzfzA442PjicxWnyEVLCrieBsryAA1Vn2iy36y1PttciEPvNC4XDjdqKBOpBgTMHbxHufByfrjnXuFI3pj1BmjlongVwi0npWWeW3cMIa2mwjfMQtmpjvobnvIlcCPbQnDKfic8fetVJkltYmDw9FA0MSzRpVooKbJJ9dv0olrHddfZHd3ktvwxnclusc8beLcs4jw6zNZtrtizlWaTnqSIY",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 5347,
+      "createdOn": "2025-12-15T22:16:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694088aa1c508c5d5ecc4a49",
+          "products": [
+            {
+              "_id": "694088aa1c508c5d5ecc4a58",
+              "name": "Shirt83218",
+              "amount": 525,
+              "price": 5347,
+              "manufacturer": "Google",
+              "notes": "rrDKfwJSitDtBiMXDg0zweeoF33rgfqo43GzfzA442PjicxWnyEVLCrieBsryAA1Vn2iy36y1PttciEPvNC4XDjdqKBOpBgTMHbxHufByfrjnXuFI3pj1BmjlongVwi0npWWeW3cMIa2mwjfMQtmpjvobnvIlcCPbQnDKfic8fetVJkltYmDw9FA0MSzRpVooKbJJ9dv0olrHddfZHd3ktvwxnclusc8beLcs4jw6zNZtrtizlWaTnqSIY",
+              "received": false
+            }
+          ],
+          "total_price": 5347,
+          "delivery": null,
+          "changedOn": "2025-12-15T22:16:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694088aa1c508c5d5ecc4a72"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

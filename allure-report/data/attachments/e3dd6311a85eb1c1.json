@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 22:16:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "672",
+    "etag": "W/\"2a0-AJz4E+F6Wa5V1RfcurrilmOFFYs\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "694088a51c508c5d5ecc4905",
+        "email": "Genoveva59@gmail.com",
+        "name": "Blanche Madeline",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 611,
+        "flat": 5824,
+        "phone": "+9649894151",
+        "createdOn": "2025-12-15T22:16:05.000Z",
+        "notes": "JJxlxGTZfSGljPVoYSABhXHjU99hgUdQkXfH8R20igBaAaizh8ZUXE43uQ0JVeRQShdco60fzqUxaDBizQQK0Pax0wVXd55E8EoCpwLVKGRCfcjfWkMVMLZcREY4YgoLFa16Swu80kOzGYRZwsNDK62C5u8ElNK4gMbKS73svMRN62b26DfSakTjwwVqJ3wxsPztyjyMZjcoyHE4Z7EeXxtsA6MzUXNYY2mKT3uGfuqd7UMRa0nspJtxwA"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Blanche Madeline",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

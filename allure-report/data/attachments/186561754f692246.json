@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 22:15:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-TpJH/90bxxrzmG/6Hx9rS+fkh6g\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jamarcus.Cartwright@yahoo.com",
+      "name": "Test Customer",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 979,
+      "flat": 5485,
+      "phone": "+7388093800",
+      "createdOn": "2025-12-15T22:15:59.000Z",
+      "notes": "nZCm2zKOcK45S0NmSQhW7sewWsKe5N9g2hBzEvDAGQ7Xn5IxemWAECtR68qQyBlkIeAEOi02xsXC4xjR96GrCAwgJBfiTKV5QFWG8iz5r5DaYKwBfML1n1oA3i5aSVfJSAZkIA6aPPZ2ZqUY11BypcXbMHd3BsSHAJjIcMeAJYpkA6nUdSBOUOncTnGIBKHxRrMYpVbMh4P1HO73P5MAB2y9cnUlnlNUxGAYqhx87fS81IH1WpGuk3Nx8P",
+      "_id": "6940889f1c508c5d5ecc470c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

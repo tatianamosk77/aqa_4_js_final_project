@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 22:16:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-uQ0Wahd8tqCR61oZ/+oo0qNSMAE\"",
+    "keep-alive": "timeout=5, max=64",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694088aa1c508c5d5ecc4a8f",
+        "email": "Margarete_Schimmel96@hotmail.com",
+        "name": "Adolf Merlin",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 298,
+        "flat": 5391,
+        "phone": "+4195707042",
+        "createdOn": "2025-12-15T22:16:10.000Z",
+        "notes": "f8sBQiyeOmIidjuZ01LwkUZoexjVrd7QAL7wR6eIlslGxITEIxqDIp9NSrzkaWkL7z1JBf7F4WzPC5FEJ72JW1BeM2GZuF7dKsG4CgQ3d6X50wYR9wZivUyRirvzLaug8OzkhIJp7zRTsmxCW3dldaOlvsdsY8lb2QYJj0kYhFaDWjLNYJnq4i6TVr659UkguuYJOxoZpx1VnwuJOxNVrHqn9dC1zi3UhbsswWh4Qb4OlmLt4GQaCjf9qZ"
+      },
+      "products": [
+        {
+          "_id": "694088ab1c508c5d5ecc4a9d",
+          "name": "Keyboard42727",
+          "amount": 649,
+          "price": 7996,
+          "manufacturer": "Amazon",
+          "notes": "jufGuAonU1LvAgQnE2md0hXdfSLENpWRUknG2ADXz2COZVOrhz2wzVCbkbbqbAn4J94BhH6rxZMn7rQ75yfMqX8bctsjD8ZsZXU5fwP3t9bCMCJMqsbX5L7N6UasMFcpiN3m8kuq4jpdSdTiW1h5KnLV3VtrUu7kpuoQDMjMnSBu9dyygjNDxhkHv0G2497omuzpjn8fRytozAAFLPOVktszcNfCOruQ4kmk66RdwB1xXInI194c15bjLX",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 7996,
+      "createdOn": "2025-12-15T22:16:11.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694088aa1c508c5d5ecc4a8f",
+          "products": [
+            {
+              "_id": "694088ab1c508c5d5ecc4a9d",
+              "name": "Keyboard42727",
+              "amount": 649,
+              "price": 7996,
+              "manufacturer": "Amazon",
+              "notes": "jufGuAonU1LvAgQnE2md0hXdfSLENpWRUknG2ADXz2COZVOrhz2wzVCbkbbqbAn4J94BhH6rxZMn7rQ75yfMqX8bctsjD8ZsZXU5fwP3t9bCMCJMqsbX5L7N6UasMFcpiN3m8kuq4jpdSdTiW1h5KnLV3VtrUu7kpuoQDMjMnSBu9dyygjNDxhkHv0G2497omuzpjn8fRytozAAFLPOVktszcNfCOruQ4kmk66RdwB1xXInI194c15bjLX",
+              "received": false
+            }
+          ],
+          "total_price": 7996,
+          "delivery": null,
+          "changedOn": "2025-12-15T22:16:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694088ab1c508c5d5ecc4ab1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

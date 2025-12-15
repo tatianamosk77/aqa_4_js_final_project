@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 22:16:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "665",
+    "etag": "W/\"299-64sVZ3SU2I9u6Rzy7zXu3uGoAII\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "694088a51c508c5d5ecc4922",
+        "email": "Erika.Tromp85@yahoo.com",
+        "name": "Benton Alison",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 854,
+        "flat": 4278,
+        "phone": "+7265397857",
+        "createdOn": "2025-12-15T22:16:05.000Z",
+        "notes": "s3N3ot31qftlaPMNxqRhHgeDqDJLmZgxOt7VTPmUVCPr8lu6oMj4ASHz4rmwTo0bLXYMQEQp0GatglyFHDHUeWH2nENz1DBci54J5ve2Rsxe3dUpRW7afOxUVpqMd9DLjvF6TRFOe5UWKWAIlX7JVwmAXxjzgX0LnRUI9u23kvFKeRnJdLWekNWh4FnhIxjPccMOnGNUZ3KvjkzB86LvnvFSlZxFbz2XYh157c4hlqyj1rSFrOkS4beweZ"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Russia",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

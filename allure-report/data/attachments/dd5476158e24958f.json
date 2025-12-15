@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 22:16:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-HhDgpTL+jf941pqdhAPkxIYRm/E\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jalon.Tillman@yahoo.com",
+      "name": "Kristoffer Stewart",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 1,
+      "flat": 6963,
+      "phone": "+4050375821",
+      "createdOn": "2025-12-15T22:16:00.000Z",
+      "notes": "6WEcsuPBip32LQFO7v5NXb0VVSGjHaqE1P7YP4mrPUTn0NRmAoo7Gc4gMsYPzhjl3k0BqwskZLor3e79SKtxlxWIC1VM7ChOTIBVNjDK3i2NOfnwFADhFTVZ7MGvDwZI2d97oLD3Qpl6uTBKZL34jPQnB9UKV3oxL1NqmdZZhQDMOUxhvVkDUw69YYI9JtlNKSN8ycMfORr4MwCqzBmpfsC1EBy07JyQl0soeFKg9LXETvyrd6FSn45ZDN",
+      "_id": "694088a01c508c5d5ecc478c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

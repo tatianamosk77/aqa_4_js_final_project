@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 22:16:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-hYZ6a6FFGXS2Kbtl4OKxg5kXrn8\"",
+    "keep-alive": "timeout=5, max=51",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694088b31c508c5d5ecc4e35",
+        "email": "Andreanne_Pollich@gmail.com",
+        "name": "Brando Anderson",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 945,
+        "flat": 5437,
+        "phone": "+3320279631",
+        "createdOn": "2025-12-15T22:16:19.000Z",
+        "notes": "F581rUeLM2vMvZxo5kbHD7dBuNoHJcqpcNprjqdb1M1OyModUTBSasrL4gFLv5J3naFDybUvrm1tTmqCbby5FwdaFDjk6GdNjhP8VBc3pV8g4Rwb03BInbHxj03TygiKci6Logw7fde8DD3AriKsTrp9CRb4sqP3YINqW3i61EYAlrzHPGMljVu1vt7ajgc9ZuR1nTYDhkwecz5AxEV2qz3IaiUEazzN4wIUN7hVrdJTfOXMJwTb1UWCvL"
+      },
+      "products": [
+        {
+          "_id": "694088b31c508c5d5ecc4e3a",
+          "name": "Bike97699",
+          "amount": 155,
+          "price": 49294,
+          "manufacturer": "Amazon",
+          "notes": "qwdKSe6K4wX0hKeZBbtiwx5hcYV8YufnPxiN4HnqO8LgYq7J2gS966ilvrIfphqfIE3upG3wzYznMEClpZ7rpHxNMQ3k2miVcdKWcuMFzvkOe4CcVfaws3Yh42dkkofJ8ShExKKhUNAk89vhVwnDd6ZSu1X6Wq75huNRcFgFqflBiTZ3ZQKE2dFSd76sn5XsoyGiYWMPmun8gp16Cwzj7YWKRKhOhc4ri9U4w9tc816wdsqPphnkzCxoz2",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 49294,
+      "createdOn": "2025-12-15T22:16:19.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694088b31c508c5d5ecc4e35",
+          "products": [
+            {
+              "_id": "694088b31c508c5d5ecc4e3a",
+              "name": "Bike97699",
+              "amount": 155,
+              "price": 49294,
+              "manufacturer": "Amazon",
+              "notes": "qwdKSe6K4wX0hKeZBbtiwx5hcYV8YufnPxiN4HnqO8LgYq7J2gS966ilvrIfphqfIE3upG3wzYznMEClpZ7rpHxNMQ3k2miVcdKWcuMFzvkOe4CcVfaws3Yh42dkkofJ8ShExKKhUNAk89vhVwnDd6ZSu1X6Wq75huNRcFgFqflBiTZ3ZQKE2dFSd76sn5XsoyGiYWMPmun8gp16Cwzj7YWKRKhOhc4ri9U4w9tc816wdsqPphnkzCxoz2",
+              "received": false
+            }
+          ],
+          "total_price": 49294,
+          "delivery": null,
+          "changedOn": "2025-12-15T22:16:19.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694088b31c508c5d5ecc4e53"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
