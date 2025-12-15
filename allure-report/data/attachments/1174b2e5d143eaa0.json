@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 11:00:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "555",
+    "etag": "W/\"22b-q5ERo6DYDAPxJK2IipQIETmIJ8s\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Grace.Gorczany@hotmail.com",
+      "name": "Quinn Idella",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 442,
+      "flat": 6152,
+      "phone": "+5508608634",
+      "createdOn": "2025-12-15T11:00:21.000Z",
+      "notes": "gGtnZOmU05haGTLzQnzGSv1gKqzN4WGFf6vqZwroFSvRrSIcvIZMIgyZpuPwlV8rfa0DwaOpGu4TEH9WCCKOUWHrzwbGBKecn8UCBBLCwIDFwprEBIgdmZwXg62qe6dPbV00fF0bhQQClqmOySvEAgG9ZLj9DeUXRUDnfQn0huLE7IK50QkXWKvoqBFuZAEZzYLOYcwhMeOMfXzrwnoQWoaDtQLiyVKYTu46ZenWDVopjM2ybkz9PCGs33",
+      "_id": "693fea451c508c5d5ec94acd"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

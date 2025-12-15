@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 11:00:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-phQ9rpCAVnoKAHihW1eR9SwrMB8\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Reggie_Balistreri4@yahoo.com",
+      "name": "Test Customer",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 789,
+      "flat": 7807,
+      "phone": "+9054704420",
+      "createdOn": "2025-12-15T11:00:12.000Z",
+      "notes": "msPjZAE0zkcsGlogmdCXFaPJVCZ44HI6h6RAJdc9UoLvvPpsYBh7tZ5TO7KVRtufp4SoL5FWdRIVy6W5zxCWPjXaD3ESVSBRGEGjXTt7hn7GqQBNyukelaRHB6DCfl9YgumnagTMqobkz7ENHGEHsD1JoPvVbofOg89Z6aFfj0XDSK88o6fqr3pZbVd2DSnPz1NGDv38D1jLrXQo90NmvQyAAsntqDocY4LyUVcvkcWkcKDtcd2vQ2y1sv",
+      "_id": "693fea3c1c508c5d5ec9488e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

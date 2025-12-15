@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 11:00:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-sD1keBaGU4jpPudLd0GJnDTAaE4\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ignatius.Hudson@yahoo.com",
+      "name": "Nina Earnestine",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 68,
+      "flat": 7774,
+      "phone": "+8326404829",
+      "createdOn": "2025-12-15T11:00:27.000Z",
+      "notes": "V03ItEUhEnFqjRbHEoCKAjU4zV6wnKQGMhvBpjRS2mh5utJK89j63hoZbFIpKigaW60mYH32e0x8CFRgaUDFJXdUI7ABPBR8HwhMKy8n77IicxxZzDb7mha8Qk5otkIZci1lkkmRMoRPTck2fAleHjRXgIx4xBogEoAroEbYeLGcg9wcLU3JJoqGF88vjOY5tuYwH6bAKQs87ouP2nK68eS4GE2oNyUYDNxfSMcsM41JM62CbtJdi6CzoD",
+      "_id": "693fea4b1c508c5d5ec94d6b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

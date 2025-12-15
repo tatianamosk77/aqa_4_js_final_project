@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 11:00:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1972",
+    "etag": "W/\"7b4-BkyUY+UMswg6BYnn5bMpxo5Op+c\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693fea4c1c508c5d5ec94d9b",
+      "status": "Draft",
+      "customer": {
+        "_id": "693fea4b1c508c5d5ec94d6b",
+        "email": "Ignatius.Hudson@yahoo.com",
+        "name": "Nina Earnestine",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 68,
+        "flat": 7774,
+        "phone": "+8326404829",
+        "createdOn": "2025-12-15T11:00:27.000Z",
+        "notes": "V03ItEUhEnFqjRbHEoCKAjU4zV6wnKQGMhvBpjRS2mh5utJK89j63hoZbFIpKigaW60mYH32e0x8CFRgaUDFJXdUI7ABPBR8HwhMKy8n77IicxxZzDb7mha8Qk5otkIZci1lkkmRMoRPTck2fAleHjRXgIx4xBogEoAroEbYeLGcg9wcLU3JJoqGF88vjOY5tuYwH6bAKQs87ouP2nK68eS4GE2oNyUYDNxfSMcsM41JM62CbtJdi6CzoD"
+      },
+      "products": [
+        {
+          "_id": "693fea4c1c508c5d5ec94d73",
+          "name": "Hat66530",
+          "amount": 51,
+          "price": 37904,
+          "manufacturer": "Google",
+          "notes": "NEyvE2dgn0QCpgIkN8nmt4OwXGMzLLMI4DH8YIbAGxdwu8T6osZIVvqm0BV6GAlaOpVmRiNjZlKbv7HUHy8FpadhVYy4fUVTJp3R0KKg4mAuCDnoVxA0CRErMbeVXZ0bhFPuJSVk4owJ7aL8hd6mWt8pEsB1tmeItv9eKYL4AIE78v1cERr1XxYBVveCDHSRt3DpFvZz6C6YOMVkmhWzIgWN9dX4RTKWGpcgZCX58d9oZZT9rT1HLGTOdT",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 37904,
+      "createdOn": "2025-12-15T11:00:28.000Z",
+      "comments": [
+        {
+          "text": "autotest comment",
+          "createdOn": "2025-12-15T11:00:28.000Z",
+          "_id": "693fea4c1c508c5d5ec94dd0"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693fea4b1c508c5d5ec94d6b",
+          "products": [
+            {
+              "_id": "693fea4c1c508c5d5ec94d73",
+              "name": "Hat66530",
+              "amount": 51,
+              "price": 37904,
+              "manufacturer": "Google",
+              "notes": "NEyvE2dgn0QCpgIkN8nmt4OwXGMzLLMI4DH8YIbAGxdwu8T6osZIVvqm0BV6GAlaOpVmRiNjZlKbv7HUHy8FpadhVYy4fUVTJp3R0KKg4mAuCDnoVxA0CRErMbeVXZ0bhFPuJSVk4owJ7aL8hd6mWt8pEsB1tmeItv9eKYL4AIE78v1cERr1XxYBVveCDHSRt3DpFvZz6C6YOMVkmhWzIgWN9dX4RTKWGpcgZCX58d9oZZT9rT1HLGTOdT",
+              "received": false
+            }
+          ],
+          "total_price": 37904,
+          "delivery": null,
+          "changedOn": "2025-12-15T11:00:28.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

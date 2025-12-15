@@ -1,0 +1,159 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 11:00:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5141",
+    "etag": "W/\"1415-cXQo9BNvHbg5GF0scDjBrRaZaZQ\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "693fea441c508c5d5ec94a9c",
+        "email": "Missouri13@hotmail.com",
+        "name": "Dante Otis",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 692,
+        "flat": 3372,
+        "phone": "+6309622470",
+        "createdOn": "2025-12-15T11:00:20.000Z",
+        "notes": "WRE9ja6x1gG7PqcNqxQ5jSYG5WTBYsJ8SoTjgpi1kwYZZRKfOit2Dp3CPVrk9k8wzgphYLaQYE6V85i30vNDYAZvq6lcvDNhhViHqRJCp5HdLO2DaUwkM1qgq6twg3YXtMY03rSZgMYCHRJEF2ds0E21T5cRlxdEGEPvrCBgqQP7cs1DASdSLX0VjAt1OtHu9mdFnzgHY1TouxMnE12pnmEH8lthRf1AXEglnRDPJEAfJpBLZmEJrRMhEY"
+      },
+      {
+        "_id": "693fea421c508c5d5ec94a29",
+        "email": "Austyn.Shanahan61@hotmail.com",
+        "name": "Abelardo Holden",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 623,
+        "flat": 1320,
+        "phone": "+7197309483",
+        "createdOn": "2025-12-15T11:00:18.000Z",
+        "notes": "EeoporSEAgjqW1f2J8Zsc046e01uqKhZtmvJq19V29GZDZtxH2hjlwKxMTvqm4tyd3lPXmOVEtHVwMmYor4V0QNBaWBLz8gw5O7Y5iA9AVJgvdVRnO7agouO8u4rmeEA55RWkIVHJhvcseeVf0kUtJN5qa94dbl9sRU89I2dcI8Pt0hjOjTFyVDuPmeMoTdVLsKQYTvE5OF5HyU7EniqjZxtn7iQT7qp1i6yMAhRbcgUIZJuy6IvIblcm6"
+      },
+      {
+        "_id": "693f87561c508c5d5ec92bb3",
+        "email": "Narciso.Carroll@yahoo.com",
+        "name": "Brown Cremin",
+        "country": "USA",
+        "city": "Marcelofort",
+        "street": "W Broadway Street",
+        "house": 41,
+        "flat": 115,
+        "phone": "+17363125137",
+        "createdOn": "2025-12-15T03:58:14.000Z",
+        "notes": "H5l2auV6Rm2ggWGyXbTfeL0UNHS52QHNfDXHG5IHjbaKiW0UWaPgFbLy6Vh4qSZ1nQ1dDOEedQyPa73YTDFLsnxrHiQrrcaIX3UhJ20xx65Ss6wlkNpHsr52Xd4M5b7W30qEX2YZD8NHYtgtyp0Oz1vQVMNrHoIp91cPG95QJPHPN0fxEu6x32eQRCUaMLxCavjHPcnoRAv5vtSd9nZLgfFGMaaZSY79QBgcZBMvk24n49gq9RNnWmzKx6"
+      },
+      {
+        "_id": "693fea431c508c5d5ec94a89",
+        "email": "Jefferey.Green@hotmail.com",
+        "name": "Jerrell Brigitte",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 76,
+        "flat": 1228,
+        "phone": "+2081772147",
+        "createdOn": "2025-12-15T11:00:19.000Z",
+        "notes": "SgUnvDS4UtHpjEdsUV2Dcc7NTuh30gtEVeaTXmDHxDxConobg8LXFmksgE9FPdMyU3wFFHcye4UeuIfagXHdYDfYiuwWOuq8NXaYSvM5sWkyItMBMPxDALsRUhu2POBYOzmm7pm5kfSG6jZCVUL9OGYvMXi7B7xJKtOpex2r9hZekN3JfirrLo2XWZTTtyBHnCiqZE0pHvu7BIDV9ipYWyzRuoVILlW2UPOoI2ketY6uS7qdEyUa1MWPak"
+      },
+      {
+        "_id": "693fea421c508c5d5ec94a1d",
+        "email": "Willow.Witting@yahoo.com",
+        "name": "Rosina Cornell",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 29,
+        "flat": 9667,
+        "phone": "+4126945098",
+        "createdOn": "2025-12-15T11:00:18.000Z",
+        "notes": "KoafoBsSmJSjM8whuseI3oWwAkAAAPsIdwWb6GOiOBzcTdifRPMwS0F0avaRoMktbeDwt8IW297QxiSrLBTN11MLFhXtR2AuUVXA3MBmIObZdO8hSio5e3gl5nCSrpTQkG4k7iOTSIXwQflrrFluRIt0wWEX3WTpc4SgJ7A7UaX6ziXKH6Go95vevCMWOvq5T0aKwKcsMaYQ0hJIO7UaimTzKxtgNPKw1T0ERyf9GB2nWijNONrYKpmigb"
+      },
+      {
+        "_id": "693fea421c508c5d5ec94a5b",
+        "email": "Reynold_VonRueden@gmail.com",
+        "name": "Jordan Allan",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 420,
+        "flat": 9853,
+        "phone": "+5543649404",
+        "createdOn": "2025-12-15T11:00:18.000Z",
+        "notes": "0egNbR015zLzDBPwsKNGchyo4VnhUhxMaomuDBQ3bpuI7qL8hVyLG4ofJZuRTzgSefXaYAkh1IzCBhSN1hnmjUntcXHOuOU4qiAw0SKKDaFP9TSrUjZuKqZPGHQtO25hZhnw8nkkL0HIPLR4Kc4LWFc0TdnPxIo2GzXXZaofolOuHqhydgqA5kUWpZux3gD6fYejPi0Xp2SGTqpL3EV3JkpHScrGzNS5S3nBAtxkotfRlctCxMUMKJzpS7"
+      },
+      {
+        "_id": "693fea421c508c5d5ec94a57",
+        "email": "Ephraim5@gmail.com",
+        "name": "General Edyth",
+        "country": "France",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 214,
+        "flat": 3821,
+        "phone": "+5539969423",
+        "createdOn": "2025-12-15T11:00:18.000Z",
+        "notes": "I65LwDrOYL0IkeQRAszCSB68D1S2w3btZL63AcZkbJYu5QnPNdBL8RKds77INIqdH5Ny8g09G4WclxQ8mg9MgGCgIf5iDM9z31TVxqBDZBMCeTLsot9pvK6YHNTUYJtnOk5ynwrw06f3onW1XDglV3NtzXwhpsUZQ6zi9rJtRE5H3HyVXLbqSFMDSTm6CLfLUTnpRPPUK2hhiLxAccIMRY3LZGr6Qu9QOi8DvicjIlsURXBFMGE19ZYEf6"
+      },
+      {
+        "_id": "693fea441c508c5d5ec94a99",
+        "email": "Tyrel6@yahoo.com",
+        "name": "Trisha Alisha",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 771,
+        "flat": 2754,
+        "phone": "+6375907319",
+        "createdOn": "2025-12-15T11:00:20.000Z",
+        "notes": "dCLSzXRqmCCF13W8hLiaPi8y4OpqIvZS6IuhUYHJzmOUVMtT9uPdyg1wnKsaiatlf5tbBEsw8nZuhZrPg8zeIvpkkw3p7p573Mem2TZhZ1MZoAr9i7YGaeGz1uoJAhrmhC5cxr91Rcb39Y8LBtzpHC3AN0sSmJfER74yeBqR3akCptwW0LiF5uHymwXPcRk1JKKMP4Z5vGJC2dkl0V9tJhrXs3QkKasHnCadBibRVJAQnyCftMqvKosEWN"
+      },
+      {
+        "_id": "693fea431c508c5d5ec94a73",
+        "email": "Vince_Durgan48@gmail.com",
+        "name": "Alessia Tania",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 315,
+        "flat": 4809,
+        "phone": "+7731271114",
+        "createdOn": "2025-12-15T11:00:19.000Z",
+        "notes": "Pxz1F2D7bDYPSc2HKCsoWZznucnCRgHYZ6TbDUrWk9ymR4znhQBXn5pzF7Xh8lKf5XGWyyCpimSJ2DNBxHQAHSJabtmggbOSoUlTI0vCv8Vj1EopVuQEz1FdF9yFOZR0L9Wi4rM7ziiNlflo76g8uEDzFRGf0hk9Fq6SzNnYjJNsdVj7hskfej67ZpYQphgKwe5J3rF1e3QfVe3jutDrLDMEmmP7uUXesaijln7GmwIrthxouiNc1oabvs"
+      },
+      {
+        "_id": "693fea421c508c5d5ec94a37",
+        "email": "Javonte22@hotmail.com",
+        "name": "Mustafa Aiyana",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 228,
+        "flat": 1275,
+        "phone": "+5275124286",
+        "createdOn": "2025-12-15T11:00:18.000Z",
+        "notes": "Dz3J7wTJ8NStfXEOai9huPRSK9udrr6ehH055tq7pVX6LJyKpY0gN0A5Pq6KXZ9n4CsVwah8amUP86Ah6UUYtOjDEgsOBdxfhnPh49ucA3giXbIKJStc2iSwN8JtrZdK0Em9r77a9YSuEsQoZscHCV7YD0g5xmPEqDsqXXh7MSblszwZwqLfoas9yTO34xntZJMqTN0Cg52FLb6WhNQtfKD8K6AhlYAvp7qXToGSVJ6FInms06FmRTh3fw"
+      }
+    ],
+    "total": 12,
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "country": [],
+    "sorting": {
+      "sortField": "country",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

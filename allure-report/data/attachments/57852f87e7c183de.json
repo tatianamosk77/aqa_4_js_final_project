@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 11:00:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "282",
+    "etag": "W/\"11a-vQat8S4QEfV7JiC85KNflWCwAoc\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ryann.Toy43@gmail.com",
+      "name": "Pauline Kennith",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 230,
+      "flat": 8098,
+      "phone": "+8873768643",
+      "createdOn": "2025-12-15T11:00:14.000Z",
+      "_id": "693fea3e1c508c5d5ec94963"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

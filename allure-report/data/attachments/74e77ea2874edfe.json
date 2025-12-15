@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 11:00:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "551",
+    "etag": "W/\"227-HWK3Hg6SoHOwqW31cvUm+pnKtJA\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Sabina.Will44@hotmail.com",
+      "name": "Frederik Marvin",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 413,
+      "flat": 9514,
+      "phone": "+9504482502",
+      "createdOn": "2025-12-15T11:00:31.000Z",
+      "notes": "V0MXhZgok6AguNxx8z1J2P8LeJJtbbXerrVojeHkRwV7LuZxDH9i2MdqcEybR4KnqFNy1ACdhdOvyI5VvgQLlA91L6nA9IgjSEb5LciMXPVCsHsIYc7mrKRrsPQM7XFmTM40s1RtCaz1Yl3QtdRUyQy1UJzdPpcvXkds7YXTnv772KoBa5epgfPOaxYYLUDZOgbJiEFXrAvF2sVXnLLEJzmTBC7T41m3NKXCfTX250BT0k80OPFqatabay",
+      "_id": "693fea4f1c508c5d5ec94ee8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

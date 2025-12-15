@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 11:00:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2926",
+    "etag": "W/\"b6e-erOX6oA0K2G2QxWo1vTcQUL36pE\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "693fea4f1c508c5d5ec94ece",
+      "status": "Draft",
+      "customer": {
+        "_id": "693fea4e1c508c5d5ec94ea3",
+        "email": "Alvera5@gmail.com",
+        "name": "Willow Lilyan",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 577,
+        "flat": 3787,
+        "phone": "+6560536387",
+        "createdOn": "2025-12-15T11:00:30.000Z",
+        "notes": "bvk0dzY2GFmiGCwHN1RQMbFsZIxE9b8hp0tV7HXFG312nFddtTeDlatZiNv6BcU5exFcNbs8EgvFeGXXJkFj5GxAtWH460vC0F7yqTfbqAcMyz8EqQuVy0bSq24TemMtPeQ8LoJ5UcnOKCEZubOIP8J3LYVscHxb1evlw97nfeTqLJcC20jOdX0UGoS2AtvcsH81oF18eqxng9an09XSCuzfR74cRJASi87vN3SrmYVUweEb0EwjX8JQgq"
+      },
+      "products": [
+        {
+          "_id": "693fea4e1c508c5d5ec94ea6",
+          "name": "Chair33524",
+          "amount": 196,
+          "price": 81784,
+          "manufacturer": "Tesla",
+          "notes": "rgrPu4XZTB2lfT5ErYd8CW5z0uHXnx68D40YHM7UjlkzNbm3JVkl35I8RdiZh1aiq6WNJMVn7KbGOZiBm5MKCNsxIeM15xp0KjPvjST0jmrlNZc2bSRdjzQ89vbrwnPACihToT1IR3ZHm1PvMYE3o8bUVOhlbnG20xCCtNlJPABkLC9KZVzzPONzTBmKUTg1CRSXLwti8gbbrlNg762W80364F6Rttx2muq5LCkKuzWfmTEoDP356cofNl",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 81784,
+      "createdOn": "2025-12-15T11:00:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "693fea4e1c508c5d5ec94ea3",
+          "products": [
+            {
+              "_id": "693fea4e1c508c5d5ec94ea6",
+              "name": "Chair33524",
+              "amount": 196,
+              "price": 81784,
+              "manufacturer": "Tesla",
+              "notes": "rgrPu4XZTB2lfT5ErYd8CW5z0uHXnx68D40YHM7UjlkzNbm3JVkl35I8RdiZh1aiq6WNJMVn7KbGOZiBm5MKCNsxIeM15xp0KjPvjST0jmrlNZc2bSRdjzQ89vbrwnPACihToT1IR3ZHm1PvMYE3o8bUVOhlbnG20xCCtNlJPABkLC9KZVzzPONzTBmKUTg1CRSXLwti8gbbrlNg762W80364F6Rttx2muq5LCkKuzWfmTEoDP356cofNl",
+              "received": false
+            }
+          ],
+          "total_price": 81784,
+          "delivery": null,
+          "changedOn": "2025-12-15T11:00:31.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "693fea4e1c508c5d5ec94ea3",
+          "products": [
+            {
+              "_id": "693fea4e1c508c5d5ec94ea6",
+              "name": "Chair33524",
+              "amount": 196,
+              "price": 81784,
+              "manufacturer": "Tesla",
+              "notes": "rgrPu4XZTB2lfT5ErYd8CW5z0uHXnx68D40YHM7UjlkzNbm3JVkl35I8RdiZh1aiq6WNJMVn7KbGOZiBm5MKCNsxIeM15xp0KjPvjST0jmrlNZc2bSRdjzQ89vbrwnPACihToT1IR3ZHm1PvMYE3o8bUVOhlbnG20xCCtNlJPABkLC9KZVzzPONzTBmKUTg1CRSXLwti8gbbrlNg762W80364F6Rttx2muq5LCkKuzWfmTEoDP356cofNl",
+              "received": false
+            }
+          ],
+          "total_price": 81784,
+          "delivery": null,
+          "changedOn": "2025-12-15T11:00:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337ce1c508c5d5e95335d",
+        "username": "student14@gmail.com",
+        "firstName": "Bill",
+        "lastName": "Schuppe",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:26"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

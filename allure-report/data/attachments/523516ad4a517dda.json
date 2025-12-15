@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 11:00:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-nRWPnNwW2tSSdWXK22yIWZGgzVs\"",
+    "keep-alive": "timeout=5, max=76",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Orlando_Witting@hotmail.com",
+      "name": "Merlin Fermin",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 121,
+      "flat": 773,
+      "phone": "+7556584411",
+      "createdOn": "2025-12-15T11:00:22.000Z",
+      "notes": "gJdjk9nfXxlGlDnJ1Y31tTPW22MwqSRckWAnFKRHVmEX07l6Z8mjBwSVWqNmzJW5bjq13qxxiz4h3Ddc02DlKRcktJvFsPJf24SXleRglr0wFRwlYc1NaIUQfm0SafexvYPUlkrVUZseHy0JZpfrCREiXuunqghKVNbXPtsnlGixLS1jQqZxDH2dTjer1OxKc6xeMNHKa7hy1PvfJGnZ98aiJ9OUhahL52D5IE5kvJsk7h3GW0ttMn5Hig",
+      "_id": "693fea461c508c5d5ec94b2f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

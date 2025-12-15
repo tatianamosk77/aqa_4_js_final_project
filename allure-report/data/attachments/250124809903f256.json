@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 11:00:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "551",
+    "etag": "W/\"227-YdmaoW2XoZdOFtniVeLWg6GDvZY\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Gregoria.Reichert@gmail.com",
+      "name": "Hermann Alycia",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 785,
+      "flat": 8171,
+      "phone": "+9008514754",
+      "createdOn": "2025-12-15T11:00:32.000Z",
+      "notes": "O8bt3X9lzF28uwBWPxJYY9W0TRqIln26X9LfKJuOm2HrKghg04BsfWmkyCZxPm4670MYOh7BN1OBY32iAyTtUFGz8b5VjScrLOl2YKiHzqcDJuvbeg7inDOm0gQfBrQsz4riOXfhkEdtlNGRopxsQw40AxDwxUlmyQssoilC44q7QmnotLHz5rFA1BrQylrNV4gxrl2njhshsxXQbMnsGLE9djMFtpoyqSr4rlKWCS3WsSPMVjlHeVaniA",
+      "_id": "693fea501c508c5d5ec94f40"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

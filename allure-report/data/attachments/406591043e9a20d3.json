@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 11:00:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-GsscwlAIrsTTHjVvKGljh1yDB5o\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Justus.Dach5@yahoo.com",
+      "name": "Randal Bertrand",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 313,
+      "flat": 7402,
+      "phone": "+0068848191",
+      "createdOn": "2025-12-15T11:00:13.000Z",
+      "notes": "tYu1sL7ZukrU5XRGBflDSEb1eFmEVsDm9H4tV8JXw7JlJkFAUs2sNuML8xltEZBjrM4eKimzFCTxv3gWBXjAjJPHkeOW8RUWsc5JdRFOhT5o5wSxTHT5Ooh9SOQIJBlFdpul9Oh4EDuGKiwH12uiT58iST2Hydqe37KEemKAEiab3sxCqd3cN3kOkP90IVHBEaophMX8KrmsJCZ0pi2GkUJU2SzpaY4XuzzavBPISBjKFwhbRgY8KDHhwb",
+      "_id": "693fea3d1c508c5d5ec948d7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

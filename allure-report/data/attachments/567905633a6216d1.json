@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 11:00:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "80",
+    "etag": "W/\"50-D2UWIyRP2qpZx6u2R2Qp83OZWr0\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "IsSuccess": false,
+    "ErrorMessage": "Product with name 'Hat32019' already exists"
+  }
+}
