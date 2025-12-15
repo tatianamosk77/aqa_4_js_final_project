@@ -1,37 +1,30 @@
 import { expect, test } from "fixtures/api.fixture";
 import { TAGS } from "data/tags";
 import { IOrderData } from "data/types/order.types";
+import { validateResponse } from "utils/validation/validateResponse.utils";
+import { STATUS_CODES } from "data/statusCodes";
+import { ERROR_MESSAGES } from "data/salesPortal/errorMessages";
 
 test.describe("[API] [Sales Portal] [Notifications] - PATCH /api/notifications/{notificationId}/read", () => {
   let token = "";
   let firstNotificationId: string;
-  let orderId: string;
-  let customerId: string;
-  let productId: string;
 
-  test.beforeAll(async ({ loginApiService, customersApiService, productsApiService, ordersApiService, notificationsApiService }) => {
+  test.beforeAll(async ({ loginApiService }) => {
     token = await loginApiService.loginAsAdmin();
+  });
 
+   test.beforeEach(async ({ customersApiService, productsApiService, ordersApiService, notificationsApiService }) => {
     const customer = await customersApiService.create(token);
-    customerId = customer._id;
-
     const product = await productsApiService.create(token);
-    productId = product._id;
+    await ordersApiService.create({
+      customer: customer._id,
+      products: [product._id]
+    }, token);
 
-    const testOrderData: IOrderData = {
-      customer: customerId,
-      products: [productId],
-    };
+    const notifications = await notificationsApiService.getAll(token);
+    expect(notifications.Notifications.length).toBeGreaterThan(0);
 
-    orderId = await ordersApiService.setupTestNotifications(
-      token,
-      testOrderData,
-      "test-manager-id",
-      "Test comment for notification"
-    );
-
-    await notificationsApiService.markAllAsRead(token);
-    firstNotificationId = (await notificationsApiService.getFirstUnreadNotificationIdForOrder(token, orderId))!;
+    firstNotificationId = notifications.Notifications[0]!._id;
   });
 
   test("Should mark single notification as read", 
@@ -52,8 +45,11 @@ test.describe("[API] [Sales Portal] [Notifications] - PATCH /api/notifications/{
   test("Should fail for unauthorized user", 
     { tag: [TAGS.REGRESSION, TAGS.NOTIFICATIONS, TAGS.API] }, 
     async ({ notificationsApi }) => {
-      const response = await notificationsApi.readOne("some_id", "invalid_token");
-      expect(response.status).toBe(401);
-      expect(response.body.IsSuccess).toBe(false);
+      const response = await notificationsApi.readOne("someId", "invalidToken");
+      validateResponse(response, {
+              status: STATUS_CODES.UNAUTHORIZED,
+              IsSuccess: false,
+              ErrorMessage: ERROR_MESSAGES.UNAUTHORIZED,
+            });
   });
 });
