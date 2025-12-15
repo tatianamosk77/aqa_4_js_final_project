@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 16:02:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1961",
+    "etag": "W/\"7a9-t+bRAitlOFT5AsmAdvNjpvLj9V4\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694031051c508c5d5ec9aa86",
+      "status": "Draft",
+      "customer": {
+        "_id": "694031051c508c5d5ec9aa52",
+        "email": "Gwendolyn19@gmail.com",
+        "name": "Dora Cathy",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 334,
+        "flat": 5992,
+        "phone": "+8810783492",
+        "createdOn": "2025-12-15T16:02:13.000Z",
+        "notes": "whlFa2mK6InPZ3HcS8DvzTuzOj8oWULQmyZNHBi5bHXjFkQQwlhu5RmsMTLilEGVwBQgK0oe6Ysi8x5fza1FSBurTSi2aqi6xdxSbP4PGESQ7H97WuXJHfjXdmD0VkykG4XKXUXYb3SiHVfWirTMVPBZpCPoOIU7RBFGKRIapvF9FtCq7JrR5jmqgDaJUzoumUXnG7fK9EZ45vKJg5Gi4MPyLPjuSLSEhWfyvH4ckGTXr5Kxjp6Z2mK8gA"
+      },
+      "products": [
+        {
+          "_id": "694031051c508c5d5ec9aa5a",
+          "name": "Soap3880",
+          "amount": 26,
+          "price": 22645,
+          "manufacturer": "Apple",
+          "notes": "qBNuWlhlzc64DBmbuz9InPDjZMRuibO4QN4p4wdlDlVyWGTgezhKBO5aacyztCRAJ7ZbgsDh5wA8EylVM6NvcNzRtJT5Y4Oe91x8v7CsM4Uj9ebmaPCM7wjJpcChnCVpmjGzMgYNElvDCXaFnPP7OJFP8G7z68azLvXVriSAF7opElLrvATltt5IUn4ugjQz4TuHCaSmeSQG69MaPCPVs9NE5acV8ugm6Yr5jgGbDKk6giFdOmDhfiz4Ge",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 22645,
+      "createdOn": "2025-12-15T16:02:13.000Z",
+      "comments": [
+        {
+          "text": "autotest comment",
+          "createdOn": "2025-12-15T16:02:13.000Z",
+          "_id": "694031051c508c5d5ec9aab8"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694031051c508c5d5ec9aa52",
+          "products": [
+            {
+              "_id": "694031051c508c5d5ec9aa5a",
+              "name": "Soap3880",
+              "amount": 26,
+              "price": 22645,
+              "manufacturer": "Apple",
+              "notes": "qBNuWlhlzc64DBmbuz9InPDjZMRuibO4QN4p4wdlDlVyWGTgezhKBO5aacyztCRAJ7ZbgsDh5wA8EylVM6NvcNzRtJT5Y4Oe91x8v7CsM4Uj9ebmaPCM7wjJpcChnCVpmjGzMgYNElvDCXaFnPP7OJFP8G7z68azLvXVriSAF7opElLrvATltt5IUn4ugjQz4TuHCaSmeSQG69MaPCPVs9NE5acV8ugm6Yr5jgGbDKk6giFdOmDhfiz4Ge",
+              "received": false
+            }
+          ],
+          "total_price": 22645,
+          "delivery": null,
+          "changedOn": "2025-12-15T16:02:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

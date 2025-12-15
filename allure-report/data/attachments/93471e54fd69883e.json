@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 16:01:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-/mqeLAXU2mnKnqoNWX1u8KU2/mk\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Kirk_Kiehn@hotmail.com",
+      "name": "Immanuel Justus",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 438,
+      "flat": 1949,
+      "phone": "+7141832343",
+      "createdOn": "2025-12-15T16:01:58.000Z",
+      "notes": "Yn5nhUBBmdmfLCje6kuO8Fh8y3QVYluMzOeW1gWb3TU78aM6WkPNq9tj3FFngWNLn7G1Xo8OiWS7iVGxcxSEmOKTX4z6A0UOrUpxbGuGID0QMriXmKqMR2xW1WiVI1MBmn7rbvmcLzxgrIQ6CZC3eCddIiWcAFjCVDZ4sXfgbxjFTyuofeLipNrq20QvJiP08VphE5W8zG8jhgMowYpWIljoh61cDAb0KyGswXc5JQJXeQ8Aoze20knNYw",
+      "_id": "694030f61c508c5d5ec9a4d2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

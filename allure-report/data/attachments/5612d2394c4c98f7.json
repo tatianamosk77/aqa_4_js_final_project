@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 16:02:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "539",
+    "etag": "W/\"21b-hcan2Fiouw03RNtag2/HIm6DpcQ\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Alice36@yahoo.com",
+      "name": "Lavern Pedro",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 394,
+      "flat": 2003,
+      "phone": "+7972792252",
+      "createdOn": "2025-12-15T16:02:01.000Z",
+      "notes": "YOnuFTkPa7XepvX4tiP4ivPOwfZtX1Ign36Ia1mjy7MM7CdM77tY0PekooQ2ewztZjzY4bhNzao6pknzzswmJFFhuSYFChyxPV1DJWZwCMGUyphlGLk7VXpNT9Hxw1LluiNbbZxZl76dTch4ypKBV52M4QeoGhzJNgYxRHSD8Xp4D2s9dnBVmWmrPyt04adqf3lZjQWQP4djoT9VICOLH08hEGemg18KliTczWtV6fMHyIAbesSG7f6v70",
+      "_id": "694030f91c508c5d5ec9a5b5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

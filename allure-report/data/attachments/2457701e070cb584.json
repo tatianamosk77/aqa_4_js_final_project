@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 16:02:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1877",
+    "etag": "W/\"755-MbB7AFliI3vUW60Ci0rymaqmLG4\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694030ff1c508c5d5ec9a7eb",
+        "email": "Kaelyn45@gmail.com",
+        "name": "Juston Vinnie",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 309,
+        "flat": 5207,
+        "phone": "+6728569959",
+        "createdOn": "2025-12-15T16:02:07.000Z",
+        "notes": "0dqSXxgPWvmpaUGqH5fQTTHLC019FBum2lEqV2uH3NydxCAmOkvDUx4yZ0jH6pkOUQ1vEhghV5EC3t7dCswz7amNO94OK3tL22NmvM1J5UzpJiQDvpvnwMi05p3FGUKsI3WLPeNndCfI2CZNt4BcumoWnUrtvZ6WncvTN259NZ0ju2ab7Is0R2VCDTBS0zhlAlHhILNlxlESHPrV4QTsAChr4c8fzMQoUThu8At9DBCLngThYiPY1fDW1e"
+      },
+      "products": [
+        {
+          "_id": "694030ff1c508c5d5ec9a802",
+          "name": "Pizza93882",
+          "amount": 913,
+          "price": 82896,
+          "manufacturer": "Microsoft",
+          "notes": "us537ioJFevWwG1Yx5sYe7uo9xWoCqm0mEyQ0kMQgpoB2HzrLsiFWXzQyaxrRe8zF5qnjyq0zSL7Rn7EoTYlPoUSSckjerloo5gb6A3bFj4h6objwQ8oWlXLfkJybM0Tm0drnJE2DfnrHtIGqSgUV5F2y77NTv5nnsEdzSRULcIHb81cc9ynddruyDadNB28PAt7bnIEpwBJVwYkYl60y3LZLmIXGywwqJHqntW2SwWd1T0EnyZBFAp2k2",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 82896,
+      "createdOn": "2025-12-15T16:02:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694030ff1c508c5d5ec9a7eb",
+          "products": [
+            {
+              "_id": "694030ff1c508c5d5ec9a802",
+              "name": "Pizza93882",
+              "amount": 913,
+              "price": 82896,
+              "manufacturer": "Microsoft",
+              "notes": "us537ioJFevWwG1Yx5sYe7uo9xWoCqm0mEyQ0kMQgpoB2HzrLsiFWXzQyaxrRe8zF5qnjyq0zSL7Rn7EoTYlPoUSSckjerloo5gb6A3bFj4h6objwQ8oWlXLfkJybM0Tm0drnJE2DfnrHtIGqSgUV5F2y77NTv5nnsEdzSRULcIHb81cc9ynddruyDadNB28PAt7bnIEpwBJVwYkYl60y3LZLmIXGywwqJHqntW2SwWd1T0EnyZBFAp2k2",
+              "received": false
+            }
+          ],
+          "total_price": 82896,
+          "delivery": null,
+          "changedOn": "2025-12-15T16:02:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694030ff1c508c5d5ec9a81a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

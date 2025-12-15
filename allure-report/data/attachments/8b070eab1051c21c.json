@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 16:02:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-1HJK2D1Ot5wFTiX7u1ctKMm1BSY\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ceasar85@yahoo.com",
+      "name": "Alexandro Sylvester",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 447,
+      "flat": 8555,
+      "phone": "+4383813875",
+      "createdOn": "2025-12-15T16:02:20.000Z",
+      "notes": "afWNT2Aztv48EMVIiK3bmdhvRkwU3sZ1AauUIszTIkBfNh8617szLalp4LUtZBly0uQK1LSeLUpEM4M95mLPsA46yu4Bwil0KsE892aqobejH6G4d77mpZ2MW87pRXzxZ0Qn1ZrYaRUkZqN419IwwrNIeKh1nvc4CcpuruAEWp9Bqn0kVtg0mJiqOTTil6I8Uy0XNerVvOprDsWNntikFODCot9QSeQmbLOOR0pexjIF7VHQL6Etq04YgI",
+      "_id": "6940310c1c508c5d5ec9ad65"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

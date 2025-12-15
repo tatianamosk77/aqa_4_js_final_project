@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 16:01:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "539",
+    "etag": "W/\"21b-qQlV8Oa5pA0gC5Fp1Nwo+vvoeCc\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Tomasa34@gmail.com",
+      "name": "Verdie Abel",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 822,
+      "flat": 9999,
+      "phone": "+2651943669",
+      "createdOn": "2025-12-15T16:01:57.000Z",
+      "notes": "fKSnm5AUblcNUvCHHXzXnIGOLzQWCbhxGwvEasN2ZqhtzLDeqqlpqCeSgQHTSTJ2E0oBmPNFj8wBbF4HKijp81JTJAdDABcPGTbBauR5lhcW1QAxyfJuPNZzmv4sRkDuxecceF94ps76tr87GXo1qJBoeODiqYKuZGt77r47l580f6JUA4H0YivkTTuY2FIkviSFz6Gd98AdzBCBgiLOx4U5omDE6SKDVrZZvfLQDIxGHA0U8Sy9EFpeC5",
+      "_id": "694030f51c508c5d5ec9a4c0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

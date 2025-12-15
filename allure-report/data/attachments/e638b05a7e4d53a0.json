@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 16:02:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1876",
+    "etag": "W/\"754-p1DN4DcI4anjRMF8hlMf78NCsgM\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6940310c1c508c5d5ec9ad65",
+        "email": "Ceasar85@yahoo.com",
+        "name": "Alexandro Sylvester",
+        "country": "France",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 447,
+        "flat": 8555,
+        "phone": "+4383813875",
+        "createdOn": "2025-12-15T16:02:20.000Z",
+        "notes": "afWNT2Aztv48EMVIiK3bmdhvRkwU3sZ1AauUIszTIkBfNh8617szLalp4LUtZBly0uQK1LSeLUpEM4M95mLPsA46yu4Bwil0KsE892aqobejH6G4d77mpZ2MW87pRXzxZ0Qn1ZrYaRUkZqN419IwwrNIeKh1nvc4CcpuruAEWp9Bqn0kVtg0mJiqOTTil6I8Uy0XNerVvOprDsWNntikFODCot9QSeQmbLOOR0pexjIF7VHQL6Etq04YgI"
+      },
+      "products": [
+        {
+          "_id": "6940310c1c508c5d5ec9ad67",
+          "name": "Chair10200",
+          "amount": 437,
+          "price": 15244,
+          "manufacturer": "Amazon",
+          "notes": "4pMAfd4ukrV9ejBT9dJ2xbdceMKeijwJI8Qe2GghrequFOGbsCMC7DEJAfjJRfBJDqvQx02If1eIxU5Rz225LdCxVIzR1qOb7ug46qmvhg96yil1SphCJDckJbHj1MljB8BscTi1XHfuNY6zJCAS4LmCXVRArV8KhDw8dTQ25LLOUljrpK0o8alkMjoNT4yK3eyRbg2FMfKRMackxN89kEiSAd7fmT7O13SYODf4jqxRVfLuAQX9oAjI8b",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 15244,
+      "createdOn": "2025-12-15T16:02:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6940310c1c508c5d5ec9ad65",
+          "products": [
+            {
+              "_id": "6940310c1c508c5d5ec9ad67",
+              "name": "Chair10200",
+              "amount": 437,
+              "price": 15244,
+              "manufacturer": "Amazon",
+              "notes": "4pMAfd4ukrV9ejBT9dJ2xbdceMKeijwJI8Qe2GghrequFOGbsCMC7DEJAfjJRfBJDqvQx02If1eIxU5Rz225LdCxVIzR1qOb7ug46qmvhg96yil1SphCJDckJbHj1MljB8BscTi1XHfuNY6zJCAS4LmCXVRArV8KhDw8dTQ25LLOUljrpK0o8alkMjoNT4yK3eyRbg2FMfKRMackxN89kEiSAd7fmT7O13SYODf4jqxRVfLuAQX9oAjI8b",
+              "received": false
+            }
+          ],
+          "total_price": 15244,
+          "delivery": null,
+          "changedOn": "2025-12-15T16:02:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6940310c1c508c5d5ec9ad94"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

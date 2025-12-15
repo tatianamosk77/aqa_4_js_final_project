@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 16:02:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1878",
+    "etag": "W/\"756-RrYZLVNIHW6ZaqdB9ZfAbo4iUT4\"",
+    "keep-alive": "timeout=5, max=58",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694031031c508c5d5ec9a9b0",
+        "email": "Gunner.Welch97@yahoo.com",
+        "name": "Enola Gwen",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 637,
+        "flat": 2806,
+        "phone": "+2260736201",
+        "createdOn": "2025-12-15T16:02:11.000Z",
+        "notes": "vJdU6atsdrvTJ4ziDf2EXk86G3F9NGTj3uPd27YjiM2owPuLKAu8xDmaZJLxIGYEAVBoajh5dxcUqV5dKMmEvP4e71AkZ3cOZWz9eYW6MVr98DSOXk8c6OQmYXQkxAfeztgsNRBRUt75kMtlmC1H1H2cRTv5KHWEYE66nTzVCSAXNIZQHFY1lgzxFwwY15SnILUDwP5UBzstxD0gHEicyZdOxol5ilgzvJjLWehsc21NdJkD22QWGMYOO5"
+      },
+      "products": [
+        {
+          "_id": "694031031c508c5d5ec9a9b4",
+          "name": "Bike84141",
+          "amount": 701,
+          "price": 77678,
+          "manufacturer": "Microsoft",
+          "notes": "QmeQyKhd5J0m8jxdCMmbNSkLg6m5VUIdF8L0NS9KHKsbATwvT6BHbkPq3yyOQrkCMFApv4QPDA4oBk2hMawjzUzkMc1aULwJP2MvdHOiBvpd3t1tJgtsFgL3R1trvKlwrdT4n87Y7zLIEGKtnL26HdvcB8sK6fn9LXzp12eRwysXgH9HdLp2bC41rzEgS5cQQm3xszBHdiW3YMHtxMUUQXGErxdruao05cDINxyR4kCJwUsLXVptYFO9zU",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 77678,
+      "createdOn": "2025-12-15T16:02:11.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694031031c508c5d5ec9a9b0",
+          "products": [
+            {
+              "_id": "694031031c508c5d5ec9a9b4",
+              "name": "Bike84141",
+              "amount": 701,
+              "price": 77678,
+              "manufacturer": "Microsoft",
+              "notes": "QmeQyKhd5J0m8jxdCMmbNSkLg6m5VUIdF8L0NS9KHKsbATwvT6BHbkPq3yyOQrkCMFApv4QPDA4oBk2hMawjzUzkMc1aULwJP2MvdHOiBvpd3t1tJgtsFgL3R1trvKlwrdT4n87Y7zLIEGKtnL26HdvcB8sK6fn9LXzp12eRwysXgH9HdLp2bC41rzEgS5cQQm3xszBHdiW3YMHtxMUUQXGErxdruao05cDINxyR4kCJwUsLXVptYFO9zU",
+              "received": false
+            }
+          ],
+          "total_price": 77678,
+          "delivery": null,
+          "changedOn": "2025-12-15T16:02:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694031031c508c5d5ec9a9d5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

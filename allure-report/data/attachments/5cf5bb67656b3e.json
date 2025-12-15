@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 16:02:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-FlJPI+zCi5LnSv4kAa7iigNE0Yo\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Joshua32@yahoo.com",
+      "name": "Clinton Ellis",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 765,
+      "flat": 3126,
+      "phone": "+6335310817",
+      "createdOn": "2025-12-15T16:02:15.000Z",
+      "notes": "rUXGJxVDSROvsxBvuZv6Q3xJw3tyWbQucHQE6E7LjXw674WFBtsg77sJ65Imz522TQoqg3mmXen9yHZZBVdduLibmsKS3QaadJNu4brXeLMVtTg9iDOzUe3ON99gudQ6bCwnyvHUTRSLbb3xNsCxau5jNCqH6GVwpkIOdjjPXcOAAMgBwDp7f6gTx7tD94FGglloP3KOIu1HkKBiStF1qQROwoyqk0Vut6EZ3oKiXSNzyKHl9gIqL9P985",
+      "_id": "694031071c508c5d5ec9ab5f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

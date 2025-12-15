@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 16:02:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1975",
+    "etag": "W/\"7b7-UZN49a2LhtSE2SqGa2e4r9NEcdE\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694031051c508c5d5ec9aa62",
+      "status": "Draft",
+      "customer": {
+        "_id": "694031041c508c5d5ec9aa39",
+        "email": "Isobel.Johns69@hotmail.com",
+        "name": "Madaline Cristal",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 113,
+        "flat": 3604,
+        "phone": "+4301034150",
+        "createdOn": "2025-12-15T16:02:12.000Z",
+        "notes": "0wsRuFzrt3v5VGsvB4rfGi6XB5MTGQEeyDOxRnvi821uSppoDFTBUJt31BcJIwQXXZccJjZPkreE8Yv3lMo8kXMuRGzj7eGORctTfnUFicLCC0Pb3zsf6UHqVK0ppCgGqYuJLec9gaRyufiAlftK9wp14FlsPDmZK6jIT12JPE6Fel5UbdSAn9QImjr247pk07FoMP4NX18cVT3IZ46ALlo0sNWf3iFpNutFB05PHvzQkRqzC1wgwUCVwG"
+      },
+      "products": [
+        {
+          "_id": "694031041c508c5d5ec9aa3c",
+          "name": "Ball41100",
+          "amount": 363,
+          "price": 5987,
+          "manufacturer": "Xiaomi",
+          "notes": "0HJMSl5aei8olKSBYQCjNVrkCTnAiqR4LswpP5PDkkny2XPjgtE0LZlr9HsWOcPphZjzVZBWSVWkQHQlvg2ybFZLy5Y5IxChr8zaq9T4bDCuTP27zVIAPe65P4NjUieD2xQLhuP7Pqm4EM9f6DadvZqnCLjVedOvSBnz2fJE47u8ZA1JD98OT2Z3XJVI5kq8zOeMeWGE54MHz4veQivmecsh9mC7vMjlhNLuHPuTK8fmc4ZIqjhXaxyNsh",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 5987,
+      "createdOn": "2025-12-15T16:02:13.000Z",
+      "comments": [
+        {
+          "text": "autotest comment",
+          "createdOn": "2025-12-15T16:02:13.000Z",
+          "_id": "694031051c508c5d5ec9aa8d"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694031041c508c5d5ec9aa39",
+          "products": [
+            {
+              "_id": "694031041c508c5d5ec9aa3c",
+              "name": "Ball41100",
+              "amount": 363,
+              "price": 5987,
+              "manufacturer": "Xiaomi",
+              "notes": "0HJMSl5aei8olKSBYQCjNVrkCTnAiqR4LswpP5PDkkny2XPjgtE0LZlr9HsWOcPphZjzVZBWSVWkQHQlvg2ybFZLy5Y5IxChr8zaq9T4bDCuTP27zVIAPe65P4NjUieD2xQLhuP7Pqm4EM9f6DadvZqnCLjVedOvSBnz2fJE47u8ZA1JD98OT2Z3XJVI5kq8zOeMeWGE54MHz4veQivmecsh9mC7vMjlhNLuHPuTK8fmc4ZIqjhXaxyNsh",
+              "received": false
+            }
+          ],
+          "total_price": 5987,
+          "delivery": null,
+          "changedOn": "2025-12-15T16:02:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

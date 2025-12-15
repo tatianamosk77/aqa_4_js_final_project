@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 16:02:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "208",
+    "etag": "W/\"d0-BLRtA0K401m8AiKGJziXDfM2Kaw\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Computer46562",
+      "amount": 934,
+      "price": 53586,
+      "manufacturer": "Samsung",
+      "createdOn": "2025-12-15T16:02:27.000Z",
+      "notes": "",
+      "_id": "694031131c508c5d5ec9b062"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

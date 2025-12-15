@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 16:02:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-2BaFVPgkdJfRrRQLLZJJ+WvNRKk\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Mateo.Casper@yahoo.com",
+      "name": "Velva Regan",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 676,
+      "flat": 3122,
+      "phone": "+4157793492",
+      "createdOn": "2025-12-15T16:02:16.000Z",
+      "notes": "Tw3VkzvBmBUmpLvPs6l4sqpyCktGvE6hU4Ni8wROLAq2rQcrzgCPv9SYB0q76SYKSU2N0mp9iJ1mIDZaLw8JTgM5bvNd08ws6OYaUvCMe3Ki83VrQFtB3vPGPMm1gfOqwQumdoKX53tQKb4eimhZh2oxiSuEZlBVT0JnK4RB15oIuR1UZC6OZTlJlM5Vf9OYvPSy4JqvWxQ7Tsdxvyj4NSKydXv5Ps5CGZfa5r58f0lutTQTKPc5DqC77A",
+      "_id": "694031081c508c5d5ec9abbb"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

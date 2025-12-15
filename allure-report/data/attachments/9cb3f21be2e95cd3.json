@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 16:02:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "553",
+    "etag": "W/\"229-StcY4jJvVCd7nc7X1sATjUWe2wg\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Freddy.Gerlach82@hotmail.com",
+      "name": "Dexter Pasquale",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 531,
+      "flat": 9511,
+      "phone": "+0776108806",
+      "createdOn": "2025-12-15T16:02:03.000Z",
+      "notes": "ANQ7GemGcGzqPCdbX5L0FLDp0FGmX9reHrm4BqZurYnwI4tL2WWsSJLole9glN9n6EnkidLZlOhT1pCfUTYfqa27KUFPD9zvb9jQdKa9rQyx9SVC0ddeoZJhJJEEvuhlTWCWgenyASkSyse9st7q4WYZk4Sl50jUYzAGtPAVpD3zKmicwkh4WLFovPIK6YybelrwPjucBQx0egF7Zje2CqGjommU9M2bae8WdUr1xkfYcIBx8y1GTVBskq",
+      "_id": "694030fb1c508c5d5ec9a686"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

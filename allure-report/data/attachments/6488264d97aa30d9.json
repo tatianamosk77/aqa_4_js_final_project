@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 16:01:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "297",
+    "etag": "W/\"129-OWmZZ3Kds1T43KlhoqZUiFtQDsY\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Lonie.Streich@yahoo.com",
+      "name": "Orin Rosamond",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 383,
+      "flat": 9871,
+      "phone": "+9966506259",
+      "createdOn": "2025-12-15T16:01:58.000Z",
+      "notes": "",
+      "_id": "694030f61c508c5d5ec9a51b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

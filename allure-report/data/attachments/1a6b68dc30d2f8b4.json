@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 16:02:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "536",
+    "etag": "W/\"218-vYrDd3BGyqWNHF2KjNnnFU3iWKM\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Johan88@gmail.com",
+      "name": "Colby Briana",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 408,
+      "flat": 2361,
+      "phone": "+7255255861",
+      "createdOn": "2025-12-15T16:02:07.000Z",
+      "notes": "ymeVaYqohWKePQs3H9BtPJTAnvmrmEzhrX9ARYa7Yup5c66cIZS3STJtxtgWewbJIBfczJVL4AvU0FWm0zGDByOkxyqeoA2CneXUO5euq0hE8L1f7x5spmcSzzGOt53WL43cQDsGH6z8mWKYWBrKNOqZLy4hsutxOHfpyLdMjX1scfDKuEy2rOS33DetwpcyKOnqgYlMAApnkr6eO1mrTgZVZWQbo20GEWFEFC6q7NsP0iFzJEbKEIH1Zo",
+      "_id": "694030ff1c508c5d5ec9a807"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
