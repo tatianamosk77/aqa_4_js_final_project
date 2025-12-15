@@ -1,55 +1,123 @@
-import { test, expect } from "fixtures/business.fixture";
-import { TAGS } from "data/tags";
-import { customerOrdersSchema } from "data/schemas/orders/order.schema";
-import { generateCustomerOrdersResponse } from "data/salesPortal/orders/generateOrderData";
-import { validateJsonSchema } from "utils/validation/validateSchema.utils";
+import { test, expect } from 'fixtures/business.fixture';
+import { TAGS } from 'data/tags';
+import { IOrderData } from 'data/types/order.types';
+import { ERROR_MESSAGES } from 'data/salesPortal/errorMessages';
+import { validateResponse } from 'utils/validation/validateResponse.utils';
+import { STATUS_CODES } from 'data/statusCodes';
 
-test.describe("[API] [Sales Portal] [Customers]", () => {
-  const ids: string[] = [];
-  const token = "";
+test.describe('[API] [Sales Portal] [Customers]', () => {
+  const createdCustomerIds: string[] = [];
+  const createdOrderIds: string[] = [];
+  let token = '';
 
-  test.afterEach(async ({ customersApiService }) => {
-    if (ids.length) {
-      for (const id of ids) {
-        await customersApiService.delete(token, id);
-      }
-      ids.length = 0;
-    }
+  test.beforeAll(async ({ loginApiService }) => {
+    token = await loginApiService.loginAsAdmin();
   });
 
-  test(
-    "Get Customer Orders - Schema Validation",
-    {
-      tag: [TAGS.REGRESSION, TAGS.CUSTOMERS, TAGS.API],
-    },
-    async () => {
-      const customerId = "19308a48c1b03ca52a43f6a8"; // any id
-      const mockOrdersResponse = generateCustomerOrdersResponse(customerId, 3);
-
-      console.log("Generated mock data:", JSON.stringify(mockOrdersResponse, null, 2));
-
-      validateJsonSchema(customerOrdersSchema, mockOrdersResponse);
-
-      expect(mockOrdersResponse.Orders).toHaveLength(3);
-      expect(mockOrdersResponse.IsSuccess).toBe(true);
-      expect(mockOrdersResponse.ErrorMessage).toBeNull();
-
-      mockOrdersResponse.Orders.forEach(order => {
-        expect(order.customer._id).toBe(customerId);
-        expect(order).toHaveProperty("_id");
-        expect(order).toHaveProperty("status");
-        expect(order).toHaveProperty("products");
-        expect(order).toHaveProperty("total_price");
-        expect(order).toHaveProperty("createdOn");
-
-        if (order.products.length > 0) {
-          const calculatedTotal = order.products.reduce(
-            (sum, product) => sum + product.price * product.amount,
-            0
-          );
-          expect(order.total_price).toBe(calculatedTotal);
-        }
-      });
+  test.afterEach(async ({ customersApiService, ordersApiService }) => {
+    // Удаляем все созданные заказы
+    for (const orderId of createdOrderIds) {
+      await ordersApiService.delete(orderId, token).catch(() => {});
     }
-  );
+    createdOrderIds.length = 0;
+
+    // Удаляем всех созданных клиентов
+    for (const customerId of createdCustomerIds) {
+      await customersApiService.delete(token, customerId).catch(() => {});
+    }
+    createdCustomerIds.length = 0;
+  });
+
+  test('Should get order for customer with one order', 
+    { tag: [TAGS.REGRESSION, TAGS.CUSTOMERS, TAGS.API] },
+    async ({ customersApiService, productsApiService, ordersApiService }) => {
+
+      const customer = await customersApiService.create(token);
+      createdCustomerIds.push(customer._id);
+
+      const product = await productsApiService.create(token);
+
+      const orderData: IOrderData = {
+        customer: customer._id,
+        products: [product._id],
+      };
+
+      const createdOrder = await ordersApiService.create(orderData, token);
+      createdOrderIds.push(createdOrder._id);
+
+      const response = await customersApiService.getCustomerOrders(token, customer._id);
+
+      expect(Array.isArray(response.Orders)).toBe(true);
+      expect(response.Orders.length).toBe(1);
+
+      const order = response.Orders[0];
+      expect(order).toHaveProperty('_id');
+      expect(order).toHaveProperty('status');
+      expect(order).toHaveProperty('products');
+      expect(order).toHaveProperty('createdOn');
+      expect(order!.customer).toBe(customer._id);
+
+      expect(typeof order!.total_price).toBe('number');
+      expect(order!.total_price).toBeGreaterThanOrEqual(0);
+  });
+
+  test('Should get orders for customer with multiple orders',
+    { tag: [TAGS.REGRESSION, TAGS.CUSTOMERS, TAGS.API] },
+    async ({ customersApiService, productsApiService, ordersApiService }) => {
+
+      const customer = await customersApiService.create(token);
+      createdCustomerIds.push(customer._id);
+
+      const product = await productsApiService.create(token);
+
+      for (let i = 0; i < 3; i++) {
+        const createdOrder = await ordersApiService.create({
+          customer: customer._id,
+          products: [product._id],
+        }, token);
+        createdOrderIds.push(createdOrder._id);
+      }
+
+      const response = await customersApiService.getCustomerOrders(token, customer._id);
+
+      expect(Array.isArray(response.Orders)).toBe(true);
+      expect(response.Orders).toHaveLength(3);
+  });
+
+  test('Should return empty orders array for new customer', 
+    { tag: [TAGS.REGRESSION, TAGS.CUSTOMERS, TAGS.API] },
+    async ({ customersApiService }) => {
+
+      const customer = await customersApiService.create(token);
+      createdCustomerIds.push(customer._id);
+
+      const response = await customersApiService.getCustomerOrders(token, customer._id);
+
+      expect(Array.isArray(response.Orders)).toBe(true);
+      expect(response.Orders).toHaveLength(0);
+  });
+
+  test('Should fail with invalid token', 
+  { tag: [TAGS.API, TAGS.REGRESSION, TAGS.CUSTOMERS] },
+  async ({ customersApi }) => {
+  const response = await customersApi.getCustomerOrders('someId', 'invalidToken');
+  validateResponse(response, {
+    status: STATUS_CODES.UNAUTHORIZED,
+    IsSuccess: false,
+    ErrorMessage: ERROR_MESSAGES.UNAUTHORIZED,
+  });
 });
+
+test('Should fail for non-existent customer', 
+  { tag: [TAGS.API, TAGS.REGRESSION, TAGS.CUSTOMERS] },
+  async ({ customersApi }) => {
+  const nonExistentId = '693f135c1c508c665ec860f6';
+  const response = await customersApi.getCustomerOrders(nonExistentId, token);
+  validateResponse(response, {
+    status: STATUS_CODES.NOT_FOUND,
+    IsSuccess: false,
+    ErrorMessage: ERROR_MESSAGES.CUSTOMER_NOT_FOUND_WITH_ID(nonExistentId),
+  });
+});
+});
+ 

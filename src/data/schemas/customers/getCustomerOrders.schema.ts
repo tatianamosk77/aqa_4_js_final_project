@@ -1,12 +1,12 @@
 import { obligatoryFieldsSchema, obligatoryRequredFields } from "../core.schema";
-import { orderSchema } from "../orders/order.schema";
+import { orderInListWithCustomerIdSchema } from "../orders/order.schema";
 
 export const getCustomerOrdersSchema = {
   type: "object",
   properties: {
     Orders: {
       type: "array",
-      items: orderSchema,
+      items: orderInListWithCustomerIdSchema,
     },
     ...obligatoryFieldsSchema,
   },

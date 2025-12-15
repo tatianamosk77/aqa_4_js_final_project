@@ -8,6 +8,7 @@ import {
   ICustomersResponse,
   ICustomersSortedResponse,
   ICustomerOrdersResponse,
+  ICustomerOrdersByIdResponse,
 } from "data/types/customer.types";
 import { convertRequestParams } from "utils/queryParams.utils";
 import { logStep } from "utils/report/logStep.utils";
@@ -118,6 +119,6 @@ export class CustomersApi {
       },
     };
 
-    return await this.apiClient.send<ICustomerOrdersResponse>(options);
+    return await this.apiClient.send<ICustomerOrdersByIdResponse>(options);
   }
 }
