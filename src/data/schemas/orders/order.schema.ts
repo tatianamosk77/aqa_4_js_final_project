@@ -203,3 +203,11 @@ export const ordersListSchema = {
 };
 
 export const customerOrdersSchema = getCustomerOrdersSchema;
+
+export const orderInListWithCustomerIdSchema = {
+  ...orderSchema,
+  properties: {
+    ...orderSchema.properties,
+    customer: { type: "string" },
+  },
+};

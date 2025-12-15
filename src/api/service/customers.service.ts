@@ -12,6 +12,7 @@ import {
   ICustomerOrdersResponse,
   IGetCustomersParams,
   ICustomerFromResponse,
+  ICustomerOrdersByIdResponse,
 } from "data/types/customer.types";
 import { logStep } from "utils/report/logStep.utils";
 import { validateResponse } from "utils/validation/validateResponse.utils";
@@ -113,6 +114,6 @@ export class CustomersApiService {
       schema: getCustomerOrdersSchema,
     });
 
-    return response.body as ICustomerOrdersResponse;
+    return response.body as ICustomerOrdersByIdResponse;
   }
 }

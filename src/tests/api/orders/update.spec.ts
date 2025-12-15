@@ -30,25 +30,10 @@ test.describe("[API] [Sales Portal] [Orders] [Update]", () => {
     newProductIds = [];
   });
 
-  test.afterEach(async ({ ordersApiService, customersApiService, productsApiService }) => {
-    if (orderId) {
-      await ordersApiService.delete(orderId, token).catch(() => {});
-    }
-    if (initialCustomerId) {
-      await customersApiService.delete(token, initialCustomerId).catch(() => {});
-    }
-    if (newCustomerId) {
-      await customersApiService.delete(token, newCustomerId).catch(() => {});
-    }
-
-    initialProductIds.forEach(id => productsApiService.delete(token, id).catch(() => {}));
-    newProductIds.forEach(id => productsApiService.delete(token, id).catch(() => {}));
-
+    test.afterEach(async ({ ordersApiService }) => {
+    if (!orderId) return;
+    await ordersApiService.delete(orderId, token).catch(() => {});
     orderId = null;
-    initialCustomerId = null;
-    initialProductIds = [];
-    newCustomerId = null;
-    newProductIds = [];
   });
 
   async function createBaseOrderFx(deps: {

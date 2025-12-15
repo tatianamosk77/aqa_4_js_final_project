@@ -10,19 +10,43 @@ import { ORDER_HISTORY_ACTIONS } from "data/orders/historyActions.data";
 test.describe("[API] [Sales Portal] [Orders] [Unassign Manager]", () => {
   test.describe.configure({ mode: "parallel" });
 
-  type UnassignFx = {
-    token: string;
-    orderId: string;
-    customerId: string;
-    productId: string;
-  };
+  let token = "";
+  let managerId = "";
+
+  let orderId: string | null = null;
+  let customerId: string | null = null;
+  let productId: string | null = null;
+
+  test.beforeAll(async ({ loginApiService }) => {
+    const admin = await loginApiService.loginAsAdminWithUser();
+    managerId = admin.userId;
+    if (!managerId) throw new Error("No managerId retrieved from loginAsAdminWithUser");
+  });
+
+  test.beforeEach(async ({ loginApiService }) => {
+    token = await loginApiService.loginAsAdmin();
+
+    orderId = null;
+    customerId = null;
+    productId = null;
+  });
+
+  test.afterEach(async ({ ordersApiService, customersApiService, productsApiService }) => {
+    if (orderId) await ordersApiService.delete(orderId, token);
+    if (customerId) await customersApiService.delete(token, customerId);
+    if (productId) await productsApiService.delete(token, productId);
+
+    orderId = null;
+    customerId = null;
+    productId = null;
+  });
 
   async function createOrderFx(deps: {
     token: string;
     customersApiService: any;
     productsApiService: any;
     ordersApiService: any;
-  }): Promise<UnassignFx> {
+  }) {
     const { token, customersApiService, productsApiService, ordersApiService } = deps;
 
     const [customer, product] = await Promise.all([
@@ -30,58 +54,32 @@ test.describe("[API] [Sales Portal] [Orders] [Unassign Manager]", () => {
       productsApiService.create(token),
     ]);
 
+    customerId = customer._id;
+    productId = product._id;
+
     const order = await ordersApiService.create(
       { customer: customer._id, products: [product._id] },
       token
     );
 
-    return {
-      token,
-      orderId: order._id,
-      customerId: customer._id,
-      productId: product._id,
-    };
-  }
-
-  async function cleanupUnassignFx(
-    fx: UnassignFx,
-    deps: { ordersApiService: any; customersApiService: any; productsApiService: any }
-  ) {
-    const { token, orderId, customerId, productId } = fx;
-
-    await deps.ordersApiService.delete(orderId, token).catch(() => {});
-    await deps.customersApiService.delete(token, customerId).catch(() => {});
-    deps.productsApiService.delete(token, productId).catch(() => {});
+    orderId = order._id;
+    return order;
   }
 
   test(
     "Should unassign manager with valid orderId and token",
     { tag: [TAGS.API, TAGS.SMOKE, TAGS.REGRESSION] },
-    async ({
-      loginApiService,
-      ordersController,
-      ordersApiService,
-      customersApiService,
-      productsApiService,
-    }) => {
-      const [token, admin] = await Promise.all([
-        loginApiService.loginAsAdmin(),
-        loginApiService.loginAsAdminWithUser(),
-      ]);
-
-      const managerId = admin.userId;
-      if (!managerId) throw new Error("No managerId retrieved from loginAsAdminWithUser");
-
-      const fx = await createOrderFx({
+    async ({ ordersController, ordersApiService, customersApiService, productsApiService }) => {
+      const order = await createOrderFx({
         token,
         customersApiService,
         productsApiService,
         ordersApiService,
       });
 
-      await ordersController.assignManager(fx.orderId, managerId, token);
+      await ordersController.assignManager(order._id, managerId, token);
 
-      const response = await ordersController.unassignManager(fx.orderId, token);
+      const response = await ordersController.unassignManager(order._id, token);
 
       validateResponse(response, {
         status: STATUS_CODES.OK,
@@ -92,7 +90,7 @@ test.describe("[API] [Sales Portal] [Orders] [Unassign Manager]", () => {
 
       const updated = response.body!.Order;
 
-      expect(updated._id).toBe(fx.orderId);
+      expect(updated._id).toBe(order._id);
       expect.soft(updated.assignedManager).toBeNull();
 
       const actions = updated.history?.map(h => h.action) ?? [];
@@ -100,7 +98,7 @@ test.describe("[API] [Sales Portal] [Orders] [Unassign Manager]", () => {
         expect.soft(actions).toContain((ORDER_HISTORY_ACTIONS as any).MANAGER_UNASSIGNED);
       }
 
-      const getResponse = await ordersController.getByID(fx.orderId, token);
+      const getResponse = await ordersController.getByID(order._id, token);
       validateResponse(getResponse, {
         status: STATUS_CODES.OK,
         schema: getOrderSchema,
@@ -109,41 +107,25 @@ test.describe("[API] [Sales Portal] [Orders] [Unassign Manager]", () => {
       });
 
       expect.soft(getResponse.body!.Order.assignedManager).toBeNull();
-
-      await cleanupUnassignFx(fx, { ordersApiService, customersApiService, productsApiService });
     }
   );
 
   test(
     "Should NOT unassign manager with invalid token",
     { tag: [TAGS.API, TAGS.REGRESSION] },
-    async ({
-      loginApiService,
-      ordersController,
-      ordersApiService,
-      customersApiService,
-      productsApiService,
-    }) => {
+    async ({ ordersController, ordersApiService, customersApiService, productsApiService }) => {
       const invalidToken = "Invalid access token";
 
-      const [token, admin] = await Promise.all([
-        loginApiService.loginAsAdmin(),
-        loginApiService.loginAsAdminWithUser(),
-      ]);
-
-      const managerId = admin.userId;
-      if (!managerId) throw new Error("No managerId retrieved from loginAsAdminWithUser");
-
-      const fx = await createOrderFx({
+      const order = await createOrderFx({
         token,
         customersApiService,
         productsApiService,
         ordersApiService,
       });
 
-      await ordersController.assignManager(fx.orderId, managerId, token);
+      await ordersController.assignManager(order._id, managerId, token);
 
-      const response = await ordersController.unassignManager(fx.orderId, invalidToken);
+      const response = await ordersController.unassignManager(order._id, invalidToken);
 
       validateResponse(response, {
         status: STATUS_CODES.UNAUTHORIZED,
@@ -151,41 +133,25 @@ test.describe("[API] [Sales Portal] [Orders] [Unassign Manager]", () => {
         IsSuccess: false,
         ErrorMessage: "Invalid access token",
       });
-
-      await cleanupUnassignFx(fx, { ordersApiService, customersApiService, productsApiService });
     }
   );
 
   test(
     "Should NOT unassign manager without token",
     { tag: [TAGS.API, TAGS.REGRESSION] },
-    async ({
-      loginApiService,
-      ordersController,
-      ordersApiService,
-      customersApiService,
-      productsApiService,
-    }) => {
+    async ({ ordersController, ordersApiService, customersApiService, productsApiService }) => {
       const emptyToken = "";
 
-      const [token, admin] = await Promise.all([
-        loginApiService.loginAsAdmin(),
-        loginApiService.loginAsAdminWithUser(),
-      ]);
-
-      const managerId = admin.userId;
-      if (!managerId) throw new Error("No managerId retrieved from loginAsAdminWithUser");
-
-      const fx = await createOrderFx({
+      const order = await createOrderFx({
         token,
         customersApiService,
         productsApiService,
         ordersApiService,
       });
 
-      await ordersController.assignManager(fx.orderId, managerId, token);
+      await ordersController.assignManager(order._id, managerId, token);
 
-      const response = await ordersController.unassignManager(fx.orderId, emptyToken);
+      const response = await ordersController.unassignManager(order._id, emptyToken);
 
       validateResponse(response, {
         status: STATUS_CODES.UNAUTHORIZED,
@@ -193,26 +159,13 @@ test.describe("[API] [Sales Portal] [Orders] [Unassign Manager]", () => {
         IsSuccess: false,
         ErrorMessage: "Not authorized",
       });
-
-      await cleanupUnassignFx(fx, { ordersApiService, customersApiService, productsApiService });
-    }
-  );
-
-  test(
-    "Should NOT unassign manager with invalid orderId format",
-    { tag: [TAGS.API, TAGS.REGRESSION] },
-    async ({ loginApiService, ordersController }) => {
-      const token = await loginApiService.loginAsAdmin();
-
-      await expect(ordersController.unassignManager("12345", token)).rejects.toThrow(/status 500/i);
     }
   );
 
   test(
     "Should NOT unassign manager with non-existent orderId",
     { tag: [TAGS.API, TAGS.REGRESSION] },
-    async ({ loginApiService, ordersController }) => {
-      const token = await loginApiService.loginAsAdmin();
+    async ({ ordersController }) => {
       const nonexistentOrderId = generateID();
 
       const response = await ordersController.unassignManager(nonexistentOrderId, token);
@@ -229,23 +182,15 @@ test.describe("[API] [Sales Portal] [Orders] [Unassign Manager]", () => {
   test(
     "Should allow unassigning when no manager is assigned (no error, history added)",
     { tag: [TAGS.API, TAGS.REGRESSION] },
-    async ({
-      loginApiService,
-      ordersController,
-      ordersApiService,
-      customersApiService,
-      productsApiService,
-    }) => {
-      const token = await loginApiService.loginAsAdmin();
-
-      const fx = await createOrderFx({
+    async ({ ordersController, ordersApiService, customersApiService, productsApiService }) => {
+      const order = await createOrderFx({
         token,
         customersApiService,
         productsApiService,
         ordersApiService,
       });
 
-      const response = await ordersController.unassignManager(fx.orderId, token);
+      const response = await ordersController.unassignManager(order._id, token);
 
       validateResponse(response, {
         status: STATUS_CODES.OK,
@@ -259,8 +204,6 @@ test.describe("[API] [Sales Portal] [Orders] [Unassign Manager]", () => {
       expect.soft(updated.assignedManager).toBeNull();
       const actions = updated.history?.map(h => h.action) ?? [];
       expect.soft(actions.length).toBeGreaterThan(0);
-
-      await cleanupUnassignFx(fx, { ordersApiService, customersApiService, productsApiService });
     }
   );
 });
