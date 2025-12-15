@@ -1,27 +1,32 @@
-import { test } from "fixtures/api.fixture";
-import { STATUS_CODES } from "data/statusCodes";
-import { validateResponse } from "utils/validation/validateResponse.utils";
+import { expect, test } from "fixtures/api.fixture";
 import { TAGS } from "data/tags";
-import { getNotificationsResponseSchema } from "data/schemas/notifications/getNotifications.schema";
 
-test.describe("[API] [Sales Portal] [Notifications]", () => {
+test.describe("[API] [Sales Portal] [Notifications] - PATCH /api/notifications/mark-all-read", () => {
   let token = "";
 
-  test(
-    "Read all notifications",
-    {
-      tag: [TAGS.REGRESSION, TAGS.NOTIFICATIONS, TAGS.API],
-    },
-    async ({ loginApiService, notificationsApi }) => {
-      token = await loginApiService.loginAsAdmin();
+  test.beforeAll(async ({ loginApiService }) => {
+    token = await loginApiService.loginAsAdmin();
+  });
 
-      const getNotificationsResponse = await notificationsApi.readAll(token);
-      validateResponse(getNotificationsResponse, {
-        status: STATUS_CODES.OK,
-        schema: getNotificationsResponseSchema,
-        IsSuccess: true,
-        ErrorMessage: null,
+  test("Should mark all notifications as read", 
+    { tag: [TAGS.REGRESSION, TAGS.NOTIFICATIONS, TAGS.API] }, 
+    async ({ notificationsApiService }) => {
+      const updatedNotifications = await notificationsApiService.markAllAsRead(token);
+
+      expect(Array.isArray(updatedNotifications.Notifications)).toBe(true);
+      updatedNotifications.Notifications.forEach(notification => {
+        expect(notification).toHaveProperty("_id");
+        expect(notification).toHaveProperty("type");
+        expect(notification).toHaveProperty("read");
+        expect(notification.read).toBe(true);
       });
-    }
-  );
+  });
+
+  test("Should fail for unauthorized user", 
+    { tag: [TAGS.REGRESSION, TAGS.NOTIFICATIONS, TAGS.API] }, 
+    async ({ notificationsApi }) => {
+      const response = await notificationsApi.readAll("invalid_token");
+      expect(response.status).toBe(401);
+      expect(response.body.IsSuccess).toBe(false);
+  });
 });
