@@ -12,10 +12,17 @@ export class AddNewOrderModal extends SalesPortalPage {
   readonly customerDropdown = this.uniqueElement.locator("#inputCustomerOrder");
   readonly customerItems = this.customerDropdown.locator("option");
   readonly productDropdown = this.uniqueElement.locator('[name="Product"]');
-  readonly productItems = this.customerDropdown.locator("option");
+  readonly productItems = this.productDropdown.locator("option");
+  readonly productContainers = this.uniqueElement.locator("#products-section");
+
+  readonly productNameInContainer = (productName: string) =>
+    this.productContainers.filter({ hasText: productName });
+
+  readonly deleteButtonForProduct = (productName: string) =>
+    this.productNameInContainer(productName).locator('[title="Delete"]');
 
   readonly addProductButton = this.uniqueElement.locator("#add-product-btn");
-  readonly deleteProductButton = this.productDropdown.locator('[title="Delete"]');
+  readonly deleteProductButton = this.uniqueElement.locator('[title="Delete"]');
 
   readonly totalPrice = this.uniqueElement.locator("#total-price-order-modal");
 
@@ -52,6 +59,12 @@ export class AddNewOrderModal extends SalesPortalPage {
   @logStep("Click product on AddNewOrderModal")
   async clickProductDropdown() {
     await this.productDropdown.nth(-1).click();
+  }
+
+  @logStep("Delete specific product by name")
+  async deleteProductByName(productName: string): Promise<void> {
+    const deleteButton = this.deleteButtonForProduct(productName);
+    await deleteButton.click();
   }
 
   @logStep("Select random customer")
