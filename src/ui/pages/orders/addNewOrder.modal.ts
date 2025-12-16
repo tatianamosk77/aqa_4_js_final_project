@@ -50,4 +50,6 @@ export class AddNewOrderModal extends SalesPortalPage {
   async clickProduct() {
     await this.productRow.click();
   }
+
+  //TODO: add select customer and product
 }
