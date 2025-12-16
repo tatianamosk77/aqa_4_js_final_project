@@ -99,8 +99,6 @@ export interface IAddress {
   flat?: number;
 }
 
-export type OrdersSortField = "createdOn" | "status" | "total_price" | "customer";
-
 export interface IOrderFilteredResponse extends IResponseFields {
   Orders: IOrderFromResponse[];
   total: number;
@@ -130,6 +128,62 @@ export interface IOrderRequestParams extends Record<
 export interface IOrderResponse extends IResponseFields {
   Order: IOrderFromResponse;
 }
+export interface IOrdersResponse extends IResponseFields {
+  Orders: IOrderFromResponse[];
+}
 export interface ICustomerOrder extends Omit<IOrder, "customer"> {
   customer: string;
+}
+
+export interface IOrdersSortedResponse extends IOrdersResponse {
+  total: number;
+  page: number;
+  limit: number;
+  search: string;
+  status: string[];
+  sorting: {
+    sortField: OrdersSortField;
+    sortOrder: SortOrder;
+  };
+}
+
+// export type OrdersSortField = "createdOn" | "status" | "assignedManager" | "orderId" | "delivery" | "totalPrice" | "email";
+
+export type OrdersSortField =
+  | "orderNumber"
+  | "email"
+  | "price"
+  | "delivery"
+  | "status"
+  | "assignedManager"
+  | "createdOn";
+export interface IGetOrdersParams {
+  status: ORDER_STATUS[];
+  search: string;
+  sortField: OrdersSortField;
+  sortOrder: SortOrder;
+  page: number;
+  limit: number;
+}
+export interface ICreatedOn {
+  createdOn: string;
+}
+
+export type OrdersTableHeader =
+  | "Order Number"
+  | "Email"
+  | "Price"
+  | "Delivery"
+  | "Status"
+  | "Assigned Manager"
+  | "Created On";
+
+export interface IOrderInTable {
+  orderNumber: string;
+  email: string;
+  price: number;
+  delivery: string;
+  status: string;
+  assignedManager: string;
+  createdOn: string;
 }
