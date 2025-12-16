@@ -9,7 +9,6 @@ export class OrdersListPage extends SalesPortalPage {
   readonly tableRow = this.page.locator("tbody tr");
   readonly tableRowByName = (orderName: string) =>
     this.page.locator("table tbody tr", { has: this.page.locator("td", { hasText: orderName }) });
-  readonly tableRowByIndex = (index: number) => this.page.locator("table tbody tr").nth(index);
 
   readonly tableHeader = this.page.locator("thead th div[current]");
   readonly tableHeaderNamed = (name: OrdersTableHeader) =>
