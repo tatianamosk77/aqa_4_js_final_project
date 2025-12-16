@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 22:16:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "695",
+    "etag": "W/\"2b7-DC0zoJSn7BjyxfV0FhvlpIMstAQ\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "6941da4d1c508c5d5ecea36a",
+        "email": "Stefan.Swaniawski@hotmail.com",
+        "name": "Mattie Tracey",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 170,
+        "flat": 3299,
+        "phone": "+1157525397",
+        "createdOn": "2025-12-16T22:16:45.000Z",
+        "notes": "agSjEddvwWlD26KIx39nU0aOLeDz6gkN6PMRnSgtXBegZigiWqQheCnjUrx8sI0mZeC6Q586P0qXMuxxa9mfEu2uYHQpYzC8AaBpiPmu8ggyeeoIqLXfo4fIAMTttkDHDL6gtfDhVU191hWwRKtqk7NTY87pjqSh8zqRMCh6z2WvzH907OZuFif8feBYAgZMkFmazA9ELoFMOnIj9rtQEPREpdbsiUAHQ5BYpvOOeG8MekhBRIeHxPLWHM"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Stefan.Swaniawski@hotmail.com",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

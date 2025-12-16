@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 22:17:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1879",
+    "etag": "W/\"757-MxeSt51Jx6OwyIPdASmcwp0Q6WQ\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6941da681c508c5d5eceb14d",
+        "email": "Raina_Yost@gmail.com",
+        "name": "Marvin Sydnee",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 561,
+        "flat": 4729,
+        "phone": "+7216338813",
+        "createdOn": "2025-12-16T22:17:12.000Z",
+        "notes": "JbZgsSgfhkxmQkesSKRIjkPTbqbLdNH2g3Er7xBHJG4uqDrxECiOV6iSHPsU68LQ7n0UGkBkPT6ZuJxgXNWZ0h4otT8Ca0O0dbV1s40DTOGkIh7q5038MgahZ6HL41kKsUzF4iNZyhPuhAWiuB23GPY3FFrfeHse92g1HY6pit3T1RJx38gPxwUmBLLHB6fjH8X198dpazsc903BYMzVMOscU9KIvgftVvoBtAnEAuAyKsY7hx7JFzpd2a"
+      },
+      "products": [
+        {
+          "_id": "6941da691c508c5d5eceb18c",
+          "name": "Shoes28475",
+          "amount": 642,
+          "price": 35123,
+          "manufacturer": "Amazon",
+          "notes": "2lHVMhSEAq5sJfPxij8quX1lIGLyWny2ygAxcVlM0K79xrrHt2h5iW4dzNv2iptcYEFXBHjjYIXRIsGM6gZ4okM8OI9KHru1rB267tW0jtIR0TF3TELoV1t50U4yxEsDRlpYZGbhLsrdASiCYmLgKoMSsuIC7mouIBRaQvVSTqprqjDVXzL6TvMkqH3u3RnRWu73cuUX5v25PqkIJ0PU0j5Lzt6U1NYyr6VMlJnyKvAtD4VU17n7DrkdK8",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 35123,
+      "createdOn": "2025-12-16T22:17:14.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6941da681c508c5d5eceb14d",
+          "products": [
+            {
+              "_id": "6941da691c508c5d5eceb18c",
+              "name": "Shoes28475",
+              "amount": 642,
+              "price": 35123,
+              "manufacturer": "Amazon",
+              "notes": "2lHVMhSEAq5sJfPxij8quX1lIGLyWny2ygAxcVlM0K79xrrHt2h5iW4dzNv2iptcYEFXBHjjYIXRIsGM6gZ4okM8OI9KHru1rB267tW0jtIR0TF3TELoV1t50U4yxEsDRlpYZGbhLsrdASiCYmLgKoMSsuIC7mouIBRaQvVSTqprqjDVXzL6TvMkqH3u3RnRWu73cuUX5v25PqkIJ0PU0j5Lzt6U1NYyr6VMlJnyKvAtD4VU17n7DrkdK8",
+              "received": false
+            }
+          ],
+          "total_price": 35123,
+          "delivery": null,
+          "changedOn": "2025-12-16T22:17:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6941da6a1c508c5d5eceb23f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

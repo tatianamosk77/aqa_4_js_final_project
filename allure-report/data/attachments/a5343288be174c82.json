@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 22:17:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-J93XTlJFRvVkEYT7lCJ7e10Sr6w\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6941da871c508c5d5ecec0f8",
+        "email": "Roxanne_Auer@gmail.com",
+        "name": "Cordie Jeremie",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 712,
+        "flat": 2540,
+        "phone": "+7631854713",
+        "createdOn": "2025-12-16T22:17:43.000Z",
+        "notes": "wjxWlTGSqa5wwK6wCfZt5BTxuoIs6L78IT9iXQWpYt1WkzqLhwoeUDBEwn6S0Q4HJeQ4SBfOVtWihZVqe5PeCMXojD8BGamb2kanUaMdAV6hxzkDVNLAU0ybz0Nkzmzms7WeUwVUWQ6ZFtRHrW9xAdIAkh8Ug2X0zKIcEwmqeHPqBiwcqeLatxh6qKjA0Gkr2OXoqqiGK7sc4eMVilOrg09tXgIN5JKBJfAw0UtHk9d6o12DmHfmfcCmbH"
+      },
+      "products": [
+        {
+          "_id": "6941da881c508c5d5ecec11e",
+          "name": "Keyboard24621",
+          "amount": 689,
+          "price": 16092,
+          "manufacturer": "Google",
+          "notes": "WNyI2rYJJ30ezWhDhtE3thyb5ip4Gow9fRx4wuRy1BvAwd1VvI1LL3Q5UvkZ5YI3nf2CP2w68ofri4hy23nh8jyO76OlKtdlWqdJDMLV8CHgLQ68VPYIqSoDCkSLDjZg2tnYPF2y8JHCsJ77IILKbTUIG2lc2VDxPMGpUSf9yql70315TvY2W7KxcRRE7WcLuh01GNMnpdbsxDmYKgTAG2FQV4x9EH07QP0D0YdxnijFlr6LVLURF3Coaq",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 16092,
+      "createdOn": "2025-12-16T22:17:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6941da871c508c5d5ecec0f8",
+          "products": [
+            {
+              "_id": "6941da881c508c5d5ecec11e",
+              "name": "Keyboard24621",
+              "amount": 689,
+              "price": 16092,
+              "manufacturer": "Google",
+              "notes": "WNyI2rYJJ30ezWhDhtE3thyb5ip4Gow9fRx4wuRy1BvAwd1VvI1LL3Q5UvkZ5YI3nf2CP2w68ofri4hy23nh8jyO76OlKtdlWqdJDMLV8CHgLQ68VPYIqSoDCkSLDjZg2tnYPF2y8JHCsJ77IILKbTUIG2lc2VDxPMGpUSf9yql70315TvY2W7KxcRRE7WcLuh01GNMnpdbsxDmYKgTAG2FQV4x9EH07QP0D0YdxnijFlr6LVLURF3Coaq",
+              "received": false
+            }
+          ],
+          "total_price": 16092,
+          "delivery": null,
+          "changedOn": "2025-12-16T22:17:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6941da891c508c5d5ecec18a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

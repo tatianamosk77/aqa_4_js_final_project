@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 22:17:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-Spedmy2rgZubH/EFQq3BLA8gVDc\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6941da711c508c5d5eceb58f",
+        "email": "Meggie.Bartoletti92@gmail.com",
+        "name": "Josianne Myrna",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 327,
+        "flat": 5140,
+        "phone": "+8798622261",
+        "createdOn": "2025-12-16T22:17:21.000Z",
+        "notes": "fu3DoGIYybjkxmCNWEy8Ex4t4sIMhFzhWrn6Ieo2jkULtyicgnmv1zLfIKcPKFcTzIjdyvPR0UiDA11deh5z7Vd6oAEmbBrpAprRYLwl2JktbxGa6rYVaWhtccCQVxUxOuBpZ3Rf4gu20VwYrKmtVccTrTPnYyk0KUa6HanWqdVoZYnjraug0cM9bpXNhAOIs0vCZmTbDhijxmmUxdEcFpzsbwba6f588TKwe7bMFBUX6DS2ei9DsJMuwo"
+      },
+      "products": [
+        {
+          "_id": "6941da711c508c5d5eceb598",
+          "name": "Pants6434",
+          "amount": 356,
+          "price": 77999,
+          "manufacturer": "Amazon",
+          "notes": "CxwPvKxWqC8ClHnBbiCiaHz4nM9pTX89sjs07vbUoxA1yaZ8q8OUZybvLJZtPH5jZ1pvcTG2LcC6GqYRAwCfAOd8higTeIPJ9VsRRnHTUpS5DuqlMpkP8s50x0v9tbnZ2BlxuKRMyO9gnN0hqdR8EcJzE26wrYZSCas7QDmnnSLAoDYuaJI6Bhmi2DeESSV0EIj9aQbySLlsRWWoQ5L5kpLAN9XCVriCTpQiH1XMPWwIXJdxtFQyqKDY0s",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 77999,
+      "createdOn": "2025-12-16T22:17:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6941da711c508c5d5eceb58f",
+          "products": [
+            {
+              "_id": "6941da711c508c5d5eceb598",
+              "name": "Pants6434",
+              "amount": 356,
+              "price": 77999,
+              "manufacturer": "Amazon",
+              "notes": "CxwPvKxWqC8ClHnBbiCiaHz4nM9pTX89sjs07vbUoxA1yaZ8q8OUZybvLJZtPH5jZ1pvcTG2LcC6GqYRAwCfAOd8higTeIPJ9VsRRnHTUpS5DuqlMpkP8s50x0v9tbnZ2BlxuKRMyO9gnN0hqdR8EcJzE26wrYZSCas7QDmnnSLAoDYuaJI6Bhmi2DeESSV0EIj9aQbySLlsRWWoQ5L5kpLAN9XCVriCTpQiH1XMPWwIXJdxtFQyqKDY0s",
+              "received": false
+            }
+          ],
+          "total_price": 77999,
+          "delivery": null,
+          "changedOn": "2025-12-16T22:17:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6941da721c508c5d5eceb626"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

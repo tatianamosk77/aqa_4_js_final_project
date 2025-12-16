@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 22:16:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-5RN7lgoH+SikaUuhLnGw6pm1sow\"",
+    "keep-alive": "timeout=5, max=77",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6941da591c508c5d5ecea980",
+        "email": "Ole.Heathcote@gmail.com",
+        "name": "Gertrude Therese",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 989,
+        "flat": 6075,
+        "phone": "+2379862705",
+        "createdOn": "2025-12-16T22:16:57.000Z",
+        "notes": "2TMAYUbP8rmlNZYFtBQumarYdCGbWyxnAMFWKNl7VsjOyQiLbQMGs1K3VPeI21mIgCVT3BSSS68A2EFbTjuTRadKxy0niJtv6dKj3jVZF2LvmzwbrAvUaawicASmS89m2WRiuDmxlkeOKSoLyhdPy2bSyackTqlJXHLDIFyWGxwF2eJFZn0umjXiaSpymvRpldMuYLuj1t5H8SHTg6N07CY0ZpBSujL4EQ03LMlgv9pbRowINsfxbPnScz"
+      },
+      "products": [
+        {
+          "_id": "6941da5a1c508c5d5eceaa0f",
+          "name": "Towels94300",
+          "amount": 731,
+          "price": 71922,
+          "manufacturer": "Amazon",
+          "notes": "yIYPQMhM0uj6pJMw0MGbKRe70TovyXwHWrRVIQLkKFRteHrtUlPG6eiWkCWJ8FVOqzyaR1CTJR4pGSjlecbkkX8EFaSt4QVk32YpL3BwNqW4TB5sdfPECmy2XtI5aCrpfVmvxPVKR1gQ0vhAKTC1SUk1bxKB737VMcm5gQ18OiBgcgQRmjpoFhnQn7kgCvODtakKnYRe4OJIWZmuyBSiLolZqLlkQ8IP4in73f0JClMbq245SNberw16NF",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 71922,
+      "createdOn": "2025-12-16T22:16:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6941da591c508c5d5ecea980",
+          "products": [
+            {
+              "_id": "6941da5a1c508c5d5eceaa0f",
+              "name": "Towels94300",
+              "amount": 731,
+              "price": 71922,
+              "manufacturer": "Amazon",
+              "notes": "yIYPQMhM0uj6pJMw0MGbKRe70TovyXwHWrRVIQLkKFRteHrtUlPG6eiWkCWJ8FVOqzyaR1CTJR4pGSjlecbkkX8EFaSt4QVk32YpL3BwNqW4TB5sdfPECmy2XtI5aCrpfVmvxPVKR1gQ0vhAKTC1SUk1bxKB737VMcm5gQ18OiBgcgQRmjpoFhnQn7kgCvODtakKnYRe4OJIWZmuyBSiLolZqLlkQ8IP4in73f0JClMbq245SNberw16NF",
+              "received": false
+            }
+          ],
+          "total_price": 71922,
+          "delivery": null,
+          "changedOn": "2025-12-16T22:16:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6941da5b1c508c5d5eceaa81"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

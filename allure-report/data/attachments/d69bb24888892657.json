@@ -1,0 +1,161 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 22:17:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4146",
+    "etag": "W/\"1032-28zQYYVeGIN0/Sr1FEXkpzNmDz4\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6941da841c508c5d5ecebf4a",
+      "status": "Draft",
+      "customer": {
+        "_id": "6941da841c508c5d5ecebf91",
+        "email": "Elise_Runte77@gmail.com",
+        "name": "Kaitlin Kattie",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 121,
+        "flat": 2916,
+        "phone": "+5158388318",
+        "createdOn": "2025-12-16T22:17:40.000Z",
+        "notes": "gI4xpc56qkZnlAutFhKQK9X4m4ABcjJK13WhnKwr8MkSia2mW2e16eQaoDOQzr0Iebbjv6T9LgU9xyX7OtvjLmjShon1wiS7LWynan6RoFqr194ubNuVFCgwQB1Cv5bVuHF2BugLavpXlmx53HflFS0Tvl9fymbWT4zsepRCIPcoqTIoZTcNKgcBdssOuFzPz9zHxx1XA82iyplTPNcdpaT0CQ13usmH4HTNXtOHON7FQiu3GmmXBC5cjI"
+      },
+      "products": [
+        {
+          "_id": "6941da841c508c5d5ecebf95",
+          "name": "Bike60639",
+          "amount": 812,
+          "price": 31243,
+          "manufacturer": "Google",
+          "notes": "FfjltjpQ02fzw8xyQid13Ij2CRwvJNHq1jRhypdswJw7MjKN3MouKpah5xbIPmGSA0TJclhA4lpLEb9VZfydCrHWT0lKppiDQLzjpGRup9LkBhKmUXrovnP6rjVlFqk9xaIp6ACg4sSS3cSvuZnY2rVSTzDm3g5HZhrwRl1Zu3N8SvedCz4thYiOdj7jSjlXnHvMMf9nqQ07mZl4B15ZDXbOCxGmmh4jlWkxMTHs9EoQsQJ1Z1qWcFuQIJ",
+          "received": false
+        },
+        {
+          "_id": "6941da851c508c5d5ecebfbe",
+          "name": "Chips55309",
+          "amount": 635,
+          "price": 8327,
+          "manufacturer": "Amazon",
+          "notes": "z80tU9XqGoum4CQWpoPDhMa0KOJget269LXbDHSW2TmP51WQU6PwnoOovwLooNhJ3gCDTiJUOZheNFJFsjxEXwl3cVr2xRiraSll3hTYxtZ1Nug1xOurlySVMDQP19NPl2SGHf3eF20Oj2rMMulbnDNMeZIwZSUc1FuSiKF4DuNnumm8nhoP0cD5QZ48lUgXD6l1lycsZ7QipQ3huZ1yRpbMXa1V32j7uA85GZIfRyxBuUXIO3aUa8ct4M",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 39570,
+      "createdOn": "2025-12-16T22:17:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6941da841c508c5d5ecebf91",
+          "products": [
+            {
+              "_id": "6941da831c508c5d5ecebf04",
+              "name": "Salad2193",
+              "amount": 933,
+              "price": 57465,
+              "manufacturer": "Sony",
+              "notes": "7uVx29HJCjjluVE9V3dTk0HMfzkcpLwBlp5D2uAT7Q4pqf5ByNJl6myBLBNjrXgFd9l0KacrNlTW8ojCq9LvwwquZqy1TQur0izxQ3YBoi0QHtIlfscA8ZhrXTRUtaqyRcCVIKZd4eYaBTLAMWVqmk5xSRHVgK89zxzmNoGnPIGe0tlzsV2rsacGz4NwfSKxnL5tRYzr6HM1vIBHIaFJupthtKekjhuqxYxtKpksL79OIiPoL9Hd9wzKDW",
+              "received": false
+            }
+          ],
+          "total_price": 39570,
+          "delivery": null,
+          "changedOn": "2025-12-16T22:17:41.000Z",
+          "action": "Customer changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6941da831c508c5d5ecebef9",
+          "products": [
+            {
+              "_id": "6941da841c508c5d5ecebf95",
+              "name": "Bike60639",
+              "amount": 812,
+              "price": 31243,
+              "manufacturer": "Google",
+              "notes": "FfjltjpQ02fzw8xyQid13Ij2CRwvJNHq1jRhypdswJw7MjKN3MouKpah5xbIPmGSA0TJclhA4lpLEb9VZfydCrHWT0lKppiDQLzjpGRup9LkBhKmUXrovnP6rjVlFqk9xaIp6ACg4sSS3cSvuZnY2rVSTzDm3g5HZhrwRl1Zu3N8SvedCz4thYiOdj7jSjlXnHvMMf9nqQ07mZl4B15ZDXbOCxGmmh4jlWkxMTHs9EoQsQJ1Z1qWcFuQIJ",
+              "received": false
+            },
+            {
+              "_id": "6941da851c508c5d5ecebfbe",
+              "name": "Chips55309",
+              "amount": 635,
+              "price": 8327,
+              "manufacturer": "Amazon",
+              "notes": "z80tU9XqGoum4CQWpoPDhMa0KOJget269LXbDHSW2TmP51WQU6PwnoOovwLooNhJ3gCDTiJUOZheNFJFsjxEXwl3cVr2xRiraSll3hTYxtZ1Nug1xOurlySVMDQP19NPl2SGHf3eF20Oj2rMMulbnDNMeZIwZSUc1FuSiKF4DuNnumm8nhoP0cD5QZ48lUgXD6l1lycsZ7QipQ3huZ1yRpbMXa1V32j7uA85GZIfRyxBuUXIO3aUa8ct4M",
+              "received": false
+            }
+          ],
+          "total_price": 39570,
+          "delivery": null,
+          "changedOn": "2025-12-16T22:17:41.000Z",
+          "action": "Requested products changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6941da831c508c5d5ecebef9",
+          "products": [
+            {
+              "_id": "6941da831c508c5d5ecebf04",
+              "name": "Salad2193",
+              "amount": 933,
+              "price": 57465,
+              "manufacturer": "Sony",
+              "notes": "7uVx29HJCjjluVE9V3dTk0HMfzkcpLwBlp5D2uAT7Q4pqf5ByNJl6myBLBNjrXgFd9l0KacrNlTW8ojCq9LvwwquZqy1TQur0izxQ3YBoi0QHtIlfscA8ZhrXTRUtaqyRcCVIKZd4eYaBTLAMWVqmk5xSRHVgK89zxzmNoGnPIGe0tlzsV2rsacGz4NwfSKxnL5tRYzr6HM1vIBHIaFJupthtKekjhuqxYxtKpksL79OIiPoL9Hd9wzKDW",
+              "received": false
+            }
+          ],
+          "total_price": 57465,
+          "delivery": null,
+          "changedOn": "2025-12-16T22:17:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

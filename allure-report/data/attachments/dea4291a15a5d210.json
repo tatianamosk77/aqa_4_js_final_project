@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 22:17:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2943",
+    "etag": "W/\"b7f-QzY4ide/CLu77TqCUWPbfnWl7Xw\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6941da641c508c5d5eceaf6d",
+      "status": "Draft",
+      "customer": {
+        "_id": "6941da621c508c5d5eceae13",
+        "email": "Ida_Crooks26@hotmail.com",
+        "name": "Chaim Cleveland",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 36,
+        "flat": 6856,
+        "phone": "+7744486351",
+        "createdOn": "2025-12-16T22:17:06.000Z",
+        "notes": "3DBHjOlD3FKwA2CvUwiRtCTYTodYRn14b1xeYzjaiEXS27XDqsqJoALn1d9wYhbfd5sDyfNrhMe0KWVIEE5UALMZyBhTKhGbudlb3lX8iXr6rheN23DUogKYFDwteen9hUtfdN9OPLEEfXP03L5SJy1RIZkNJMzn12ycCyoAGExSWBKcNG9UBx7WBamNxReiHZGfLXuGWvSn53oEUSwdF7yAKoet268H0Ae6Bjcmj22gwmG99h5C8XCgFs"
+      },
+      "products": [
+        {
+          "_id": "6941da621c508c5d5eceaea8",
+          "name": "Gloves30173",
+          "amount": 411,
+          "price": 67794,
+          "manufacturer": "Samsung",
+          "notes": "9hBlABTbh8uwzfN9D8QkFkzj3X2Jcbl1VLJ2MfDQlCujqaHTkm1XFSdhBBVWKtbh682BPaBWkbtsGfXNJjFjVPmrpPdACYbLJOLD9AAEEn98u9gyMlbxbQVopsIJkjS8aZXMIIRIdPJaXkeKX8wiBGJIwxtgfOqxPWhEL6wvcFrgudW3dVM0L2xtvNW32XKjFuSGppMLb53IxJgII9UfbDkZkn3reiLXR9TyGFB6tOQLr0RrWcih9qbMGe",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 67794,
+      "createdOn": "2025-12-16T22:17:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6941da621c508c5d5eceae13",
+          "products": [
+            {
+              "_id": "6941da621c508c5d5eceaea8",
+              "name": "Gloves30173",
+              "amount": 411,
+              "price": 67794,
+              "manufacturer": "Samsung",
+              "notes": "9hBlABTbh8uwzfN9D8QkFkzj3X2Jcbl1VLJ2MfDQlCujqaHTkm1XFSdhBBVWKtbh682BPaBWkbtsGfXNJjFjVPmrpPdACYbLJOLD9AAEEn98u9gyMlbxbQVopsIJkjS8aZXMIIRIdPJaXkeKX8wiBGJIwxtgfOqxPWhEL6wvcFrgudW3dVM0L2xtvNW32XKjFuSGppMLb53IxJgII9UfbDkZkn3reiLXR9TyGFB6tOQLr0RrWcih9qbMGe",
+              "received": false
+            }
+          ],
+          "total_price": 67794,
+          "delivery": null,
+          "changedOn": "2025-12-16T22:17:09.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "6941da621c508c5d5eceae13",
+          "products": [
+            {
+              "_id": "6941da621c508c5d5eceaea8",
+              "name": "Gloves30173",
+              "amount": 411,
+              "price": 67794,
+              "manufacturer": "Samsung",
+              "notes": "9hBlABTbh8uwzfN9D8QkFkzj3X2Jcbl1VLJ2MfDQlCujqaHTkm1XFSdhBBVWKtbh682BPaBWkbtsGfXNJjFjVPmrpPdACYbLJOLD9AAEEn98u9gyMlbxbQVopsIJkjS8aZXMIIRIdPJaXkeKX8wiBGJIwxtgfOqxPWhEL6wvcFrgudW3dVM0L2xtvNW32XKjFuSGppMLb53IxJgII9UfbDkZkn3reiLXR9TyGFB6tOQLr0RrWcih9qbMGe",
+              "received": false
+            }
+          ],
+          "total_price": 67794,
+          "delivery": null,
+          "changedOn": "2025-12-16T22:17:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337ce1c508c5d5e95335d",
+        "username": "student14@gmail.com",
+        "firstName": "Bill",
+        "lastName": "Schuppe",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:26"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

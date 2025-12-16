@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 22:16:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "98",
+    "etag": "W/\"62-zYEpZZnAdijjdv3RYUGpjOLlUjo\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "IsSuccess": false,
+    "ErrorMessage": "Customer with email 'Anne_Lueilwitz@gmail.com' already exists"
+  }
+}

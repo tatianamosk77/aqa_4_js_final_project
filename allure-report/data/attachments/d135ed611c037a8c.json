@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 22:17:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-HGfHTFiwtleHLF3MhxbFQIA/XK4\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Nova.Swift@yahoo.com",
+      "name": "Meda Jadon",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 759,
+      "flat": 6396,
+      "phone": "+8643774348",
+      "createdOn": "2025-12-16T22:17:23.000Z",
+      "notes": "IQhlSDULwLdXiBkWnpEdgsn1Z8JRvABz27tPLD5n7WSjza8a3nFeMiuWY68qhbwY5suCaWCQbkDnbtldRICEI9jQq8tRfxYByhen8pdtv8BgV14evEdxahLgCiRoNtooMIaBZHQerFi7otB2Oiuj8rBCeTqZUxOf8PK3PgYJsDlMcgqXDkXcOh9lLiPPCMkPsZEilLHK7wI21Nss7YCGq8clRlM6RhFiSr6c2jolhLAn9U1NNaeMulb54a",
+      "_id": "6941da731c508c5d5eceb692"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

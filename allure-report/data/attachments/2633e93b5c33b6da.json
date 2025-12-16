@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 22:17:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-U3X+uKJ63FESWCiyzF34S/nWU7k\"",
+    "keep-alive": "timeout=5, max=74",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6941da5c1c508c5d5eceaaee",
+        "email": "Stephania_Schaden@hotmail.com",
+        "name": "Flavio Earnestine",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 725,
+        "flat": 9866,
+        "phone": "+5716016598",
+        "createdOn": "2025-12-16T22:17:00.000Z",
+        "notes": "jNt6NHFldqwkk3qXCTIV82Yz5BmRNcGaPJMDnEIscHgMXBTNF6ftvbGa9QEeXzxIo40lgUMrshLHSChgmjyspMmxU6A6YdouUcn61gTRRqA1eUVHCAcC98sMeK7lPam2Rm1dasp4wMB1jcq2ZVStosgDBzDUPEPvZVfPDt2UUjWRLOi8Opn2emXj4zSgvW2rGLcPguqHX8O9rM6jMAD5FcMq9Ke8RVER8HprbjNqzIcosqDNGSgFOEQ94k"
+      },
+      "products": [
+        {
+          "_id": "6941da5d1c508c5d5eceab66",
+          "name": "Car30812",
+          "amount": 78,
+          "price": 15172,
+          "manufacturer": "Google",
+          "notes": "6JXyRKROO62EgoTpyjENlifG8dtr2WquDoo5ddKAx2NbRvYwI92gcVWK3GjBwFn5P16IaoIYS6l7jCQRoGJiSHUMsFB6AztiOje9EQAjQKlXg1yrQtipiuz0YUMOgK5fkeEto4ClZF2Uc9fuvU27i0vH1FBHbTW1eysGkCkt6UKuKp5pbbMhbFticzc74sdfEGIKanZQX6PtWIMp4zZpN5pmRIGARmculwzinV7ICl5Pd2I9DDRC5sqaa5",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 15172,
+      "createdOn": "2025-12-16T22:17:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6941da5c1c508c5d5eceaaee",
+          "products": [
+            {
+              "_id": "6941da5d1c508c5d5eceab66",
+              "name": "Car30812",
+              "amount": 78,
+              "price": 15172,
+              "manufacturer": "Google",
+              "notes": "6JXyRKROO62EgoTpyjENlifG8dtr2WquDoo5ddKAx2NbRvYwI92gcVWK3GjBwFn5P16IaoIYS6l7jCQRoGJiSHUMsFB6AztiOje9EQAjQKlXg1yrQtipiuz0YUMOgK5fkeEto4ClZF2Uc9fuvU27i0vH1FBHbTW1eysGkCkt6UKuKp5pbbMhbFticzc74sdfEGIKanZQX6PtWIMp4zZpN5pmRIGARmculwzinV7ICl5Pd2I9DDRC5sqaa5",
+              "received": false
+            }
+          ],
+          "total_price": 15172,
+          "delivery": null,
+          "changedOn": "2025-12-16T22:17:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6941da5e1c508c5d5eceabea"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

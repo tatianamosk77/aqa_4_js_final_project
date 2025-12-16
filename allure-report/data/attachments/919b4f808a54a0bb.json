@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 22:17:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1894",
+    "etag": "W/\"766-w6vAJMwE/cVmiusQqvtWzRGYW7s\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6941da761c508c5d5eceb814",
+        "email": "Darrick_Wintheiser@hotmail.com",
+        "name": "Caesar Anissa",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 150,
+        "flat": 381,
+        "phone": "+0165385071",
+        "createdOn": "2025-12-16T22:17:26.000Z",
+        "notes": "fzTH7JYpGZDihl0hbaW04vdHJ08GpbA4g5jCYL5Lql9mulni44eoiTKKGhLsqXjlO6qxN0ha09irC9aY5X8b31TaUksnI2DEp4gTuhsIRrdiVaDWxJDMnzGwBsOsoLpqDm52ANst4I7hdkd2IgYardtdCbOTkmsJd2legeu14iYPmqPQICcOwYm6iWsV5gGH9s1tWLaQohjMbDK7KfIUFD9wGRIsasDo0I8FR70ByvBVdYQdCKGWdKQvKX"
+      },
+      "products": [
+        {
+          "_id": "6941da761c508c5d5eceb807",
+          "name": "Shirt77770",
+          "amount": 683,
+          "price": 30237,
+          "manufacturer": "Microsoft",
+          "notes": "N12n6MIdL4vOcY7VDKiDAXTb0NyuNI0yIcTC7FMx5sr4GYPc63Z5GmN6DMDIcJfuf8UFBHVWh2Bd7n5RYaYAMtYRFQ9dEoffb2iCcqDRZI7SQiNFkTfOTif0hyLwvkyRuWantqDHaoqUkk0rRz61pYfwwUlYN0VsprFyR7adcjLoH3Pm2vimsEvT8PHBV4xP5EWpzbRJNipshhOGnQgFHxUNbGBD78LDyfGUiL5oylKUOzYYHhpDen1445",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 30237,
+      "createdOn": "2025-12-16T22:17:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6941da761c508c5d5eceb814",
+          "products": [
+            {
+              "_id": "6941da761c508c5d5eceb807",
+              "name": "Shirt77770",
+              "amount": 683,
+              "price": 30237,
+              "manufacturer": "Microsoft",
+              "notes": "N12n6MIdL4vOcY7VDKiDAXTb0NyuNI0yIcTC7FMx5sr4GYPc63Z5GmN6DMDIcJfuf8UFBHVWh2Bd7n5RYaYAMtYRFQ9dEoffb2iCcqDRZI7SQiNFkTfOTif0hyLwvkyRuWantqDHaoqUkk0rRz61pYfwwUlYN0VsprFyR7adcjLoH3Pm2vimsEvT8PHBV4xP5EWpzbRJNipshhOGnQgFHxUNbGBD78LDyfGUiL5oylKUOzYYHhpDen1445",
+              "received": false
+            }
+          ],
+          "total_price": 30237,
+          "delivery": null,
+          "changedOn": "2025-12-16T22:17:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6941da771c508c5d5eceb90e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

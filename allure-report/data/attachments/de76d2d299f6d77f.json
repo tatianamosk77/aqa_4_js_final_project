@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 22:16:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "295",
+    "etag": "W/\"127-+i5Yb7rKHfs7VuMiNJVkO6Du7Yw\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Fiona.Rosenbaum@yahoo.com",
+      "name": "Kole Alden",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 271,
+      "flat": 8172,
+      "phone": "+2830979089",
+      "createdOn": "2025-12-16T22:16:32.000Z",
+      "notes": "",
+      "_id": "6941da401c508c5d5ece9d9b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

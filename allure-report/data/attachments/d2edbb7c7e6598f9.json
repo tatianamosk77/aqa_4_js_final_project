@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 22:16:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-JF1azaCzWJaycg/0d3Ue+2gQgVo\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Alison54@hotmail.com",
+      "name": "Misty Lisette",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 159,
+      "flat": 8578,
+      "phone": "+2896220835",
+      "createdOn": "2025-12-16T22:16:30.000Z",
+      "notes": "hA35U1zfJH51PrnPKoKkxlFrBZJ9Q9yl6wbjp4zmBNqWIOJkPWbULh1hwC76HUiOnSoWOuiE3pdnx3o5yx2LBhPGZjKqIhUzsB5oETbWpJLAKkOsToszkrPIaDXN7QJhh4PqDQQypsvhRMOSXdF9GoV9pNkzQW1ZqKtxfjwtxNTXGTG22oJpYzgj96HjfyxnX5I5fnTkua9CQdt2n4L0x5UEmRVqMuuV7IRbJe6pfBK9r8pXvYlHLZp2u2",
+      "_id": "6941da3e1c508c5d5ece9c46"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

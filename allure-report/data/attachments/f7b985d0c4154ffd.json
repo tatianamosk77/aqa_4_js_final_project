@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 22:17:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1861",
+    "etag": "W/\"745-H8Nx0O/li0hV3KiynBTlQTGCCWA\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6941da841c508c5d5ecebf4d",
+      "status": "Draft",
+      "customer": {
+        "_id": "6941da831c508c5d5ecebefb",
+        "email": "Duncan.Will@gmail.com",
+        "name": "Mohammad Lola",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 317,
+        "flat": 491,
+        "phone": "+0786668515",
+        "createdOn": "2025-12-16T22:17:39.000Z",
+        "notes": "szV6b4QjMQdji4tzkCyWZINU29We80gLzT24M3TnGMcFe7XSHDLdb0Y1PNJVoiNt3RHT1VLhUdnQcqdmoyHxXxSlBfuA4I0VjcK7sa4SaqJthnJLoUsLKRETlPydGgQsz40N9GZa4LuZLzVUT4VUzdrF2FaaO0v8Id1rorrewUOsqCPhp2pjK1Xhae2LG5muAiM9TacHj5di23NA7ByHFrx22T0ObHGficvtw6ugxz050eS5VzWiWDuItP"
+      },
+      "products": [
+        {
+          "_id": "6941da831c508c5d5ecebf08",
+          "name": "Hat81162",
+          "amount": 811,
+          "price": 9858,
+          "manufacturer": "Sony",
+          "notes": "rUD7AT8XCc71rycC4G7uZFsMMVLReuKNqRL1uMvzKPxkVHFYHd86ehnfx65MCum3oBDK4xMOByNLjSUMKWh4rYgWxHd3qGIeM3kbUR8kjgmdk7m84IwJWkaScnyvNK1wgpbzTWvIioifpUonvIzFqyG3ltDk4CNnHdywiE3No33Bc4G8zdUncU3ZY4Qbc0TsW39dd3oxJGua3hzmi8agkzfKAplMRMMhbqJH8w473VbyqvXTBkDUpAtJnR",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 9858,
+      "createdOn": "2025-12-16T22:17:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6941da831c508c5d5ecebefb",
+          "products": [
+            {
+              "_id": "6941da831c508c5d5ecebf08",
+              "name": "Hat81162",
+              "amount": 811,
+              "price": 9858,
+              "manufacturer": "Sony",
+              "notes": "rUD7AT8XCc71rycC4G7uZFsMMVLReuKNqRL1uMvzKPxkVHFYHd86ehnfx65MCum3oBDK4xMOByNLjSUMKWh4rYgWxHd3qGIeM3kbUR8kjgmdk7m84IwJWkaScnyvNK1wgpbzTWvIioifpUonvIzFqyG3ltDk4CNnHdywiE3No33Bc4G8zdUncU3ZY4Qbc0TsW39dd3oxJGua3hzmi8agkzfKAplMRMMhbqJH8w473VbyqvXTBkDUpAtJnR",
+              "received": false
+            }
+          ],
+          "total_price": 9858,
+          "delivery": null,
+          "changedOn": "2025-12-16T22:17:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 22:16:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-7Avpb66DDvqtiH51StZj/qhy+cc\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Anne_Lueilwitz@gmail.com",
+      "name": "Sarina Danial",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 698,
+      "flat": 1542,
+      "phone": "+7259211119",
+      "createdOn": "2025-12-16T22:16:50.000Z",
+      "notes": "o3Ia0tA2HZHfhPuTITnZsi5TMXoR0YN0t3keGMjq0yRmBcfCrBOybUwZDEvBGZwO6M8Zi2QtGim7LnDScXS9LFV8t7AZg4AfhY4kxx4iYqbvFIdRlzwCRAJMxj1UDiKqgeUiLfYf0Ap14DMEsMsXxARilksP0g0wmELMElYP2lqC8jQFh2xuUAdkbsv5AikTnJ5ZHK5lflgKkoUsIRI4ozXnCbr2j9qIxC9Vmy5Cz1IIUbVZlWFs77dhxz",
+      "_id": "6941da521c508c5d5ecea5e1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

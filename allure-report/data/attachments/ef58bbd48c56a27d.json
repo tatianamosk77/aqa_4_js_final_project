@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 22:17:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "537",
+    "etag": "W/\"219-jNitG4ybm0NZhcPp7h9Z+pLhh6w\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Madge83@gmail.com",
+      "name": "Dejah Erna",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 526,
+      "flat": 1090,
+      "phone": "+5128518165",
+      "createdOn": "2025-12-16T22:17:24.000Z",
+      "notes": "Z0aIWAz7IJPNlJyh0V9zZNljYjJKA9ugKDQGXSWDr0yEsixBhSRgipUyYrM3ZxhAE5LU4Ve7XW9O2vrqVxoRwJHNLaC6d1zOukxFSDAJb8fO8TZBWDcqUsMzIUjRtleExpGxQ3ejGy3y8rLVkiZyakoR3vPGRFHsFBGMvnfVTbgBGwBC7l3QKL3iZsM4G0RazOac6MLIpsrOIxaJdNTdIu9PwTqF8WOtq3HLn8S1Gh1TQT3J2JZvMrDv1k",
+      "_id": "6941da741c508c5d5eceb728"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 22:16:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-IzhXluDfdgy3/rLiBezc2cxgN+4\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Craig.Kovacek@hotmail.com",
+      "name": "Lola Evalyn",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 376,
+      "flat": 1,
+      "phone": "+0207454814",
+      "createdOn": "2025-12-16T22:16:27.000Z",
+      "notes": "V0UTFjFRDUwgCxouRcBg3dGnX4RnOego0hrSbvItJ3vPI26UcqDh69EykNtTx8139qpBVfGcdpylYFMmZL4nV2X8McbSAMQVhdfG3eW1krz8Pm68yFhBkLfkK2hbTWs7yvmY8piyKgW3T9l1ZxdEHEYZebvvicdMzBuGTdmYEPkvOx1tcSnM3VJdzQkvSPqh5EyNf9E3tbTC9m5w4crlD0LCKG5lnCOaCSL1jlQ9pLriilwoTeQPgXn7M4",
+      "_id": "6941da3b1c508c5d5ece9aba"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

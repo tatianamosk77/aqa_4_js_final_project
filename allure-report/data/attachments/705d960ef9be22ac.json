@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 22:16:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "277",
+    "etag": "W/\"115-CJI2fg7pS21vL6Rx2dbroICTj/4\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Taylor22@yahoo.com",
+      "name": "Raul Cole",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 131,
+      "flat": 4281,
+      "phone": "+9207046743",
+      "createdOn": "2025-12-16T22:16:32.000Z",
+      "_id": "6941da401c508c5d5ece9d46"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
