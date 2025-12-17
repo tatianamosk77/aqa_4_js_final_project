@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 22:16:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "553",
+    "etag": "W/\"229-XzKtEZC1gWDbX3zUqp5IrvkMERs\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "London_Olson@hotmail.com",
+      "name": "Katelin Elmo",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 832,
+      "flat": 2478,
+      "phone": "+0552731002",
+      "createdOn": "2025-12-17T22:16:24.000Z",
+      "notes": "B31YLK8KexvjWSjZLvGwWL1aI7QbrJ9lV5NcoTb6f60O3elR84bhJpTMSE5Gv4uyEv61hHIhQ9D970VBpgYfuAU9ZQdd8iSlgFEOglaw0nuH2TGDnbfDJ3TW75Lz7xXMNOl758CqC4rX4l1S1GzKZDvhcEFvqPX6Lj33EpaJ4ojwtL52Y0xz31MRQBfSwBjrxr2JfpEokqz9JfQP6BR3f0HVyYmZopn1PimrOD7Xf6OQNOLsfR8IW3SAay",
+      "_id": "69432bb81c508c5d5ed279c1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

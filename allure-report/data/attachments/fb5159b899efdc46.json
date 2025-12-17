@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 22:16:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "551",
+    "etag": "W/\"227-5slYOBlMJpuUidedGaSJTtT7lJY\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Cleora.Prohaska5@hotmail.com",
+      "name": "Test Customer",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 521,
+      "flat": 8937,
+      "phone": "+5518110020",
+      "createdOn": "2025-12-17T22:16:00.000Z",
+      "notes": "KlBA3oywDU4HnSWZQJz2cXBijRmj9ZIBrXSheTE9ZcCbh6LCKQOKZiycLoDMWvzLu9X2bWcFyOdzlA849YN1cJfLclHA8SgOvvkQbvYvVx7kziXUcB83UmwlWZtE45HemVFM3faZn1u17pll25mbwxcq2XPoroUQ1Br8z9RcvfmQRFvz4OSKJ6fJvdWD6NzVRBCUE2tQW4iPGCcHJyI9nKKBAZgt8KTgGrujPeaClpZuFfryJ9VHup0yM5",
+      "_id": "69432ba01c508c5d5ed27280"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

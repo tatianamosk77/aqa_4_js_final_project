@@ -1,0 +1,161 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 22:16:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4158",
+    "etag": "W/\"103e-H4++C3pFLCce/FE4NMVYVHdj+PQ\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69432bbf1c508c5d5ed27d15",
+      "status": "Draft",
+      "customer": {
+        "_id": "69432bc11c508c5d5ed27e3e",
+        "email": "Matilde_Kovacek@gmail.com",
+        "name": "Heloise Vincenza",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 422,
+        "flat": 1476,
+        "phone": "+7285847937",
+        "createdOn": "2025-12-17T22:16:33.000Z",
+        "notes": "zVyxwTnsNj1AdaaXLRg8GMJDZF4Ya8NYww6NMc8Nfv5hc4xXehJ0BgTkFzdeqLw8uyWaDWmiRR3Nfh7LzCXkogyNYD0OD7h2hmxATe5ZFgCosl405ySxR8d7kSyymflMafb8xBhCcUHs025GNlKfFM1WaxTuNAwK9DSBQIlm7Xet0nLIZATQ2RgnNj0tnXm12KxtuEHEOnISiM5Ec9IlpETaJnE7wWlzSJbpYRcSypjCfJm2QQERzAtkhg"
+      },
+      "products": [
+        {
+          "_id": "69432bc11c508c5d5ed27e40",
+          "name": "Shirt71921",
+          "amount": 370,
+          "price": 32292,
+          "manufacturer": "Google",
+          "notes": "5XDd7zAqowEjA9OOkxzq28zszyk3lYhB5hKQTD9z1FLLJkdpM1L9cv0BBkBCDf96NjmQuqjJBKnUQHHPVgEvhSJTCyf1lT726Zgg2vu7ru3YQlXCaMYN228J2VJc9dRGwdXpYHT15eLR81cYhM8b12VWQgaSIBPxvkMQWUqGwQZjlUOC2LcKanAmLjplxM0iT7bbczUioMDhhRaat8XXJCkjqZMkzdCsXFue2j1Fd0EFuHzP6OgnejkbTc",
+          "received": false
+        },
+        {
+          "_id": "69432bc11c508c5d5ed27e72",
+          "name": "Ball28499",
+          "amount": 971,
+          "price": 24285,
+          "manufacturer": "Apple",
+          "notes": "8YFA8aS5pTVMH8R678tSUvIpt67FQdHNuSEdAj9pPOG6UKrh3uXGrLTHpvlm04dvq6XClOYpS2879o305Vfh7OMMMmkWjJM9FDW7QxKyMCvSJt9JeK28v7VqGZbOJNI7zQaVal4XRpD6hXWExVGbXEGrJ1fvcCZKsKEIlo11swsfb7x56t0APsb6a3n51FgQI0AWFoknqUD3DRPoM0HxNDQNMaHZyPquAXvkOdedKzNz8LlqBZGetVDsQx",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 56577,
+      "createdOn": "2025-12-17T22:16:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69432bc11c508c5d5ed27e3e",
+          "products": [
+            {
+              "_id": "69432bbe1c508c5d5ed27ced",
+              "name": "Towels92136",
+              "amount": 229,
+              "price": 1495,
+              "manufacturer": "Samsung",
+              "notes": "xggFnylW9YpR9cg9Lbvhx2aIisBACrYkHNZhO096LtDNgZwQgcv98Vb8l4rG4iXrTOgm9VNlqSTbNyNAabRFCLm51nPkuBQeUlKTu8iNcuSO2bYZfuPr6rWfTHYwS61oPbwCkeQHzq37xe8D9Xk5ZPDn3hl3CqR4Cu2PcKIoPnbJJmxAy49XWB3hZen5wO1mqzR9aIzTgUG0q0UghKImkXL2XIy0SUUnaCMVUYHlIqdNja0rEk7q3XiNEs",
+              "received": false
+            }
+          ],
+          "total_price": 56577,
+          "delivery": null,
+          "changedOn": "2025-12-17T22:16:34.000Z",
+          "action": "Customer changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69432bbd1c508c5d5ed27bc8",
+          "products": [
+            {
+              "_id": "69432bc11c508c5d5ed27e40",
+              "name": "Shirt71921",
+              "amount": 370,
+              "price": 32292,
+              "manufacturer": "Google",
+              "notes": "5XDd7zAqowEjA9OOkxzq28zszyk3lYhB5hKQTD9z1FLLJkdpM1L9cv0BBkBCDf96NjmQuqjJBKnUQHHPVgEvhSJTCyf1lT726Zgg2vu7ru3YQlXCaMYN228J2VJc9dRGwdXpYHT15eLR81cYhM8b12VWQgaSIBPxvkMQWUqGwQZjlUOC2LcKanAmLjplxM0iT7bbczUioMDhhRaat8XXJCkjqZMkzdCsXFue2j1Fd0EFuHzP6OgnejkbTc",
+              "received": false
+            },
+            {
+              "_id": "69432bc11c508c5d5ed27e72",
+              "name": "Ball28499",
+              "amount": 971,
+              "price": 24285,
+              "manufacturer": "Apple",
+              "notes": "8YFA8aS5pTVMH8R678tSUvIpt67FQdHNuSEdAj9pPOG6UKrh3uXGrLTHpvlm04dvq6XClOYpS2879o305Vfh7OMMMmkWjJM9FDW7QxKyMCvSJt9JeK28v7VqGZbOJNI7zQaVal4XRpD6hXWExVGbXEGrJ1fvcCZKsKEIlo11swsfb7x56t0APsb6a3n51FgQI0AWFoknqUD3DRPoM0HxNDQNMaHZyPquAXvkOdedKzNz8LlqBZGetVDsQx",
+              "received": false
+            }
+          ],
+          "total_price": 56577,
+          "delivery": null,
+          "changedOn": "2025-12-17T22:16:34.000Z",
+          "action": "Requested products changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69432bbd1c508c5d5ed27bc8",
+          "products": [
+            {
+              "_id": "69432bbe1c508c5d5ed27ced",
+              "name": "Towels92136",
+              "amount": 229,
+              "price": 1495,
+              "manufacturer": "Samsung",
+              "notes": "xggFnylW9YpR9cg9Lbvhx2aIisBACrYkHNZhO096LtDNgZwQgcv98Vb8l4rG4iXrTOgm9VNlqSTbNyNAabRFCLm51nPkuBQeUlKTu8iNcuSO2bYZfuPr6rWfTHYwS61oPbwCkeQHzq37xe8D9Xk5ZPDn3hl3CqR4Cu2PcKIoPnbJJmxAy49XWB3hZen5wO1mqzR9aIzTgUG0q0UghKImkXL2XIy0SUUnaCMVUYHlIqdNja0rEk7q3XiNEs",
+              "received": false
+            }
+          ],
+          "total_price": 1495,
+          "delivery": null,
+          "changedOn": "2025-12-17T22:16:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

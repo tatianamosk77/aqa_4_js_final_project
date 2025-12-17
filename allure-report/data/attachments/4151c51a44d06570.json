@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 22:16:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "534",
+    "etag": "W/\"216-H4qhCChRiPFQKdot4yaCmNTlUU0\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Glen.DAmore@yahoo.com",
+      "name": "Ava Dee",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 96,
+      "flat": 4538,
+      "phone": "+6216845600",
+      "createdOn": "2025-12-17T22:16:15.000Z",
+      "notes": "iEfpDvUG0WbhlHOcgJrNYEq3NU5Wgvm7ntuVjBI52LUnhE5gzLJTwTPtUNWVMkw8UwH5upqeHc7IYSM01ydY9dw76bHhpUzxRTjQF3b5msw6icNYnsYD1riUXgGM62xbBvUsri4ZmzqDrCZo5fSAvSjtdbdfiBRzZ6uRoKxVx3tLn2v3deCOak2RzVJT4FrJWfjhVLrbdgww8vvXQcP1TaZx68OxDFJib05NJqmlSALxvWX8E7t7RVMkH9",
+      "_id": "69432baf1c508c5d5ed276e0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

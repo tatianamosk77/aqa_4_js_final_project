@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 22:16:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1866",
+    "etag": "W/\"74a-Qa9K0ZcgVjZCdVtKygQxZO5jF3c\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69432bb21c508c5d5ed27819",
+        "email": "Catalina5@gmail.com",
+        "name": "Rico Victor",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 264,
+        "flat": 6219,
+        "phone": "+3104018815",
+        "createdOn": "2025-12-17T22:16:18.000Z",
+        "notes": "iYpVpLgbP2VaiSN8Is9yX58v2PYbV04wLGwjjy3SGNpfJEPEtjsf5oT0is7dagZzmcVi1rcNzs4nPsgZoQboNCk6zrwshxNftXBXg2sSRj2KNfyDyzgleWq6EdCkbp5xfunc8wXMdQQ1Ux9x7keWL1XufrwM0kfpDkoKjbz7eKd7v10OGbAcJ9bL0SE7cWK84Qmfw0U1N3wUUi4f4qRd9ccNGrh7Xzmc5NtoloiuFawOHKTIbZBsNDRvsr"
+      },
+      "products": [
+        {
+          "_id": "69432bb21c508c5d5ed2781f",
+          "name": "Pizza50287",
+          "amount": 581,
+          "price": 4282,
+          "manufacturer": "Google",
+          "notes": "c0Qmxl0nS14QxbGhbVMnm2XxTJXCAUXXjeMEGA1l5qR1XmVOxNGhn8ZmrPF0krlwhokAnDWR5bBi6hMekdNKGz2ntreBnNBsdWW8kaWeaM2undyFEb8i15tKj5Kbu3nYrmwIvrxhXtr0o5g3uxmTe0oHDyQlMRmWjjd3y5AHNkvTfHf25XRWM7T8WqZ2Jtgof9tfX1kwKzeF3fWi3uiOBzdH42SG6FZ0F2tH8pIJgwRST8NPHLBsnwp0kU",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 4282,
+      "createdOn": "2025-12-17T22:16:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69432bb21c508c5d5ed27819",
+          "products": [
+            {
+              "_id": "69432bb21c508c5d5ed2781f",
+              "name": "Pizza50287",
+              "amount": 581,
+              "price": 4282,
+              "manufacturer": "Google",
+              "notes": "c0Qmxl0nS14QxbGhbVMnm2XxTJXCAUXXjeMEGA1l5qR1XmVOxNGhn8ZmrPF0krlwhokAnDWR5bBi6hMekdNKGz2ntreBnNBsdWW8kaWeaM2undyFEb8i15tKj5Kbu3nYrmwIvrxhXtr0o5g3uxmTe0oHDyQlMRmWjjd3y5AHNkvTfHf25XRWM7T8WqZ2Jtgof9tfX1kwKzeF3fWi3uiOBzdH42SG6FZ0F2tH8pIJgwRST8NPHLBsnwp0kU",
+              "received": false
+            }
+          ],
+          "total_price": 4282,
+          "delivery": null,
+          "changedOn": "2025-12-17T22:16:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69432bb21c508c5d5ed2783c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

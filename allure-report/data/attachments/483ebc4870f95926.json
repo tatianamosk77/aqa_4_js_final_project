@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 22:16:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1879",
+    "etag": "W/\"757-mrg9WScVcTAVgmSUfJvBCNXldNs\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69432bb41c508c5d5ed278dd",
+      "status": "Draft",
+      "customer": {
+        "_id": "69432bb31c508c5d5ed278b1",
+        "email": "Natalie33@gmail.com",
+        "name": "Loyce Gussie",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 204,
+        "flat": 6964,
+        "phone": "+0632957582",
+        "createdOn": "2025-12-17T22:16:19.000Z",
+        "notes": "AaFjlXXJCNjujl1t3JvLRhnOonxsAZA5SdvN1Y9ZyBgeAF2iVNkkfXCYnyLd8HFcx9AxaSlSAK9FqwmuVT7hT5emIoniqeGiCwhhEVSOpa4Ou5j3eGxvGgyTzQl6ILe2BxHln2NSEKK50YCNMcpDmJOFF0DIe1FSSXfm8SuBoMbfmVCtFDIlKiVizEOdTBtkbhbsTxoeb5jm0ojTbn1HPxENp6CCVv6w1NcyxqYoiVWYgUdKOYXeXz4Cws"
+      },
+      "products": [
+        {
+          "_id": "69432bb31c508c5d5ed278ae",
+          "name": "Towels22647",
+          "amount": 697,
+          "price": 50330,
+          "manufacturer": "Microsoft",
+          "notes": "b8OqHBJmXrAFMnAG7MrPdZ7QQfnIVfP9sZcYhAUEmUFUNh7Gqf8H3QDurVsuucnLM6yKNfiOx0oJZ1X26M7sGJz8nIwe37V4hcwisDCk4sUsNLF6GJnIZa9t2Mf8IyhOVxChnzUToI8bAdnSv5eQHuS19gvuP4ECmxhJLi9adxOMJOc5R6RZfuwT95zVQ4K9GjdolkeKGJL0si8nZkf1c4Zbbj2fEOG9PwKvfdRI1VNxGM5Fuxt7kukAXT",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 50330,
+      "createdOn": "2025-12-17T22:16:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69432bb31c508c5d5ed278b1",
+          "products": [
+            {
+              "_id": "69432bb31c508c5d5ed278ae",
+              "name": "Towels22647",
+              "amount": 697,
+              "price": 50330,
+              "manufacturer": "Microsoft",
+              "notes": "b8OqHBJmXrAFMnAG7MrPdZ7QQfnIVfP9sZcYhAUEmUFUNh7Gqf8H3QDurVsuucnLM6yKNfiOx0oJZ1X26M7sGJz8nIwe37V4hcwisDCk4sUsNLF6GJnIZa9t2Mf8IyhOVxChnzUToI8bAdnSv5eQHuS19gvuP4ECmxhJLi9adxOMJOc5R6RZfuwT95zVQ4K9GjdolkeKGJL0si8nZkf1c4Zbbj2fEOG9PwKvfdRI1VNxGM5Fuxt7kukAXT",
+              "received": false
+            }
+          ],
+          "total_price": 50330,
+          "delivery": null,
+          "changedOn": "2025-12-17T22:16:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

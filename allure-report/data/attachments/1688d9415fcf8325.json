@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 22:16:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "278",
+    "etag": "W/\"116-1c/zS0vGiPemVPsUeeSOariD9RE\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Gus22@gmail.com",
+      "name": "Hilton Jarvis",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 925,
+      "flat": 1141,
+      "phone": "+6294633373",
+      "createdOn": "2025-12-17T22:16:02.000Z",
+      "_id": "69432ba21c508c5d5ed27339"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

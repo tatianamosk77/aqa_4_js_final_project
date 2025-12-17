@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 22:16:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "551",
+    "etag": "W/\"227-JOzd2dZ/yXLFI93J52J0hRa1aRI\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ramona.Schuppe@gmail.com",
+      "name": "Willy Kyle",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 172,
+      "flat": 5794,
+      "phone": "+1759819075",
+      "createdOn": "2025-12-17T22:16:06.000Z",
+      "notes": "YpTUP1oh1jzCCShlxLMZGPKmtKoeuIIK7VQRPUmzlU02pLDWgcHllM9keEtnqDUZB9ko8as4VCJIlqLRKxDj4c9A5V9JD14Nw2C4cANDimMJO66vOZ7lMlESPBa6dLYcVBkr989t1iSvzbLd69Qz5I14Eoo14UgaXYBh06Wx5xEw2YEFZDaSbcF5l2OqPypMAIW0sWmZg4OMNm4LxqwMGiN2j5YCvSxt2lKK4BpgHgrcZFAqOGCZquUN7d",
+      "_id": "69432ba61c508c5d5ed27422"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

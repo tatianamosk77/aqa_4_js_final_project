@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 22:16:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-84HrAZt0mWj9WsUGRG9Cl4w2JPk\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Chesley79@hotmail.com",
+      "name": "Marcelo Silas",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 1,
+      "flat": 9614,
+      "phone": "+1296576622",
+      "createdOn": "2025-12-17T22:16:02.000Z",
+      "notes": "tNycXbBbVHxX2MWtX1RquXVHFpMRbkqDfLzEY0qnvniC2rc88oTNZR9Jps32l5F2OESKK9bsIxJOfq8c7SfSLmaaDzD3v2VsMNSu1uH89Vo5yAxEeEbevmyh54JoMJ7NSDoptfxKyRF2PBok0E5J4BtrC1aEYZfuZgXktwrBkX2sonR9ODhsFLPOyBKwqukootDmfp5PNZI93vlVyB1PKUGK1ziObVq7ajotgYmuLHscKgDzFrVCPxtEeR",
+      "_id": "69432ba21c508c5d5ed272fd"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

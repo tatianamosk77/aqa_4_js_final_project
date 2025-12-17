@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 22:16:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "551",
+    "etag": "W/\"227-3TKBq39H0uwou3ZCxSVEtVJwaiE\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Cornelius.Swift@hotmail.com",
+      "name": "Dayana Luella",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 129,
+      "flat": 1842,
+      "phone": "+4569351820",
+      "createdOn": "2025-12-17T22:16:27.000Z",
+      "notes": "79OLaTNmwIkFEYmZMOtt6HaGymNiYDoJlrdXOnYmD7V8d3uaVDHRhGPTy8jgmb0Y1H464mSX8ef1KlwYhFNEGKtibZ2WfORwARCFCldf9wKicPwvveioPDiefx8SrBRlvcnqEeqDkW4qw94lvRiK7rEN29hzhQNOi2nxRa0vXX1TGI9tiw6LU2Iuhg0TozLYIoeRUgoTsfsFOc8xS4eRDgelpsKPCkQrsTmSgKywnzlmHZ9yi5Sx5cFUrT",
+      "_id": "69432bbb1c508c5d5ed27b2f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 22:16:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1877",
+    "etag": "W/\"755-fjkD9O7BSoTi36g0TcW6NUvNaU4\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69432bc01c508c5d5ed27e33",
+        "email": "Aurelio_Bailey-Connelly@yahoo.com",
+        "name": "Antwon Darby",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 349,
+        "flat": 5799,
+        "phone": "+5403139121",
+        "createdOn": "2025-12-17T22:16:32.000Z",
+        "notes": "nDmvjOoU10f4kvGHaACtrDlbnssMbsD0YpiQh82ySzlFpwCLBgk3hnWaKKMuoZgyE14cHA2lKQCkVuD6YapQ86UOg2tiFSK52o3V1m5b2OUEhUEx6LrtHYgyLKsJSzjXumwdmQxIBNjKWcEfd0FGHYCx0FOOMgG6Mab2Z7Fykwb5IuuKsbHX3VqTaSF2oos9ebIbHTR0zL9Pj1Vu1ZpQDy00SkVTVuvBc9YB09AuEX14dAAxnN5g2chHGC"
+      },
+      "products": [
+        {
+          "_id": "69432bc01c508c5d5ed27e2e",
+          "name": "Shirt68446",
+          "amount": 432,
+          "price": 38515,
+          "manufacturer": "Sony",
+          "notes": "DJT9HIaT0JBCbpWA5sRiDgFqeiNOhO5iXakCITsRA5DT0A9WzFJ79wptH4cJwJCqciRNpHFTIz75QuO0puu9wZnkANFw58ecKunZcKXLaysLmvxyR6C229Ha8Yto8Hb5tluVyO5KBcCMGzbVIBZ26gxZK5Ru3Cu77UWe4ocrTIB5Z67zJZZqSk9lfgBRLQkOfd2oJWtJjUGEMAqKxSjI5fkJKy7D9Oayfoz39Rfr90tQVVuZvF6qma3yHY",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 38515,
+      "createdOn": "2025-12-17T22:16:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69432bc01c508c5d5ed27e33",
+          "products": [
+            {
+              "_id": "69432bc01c508c5d5ed27e2e",
+              "name": "Shirt68446",
+              "amount": 432,
+              "price": 38515,
+              "manufacturer": "Sony",
+              "notes": "DJT9HIaT0JBCbpWA5sRiDgFqeiNOhO5iXakCITsRA5DT0A9WzFJ79wptH4cJwJCqciRNpHFTIz75QuO0puu9wZnkANFw58ecKunZcKXLaysLmvxyR6C229Ha8Yto8Hb5tluVyO5KBcCMGzbVIBZ26gxZK5Ru3Cu77UWe4ocrTIB5Z67zJZZqSk9lfgBRLQkOfd2oJWtJjUGEMAqKxSjI5fkJKy7D9Oayfoz39Rfr90tQVVuZvF6qma3yHY",
+              "received": false
+            }
+          ],
+          "total_price": 38515,
+          "delivery": null,
+          "changedOn": "2025-12-17T22:16:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69432bc11c508c5d5ed27e7a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

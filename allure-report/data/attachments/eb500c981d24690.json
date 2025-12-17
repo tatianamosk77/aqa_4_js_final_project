@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 22:16:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "688",
+    "etag": "W/\"2b0-zDCvonNSqJTHy7fepsbKQAq8L18\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "69432ba71c508c5d5ed27484",
+        "email": "Audrey_Vandervort@gmail.com",
+        "name": "Cole Angel",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 158,
+        "flat": 6240,
+        "phone": "+5928744896",
+        "createdOn": "2025-12-17T22:16:07.000Z",
+        "notes": "iWxCSj0DtSU0W7KgbzeRr8G8oZeQfSxeB5THNAkqm1xtC0jOhERpEY9Tbo3ZDXHRRM0xbpdMMszsBZ5ZE3wL3pkMkYgkKB9uVWVsa08Z6Xt5IKlamkhIT0mfMi1yZQ0bSvBIvbcXv4PuiKhvwbFtNw1EAJaTbh9RFhUeHBCosq7CWs1mbtpHluubkkOMMAegn8yErUfhG5JoKeUJHfmOO7fJ2wop5CtTANJMfzINsK51jt7sln38CjJiHb"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Audrey_Vandervort@gmail.com",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

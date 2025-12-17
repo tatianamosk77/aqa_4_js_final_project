@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 22:16:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1972",
+    "etag": "W/\"7b4-mpn3WEPtIBz1oqkG6CguUzouk44\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69432bb31c508c5d5ed2788c",
+      "status": "Draft",
+      "customer": {
+        "_id": "69432bb31c508c5d5ed27872",
+        "email": "Israel_Pagac@hotmail.com",
+        "name": "Abby Mafalda",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 980,
+        "flat": 7484,
+        "phone": "+6917871911",
+        "createdOn": "2025-12-17T22:16:19.000Z",
+        "notes": "iKHvZdZzUTQoRaXNd1xv8zOLvu1lt6VgiC7bHoDDtfWOO5t0yAUL7KFC3snMx3NueNBPhaQpEpGIOLaCMIqZsqqTLdvF0Fzsh7ivnWB1OzyhPq2VfnRwLhOnA9EHi8ro0MhJO6FmUToZMM2z9nHJXqIPojoZdds6Jqb0OvusWYXHY3UnestgBVOx0hLPTSy6RJXcUJ707zPSPB9RcLt7UMPbcs0WIhsGBJ7NnozDND4PIMsKpOydYL2Gj0"
+      },
+      "products": [
+        {
+          "_id": "69432bb31c508c5d5ed27874",
+          "name": "Chair18390",
+          "amount": 478,
+          "price": 78889,
+          "manufacturer": "Apple",
+          "notes": "onL0dBCCEaLEIeuaVZqkMhUwRS4P4Xl7M8DTRRGoi4oyZuOyWuDJLsciZHmVEy2JcAlX1Udg4AxthlwF9kh4ZoN8VPcIE4l8CiT8PWGvTCsgFhAwYoYH3FIyyZNTJNx5uHo7yZWMf5lkHeuTNxBQuLSllPCGLyQeVmR3VfJB4LIPx7NFEN4LEYpbHFJjNA0SyDA3FwrsMuNuPiDGYlmxma4yFdxQZcFAJTlWxWzXXUfByxQLBdh6x507xr",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 78889,
+      "createdOn": "2025-12-17T22:16:19.000Z",
+      "comments": [
+        {
+          "text": "autotest comment",
+          "createdOn": "2025-12-17T22:16:19.000Z",
+          "_id": "69432bb31c508c5d5ed278b8"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69432bb31c508c5d5ed27872",
+          "products": [
+            {
+              "_id": "69432bb31c508c5d5ed27874",
+              "name": "Chair18390",
+              "amount": 478,
+              "price": 78889,
+              "manufacturer": "Apple",
+              "notes": "onL0dBCCEaLEIeuaVZqkMhUwRS4P4Xl7M8DTRRGoi4oyZuOyWuDJLsciZHmVEy2JcAlX1Udg4AxthlwF9kh4ZoN8VPcIE4l8CiT8PWGvTCsgFhAwYoYH3FIyyZNTJNx5uHo7yZWMf5lkHeuTNxBQuLSllPCGLyQeVmR3VfJB4LIPx7NFEN4LEYpbHFJjNA0SyDA3FwrsMuNuPiDGYlmxma4yFdxQZcFAJTlWxWzXXUfByxQLBdh6x507xr",
+              "received": false
+            }
+          ],
+          "total_price": 78889,
+          "delivery": null,
+          "changedOn": "2025-12-17T22:16:19.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

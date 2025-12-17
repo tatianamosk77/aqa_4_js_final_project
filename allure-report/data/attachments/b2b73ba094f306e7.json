@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 22:16:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-2sRBv7cv/PtlImLqSaJBRbd44YI\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jeramie83@gmail.com",
+      "name": "Roger Cristian",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 577,
+      "flat": 1830,
+      "phone": "+6422997579",
+      "createdOn": "2025-12-17T22:16:06.000Z",
+      "notes": "BX21i1fvSs5mblmskOU0UtMb4QU4Vh3NWoYTslZEr7Y79dcZ60fqtrxGCmkeDkVg3khs0A5yqWqhIedUZrnaUfkthmgPV7waV6JDygN5yzh7aBeiRlXapKOPCER0hUj6TEGfvxABLRS4caJRCufjE5hcFck7GcQO9fuipo9WZvCuWQ4jERFhtvEs4pfIUz1C46O2NBOKX4u7O5ZRbW1ItrQnr6JoqMR9n4TxmR3r95q2ZEpRXporDjz020",
+      "_id": "69432ba61c508c5d5ed27405"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

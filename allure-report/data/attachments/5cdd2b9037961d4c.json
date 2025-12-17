@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 22:16:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "299",
+    "etag": "W/\"12b-C6nLq7BKZi0VdF1wvbUHaEA+sxs\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Javonte_Gibson@gmail.com",
+      "name": "Mittie Katheryn",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 913,
+      "flat": 1713,
+      "phone": "+6806451221",
+      "createdOn": "2025-12-17T22:16:02.000Z",
+      "notes": "",
+      "_id": "69432ba21c508c5d5ed27344"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
