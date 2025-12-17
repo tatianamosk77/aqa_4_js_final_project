@@ -18,6 +18,16 @@ import { LoginUIService } from "ui/service/login.ui-service";
 import { ProductsListUIService } from "ui/service/productsList.ui-service";
 import { EditCustomerUIService } from "ui/service/editCustomer.ui-service";
 import { CustomerDetailsPage } from "ui/pages/customers";
+import {
+  CommentsTab,
+  CustomerDetailsSection,
+  DeliveryTab,
+  HistoryTab,
+  OrderDetailsPage,
+  OrdersListPage,
+  RequestedProductsSection,
+  ScheduleDeliveryPage,
+} from "ui/pages/orders";
 
 export interface IPages {
   //pages
@@ -28,6 +38,15 @@ export interface IPages {
   addNewProductPage: AddNewProductPage;
   addNewCustomerPage: AddNewCustomerPage;
   customerDetailsPage: CustomerDetailsPage;
+
+  ordersListPage: OrdersListPage;
+  commentsTab: CommentsTab;
+  customerDetailsSection: CustomerDetailsSection;
+  requestedProductsSection: RequestedProductsSection;
+  deliveryTab: DeliveryTab;
+  historyTab: HistoryTab;
+  orderDetailsPage: OrderDetailsPage;
+  scheduleDeliveryPage: ScheduleDeliveryPage;
 
   //ui-services
   homeUIService: HomeUIService;
@@ -63,6 +82,30 @@ export const test = base.extend<IPages>({
   },
   customerDetailsPage: async ({ page }, use) => {
     await use(new CustomerDetailsPage(page));
+  },
+  ordersListPage: async ({ page }, use) => {
+    await use(new OrdersListPage(page));
+  },
+  commentsTab: async ({ page }, use) => {
+    await use(new CommentsTab(page));
+  },
+  customerDetailsSection: async ({ page }, use) => {
+    await use(new CustomerDetailsSection(page));
+  },
+  requestedProductsSection: async ({ page }, use) => {
+    await use(new RequestedProductsSection(page));
+  },
+  deliveryTab: async ({ page }, use) => {
+    await use(new DeliveryTab(page));
+  },
+  historyTab: async ({ page }, use) => {
+    await use(new HistoryTab(page));
+  },
+  orderDetailsPage: async ({ page }, use) => {
+    await use(new OrderDetailsPage(page));
+  },
+  scheduleDeliveryPage: async ({ page }, use) => {
+    await use(new ScheduleDeliveryPage(page));
   },
 
   //ui-services
