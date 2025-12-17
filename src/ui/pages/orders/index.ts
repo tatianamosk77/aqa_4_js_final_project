@@ -1,3 +1,4 @@
+import { AddNewOrderModal } from "./addNewOrder.modal";
 import { CommentsTab } from "./comments.tab";
 import { CustomerDetailsSection } from "./customerDetails.section";
 import { DeliveryTab } from "./delivery.tab";
@@ -8,6 +9,7 @@ import { RequestedProductsSection } from "./requestedProducts.section";
 import { ScheduleDeliveryPage } from "./scheduleDelivery.page";
 
 export {
+  AddNewOrderModal,
   OrdersListPage,
   OrderDetailsPage,
   CommentsTab,

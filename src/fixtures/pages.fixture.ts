@@ -19,6 +19,7 @@ import { ProductsListUIService } from "ui/service/productsList.ui-service";
 import { EditCustomerUIService } from "ui/service/editCustomer.ui-service";
 import { CustomerDetailsPage } from "ui/pages/customers";
 import {
+  AddNewOrderModal,
   CommentsTab,
   CustomerDetailsSection,
   DeliveryTab,
@@ -28,6 +29,9 @@ import {
   RequestedProductsSection,
   ScheduleDeliveryPage,
 } from "ui/pages/orders";
+import { OrdersListUIService } from "ui/service/ordersList.ui-service";
+import { AddNewOrderUIService } from "ui/service/addNewOrder.ui-service";
+import { EditOrderUIService } from "ui/service/editOrder.ui-service";
 
 export interface IPages {
   //pages
@@ -47,6 +51,7 @@ export interface IPages {
   historyTab: HistoryTab;
   orderDetailsPage: OrderDetailsPage;
   scheduleDeliveryPage: ScheduleDeliveryPage;
+  addNewOrderModal: AddNewOrderModal;
 
   //ui-services
   homeUIService: HomeUIService;
@@ -57,6 +62,10 @@ export interface IPages {
   loginUIService: LoginUIService;
   editCustomerUIService: EditCustomerUIService;
   editUIService: EditProductUIService;
+
+  ordersListUIService: OrdersListUIService;
+  addNewOrderUIService: AddNewOrderUIService;
+  editOrderUIService: EditOrderUIService;
 }
 
 export const test = base.extend<IPages>({
@@ -139,6 +148,16 @@ export const test = base.extend<IPages>({
   },
   editUIService: async ({ page }, use) => {
     await use(new EditProductUIService(page));
+  },
+
+  ordersListUIService: async ({ ordersListPage, addNewOrderModal, orderDetailsPage }, use) => {
+    await use(new OrdersListUIService(ordersListPage, addNewOrderModal, orderDetailsPage));
+  },
+  addNewOrderUIService: async ({ page }, use) => {
+    await use(new AddNewOrderUIService(page));
+  },
+  editOrderUIService: async ({ page }, use) => {
+    await use(new EditOrderUIService(page));
   },
 });
 export { expect };
