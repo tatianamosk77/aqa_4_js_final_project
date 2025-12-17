@@ -30,11 +30,6 @@ export class OrderDetailsPage extends SalesPortalPage {
   readonly editProductButton = this.productSection.locator("#edit-products-pencil");
   readonly productData = this.productSection.locator("#products-accordion-section");
 
-  readonly orderDetailsTabSection = this.page.locator("#order-details-tabs-section");
-  readonly commentsTab = this.orderDetailsTabSection.locator("#comments-tab");
-  readonly historyTab = this.orderDetailsTabSection.locator("#history-tab");
-  readonly deliveryTab = this.orderDetailsTabSection.locator("#delivery-tab");
-
   readonly uniqueElement = this.title;
 
   // @logStep("Fill in product form to update")
