@@ -116,6 +116,9 @@ export const test = base.extend<IPages>({
   scheduleDeliveryPage: async ({ page }, use) => {
     await use(new ScheduleDeliveryPage(page));
   },
+  addNewOrderModal: async ({ page }, use) => {
+    await use(new AddNewOrderModal(page));
+  },
 
   //ui-services
   homeUIService: async ({ page }, use) => {
