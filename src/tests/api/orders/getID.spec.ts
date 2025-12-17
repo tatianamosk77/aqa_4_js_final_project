@@ -43,7 +43,7 @@ test.describe("[API] [Sales Portal] [Orders] [Get by ID]", () => {
         token
       );
 
-      orderId = order._id; 
+      orderId = order._id;
 
       const response = await ordersController.getByID(order._id, token);
 
@@ -107,7 +107,7 @@ test.describe("[API] [Sales Portal] [Orders] [Get by ID]", () => {
         token
       );
 
-      orderId = order._id; 
+      orderId = order._id;
 
       const response = await ordersController.getByID(order._id, "Invalid access token");
 
@@ -140,7 +140,7 @@ test.describe("[API] [Sales Portal] [Orders] [Get by ID]", () => {
         token
       );
 
-      orderId = order._id; 
+      orderId = order._id;
 
       const response = await ordersController.getByID(order._id, "");
 

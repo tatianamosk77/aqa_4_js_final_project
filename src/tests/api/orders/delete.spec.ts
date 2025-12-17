@@ -38,7 +38,7 @@ test.describe("[API] [Sales Portal] [Orders] [Delete]", () => {
         token
       );
 
-      orderId = createdOrder._id; 
+      orderId = createdOrder._id;
 
       const deleteResponse = await ordersController.delete(orderId, token);
       validateResponse(deleteResponse, { status: STATUS_CODES.DELETED });
@@ -51,7 +51,7 @@ test.describe("[API] [Sales Portal] [Orders] [Delete]", () => {
         ErrorMessage: `Order with id '${orderId}' wasn't found`,
       });
 
-      orderId = null; 
+      orderId = null;
     }
   );
 
@@ -149,7 +149,7 @@ test.describe("[API] [Sales Portal] [Orders] [Delete]", () => {
         ErrorMessage: null,
       });
 
-      orderId = createResponse.body!.Order._id; 
+      orderId = createResponse.body!.Order._id;
       expect(orderId).toBeTruthy();
     }
   );
