@@ -1,11 +1,17 @@
 import { Locator } from "@playwright/test";
 import { SalesPortalPage } from "../sales-portal.page";
+import { logStep } from "utils/report/logStep.utils";
 
 export class CustomerDetailsSection extends SalesPortalPage {
   readonly uniqueElement = this.page.locator("#customer-section");
 
   readonly dataContainer = this.uniqueElement.locator(".p-3");
   readonly editCustomerButton = this.uniqueElement.locator("#edit-customer-pencil");
+
+  @logStep("Click edit customer button in the order")
+  async clickEditCustomer() {
+    await this.editCustomerButton.click();
+  }
 
   async getAllCustomerDetails(): Promise<Record<string, string>> {
     const customerInfo: Record<string, string> = {};
