@@ -126,7 +126,7 @@ export class AddNewOrderModal extends SalesPortalPage {
   @logStep("Get selected customer name")
   async getSelectedCustomer(): Promise<string> {
     const selectedValue = await this.customerDropdown.inputValue();
-    const selectedOption = this.customerItems.filter({ value: selectedValue });
+    const selectedOption = this.customerItems.locator(`option[value="${selectedValue}"]`);
 
     if ((await selectedOption.count()) > 0) {
       const text = await selectedOption.innerText();
