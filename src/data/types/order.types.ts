@@ -187,3 +187,5 @@ export interface IOrderInTable {
   assignedManager: string;
   createdOn: string;
 }
+
+export interface IOrderDetails extends Required<IOrder>, ICreatedOn {}

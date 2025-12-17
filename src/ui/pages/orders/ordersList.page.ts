@@ -114,7 +114,7 @@ export class OrdersListPage extends SalesPortalPage {
   }
 
   @logStep("Open orders-page")
-  async open() {
-    await this.page.goto(SALES_PORTAL_URL + "orders");
+  async open(text: string) {
+    await this.page.goto(SALES_PORTAL_URL + text);
   }
 }
