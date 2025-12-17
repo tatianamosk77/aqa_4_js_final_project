@@ -26,7 +26,7 @@ export class EditCustomerModal extends SalesPortalPage {
   async clickEdit() {
     await this.saveButton.click();
   }
-  @logStep("Click customer on AddNewOrderModal")
+  @logStep("Click customer on EditCustomerModal")
   async clickCustomerDropdown() {
     await this.inputCustomerOrder.click();
   }
