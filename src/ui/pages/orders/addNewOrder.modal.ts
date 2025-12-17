@@ -11,9 +11,11 @@ export class AddNewOrderModal extends SalesPortalPage {
 
   readonly customerDropdown = this.uniqueElement.locator("#inputCustomerOrder");
   readonly customerItems = this.customerDropdown.locator("option");
+
   readonly productDropdown = this.uniqueElement.locator('[name="Product"]');
   readonly productItems = this.productDropdown.locator("option");
   readonly productContainers = this.uniqueElement.locator("#products-section");
+  readonly productRows = this.productContainers.locator("[data-id]");
 
   readonly productNameInContainer = (productName: string) =>
     this.productContainers.filter({ hasText: productName });
@@ -67,13 +69,43 @@ export class AddNewOrderModal extends SalesPortalPage {
     await deleteButton.click();
   }
 
+  @logStep("Select customer by index or name")
+  async selectCustomer(indexOrName: number | string): Promise<string> {
+    if (typeof indexOrName === "number") {
+      return await this.selectCustomerByIndex(indexOrName);
+    } else {
+      return await this.selectCustomerByName(indexOrName);
+    }
+  }
+
+  @logStep("Select customer by index")
+  async selectCustomerByIndex(index: number): Promise<string> {
+    await this.customerDropdown.waitFor({ state: "visible" });
+
+    const options = await this.customerItems.all();
+    if (index < 0 || index >= options.length) {
+      throw new Error(`Customer index ${index} is out of bounds`);
+    }
+
+    const optionText = await options[index]!.innerText();
+    const customerName = this.extractName(optionText);
+
+    await this.customerDropdown.selectOption({ index });
+    return customerName;
+  }
+
+  @logStep("Select customer by name")
+  async selectCustomerByName(customerName: string): Promise<string> {
+    await this.customerDropdown.waitFor({ state: "visible" });
+    await this.customerDropdown.selectOption({ label: customerName });
+    return customerName;
+  }
+
   @logStep("Select random customer")
   async selectRandomCustomer(): Promise<string> {
     await this.customerDropdown.waitFor({ state: "visible" });
-    await this.clickCustomerDropdown();
 
     const customerElements = await this.customerItems.all();
-
     if (customerElements.length === 0) {
       throw new Error("No customers found in the list");
     }
@@ -88,8 +120,94 @@ export class AddNewOrderModal extends SalesPortalPage {
     const customerName = this.extractName(customerText);
 
     await chosenCustomer?.click();
-
     return customerName;
+  }
+
+  @logStep("Get selected customer name")
+  async getSelectedCustomer(): Promise<string> {
+    const selectedValue = await this.customerDropdown.inputValue();
+    const selectedOption = this.customerItems.filter({ value: selectedValue });
+
+    if ((await selectedOption.count()) > 0) {
+      const text = await selectedOption.innerText();
+      return this.extractName(text);
+    }
+
+    return "";
+  }
+
+  productContainerBy(indexOrName: number | string) {
+    if (typeof indexOrName === "number") {
+      return this.productRows.nth(indexOrName);
+    } else {
+      return this.productContainers.filter({ hasText: indexOrName });
+    }
+  }
+
+  deleteButtonBy(indexOrName: number | string) {
+    const container = this.productContainerBy(indexOrName);
+    return container.locator('[title="Delete"]');
+  }
+
+  productDropdownBy(indexOrName: number | string) {
+    if (typeof indexOrName === "number") {
+      return this.productDropdown.nth(indexOrName);
+    } else {
+      const container = this.productContainerBy(indexOrName);
+      return container.locator('[name="Product"]');
+    }
+  }
+
+  @logStep("Select product by position and product name/index")
+  async selectProduct(
+    position: number | string,
+    productToSelect: string | number
+  ): Promise<string> {
+    const dropdown = this.productDropdownBy(position);
+    await dropdown.click();
+
+    if (typeof productToSelect === "number") {
+      const options = await dropdown.locator("option").all();
+      if (productToSelect >= 0 && productToSelect < options.length) {
+        await options[productToSelect]!.click();
+        const selectedText = await options[productToSelect]!.innerText();
+        return this.extractName(selectedText);
+      }
+      throw new Error(`Product index ${productToSelect} is out of bounds`);
+    } else {
+      await dropdown.selectOption({ label: productToSelect });
+      return productToSelect;
+    }
+  }
+
+  @logStep("Select random product for specific position")
+  async selectRandomProductFor(position: number | string = 0): Promise<string> {
+    const dropdown = this.productDropdownBy(position);
+    await dropdown.waitFor({ state: "visible" });
+
+    const productElements = await dropdown.locator("option").all();
+    if (productElements.length === 0) {
+      throw new Error("No products found in the list");
+    }
+
+    const randomIndex = Math.floor(Math.random() * productElements.length);
+    const chosenProduct = productElements[randomIndex];
+
+    const productText = await chosenProduct?.innerText();
+    if (!productText) {
+      throw new Error("Product element has no text");
+    }
+    const productName = this.extractName(productText);
+
+    await chosenProduct?.click();
+    return productName;
+  }
+
+  @logStep("Get current product name by position")
+  async getProductName(position: number | string): Promise<string> {
+    const container = this.productContainerBy(position);
+    const text = await container.innerText();
+    return this.extractName(text);
   }
 
   @logStep("Select random product")
@@ -116,10 +234,58 @@ export class AddNewOrderModal extends SalesPortalPage {
     return productName;
   }
 
+  @logStep("Get total price value")
+  async getTotalPriceValue(): Promise<string> {
+    return await this.totalPrice.innerText();
+  }
+
+  @logStep("Get total price as number")
+  async getTotalPriceNumber(): Promise<number> {
+    const priceText = await this.getTotalPriceValue();
+    const numbers = priceText.replace(/[^\d.,]/g, "");
+    const cleanNumber = numbers.replace(",", ".");
+    return parseFloat(cleanNumber) || 0;
+  }
+
   private extractName(fullText: string): string {
     if (!fullText) return "";
 
     const namePart = fullText.split("(")[0]?.trim();
     return namePart || fullText.trim();
+  }
+
+  @logStep("Fill order form")
+  async fillOrderForm(options: {
+    customer?: string | number;
+    products?: Array<string | number>;
+  }): Promise<{
+    customerName: string;
+    productNames: string[];
+    totalPrice: number;
+  }> {
+    let customerName = "";
+    const productNames: string[] = [];
+
+    if (options.customer !== undefined) {
+      customerName = await this.selectCustomer(options.customer);
+    }
+
+    if (options.products && options.products.length > 0) {
+      for (let i = 0; i < options.products.length; i++) {
+        if (i > 0) {
+          await this.clickAddProduct();
+        }
+        const productName = await this.selectProduct(i, options.products[i]!);
+        productNames.push(productName);
+      }
+    }
+
+    const totalPrice = await this.getTotalPriceNumber();
+
+    return {
+      customerName,
+      productNames,
+      totalPrice,
+    };
   }
 }
