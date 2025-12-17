@@ -1,3 +1,4 @@
+import { IOrderFormUIData } from "data/types/order.types";
 import { SalesPortalPage } from "../sales-portal.page";
 import { logStep } from "utils/report/logStep.utils";
 
@@ -39,7 +40,7 @@ export class AddNewOrderModal extends SalesPortalPage {
   }
 
   @logStep("Click create button on AddNewOrderModal")
-  async clickEdit() {
+  async clickCreate() {
     await this.createButton.click();
   }
 
@@ -255,10 +256,7 @@ export class AddNewOrderModal extends SalesPortalPage {
   }
 
   @logStep("Fill order form")
-  async fillOrderForm(options: {
-    customer?: string | number;
-    products?: Array<string | number>;
-  }): Promise<{
+  async fillOrderForm(options: IOrderFormUIData): Promise<{
     customerName: string;
     productNames: string[];
     totalPrice: number;
@@ -267,15 +265,30 @@ export class AddNewOrderModal extends SalesPortalPage {
     const productNames: string[] = [];
 
     if (options.customer !== undefined) {
-      customerName = await this.selectCustomer(options.customer);
+      if (options.customer === "random") {
+        customerName = await this.selectRandomCustomer();
+      } else if (typeof options.customer === "number") {
+        customerName = await this.selectCustomerByIndex(options.customer);
+      } else {
+        customerName = await this.selectCustomerByName(options.customer);
+      }
     }
-
     if (options.products && options.products.length > 0) {
       for (let i = 0; i < options.products.length; i++) {
         if (i > 0) {
           await this.clickAddProduct();
         }
-        const productName = await this.selectProduct(i, options.products[i]!);
+
+        let productName: string;
+        const productSpec = options.products[i];
+
+        if (productSpec === "random") {
+          productName = await this.selectRandomProductFor(i);
+        } else if (typeof productSpec === "number") {
+          productName = await this.selectProduct(i, productSpec);
+        } else {
+          productName = await this.selectProduct(i, productSpec!);
+        }
         productNames.push(productName);
       }
     }

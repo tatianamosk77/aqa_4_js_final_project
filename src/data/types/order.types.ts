@@ -189,3 +189,14 @@ export interface IOrderInTable {
 }
 
 export interface IOrderDetails extends Required<IOrder>, ICreatedOn {}
+
+export interface IOrderFormUIData {
+  customer?: string | number | "random";
+  products?: Array<string | number | "random">;
+}
+
+export interface ICreateOrderResponse {
+  Order: IOrderFromResponse;
+  IsSuccess: boolean;
+  ErrorMessage: string | null;
+}
