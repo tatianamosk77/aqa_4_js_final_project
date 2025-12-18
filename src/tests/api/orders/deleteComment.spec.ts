@@ -19,10 +19,10 @@ test.describe("[API] [Sales Portal] [Orders] [Comments] [Delete]", () => {
   });
 
   test.afterEach(async ({ ordersApiService }) => {
-  if (!orderId) return;
-  await ordersApiService.delete(orderId, token).catch(() => {});
-  orderId = null;
-});
+    if (!orderId) return;
+    await ordersApiService.delete(orderId, token).catch(() => {});
+    orderId = null;
+  });
 
   async function createOrderWithCommentFx(deps: {
     token: string;

@@ -11,20 +11,31 @@ test.describe("[API] [Sales Portal] [Notifications] - GET /api/notifications", (
     token = await loginApiService.loginAsAdmin();
   });
 
-  test.beforeEach(async ({ customersApiService, productsApiService, ordersApiService, notificationsApiService }) => {
-    const customer = await customersApiService.create(token);
-    const product = await productsApiService.create(token);
-    await ordersApiService.create({
-      customer: customer._id,
-      products: [product._id]
-    }, token);
+  test.beforeEach(
+    async ({
+      customersApiService,
+      productsApiService,
+      ordersApiService,
+      notificationsApiService,
+    }) => {
+      const customer = await customersApiService.create(token);
+      const product = await productsApiService.create(token);
+      await ordersApiService.create(
+        {
+          customer: customer._id,
+          products: [product._id],
+        },
+        token
+      );
 
-    const notifications = await notificationsApiService.getAll(token);
-    expect(notifications.Notifications.length).toBeGreaterThan(0);
-  });
+      const notifications = await notificationsApiService.getAll(token);
+      expect(notifications.Notifications.length).toBeGreaterThan(0);
+    }
+  );
 
-  test("Should return all notifications for authorized user", 
-    { tag: [TAGS.REGRESSION, TAGS.NOTIFICATIONS, TAGS.API] }, 
+  test(
+    "Should return all notifications for authorized user",
+    { tag: [TAGS.REGRESSION, TAGS.NOTIFICATIONS, TAGS.API] },
     async ({ notificationsApiService }) => {
       const notifications = await notificationsApiService.getAll(token);
 
@@ -35,20 +46,24 @@ test.describe("[API] [Sales Portal] [Notifications] - GET /api/notifications", (
         expect(notification).toHaveProperty("read");
         expect(typeof notification.read).toBe("boolean");
       });
-  });
+    }
+  );
 
-  test("Should return no unread notifications if all are read", 
-    { tag: [TAGS.REGRESSION, TAGS.NOTIFICATIONS, TAGS.API] }, 
+  test(
+    "Should return no unread notifications if all are read",
+    { tag: [TAGS.REGRESSION, TAGS.NOTIFICATIONS, TAGS.API] },
     async ({ notificationsApiService }) => {
       await notificationsApiService.markAllAsRead(token);
       const notifications = await notificationsApiService.getAll(token);
       const unreadNotifications = notifications.Notifications.filter(n => !n.read);
 
       expect(unreadNotifications.length).toBe(0);
-  });
+    }
+  );
 
-  test("Should fail for unauthorized user", 
-    { tag: [TAGS.REGRESSION, TAGS.NOTIFICATIONS, TAGS.API] }, 
+  test(
+    "Should fail for unauthorized user",
+    { tag: [TAGS.REGRESSION, TAGS.NOTIFICATIONS, TAGS.API] },
     async ({ notificationsApi }) => {
       const response = await notificationsApi.get("invalidToken");
       validateResponse(response, {
@@ -56,5 +71,6 @@ test.describe("[API] [Sales Portal] [Notifications] - GET /api/notifications", (
         IsSuccess: false,
         ErrorMessage: ERROR_MESSAGES.UNAUTHORIZED,
       });
-  });
+    }
+  );
 });

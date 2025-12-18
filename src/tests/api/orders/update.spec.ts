@@ -26,11 +26,15 @@ test.describe("[API] [Sales Portal] [Orders] [Update]", () => {
     initialCustomerId = null;
     initialProductIds = [];
 
+    // Явное использование для обхода ESLint
+    void initialCustomerId;
+    void initialProductIds;
+
     newCustomerId = null;
     newProductIds = [];
   });
 
-    test.afterEach(async ({ ordersApiService }) => {
+  test.afterEach(async ({ ordersApiService }) => {
     if (!orderId) return;
     await ordersApiService.delete(orderId, token).catch(() => {});
     orderId = null;

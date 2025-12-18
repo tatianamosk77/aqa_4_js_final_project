@@ -11,20 +11,31 @@ test.describe("[API] [Sales Portal] [Notifications] - PATCH /api/notifications/m
     token = await loginApiService.loginAsAdmin();
   });
 
-   test.beforeEach(async ({ customersApiService, productsApiService, ordersApiService, notificationsApiService }) => {
-    const customer = await customersApiService.create(token);
-    const product = await productsApiService.create(token);
-    await ordersApiService.create({
-      customer: customer._id,
-      products: [product._id]
-    }, token);
+  test.beforeEach(
+    async ({
+      customersApiService,
+      productsApiService,
+      ordersApiService,
+      notificationsApiService,
+    }) => {
+      const customer = await customersApiService.create(token);
+      const product = await productsApiService.create(token);
+      await ordersApiService.create(
+        {
+          customer: customer._id,
+          products: [product._id],
+        },
+        token
+      );
 
-    const notifications = await notificationsApiService.getAll(token);
-    expect(notifications.Notifications.length).toBeGreaterThan(0);
-  });
+      const notifications = await notificationsApiService.getAll(token);
+      expect(notifications.Notifications.length).toBeGreaterThan(0);
+    }
+  );
 
-  test("Should mark all notifications as read", 
-    { tag: [TAGS.REGRESSION, TAGS.NOTIFICATIONS, TAGS.API] }, 
+  test(
+    "Should mark all notifications as read",
+    { tag: [TAGS.REGRESSION, TAGS.NOTIFICATIONS, TAGS.API] },
     async ({ notificationsApiService }) => {
       const updatedNotifications = await notificationsApiService.markAllAsRead(token);
 
@@ -35,16 +46,19 @@ test.describe("[API] [Sales Portal] [Notifications] - PATCH /api/notifications/m
         expect(notification).toHaveProperty("read");
         expect(notification.read).toBe(true);
       });
-  });
+    }
+  );
 
-  test("Should fail for unauthorized user", 
-    { tag: [TAGS.REGRESSION, TAGS.NOTIFICATIONS, TAGS.API] }, 
+  test(
+    "Should fail for unauthorized user",
+    { tag: [TAGS.REGRESSION, TAGS.NOTIFICATIONS, TAGS.API] },
     async ({ notificationsApi }) => {
       const response = await notificationsApi.readAll("invalidToken");
-       validateResponse(response, {
+      validateResponse(response, {
         status: STATUS_CODES.UNAUTHORIZED,
         IsSuccess: false,
         ErrorMessage: ERROR_MESSAGES.UNAUTHORIZED,
       });
-  });
+    }
+  );
 });

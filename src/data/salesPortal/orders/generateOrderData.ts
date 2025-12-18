@@ -1,6 +1,6 @@
-import { faker } from '@faker-js/faker';
-import { IOrder, IOrderProduct } from 'data/types/order.types';
-import { generateCustomerFromResponse } from 'data/salesPortal/customers/generateCustomerData';
+import { faker } from "@faker-js/faker";
+import { IOrder, IOrderProduct } from "data/types/order.types";
+import { generateCustomerFromResponse } from "data/salesPortal/customers/generateCustomerData";
 
 export function generateOrderProductData(): IOrderProduct {
   return {
@@ -24,7 +24,7 @@ export function generateOrderData(customerId: string): IOrder {
 
   return {
     _id: faker.database.mongodbObjectId(),
-    status: faker.helpers.arrayElement(['Draft']),
+    status: faker.helpers.arrayElement(["Draft"]),
     customer, // ✅ customer теперь ICustomerFromResponse
     products,
     delivery: null,
