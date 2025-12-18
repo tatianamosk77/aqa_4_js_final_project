@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 22:16:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-JfmXUHSwm9bmcYHQgqKiZpGFR3w\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Dario.Hirthe@hotmail.com",
+      "name": "Nigel Kyla",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 875,
+      "flat": 5596,
+      "phone": "+7650250730",
+      "createdOn": "2025-12-18T22:16:04.000Z",
+      "notes": "gBcnNhZ7ViAUYJ00F5d0FvmIQiUs2Nw0twYNZV7TokOyJUENZnBM2OULeQhfE40SyE9rfQ8Y6IgGgudeRMrZR8nGqydiSnZ2om3tO53nnyxcy1W45PzOFs4lJT2sPLUjqaM2rT1AatqP43jjqMAUUvfYTbNgAn6l1dV61QuYEbuHVXadwBGXyt7pXJy2jBSTNrl3aCEm0j0OzjIQHhz7W4mbWkX2BsfLHqE0QrpwaEGKd95OpVkMV8tuM8",
+      "_id": "69447d241c508c5d5ee2f5e3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

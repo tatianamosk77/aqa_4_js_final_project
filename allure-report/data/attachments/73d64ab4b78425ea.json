@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 22:15:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-hikxNZbEID4LRoNJbz6R4BNV8lM\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Aurelio.Roob61@hotmail.com",
+      "name": "Test Customer",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 380,
+      "flat": 6034,
+      "phone": "+7806729128",
+      "createdOn": "2025-12-18T22:15:40.000Z",
+      "notes": "icIwDCWP1JsXw8roORCT0yXpcRqlU5sNugIjlQQvpUFRIWOR8jhuIQLSTxFQtq25WcxiBsmD2x2pH1B4BRAOjiOv5YndDL4fbvMRXUxe4zdQMd2aK6CTnFQxxLMICvMhZdPUNhZNWWRQRRArkqasHdO7oPa7CDVeRGLa1MzAZ549Yx5FiOOXk8ljqHY7emdvyhZDeZnGNRcwEKTDpm8iKHKYMPfbuf6dM4RP9EoSSZZUfk7DeaR1FuTKVj",
+      "_id": "69447d0c1c508c5d5ee2ed47"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

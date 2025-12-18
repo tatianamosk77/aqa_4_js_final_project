@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 22:15:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-PrPUnPuCe/GllAO83dNsyqS5q3c\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jarrod.Heller@gmail.com",
+      "name": "Daija Zita",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 766,
+      "flat": 4051,
+      "phone": "+4880898645",
+      "createdOn": "2025-12-18T22:15:52.000Z",
+      "notes": "bnonLPeMZS5Pr1CyXbCYR7SAMHYAcxpeeb4w3TYtNa0jyJ0vrDJPytdaslhlCdoFuuCcju1Sriei8YvFJpuvt4phWpMqOP7drP26Q4LcmH0o7Z9YgUNUpBDxstaQZIMcY9ldpZfuynNQyHFXUk9ST2fucPCtuEfKZNlDT3mhTy3tEqj0nJvVSKYxBYfN8jP4DqfyIn7rr93QkjIPq3udwiHOFCbgMGvis7RCNlttKOA6zER6p0ExuJvBJE",
+      "_id": "69447d181c508c5d5ee2f094"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

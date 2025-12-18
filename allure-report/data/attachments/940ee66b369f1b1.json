@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 22:15:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "674",
+    "etag": "W/\"2a2-m7ky95EcSIbc8UnsIR58uPAsjmE\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "69447d131c508c5d5ee2ef45",
+        "email": "Kristina_Brekke@hotmail.com",
+        "name": "Marshall Tad",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 292,
+        "flat": 6059,
+        "phone": "+0284231935",
+        "createdOn": "2025-12-18T22:15:47.000Z",
+        "notes": "VU2KDH0d2hFvkSpGmNITZm1ji069utf4o1vvMrJaxx6A3hsG7BavNEyObM3pQDztUEHzT4MUTepvmLiEtjgNiRCdZv5Ijrifbj9zWviivfO8QqGRa0WihAKiUCCObaqU6q31JdUtOIP6pGYw02N8g6BuMrThQrR4l3FjccL3WKZUXHqFwADaQy9KO7bokt3YBHSFDpm14pMxLIrfivmfzcwwTIaEpdWNNFh8sQ2i6tUfNszUqamNz5o65M"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Marshall Tad",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

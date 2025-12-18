@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 22:15:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-NTHajx9rzr5PgPCxn0BJWx7KzNk\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69447d1f1c508c5d5ee2f365",
+        "email": "Vena.Herzog@hotmail.com",
+        "name": "Talia Maud",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 541,
+        "flat": 3610,
+        "phone": "+2359053612",
+        "createdOn": "2025-12-18T22:15:59.000Z",
+        "notes": "u2OjLF6d7JyG4mujPi3L6AlSJyKNkTbvQLuTTdMIzPAUnRbx1HwsphOkRYCJACQAWo1jmMUsP1X2KeqUltUt6lLMycwFMtNhnDbWYMplqQBawllQZkcXtD6VHYQgwTYYK2o8BLRVAaHQWgEhU729nORnWegyQT9dm7zhiXu2IDR3Q2azGZpu9ZLEu7kko0LVuv6tTBTpwIqyGs1UXTuRYlnYnENsHUYc6jO043YYu0czzeW80bal4Xa92c"
+      },
+      "products": [
+        {
+          "_id": "69447d1f1c508c5d5ee2f36a",
+          "name": "Computer90601",
+          "amount": 472,
+          "price": 28599,
+          "manufacturer": "Google",
+          "notes": "kc9cpbkZRsC5KKWuaqTOd3RMoUBBKPyNWnJ8B0XPaiQO7tPFbIeDJqG9DrYi2feW6Bh8Roe95NLYfqZFqh8LPFjBip9lKf0qrviogeXYq2esBAohiqnpCioCyRU4Y6fGuAJAVragieSaOc6ITYVdEwqP6zch3kw2MD0rGkRwnrSh3uArbkdMJavo2FIMJKe87I25WaaExP7AXXou0sev6dyFCSfcnNZBDRuVRThbnY4dfBIDg0cV0CDDOM",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 28599,
+      "createdOn": "2025-12-18T22:15:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69447d1f1c508c5d5ee2f365",
+          "products": [
+            {
+              "_id": "69447d1f1c508c5d5ee2f36a",
+              "name": "Computer90601",
+              "amount": 472,
+              "price": 28599,
+              "manufacturer": "Google",
+              "notes": "kc9cpbkZRsC5KKWuaqTOd3RMoUBBKPyNWnJ8B0XPaiQO7tPFbIeDJqG9DrYi2feW6Bh8Roe95NLYfqZFqh8LPFjBip9lKf0qrviogeXYq2esBAohiqnpCioCyRU4Y6fGuAJAVragieSaOc6ITYVdEwqP6zch3kw2MD0rGkRwnrSh3uArbkdMJavo2FIMJKe87I25WaaExP7AXXou0sev6dyFCSfcnNZBDRuVRThbnY4dfBIDg0cV0CDDOM",
+              "received": false
+            }
+          ],
+          "total_price": 28599,
+          "delivery": null,
+          "changedOn": "2025-12-18T22:15:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69447d1f1c508c5d5ee2f39c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

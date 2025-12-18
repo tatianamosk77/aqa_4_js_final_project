@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 22:16:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1878",
+    "etag": "W/\"756-s/9sP0uIiTtGRyo7PJGopM/IdgQ\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69447d221c508c5d5ee2f4ea",
+        "email": "Warren_Lehner80@yahoo.com",
+        "name": "Curt Luther",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 64,
+        "flat": 1820,
+        "phone": "+8661367634",
+        "createdOn": "2025-12-18T22:16:02.000Z",
+        "notes": "MqJTEV5ocKYWJLPdXrR0OJHj5RyuqhBJPkVQE8ERQOopSFY2TkKhiIaMYwpKWXYfSCRtaIhWtMksd02MnKh76LqEennWdxm5Orj2ftVY05LBYtqsJTmZEb20mQr6FcVtrJzTlCSbon0JSnKmff9wKebGks3Jprrgwt7BPS4eVhpsgu8wuVuPXKng2wBKlZEU0xSgF0H2yUQEaWr3J2pyGKiIvr2mYYbpCxIoBYCTdqbk0BRaPFKKVNVRiz"
+      },
+      "products": [
+        {
+          "_id": "69447d221c508c5d5ee2f4ed",
+          "name": "Sausages8276",
+          "amount": 321,
+          "price": 55996,
+          "manufacturer": "Google",
+          "notes": "NPkUrO8s4fWL0iO6CJBUPiI86XS9jTBKbOSpXD2eYOiwzOdim8Abdy12TT3DUzrAlnGdzyUGnQNjQI92vHm1LDHr9stwSC2uv1SqyzWW1y7teN5mfJ9AppEMpBt9FGuaiAP4k5Oao7uB5BclodLyckeLq1FGmzD05hmB3gdXvb3MAgKnXOWVxzAk8GxvCioazOmkpDA9v3ZtIzdGnqJbBMcehDyy8IoQ5NyVqr81hT4LSOshIINP0yWNaQ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 55996,
+      "createdOn": "2025-12-18T22:16:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69447d221c508c5d5ee2f4ea",
+          "products": [
+            {
+              "_id": "69447d221c508c5d5ee2f4ed",
+              "name": "Sausages8276",
+              "amount": 321,
+              "price": 55996,
+              "manufacturer": "Google",
+              "notes": "NPkUrO8s4fWL0iO6CJBUPiI86XS9jTBKbOSpXD2eYOiwzOdim8Abdy12TT3DUzrAlnGdzyUGnQNjQI92vHm1LDHr9stwSC2uv1SqyzWW1y7teN5mfJ9AppEMpBt9FGuaiAP4k5Oao7uB5BclodLyckeLq1FGmzD05hmB3gdXvb3MAgKnXOWVxzAk8GxvCioazOmkpDA9v3ZtIzdGnqJbBMcehDyy8IoQ5NyVqr81hT4LSOshIINP0yWNaQ",
+              "received": false
+            }
+          ],
+          "total_price": 55996,
+          "delivery": null,
+          "changedOn": "2025-12-18T22:16:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69447d221c508c5d5ee2f50e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

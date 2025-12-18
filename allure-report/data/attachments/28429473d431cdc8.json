@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 22:15:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "552",
+    "etag": "W/\"228-5zUgsE2Y57V6Zw7aO0rxNNiO4do\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Rory.Hoeger@yahoo.com",
+      "name": "Rowena Meredith",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 53,
+      "flat": 9463,
+      "phone": "+5663183224",
+      "createdOn": "2025-12-18T22:15:40.000Z",
+      "notes": "s9d0pgKGZ0NhhvaAOwedgoYDbKm3SQ1QjinFiceToLD6XvQDtkMmRGDrce9NhP8JDoXMpj0HHuYs56icPgNiuWBuRNohET5d45QXfa06c7WaK4fxC4ZG3UkfQufqSfkxXgZLbf75XEePw8Bj1aNdM6MUN7mDFTJyOp5puE8PRfgrsqVPkgDT4peGX1HkOFUYdmKjT6T7YxJvoGL9d8yUz5js4QJIoVXnKypVRFZT9o5320hZZrzSkM5Ots",
+      "_id": "69447d0c1c508c5d5ee2ed3b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

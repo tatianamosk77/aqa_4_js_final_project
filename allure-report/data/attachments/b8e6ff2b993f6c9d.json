@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 22:16:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3422",
+    "etag": "W/\"d5e-ALsAuxsxeRhO2w+Ksdj6YkT8534\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69447d251c508c5d5ee2f65e",
+        "email": "Kristofer.Luettgen2@gmail.com",
+        "name": "Elisa Una",
+        "country": "France",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 296,
+        "flat": 131,
+        "phone": "+6056634902",
+        "createdOn": "2025-12-18T22:16:05.000Z",
+        "notes": "A5hkP6ZT8X4obKbFjPuRs985DqrsHhUUuNFWJ6TXwmOxseDn20UxOOu6mShB6i2TupWF0L1vE0U7aYRZ1ZThWd0t7ZlNlrezDIQkdRAjX0ezQtncj4PJOSDHpkJ9nZNhcYoIanLTGZidmBpXrO3gOsJdJqS3m4UmRvCJDAKHlqGjJrnzpPfs3fAJwIIVqXKUeFKMqaqxOUtkcnG7o36NUdyQr4C8eIja42QOxbSns84nDta6ArCXo4MNIa"
+      },
+      "products": [
+        {
+          "_id": "69447d251c508c5d5ee2f65c",
+          "name": "Chicken10403",
+          "amount": 365,
+          "price": 78861,
+          "manufacturer": "Google",
+          "notes": "ecXjQZ5cu6qy2LQbNznfNFw48ZM31RKXZbeu8QAH21ZZKOFesyiXKxB1KCR3e2gE5z1gjxxstUSqt7AoeFz79JVyoQEDoDJIzmv64rH7be4q3EVmAxTOyNke2nSlUNDpVZWL5RN557myFxLI2iIsBJPmpMrGEx3ePMOT4NHsiTdkGbiEKjUzuaANgfEMxTJFUD6ATA5QGhas7DTqaz8bkcirkE1AaYwJuPBE3LoHik0f7UifGnD1UpAx3e",
+          "received": false
+        },
+        {
+          "_id": "69447d261c508c5d5ee2f684",
+          "name": "Keyboard18035",
+          "amount": 656,
+          "price": 41782,
+          "manufacturer": "Google",
+          "notes": "w4CBdid8VneRxHXLjvC9atcJKY7DboeY64cGN2k3oFYFIyma4OkPM6ztRU63WZKZ45bPVK8GSbvi278cqOBG1JRylOuLb5ZkhEET2fgO0cPXvbR0hQBrZmOpSRBhfZ0CpAYKfTp5J0FbAb1NL9njlFiYH1v0TGkKOpLdpN4rKn5cihP3p2y6YypCr2URSYdn6URnsquUK9Ev8oDspq8I3ehbTsXRYiXCMGb3nBfELQuGYZDjfgZVCNuh7q",
+          "received": false
+        },
+        {
+          "_id": "69447d261c508c5d5ee2f689",
+          "name": "Fish49404",
+          "amount": 553,
+          "price": 71249,
+          "manufacturer": "Xiaomi",
+          "notes": "o2Whf5l7UV3bv9sDaULYPifWpQDYllANWaxh7UXQsRvTZ8Dex1Y8GQjDSuMy6iKmP3iu01AgBDfD9qtiIHFnnebEHLauTc0jMqwpacqjNrCg4cL41VjqEZ28lmErOJ75PPelX0FAWJ06mGMOj3LRLMNDChYEzROkX6p5cI2N7TIrrhrU7s61OVhe7A9T8PxovehxDui6gB6Ir3VRkajkxhXbuPB8JmqWlhS2sSarIWxcAUWCXBw4iAbtYq",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 191892,
+      "createdOn": "2025-12-18T22:16:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69447d251c508c5d5ee2f65e",
+          "products": [
+            {
+              "_id": "69447d251c508c5d5ee2f65c",
+              "name": "Chicken10403",
+              "amount": 365,
+              "price": 78861,
+              "manufacturer": "Google",
+              "notes": "ecXjQZ5cu6qy2LQbNznfNFw48ZM31RKXZbeu8QAH21ZZKOFesyiXKxB1KCR3e2gE5z1gjxxstUSqt7AoeFz79JVyoQEDoDJIzmv64rH7be4q3EVmAxTOyNke2nSlUNDpVZWL5RN557myFxLI2iIsBJPmpMrGEx3ePMOT4NHsiTdkGbiEKjUzuaANgfEMxTJFUD6ATA5QGhas7DTqaz8bkcirkE1AaYwJuPBE3LoHik0f7UifGnD1UpAx3e",
+              "received": false
+            },
+            {
+              "_id": "69447d261c508c5d5ee2f684",
+              "name": "Keyboard18035",
+              "amount": 656,
+              "price": 41782,
+              "manufacturer": "Google",
+              "notes": "w4CBdid8VneRxHXLjvC9atcJKY7DboeY64cGN2k3oFYFIyma4OkPM6ztRU63WZKZ45bPVK8GSbvi278cqOBG1JRylOuLb5ZkhEET2fgO0cPXvbR0hQBrZmOpSRBhfZ0CpAYKfTp5J0FbAb1NL9njlFiYH1v0TGkKOpLdpN4rKn5cihP3p2y6YypCr2URSYdn6URnsquUK9Ev8oDspq8I3ehbTsXRYiXCMGb3nBfELQuGYZDjfgZVCNuh7q",
+              "received": false
+            },
+            {
+              "_id": "69447d261c508c5d5ee2f689",
+              "name": "Fish49404",
+              "amount": 553,
+              "price": 71249,
+              "manufacturer": "Xiaomi",
+              "notes": "o2Whf5l7UV3bv9sDaULYPifWpQDYllANWaxh7UXQsRvTZ8Dex1Y8GQjDSuMy6iKmP3iu01AgBDfD9qtiIHFnnebEHLauTc0jMqwpacqjNrCg4cL41VjqEZ28lmErOJ75PPelX0FAWJ06mGMOj3LRLMNDChYEzROkX6p5cI2N7TIrrhrU7s61OVhe7A9T8PxovehxDui6gB6Ir3VRkajkxhXbuPB8JmqWlhS2sSarIWxcAUWCXBw4iAbtYq",
+              "received": false
+            }
+          ],
+          "total_price": 191892,
+          "delivery": null,
+          "changedOn": "2025-12-18T22:16:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69447d261c508c5d5ee2f6ba"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

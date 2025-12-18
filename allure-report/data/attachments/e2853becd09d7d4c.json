@@ -1,0 +1,155 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 22:15:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4944",
+    "etag": "W/\"1350-cGp/locLEsRXRryQHeKiJEJQOuU\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69447d1b1c508c5d5ee2f1f6",
+        "email": "Ava_Bahringer29@gmail.com",
+        "name": "Terrence Nona",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 511,
+        "flat": 7546,
+        "phone": "+1840472744",
+        "createdOn": "2025-12-18T22:15:55.000Z",
+        "notes": "OIqMq4on3qVXX6LcKZQIldwlxnLnFS8LN24uyTVFHJ0Ji9HKSAcDZbJD7ptP2gvxRQBJfR9qgSzrG83BgQFy6X3mNpOohbgExeg9EAMOewMDcPNykBbxz6Obagz1C0c592Ef2Wheq7f1KVT6SefluahWXTSrIzN191AeUValkig6WdYd6BgTqW59dmbzz7XlPGHWRG8Cyu3aiVo67WdxaOIXfTmsKh6L0OkXjZkZgQQwww0Nu0WfALgNn9"
+      },
+      "products": [
+        {
+          "_id": "69447d1b1c508c5d5ee2f1f8",
+          "name": "Shirt69829",
+          "amount": 292,
+          "price": 75870,
+          "manufacturer": "Sony",
+          "notes": "LyIE5PhhcJB8hOnIGglNLx6Ui8H3Tsmm9m91NRokBW8pXZYv6Adt3fIMhInbIP021Mv5bdii3k2IT0U26OVkTf9iCLokMpPsQDzKpqJJDUpWly5ZtHBCW8LdQvFGu08kw96Y433FayrL5A15Vf8bOhjICSxuW3riaprnzF8jXUI4fqLoUSggXd0BveM5cnWGKpAO2pWKtVRV0DsOO6luwSMc8ygsBDkafYPJ4d83ao8yf1j1MQwhjYLJm9",
+          "received": false
+        },
+        {
+          "_id": "69447d1c1c508c5d5ee2f23d",
+          "name": "Fish75277",
+          "amount": 645,
+          "price": 79677,
+          "manufacturer": "Google",
+          "notes": "ieibFXv9FcJ7eamEmwWflgCSq2vRM60OlHH0XhTRoo15BCkWUsPY3hHnzTiufP1Em0bAQ6Z37XYstmlBpZHq6dez3hhaDEje0hu46ZTYjQ5WFcSPLZaavcgwx80jlSZjrBi0x00kvcVVRxN0dpvravZoBduuH3JufQPJKs1jPw0qLfgeF57BRVsWTFlX9rA6CiKF4pHI93rogIawdZ8FWuFHRgdoHl8CBRvU6OEc4UQ8JA7mrCy5Ca3Ldp",
+          "received": false
+        },
+        {
+          "_id": "69447d1c1c508c5d5ee2f231",
+          "name": "Mouse55896",
+          "amount": 431,
+          "price": 93587,
+          "manufacturer": "Microsoft",
+          "notes": "9xgUaHI687V69aBkeuW8uHoCLlnKLBfkCnpGKS6qWsymgjkWWlVgscCZDCHzkYcmJZGmFwfG7LzRggD9R2DVcBAkROwDPNgdXzAVWC6jnRAZOuU5KYAmznXmQ2ci1LPYzy75lQsZ650o08IgW01izzoJP3YwgzDqVq67TPGT1vCxe73tAXmZx1zQmgcZCydQQ6pZeZpLcQoyMV0Q3zgWRQuz7SYhPUTkFvcQGQqIqk0hAgTpHdFrt89dan",
+          "received": false
+        },
+        {
+          "_id": "69447d1c1c508c5d5ee2f245",
+          "name": "Bike73480",
+          "amount": 903,
+          "price": 4852,
+          "manufacturer": "Apple",
+          "notes": "CbIjb0fkJQjuWxsseQOm59GVHe8yOsgbJCTfneiwBinFeXLwhMwbnbRzlYFijaBwltED15Rzn8xMUDpgooRvNnS7ulNVzjTt3zq8SKWZvcO3nuHHE2OpzeHT6IMkkih1FoatkvVipLK0CyyxrRV4qbKDM6EOyx8qIMFOY6FSUUTQCMqG3ueNXkvEmtN862AG9W88KD5l1pcdOooz2Svy9DMhsgqGczri8NdJEZ3Kk6kuabcstfW48rCJbR",
+          "received": false
+        },
+        {
+          "_id": "69447d1c1c508c5d5ee2f23f",
+          "name": "Fish85740",
+          "amount": 837,
+          "price": 16225,
+          "manufacturer": "Amazon",
+          "notes": "r3zCVKVpIEl1fW0MUKohVm2c1RFgkeraqnikFSDAhuq4LgnqZ6sNTDEfZCUhtBgHeji1qSc8u7nZnDtOz8oI22rw9OqOP8y46cvZSNj7Tam3afAy3X6trFcQtnn7gKpZr1T0XQmuzclqGMaIT7jHmE2ZN9wV4lZf1gRoLZJ7WvdDYP3zYr2uQTczhe0CEfCr6xKwStd8Y5H6oZPLkq2ZbAzCh1XWyIRgxRM9iYNSA2omeFrrzXXWsTamkq",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 270211,
+      "createdOn": "2025-12-18T22:15:56.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69447d1b1c508c5d5ee2f1f6",
+          "products": [
+            {
+              "_id": "69447d1b1c508c5d5ee2f1f8",
+              "name": "Shirt69829",
+              "amount": 292,
+              "price": 75870,
+              "manufacturer": "Sony",
+              "notes": "LyIE5PhhcJB8hOnIGglNLx6Ui8H3Tsmm9m91NRokBW8pXZYv6Adt3fIMhInbIP021Mv5bdii3k2IT0U26OVkTf9iCLokMpPsQDzKpqJJDUpWly5ZtHBCW8LdQvFGu08kw96Y433FayrL5A15Vf8bOhjICSxuW3riaprnzF8jXUI4fqLoUSggXd0BveM5cnWGKpAO2pWKtVRV0DsOO6luwSMc8ygsBDkafYPJ4d83ao8yf1j1MQwhjYLJm9",
+              "received": false
+            },
+            {
+              "_id": "69447d1c1c508c5d5ee2f23d",
+              "name": "Fish75277",
+              "amount": 645,
+              "price": 79677,
+              "manufacturer": "Google",
+              "notes": "ieibFXv9FcJ7eamEmwWflgCSq2vRM60OlHH0XhTRoo15BCkWUsPY3hHnzTiufP1Em0bAQ6Z37XYstmlBpZHq6dez3hhaDEje0hu46ZTYjQ5WFcSPLZaavcgwx80jlSZjrBi0x00kvcVVRxN0dpvravZoBduuH3JufQPJKs1jPw0qLfgeF57BRVsWTFlX9rA6CiKF4pHI93rogIawdZ8FWuFHRgdoHl8CBRvU6OEc4UQ8JA7mrCy5Ca3Ldp",
+              "received": false
+            },
+            {
+              "_id": "69447d1c1c508c5d5ee2f231",
+              "name": "Mouse55896",
+              "amount": 431,
+              "price": 93587,
+              "manufacturer": "Microsoft",
+              "notes": "9xgUaHI687V69aBkeuW8uHoCLlnKLBfkCnpGKS6qWsymgjkWWlVgscCZDCHzkYcmJZGmFwfG7LzRggD9R2DVcBAkROwDPNgdXzAVWC6jnRAZOuU5KYAmznXmQ2ci1LPYzy75lQsZ650o08IgW01izzoJP3YwgzDqVq67TPGT1vCxe73tAXmZx1zQmgcZCydQQ6pZeZpLcQoyMV0Q3zgWRQuz7SYhPUTkFvcQGQqIqk0hAgTpHdFrt89dan",
+              "received": false
+            },
+            {
+              "_id": "69447d1c1c508c5d5ee2f245",
+              "name": "Bike73480",
+              "amount": 903,
+              "price": 4852,
+              "manufacturer": "Apple",
+              "notes": "CbIjb0fkJQjuWxsseQOm59GVHe8yOsgbJCTfneiwBinFeXLwhMwbnbRzlYFijaBwltED15Rzn8xMUDpgooRvNnS7ulNVzjTt3zq8SKWZvcO3nuHHE2OpzeHT6IMkkih1FoatkvVipLK0CyyxrRV4qbKDM6EOyx8qIMFOY6FSUUTQCMqG3ueNXkvEmtN862AG9W88KD5l1pcdOooz2Svy9DMhsgqGczri8NdJEZ3Kk6kuabcstfW48rCJbR",
+              "received": false
+            },
+            {
+              "_id": "69447d1c1c508c5d5ee2f23f",
+              "name": "Fish85740",
+              "amount": 837,
+              "price": 16225,
+              "manufacturer": "Amazon",
+              "notes": "r3zCVKVpIEl1fW0MUKohVm2c1RFgkeraqnikFSDAhuq4LgnqZ6sNTDEfZCUhtBgHeji1qSc8u7nZnDtOz8oI22rw9OqOP8y46cvZSNj7Tam3afAy3X6trFcQtnn7gKpZr1T0XQmuzclqGMaIT7jHmE2ZN9wV4lZf1gRoLZJ7WvdDYP3zYr2uQTczhe0CEfCr6xKwStd8Y5H6oZPLkq2ZbAzCh1XWyIRgxRM9iYNSA2omeFrrzXXWsTamkq",
+              "received": false
+            }
+          ],
+          "total_price": 270211,
+          "delivery": null,
+          "changedOn": "2025-12-18T22:15:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69447d1c1c508c5d5ee2f265"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

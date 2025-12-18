@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 22:15:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "539",
+    "etag": "W/\"21b-cssV7goQQymm2NiLkVWkbB1xTw4\"",
+    "keep-alive": "timeout=5, max=62",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Andres8@gmail.com",
+      "name": "Josefa Shaun",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 307,
+      "flat": 8624,
+      "phone": "+6232736260",
+      "createdOn": "2025-12-18T22:15:59.000Z",
+      "notes": "OQV35sKPE2ToourMXmlYFNCPuiu9IjY0oHGpf34azSdGcs4emaxKigqVTVK8LJ9KshfVLUsRwJIsgSvaSlrUojp3mSvLg7HaqOf2YIVBiv0CDGE55fXDCjPl10UWFgEa1jeT15fUmT7VWGkSzt80ECFCZO6P5HTOLQ6fBjyStcImQapfEjA6P4qoOY8jO4eFslAcVcT37b280AdNHmsKglerERYhQf8jB55jUPOBkZ6sUbkH3JuFLqDhqq",
+      "_id": "69447d1f1c508c5d5ee2f358"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

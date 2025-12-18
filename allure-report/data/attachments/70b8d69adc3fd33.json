@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 22:15:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-4bv6sKhD5EVHJycObzgQEODHC8M\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Julien67@yahoo.com",
+      "name": "Mauricio Izabella",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 484,
+      "flat": 272,
+      "phone": "+7446485433",
+      "createdOn": "2025-12-18T22:15:49.000Z",
+      "notes": "k6cvRXsgyfzWkXKgdwuNUAnM2XWf07Zrcjn6R4JiCfn82ULOXXbDW6Dq2VFLBOnNKZVBcJxrp11v5fo4eXqaXOqbyzLknejsVv81mWaq4PLfzpBxARtTg45xBq6OdErRj2QBcHlnknY4OuYBQLujoTGidurJq9Dqf1gJxsb7JgcTtpEHlZGJgHodBsjs5OGQzvmr4NgeuRUE8oQesOu8ibDARP2zpm1RPDcaQP4n6VwlMrgtf8qlBz076f",
+      "_id": "69447d151c508c5d5ee2efd1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

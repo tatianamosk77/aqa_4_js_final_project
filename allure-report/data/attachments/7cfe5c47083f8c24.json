@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 22:15:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "667",
+    "etag": "W/\"29b-v56HjjnN1it7ihXs2wyF7EnAl8o\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "69447d131c508c5d5ee2ef6d",
+        "email": "Bettie.Swift@hotmail.com",
+        "name": "Shayne Arvilla",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 958,
+        "flat": 2958,
+        "phone": "+5145573617",
+        "createdOn": "2025-12-18T22:15:47.000Z",
+        "notes": "GEjWzOSn99nzLLS0fvdk48DAw9553aLs73jhNDdaTRl0Ds9t2Eo9ryqBuNtBQBqOU6rogRcq3gJdkJmlq4TJt0lH86VZuWaawXQ1C7kX37dX95LMns6UAcmhaDEgDyQl9RpRLJCABt0zrGrRj9nQB3JmiuCQOepOWuLxCPWZhw0twKb7fYKFPj5j7ogbnSAQZw44URW7HgRftusjmMmMwNvsMbBmIKxUZdIBHZZFysUe2xBneopFASH2d4"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Canada",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

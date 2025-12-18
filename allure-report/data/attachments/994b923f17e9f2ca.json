@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 22:15:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2929",
+    "etag": "W/\"b71-sy7t3rIVVrISV2knohW7KktD24Q\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69447d1a1c508c5d5ee2f137",
+      "status": "Draft",
+      "customer": {
+        "_id": "69447d191c508c5d5ee2f100",
+        "email": "Ewald33@hotmail.com",
+        "name": "Giuseppe Shaun",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 801,
+        "flat": 1586,
+        "phone": "+9866299215",
+        "createdOn": "2025-12-18T22:15:53.000Z",
+        "notes": "fCGAVLsfCkntXW8FU6MCPQs7whdYYozrnwo5DaTuIAFMaKviRNdHSxIGexegsHbW57YYIvCtewjYkIKz2SjEzfk9EAvagBVvVddlDon3XVmIr0dXsdqNt5xINoSkLxlZbkCuANJlUzWLknfq1VYvCW1JnTx1r8cgtLaVYBDLjSgRvSlZMzSZZLJy5j0DCtvg7hGYIXrp8xoDFmUSSrqDxrYB944MTrypsiwjAMVysDoUKTCIK3Me2BaSXK"
+      },
+      "products": [
+        {
+          "_id": "69447d1a1c508c5d5ee2f11f",
+          "name": "Bike50174",
+          "amount": 610,
+          "price": 37656,
+          "manufacturer": "Xiaomi",
+          "notes": "Ja8csRgmuc6tzGS4EKyIKDxw11WTiwuR2vJ426lWDObZXWN7nmq534eZyLtCxo1dZE3M66WHXR6PPVqIym7QtJLxsER08fvcmiHTyhamqbeJCmyvguAaqTGLuTia2E1SNh0H93CF0iSfQ764SRX7qmMqjvxwv9RHf8a29zWa5PbmDKHX1I8mas98547pUwnQSBdbnduhJVqM4Ev9fhaC8IsQvqZIR5YGG5HCMWsJWBoHpt1IUHrvJMGCYo",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 37656,
+      "createdOn": "2025-12-18T22:15:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69447d191c508c5d5ee2f100",
+          "products": [
+            {
+              "_id": "69447d1a1c508c5d5ee2f11f",
+              "name": "Bike50174",
+              "amount": 610,
+              "price": 37656,
+              "manufacturer": "Xiaomi",
+              "notes": "Ja8csRgmuc6tzGS4EKyIKDxw11WTiwuR2vJ426lWDObZXWN7nmq534eZyLtCxo1dZE3M66WHXR6PPVqIym7QtJLxsER08fvcmiHTyhamqbeJCmyvguAaqTGLuTia2E1SNh0H93CF0iSfQ764SRX7qmMqjvxwv9RHf8a29zWa5PbmDKHX1I8mas98547pUwnQSBdbnduhJVqM4Ev9fhaC8IsQvqZIR5YGG5HCMWsJWBoHpt1IUHrvJMGCYo",
+              "received": false
+            }
+          ],
+          "total_price": 37656,
+          "delivery": null,
+          "changedOn": "2025-12-18T22:15:54.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "69447d191c508c5d5ee2f100",
+          "products": [
+            {
+              "_id": "69447d1a1c508c5d5ee2f11f",
+              "name": "Bike50174",
+              "amount": 610,
+              "price": 37656,
+              "manufacturer": "Xiaomi",
+              "notes": "Ja8csRgmuc6tzGS4EKyIKDxw11WTiwuR2vJ426lWDObZXWN7nmq534eZyLtCxo1dZE3M66WHXR6PPVqIym7QtJLxsER08fvcmiHTyhamqbeJCmyvguAaqTGLuTia2E1SNh0H93CF0iSfQ764SRX7qmMqjvxwv9RHf8a29zWa5PbmDKHX1I8mas98547pUwnQSBdbnduhJVqM4Ev9fhaC8IsQvqZIR5YGG5HCMWsJWBoHpt1IUHrvJMGCYo",
+              "received": false
+            }
+          ],
+          "total_price": 37656,
+          "delivery": null,
+          "changedOn": "2025-12-18T22:15:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337ce1c508c5d5e95335d",
+        "username": "student14@gmail.com",
+        "firstName": "Bill",
+        "lastName": "Schuppe",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:26"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

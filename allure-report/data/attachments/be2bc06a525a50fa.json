@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 22:16:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-TJ3VBo+azdZXQOsdyDd1Tv6VASw\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69447d201c508c5d5ee2f433",
+        "email": "Monty_Borer91@hotmail.com",
+        "name": "Zakary Domenick",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 801,
+        "flat": 4340,
+        "phone": "+8565144744",
+        "createdOn": "2025-12-18T22:16:00.000Z",
+        "notes": "4LfH0SAcqI6Kuub3Xyvd7AMspoqpDco0DRbHuWGFWYqBkBice8sjk4Lvlo7ScgppbkXUcDEhoePTtTtIxO6Cu41QXKoutAorHcwx6Ut6iECGBcGKozWeAoo3H8kfOZGlIJi1fUpwBGhbcFrYmpqPBso4BgVEYL6Lphc518Zas8dppCtdPh31stNEKqUofzRB621URJa4DmtwQCusi9kDUg4LWOwj5hAPHYZDNpUK3HeAmAw6JAOvLEfLSu"
+      },
+      "products": [
+        {
+          "_id": "69447d201c508c5d5ee2f435",
+          "name": "Sausages34234",
+          "amount": 809,
+          "price": 42130,
+          "manufacturer": "Tesla",
+          "notes": "Gi3oaDQW5C8eHcXCB8SznMmdAVHkO1vWnfWiQUlPGHp4GSPwDC6JQjy5s98bqNRk0RYnzC3qXPSFuLEnnfgYbP3TbF3Xdma5kNI0AiqbmrQQNhMjZvSXyPgF9OM5evth5gchns7rz3fq39iIZRFRxjiWErvbIOM7lUE0GIIVPURCw6RkaUAxlMk9LTtvDUjqmjCe1yey8HIIYOAVpH2YBC0A4qwbN34naaOBxuBBp70Aw8XNY9xMam4KPM",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 42130,
+      "createdOn": "2025-12-18T22:16:01.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69447d201c508c5d5ee2f433",
+          "products": [
+            {
+              "_id": "69447d201c508c5d5ee2f435",
+              "name": "Sausages34234",
+              "amount": 809,
+              "price": 42130,
+              "manufacturer": "Tesla",
+              "notes": "Gi3oaDQW5C8eHcXCB8SznMmdAVHkO1vWnfWiQUlPGHp4GSPwDC6JQjy5s98bqNRk0RYnzC3qXPSFuLEnnfgYbP3TbF3Xdma5kNI0AiqbmrQQNhMjZvSXyPgF9OM5evth5gchns7rz3fq39iIZRFRxjiWErvbIOM7lUE0GIIVPURCw6RkaUAxlMk9LTtvDUjqmjCe1yey8HIIYOAVpH2YBC0A4qwbN34naaOBxuBBp70Aw8XNY9xMam4KPM",
+              "received": false
+            }
+          ],
+          "total_price": 42130,
+          "delivery": null,
+          "changedOn": "2025-12-18T22:16:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69447d211c508c5d5ee2f450"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
