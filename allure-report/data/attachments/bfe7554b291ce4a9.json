@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 08:17:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2945",
+    "etag": "W/\"b81-uhICpE0jV1ODBY403ylb2MUMMZg\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6943b8851c508c5d5ed7b261",
+      "status": "Draft",
+      "customer": {
+        "_id": "6943b8851c508c5d5ed7b23c",
+        "email": "Lauriane91@gmail.com",
+        "name": "Gregoria Keyshawn",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 511,
+        "flat": 4012,
+        "phone": "+4183020453",
+        "createdOn": "2025-12-18T08:17:09.000Z",
+        "notes": "lVmDpPfGkF7SpDTGmnzbjoVYgaYbB0pqCrJBC5DRQs49d4eaDJ5dVuW36Ezx3hcv5ZKsz32EqTFUK3jEGqrmUw0UfA0nmkoHishXjQrZSYx1k6q3abw8rGf6Vbqn2JuH10ttwDVsKfcy91CGLXczRkkqdliROStLkqvsYQL3ls1Hoo7IwEI6Mh7z9SjSw2pYth5O8YGr6ADuEcDXW3wT0M5zOAgmMe8UdWsshQzJxKMvqDCNUouVrO13iD"
+      },
+      "products": [
+        {
+          "_id": "6943b8851c508c5d5ed7b24a",
+          "name": "Chair79296",
+          "amount": 901,
+          "price": 16353,
+          "manufacturer": "Samsung",
+          "notes": "vGJTy3xcg4vYJ3KGdwfVqQwfB1FfutmlqvCsAuTRZjYm56mts85faWBIE0otq8Af2u09GXUZeHpaH9dfE6Lq1RsMzIvJ2auOEXvIQcyuqjL5fj5lh7QHLmaHeqdCChBDpMy75qPDuiMAe3j0RPiG4s3GBl73AEV7JaJhuQZdCe5KWeyN6QjouArNugqmEZr6wUA7qKe78f5IoVxeRvB3gO6fsS3TEidrMJOBvSJLMdv603aLoZGpYdCRcO",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 16353,
+      "createdOn": "2025-12-18T08:17:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6943b8851c508c5d5ed7b23c",
+          "products": [
+            {
+              "_id": "6943b8851c508c5d5ed7b24a",
+              "name": "Chair79296",
+              "amount": 901,
+              "price": 16353,
+              "manufacturer": "Samsung",
+              "notes": "vGJTy3xcg4vYJ3KGdwfVqQwfB1FfutmlqvCsAuTRZjYm56mts85faWBIE0otq8Af2u09GXUZeHpaH9dfE6Lq1RsMzIvJ2auOEXvIQcyuqjL5fj5lh7QHLmaHeqdCChBDpMy75qPDuiMAe3j0RPiG4s3GBl73AEV7JaJhuQZdCe5KWeyN6QjouArNugqmEZr6wUA7qKe78f5IoVxeRvB3gO6fsS3TEidrMJOBvSJLMdv603aLoZGpYdCRcO",
+              "received": false
+            }
+          ],
+          "total_price": 16353,
+          "delivery": null,
+          "changedOn": "2025-12-18T08:17:09.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "6943b8851c508c5d5ed7b23c",
+          "products": [
+            {
+              "_id": "6943b8851c508c5d5ed7b24a",
+              "name": "Chair79296",
+              "amount": 901,
+              "price": 16353,
+              "manufacturer": "Samsung",
+              "notes": "vGJTy3xcg4vYJ3KGdwfVqQwfB1FfutmlqvCsAuTRZjYm56mts85faWBIE0otq8Af2u09GXUZeHpaH9dfE6Lq1RsMzIvJ2auOEXvIQcyuqjL5fj5lh7QHLmaHeqdCChBDpMy75qPDuiMAe3j0RPiG4s3GBl73AEV7JaJhuQZdCe5KWeyN6QjouArNugqmEZr6wUA7qKe78f5IoVxeRvB3gO6fsS3TEidrMJOBvSJLMdv603aLoZGpYdCRcO",
+              "received": false
+            }
+          ],
+          "total_price": 16353,
+          "delivery": null,
+          "changedOn": "2025-12-18T08:17:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337ce1c508c5d5e95335d",
+        "username": "student14@gmail.com",
+        "firstName": "Bill",
+        "lastName": "Schuppe",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:26"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

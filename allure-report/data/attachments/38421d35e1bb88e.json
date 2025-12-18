@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 08:16:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-aXo/tSQ0835qWkTrQ4n1DWpC1/g\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Leif.Hirthe95@yahoo.com",
+      "name": "Test Customer",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 693,
+      "flat": 9411,
+      "phone": "+6611371072",
+      "createdOn": "2025-12-18T08:16:56.000Z",
+      "notes": "o2lXq3IqzxRJcHXiEv9Pqu0k8xVzB9laKKH0RXvhBvTgfsJ1pfzvXyogdreN1nfPsPsszKFsU0aS5VNUrD5xXzpZ6tmVzgkzMQlnSqJQ9lhLI9TgoQKXh0wCvg1i1kVxu7UPT1LttYbSZmG0f3wtsDGGy7AOE73PMjInXrRBftFny4O0qUlV4T6bPploliAgfzaGWcPFODsAwoqylMhwc4zQdJuAmlYx7nuVF4usHwYoUHXKPVSeqtVFPC",
+      "_id": "6943b8781c508c5d5ed7ae99"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

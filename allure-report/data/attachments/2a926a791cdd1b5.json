@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 08:17:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1876",
+    "etag": "W/\"754-Az8p2ol/KFw92VxDCosqDmS0Oh4\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6943b88a1c508c5d5ed7b482",
+        "email": "Sandrine_Windler@gmail.com",
+        "name": "Shea Lily",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 132,
+        "flat": 896,
+        "phone": "+8673580692",
+        "createdOn": "2025-12-18T08:17:14.000Z",
+        "notes": "ImTwqxYJP45SNO60REgg99MJZm3oVSo0tdT069ytAJUY7mqkNwhJ7NpKYfKXnXuRHeDAyOk0uUecem9RFBe2UaV5b4tfOI45zgsgCoJ59mT4WmEtUctyZQjNTihSHHlFVyblM98kW5jupTMQSVRLIh9u9LqFiQvejy6CLRXG9v6ZeGKXx6NeukkJ0gMTfooAZN3ZUouxn9cXAw8LjM7yXFWgQcqb3njUBl6RMWd4nKT5se2GIIweGstyUs"
+      },
+      "products": [
+        {
+          "_id": "6943b88a1c508c5d5ed7b47f",
+          "name": "Gloves44383",
+          "amount": 445,
+          "price": 86483,
+          "manufacturer": "Google",
+          "notes": "WdMSE4xGrkW6cuxqXzm9GLSdCWhRdNZdWfPrf3iEtNDgkx7YknoUwgBgcf6rSm8IEAVJ8LmbNlV6eGl7Xo3kZVX2FJeTz1lHMTtrVXcz9xGUnsOqNAUrqDcTT54jjxjPGfoKuZ7zjEpqcxDkmcXjDLtng9Dks6mbyuMxI8O2ZbJVraWxVzid5HXYlplHe6Cz3o4PWZxkUqwdwjb6yBvSLdRR2pS2u7AjIo8AM8O6K4hDWGxdLvzNCOJPGr",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 86483,
+      "createdOn": "2025-12-18T08:17:14.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6943b88a1c508c5d5ed7b482",
+          "products": [
+            {
+              "_id": "6943b88a1c508c5d5ed7b47f",
+              "name": "Gloves44383",
+              "amount": 445,
+              "price": 86483,
+              "manufacturer": "Google",
+              "notes": "WdMSE4xGrkW6cuxqXzm9GLSdCWhRdNZdWfPrf3iEtNDgkx7YknoUwgBgcf6rSm8IEAVJ8LmbNlV6eGl7Xo3kZVX2FJeTz1lHMTtrVXcz9xGUnsOqNAUrqDcTT54jjxjPGfoKuZ7zjEpqcxDkmcXjDLtng9Dks6mbyuMxI8O2ZbJVraWxVzid5HXYlplHe6Cz3o4PWZxkUqwdwjb6yBvSLdRR2pS2u7AjIo8AM8O6K4hDWGxdLvzNCOJPGr",
+              "received": false
+            }
+          ],
+          "total_price": 86483,
+          "delivery": null,
+          "changedOn": "2025-12-18T08:17:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6943b88a1c508c5d5ed7b497"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

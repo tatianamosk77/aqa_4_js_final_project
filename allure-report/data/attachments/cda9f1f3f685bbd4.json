@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 08:17:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "551",
+    "etag": "W/\"227-QsF2RfhtMbl/h9aFk/DN8lZlgkk\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Bernard_Gleichner@gmail.com",
+      "name": "Bernie Domingo",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 795,
+      "flat": 5091,
+      "phone": "+3132366697",
+      "createdOn": "2025-12-18T08:17:13.000Z",
+      "notes": "0cM1M2KYzQ9RGhL5TQbhElpB7m9o6nikFgY4CrWcTndXWjMN8kiceEQA4mACNLmvYFiyOKn9kfB7wQ9ylHCmzoYIZUdqgnNJYp4plqb2N02UshhfVemc5ahuBFgPNv7H47yTxe10mjFODbvMImGBN9kYaFVYxS57pQmhmp7wrJvhHWtqMzAZKRP6x7tShgTpMvtlZN7qlbraq7pnLIgMnJ08kNWloHq9UpFKo1Pk6mCswqhmT1XbGH63Km",
+      "_id": "6943b8891c508c5d5ed7b3fe"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

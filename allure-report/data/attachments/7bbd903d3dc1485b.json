@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 08:16:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "303",
+    "etag": "W/\"12f-eEbv1xyLtEQyZyeuh+5fO/aq9eI\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Hank_Hodkiewicz@hotmail.com",
+      "name": "Jennings Tyrique",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 461,
+      "flat": 6437,
+      "phone": "+9735295244",
+      "createdOn": "2025-12-18T08:16:58.000Z",
+      "notes": "",
+      "_id": "6943b87a1c508c5d5ed7af55"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

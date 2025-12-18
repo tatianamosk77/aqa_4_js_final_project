@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 08:17:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-Y9qOxrkJKDXfPbWW6rHqwFMvzRM\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Sven12@hotmail.com",
+      "name": "Maggie Laury",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 606,
+      "flat": 3435,
+      "phone": "+7836823334",
+      "createdOn": "2025-12-18T08:17:13.000Z",
+      "notes": "D8zndbYRqS15Frx0XJTsRHIsVPjMOYXKTJQ78dbgcPe0m2UYhoVCSj83Cz1OJEu3OxPZaPeDefL6535ECjaQ285l85aUVxvrzuiCfUvcOnudm0E99XebncDK2L6BiBrAF39HPweTxcQm0pZ1cRih4VYMBkZJUMJtiCzP7DpiOR5eBB71FT4VA0expRwBAPJwnMMNC4Pda6IEPlw2Zhg47mLVlpkIQPJHrQCiEuYONoFBwnCRZO2LmLMU5h",
+      "_id": "6943b8891c508c5d5ed7b414"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

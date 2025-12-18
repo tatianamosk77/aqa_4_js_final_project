@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 08:17:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1881",
+    "etag": "W/\"759-JyOW1toMNRn48AlTitLQq98s4ME\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6943b8971c508c5d5ed7bb73",
+        "email": "Kariane.Mosciski7@hotmail.com",
+        "name": "Laury Gerson",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 136,
+        "flat": 4402,
+        "phone": "+2125549917",
+        "createdOn": "2025-12-18T08:17:27.000Z",
+        "notes": "0hNIUfKPCGQoYe5a52P0e7QldPQh4YgNbsJ3xih4fWtpKq1zepOnkI8ZXFL2RkkmWD4SLqi7q3jtgp0w1PtF1ETLyPtiK4trCxxfi55uQRbXpD4Fq2Mr19RTX3dhDbfnzG1wqQKKNIaVT4O5zVnAfphRzMFIK9eNSdX0SFSoaSPCLVRs960xWM2tys9TJeCNozY3PQZqFlQThNSTKyZwPV6TmLiFB2xYHagsBHwKRB01z42NaC6LSh2c15"
+      },
+      "products": [
+        {
+          "_id": "6943b89a1c508c5d5ed7bd24",
+          "name": "Towels68755",
+          "amount": 284,
+          "price": 14617,
+          "manufacturer": "Samsung",
+          "notes": "O43fh1MMAEhw1DEjaMJ7d5hcqvPlC7xTptroUAWMSWv0F2C8n0mQBnB6Sqe52FBZ97PNCPvmyaJS4ADDVZZ4HK4LaK8MRuLxTr1WrxhNFdOoqLSqxjuoaESgrApa1o7TOb0hz1S7m61TyndFHszB9q14KHNmDDkrTgEdHDfNgJWeA4BvM1ZcXjl5FLBzJllWtk7DeO20bJPkreF5EPkF2Etm5uyMSWK8FeWk85PowrxsZilpBWqZFRuLnZ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 14617,
+      "createdOn": "2025-12-18T08:17:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6943b8971c508c5d5ed7bb73",
+          "products": [
+            {
+              "_id": "6943b89a1c508c5d5ed7bd24",
+              "name": "Towels68755",
+              "amount": 284,
+              "price": 14617,
+              "manufacturer": "Samsung",
+              "notes": "O43fh1MMAEhw1DEjaMJ7d5hcqvPlC7xTptroUAWMSWv0F2C8n0mQBnB6Sqe52FBZ97PNCPvmyaJS4ADDVZZ4HK4LaK8MRuLxTr1WrxhNFdOoqLSqxjuoaESgrApa1o7TOb0hz1S7m61TyndFHszB9q14KHNmDDkrTgEdHDfNgJWeA4BvM1ZcXjl5FLBzJllWtk7DeO20bJPkreF5EPkF2Etm5uyMSWK8FeWk85PowrxsZilpBWqZFRuLnZ",
+              "received": false
+            }
+          ],
+          "total_price": 14617,
+          "delivery": null,
+          "changedOn": "2025-12-18T08:17:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6943b89a1c508c5d5ed7bd42"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

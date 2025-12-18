@@ -1,0 +1,179 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 08:17:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4132",
+    "etag": "W/\"1024-nHgyPd6yN+SdHKyeWLBeY/rmrU8\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Orders": [
+      {
+        "_id": "6943b87e1c508c5d5ed7b053",
+        "status": "Draft",
+        "customer": "6943b87e1c508c5d5ed7b028",
+        "products": [
+          {
+            "_id": "6943b87e1c508c5d5ed7b03a",
+            "name": "Pants57704",
+            "amount": 531,
+            "price": 80944,
+            "manufacturer": "Samsung",
+            "notes": "Tm0lhxAizjBDBF0QBSiuI1ko0LCHnQzsyta3MBxnags37FG8GalYE0oejljyzCniJYTbXmciKfyns1KR2uzaYa5MjijZSXnwtV1rnbTR8low3hb7dmxenVwG77lgiyZa73djTy72SOv9OuGdaFtzWCG2rsn1Rx80ofZBDhBtSkA5nq03AIe4r8L2aSxn79zXsqD3IRbqZQMXCHEXVNDam64TmnAzawjV59EEEgK10cWzluIwJu1lPvFyDT",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 80944,
+        "createdOn": "2025-12-18T08:17:02.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "6943b87e1c508c5d5ed7b028",
+            "products": [
+              {
+                "_id": "6943b87e1c508c5d5ed7b03a",
+                "name": "Pants57704",
+                "amount": 531,
+                "price": 80944,
+                "manufacturer": "Samsung",
+                "notes": "Tm0lhxAizjBDBF0QBSiuI1ko0LCHnQzsyta3MBxnags37FG8GalYE0oejljyzCniJYTbXmciKfyns1KR2uzaYa5MjijZSXnwtV1rnbTR8low3hb7dmxenVwG77lgiyZa73djTy72SOv9OuGdaFtzWCG2rsn1Rx80ofZBDhBtSkA5nq03AIe4r8L2aSxn79zXsqD3IRbqZQMXCHEXVNDam64TmnAzawjV59EEEgK10cWzluIwJu1lPvFyDT",
+                "received": false
+              }
+            ],
+            "total_price": 80944,
+            "delivery": null,
+            "changedOn": "2025-12-18T08:17:02.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337ce1c508c5d5e95335d",
+              "username": "student14@gmail.com",
+              "firstName": "Bill",
+              "lastName": "Schuppe",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:26"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      },
+      {
+        "_id": "6943b87e1c508c5d5ed7b066",
+        "status": "Draft",
+        "customer": "6943b87e1c508c5d5ed7b028",
+        "products": [
+          {
+            "_id": "6943b87e1c508c5d5ed7b03a",
+            "name": "Pants57704",
+            "amount": 531,
+            "price": 80944,
+            "manufacturer": "Samsung",
+            "notes": "Tm0lhxAizjBDBF0QBSiuI1ko0LCHnQzsyta3MBxnags37FG8GalYE0oejljyzCniJYTbXmciKfyns1KR2uzaYa5MjijZSXnwtV1rnbTR8low3hb7dmxenVwG77lgiyZa73djTy72SOv9OuGdaFtzWCG2rsn1Rx80ofZBDhBtSkA5nq03AIe4r8L2aSxn79zXsqD3IRbqZQMXCHEXVNDam64TmnAzawjV59EEEgK10cWzluIwJu1lPvFyDT",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 80944,
+        "createdOn": "2025-12-18T08:17:02.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "6943b87e1c508c5d5ed7b028",
+            "products": [
+              {
+                "_id": "6943b87e1c508c5d5ed7b03a",
+                "name": "Pants57704",
+                "amount": 531,
+                "price": 80944,
+                "manufacturer": "Samsung",
+                "notes": "Tm0lhxAizjBDBF0QBSiuI1ko0LCHnQzsyta3MBxnags37FG8GalYE0oejljyzCniJYTbXmciKfyns1KR2uzaYa5MjijZSXnwtV1rnbTR8low3hb7dmxenVwG77lgiyZa73djTy72SOv9OuGdaFtzWCG2rsn1Rx80ofZBDhBtSkA5nq03AIe4r8L2aSxn79zXsqD3IRbqZQMXCHEXVNDam64TmnAzawjV59EEEgK10cWzluIwJu1lPvFyDT",
+                "received": false
+              }
+            ],
+            "total_price": 80944,
+            "delivery": null,
+            "changedOn": "2025-12-18T08:17:02.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337ce1c508c5d5e95335d",
+              "username": "student14@gmail.com",
+              "firstName": "Bill",
+              "lastName": "Schuppe",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:26"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      },
+      {
+        "_id": "6943b87f1c508c5d5ed7b07e",
+        "status": "Draft",
+        "customer": "6943b87e1c508c5d5ed7b028",
+        "products": [
+          {
+            "_id": "6943b87e1c508c5d5ed7b03a",
+            "name": "Pants57704",
+            "amount": 531,
+            "price": 80944,
+            "manufacturer": "Samsung",
+            "notes": "Tm0lhxAizjBDBF0QBSiuI1ko0LCHnQzsyta3MBxnags37FG8GalYE0oejljyzCniJYTbXmciKfyns1KR2uzaYa5MjijZSXnwtV1rnbTR8low3hb7dmxenVwG77lgiyZa73djTy72SOv9OuGdaFtzWCG2rsn1Rx80ofZBDhBtSkA5nq03AIe4r8L2aSxn79zXsqD3IRbqZQMXCHEXVNDam64TmnAzawjV59EEEgK10cWzluIwJu1lPvFyDT",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 80944,
+        "createdOn": "2025-12-18T08:17:03.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "6943b87e1c508c5d5ed7b028",
+            "products": [
+              {
+                "_id": "6943b87e1c508c5d5ed7b03a",
+                "name": "Pants57704",
+                "amount": 531,
+                "price": 80944,
+                "manufacturer": "Samsung",
+                "notes": "Tm0lhxAizjBDBF0QBSiuI1ko0LCHnQzsyta3MBxnags37FG8GalYE0oejljyzCniJYTbXmciKfyns1KR2uzaYa5MjijZSXnwtV1rnbTR8low3hb7dmxenVwG77lgiyZa73djTy72SOv9OuGdaFtzWCG2rsn1Rx80ofZBDhBtSkA5nq03AIe4r8L2aSxn79zXsqD3IRbqZQMXCHEXVNDam64TmnAzawjV59EEEgK10cWzluIwJu1lPvFyDT",
+                "received": false
+              }
+            ],
+            "total_price": 80944,
+            "delivery": null,
+            "changedOn": "2025-12-18T08:17:03.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337ce1c508c5d5e95335d",
+              "username": "student14@gmail.com",
+              "firstName": "Bill",
+              "lastName": "Schuppe",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:26"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      }
+    ],
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
