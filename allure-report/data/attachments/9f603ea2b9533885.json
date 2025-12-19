@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 22:15:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1877",
+    "etag": "W/\"755-4G5A1jzNN7Grx/nTNvhYhYR2xTQ\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6945ce891c508c5d5ee48a66",
+        "email": "Eileen_Macejkovic@hotmail.com",
+        "name": "Gideon Ian",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 412,
+        "flat": 868,
+        "phone": "+3642527698",
+        "createdOn": "2025-12-19T22:15:37.000Z",
+        "notes": "ZMowZI0Ft421Bqpp5t6aUHJ07yy1iRJj4H76IKMrE8kmMEG07Dtj0xF9K1FlwGGrsblIdHt5bfuQrgGs35NYxRAYmQPcw3IqX7uD9aFmQOPavBrtc3tJsH1zdPL1oXFf13BqZ9VEq8UCf3pXhOiS9zzURxqpbw6B2Y9GrYgRRMi6Co68ZyxmOdRSkRW4VWLsmMj2Dgt9gIHoM5cmeA28NU0LAH2jIoITNmCJneqCVj0H6kqWuy1heRUBGS"
+      },
+      "products": [
+        {
+          "_id": "6945ce891c508c5d5ee48a79",
+          "name": "Table96772",
+          "amount": 851,
+          "price": 89991,
+          "manufacturer": "Google",
+          "notes": "8ayfVvqYtxWOjGbX3L6Nv2DtAFagIaSZO3y9UIKl06nTUfBhFUYAv1UzXdjGLrPSqiSCiYL57wNfvbEZSQOA7EyNNZ5obDf2IkJZAB3NqRBRFvOewgkogF4QL0Re2y9CGwpMPX2vpXkqrPvMlQN3SaURCxeoL3x6XV6XAbmbqRfYMOLAzt60gKKSsfdiPBSniPUh58HWe27Z7UUexVp8ig1BUxTorc1o4rjyhAdcgvoUMr7czE7IMu6v44",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 89991,
+      "createdOn": "2025-12-19T22:15:38.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6945ce891c508c5d5ee48a66",
+          "products": [
+            {
+              "_id": "6945ce891c508c5d5ee48a79",
+              "name": "Table96772",
+              "amount": 851,
+              "price": 89991,
+              "manufacturer": "Google",
+              "notes": "8ayfVvqYtxWOjGbX3L6Nv2DtAFagIaSZO3y9UIKl06nTUfBhFUYAv1UzXdjGLrPSqiSCiYL57wNfvbEZSQOA7EyNNZ5obDf2IkJZAB3NqRBRFvOewgkogF4QL0Re2y9CGwpMPX2vpXkqrPvMlQN3SaURCxeoL3x6XV6XAbmbqRfYMOLAzt60gKKSsfdiPBSniPUh58HWe27Z7UUexVp8ig1BUxTorc1o4rjyhAdcgvoUMr7czE7IMu6v44",
+              "received": false
+            }
+          ],
+          "total_price": 89991,
+          "delivery": null,
+          "changedOn": "2025-12-19T22:15:38.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6945ce8a1c508c5d5ee48a89"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

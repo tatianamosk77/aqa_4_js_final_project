@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 22:15:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "296",
+    "etag": "W/\"128-h0X/y//vKwv8WQ6Vnj3u6Ng54Ac\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Lilian20@gmail.com",
+      "name": "Maximillia Armando",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 939,
+      "flat": 6059,
+      "phone": "+7280351413",
+      "createdOn": "2025-12-19T22:15:34.000Z",
+      "notes": "",
+      "_id": "6945ce861c508c5d5ee489a4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

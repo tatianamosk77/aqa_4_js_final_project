@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 22:15:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-bvmoP58UmCys0gJVi6LexQiQEpM\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Travis42@yahoo.com",
+      "name": "Jacynthe Jenifer",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 296,
+      "flat": 4354,
+      "phone": "+8424424591",
+      "createdOn": "2025-12-19T22:15:37.000Z",
+      "notes": "dQ0M0fsh5EbOpViYfV3FpghqDuJaTPGVOuy0ce1YQq3m1LBwBPECr659EAPxrIQPasqDpdYAAIul66ywPkjYflqzYQCELlMwRud60r5ItQ5Rfe0VVjHfBlHR958DDJjyYMA9lqwKiL50n4IFCasjO4mLzrjfnCZkC8V7RHWMLsLIaOTOcc3LaAxFTX18RvyIt1zlyZedNDTztCh8KTxrmzoOCUwZ3bSghe3wEtsWsA8ScCGXOhmqNs03uv",
+      "_id": "6945ce891c508c5d5ee48a48"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

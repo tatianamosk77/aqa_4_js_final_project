@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 22:15:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3414",
+    "etag": "W/\"d56-r4tgkb0Acq25hc5pEI3MArxu3rw\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6945ce9e1c508c5d5ee4936a",
+        "email": "Maudie_Hermiston@hotmail.com",
+        "name": "Harrison Jaqueline",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 185,
+        "flat": 6260,
+        "phone": "+5419355744",
+        "createdOn": "2025-12-19T22:15:58.000Z",
+        "notes": "s0Ayg53Ul2EM3ngfwlkJ78hmrypKfxBd73IjW0mL8UBdFBrsQvzrluDhyrCJ5D9FP7tBj5PZ1qT8BOsDEFJsefoI505hyIIjsEG0137T4ICHf7cXsbXAMiKJdpXHfBAtOgZU2qA21aQNgIG2axNEvEHmrjOmlHrUrPNnoR7UTDesYgICElDuKaJkSSz1TwggxEVziulpPFRkJ7rEg0MEu3AD8vrLxpxyB2lNDKyBJvypf7Cd84URxjF91l"
+      },
+      "products": [
+        {
+          "_id": "6945ce9e1c508c5d5ee49367",
+          "name": "Bacon72871",
+          "amount": 667,
+          "price": 21101,
+          "manufacturer": "Xiaomi",
+          "notes": "bqiX8LRJ4B6FRFsl1hliDqHes0FPYDM6Ib4P2VjNltgtVWHZEuBnPBARgpafCFFW6lYMR9S7QuB64lSEseO0jqzrtcTPAGDSIKMsSAw0y2NmSwrfZBpDaELXXFmAHFkWDP5ST9h4uJD0BMMT22LEv66FhjZ3Oy3y0xcK6kFhTYlTRhOpFq27ipoGaqurZMqJCBKw8Xx2836X1oYn8YMuVvkkrj0zdO9k5OyZm14SISoyrNrU7pJjBCldtb",
+          "received": false
+        },
+        {
+          "_id": "6945ce9e1c508c5d5ee4938a",
+          "name": "Salad55255",
+          "amount": 344,
+          "price": 31095,
+          "manufacturer": "Tesla",
+          "notes": "7Yrvu4ph0bXiejUDWmALckyV1aqzR2RugJYx3FwIuw8HfzM3ZdIeNkGpqbHhzSVv2DB3UTCTOiHO2CVY3UwCPDu3QJjMiJfi9xGZ6PF6RTc1zFQ6T38zj6VfCl5B8JPpQ4KUwpxJVYWFbKpnywhJ509qyw6ADvbVHPPElPskxO9CH3S3x4BsL0ktNShORzS3e6v2GXcVfbiNl2SrXrqmnI8suXb9osrrKz6e2fQzdOfyrdfG1moYS8h4SY",
+          "received": false
+        },
+        {
+          "_id": "6945ce9e1c508c5d5ee4938e",
+          "name": "Mouse28190",
+          "amount": 736,
+          "price": 57951,
+          "manufacturer": "Sony",
+          "notes": "5rDLKUs1ph1cUFaaJv4UnwzybKcv7HvbCzMSl523kYjNzkMdNx91Fl7jIQR3F60DUjUMHD4ECpelN5VzP9ZSiHvsj8MtpgmVKefBNrQzkKzgLDtLJyA15T421kyS3AO4jNGyu3nbPgfISN0njrgj4GjlBmlO9NtFzWWR2J6Fn1N4r9lzOZhdJyXHqwH0TQETD0YUBtHM2iuFqPCezwQmJVeJMlkdNozo0QI5vPGaZ2A39wAG99n4GvcRee",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 110147,
+      "createdOn": "2025-12-19T22:15:58.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6945ce9e1c508c5d5ee4936a",
+          "products": [
+            {
+              "_id": "6945ce9e1c508c5d5ee49367",
+              "name": "Bacon72871",
+              "amount": 667,
+              "price": 21101,
+              "manufacturer": "Xiaomi",
+              "notes": "bqiX8LRJ4B6FRFsl1hliDqHes0FPYDM6Ib4P2VjNltgtVWHZEuBnPBARgpafCFFW6lYMR9S7QuB64lSEseO0jqzrtcTPAGDSIKMsSAw0y2NmSwrfZBpDaELXXFmAHFkWDP5ST9h4uJD0BMMT22LEv66FhjZ3Oy3y0xcK6kFhTYlTRhOpFq27ipoGaqurZMqJCBKw8Xx2836X1oYn8YMuVvkkrj0zdO9k5OyZm14SISoyrNrU7pJjBCldtb",
+              "received": false
+            },
+            {
+              "_id": "6945ce9e1c508c5d5ee4938a",
+              "name": "Salad55255",
+              "amount": 344,
+              "price": 31095,
+              "manufacturer": "Tesla",
+              "notes": "7Yrvu4ph0bXiejUDWmALckyV1aqzR2RugJYx3FwIuw8HfzM3ZdIeNkGpqbHhzSVv2DB3UTCTOiHO2CVY3UwCPDu3QJjMiJfi9xGZ6PF6RTc1zFQ6T38zj6VfCl5B8JPpQ4KUwpxJVYWFbKpnywhJ509qyw6ADvbVHPPElPskxO9CH3S3x4BsL0ktNShORzS3e6v2GXcVfbiNl2SrXrqmnI8suXb9osrrKz6e2fQzdOfyrdfG1moYS8h4SY",
+              "received": false
+            },
+            {
+              "_id": "6945ce9e1c508c5d5ee4938e",
+              "name": "Mouse28190",
+              "amount": 736,
+              "price": 57951,
+              "manufacturer": "Sony",
+              "notes": "5rDLKUs1ph1cUFaaJv4UnwzybKcv7HvbCzMSl523kYjNzkMdNx91Fl7jIQR3F60DUjUMHD4ECpelN5VzP9ZSiHvsj8MtpgmVKefBNrQzkKzgLDtLJyA15T421kyS3AO4jNGyu3nbPgfISN0njrgj4GjlBmlO9NtFzWWR2J6Fn1N4r9lzOZhdJyXHqwH0TQETD0YUBtHM2iuFqPCezwQmJVeJMlkdNozo0QI5vPGaZ2A39wAG99n4GvcRee",
+              "received": false
+            }
+          ],
+          "total_price": 110147,
+          "delivery": null,
+          "changedOn": "2025-12-19T22:15:58.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6945ce9e1c508c5d5ee49412"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

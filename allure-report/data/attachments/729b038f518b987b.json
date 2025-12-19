@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 22:15:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-mu9eTcZq7yS460mw+xGflwK8ZS0\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Maggie_Glover@hotmail.com",
+      "name": "Marcelo Delores",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 97,
+      "flat": 1398,
+      "phone": "+2716861052",
+      "createdOn": "2025-12-19T22:15:44.000Z",
+      "notes": "nD0GM9izMyremWwLCDOlfEQABvcGq0FQAc6d2O3OKicBVUwWpw2Psb6vHpjp6xFhO8556qvT2cWNs1F8fJ3mnkiUd8horIT6oQpQTAYmggmHPyj53boPFzAoPgIGrn6B9f1oHL6RvTHHj1SNQoAzEDJo4VBXWhR2u7VsaZ1Z4ZIgbraUD7klctHBKHlqoY4EPWhKLEl4qDNG9M4TLWdsSiy71bBdbRs6aa3zNaoeWiQ1Cjoi8fxDBKWpAx",
+      "_id": "6945ce901c508c5d5ee48d30"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

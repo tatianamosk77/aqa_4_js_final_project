@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 22:15:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1981",
+    "etag": "W/\"7bd-nb+nsagdiV0Vz7429Ua5al+3XSo\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6945ce941c508c5d5ee48ef7",
+      "status": "Draft",
+      "customer": {
+        "_id": "6945ce941c508c5d5ee48ec9",
+        "email": "Nikko_Dickens@hotmail.com",
+        "name": "Alexzander Noelia",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 375,
+        "flat": 9100,
+        "phone": "+2852531268",
+        "createdOn": "2025-12-19T22:15:48.000Z",
+        "notes": "cdlJHpcjE0CTndZhcjTRfKaPWTpQh6eriB9EBLhYY4h9pQ3oBmPm9FvkOIS6qCX5B5p1N4zyDCaKOSN36Kjr8ZD79WWeJpYZsns98qZMRwAt51j6W9UDKu4ZerCzLHaZUyhJpS5AbD0ZDMAQTbbf6kY0h3Ms562fmKOH4HzOp0ktdcgmC6UvPSYwQqOxV60Ma21QiZSlf4VpB4NTuu1UQrbee4mADiO0W8n6UdO8eQgTGbgQSJQutKhWJy"
+      },
+      "products": [
+        {
+          "_id": "6945ce941c508c5d5ee48ecc",
+          "name": "Keyboard5756",
+          "amount": 198,
+          "price": 42114,
+          "manufacturer": "Google",
+          "notes": "zB8OGbVsDJoHzJBSrmuCTpTJupubFwp43arU4HtamQjvrUd13TnCQRqzo2qwx6MxdMyG1kf6ZSyzgbVcAVM0yhwuyTi4zmDdhH2eJd79n28oBwJKEU5Yrs5waMKALOgwP5mC6wT9oWeZSzLHkNe6tOxflkyaHASPnsdFgh62sIfZqoYBS8TXqWLhvldXbWjTBoKQc33l7HaxvOPELRWaiZhIFBKVJ09A1uRrqxWONgKL7FEqsNsccAW3PN",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 42114,
+      "createdOn": "2025-12-19T22:15:48.000Z",
+      "comments": [
+        {
+          "text": "autotest comment",
+          "createdOn": "2025-12-19T22:15:49.000Z",
+          "_id": "6945ce951c508c5d5ee48f21"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6945ce941c508c5d5ee48ec9",
+          "products": [
+            {
+              "_id": "6945ce941c508c5d5ee48ecc",
+              "name": "Keyboard5756",
+              "amount": 198,
+              "price": 42114,
+              "manufacturer": "Google",
+              "notes": "zB8OGbVsDJoHzJBSrmuCTpTJupubFwp43arU4HtamQjvrUd13TnCQRqzo2qwx6MxdMyG1kf6ZSyzgbVcAVM0yhwuyTi4zmDdhH2eJd79n28oBwJKEU5Yrs5waMKALOgwP5mC6wT9oWeZSzLHkNe6tOxflkyaHASPnsdFgh62sIfZqoYBS8TXqWLhvldXbWjTBoKQc33l7HaxvOPELRWaiZhIFBKVJ09A1uRrqxWONgKL7FEqsNsccAW3PN",
+              "received": false
+            }
+          ],
+          "total_price": 42114,
+          "delivery": null,
+          "changedOn": "2025-12-19T22:15:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 22:16:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "206",
+    "etag": "W/\"ce-TZFiU26aFC/YN90Wcrxk8CuDeRg\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Chicken73865",
+      "amount": 956,
+      "price": 69367,
+      "manufacturer": "Google",
+      "createdOn": "2025-12-19T22:16:04.000Z",
+      "notes": "",
+      "_id": "6945cea41c508c5d5ee497b0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

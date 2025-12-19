@@ -1,0 +1,73 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 22:15:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1402",
+    "etag": "W/\"57a-ev3rfvtGzlH+z1zS7B2Mvl4ooFY\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Orders": [
+      {
+        "_id": "6945ce891c508c5d5ee48a75",
+        "status": "Draft",
+        "customer": "6945ce891c508c5d5ee48a4f",
+        "products": [
+          {
+            "_id": "6945ce891c508c5d5ee48a61",
+            "name": "Fish26380",
+            "amount": 225,
+            "price": 67670,
+            "manufacturer": "Sony",
+            "notes": "SlZXtIDhCjo5ejOpsJZr92nnOVaV26hdYWuXwjzMmnQHd15JXHI6ZkTCVTLeLLthC8eDMft19Mh2t01hRD7osmnKPj7bybc7obPFCmoZpGuLg9t0LfcAgpvl8RiYpD2PaPu5gPGmPJeEIqg0F3ytyEVTVZkkyTN4aLCpSCPzcRCgh2NKdOHmYvdZYTnkJKfxw4MdRy3v0nnKpAzFFA6Eid8P1lfLRyNPH1vAvE51ufoK9d3ME8k043lREa",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 67670,
+        "createdOn": "2025-12-19T22:15:37.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "6945ce891c508c5d5ee48a4f",
+            "products": [
+              {
+                "_id": "6945ce891c508c5d5ee48a61",
+                "name": "Fish26380",
+                "amount": 225,
+                "price": 67670,
+                "manufacturer": "Sony",
+                "notes": "SlZXtIDhCjo5ejOpsJZr92nnOVaV26hdYWuXwjzMmnQHd15JXHI6ZkTCVTLeLLthC8eDMft19Mh2t01hRD7osmnKPj7bybc7obPFCmoZpGuLg9t0LfcAgpvl8RiYpD2PaPu5gPGmPJeEIqg0F3ytyEVTVZkkyTN4aLCpSCPzcRCgh2NKdOHmYvdZYTnkJKfxw4MdRy3v0nnKpAzFFA6Eid8P1lfLRyNPH1vAvE51ufoK9d3ME8k043lREa",
+                "received": false
+              }
+            ],
+            "total_price": 67670,
+            "delivery": null,
+            "changedOn": "2025-12-19T22:15:37.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337ce1c508c5d5e95335d",
+              "username": "student14@gmail.com",
+              "firstName": "Bill",
+              "lastName": "Schuppe",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:26"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      }
+    ],
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

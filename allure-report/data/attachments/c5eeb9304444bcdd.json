@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 22:15:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-4gl582nJiIrFGc549WbRnnFkqP4\"",
+    "keep-alive": "timeout=5, max=54",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Caden18@gmail.com",
+      "name": "Tessie Rodger",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 652,
+      "flat": 2625,
+      "phone": "+0312729003",
+      "createdOn": "2025-12-19T22:15:46.000Z",
+      "notes": "zSWCJZkGuMWyVmBOMFAPARr8WlQuQTokoXAp6739FSdNzE2p1OztuIGl8G0MZrPI9bvXppGczSAL9IZNgCFSkwRm8uCcqywInuJP3AlesdjfMtYNhBTuns1kfandgD3GznOH9rblwZtdtN5qD66y7pchOIIA7amds086u4gqK41fGyOlvX9KjyQfGeB4ZDDCFvafKr4t2K1Z0o3qIUQ1Imu363ZBSQIumVJDBakqSUKhgV9JGRp7aMd54C",
+      "_id": "6945ce921c508c5d5ee48dcb"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

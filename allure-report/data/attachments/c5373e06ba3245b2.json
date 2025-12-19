@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 22:15:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1881",
+    "etag": "W/\"759-m4RekypBArWpgVhSR2J6Y9uWLmw\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6945ce931c508c5d5ee48e7c",
+        "email": "Deborah.Franey@gmail.com",
+        "name": "Clarissa Adah",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 285,
+        "flat": 7209,
+        "phone": "+2933714109",
+        "createdOn": "2025-12-19T22:15:47.000Z",
+        "notes": "6SudOrlbkfKLRzXoBNhTRtnebXBonwwd18ycFoNpFgCCnraSoI0VxNKGjkBmM5ppu0LRCSIxfOnSZqLatLcelwLdcflghpePKj0h11pILfUn5EUsM8Gzh20TCtoXwaiCLyeyrPwhyAPqEmV2M6ZqDCY73Cd5rAjkgRHSOJRa6CwrGYEuCk8n6XL7GdWHRXuD4Kyje5JoF0Sbxv8liUwnXHwFG1dGx21DoeZ5UJAp5UW2zHaAqzM7nmFtlM"
+      },
+      "products": [
+        {
+          "_id": "6945ce931c508c5d5ee48e82",
+          "name": "Bike30606",
+          "amount": 604,
+          "price": 89834,
+          "manufacturer": "Microsoft",
+          "notes": "i8xMm4nOZ6KUJ2jdrkb1bScb5KIzF4HRYnc3RAVJVEyerLnOpkgnPFUzZ5lvIo20C7nbcoQTeMnSU62LYemsIjp8jd45SRA19n6vSJoRbSVvJUu2dttFPlcmdXk1EVqU7t4kc0hP3At1wlzzeL6kmUYDQFf8cGcAfTXNr3tUiObAkM9emxLsoBkg6OTDohEtz9Tx0EQaSImZwg2cGKkdzeepjk3f1f23FftWpCLDzreTd3Nq5BkDdPkf1n",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 89834,
+      "createdOn": "2025-12-19T22:15:48.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6945ce931c508c5d5ee48e7c",
+          "products": [
+            {
+              "_id": "6945ce931c508c5d5ee48e82",
+              "name": "Bike30606",
+              "amount": 604,
+              "price": 89834,
+              "manufacturer": "Microsoft",
+              "notes": "i8xMm4nOZ6KUJ2jdrkb1bScb5KIzF4HRYnc3RAVJVEyerLnOpkgnPFUzZ5lvIo20C7nbcoQTeMnSU62LYemsIjp8jd45SRA19n6vSJoRbSVvJUu2dttFPlcmdXk1EVqU7t4kc0hP3At1wlzzeL6kmUYDQFf8cGcAfTXNr3tUiObAkM9emxLsoBkg6OTDohEtz9Tx0EQaSImZwg2cGKkdzeepjk3f1f23FftWpCLDzreTd3Nq5BkDdPkf1n",
+              "received": false
+            }
+          ],
+          "total_price": 89834,
+          "delivery": null,
+          "changedOn": "2025-12-19T22:15:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6945ce941c508c5d5ee48e99"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

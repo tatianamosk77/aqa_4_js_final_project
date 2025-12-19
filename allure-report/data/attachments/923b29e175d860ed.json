@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 22:15:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2934",
+    "etag": "W/\"b76-KBxah8gK25PY5pPjqGeSHr8j5qA\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6945ce971c508c5d5ee4902b",
+      "status": "Draft",
+      "customer": {
+        "_id": "6945ce971c508c5d5ee49005",
+        "email": "Milford32@hotmail.com",
+        "name": "Martine Mabelle",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 895,
+        "flat": 838,
+        "phone": "+3913074686",
+        "createdOn": "2025-12-19T22:15:51.000Z",
+        "notes": "UQo5vTz2BvLeEXPMvHSKkItCDecKz7njd4VDdEcGsUSUDxKy96mL1liTFXU6K7yAmQ8UA6HjaXH6gQq2U47ooJMjfO3iWnMhgbIqHn6QhrZekgnBier2A5yxx8qIZB2B5rhnB20bpxaR2oOtcxZXCPIsNIdgY2ypDj8G5nJregro2niIwu8UzJfgvOGzVlMKgsfkfidkOvBaMhCuyocBEJBA8sZ10XIGVGuhXifsDLIHf2m72d9baVBkGa"
+      },
+      "products": [
+        {
+          "_id": "6945ce971c508c5d5ee49003",
+          "name": "Bike98090",
+          "amount": 902,
+          "price": 58304,
+          "manufacturer": "Samsung",
+          "notes": "wNVYITb6lukPxII9wquhP5qY7vchobKJnnj8KMXGh26OOXVMM6nwIvk8hYk7tifI0ANe55MtrYchCTTYqqOMUS4z7Ig9gwQnIpc81Jb4lqEpy0Gu8PGh9NUkAKIuhbFDeYvGouqXY4KwWvKmoXiWoLthsMgzQKPZLmIlkEzprPWfXPimZP4wg4IdOtyxUE7zaFewqhlhhoEFq7XjqSc9gby3njhrv2EXyvVc9Q8P0IFyZzUT4ZJm2zHdk5",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 58304,
+      "createdOn": "2025-12-19T22:15:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6945ce971c508c5d5ee49005",
+          "products": [
+            {
+              "_id": "6945ce971c508c5d5ee49003",
+              "name": "Bike98090",
+              "amount": 902,
+              "price": 58304,
+              "manufacturer": "Samsung",
+              "notes": "wNVYITb6lukPxII9wquhP5qY7vchobKJnnj8KMXGh26OOXVMM6nwIvk8hYk7tifI0ANe55MtrYchCTTYqqOMUS4z7Ig9gwQnIpc81Jb4lqEpy0Gu8PGh9NUkAKIuhbFDeYvGouqXY4KwWvKmoXiWoLthsMgzQKPZLmIlkEzprPWfXPimZP4wg4IdOtyxUE7zaFewqhlhhoEFq7XjqSc9gby3njhrv2EXyvVc9Q8P0IFyZzUT4ZJm2zHdk5",
+              "received": false
+            }
+          ],
+          "total_price": 58304,
+          "delivery": null,
+          "changedOn": "2025-12-19T22:15:52.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "6945ce971c508c5d5ee49005",
+          "products": [
+            {
+              "_id": "6945ce971c508c5d5ee49003",
+              "name": "Bike98090",
+              "amount": 902,
+              "price": 58304,
+              "manufacturer": "Samsung",
+              "notes": "wNVYITb6lukPxII9wquhP5qY7vchobKJnnj8KMXGh26OOXVMM6nwIvk8hYk7tifI0ANe55MtrYchCTTYqqOMUS4z7Ig9gwQnIpc81Jb4lqEpy0Gu8PGh9NUkAKIuhbFDeYvGouqXY4KwWvKmoXiWoLthsMgzQKPZLmIlkEzprPWfXPimZP4wg4IdOtyxUE7zaFewqhlhhoEFq7XjqSc9gby3njhrv2EXyvVc9Q8P0IFyZzUT4ZJm2zHdk5",
+              "received": false
+            }
+          ],
+          "total_price": 58304,
+          "delivery": null,
+          "changedOn": "2025-12-19T22:15:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337ce1c508c5d5e95335d",
+        "username": "student14@gmail.com",
+        "firstName": "Bill",
+        "lastName": "Schuppe",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:26"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

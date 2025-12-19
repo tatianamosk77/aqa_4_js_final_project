@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 22:15:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "537",
+    "etag": "W/\"219-Z28hPreeChCRdgmgWR7Y1vSjhm8\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Thad8@yahoo.com",
+      "name": "Micah Johnny",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 167,
+      "flat": 1849,
+      "phone": "+0327739234",
+      "createdOn": "2025-12-19T22:15:40.000Z",
+      "notes": "wqTECjKL4bi4IFFs8Hed71rxLufiYhCBKIew1GfchJuD5Vsy0nuYsGVb6TnnkXi2sSyUIG5T3T02rbMJnyVcWBqL42naIt1dF7Q0sowyfan9hFKBOjHRazHqo1vtn3GfAIbq6dyj3f6Jmb62ToPRonD1XwhR1AQaPKVV5siLhFqyLBH4EiSXmXcFnvfsMXTc6gsZ0aBj6HX91DTtZeQUObl0X9ov5SWoJ5gTzEfI8ZlisIPykghDz4p373",
+      "_id": "6945ce8c1c508c5d5ee48b5a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

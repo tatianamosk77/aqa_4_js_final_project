@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 22:15:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "554",
+    "etag": "W/\"22a-lgDxef88SNxmiozluCGP/+ypl5o\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Thora.Ruecker@yahoo.com",
+      "name": "Shanny Coleman",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 999,
+      "flat": 9578,
+      "phone": "+3316488268",
+      "createdOn": "2025-12-19T22:15:34.000Z",
+      "notes": "zRUNJpOtukU0FIDl5gLlUDOqW9B3zfQwqOiSqZwgZyOo1jBMvVnQn5zN5eXmSlSQeZmsOrGIx12We4Lw61seMhXstucJcumlvyPSjPmqliTjSTC4WYWRCga6aKUrOYUV6qn7LPphIKw1wKHOiisVysaX0kxlwtcbXYITRstKpuX77HLarUGqWw0gP9ih2hyXba3Y6EmoKKG1qFDQRRxylsaebbXzzAojOwmrrYwJnqo1JnLnS4wxo6GjZ0",
+      "_id": "6945ce861c508c5d5ee48965"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

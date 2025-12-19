@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 22:15:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-et0P6bw6Tkiw3ruLhbl6lJNwuGc\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Josiah50@gmail.com",
+      "name": "Test Customer",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 664,
+      "flat": 3658,
+      "phone": "+6467589385",
+      "createdOn": "2025-12-19T22:15:32.000Z",
+      "notes": "TRcIqLAHj78ieZ9A6kFp9GRwxmWA5yCXQa2XO0v61Vpj6zFiRQlGDvADqzQAd14kvK9xdkOduFr5uTz9p6z3cn68IZxuw82ggCPKVX5YitdJ6b6FPSSylo6HOR2QZT7NImhwTs2f7GlE39AhxwSfUiHAbUtvByB4e93wR2NZYYbh1PKNUbgLaB6xay4HaegyNMDZi938xUmImb7MSXdqri4bjEYAKzb5HjDE8Q1yLwLOlbX58oTBGbVl80",
+      "_id": "6945ce841c508c5d5ee488c9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

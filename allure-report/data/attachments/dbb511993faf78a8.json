@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 22:15:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1873",
+    "etag": "W/\"751-sxdg4HIYR4eiY76w63S5bNzx08w\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6945ce951c508c5d5ee48f16",
+        "email": "Morris.Hermiston@yahoo.com",
+        "name": "Emie Shea",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 974,
+        "flat": 1381,
+        "phone": "+5529219604",
+        "createdOn": "2025-12-19T22:15:49.000Z",
+        "notes": "OFD9kgOpvrczmEw1YCdKdYFs7r4zL4mRFxERTG6qwYzh2QuMWJu6pFR0So3lqFvK915ZpWPENP26kTZsOgUoLXonKxHvE9VkxogYNVy5uE0Zotrun8UbWocZZ9X2CcomOmmmTpjLxTXW3ToBhEdQnlspdEge5kM0mFj9d43I11RSI78V1WcGTYtGCOTu5m2shjIwG3yYvI20bYdP2nkiA3Iv8346ZvJ5Dx6zeoJ1KuSMqm94IB3tw5cvmD"
+      },
+      "products": [
+        {
+          "_id": "6945ce951c508c5d5ee48f14",
+          "name": "Cheese85889",
+          "amount": 829,
+          "price": 43131,
+          "manufacturer": "Google",
+          "notes": "rbytZlpJgy45ZWW9OMoG6EVEFMVb5P14bdVqInqArAE2AZIJbyUSRDFTHifRGxbldtpotuxpdG4OxprTSGIciqrmzGW2trtIORjOhWZM6NzzqTtt41NlyceWceaBPuydodclBdgHvtwowWJMvTKM2ZFBpyPRwJLY4YaC26A8xTeIw6DPpGTl8GVdD5BTEXkdwtUQidS8OLkcgXV5K0oJ7wju3C41HdQWIvAS18xQCvCL1JykOYQjrJEiIs",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 43131,
+      "createdOn": "2025-12-19T22:15:49.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6945ce951c508c5d5ee48f16",
+          "products": [
+            {
+              "_id": "6945ce951c508c5d5ee48f14",
+              "name": "Cheese85889",
+              "amount": 829,
+              "price": 43131,
+              "manufacturer": "Google",
+              "notes": "rbytZlpJgy45ZWW9OMoG6EVEFMVb5P14bdVqInqArAE2AZIJbyUSRDFTHifRGxbldtpotuxpdG4OxprTSGIciqrmzGW2trtIORjOhWZM6NzzqTtt41NlyceWceaBPuydodclBdgHvtwowWJMvTKM2ZFBpyPRwJLY4YaC26A8xTeIw6DPpGTl8GVdD5BTEXkdwtUQidS8OLkcgXV5K0oJ7wju3C41HdQWIvAS18xQCvCL1JykOYQjrJEiIs",
+              "received": false
+            }
+          ],
+          "total_price": 43131,
+          "delivery": null,
+          "changedOn": "2025-12-19T22:15:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6945ce951c508c5d5ee48f40"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
