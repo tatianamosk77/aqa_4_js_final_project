@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 22:14:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-fKUFElu0B4apr5sRbhIwRvXpT7Q\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Andre_Barton@hotmail.com",
+      "name": "General Alvis",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 267,
+      "flat": 784,
+      "phone": "+1346710065",
+      "createdOn": "2025-12-20T22:14:36.000Z",
+      "notes": "29uISb1bihBoE4QJla19IeOzgLd1ODSJkyyYVPPhqFerNWgGYXmNQJf2zOncwWpPiSfufERcdnKEFen0N4Qr0jpL1R4cOaUsHySNRyoqkUFbqTbyYTBGUxNSeCTWzyhYY2Z6tCAbh5fbSwqjPLzehHUDTK5n2eufnIC8IzHoAp1BcEfzOfxntimoY6f2XijYvop5KrdUn9emPqtmOTbLBnsHkFsSu0t5k9tzvyLiINalMa5Eix9JKNej2n",
+      "_id": "69471fcc1c508c5d5ee5d718"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

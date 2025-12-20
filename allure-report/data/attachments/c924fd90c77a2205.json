@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 22:14:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2554",
+    "etag": "W/\"9fa-OMAJMmGV59JyuDm9GQSJ+s0lRcE\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "69471fca1c508c5d5ee5d6c9",
+        "email": "Paige.Hane65@gmail.com",
+        "name": "Clemens Alexanne",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 371,
+        "flat": 1156,
+        "phone": "+7578782951",
+        "createdOn": "2025-12-20T22:14:34.000Z",
+        "notes": "l3cDV6aTe7Gl3iHgGKMlqmqGQMtNWWnAx0fLZTpQbFgOTieb70H4PfdtwjoA89XQY8yxI1jSSJXHlJO9LUfH08fv6ivPs0z609xNzORtjFZ3E2UBeqFYN1z0BqDJfySmuOkiFN4rAEIjdq1i4uYXKa0RnTPzTREHV8HMN7le4Cj3P9oQkxuHeSQNiNzkwUJJVvu9MKF5Ze5fA4UDZ5xjKzvDmiH4d8EAhYdzWTAwt1crMsO2yQJhROJuLz"
+      },
+      {
+        "_id": "6947081f1c508c5d5ee5c882",
+        "email": "Rodrick.Gutmann30@gmail.com",
+        "name": "Wilbert Schoen",
+        "country": "Germany",
+        "city": "Franeyside",
+        "street": "Michel Mills",
+        "house": 41,
+        "flat": 622,
+        "phone": "+14408213555",
+        "createdOn": "2025-12-20T20:33:35.000Z",
+        "notes": "v2NguE7zvWiiOk0moWc5wi8AKgVLIskZ5r8DDoHKcoWs5WSKsvNL8Gh7oJx7qZYNBZPChEr6ciXriYVYM463qn7VwwlHQkOS4XXFVzH1qgeYPnf8PYhCIjxMjHJowhg5mufglG4vgNa3P7krJF6MSnPYyIwDndylIZzYFysAJ6dxfvd6tdLXyVYJACCYdmrUM8iuCxiHiPlrG1dqyQtyJQOxKoimJjIkt8CaTHUi8HMEYs382ytQSATTgw"
+      },
+      {
+        "_id": "694707cc1c508c5d5ee5a992",
+        "email": "Hope_Blick@hotmail.com",
+        "name": "Jamey Zboncak",
+        "country": "Germany",
+        "city": "North Fannyville",
+        "street": "Lauretta Junction 22",
+        "house": 487,
+        "flat": 6675,
+        "phone": "+022545520887487",
+        "createdOn": "2025-12-20T20:32:12.000Z",
+        "notes": "7sRHnbtywLhbsIVOF7lCi9fBKX6C5N"
+      },
+      {
+        "_id": "694707c61c508c5d5ee5a639",
+        "email": "Vita_Stokes@gmail.com",
+        "name": "Duncan Dickinson",
+        "country": "Germany",
+        "city": "South Maynard",
+        "street": "W 4th Avenue 96",
+        "house": 925,
+        "flat": 3644,
+        "phone": "+874125094673015",
+        "createdOn": "2025-12-20T20:32:06.000Z",
+        "notes": "PIfkeMs8bCaQGRdmSDoEscP9n47WN0"
+      },
+      {
+        "_id": "694707c01c508c5d5ee5a36c",
+        "email": "Shayne.Kozey@gmail.com",
+        "name": "Alexys Cremin",
+        "country": "Germany",
+        "city": "West Oran",
+        "street": "Hayden Circles 76",
+        "house": 107,
+        "flat": 2422,
+        "phone": "+833469631285566",
+        "createdOn": "2025-12-20T20:32:00.000Z",
+        "notes": "i1FKYTeO9zY2TZyNh3qipXrtAjrcn6"
+      },
+      {
+        "_id": "6946a2921c508c5d5ee555e7",
+        "email": "Jerrold54@yahoo.com",
+        "name": "Gloria Lourdes",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 858,
+        "flat": 7464,
+        "phone": "+6416324511",
+        "createdOn": "2025-12-20T13:20:18.000Z",
+        "notes": "XyYOQMhQycwQw0MB3FotIL80u1gwqDplge3yWSIXcXymAiYPaqD9bwJZmdndZHlZCvLtPEZ8rhx6WBlFMuOzFoUTwDGV8VpNKMSbGnVHHU3l2lPoIstmZTAIgoYzaTSt3RJpE797hiv9tH4rvXWw1Ef41YtKWTwg7IYThMNiaZQNFBg8my4xiFa4dvYx4UBI2ckJiETGk6XjStejeAvbKrjOBjT7vRT3XxN9KLJRd69YVBH5EZ8HkKowdk"
+      }
+    ],
+    "total": 6,
+    "page": 1,
+    "limit": 10,
+    "search": "Germany",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

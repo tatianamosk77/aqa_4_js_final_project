@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 22:14:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1971",
+    "etag": "W/\"7b3-GfT5mEh/yd29KhpmNXG/tvXn8wg\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69471fd91c508c5d5ee5dca7",
+      "status": "Draft",
+      "customer": {
+        "_id": "69471fd81c508c5d5ee5dc53",
+        "email": "Brielle.Schaefer@hotmail.com",
+        "name": "Darrion Mark",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 955,
+        "flat": 8961,
+        "phone": "+1778423959",
+        "createdOn": "2025-12-20T22:14:48.000Z",
+        "notes": "DvVLKBcVCK1q0HK6hdval0QSxQP3FBNGXnlfbHv69jOYXEDP2B2dKjhgftxpZolj8SILr7XefcwQNmvpRuQy0LnzzfIZ8zbo9slIYlhlKW3fVa786P8lB8acMZTDEp5moCkfGbPuLq4bx7jhPpnOoUTQ7zCGY0O4YoGNF6vC4LeSTk8Bu5osywxkwIyzz0sZ64tEHYVonJiJEd2NtwxRgk6d5gDVncB5yc7KLOwC0oSKYgFdQkg2NCavKE"
+      },
+      "products": [
+        {
+          "_id": "69471fd81c508c5d5ee5dc4b",
+          "name": "Salad62001",
+          "amount": 402,
+          "price": 8772,
+          "manufacturer": "Amazon",
+          "notes": "AQe2UauTYGFe5dZWxwPkA8woXOvZ9sr27JQpYhSDa4KuHEKpidQJvudKh36kt9prJZHrPsziY7uxBNL7zaALo73OVoPVoeRYajXHpAe06X2hjHjoXXPAGzes0S8cj0giVMG7TrAhzhLqrLStRPTPoDZpOkj60gR3vZjRh4gIhfE4AWPcCDx0ssZD4zQqH1IQiSSlmCROLpMBcAJZW2uiba78wFeavDq6dVbf6FhT06BItrD8gBeUHWB4hU",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 8772,
+      "createdOn": "2025-12-20T22:14:49.000Z",
+      "comments": [
+        {
+          "text": "autotest comment",
+          "createdOn": "2025-12-20T22:14:50.000Z",
+          "_id": "69471fda1c508c5d5ee5dd06"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69471fd81c508c5d5ee5dc53",
+          "products": [
+            {
+              "_id": "69471fd81c508c5d5ee5dc4b",
+              "name": "Salad62001",
+              "amount": 402,
+              "price": 8772,
+              "manufacturer": "Amazon",
+              "notes": "AQe2UauTYGFe5dZWxwPkA8woXOvZ9sr27JQpYhSDa4KuHEKpidQJvudKh36kt9prJZHrPsziY7uxBNL7zaALo73OVoPVoeRYajXHpAe06X2hjHjoXXPAGzes0S8cj0giVMG7TrAhzhLqrLStRPTPoDZpOkj60gR3vZjRh4gIhfE4AWPcCDx0ssZD4zQqH1IQiSSlmCROLpMBcAJZW2uiba78wFeavDq6dVbf6FhT06BItrD8gBeUHWB4hU",
+              "received": false
+            }
+          ],
+          "total_price": 8772,
+          "delivery": null,
+          "changedOn": "2025-12-20T22:14:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

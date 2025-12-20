@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 22:14:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1879",
+    "etag": "W/\"757-ZT8tYCkULVMjLitSj/9AqGV+77U\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69471fd61c508c5d5ee5db4b",
+        "email": "Charlie_Lang@yahoo.com",
+        "name": "Sterling Hailie",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 576,
+        "flat": 2605,
+        "phone": "+3178449100",
+        "createdOn": "2025-12-20T22:14:46.000Z",
+        "notes": "71vPc52Km80T6QiJlwc2SPFUDc1EfAvEj4PdyDHvw24n8ppB7CazT3ptEZuzBDJcNDf2v4W70roJXKOIKXJ8J8FhoK2Yb9hafOlyRYpYQEBUi3T7g75vcNorl7Rxscn1MpnDtQ1CLCE04UuSsKKY0sl5oilOQ8DSlrhiNKlSQUlufwCwhtko6xHw6gso8FQkM6v4q8KNh0DAo98z1d1cJ5LcyghrgSE5Njs9pr473Fem0WgvZvfm0ouSNs"
+      },
+      "products": [
+        {
+          "_id": "69471fd61c508c5d5ee5db56",
+          "name": "Towels49197",
+          "amount": 887,
+          "price": 93614,
+          "manufacturer": "Amazon",
+          "notes": "5b9KoWhXY645phOACLDp7GZoPGFGUqrXY9pbhPn2mdVPMnbJDWYwfMZQGmmvhXjoUFUkmmWeTAlOfDRQzbz0R8z2tdAB1082k3XUxnL0fWTskNoCNHXPPiGmxRPOxuKUszD0djpvzLjwXD7yAQQgF59Co9OnXCPUjItz8FtWyBv6OiircUzjz38OKTouHcHbID2y1q9L67FMlk9frXYc6xmKDs9ntQHfHC0M6QyPh4O5jr5HnasMJcTplF",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 93614,
+      "createdOn": "2025-12-20T22:14:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69471fd61c508c5d5ee5db4b",
+          "products": [
+            {
+              "_id": "69471fd61c508c5d5ee5db56",
+              "name": "Towels49197",
+              "amount": 887,
+              "price": 93614,
+              "manufacturer": "Amazon",
+              "notes": "5b9KoWhXY645phOACLDp7GZoPGFGUqrXY9pbhPn2mdVPMnbJDWYwfMZQGmmvhXjoUFUkmmWeTAlOfDRQzbz0R8z2tdAB1082k3XUxnL0fWTskNoCNHXPPiGmxRPOxuKUszD0djpvzLjwXD7yAQQgF59Co9OnXCPUjItz8FtWyBv6OiircUzjz38OKTouHcHbID2y1q9L67FMlk9frXYc6xmKDs9ntQHfHC0M6QyPh4O5jr5HnasMJcTplF",
+              "received": false
+            }
+          ],
+          "total_price": 93614,
+          "delivery": null,
+          "changedOn": "2025-12-20T22:14:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69471fd71c508c5d5ee5dba0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

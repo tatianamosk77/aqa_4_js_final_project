@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 22:14:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-w9kSxlJ/0h1UQvvtGX6pfh2P5ks\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Russ17@hotmail.com",
+      "name": "Dave Remington",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 496,
+      "flat": 9898,
+      "phone": "+0329455699",
+      "createdOn": "2025-12-20T22:14:41.000Z",
+      "notes": "hK2c8oRAPdfjUDuO9OV332PWcZAk7fcSa4eEspbcogzQqedoUtW6TjxP4rbqil4YUFfoAgGXW28aHitd3XcYnaM3GjjHxKnGT1DoaXv5vL38ZLd1Sq4fGsoeYSvx86p9BBtcXq9nmRlwu6yPqpxp0yUysJyO3G4OhVr3OVgdSrNBEtMSZS4OFWChkWr0r0qf31qjmCf9IidlWydcbzSrimNmJSzUwR7CYmpMkoNfKlMgJdKdKiZzzd0L0S",
+      "_id": "69471fd11c508c5d5ee5d91a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

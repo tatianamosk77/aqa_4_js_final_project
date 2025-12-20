@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 22:14:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1881",
+    "etag": "W/\"759-RdVjD9ym0bTD/Qf7DVB4UwWF8LU\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69471fd01c508c5d5ee5d84e",
+        "email": "Rhoda_Hyatt-Mohr16@gmail.com",
+        "name": "Buford Jaquelin",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 983,
+        "flat": 2419,
+        "phone": "+9924459001",
+        "createdOn": "2025-12-20T22:14:40.000Z",
+        "notes": "J1uIrS4EXJxjU7ZOFvXSqlEsz7bp5dYieI9MudvlWdMvjgfDJr5xHpAJO5deAwaBraDVK3nNZkBB25qM2UjbygVbNBoXjK2acKZ0naDuE5IVADjlVDhfcp0Sahp9cCPAKTMmIIJjTUBrGP8iIBRwZRz8XZk9FIlLKHkqbkyQWQXtXuaIymnXKUkJqLaAYWDhUdaXpEJqTeYBx7qVDRQaAptaovxDSTlYpL7LuNLSYBeQVi48o4Bf0jeymr"
+      },
+      "products": [
+        {
+          "_id": "69471fd01c508c5d5ee5d867",
+          "name": "Mouse73936",
+          "amount": 698,
+          "price": 45222,
+          "manufacturer": "Apple",
+          "notes": "vxmC27Qhurdxj1plmt7oIHwoSohfhaYUvDukP2RqoZqVLZAiJXEPvG3kuv3pHFXSucmNPg3onayo22mECaK0ZjRJIXjhnd4bBVTPPPTJ3ERJx7nrQewSAKriFp1cF44ULtt0kIn9iGt9Iu0qnJs5FF0ip1c3rf9n2JzeIgo2K20oAb0p3zElyweNJXPguK9x9Nkt0WdW0DQAPbLlGSVuqLhvSdAgPOvJmDZ72ftDO8s7MKarvMMJEh6A85",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 45222,
+      "createdOn": "2025-12-20T22:14:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69471fd01c508c5d5ee5d84e",
+          "products": [
+            {
+              "_id": "69471fd01c508c5d5ee5d867",
+              "name": "Mouse73936",
+              "amount": 698,
+              "price": 45222,
+              "manufacturer": "Apple",
+              "notes": "vxmC27Qhurdxj1plmt7oIHwoSohfhaYUvDukP2RqoZqVLZAiJXEPvG3kuv3pHFXSucmNPg3onayo22mECaK0ZjRJIXjhnd4bBVTPPPTJ3ERJx7nrQewSAKriFp1cF44ULtt0kIn9iGt9Iu0qnJs5FF0ip1c3rf9n2JzeIgo2K20oAb0p3zElyweNJXPguK9x9Nkt0WdW0DQAPbLlGSVuqLhvSdAgPOvJmDZ72ftDO8s7MKarvMMJEh6A85",
+              "received": false
+            }
+          ],
+          "total_price": 45222,
+          "delivery": null,
+          "changedOn": "2025-12-20T22:14:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69471fd01c508c5d5ee5d880"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

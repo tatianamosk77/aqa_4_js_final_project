@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 22:15:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "303",
+    "etag": "W/\"12f-LFbuvkilahGFJ+saJJrrwkhNl+0\"",
+    "connection": "close"
+  },
+  "body": {
+    "IsSuccess": false,
+    "ErrorMessage": "Login error",
+    "reason": "E11000 duplicate key error collection: test.tokens index: token_1 dup key: { token: \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MjMzN2NlMWM1MDhjNWQ1ZTk1MzM1ZCIsInJvbGVzIjpbIlVTRVIiXSwiaWF0IjoxNzY2MjY4OTMyLCJleHAiOjE3NjYzNTUzMzJ9....\" }"
+  }
+}

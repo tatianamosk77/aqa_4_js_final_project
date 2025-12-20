@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 22:14:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2929",
+    "etag": "W/\"b71-g79QAsN98NLAgbmCiXsmu3c2F+4\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69471fde1c508c5d5ee5defe",
+      "status": "Draft",
+      "customer": {
+        "_id": "69471fde1c508c5d5ee5decc",
+        "email": "Nick.Hauck66@yahoo.com",
+        "name": "Arnulfo Kyra",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 617,
+        "flat": 9095,
+        "phone": "+8517098688",
+        "createdOn": "2025-12-20T22:14:54.000Z",
+        "notes": "Xr8vqRwKtgyRsDJ8ud9zLyBBtaAOV33YHAkNvbK2aSqgNTjJkNhOPgGwqgzs9yq9d5qezLJfRQRtVUVtnOQmf5C6hTIzw2cqdVB8MPCMQOzZD239JFY1dtGFUZiODgwOqdX4AGwIYI64YyzuF2yBoAbv026k0xeMGDXh44OxTNNXmVvUjsWILoxg0mtif0aiwLZ2jHDVQBUv1dgqT5TrgL9s58SPXnOg35BaZqBQI8Xe4ex3VEIWZ2CaLS"
+      },
+      "products": [
+        {
+          "_id": "69471fde1c508c5d5ee5ded0",
+          "name": "Shirt71478",
+          "amount": 536,
+          "price": 11206,
+          "manufacturer": "Xiaomi",
+          "notes": "NH5sWqIjLwF4GPGIkLhT23gqYgbK5umQFgbLW1baEkhFL1d1u2RUVfna3Nz7o4fa5SMLXfoz8rOBQkIDn6PCiEC4u7j29UMVM8JaGMwXXFD8IVv1sFMpcU4BEVt4fGZrg6zYJtL7WL57rsZ9vGpRzamv37traKIiayOYxGjz2sUM6i6kFXR7hTdW4QIx8NPPgmWqUTOxxLgh61oFzdrX4G9CdwPohdj07xZ9bAdZPUVLXZWpdoMTouS0EV",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 11206,
+      "createdOn": "2025-12-20T22:14:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69471fde1c508c5d5ee5decc",
+          "products": [
+            {
+              "_id": "69471fde1c508c5d5ee5ded0",
+              "name": "Shirt71478",
+              "amount": 536,
+              "price": 11206,
+              "manufacturer": "Xiaomi",
+              "notes": "NH5sWqIjLwF4GPGIkLhT23gqYgbK5umQFgbLW1baEkhFL1d1u2RUVfna3Nz7o4fa5SMLXfoz8rOBQkIDn6PCiEC4u7j29UMVM8JaGMwXXFD8IVv1sFMpcU4BEVt4fGZrg6zYJtL7WL57rsZ9vGpRzamv37traKIiayOYxGjz2sUM6i6kFXR7hTdW4QIx8NPPgmWqUTOxxLgh61oFzdrX4G9CdwPohdj07xZ9bAdZPUVLXZWpdoMTouS0EV",
+              "received": false
+            }
+          ],
+          "total_price": 11206,
+          "delivery": null,
+          "changedOn": "2025-12-20T22:14:55.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "69471fde1c508c5d5ee5decc",
+          "products": [
+            {
+              "_id": "69471fde1c508c5d5ee5ded0",
+              "name": "Shirt71478",
+              "amount": 536,
+              "price": 11206,
+              "manufacturer": "Xiaomi",
+              "notes": "NH5sWqIjLwF4GPGIkLhT23gqYgbK5umQFgbLW1baEkhFL1d1u2RUVfna3Nz7o4fa5SMLXfoz8rOBQkIDn6PCiEC4u7j29UMVM8JaGMwXXFD8IVv1sFMpcU4BEVt4fGZrg6zYJtL7WL57rsZ9vGpRzamv37traKIiayOYxGjz2sUM6i6kFXR7hTdW4QIx8NPPgmWqUTOxxLgh61oFzdrX4G9CdwPohdj07xZ9bAdZPUVLXZWpdoMTouS0EV",
+              "received": false
+            }
+          ],
+          "total_price": 11206,
+          "delivery": null,
+          "changedOn": "2025-12-20T22:14:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337ce1c508c5d5e95335d",
+        "username": "student14@gmail.com",
+        "firstName": "Bill",
+        "lastName": "Schuppe",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:26"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 22:14:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-f+phCuXKF6aNcL4ymmq3P3rdh5s\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69471fdc1c508c5d5ee5dddd",
+        "email": "General.Klocko1@hotmail.com",
+        "name": "Ralph Jerod",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 807,
+        "flat": 3158,
+        "phone": "+2779866921",
+        "createdOn": "2025-12-20T22:14:52.000Z",
+        "notes": "vvItJQnM6Wu8FPEEHn1Hql3YWlOBH9Vc9NysNa49kxiqOGR4H2K8aHeXAZaELvcxME0WJh8gUpfjmfcNEwLQcXFa9HmeDm0RxqIlq5LRszZXr9CdgKZyOLWRpA5GNGnJYXpasePya8mHkbvo8L6xdOg5CbA3autewM8fU3Evl3PqzOAaYfR0xA43NRkecWuKOSJUYf7Fcf9l01cHdYiIX9XUJZdYzgMtJRPkSbqtpoOHvwd0tjIONBetIo"
+      },
+      "products": [
+        {
+          "_id": "69471fdc1c508c5d5ee5dddf",
+          "name": "Salad55602",
+          "amount": 123,
+          "price": 21075,
+          "manufacturer": "Sony",
+          "notes": "pT2v1wTF3OcwcHQdw6zQCwYrB6lIrIGcEcdTrZxx0fTwbM6E2XYHrKKuAwm3QILkVnL7sQfO1kxUj6JdS4wOC624zQNETmhzErjd8SHkwoy2WR3S5rskSvhaz9T8BBs0HVjRXBrccfV0IkUOQA3WTKKkwyDyPbUoHfRUGKu2BUElWXFcVgz6YLbI4By6BGJIfPlQolWd6ONcGFcg15Rmw8ZEIAT2POvO7PgZBxBCQhNebifPidr2yfVRLl",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 21075,
+      "createdOn": "2025-12-20T22:14:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69471fdc1c508c5d5ee5dddd",
+          "products": [
+            {
+              "_id": "69471fdc1c508c5d5ee5dddf",
+              "name": "Salad55602",
+              "amount": 123,
+              "price": 21075,
+              "manufacturer": "Sony",
+              "notes": "pT2v1wTF3OcwcHQdw6zQCwYrB6lIrIGcEcdTrZxx0fTwbM6E2XYHrKKuAwm3QILkVnL7sQfO1kxUj6JdS4wOC624zQNETmhzErjd8SHkwoy2WR3S5rskSvhaz9T8BBs0HVjRXBrccfV0IkUOQA3WTKKkwyDyPbUoHfRUGKu2BUElWXFcVgz6YLbI4By6BGJIfPlQolWd6ONcGFcg15Rmw8ZEIAT2POvO7PgZBxBCQhNebifPidr2yfVRLl",
+              "received": false
+            }
+          ],
+          "total_price": 21075,
+          "delivery": null,
+          "changedOn": "2025-12-20T22:14:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69471fdd1c508c5d5ee5de61"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

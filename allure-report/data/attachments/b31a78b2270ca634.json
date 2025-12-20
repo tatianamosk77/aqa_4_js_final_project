@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 22:14:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-bLqfl16RDjwv3ybPkC3N2fVRVGA\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Marielle_Nicolas@gmail.com",
+      "name": "Gabriel Nedra",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 665,
+      "flat": 1169,
+      "phone": "+4820085298",
+      "createdOn": "2025-12-20T22:14:50.000Z",
+      "notes": "tJYgrL60JtbR5apfl4rtMSwbKoenBtq0wROr5mGP21qVbEfKI2zhxbk9sDWHyiMFwJw0OSVtkKifzLBweZUrZ0bYTv2qw4A5GyrEV7eTfLFfZfb9HlBCWF3qrhLuEGKeA2ATjJhpt1u0hId10AbAYMR18heYkZ1xOYnxUxJZu2qx37jcCnOlbvPhTdzpglit2bCRhV5PFqvlBHbEuGWguEnDByMegofN5pPw9VaTQpMyLR6zrE4iKkE4q5",
+      "_id": "69471fda1c508c5d5ee5dd1c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

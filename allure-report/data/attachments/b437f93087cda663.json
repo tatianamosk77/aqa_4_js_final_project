@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 22:14:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-pwjXqsNe+G48RqOudWbJw3KaZYo\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Henry_Johnston@gmail.com",
+      "name": "Elmira Zack",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 36,
+      "flat": 1478,
+      "phone": "+3276888002",
+      "createdOn": "2025-12-20T22:14:48.000Z",
+      "notes": "FMRG4yOc0YaDq5RgakUYGckWRDT0xe7avyUQHb4PzBWA9Yrh0mcJsloX18kLi6QNx8SpGWckA3CQNepH3MyWeJenMDf28jKp5eMMbkF0A1uXSrrNibyB65lDbUkE14cAfTFvbSQV1aquIxi6VGoz5yPBe8H4kNPWQ8tDlEresvP4HZiclQVg3Y370dgeOZKvy6IqQ7gWWSA4owkQXWBQqeQlGUYuWWRFXF0MhZvKCVnALg781VEElb1uhP",
+      "_id": "69471fd81c508c5d5ee5dc49"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

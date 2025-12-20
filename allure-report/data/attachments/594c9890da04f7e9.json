@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 22:15:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1879",
+    "etag": "W/\"757-kmeRur57Anzl48pEac/fM3+o2Sg\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69471fe31c508c5d5ee5e13d",
+        "email": "Sandra_Keebler92@yahoo.com",
+        "name": "Filomena Autumn",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 168,
+        "flat": 7946,
+        "phone": "+8733402788",
+        "createdOn": "2025-12-20T22:14:59.000Z",
+        "notes": "33OBs5NRgfgqfY0cZnbpSlaTSY0UoxZhigBKEB867fVph9b8Z2yyVIwfuopTZ5JiCyjzWASCSYvOH5OQAcNZgUFXNxWWpDr2JNVHRF798er8W1MGwvPCtXB4pd8jU0qI8WoPbnO1BzJ5PRJrQFOXGAbiCFTcXSjJbA6RWaPnePbO8pViTG2M1iKa44LF0MKmtBp2EB7WiihjT73mBWy6VaVVphcIaNkgcpsb5fU8AImuqWfYLkWAAE4Z98"
+      },
+      "products": [
+        {
+          "_id": "69471fe31c508c5d5ee5e14b",
+          "name": "Bike77116",
+          "amount": 824,
+          "price": 46793,
+          "manufacturer": "Xiaomi",
+          "notes": "jXzPGD1SPXEJ8Bl0m1RRGQcIdebeoeUAyAdFmookF43L8EZn6ow6UHpdrQTeMBJ5C3WPgqOjQfXnGfGLvNOz6jJjvpQpg8Z4lj1UmUOoAaCknDBIWyzvq2bYU7E5NM6N3TfhmkcJkL3K4SeeKdU8JMGqrgPpVg1OEAG6LlFGMmbCPk9qw38iwQSZPfLmE0lhtrfEgWQFV7LqvcQ2gBwlANRNOqF3mdqGBFomyYePgTtHUXLT3tY1SVESpV",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 46793,
+      "createdOn": "2025-12-20T22:15:00.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69471fe31c508c5d5ee5e13d",
+          "products": [
+            {
+              "_id": "69471fe31c508c5d5ee5e14b",
+              "name": "Bike77116",
+              "amount": 824,
+              "price": 46793,
+              "manufacturer": "Xiaomi",
+              "notes": "jXzPGD1SPXEJ8Bl0m1RRGQcIdebeoeUAyAdFmookF43L8EZn6ow6UHpdrQTeMBJ5C3WPgqOjQfXnGfGLvNOz6jJjvpQpg8Z4lj1UmUOoAaCknDBIWyzvq2bYU7E5NM6N3TfhmkcJkL3K4SeeKdU8JMGqrgPpVg1OEAG6LlFGMmbCPk9qw38iwQSZPfLmE0lhtrfEgWQFV7LqvcQ2gBwlANRNOqF3mdqGBFomyYePgTtHUXLT3tY1SVESpV",
+              "received": false
+            }
+          ],
+          "total_price": 46793,
+          "delivery": null,
+          "changedOn": "2025-12-20T22:15:00.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69471fe41c508c5d5ee5e1c8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

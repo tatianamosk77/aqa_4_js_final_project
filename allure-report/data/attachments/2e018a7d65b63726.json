@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 22:14:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-sp8auQKUYhbf7wuGcxHNaRvYGCA\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Emelie_Bosco@hotmail.com",
+      "name": "Alanis Lelia",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 1,
+      "flat": 8699,
+      "phone": "+0031773765",
+      "createdOn": "2025-12-20T22:14:29.000Z",
+      "notes": "H2JRnMZe1z6aOdcapK0Q4mgrENHRZ7kaH2AVEoI1R7uaCciz2OdtTL3pfYDPrfSkdCa2whEgF9R8OQW96bWRRQmouibYmiC0QrZX5TRJ2kA6IqrCJoKPUNXr8Z9Ruq4duZmZNbWTD6hoPN4ZgrwxjRHZH9M2StSA8inv5Nxic4R2hbF5GgeGiiOl8tEIHWtvzMmESKYYCMHqj8h1G2fMqYzKbXxDlTs3UU7foCp3D7swzRDh3yyg0AdrFz",
+      "_id": "69471fc51c508c5d5ee5d51b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

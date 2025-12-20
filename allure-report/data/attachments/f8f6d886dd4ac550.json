@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 22:15:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1877",
+    "etag": "W/\"755-/YAA+Q47nhrbwcxVGtYOw8ugdXU\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69471fe81c508c5d5ee5e3c7",
+        "email": "Solon71@gmail.com",
+        "name": "Johnnie Candida",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 294,
+        "flat": 1926,
+        "phone": "+7492164595",
+        "createdOn": "2025-12-20T22:15:04.000Z",
+        "notes": "ZPx3aYXLCexcvHSZceo9oPSEjBGmhPUXxbmfeQ2LUJ1mV3YmpHOqKyuAAD4vQGL98YvE4xiUDARb26W3Bn2TJXTK61gkMRiASP0lN1qJS7HOM65ZGGGdCQdDBA7u5nyo5cJFdQoXBWCCliC9NGtJMnI0oz84zVO8F5qgD7BIGq2QtUzQksIVkm7E6eVNNAcYG7lKYFCKKH2E4HbeXexTOIKe4VXTIE9IkWI7tPJW9L6LMmd529LzHighGH"
+      },
+      "products": [
+        {
+          "_id": "69471fe81c508c5d5ee5e3db",
+          "name": "Keyboard85704",
+          "amount": 354,
+          "price": 19993,
+          "manufacturer": "Xiaomi",
+          "notes": "U6HyqL9ZZHI6zQgGeROS0opWTmafjL4ITkC3uRet9giHrelVaGr3ID804AQecJUpd7TYkifre8o5yCtguF9Uhzarn7yIMhFjhqnblPzWshfRbVeChFJSyCuFeToZNK4NtCVwoszQ6ryzWzC85uu5g9hMTYwlIOKA0EDTTyww6TQpOu4KQO6bdUElW7Y4NXO5Kq5PPi8diVTFcH75AkXyBX3Y7zXnXprjyi1gyUuj4Xop5OdGN7pKgTDk2A",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 19993,
+      "createdOn": "2025-12-20T22:15:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69471fe81c508c5d5ee5e3c7",
+          "products": [
+            {
+              "_id": "69471fe81c508c5d5ee5e3db",
+              "name": "Keyboard85704",
+              "amount": 354,
+              "price": 19993,
+              "manufacturer": "Xiaomi",
+              "notes": "U6HyqL9ZZHI6zQgGeROS0opWTmafjL4ITkC3uRet9giHrelVaGr3ID804AQecJUpd7TYkifre8o5yCtguF9Uhzarn7yIMhFjhqnblPzWshfRbVeChFJSyCuFeToZNK4NtCVwoszQ6ryzWzC85uu5g9hMTYwlIOKA0EDTTyww6TQpOu4KQO6bdUElW7Y4NXO5Kq5PPi8diVTFcH75AkXyBX3Y7zXnXprjyi1gyUuj4Xop5OdGN7pKgTDk2A",
+              "received": false
+            }
+          ],
+          "total_price": 19993,
+          "delivery": null,
+          "changedOn": "2025-12-20T22:15:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69471fe91c508c5d5ee5e472"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 22:14:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-l2c4eMzUuK5IjMsNdYL56UiClzg\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Hubert.Dicki16@hotmail.com",
+      "name": "Test Customer",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 347,
+      "flat": 9605,
+      "phone": "+1733435315",
+      "createdOn": "2025-12-20T22:14:27.000Z",
+      "notes": "Ic31c3ylaXH0Slf7uIcbJa3ib2n6yQ871XIxcf8EifyUkDPQS1eo6DMokm01nQhlFtioAGMvoIcShG8Wq4R8VeBgKGiFCqBlSGJ29cVSlqbTUrCVsU0ksCafmkTAyOao2bDGBGrZYOWcFjI4Hm4tLeKM6NqDSfoUQtqf1pqL6UMVTFNAyCk08MeacJfULhE48F0oEHT2dpLfSepynB89PN4evOuDgSJE2A9KEyAO6IobQUci71QX4ytryx",
+      "_id": "69471fc31c508c5d5ee5d490"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
