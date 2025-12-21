@@ -24,7 +24,13 @@ export function generateOrderData(customerId: string): IOrder {
 
   return {
     _id: faker.database.mongodbObjectId(),
-    status: faker.helpers.arrayElement(["Draft"]),
+    status: faker.helpers.arrayElement([
+      "Draft",
+      "Partially Received",
+      "Canceled",
+      "In Process",
+      "Received",
+    ]),
     customer, // ✅ customer теперь ICustomerFromResponse
     products,
     delivery: null,

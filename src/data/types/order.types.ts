@@ -150,7 +150,7 @@ export interface IOrdersSortedResponse extends IOrdersResponse {
 // export type OrdersSortField = "createdOn" | "status" | "assignedManager" | "orderId" | "delivery" | "totalPrice" | "email";
 
 export type OrdersSortField =
-  | "orderNumber"
+  | "_id"
   | "email"
   | "price"
   | "delivery"
@@ -200,3 +200,13 @@ export interface ICreateOrderResponse {
   IsSuccess: boolean;
   ErrorMessage: string | null;
 }
+
+export const HEADER_TO_SORT_FIELD: Record<OrdersTableHeader, OrdersSortField> = {
+  "Order Number": "_id",
+  Email: "email",
+  Price: "price",
+  Delivery: "delivery",
+  Status: "status",
+  "Assigned Manager": "assignedManager",
+  "Created On": "createdOn",
+};
