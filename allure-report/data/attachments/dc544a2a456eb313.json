@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:15:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-OK6S608S7UqpOMvIPmeem7rnE2w\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6948717d1c508c5d5eee8f44",
+        "email": "Leon.Kuhn87@gmail.com",
+        "name": "Nico Emilie",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 557,
+        "flat": 2235,
+        "phone": "+9272866194",
+        "createdOn": "2025-12-21T22:15:25.000Z",
+        "notes": "VlNbrmmkHlIhOp1HPqNOhIKA5rsbG3mSi67K9zm7FK2mG9qSGlDaL7ye8iqLENSzGUrPJaRNrmPMIswWhBCQWGiiJhwva5NVjVolpDzt5pejojsJzD9zzSPAfyQedP6CBMDcBccRvIvyemDOkHOADMwdxlBtIEK5bFmfcSeQ7i4kKh0K8vaZO0A0vGEB0lvHhWHggKnnbfigO0OI7c6Ap7WfNVb41P03qYwwujBTlQEDGwmI7sUu8hYSqd"
+      },
+      "products": [
+        {
+          "_id": "6948717d1c508c5d5eee8f46",
+          "name": "Shoes66467",
+          "amount": 125,
+          "price": 19625,
+          "manufacturer": "Samsung",
+          "notes": "uSHuVSGkgHjZt8Nb1J8rMPT0e7nClO8TyzLgdXSIoFYXX8LpzSuuZMHTOFjDvXEXqiK8pSxyhFksFmK9s1imZVfIhtIo23pdHn7fe83izpNqhi9QeGmaDzpy4SpgKJyAYXBtBzIcs7DjOavhkYk3l9zyOl8sQvpSGRokB8HozyWGqb19GovpbI3jD2485adZv91rht5ZIRPFsgCHJNtGUmuyCTLJEFWUaqndqt8ex8a5HxpMQE1eG1ybTb",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 19625,
+      "createdOn": "2025-12-21T22:15:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6948717d1c508c5d5eee8f44",
+          "products": [
+            {
+              "_id": "6948717d1c508c5d5eee8f46",
+              "name": "Shoes66467",
+              "amount": 125,
+              "price": 19625,
+              "manufacturer": "Samsung",
+              "notes": "uSHuVSGkgHjZt8Nb1J8rMPT0e7nClO8TyzLgdXSIoFYXX8LpzSuuZMHTOFjDvXEXqiK8pSxyhFksFmK9s1imZVfIhtIo23pdHn7fe83izpNqhi9QeGmaDzpy4SpgKJyAYXBtBzIcs7DjOavhkYk3l9zyOl8sQvpSGRokB8HozyWGqb19GovpbI3jD2485adZv91rht5ZIRPFsgCHJNtGUmuyCTLJEFWUaqndqt8ex8a5HxpMQE1eG1ybTb",
+              "received": false
+            }
+          ],
+          "total_price": 19625,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:15:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6948717d1c508c5d5eee8f5f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

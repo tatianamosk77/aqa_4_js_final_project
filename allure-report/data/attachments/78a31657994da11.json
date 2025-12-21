@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:15:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-Gs+rgNJEAUaIOhhaaMNzZ1saQlw\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ellsworth_Yost@hotmail.com",
+      "name": "Test Customer",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 128,
+      "flat": 9415,
+      "phone": "+1775025475",
+      "createdOn": "2025-12-21T22:15:04.000Z",
+      "notes": "FHY5ozQQXxoVU12ahnLAmWKYNffzsIT1hCZ6CMNSxyoA6zApeLIhnC2Kek1aK14k2nO4scSbQAPnA3WsQoEyVJ9VRAZNd0Fy7jDVSMwpfoWKhEXHM14HujOCnaEmKTGhBNfBXucDJriJkamMTLKNw93qfJ0OJ7IBIYWO0buIFLyBpNzUSXxBfRi2hYGCTkNYbkC4KSC7TjdkIOq0ioYD4Zrlv4UxrmxoRx0WbwbGgkpqg3sdG6la6Q8y1i",
+      "_id": "694871681c508c5d5eee882a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:15:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "536",
+    "etag": "W/\"218-TAp7cPV790/pVWpi3qlvK/tyuZ0\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Craig20@yahoo.com",
+      "name": "Joy Aron",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 475,
+      "flat": 1997,
+      "phone": "+6108932110",
+      "createdOn": "2025-12-21T22:15:04.000Z",
+      "notes": "RQ45RsxMhgOX45iePW9CWffpGT2fPsNfXO8e7TPX5429qC7ovnhnhaYCKQBP7nCnDmmfUhuZhUSGpbsAg8o2ihVxhnZRlYfLrJVTgoPM7bWuLBhFUNoQ7XPzxHx6wqMtTlqfoJComIQRH9TKhtMFDx9IJbbD45DsfBM7sRFK3Fo93wBCV5YCJI6uuJSDzBCeMmfGi5T4PVuUpYr2uxSGQbx2JUs3hHYyMakKh587DbbiPiwxzX5pzch0qF",
+      "_id": "694871681c508c5d5eee8837"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

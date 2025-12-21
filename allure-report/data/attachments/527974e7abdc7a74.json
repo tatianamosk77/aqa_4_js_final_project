@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:15:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "555",
+    "etag": "W/\"22b-8wO/AHdrBwYq7evDik2F3gJgjMQ\"",
+    "keep-alive": "timeout=5, max=76",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Mariano_Abernathy@yahoo.com",
+      "name": "Agustin Winnifred",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 209,
+      "flat": 7769,
+      "phone": "+7300890270",
+      "createdOn": "2025-12-21T22:15:31.000Z",
+      "notes": "nBL6Bdu7XntXVi5vMr0zGZUi34fT0BEEnxyn61sf0tA6wKNu63t8ODtyOSmAQZ35cN9ZJGWBXUr84suA3JXjxbM6AyY9nzczliutDrrNXZMdzCMJ2nNGr8gIZ93SRfW7uY7DNZkeID01nrMVAL4DBYNVkybPvry5SODjBv9afw5pQmLAe3zGm0C6OKSfJEunoR1RQ0AIGtUcBHXGSFg3ansszL223PZA1Ix7rm8EzjMlb0L4j1GkHHgkXx",
+      "_id": "694871831c508c5d5eee92da"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

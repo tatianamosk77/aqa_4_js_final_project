@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:15:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "535",
+    "etag": "W/\"217-6jLWapCmDz2we39A7QWHeF9OCQU\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ricky2@gmail.com",
+      "name": "Lois Palma",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 262,
+      "flat": 596,
+      "phone": "+4604220653",
+      "createdOn": "2025-12-21T22:15:38.000Z",
+      "notes": "3u4rC0ytJJFrW72hyf9kXmLws10iN1H051Ao9yvcTjPtqADzQqT7XBL7eZWorqle0rPIo7L8eJo5MqzpOENvpC37XUCPfuHSHjA5hqt55JDj2oPo6UfqvPttMogKMbaWQGRSx882rO0qtlfTy8jXQ4Zy1d40eV5AEx8YFbHwkbaDBTHPLc4RBfsesoMDdnoqhmGn4uyzorGakoGyeZF3mXCSf3DDuF75LGTKAx5PL1IG7icYsQmpbrv8mK",
+      "_id": "6948718a1c508c5d5eee964e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:15:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2926",
+    "etag": "W/\"b6e-H5zdS6A1JIgHFkPWeZJnqYAJpEo\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694871751c508c5d5eee8c16",
+      "status": "Draft",
+      "customer": {
+        "_id": "694871751c508c5d5eee8bef",
+        "email": "Lera.Kerluke@gmail.com",
+        "name": "Cecile Jordon",
+        "country": "France",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 71,
+        "flat": 9208,
+        "phone": "+6855114047",
+        "createdOn": "2025-12-21T22:15:17.000Z",
+        "notes": "lpiPqyUQHhFPfOz5XS7R0CfoSzOwWjKDD1GvKB1EZdXKHOYxGD41YDmnIM4P0iSkcBV5BE7p7z6ek5iJbYpBwhHlXiLffXsY5oUASLeRxDOwtrly4GYsxTwLU0J5oLTB12KWWtgxjQBiC8Wy2naBXA8vuJE2hlxPlFugOK3Xp3gUJpwUnQ1F6l5UIMvcP4mnlnl8UwO4JG0VuoRHs7EFN57cO8n5TBBDQGFv3GCJqI00LuDrO20H6JiSKS"
+      },
+      "products": [
+        {
+          "_id": "694871751c508c5d5eee8bff",
+          "name": "Bike39074",
+          "amount": 852,
+          "price": 63779,
+          "manufacturer": "Tesla",
+          "notes": "NepuzclRvJXr9jJKYUAJDCKFOjcyiWfsJaLQm7Bj1cHqhKG6ni5l6jQQGy7mtEAS36Sai5PV1PcaxnQG84oJbwcTegeYSLaSDaY2vb2xbHW4iFPAVRzzHnLgLYaq941Dy2sviXVG4NBVsvgCn0tjhuNO6EiNqWFJFUY6OozzGamdNJsIU7bqsybD9kDofLpOJzZx0oYz9CbgjNYmGmiBxlTZwePknWaDRKFDX8KgLYlkUGTmaQD1L3hSkc",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 63779,
+      "createdOn": "2025-12-21T22:15:17.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694871751c508c5d5eee8bef",
+          "products": [
+            {
+              "_id": "694871751c508c5d5eee8bff",
+              "name": "Bike39074",
+              "amount": 852,
+              "price": 63779,
+              "manufacturer": "Tesla",
+              "notes": "NepuzclRvJXr9jJKYUAJDCKFOjcyiWfsJaLQm7Bj1cHqhKG6ni5l6jQQGy7mtEAS36Sai5PV1PcaxnQG84oJbwcTegeYSLaSDaY2vb2xbHW4iFPAVRzzHnLgLYaq941Dy2sviXVG4NBVsvgCn0tjhuNO6EiNqWFJFUY6OozzGamdNJsIU7bqsybD9kDofLpOJzZx0oYz9CbgjNYmGmiBxlTZwePknWaDRKFDX8KgLYlkUGTmaQD1L3hSkc",
+              "received": false
+            }
+          ],
+          "total_price": 63779,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:15:18.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "694871751c508c5d5eee8bef",
+          "products": [
+            {
+              "_id": "694871751c508c5d5eee8bff",
+              "name": "Bike39074",
+              "amount": 852,
+              "price": 63779,
+              "manufacturer": "Tesla",
+              "notes": "NepuzclRvJXr9jJKYUAJDCKFOjcyiWfsJaLQm7Bj1cHqhKG6ni5l6jQQGy7mtEAS36Sai5PV1PcaxnQG84oJbwcTegeYSLaSDaY2vb2xbHW4iFPAVRzzHnLgLYaq941Dy2sviXVG4NBVsvgCn0tjhuNO6EiNqWFJFUY6OozzGamdNJsIU7bqsybD9kDofLpOJzZx0oYz9CbgjNYmGmiBxlTZwePknWaDRKFDX8KgLYlkUGTmaQD1L3hSkc",
+              "received": false
+            }
+          ],
+          "total_price": 63779,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:15:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337ce1c508c5d5e95335d",
+        "username": "student14@gmail.com",
+        "firstName": "Bill",
+        "lastName": "Schuppe",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:26"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

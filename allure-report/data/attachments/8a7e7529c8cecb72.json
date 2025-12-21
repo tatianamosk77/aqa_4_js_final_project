@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:15:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-MjVg3NiemhM1KX0q4QAPNk7RlA0\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Hassie2@yahoo.com",
+      "name": "Leonardo Darren",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 160,
+      "flat": 7233,
+      "phone": "+9987608942",
+      "createdOn": "2025-12-21T22:15:14.000Z",
+      "notes": "DBYPjRGnKVUoP0It3BF8ZoPbh9oUGRfUjCWdNbz93kazgQjdSeLbiTvQ9gMvSnybuZVBqyi7HhzhA1fvyOQjXCKL6JHnO6CfDewbB81kGaMDky9RJUWbVz1v1uLkGJNu78rwCu2pa2WUt86z678Vchb0KmU5loWvcHSaJ2UNmfYKv9uQro2iuTlN9bzltKkZoGS2yuQ9a2rTYHn8jzo8YeZseGVLDieAsRyT4dRB6IbftCtc58ACLODjSz",
+      "_id": "694871721c508c5d5eee8b1a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:15:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1874",
+    "etag": "W/\"752-91zStxycfa4+s+OOkqLY79ICfs0\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6948716e1c508c5d5eee89c6",
+        "email": "Micaela_McGlynn24@yahoo.com",
+        "name": "Juana Leora",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 362,
+        "flat": 4116,
+        "phone": "+0415361171",
+        "createdOn": "2025-12-21T22:15:10.000Z",
+        "notes": "uefvI4easqhhmrh2VoO3VxV52bl7TGqfwAgEGSzVvz7a0nZ1W4hpcKxAin3pDzU5lJ5uQaUIxJQsP7UhKSHoGG4VX5ZN7YzIax9HEAcq81gL2jAYrS1sE0PdN7AdQC60kJr0zbU41RD2Ozz7nSXrMaXnV1iPwf1D0NMzyYreN7UuO8U9aNxFrsjjPWm3SIX3yjrmJfQOpv042stGWsFKgKl5kSrcPbQo6FQEWyzv8ooVmLpzttW6eYTZU4"
+      },
+      "products": [
+        {
+          "_id": "6948716e1c508c5d5eee89d9",
+          "name": "Shoes40515",
+          "amount": 895,
+          "price": 8449,
+          "manufacturer": "Google",
+          "notes": "66ezF4DcXOhds1E06yZpdhdBoS4efrbbx4uNOnSQ1adCrkf5lPdyrbuBUD4LZRj1XQTTQ8ZeOtMwr4VglBuPL5xQSBkJ6iemG7evSIl9kYeuta5Km66IWoXIAcp8PL6aM0BbhwPe7P8bRQmx4Y32S4YH9NijsXEnbAcOs5aIj8jLd5IXXFe3JQPpyOopNIaVA4DZ90ioXGiYXc43lFh7zPl6eS0yUlqAY42zJm0T8A2gTK2ihtbZ9D8DNl",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 8449,
+      "createdOn": "2025-12-21T22:15:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6948716e1c508c5d5eee89c6",
+          "products": [
+            {
+              "_id": "6948716e1c508c5d5eee89d9",
+              "name": "Shoes40515",
+              "amount": 895,
+              "price": 8449,
+              "manufacturer": "Google",
+              "notes": "66ezF4DcXOhds1E06yZpdhdBoS4efrbbx4uNOnSQ1adCrkf5lPdyrbuBUD4LZRj1XQTTQ8ZeOtMwr4VglBuPL5xQSBkJ6iemG7evSIl9kYeuta5Km66IWoXIAcp8PL6aM0BbhwPe7P8bRQmx4Y32S4YH9NijsXEnbAcOs5aIj8jLd5IXXFe3JQPpyOopNIaVA4DZ90ioXGiYXc43lFh7zPl6eS0yUlqAY42zJm0T8A2gTK2ihtbZ9D8DNl",
+              "received": false
+            }
+          ],
+          "total_price": 8449,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:15:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6948716e1c508c5d5eee89ee"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

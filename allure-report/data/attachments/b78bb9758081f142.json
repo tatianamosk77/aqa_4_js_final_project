@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:15:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1874",
+    "etag": "W/\"752-dYGkr84Z3olU0dPROrJo9a8WGyI\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6948717d1c508c5d5eee8f4f",
+        "email": "Monroe.Buckridge@yahoo.com",
+        "name": "Anna Mustafa",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 734,
+        "flat": 1364,
+        "phone": "+5644560047",
+        "createdOn": "2025-12-21T22:15:25.000Z",
+        "notes": "a12fU1YRUQfIXUi59pimv1XVQH49b7xZKsHCaTzUDN8NMqWOACk7dd7usCUShWg9Nq9zqIHGzfXd4BBC6eaQP4213KzJHYGTTTIS50a9gkoSU9Cib0PczcMO3y19349fqogEUMSnXTCGoorlFRldYecbR8bzfH9EDYqH6kDoJ6S65ue2gJbGVnQukMpI9ehuD14ZF5fq7Pz0rDlk4wXatlc7wtQbh2pU3fMaaz5jbYU0cz1OuUEHa5DN1u"
+      },
+      "products": [
+        {
+          "_id": "6948717d1c508c5d5eee8f51",
+          "name": "Towels26808",
+          "amount": 6,
+          "price": 30779,
+          "manufacturer": "Tesla",
+          "notes": "vAICpyKQzt5b4lLFLQhL8SoTdGDEx9RcU7soiMQtrdqJ7PXP8ZmjVpvFCScBcr6XoUirzdw4t4RwvlpHKy0dpPmsXluKEReZ4Zunfu6I7kLv9qk7OzwJuU6PNmc9meguwGwK3svehYe4araAj4yYbo1i6UfrRUYswLoEc1A6zHquRAJfSDAoErTXaeFHVS3UO0s2PcbfGx8e3TA5hYYvkZtrRrSrONrzHTLfGivEmut8NwggHQHirUBgPD",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 30779,
+      "createdOn": "2025-12-21T22:15:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6948717d1c508c5d5eee8f4f",
+          "products": [
+            {
+              "_id": "6948717d1c508c5d5eee8f51",
+              "name": "Towels26808",
+              "amount": 6,
+              "price": 30779,
+              "manufacturer": "Tesla",
+              "notes": "vAICpyKQzt5b4lLFLQhL8SoTdGDEx9RcU7soiMQtrdqJ7PXP8ZmjVpvFCScBcr6XoUirzdw4t4RwvlpHKy0dpPmsXluKEReZ4Zunfu6I7kLv9qk7OzwJuU6PNmc9meguwGwK3svehYe4araAj4yYbo1i6UfrRUYswLoEc1A6zHquRAJfSDAoErTXaeFHVS3UO0s2PcbfGx8e3TA5hYYvkZtrRrSrONrzHTLfGivEmut8NwggHQHirUBgPD",
+              "received": false
+            }
+          ],
+          "total_price": 30779,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:15:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6948717e1c508c5d5eee8f87"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

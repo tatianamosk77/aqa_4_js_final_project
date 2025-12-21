@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:15:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "551",
+    "etag": "W/\"227-qkfRyoJ0gCIGx1CPMvc7yZCPR68\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Murray_Hermann@yahoo.com",
+      "name": "Justine Margarita",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 504,
+      "flat": 9399,
+      "phone": "+8098674750",
+      "createdOn": "2025-12-21T22:15:16.000Z",
+      "notes": "5Ka8gQlAE8B2A4xaFAtcFo3yzLUk0riLcSeTzx375rYRaC0UBDjm4wwrngzUK529VG0jqm3L2o9O8y7va8vIsLXsDo2613c6UtFmwm3MQiZUM8Vh1IxUoFXCg0IZlfWvC16jzYM1U0rOzLEMTAQQ5WH5QttdPncOEogJiaStwtXfqRxCq76TG8Erdi78OvUHsMTb1Ltksx7pJuk1Vnv96RmfeMyjtycV3oP6rufWCZgcVr0FOt7mTeiGDO",
+      "_id": "694871741c508c5d5eee8b98"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

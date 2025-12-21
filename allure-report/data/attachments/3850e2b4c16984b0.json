@@ -1,0 +1,161 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:15:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4151",
+    "etag": "W/\"1037-VIb7oeQ8QVT28ctheq5mFy+ye8k\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694871891c508c5d5eee9614",
+      "status": "Draft",
+      "customer": {
+        "_id": "6948718a1c508c5d5eee964e",
+        "email": "Ricky2@gmail.com",
+        "name": "Lois Palma",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 262,
+        "flat": 596,
+        "phone": "+4604220653",
+        "createdOn": "2025-12-21T22:15:38.000Z",
+        "notes": "3u4rC0ytJJFrW72hyf9kXmLws10iN1H051Ao9yvcTjPtqADzQqT7XBL7eZWorqle0rPIo7L8eJo5MqzpOENvpC37XUCPfuHSHjA5hqt55JDj2oPo6UfqvPttMogKMbaWQGRSx882rO0qtlfTy8jXQ4Zy1d40eV5AEx8YFbHwkbaDBTHPLc4RBfsesoMDdnoqhmGn4uyzorGakoGyeZF3mXCSf3DDuF75LGTKAx5PL1IG7icYsQmpbrv8mK"
+      },
+      "products": [
+        {
+          "_id": "6948718a1c508c5d5eee9650",
+          "name": "Tuna91927",
+          "amount": 716,
+          "price": 42804,
+          "manufacturer": "Google",
+          "notes": "R5bDRWlKg9XkClizrrYLeXPWRMH5fAoSHsdxDQ4uxT6dcTgPjgbxWQvUe9NhOZ2fV3wRmx14VOYl5RBJptWwlVizMuegbbzLK4onUNUdy0ehzo0h8EBHk4vWim8aazyMVkdLr1mLwyZOtTuNkVful6GqnTLhLBp1sHPySbF8x7bSF8l6yPqR1RjAokMzjgzLVQDN2plIQ63fQp56ayJjORHhFdspPwEalXfCstEZygsEElOjQ61QmLhsSu",
+          "received": false
+        },
+        {
+          "_id": "6948718b1c508c5d5eee96b1",
+          "name": "Pizza53283",
+          "amount": 543,
+          "price": 81641,
+          "manufacturer": "Google",
+          "notes": "PkhRjoshgZkEBbULxIL1dmXc90jePOJ3yAueKJoUn8vJttbtmG6gHT26ljANAL4pIBrKMbVJnj2kV6WkTu2xVjGmwYjLKmqAOVrlJAS44wRi33JkS6cryPdg4wNs4oEUUaPhQU0SV5WXkynyrHimqqcZo5g6hlUoFugfiOA4o7VzKPqJ6sxQdd39w0XNFea8TRSQBzWDK08aG7mxCgUBuNnay0PSVMy5QtfV95lsWlc919KoYQnq78sDua",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 124445,
+      "createdOn": "2025-12-21T22:15:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6948718a1c508c5d5eee964e",
+          "products": [
+            {
+              "_id": "694871891c508c5d5eee95d2",
+              "name": "Table56432",
+              "amount": 369,
+              "price": 30667,
+              "manufacturer": "Microsoft",
+              "notes": "0JvNVygZlQkU3o3vQzDnv9WnRkO4J9Q9xjCIJjhTWMkn6aIcjVqsW12T4jMiWaU7VILot9pIb11QuSFbObaECa26c3ZQoUg9kmUAVZUURBOHWkLJeg8S9QgcWMTyXeC4ra8zhLfgmaG8K9qcwanOVia1V7JdCz1IYwIbZsDHFp64ZoPVOnqKcDOhKkrJHtSBBa7pPRpF8hjS8ceXLe9tIyO9WVoZLv6X8pIWhoij6sinpWAg3xgKoDri45",
+              "received": false
+            }
+          ],
+          "total_price": 124445,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:15:40.000Z",
+          "action": "Customer changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694871881c508c5d5eee95a7",
+          "products": [
+            {
+              "_id": "6948718a1c508c5d5eee9650",
+              "name": "Tuna91927",
+              "amount": 716,
+              "price": 42804,
+              "manufacturer": "Google",
+              "notes": "R5bDRWlKg9XkClizrrYLeXPWRMH5fAoSHsdxDQ4uxT6dcTgPjgbxWQvUe9NhOZ2fV3wRmx14VOYl5RBJptWwlVizMuegbbzLK4onUNUdy0ehzo0h8EBHk4vWim8aazyMVkdLr1mLwyZOtTuNkVful6GqnTLhLBp1sHPySbF8x7bSF8l6yPqR1RjAokMzjgzLVQDN2plIQ63fQp56ayJjORHhFdspPwEalXfCstEZygsEElOjQ61QmLhsSu",
+              "received": false
+            },
+            {
+              "_id": "6948718b1c508c5d5eee96b1",
+              "name": "Pizza53283",
+              "amount": 543,
+              "price": 81641,
+              "manufacturer": "Google",
+              "notes": "PkhRjoshgZkEBbULxIL1dmXc90jePOJ3yAueKJoUn8vJttbtmG6gHT26ljANAL4pIBrKMbVJnj2kV6WkTu2xVjGmwYjLKmqAOVrlJAS44wRi33JkS6cryPdg4wNs4oEUUaPhQU0SV5WXkynyrHimqqcZo5g6hlUoFugfiOA4o7VzKPqJ6sxQdd39w0XNFea8TRSQBzWDK08aG7mxCgUBuNnay0PSVMy5QtfV95lsWlc919KoYQnq78sDua",
+              "received": false
+            }
+          ],
+          "total_price": 124445,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:15:40.000Z",
+          "action": "Requested products changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694871881c508c5d5eee95a7",
+          "products": [
+            {
+              "_id": "694871891c508c5d5eee95d2",
+              "name": "Table56432",
+              "amount": 369,
+              "price": 30667,
+              "manufacturer": "Microsoft",
+              "notes": "0JvNVygZlQkU3o3vQzDnv9WnRkO4J9Q9xjCIJjhTWMkn6aIcjVqsW12T4jMiWaU7VILot9pIb11QuSFbObaECa26c3ZQoUg9kmUAVZUURBOHWkLJeg8S9QgcWMTyXeC4ra8zhLfgmaG8K9qcwanOVia1V7JdCz1IYwIbZsDHFp64ZoPVOnqKcDOhKkrJHtSBBa7pPRpF8hjS8ceXLe9tIyO9WVoZLv6X8pIWhoij6sinpWAg3xgKoDri45",
+              "received": false
+            }
+          ],
+          "total_price": 30667,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:15:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

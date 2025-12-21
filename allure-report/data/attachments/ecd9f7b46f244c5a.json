@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:15:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-JsbqVHCylw55dyR8w1U1j3WZINA\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ada43@gmail.com",
+      "name": "Buck Anita",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 39,
+      "flat": 1489,
+      "phone": "+0770050873",
+      "createdOn": "2025-12-21T22:15:39.000Z",
+      "notes": "AEPLit3nQh5WSKi9Ra2UTKL8t9FKb8dQOc6Hjput0IYAzVeteveMiHtrxEIXuUVJDtco2O8jJyR5Sp5s64bIzHOahtt7kdDVyiNQUF7eVPEjTvetjV0TkIeKQjC63UGixLq50MY3Cy5mFWG0lY4P5VtAO6ad0NJixJGiNCH69YaOKxK5DEeoaec3q4SohC8ru39Em4Bf9KTlglXU5ROJYp0j1OyjSycjWjtPJJimfeYiCP7gT0Av88PMxD",
+      "_id": "6948718b1c508c5d5eee96df"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

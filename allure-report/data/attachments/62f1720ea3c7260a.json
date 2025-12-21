@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:15:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "297",
+    "etag": "W/\"129-rFiivt6RocdgfFTyTrVq7whnjig\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Neal.Pouros@hotmail.com",
+      "name": "Lavon Princess",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 646,
+      "flat": 6699,
+      "phone": "+2890398327",
+      "createdOn": "2025-12-21T22:15:07.000Z",
+      "notes": "",
+      "_id": "6948716b1c508c5d5eee8906"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

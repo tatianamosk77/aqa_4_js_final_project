@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:15:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1981",
+    "etag": "W/\"7bd-Tw8rN8C5LTO2gxPC5IGqfUcjHv4\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6948717b1c508c5d5eee8e66",
+      "status": "Draft",
+      "customer": {
+        "_id": "6948717a1c508c5d5eee8e2a",
+        "email": "Chesley_Bogisich51@hotmail.com",
+        "name": "Makayla Eliane",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 653,
+        "flat": 9341,
+        "phone": "+8390251499",
+        "createdOn": "2025-12-21T22:15:22.000Z",
+        "notes": "9QQR6ou9VoZT8vXqsryich06PhLi5Ktru1aC8zu6aCs5J7bKJ1be84HvXxPBgpmpJKw9jZRizoZKRXJFrAGzcNBxjgfBMZvl6zCBEBDlS4cRrxRz0LTPjqKfS59f6GeemTLlLR7ZEE7Sw6xsog1lzOa6yCstVMG7TYEqMCyIkqP5i00SjysaUnuNgEbTZQTmADQh3yWINfrjLezyJaeXuzQE4RF7ZRgpXnnpYotYgsE5kKfjY0iiC8UvCt"
+      },
+      "products": [
+        {
+          "_id": "6948717b1c508c5d5eee8e34",
+          "name": "Towels282",
+          "amount": 480,
+          "price": 30326,
+          "manufacturer": "Xiaomi",
+          "notes": "GoHv4r6mFleUkyxUzoeYEpFuTZyAcL0drc1Gu9wHvlchTtaMJ9wDD3Tvj86yAvg7x0Ohk99VKRByGlOB5R13XTcmKqvzX8GV1KRqMbXAj7OdUjt3qTOn4C08BfO0wm11Tt12x7EbuEpyXin8pCe38lVM552z0VlXLyTGCroM4U7gIguTB1NdHoWBalTNS0X44yw9LvV1nL0XNJ2alyGEH9z7QwU0P9yXJhiPoAf4og2yzj6u9PGkdafwAr",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 30326,
+      "createdOn": "2025-12-21T22:15:23.000Z",
+      "comments": [
+        {
+          "text": "autotest comment",
+          "createdOn": "2025-12-21T22:15:23.000Z",
+          "_id": "6948717b1c508c5d5eee8e8d"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6948717a1c508c5d5eee8e2a",
+          "products": [
+            {
+              "_id": "6948717b1c508c5d5eee8e34",
+              "name": "Towels282",
+              "amount": 480,
+              "price": 30326,
+              "manufacturer": "Xiaomi",
+              "notes": "GoHv4r6mFleUkyxUzoeYEpFuTZyAcL0drc1Gu9wHvlchTtaMJ9wDD3Tvj86yAvg7x0Ohk99VKRByGlOB5R13XTcmKqvzX8GV1KRqMbXAj7OdUjt3qTOn4C08BfO0wm11Tt12x7EbuEpyXin8pCe38lVM552z0VlXLyTGCroM4U7gIguTB1NdHoWBalTNS0X44yw9LvV1nL0XNJ2alyGEH9z7QwU0P9yXJhiPoAf4og2yzj6u9PGkdafwAr",
+              "received": false
+            }
+          ],
+          "total_price": 30326,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:15:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
