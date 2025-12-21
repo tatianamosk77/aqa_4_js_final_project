@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:15:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "282",
+    "etag": "W/\"11a-vWjly7CuFvVbmjkr1baYkwhk4RE\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Steve_Hamill38@gmail.com",
+      "name": "Amy Leola",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 867,
+      "flat": 9924,
+      "phone": "+2664634955",
+      "createdOn": "2025-12-21T18:15:22.000Z",
+      "_id": "6948393a1c508c5d5ee98ffd"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

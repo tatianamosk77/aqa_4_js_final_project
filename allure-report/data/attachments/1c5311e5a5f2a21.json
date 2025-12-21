@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:15:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "563",
+    "etag": "W/\"233-GiLaWzoj3ZEqaWeFiuBiWOU2BFg\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Helena_Runolfsdottir6@hotmail.com",
+      "name": "Test Customer",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 554,
+      "flat": 6652,
+      "phone": "+1418347533",
+      "createdOn": "2025-12-21T18:15:17.000Z",
+      "notes": "KrepfLoIGODyFYrWljRGrEfIDSDft9WYgwakyYclswyNH0n9TBM6AjRS8WK5DbH7x5JSY1zraPF8zcYfEvR4K3O6VmiWvZdffLLvt1ppmw5FJJrFHDwz3aI59Twq8WT4wd9C0SRZMophijsPIkt1PwFSFJkSj2cyZlSjD2Q6lMKPkPGfriJbH6tCuDt70v4d47aeJRGsTP3tVfSz74RojDf4xVTGbwt9koKqNbd1J93ocCeKu9qji0nKlV",
+      "_id": "694839351c508c5d5ee98d73"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

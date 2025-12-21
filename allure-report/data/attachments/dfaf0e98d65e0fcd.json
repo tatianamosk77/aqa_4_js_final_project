@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:15:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "538",
+    "etag": "W/\"21a-rm9YqdXJhvUhnXmwtazYqym0M/s\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Douglas.Hintz@hotmail.com",
+      "name": "Ernie Kim",
+      "country": "Germany",
+      "city": "q",
+      "street": "testStreet",
+      "house": 858,
+      "flat": 4592,
+      "phone": "+2662616347",
+      "createdOn": "2025-12-21T18:15:19.000Z",
+      "notes": "eOEvPpmh4XFq0CDr8RBGsYiR7rruEyPDiUbULFFlIcSrzdtuFIAw1pLWBtMZJcuIQ31JzJyoVeIvyONxNQu82GDPqtEwynYxPTVLbmV6UMtcvhASyXDqj4HxgyHmj3X8vVCDKKvW91aZg28N2pdQKXaJTnUvZ60zBowTdxjXsvH0LztuAneHV6nL98Ju4XPbTW7q4hZXCg3PES3xCDVU8fpC3pVf5zYlRnUJm4C1Pgw75abXBLuNqk5QCB",
+      "_id": "694839371c508c5d5ee98e2e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

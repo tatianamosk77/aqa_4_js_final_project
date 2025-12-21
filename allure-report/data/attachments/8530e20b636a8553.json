@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:15:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "539",
+    "etag": "W/\"21b-YuJ2uHPYJjR4cDRLbWrTtBXnp4I\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Pat18@gmail.com",
+      "name": "Elna Chandler",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 811,
+      "flat": 5040,
+      "phone": "+2648167797",
+      "createdOn": "2025-12-21T18:15:41.000Z",
+      "notes": "mN556ZbBvFNH5QogOCEex7Ylm5iZJ2LyY9qBsbbPup3qaUeFTThC5ave1JaTzByZQ0LfaiyaAd9XscXsOVWb2SvnXpwFT7AdKgDCqZPf0CfzYkPMq6fAmkhqqJB5NEUUjb33nb1ploiw4fC1GjPM886ETuU0G98nH3h7dHBFMs9b65utvYPhv3TRBIxTa3HRlmSXPRhDoXbwvIj3A740rFpkTzbGgUCuKHCjPX3x5mfhZS6bhqyDOcry7a",
+      "_id": "6948394d1c508c5d5ee99c77"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

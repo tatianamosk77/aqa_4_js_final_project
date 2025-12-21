@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:16:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-t6FfpVX0beEMv/1InOP5Tudq1ZU\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Wilson.Fritsch@yahoo.com",
+      "name": "Serena Mckayla",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 777,
+      "flat": 6829,
+      "phone": "+8161600060",
+      "createdOn": "2025-12-21T18:16:01.000Z",
+      "notes": "b04BhC7CMoEOhnauUGGmyQCIG3Ovh67TUzOg09SvQaOcpk0Dq39Gh89FnF2k1S9M5oklJ0LJt85sLBViaSQfwCKEFDg6rjiZs2Krcou3m1hxNTan7kntuDBkQUzGb52XklRkZ0uzzgt58rQEsYUbcZLrgWLTl2S5ALAqRuqvVJdEllZNv3u2Ko4LNnnY6M55bsEL8Ta5uwhbBtgT9cvE6gxo4SuRNsI8K4jrewUspLyXbS6pqVxek10VmI",
+      "_id": "694839611c508c5d5ee9a9c6"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

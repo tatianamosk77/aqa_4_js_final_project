@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:15:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "304",
+    "etag": "W/\"130-0i9ieIXt+9WWfOHCVN2HwNz9wRg\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Izaiah_Aufderhar85@gmail.com",
+      "name": "Augustus Preston",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 151,
+      "flat": 3420,
+      "phone": "+2560606835",
+      "createdOn": "2025-12-21T18:15:24.000Z",
+      "notes": "",
+      "_id": "6948393c1c508c5d5ee990d5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

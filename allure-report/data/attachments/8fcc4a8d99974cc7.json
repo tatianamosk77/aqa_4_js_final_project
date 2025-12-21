@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:15:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "553",
+    "etag": "W/\"229-yNOsUHfACkUqYsfBRfR62LGS6K0\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Talon_Daniel@hotmail.com",
+      "name": "Rollin Vilma",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 392,
+      "flat": 9066,
+      "phone": "+1793573189",
+      "createdOn": "2025-12-21T18:15:59.000Z",
+      "notes": "CJVsIeAh4fMJU6bjyVN8r26fyAVurhZQa4481qtN2YVaX0IbmWWw6Out9q0V9OBrObGneGfEJVjHEgCsiQ0TzO5Lgvv0b9iPBX76LZNSMap8Yof19MhUR9nksCdpal1Rjj6LBiAaQ1DNuCFMDUOPnmsPWh3gZeAFvpsQ6WMoEl0Kn82J6cdJabup9VqxpMVkkQO0QMTXTu4mDtFI1DaK1uaNWGZON2gbfdOo8Kmr9JcFOu1TryHHHu4KlV",
+      "_id": "6948395f1c508c5d5ee9a8c2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:16:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-34puYSoL11z8/14+yGLwaxxeZyk\"",
+    "keep-alive": "timeout=5, max=74",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694839641c508c5d5ee9aaa6",
+        "email": "Ima.McGlynn-Reichel62@hotmail.com",
+        "name": "Darryl Chasity",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 222,
+        "flat": 2794,
+        "phone": "+7913011513",
+        "createdOn": "2025-12-21T18:16:04.000Z",
+        "notes": "KVBHRFgzDenbPFRzkaslAGkrXmcaExzRqcHrkVRGY3Oy0LIhqxNUpkqQgkW7RJxpO8uXtGMg7kdN5sznl2tNY7zyP6KzaEQLD1qEvakCB95adfJorRWJRx2cuF28VigFJntltg3m4COoVaL8WqrumxvsO2orySEfbMTizF3CvW3bpwrZkdh1Fni3wAWnl4JOVmkemmtpNWXlBcRVcVUdmkfxNc4sUtUH9GY2SAyri3WeYokjIN9Wgl2XC4"
+      },
+      "products": [
+        {
+          "_id": "694839641c508c5d5ee9aaac",
+          "name": "Chips90470",
+          "amount": 653,
+          "price": 95534,
+          "manufacturer": "Tesla",
+          "notes": "k0tDwO0FgDcz7kQK1GoUR8HuAdki7Z9ftvTz3yNvN2OhU2xklp0VebA70eyHIyhVk38Bv4a6A7IBf9X7tKdJWj2BlRWxgnhkE1On5MEZQVPSNHIMlxOQhzQ4h2eRBgx4cIua0WuxX3s04C9G81gupaX6G3D4OB6CwDfPUFNImS4Sy92dcACCGxCLDBrWbx5b1CbmFLH3kUurfOjPV81Oa5pwyOIflxHeD2VOsqqxGcYWpWov8DuW0xFsR3",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 95534,
+      "createdOn": "2025-12-21T18:16:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694839641c508c5d5ee9aaa6",
+          "products": [
+            {
+              "_id": "694839641c508c5d5ee9aaac",
+              "name": "Chips90470",
+              "amount": 653,
+              "price": 95534,
+              "manufacturer": "Tesla",
+              "notes": "k0tDwO0FgDcz7kQK1GoUR8HuAdki7Z9ftvTz3yNvN2OhU2xklp0VebA70eyHIyhVk38Bv4a6A7IBf9X7tKdJWj2BlRWxgnhkE1On5MEZQVPSNHIMlxOQhzQ4h2eRBgx4cIua0WuxX3s04C9G81gupaX6G3D4OB6CwDfPUFNImS4Sy92dcACCGxCLDBrWbx5b1CbmFLH3kUurfOjPV81Oa5pwyOIflxHeD2VOsqqxGcYWpWov8DuW0xFsR3",
+              "received": false
+            }
+          ],
+          "total_price": 95534,
+          "delivery": null,
+          "changedOn": "2025-12-21T18:16:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694839641c508c5d5ee9aacd"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

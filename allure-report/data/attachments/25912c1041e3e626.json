@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:15:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-91doeh8OAv+2mtsAlZmRmV4KFtA\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Norberto.Marvin@gmail.com",
+      "name": "Letitia Dejon",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 597,
+      "flat": 1384,
+      "phone": "+1262453919",
+      "createdOn": "2025-12-21T18:15:42.000Z",
+      "notes": "BOde8wF1F1DmA9aRSENl1KnNKzEqGObTDTAyWlxKqHvZmAtI7eDoIUhL0pWACWOvq1wtOl3P9xKTDv7cZsoj8Kxz4cwPAPZQiHMgYCetE8wQN85lEDVf9JTaNWD9AKJE8iL2lq552CcpBusC8iIrNIPqQinZG9AQaYxvOm0tpMx3UGLEYfhGVVlJBkuvzXCHkrL82N9WBFdt1CrD3lkUB2LFtNEuhFCjQaQFIHFvHD2gmsVBRC5R6W8XIl",
+      "_id": "6948394e1c508c5d5ee99d53"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

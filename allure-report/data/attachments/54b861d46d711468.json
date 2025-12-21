@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:16:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2930",
+    "etag": "W/\"b72-U+x0LHQmNATPqHhUOkcSQL6fk98\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694839681c508c5d5ee9ac65",
+      "status": "Draft",
+      "customer": {
+        "_id": "694839671c508c5d5ee9ac42",
+        "email": "Abigale.Reichel@yahoo.com",
+        "name": "Brisa Eveline",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 124,
+        "flat": 784,
+        "phone": "+8512490711",
+        "createdOn": "2025-12-21T18:16:07.000Z",
+        "notes": "eQiHIPrnbJmdEqf8vjwbBRxtTORCIvHjFWg3qXE12OFaqwBQ2SrzaFiC3IaMb0uTQ7Bw8gZfKdIpZfsAssF2afyeWcxAZMveSfSm9U8fHa0A6NJNnSz33I5t7k9DAEHiLtkq5Aww2syykk6eMICk7SR1KxVC3MgGsCXQrEfO4dkpFCZgW0o98TStgVV8pyobVpAYElLSJej8ap0DtO41MjvTNGtL61cfFwDd4IUmr6HFbAeRp6cNV5awHD"
+      },
+      "products": [
+        {
+          "_id": "694839671c508c5d5ee9ac44",
+          "name": "Towels95688",
+          "amount": 663,
+          "price": 3905,
+          "manufacturer": "Apple",
+          "notes": "DkRt24ELtl0fyOAIMXJOqTxE5dCqWUH6hSp0VG73UojwOTleOpEKA6dHnfpBrjPpqjU9UuJHXXO5T7ubhzN97TmYs7uS7dagdJXqwk14ejG8WAdoxPEZf7lzyaXTw38ZzjDz7fWv68yiPv2O7iQRbSmr2cBZHmiwyeSWIB1JUGtTZmLB2nEhaJkheZ9pUPsuLsW746bZdQByGOh9oNCE5rmipY6DR3VlDT19M9FYHOhU7OSSzHjsL039yO",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 3905,
+      "createdOn": "2025-12-21T18:16:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694839671c508c5d5ee9ac42",
+          "products": [
+            {
+              "_id": "694839671c508c5d5ee9ac44",
+              "name": "Towels95688",
+              "amount": 663,
+              "price": 3905,
+              "manufacturer": "Apple",
+              "notes": "DkRt24ELtl0fyOAIMXJOqTxE5dCqWUH6hSp0VG73UojwOTleOpEKA6dHnfpBrjPpqjU9UuJHXXO5T7ubhzN97TmYs7uS7dagdJXqwk14ejG8WAdoxPEZf7lzyaXTw38ZzjDz7fWv68yiPv2O7iQRbSmr2cBZHmiwyeSWIB1JUGtTZmLB2nEhaJkheZ9pUPsuLsW746bZdQByGOh9oNCE5rmipY6DR3VlDT19M9FYHOhU7OSSzHjsL039yO",
+              "received": false
+            }
+          ],
+          "total_price": 3905,
+          "delivery": null,
+          "changedOn": "2025-12-21T18:16:08.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "694839671c508c5d5ee9ac42",
+          "products": [
+            {
+              "_id": "694839671c508c5d5ee9ac44",
+              "name": "Towels95688",
+              "amount": 663,
+              "price": 3905,
+              "manufacturer": "Apple",
+              "notes": "DkRt24ELtl0fyOAIMXJOqTxE5dCqWUH6hSp0VG73UojwOTleOpEKA6dHnfpBrjPpqjU9UuJHXXO5T7ubhzN97TmYs7uS7dagdJXqwk14ejG8WAdoxPEZf7lzyaXTw38ZzjDz7fWv68yiPv2O7iQRbSmr2cBZHmiwyeSWIB1JUGtTZmLB2nEhaJkheZ9pUPsuLsW746bZdQByGOh9oNCE5rmipY6DR3VlDT19M9FYHOhU7OSSzHjsL039yO",
+              "received": false
+            }
+          ],
+          "total_price": 3905,
+          "delivery": null,
+          "changedOn": "2025-12-21T18:16:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337ce1c508c5d5e95335d",
+        "username": "student14@gmail.com",
+        "firstName": "Bill",
+        "lastName": "Schuppe",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:26"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

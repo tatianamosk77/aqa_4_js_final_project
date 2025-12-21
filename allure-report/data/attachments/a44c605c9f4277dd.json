@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:15:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "96",
+    "etag": "W/\"60-vIRG3SMKR8i5B67g03u1dXU2W+k\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "IsSuccess": false,
+    "ErrorMessage": "Customer with email 'Robin.Little@yahoo.com' already exists"
+  }
+}

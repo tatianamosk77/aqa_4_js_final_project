@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:16:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1877",
+    "etag": "W/\"755-FsuiEdaq4mk1Pa7yGfLnW1kK3fw\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694839651c508c5d5ee9ab46",
+      "status": "Draft",
+      "customer": {
+        "_id": "694839651c508c5d5ee9ab10",
+        "email": "Jameson_Haag47@yahoo.com",
+        "name": "Paula Colby",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 262,
+        "flat": 7830,
+        "phone": "+2144999655",
+        "createdOn": "2025-12-21T18:16:05.000Z",
+        "notes": "AMSRJgY18Qm9rmRZvF1qxUb7mhnFzTP4aw6z8eJo1LHEVAgq6M3905LJvlF8dSLsw0cqm5izk7bPLiphOepxJqqHXE4RbG92aMf5VI4Bhfnu7EELWLuxSbuYhh1KLsn4nzxIq1jXBQYWbNgDGeqeT1rZ6CBhp25IkfWq5lQkm6wrGwaj4lEjYIGRhno1tHlpgkraM3x6Bn6tx6GoegdUC3ITrmvyvwZrlyhTSaJAzg13UnFrZXpw5wetDW"
+      },
+      "products": [
+        {
+          "_id": "694839651c508c5d5ee9ab15",
+          "name": "Hat87199",
+          "amount": 979,
+          "price": 54197,
+          "manufacturer": "Microsoft",
+          "notes": "ijdoP4WUdWio3AXJZhsTLsBTneVPQEV2EoXq08lzeDEa0ZSKgEHLbbGeFyZSUwuQjkviMyJ5zbAOVyvzTq30MqqcXp96oeJk8cDlyRvYu4VPCetyHXOjD4GUf6mcye3eLrFjaaNejvV2RfWkciaXyOKGsxLhGbSOFn39vwqP4Thx08wnZlwEYrxWGHvWkbGgXX7TMp9sTN27Hsv68XEIlO8EiID6z20ENxUuPy8WvV51dGd5uDvFCxXrFA",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 54197,
+      "createdOn": "2025-12-21T18:16:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694839651c508c5d5ee9ab10",
+          "products": [
+            {
+              "_id": "694839651c508c5d5ee9ab15",
+              "name": "Hat87199",
+              "amount": 979,
+              "price": 54197,
+              "manufacturer": "Microsoft",
+              "notes": "ijdoP4WUdWio3AXJZhsTLsBTneVPQEV2EoXq08lzeDEa0ZSKgEHLbbGeFyZSUwuQjkviMyJ5zbAOVyvzTq30MqqcXp96oeJk8cDlyRvYu4VPCetyHXOjD4GUf6mcye3eLrFjaaNejvV2RfWkciaXyOKGsxLhGbSOFn39vwqP4Thx08wnZlwEYrxWGHvWkbGgXX7TMp9sTN27Hsv68XEIlO8EiID6z20ENxUuPy8WvV51dGd5uDvFCxXrFA",
+              "received": false
+            }
+          ],
+          "total_price": 54197,
+          "delivery": null,
+          "changedOn": "2025-12-21T18:16:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

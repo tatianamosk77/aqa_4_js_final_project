@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:15:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-DDCqMM0/aAYH+pVmXKD4bnBPF3Q\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Robin.Little@yahoo.com",
+      "name": "Jarvis Claud",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 783,
+      "flat": 9180,
+      "phone": "+5243814581",
+      "createdOn": "2025-12-21T18:15:53.000Z",
+      "notes": "uRtSYtUdvcyP2eLFd72kF4TOPMQ967sdwertxHA4AA9Dky3WzxZxUEUCT0heqHE5CHZVjPmCMTaXfAL25bCEVkCsc7oUINXkHUEmHLteiACWAZBragdpKy25QmgBcPxixgmIyi4WLIP5688cxGjIsREbegNlBbsY1WAK8L1k7aXlJl4an22ztvP6HaQrseLJUbI8F4SNiLVTthPipqYCSKW0H6v0jBCVnizv5BFSJthQmBiKdjz3Zto9om",
+      "_id": "694839591c508c5d5ee9a4ef"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

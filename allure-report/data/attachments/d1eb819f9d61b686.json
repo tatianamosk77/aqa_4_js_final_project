@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:16:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-aV49DiIuZPE0bmr53/n/Etdv/ko\"",
+    "keep-alive": "timeout=5, max=72",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Alf_Krajcik@gmail.com",
+      "name": "Frederique Seth",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 205,
+      "flat": 5472,
+      "phone": "+2826576431",
+      "createdOn": "2025-12-21T18:16:15.000Z",
+      "notes": "24WbHnJiJIm46n2Z6Cq2NR1OjaDa04VZIIUFctTjCvSu5ZzTPeynmqSkmFeB9jkC2XIc4wOFznYQEikIPoaguKomYDttG0Lcm7o9r6hWT7hllLKD253pcXZ6pAgY9bCVkZnBCYMvqYWUI0cEywfnYIcZoU5RyUOXyaZrUOOXlR4itndRMMaqVedzfOtYvuzsqGjVbXZeWmHjzJl8muO16tFegfX9WYLZznaeD2r1D00XZmV8gAQYixb1w1",
+      "_id": "6948396f1c508c5d5ee9b0f8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:16:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-XoOZNWvS2yRP9SEoUV4I80KoPSc\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694839631c508c5d5ee9aa8a",
+        "email": "Ashley.Frami@hotmail.com",
+        "name": "Israel Sasha",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 523,
+        "flat": 8860,
+        "phone": "+2210360435",
+        "createdOn": "2025-12-21T18:16:03.000Z",
+        "notes": "GMBGZUI88RRq0rvkEyABTcVz80lKWL5A0TYzh2UfPKCaYE3CByagFyUEoZel3C46wTGdbbKT9YD3T2tLgHbYoRVp7zSNXIDMRZwN1ofpl3uhw0kfZzkn9uk6DCPMABNhpveAN3vbPXyrjC53wys3wERTAL0S4ocX3WMgIVXj4ETGuyQteGdL4izPjxZH0SzmbKSN49KgTBTzNqgdKoE4IwgC0nNNvGqpzSzbK0tfhMx5em8wL3M0ZDWFdJ"
+      },
+      "products": [
+        {
+          "_id": "694839631c508c5d5ee9aa8c",
+          "name": "Gloves84347",
+          "amount": 567,
+          "price": 26876,
+          "manufacturer": "Microsoft",
+          "notes": "VNTcgzDAlFbswDK3iyUOz7De1TxylYST2Ifn4kDSEQzbMtcuLZB5KbQCFkjQLCWfczCFn3askD7DO0t7Lld1rgcQSOW9Yppd2cNblNkdtn4NFl3CqchrzeszpfKXYmfxzLAcMsQ9OPQC2fFGcqBVBPFqBrFsIxOet7rujXEkKpEor5du5l36JmVms5kyVsuiTCoXlInsrOoTphKIpV2UusxDQ1hEyP6CbaMOeHDqFVnagb8BdzOgbbhgb9",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 26876,
+      "createdOn": "2025-12-21T18:16:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694839631c508c5d5ee9aa8a",
+          "products": [
+            {
+              "_id": "694839631c508c5d5ee9aa8c",
+              "name": "Gloves84347",
+              "amount": 567,
+              "price": 26876,
+              "manufacturer": "Microsoft",
+              "notes": "VNTcgzDAlFbswDK3iyUOz7De1TxylYST2Ifn4kDSEQzbMtcuLZB5KbQCFkjQLCWfczCFn3askD7DO0t7Lld1rgcQSOW9Yppd2cNblNkdtn4NFl3CqchrzeszpfKXYmfxzLAcMsQ9OPQC2fFGcqBVBPFqBrFsIxOet7rujXEkKpEor5du5l36JmVms5kyVsuiTCoXlInsrOoTphKIpV2UusxDQ1hEyP6CbaMOeHDqFVnagb8BdzOgbbhgb9",
+              "received": false
+            }
+          ],
+          "total_price": 26876,
+          "delivery": null,
+          "changedOn": "2025-12-21T18:16:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694839641c508c5d5ee9aab6"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
