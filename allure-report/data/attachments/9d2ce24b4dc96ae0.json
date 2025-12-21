@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:15:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1879",
+    "etag": "W/\"757-4dITGOK1E9biTzfHLeF28shNJM4\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694839271c508c5d5ee98686",
+        "email": "Guadalupe.Fahey@gmail.com",
+        "name": "Price Shad",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 343,
+        "flat": 8529,
+        "phone": "+9514383207",
+        "createdOn": "2025-12-21T18:15:03.000Z",
+        "notes": "UcpbIra8Tia2AokSQuCrWgMUB6IWpJemlLid95FriVkSpgIsUTADxlyha3cStBqW1UYnRCRFAVRKYvnQqBvHgVfYurm9zWYN124GebsKkl0hTSDX7s1YlTlCBiCV0rPEDdvubBlLhwskjE2n4sQa9MthjYA9fesDGbl5M3BvutDVNxZxffoDVRO5wkLWFFz3mLxjzkKFqAk9FwmrR4uMZM1bSAduJlyPgIJcJzZUg1XVK4hxIAHr59hBjU"
+      },
+      "products": [
+        {
+          "_id": "694839281c508c5d5ee986a6",
+          "name": "Car20295",
+          "amount": 834,
+          "price": 74576,
+          "manufacturer": "Samsung",
+          "notes": "S2INAfB0YGgH9q4Knlx9nMwMbtZTkIaeBr5lEU7khZYqMMhbtu206BAw5nGjInBPMWHEHswdNQsKu4prFpa70G1g74vPK4e8Cq8IhzBLgFAnP209fgjzJdq9HHDp11jumoclcQd5887bdctdu6Zn7EkqxXulydipQ2hLxS57IFuC8ULTWY94jNRkY78fGvKPkEfUbcsD8Yv54HYDTQDlu9OXik2IXitGnWWUvPlVzNcaUudFys7hExOIhG",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 74576,
+      "createdOn": "2025-12-21T18:15:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694839271c508c5d5ee98686",
+          "products": [
+            {
+              "_id": "694839281c508c5d5ee986a6",
+              "name": "Car20295",
+              "amount": 834,
+              "price": 74576,
+              "manufacturer": "Samsung",
+              "notes": "S2INAfB0YGgH9q4Knlx9nMwMbtZTkIaeBr5lEU7khZYqMMhbtu206BAw5nGjInBPMWHEHswdNQsKu4prFpa70G1g74vPK4e8Cq8IhzBLgFAnP209fgjzJdq9HHDp11jumoclcQd5887bdctdu6Zn7EkqxXulydipQ2hLxS57IFuC8ULTWY94jNRkY78fGvKPkEfUbcsD8Yv54HYDTQDlu9OXik2IXitGnWWUvPlVzNcaUudFys7hExOIhG",
+              "received": false
+            }
+          ],
+          "total_price": 74576,
+          "delivery": null,
+          "changedOn": "2025-12-21T18:15:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694839281c508c5d5ee986c3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

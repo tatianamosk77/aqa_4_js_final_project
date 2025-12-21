@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:14:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "666",
+    "etag": "W/\"29a-LL8jHDNun1KimUhv1aUK9hIwpP0\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "694839211c508c5d5ee9842c",
+        "email": "Trystan27@gmail.com",
+        "name": "Ignacio Gage",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 532,
+        "flat": 4929,
+        "phone": "+8765369973",
+        "createdOn": "2025-12-21T18:14:57.000Z",
+        "notes": "hZUOAEPHdXjm3QWEWl6JSipPdXZlLVDxRkMbxlXkJrf8wC6o32CQykPPeYdLuJbxVRqbYwOXq247F28UG9kHYoX9m8p7xqMCFItP5WMDTt6ZY93mLQcolskVnX6awt6OMZTvQOTi3PAdnXunnGgyglJH90hckaOCeJn5fstF7z1hOLl4kkSVVkgMiOhx2eqq3A5pZxjqr4eAi1fMbJOGy4jQzD1sEcCRYiNPHR4IOyrwk8EPBossp0h8Eh"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Ignacio Gage",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

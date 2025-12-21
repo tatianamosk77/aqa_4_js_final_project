@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:15:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-UfJ/ipPgqFKCs4qu74MjkN/CuVw\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Bernard.Gutmann@yahoo.com",
+      "name": "Deion Jany",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 191,
+      "flat": 6099,
+      "phone": "+6905324834",
+      "createdOn": "2025-12-21T18:15:07.000Z",
+      "notes": "ywyFiTh5oCwqxZ5Gsig3rhcPZhpbqB4LO5uFYgy7KbEVwQzkagFQjMyk70JoYwJtp4DsqKSjBMe1HdHuTTLBMDEbfJKRJy7EcW0mbKTn7QcL5h0ge7LwQIgRFRCQmATZ4LSpaBGQu0vVVHoWauMOVZi2jg5oH8ocl6HfGAjYwBKSiLnoKzaED4F2dMkE1kDecZYMsOCvCarlGFKlIaqLfoUWsHENZL5soiPfoUFrZlPEoL9R9AjqDa5Qpw",
+      "_id": "6948392b1c508c5d5ee987f2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

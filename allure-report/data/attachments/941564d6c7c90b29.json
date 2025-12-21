@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:14:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1878",
+    "etag": "W/\"756-aT7qfCxOcWP3I9nWK8bPBvCYXCs\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694839201c508c5d5ee983c2",
+        "email": "Fern.Cormier@hotmail.com",
+        "name": "Stephany Bette",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 913,
+        "flat": 2397,
+        "phone": "+5366540223",
+        "createdOn": "2025-12-21T18:14:56.000Z",
+        "notes": "WBqwdwB1u2JV8rJodgsHzI8LJ5DjBxYOFcdXAikJLMlhJT4eYOZV1iMBaeJmgGn69gV0DPI1O2PjvzsBtpaYhLOh4Gti8CpyKDc8fUmMjXcUBAAND5d4cVvMvNXsbHCiMZOexa11JwiXr15ytqcpfnzn0ua7VMEWSHl1YBkBgBEElzfCZmkwXDGC7DPeA07HvioTDYMPLp9FVP9LnTHsJPLy1odxUkaIHBxPiZc1931NtHv63njaeVpF72"
+      },
+      "products": [
+        {
+          "_id": "694839201c508c5d5ee983cc",
+          "name": "Shirt85520",
+          "amount": 165,
+          "price": 88475,
+          "manufacturer": "Google",
+          "notes": "K0YfppKG9BEvnBFkLgsEIJh2HcMb0RgudRON6okUC0iDazYiN7j6Wsh58yGCRz6s9uZ3l8d1g5XZGnfT8d7gZh46uKmoF2KUSyKTuInf9NZYDabdZ6c0aBz0jBosKgmn7MqsMJRHNAy2Bm2PwhYraVKY9QycekxkVUbLIFL1BA1v1wBhin8D9aMINqEfsbH2O5fQyVNqWJXu9RGeWo6PQP9bDPwH8kouinRjt8AVoIw77kSVOsUdhNmGFX",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 88475,
+      "createdOn": "2025-12-21T18:14:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694839201c508c5d5ee983c2",
+          "products": [
+            {
+              "_id": "694839201c508c5d5ee983cc",
+              "name": "Shirt85520",
+              "amount": 165,
+              "price": 88475,
+              "manufacturer": "Google",
+              "notes": "K0YfppKG9BEvnBFkLgsEIJh2HcMb0RgudRON6okUC0iDazYiN7j6Wsh58yGCRz6s9uZ3l8d1g5XZGnfT8d7gZh46uKmoF2KUSyKTuInf9NZYDabdZ6c0aBz0jBosKgmn7MqsMJRHNAy2Bm2PwhYraVKY9QycekxkVUbLIFL1BA1v1wBhin8D9aMINqEfsbH2O5fQyVNqWJXu9RGeWo6PQP9bDPwH8kouinRjt8AVoIw77kSVOsUdhNmGFX",
+              "received": false
+            }
+          ],
+          "total_price": 88475,
+          "delivery": null,
+          "changedOn": "2025-12-21T18:14:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694839211c508c5d5ee98421"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

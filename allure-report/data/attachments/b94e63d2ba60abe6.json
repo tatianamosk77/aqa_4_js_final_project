@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:15:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-gaE/aaoolaW6AzTHlsXfBVfaibg\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jose_Kessler@hotmail.com",
+      "name": "Alberta Franz",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 624,
+      "flat": 5000,
+      "phone": "+1278345169",
+      "createdOn": "2025-12-21T18:15:10.000Z",
+      "notes": "l5UdkNG1LED0Mm8anMaBMvCaHif0PWJRl3DbkIpO12wyzOEq1KRSAmweMJAQyUD1PZofsanQwO0wFIEQgPt4uXIkpDqLONEspv8NoRHT27JA1ZOZpHDPvoPRM848gdSWXaeqkSiUydAWUwXWpPSyI0LYVzGoSk3R572mhLxfYRYrv6qezKtWbPsChPd9o8GWkmU1qgUv5y8HovOdg5XzPTKelP67w1Blj4spaI7ffmacIklqjCgfQwcJTo",
+      "_id": "6948392e1c508c5d5ee9895c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

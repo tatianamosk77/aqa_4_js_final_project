@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:15:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-gSI03g30RIPqwpUUHBlgBIam+qE\"",
+    "keep-alive": "timeout=5, max=74",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Mabel88@hotmail.com",
+      "name": "Manuela Enrico",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 796,
+      "flat": 6816,
+      "phone": "+4741749765",
+      "createdOn": "2025-12-21T18:15:01.000Z",
+      "notes": "h73BFgmLLvZfBymNYVvFITuq7MRefPnh7EWJfAbIXM4zVOhmdWD7yBEUZ9s9JNsq9iI3p082tifSSxWRTTv0RQ49MiyMJxJCp5sUAoiZzwQPcMBN6xjhFP6eATD5oyAkoDggFPTujiPRLoY3T6n9M8gMKRcptfklsgJ0qn8ECx6SimRnuS7lR17koz6s68ffBAlsVBfE8cn3LHqrTQgZz2mxAoc848VE74b9y4BCawu1YtY3hwKIhpGMiF",
+      "_id": "694839251c508c5d5ee9856c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

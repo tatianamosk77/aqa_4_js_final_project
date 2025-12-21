@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:15:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1966",
+    "etag": "W/\"7ae-iaJUgSptosvtit/KlNG3Iq5GAok\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6948392c1c508c5d5ee98867",
+      "status": "Draft",
+      "customer": {
+        "_id": "6948392c1c508c5d5ee98845",
+        "email": "Jennie_Feest70@gmail.com",
+        "name": "Ralph Dexter",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 949,
+        "flat": 6211,
+        "phone": "+8544425422",
+        "createdOn": "2025-12-21T18:15:08.000Z",
+        "notes": "OVGteQsm9NoSUMmOAcjl8KbIISbjmSuh9s4A9yLb8jiHGB0iuueyRvFhypTU7D91P99RtLoGp0WreBUQsAkXuY65bFcgal6cEcLYvqzSgvQsWB5sMGVSXmcoKdBKRCA1MTyoYq6c9yNeBYBVh9ETuaASwR9Iu9W0JZc8hjKoD3AHQBHB8i7zUya4hsSorl732YzO2kBO5RmBDk6ZMpEbNT2sy4P9jJIw3Gt6T5v7Gob8LrKBeRtzB24PId"
+      },
+      "products": [
+        {
+          "_id": "6948392c1c508c5d5ee98847",
+          "name": "Bike24084",
+          "amount": 30,
+          "price": 86336,
+          "manufacturer": "Sony",
+          "notes": "IgpRy6iaQ4mB21UwxFNmaZRQbUDPFw31u3yL7PAXLjxk9BdKpk3kedGYX8sl3BgjsNMas0QDHq81g4AdaUqgNCmhtlmUItzATf2VGkclWzb11y2b4XEmzqdwg1wgmjvLjhWd4yzn2q5J6U3Q9ErVphklzUsvbmlDjjo92l1eGLZXIIV3VmjUtfg3FlSrPLvNbzEvId80f6RCBtPqxF0SG19Mod7M0Zm9EEod5rrxK2xKslgfWzoLkeSUPK",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 86336,
+      "createdOn": "2025-12-21T18:15:08.000Z",
+      "comments": [
+        {
+          "text": "autotest comment",
+          "createdOn": "2025-12-21T18:15:08.000Z",
+          "_id": "6948392c1c508c5d5ee98896"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6948392c1c508c5d5ee98845",
+          "products": [
+            {
+              "_id": "6948392c1c508c5d5ee98847",
+              "name": "Bike24084",
+              "amount": 30,
+              "price": 86336,
+              "manufacturer": "Sony",
+              "notes": "IgpRy6iaQ4mB21UwxFNmaZRQbUDPFw31u3yL7PAXLjxk9BdKpk3kedGYX8sl3BgjsNMas0QDHq81g4AdaUqgNCmhtlmUItzATf2VGkclWzb11y2b4XEmzqdwg1wgmjvLjhWd4yzn2q5J6U3Q9ErVphklzUsvbmlDjjo92l1eGLZXIIV3VmjUtfg3FlSrPLvNbzEvId80f6RCBtPqxF0SG19Mod7M0Zm9EEod5rrxK2xKslgfWzoLkeSUPK",
+              "received": false
+            }
+          ],
+          "total_price": 86336,
+          "delivery": null,
+          "changedOn": "2025-12-21T18:15:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

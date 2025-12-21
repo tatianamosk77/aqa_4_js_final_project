@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:14:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "677",
+    "etag": "W/\"2a5-QuAhNGlAk2vpy+YiRg5OiNRCD0c\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "694839211c508c5d5ee98427",
+        "email": "Tomasa_Nolan@gmail.com",
+        "name": "Glenna Ian",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 762,
+        "flat": 7050,
+        "phone": "+7545816793",
+        "createdOn": "2025-12-21T18:14:57.000Z",
+        "notes": "6W61Ktf47Lz9lhat1fy3umO7DIJeejZmXyq6VlzXgBKlYaj4PxDdkRyTa6BcWOaS7jWkOkgu7P06iae0IyrEPJ32kykHVncjtqM9WoiR7xytWebuRhuXIyyFFAFF14DRnbCde3hOtCUep0AK8T1Aeez9Hvjo1LzKjYjAPxfpojM0xJCDeSKvZJBWeceZwM62ekqnmsj9HIsSAwEHbiJ5AnMxPabm7WcsdiU6mLVcMG4rE1MgdJuPuWpMhP"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Tomasa_Nolan@gmail.com",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

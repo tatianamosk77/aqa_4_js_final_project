@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:15:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-GMJL9l8sN8yp8LW/TY3wN4rnWmo\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Bartholome.Stracke@yahoo.com",
+      "name": "Alysa Oren",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 290,
+      "flat": 7109,
+      "phone": "+2084732585",
+      "createdOn": "2025-12-21T18:15:19.000Z",
+      "notes": "AvCduASV7kNuvK8FKQkqd7x7HmwSC3IVzfjNSznMsB8Ylk4bCSfXWD2JPsuCy73AUqorpJ1o37VFw2XPHfxUN7SuuzS3o53ZMNIoUmV7FZhmkfOgXQtvnq3ybtnbFN1SV6tC6eu72i2IBExbqLBBkIU88r58FeB9jF6JQGm07plGuaKJe3xJ09Dr7ZEIqP8JXt3sTE90ZHhhWAe9NFSanEkk4zja837yxnzDiXMlvXGUmjMAhRrTyMRTdx",
+      "_id": "694839371c508c5d5ee98e5d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:15:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-Vvl7BqgVPZWgQ3nVrrAHTiNphIs\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694839371c508c5d5ee98e5d",
+        "email": "Bartholome.Stracke@yahoo.com",
+        "name": "Alysa Oren",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 290,
+        "flat": 7109,
+        "phone": "+2084732585",
+        "createdOn": "2025-12-21T18:15:19.000Z",
+        "notes": "AvCduASV7kNuvK8FKQkqd7x7HmwSC3IVzfjNSznMsB8Ylk4bCSfXWD2JPsuCy73AUqorpJ1o37VFw2XPHfxUN7SuuzS3o53ZMNIoUmV7FZhmkfOgXQtvnq3ybtnbFN1SV6tC6eu72i2IBExbqLBBkIU88r58FeB9jF6JQGm07plGuaKJe3xJ09Dr7ZEIqP8JXt3sTE90ZHhhWAe9NFSanEkk4zja837yxnzDiXMlvXGUmjMAhRrTyMRTdx"
+      },
+      "products": [
+        {
+          "_id": "694839371c508c5d5ee98e59",
+          "name": "Mouse35968",
+          "amount": 537,
+          "price": 32334,
+          "manufacturer": "Microsoft",
+          "notes": "PbQB4fYuBcupFCkYckiUC6LgpfNYi3St49btrgTclccSwVfXcyo3qqiVjxyJKWOFP6ux7DM1wVRYeQGXUgLW5QhVqVq5tSzaOuerrn0kQwReAdOqfVQnNT4JC1dhz6NUIanYrZrIFgtbx0Qo2u0MtpjYGKiqFHpQvAUqE5kn0S8DCbuOmzp6NyCpSmimXyucihX8mxFiPFc87yPyT90UWZcc8zERICVkigUm8MqiUDQA1m5NyAqwkwTCtq",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 32334,
+      "createdOn": "2025-12-21T18:15:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694839371c508c5d5ee98e5d",
+          "products": [
+            {
+              "_id": "694839371c508c5d5ee98e59",
+              "name": "Mouse35968",
+              "amount": 537,
+              "price": 32334,
+              "manufacturer": "Microsoft",
+              "notes": "PbQB4fYuBcupFCkYckiUC6LgpfNYi3St49btrgTclccSwVfXcyo3qqiVjxyJKWOFP6ux7DM1wVRYeQGXUgLW5QhVqVq5tSzaOuerrn0kQwReAdOqfVQnNT4JC1dhz6NUIanYrZrIFgtbx0Qo2u0MtpjYGKiqFHpQvAUqE5kn0S8DCbuOmzp6NyCpSmimXyucihX8mxFiPFc87yPyT90UWZcc8zERICVkigUm8MqiUDQA1m5NyAqwkwTCtq",
+              "received": false
+            }
+          ],
+          "total_price": 32334,
+          "delivery": null,
+          "changedOn": "2025-12-21T18:15:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694839381c508c5d5ee98ea5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:14:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4126",
+    "etag": "W/\"101e-bEAUSErUncO2X7RAbIxAiO4Q0Co\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Orders": [
+      {
+        "_id": "694839201c508c5d5ee983eb",
+        "status": "Draft",
+        "customer": "694839201c508c5d5ee983c2",
+        "products": [
+          {
+            "_id": "694839201c508c5d5ee983cc",
+            "name": "Shirt85520",
+            "amount": 165,
+            "price": 88475,
+            "manufacturer": "Google",
+            "notes": "K0YfppKG9BEvnBFkLgsEIJh2HcMb0RgudRON6okUC0iDazYiN7j6Wsh58yGCRz6s9uZ3l8d1g5XZGnfT8d7gZh46uKmoF2KUSyKTuInf9NZYDabdZ6c0aBz0jBosKgmn7MqsMJRHNAy2Bm2PwhYraVKY9QycekxkVUbLIFL1BA1v1wBhin8D9aMINqEfsbH2O5fQyVNqWJXu9RGeWo6PQP9bDPwH8kouinRjt8AVoIw77kSVOsUdhNmGFX",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 88475,
+        "createdOn": "2025-12-21T18:14:56.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "694839201c508c5d5ee983c2",
+            "products": [
+              {
+                "_id": "694839201c508c5d5ee983cc",
+                "name": "Shirt85520",
+                "amount": 165,
+                "price": 88475,
+                "manufacturer": "Google",
+                "notes": "K0YfppKG9BEvnBFkLgsEIJh2HcMb0RgudRON6okUC0iDazYiN7j6Wsh58yGCRz6s9uZ3l8d1g5XZGnfT8d7gZh46uKmoF2KUSyKTuInf9NZYDabdZ6c0aBz0jBosKgmn7MqsMJRHNAy2Bm2PwhYraVKY9QycekxkVUbLIFL1BA1v1wBhin8D9aMINqEfsbH2O5fQyVNqWJXu9RGeWo6PQP9bDPwH8kouinRjt8AVoIw77kSVOsUdhNmGFX",
+                "received": false
+              }
+            ],
+            "total_price": 88475,
+            "delivery": null,
+            "changedOn": "2025-12-21T18:14:56.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337ce1c508c5d5e95335d",
+              "username": "student14@gmail.com",
+              "firstName": "Bill",
+              "lastName": "Schuppe",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:26"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      },
+      {
+        "_id": "694839201c508c5d5ee98404",
+        "status": "Draft",
+        "customer": "694839201c508c5d5ee983c2",
+        "products": [
+          {
+            "_id": "694839201c508c5d5ee983cc",
+            "name": "Shirt85520",
+            "amount": 165,
+            "price": 88475,
+            "manufacturer": "Google",
+            "notes": "K0YfppKG9BEvnBFkLgsEIJh2HcMb0RgudRON6okUC0iDazYiN7j6Wsh58yGCRz6s9uZ3l8d1g5XZGnfT8d7gZh46uKmoF2KUSyKTuInf9NZYDabdZ6c0aBz0jBosKgmn7MqsMJRHNAy2Bm2PwhYraVKY9QycekxkVUbLIFL1BA1v1wBhin8D9aMINqEfsbH2O5fQyVNqWJXu9RGeWo6PQP9bDPwH8kouinRjt8AVoIw77kSVOsUdhNmGFX",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 88475,
+        "createdOn": "2025-12-21T18:14:56.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "694839201c508c5d5ee983c2",
+            "products": [
+              {
+                "_id": "694839201c508c5d5ee983cc",
+                "name": "Shirt85520",
+                "amount": 165,
+                "price": 88475,
+                "manufacturer": "Google",
+                "notes": "K0YfppKG9BEvnBFkLgsEIJh2HcMb0RgudRON6okUC0iDazYiN7j6Wsh58yGCRz6s9uZ3l8d1g5XZGnfT8d7gZh46uKmoF2KUSyKTuInf9NZYDabdZ6c0aBz0jBosKgmn7MqsMJRHNAy2Bm2PwhYraVKY9QycekxkVUbLIFL1BA1v1wBhin8D9aMINqEfsbH2O5fQyVNqWJXu9RGeWo6PQP9bDPwH8kouinRjt8AVoIw77kSVOsUdhNmGFX",
+                "received": false
+              }
+            ],
+            "total_price": 88475,
+            "delivery": null,
+            "changedOn": "2025-12-21T18:14:56.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337ce1c508c5d5e95335d",
+              "username": "student14@gmail.com",
+              "firstName": "Bill",
+              "lastName": "Schuppe",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:26"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      },
+      {
+        "_id": "694839211c508c5d5ee98421",
+        "status": "Draft",
+        "customer": "694839201c508c5d5ee983c2",
+        "products": [
+          {
+            "_id": "694839201c508c5d5ee983cc",
+            "name": "Shirt85520",
+            "amount": 165,
+            "price": 88475,
+            "manufacturer": "Google",
+            "notes": "K0YfppKG9BEvnBFkLgsEIJh2HcMb0RgudRON6okUC0iDazYiN7j6Wsh58yGCRz6s9uZ3l8d1g5XZGnfT8d7gZh46uKmoF2KUSyKTuInf9NZYDabdZ6c0aBz0jBosKgmn7MqsMJRHNAy2Bm2PwhYraVKY9QycekxkVUbLIFL1BA1v1wBhin8D9aMINqEfsbH2O5fQyVNqWJXu9RGeWo6PQP9bDPwH8kouinRjt8AVoIw77kSVOsUdhNmGFX",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 88475,
+        "createdOn": "2025-12-21T18:14:57.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "694839201c508c5d5ee983c2",
+            "products": [
+              {
+                "_id": "694839201c508c5d5ee983cc",
+                "name": "Shirt85520",
+                "amount": 165,
+                "price": 88475,
+                "manufacturer": "Google",
+                "notes": "K0YfppKG9BEvnBFkLgsEIJh2HcMb0RgudRON6okUC0iDazYiN7j6Wsh58yGCRz6s9uZ3l8d1g5XZGnfT8d7gZh46uKmoF2KUSyKTuInf9NZYDabdZ6c0aBz0jBosKgmn7MqsMJRHNAy2Bm2PwhYraVKY9QycekxkVUbLIFL1BA1v1wBhin8D9aMINqEfsbH2O5fQyVNqWJXu9RGeWo6PQP9bDPwH8kouinRjt8AVoIw77kSVOsUdhNmGFX",
+                "received": false
+              }
+            ],
+            "total_price": 88475,
+            "delivery": null,
+            "changedOn": "2025-12-21T18:14:57.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337ce1c508c5d5e95335d",
+              "username": "student14@gmail.com",
+              "firstName": "Bill",
+              "lastName": "Schuppe",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:26"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      }
+    ],
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

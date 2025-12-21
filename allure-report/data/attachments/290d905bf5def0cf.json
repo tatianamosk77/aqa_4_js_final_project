@@ -1,0 +1,161 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:15:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4152",
+    "etag": "W/\"1038-D02XMezz/D6G0fOkHh6HE1q7bIU\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6948392f1c508c5d5ee989e6",
+      "status": "Draft",
+      "customer": {
+        "_id": "694839301c508c5d5ee98a08",
+        "email": "Dortha.Blanda@gmail.com",
+        "name": "Lisandro Greg",
+        "country": "France",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 218,
+        "flat": 4367,
+        "phone": "+7948503537",
+        "createdOn": "2025-12-21T18:15:12.000Z",
+        "notes": "C202cE3RHex2k8QxXEHbE0j5v5RU81qPKXgolDTw9jodwmA1JOBvccfPYbCfunaZ59h0Fdu5IuCTHLDWCWDnDoh3OjY1QBkgBz70RjeWhqkQbjiBC4YJov1PV6VeB24OrjPmOm6YydpVWG6nCtFblKy9sibcozVDVOxFdYM2SpU4egIDx0nSRCF5QwqtWL3MRBpe753gOEUnST4uJPSUAgQztYjSbRjQYQylzXxROGTPUSjGpqaE3GRWI9"
+      },
+      "products": [
+        {
+          "_id": "694839301c508c5d5ee98a0d",
+          "name": "Fish51236",
+          "amount": 385,
+          "price": 67275,
+          "manufacturer": "Xiaomi",
+          "notes": "v5u7WpRsqAuDidNlpaz5d2QiuIvJ7IzImfdfgN9bEe1WSmiBsR6P7nfnBkLJMPQVSCMUIFvMEKB2PUA9CIoA1veXRI2xYnWk3xiChpry32gZ7W7kacbOhy5UzXDnDSvSBlyyqTJiFOqR5TxBL1BHAyPc4iM4TMZfjUvAWbMsAl8A4XYyisVQylQB0eaF3pCjnoCxMTrDyHxXkzMJnh8noYrwFotxVXOD3U0Nie5RO4AnhslAEEEvV7otOH",
+          "received": false
+        },
+        {
+          "_id": "694839301c508c5d5ee98a0a",
+          "name": "Tuna11042",
+          "amount": 534,
+          "price": 74020,
+          "manufacturer": "Amazon",
+          "notes": "kReuLzH8hxP8jDzi6bwGHSUqA3tUvLxgfN4EVTEqKBL4glr1Lq8rNWI4IQE8mW0K85CLUnuDuQNWW5QvUPWUYRBRuWpE6UB5yvnCCsdzIUnp0Knz7KtCLEr40DYfrMtxBZZ5UWpOyTiHpGK9xwwF2MpGQ2oWYscHhyFZElCDmfB36p7xZYY2fcGkvWJpNcAfiBIXSby6hvzPdwtytaXsDTFwnDYMteCsz1L1ez4P8TyQBPPsHnh27WgSgI",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 141295,
+      "createdOn": "2025-12-21T18:15:11.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694839301c508c5d5ee98a08",
+          "products": [
+            {
+              "_id": "6948392f1c508c5d5ee989bf",
+              "name": "Chips94796",
+              "amount": 256,
+              "price": 65432,
+              "manufacturer": "Apple",
+              "notes": "gyTT6TJM6KI46frI35f5RbMVQ8EO6HrSC4jShjDkZ4dz5zSlaHPN9QV9rRKAsXH7Uaflm4gJx0hqni1sSMFwYkyzrVQI9tMjI9a1cyJRDtSXvRdRUepx4dbhhtueciLoDy7J2bnr4Hq94xzgyia9DccHnBfmLS3lS92C5gCySYjL2r9cAylL9DdRjzlkybzHjg6grb4PcmGWyJK041Ao0CRzJ2z86wfZaPp3ETzGQQTEFIVToB6sRCLg9E",
+              "received": false
+            }
+          ],
+          "total_price": 141295,
+          "delivery": null,
+          "changedOn": "2025-12-21T18:15:12.000Z",
+          "action": "Customer changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6948392f1c508c5d5ee989b7",
+          "products": [
+            {
+              "_id": "694839301c508c5d5ee98a0d",
+              "name": "Fish51236",
+              "amount": 385,
+              "price": 67275,
+              "manufacturer": "Xiaomi",
+              "notes": "v5u7WpRsqAuDidNlpaz5d2QiuIvJ7IzImfdfgN9bEe1WSmiBsR6P7nfnBkLJMPQVSCMUIFvMEKB2PUA9CIoA1veXRI2xYnWk3xiChpry32gZ7W7kacbOhy5UzXDnDSvSBlyyqTJiFOqR5TxBL1BHAyPc4iM4TMZfjUvAWbMsAl8A4XYyisVQylQB0eaF3pCjnoCxMTrDyHxXkzMJnh8noYrwFotxVXOD3U0Nie5RO4AnhslAEEEvV7otOH",
+              "received": false
+            },
+            {
+              "_id": "694839301c508c5d5ee98a0a",
+              "name": "Tuna11042",
+              "amount": 534,
+              "price": 74020,
+              "manufacturer": "Amazon",
+              "notes": "kReuLzH8hxP8jDzi6bwGHSUqA3tUvLxgfN4EVTEqKBL4glr1Lq8rNWI4IQE8mW0K85CLUnuDuQNWW5QvUPWUYRBRuWpE6UB5yvnCCsdzIUnp0Knz7KtCLEr40DYfrMtxBZZ5UWpOyTiHpGK9xwwF2MpGQ2oWYscHhyFZElCDmfB36p7xZYY2fcGkvWJpNcAfiBIXSby6hvzPdwtytaXsDTFwnDYMteCsz1L1ez4P8TyQBPPsHnh27WgSgI",
+              "received": false
+            }
+          ],
+          "total_price": 141295,
+          "delivery": null,
+          "changedOn": "2025-12-21T18:15:12.000Z",
+          "action": "Requested products changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6948392f1c508c5d5ee989b7",
+          "products": [
+            {
+              "_id": "6948392f1c508c5d5ee989bf",
+              "name": "Chips94796",
+              "amount": 256,
+              "price": 65432,
+              "manufacturer": "Apple",
+              "notes": "gyTT6TJM6KI46frI35f5RbMVQ8EO6HrSC4jShjDkZ4dz5zSlaHPN9QV9rRKAsXH7Uaflm4gJx0hqni1sSMFwYkyzrVQI9tMjI9a1cyJRDtSXvRdRUepx4dbhhtueciLoDy7J2bnr4Hq94xzgyia9DccHnBfmLS3lS92C5gCySYjL2r9cAylL9DdRjzlkybzHjg6grb4PcmGWyJK041Ao0CRzJ2z86wfZaPp3ETzGQQTEFIVToB6sRCLg9E",
+              "received": false
+            }
+          ],
+          "total_price": 65432,
+          "delivery": null,
+          "changedOn": "2025-12-21T18:15:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

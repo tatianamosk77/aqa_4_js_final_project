@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:14:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "557",
+    "etag": "W/\"22d-R+FppOXsh5M12daotRbDnFaVxYg\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Cristopher.Weissnat71@hotmail.com",
+      "name": "Test Customer",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 243,
+      "flat": 3454,
+      "phone": "+1243554586",
+      "createdOn": "2025-12-21T18:14:51.000Z",
+      "notes": "XSkXg70a7y65fwHMZvXvaWfx9NOjvp9YvJ8wb22qt7OyjdmcO987nXFIIC8YR9oDooK65TkoBFXMhahjMOhJXeW9oJb7s5czddJS96zIHTO7NCyClVTAJE509646g3YBpg3Sa2YsEImSYTOOmNeiTfMEqpDMAlWYzwM0pxS74kvI4GhfpgZJ4pz53iDCFCXoi6sY2rn6CXpnxF635Q1rpYKcL66vAfymj0upXWb7hevyK3XtCWnFsh6wRS",
+      "_id": "6948391b1c508c5d5ee98210"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

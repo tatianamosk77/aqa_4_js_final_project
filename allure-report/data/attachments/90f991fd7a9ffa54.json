@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:15:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-J+R0ZHM5jAHe0x91Au7kOZ4QO/s\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Arthur.Wuckert@hotmail.com",
+      "name": "Bret Emil",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 706,
+      "flat": 1895,
+      "phone": "+4004611839",
+      "createdOn": "2025-12-21T18:15:06.000Z",
+      "notes": "WWsn0X3MRzgg5N33HySx93CJpCiYLuaTkRqDhsBdGWbI92PtlSFnI5aRc9vRU3LTzA2jBy2JK4rMuJxKcynCHcRG9Z4ANGOT9uEw9wM4unKRFGgV1PRZAT21GWcm4ogAipp6eWilYjyy9tpOUMy1m57km8GlQcZZ9ZH4SZB65XAA21yRp8ON0pMjVmnWWEWHUgpQKIwHNJTs88IfOv57HFOxfbhIrru521Sgul9PeL6ZBu4O01Jy53O4IR",
+      "_id": "6948392a1c508c5d5ee9879b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

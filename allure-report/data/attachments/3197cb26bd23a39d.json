@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:15:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "539",
+    "etag": "W/\"21b-pl7Xajp8GNF+GAjsN9geeTbueW4\"",
+    "keep-alive": "timeout=5, max=69",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Sam51@hotmail.com",
+      "name": "Dorian Pedro",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 520,
+      "flat": 4215,
+      "phone": "+6952496881",
+      "createdOn": "2025-12-21T18:15:01.000Z",
+      "notes": "GgX75N3n7HSEWiQUeJQX4jwUqiYMNnyFFW1t4TlERgh7BwamBGUg5KCHhetONPo6CNSutJWPHVTblGtKPuHvOF3mHC7tgfpzLWLTJPVNTHlkdeiLux0RqfC33fEyk03W8aoAng3qXrE5P4dbfAaSY20mgBJtT6Gdtps5ABe8nWzfeS7T4DC6aRJTcYSWHbncq1qa97NbaGXf7Z8illyveheBhM2KfX1RIo4lPSyiHTo0esTXXtlPC5Xaem",
+      "_id": "694839251c508c5d5ee98572"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

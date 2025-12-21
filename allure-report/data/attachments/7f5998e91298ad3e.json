@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:15:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-vtcQ0bll7Y/cBST4B9/8rBbHS0g\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694839271c508c5d5ee98644",
+        "email": "Charlene.Stokes29@gmail.com",
+        "name": "Aniyah Marietta",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 165,
+        "flat": 5952,
+        "phone": "+2431328257",
+        "createdOn": "2025-12-21T18:15:03.000Z",
+        "notes": "KjuVM4OCqvrG8hMqqYL88PCCalFhba3paQn1TzB8CVXRi9epr5Uh7BIicI6exd3vauItsQPnNVWMEZmwV2dEbIqyezDzBYkm01AAbTxF1zdwRunQAJ0egmQOPB08jwnsutIarR3dRQg0RTXCzdtxlr1DdEHIopkNXZLq4q0ZrcXcSxoNEhVnt36kj8bqFfp5eYSpeHZX8exvy86O15f84f2Jd5js9wURW9Nvki2KDBCv1mgzC4SCcrOjBv"
+      },
+      "products": [
+        {
+          "_id": "694839271c508c5d5ee98658",
+          "name": "Bike98321",
+          "amount": 203,
+          "price": 33753,
+          "manufacturer": "Tesla",
+          "notes": "vbwSN850SaJ0hbEISvOvj0uUEx4rhIj3YlEKNX7FNQS1Qno4kk0ZsKu8BRa2eDvzBhX7awrerUzeuV21POyIetOHh0ZdqfwNjXIxPCaOCDR9vzkWT8Wgtg4HVSFYX69N6vF5vYbJUGLsS1GwqmMp12ZKj9EnG1XZoZzL76CvNvkFPir3FQqoUH9dCkU8oof8m2KF7vOQBv4dS8dZwCx4aYnnoq7pmRkNCI1Z9Lj7WCdnrrTD1QSc3qymhb",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 33753,
+      "createdOn": "2025-12-21T18:15:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694839271c508c5d5ee98644",
+          "products": [
+            {
+              "_id": "694839271c508c5d5ee98658",
+              "name": "Bike98321",
+              "amount": 203,
+              "price": 33753,
+              "manufacturer": "Tesla",
+              "notes": "vbwSN850SaJ0hbEISvOvj0uUEx4rhIj3YlEKNX7FNQS1Qno4kk0ZsKu8BRa2eDvzBhX7awrerUzeuV21POyIetOHh0ZdqfwNjXIxPCaOCDR9vzkWT8Wgtg4HVSFYX69N6vF5vYbJUGLsS1GwqmMp12ZKj9EnG1XZoZzL76CvNvkFPir3FQqoUH9dCkU8oof8m2KF7vOQBv4dS8dZwCx4aYnnoq7pmRkNCI1Z9Lj7WCdnrrTD1QSc3qymhb",
+              "received": false
+            }
+          ],
+          "total_price": 33753,
+          "delivery": null,
+          "changedOn": "2025-12-21T18:15:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694839271c508c5d5ee9867d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

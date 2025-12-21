@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:14:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "289",
+    "etag": "W/\"121-gW/fCx29UzH+K0TUow3eGeinrq0\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Marie.Jenkins80@hotmail.com",
+      "name": "Bonita Linda",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 705,
+      "flat": 3005,
+      "phone": "+2743900535",
+      "createdOn": "2025-12-21T18:14:53.000Z",
+      "_id": "6948391d1c508c5d5ee982ef"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

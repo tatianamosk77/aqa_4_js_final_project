@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:15:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3413",
+    "etag": "W/\"d55-2x8QvTIUdj+MqCb6UYDOi4EsR9Y\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694839381c508c5d5ee98e93",
+        "email": "Selmer.Littel45@gmail.com",
+        "name": "Donavon Jamaal",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 206,
+        "flat": 7053,
+        "phone": "+4270350453",
+        "createdOn": "2025-12-21T18:15:20.000Z",
+        "notes": "XlZzNxlBkdkyZQHEuI5jqxFWQamQhzLdo9wRFgXCKHrJ6QEu0ouBUCodFe5MkvPkoENIX1cfe8zPDYpKQFDC25shpTz6oq9wtpFqCwfBCybwmLkmyzFvW2xVG8Sddch0qjV0J8HhxkjXTVF0GCA3ahatTEdmYvH7l6SDbjzX1oOCrwObJKtCoLhp9QPUSzFsbyeJNC2sO7ZUEORomPJkXPrwN0B4Q13qBVnrJ0FyYIzlWEZu683CqVaMFH"
+      },
+      "products": [
+        {
+          "_id": "694839381c508c5d5ee98e91",
+          "name": "Mouse77456",
+          "amount": 988,
+          "price": 8482,
+          "manufacturer": "Google",
+          "notes": "VG4M4mqqviyNRshXjnTabuZ2Nqh0gw4TrLciW85DoTBZorEhZ98dJHHc1H4UCQ52pGarvoCXUJKYDbQWFYsHW3mllIVxOny7KcZd6lBwIIN9RAEQO0fU71TR0fLIy7qQJqTyXgJL7XtbOgHNWsBPQiNut4VIiGYCYjYi9lApp2iaTaWxzF4VlDS0132U9pkvNT50S7SH91Oas0T2kpXvlxt7ZkvKxxOxmH8wGC9kGJ64LM2P3ozImM9sLA",
+          "received": false
+        },
+        {
+          "_id": "694839381c508c5d5ee98e97",
+          "name": "Keyboard62704",
+          "amount": 356,
+          "price": 33455,
+          "manufacturer": "Samsung",
+          "notes": "9d4rY5XGaA4zHyu4BcQYeCszpJGeUSmfGUgvZkJT46n5wHSZf0RqLkM5BOMCREdWMgbmGuB3La7vbwCs3buuGcWtXvhRFFa3Nz4HxdLW2jQ2psye5Ng6NurVycUx3rXFIcNSWolgfo9OmDwYNWK0gPz5t36Q7y3qbKIy6ficLeG4eYITKxb9ih2ZzuP93jl4ddCiMqD8ibNGXnoMBYjMUz3gto6jrTx8z5i4ZyRhtuw7OoOYlyFONDWGtu",
+          "received": false
+        },
+        {
+          "_id": "694839381c508c5d5ee98e95",
+          "name": "Hat3185",
+          "amount": 275,
+          "price": 5806,
+          "manufacturer": "Amazon",
+          "notes": "iXwLTJfzvCGjHys3yEenA5FkGN0FwH9NEY49CbuBdXsZdQJ47gt8MSK5N93dMIoOPhrAMDhQElmmbINuXVmqyWL2JzKBFtSs0wCkpragh1gICUGrrZHaVoXprCCfe3e1Wo0W8ycUG35gPcfzxh60i4tY9UZpmuYlB7KL1a5fEX0GaPOjK5GR0gT2OldXWxKsIWJ9fJoO0FWzaVbxMVFmbxVwmdYvMLFepFbWkCxRiuGpLBeqcrdpvv00iU",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 47743,
+      "createdOn": "2025-12-21T18:15:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694839381c508c5d5ee98e93",
+          "products": [
+            {
+              "_id": "694839381c508c5d5ee98e91",
+              "name": "Mouse77456",
+              "amount": 988,
+              "price": 8482,
+              "manufacturer": "Google",
+              "notes": "VG4M4mqqviyNRshXjnTabuZ2Nqh0gw4TrLciW85DoTBZorEhZ98dJHHc1H4UCQ52pGarvoCXUJKYDbQWFYsHW3mllIVxOny7KcZd6lBwIIN9RAEQO0fU71TR0fLIy7qQJqTyXgJL7XtbOgHNWsBPQiNut4VIiGYCYjYi9lApp2iaTaWxzF4VlDS0132U9pkvNT50S7SH91Oas0T2kpXvlxt7ZkvKxxOxmH8wGC9kGJ64LM2P3ozImM9sLA",
+              "received": false
+            },
+            {
+              "_id": "694839381c508c5d5ee98e97",
+              "name": "Keyboard62704",
+              "amount": 356,
+              "price": 33455,
+              "manufacturer": "Samsung",
+              "notes": "9d4rY5XGaA4zHyu4BcQYeCszpJGeUSmfGUgvZkJT46n5wHSZf0RqLkM5BOMCREdWMgbmGuB3La7vbwCs3buuGcWtXvhRFFa3Nz4HxdLW2jQ2psye5Ng6NurVycUx3rXFIcNSWolgfo9OmDwYNWK0gPz5t36Q7y3qbKIy6ficLeG4eYITKxb9ih2ZzuP93jl4ddCiMqD8ibNGXnoMBYjMUz3gto6jrTx8z5i4ZyRhtuw7OoOYlyFONDWGtu",
+              "received": false
+            },
+            {
+              "_id": "694839381c508c5d5ee98e95",
+              "name": "Hat3185",
+              "amount": 275,
+              "price": 5806,
+              "manufacturer": "Amazon",
+              "notes": "iXwLTJfzvCGjHys3yEenA5FkGN0FwH9NEY49CbuBdXsZdQJ47gt8MSK5N93dMIoOPhrAMDhQElmmbINuXVmqyWL2JzKBFtSs0wCkpragh1gICUGrrZHaVoXprCCfe3e1Wo0W8ycUG35gPcfzxh60i4tY9UZpmuYlB7KL1a5fEX0GaPOjK5GR0gT2OldXWxKsIWJ9fJoO0FWzaVbxMVFmbxVwmdYvMLFepFbWkCxRiuGpLBeqcrdpvv00iU",
+              "received": false
+            }
+          ],
+          "total_price": 47743,
+          "delivery": null,
+          "changedOn": "2025-12-21T18:15:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694839381c508c5d5ee98ece"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
