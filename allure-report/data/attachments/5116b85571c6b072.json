@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:45:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1878",
+    "etag": "W/\"756-VAMiBWEDAu/atWjP047oAOWie4k\"",
+    "keep-alive": "timeout=5, max=73",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694840401c508c5d5ee9fbe5",
+        "email": "Reggie.Okuneva38@yahoo.com",
+        "name": "Cullen Maritza",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 585,
+        "flat": 311,
+        "phone": "+4105584769",
+        "createdOn": "2025-12-21T18:45:20.000Z",
+        "notes": "JD0j7yADcZymbpsFr4iy5jta4EfCGTnaRtasGGwxIZ0HGNnpZJQtcVNN6cjhKYVdhnUI4eB8lvH4ppldVzhzBhz3IkHG2IRgB2P0ZXTwwMvWXPVWry2vXErV5XRHZzuEh5wa3Ld40ZKozycds2LkOgZ9vMXWNBXTD1C81wed1OsGU0nLU0PeILdy3X5qvOlgMaf6tSGuFHNh3Podv9hLOMGg9TNl6ZmsgcC7ZVwtLoZieO7tOMjBpq2UV9"
+      },
+      "products": [
+        {
+          "_id": "694840401c508c5d5ee9fbe3",
+          "name": "Chair20474",
+          "amount": 679,
+          "price": 57581,
+          "manufacturer": "Amazon",
+          "notes": "xNsXRIInb7WQDg8P4cQHoeSx2LJJvwrM2KRfyNVUG0Qp9Fkty4OJKeqlGpI6jQtQN2SR1UaDHSnxlJlP6doL0PWA3uSuoO1qntJDYEj5gbgjStUgmRSg1ixEPqAFLFQRuQW6JQtZvsUQncDue0VhQId3CQuBZjZa5yc8ASeECBZCoa5KgaazKzjJwEgFZU72X5FIh2bXRdvEC4VjnXBOWXgNOUzb7jsKbEfg6ilyfWzw1qCLUX7an2RWYg",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 57581,
+      "createdOn": "2025-12-21T18:45:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694840401c508c5d5ee9fbe5",
+          "products": [
+            {
+              "_id": "694840401c508c5d5ee9fbe3",
+              "name": "Chair20474",
+              "amount": 679,
+              "price": 57581,
+              "manufacturer": "Amazon",
+              "notes": "xNsXRIInb7WQDg8P4cQHoeSx2LJJvwrM2KRfyNVUG0Qp9Fkty4OJKeqlGpI6jQtQN2SR1UaDHSnxlJlP6doL0PWA3uSuoO1qntJDYEj5gbgjStUgmRSg1ixEPqAFLFQRuQW6JQtZvsUQncDue0VhQId3CQuBZjZa5yc8ASeECBZCoa5KgaazKzjJwEgFZU72X5FIh2bXRdvEC4VjnXBOWXgNOUzb7jsKbEfg6ilyfWzw1qCLUX7an2RWYg",
+              "received": false
+            }
+          ],
+          "total_price": 57581,
+          "delivery": null,
+          "changedOn": "2025-12-21T18:45:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694840401c508c5d5ee9fc10"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

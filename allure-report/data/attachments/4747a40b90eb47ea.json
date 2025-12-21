@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:45:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "192",
+    "etag": "W/\"c0-1DLuJxGwVR3+JRML4JqW49rOmBs\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Shirt68200",
+      "amount": 246,
+      "price": 92513,
+      "manufacturer": "Apple",
+      "createdOn": "2025-12-21T18:45:30.000Z",
+      "_id": "6948404a1c508c5d5eea030a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

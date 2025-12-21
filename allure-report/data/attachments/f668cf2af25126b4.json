@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:45:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-7cPd5vXPzeuEev9/+jWfQn6kWYk\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694840351c508c5d5ee9f612",
+        "email": "Nico_Daniel4@gmail.com",
+        "name": "Amiya Moshe",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 796,
+        "flat": 2664,
+        "phone": "+5711422770",
+        "createdOn": "2025-12-21T18:45:09.000Z",
+        "notes": "3vRKwL15bTHZ2fnL0B5aFmTGJ2DYZll7TTsnEfMDtFyMaU20pGlgjELh6lJrVhj7kDtp29skHwDLqf0m4ejxtmDaS3cZlOnaIZfgnYDh4Xxlvyuk4N8eUjuIvbUlmBVKqHG5UulM96aN0GibgP3mc5XaLiZuAReS2ckQfWQWjJk0gNlr1cBSEZD3wgYvKgaclePmMkKq5YWwHl9EACpDyZ6TQHMkb4puWAUeaR0coe6aQ1uKnXerOdTcoR"
+      },
+      "products": [
+        {
+          "_id": "694840351c508c5d5ee9f610",
+          "name": "Towels20117",
+          "amount": 617,
+          "price": 39070,
+          "manufacturer": "Microsoft",
+          "notes": "TSHiOJIfBfIF2rE7lVn9AOsB2yjtCNfGw6k5XDifv9cN59dLWR9uVIRfeY6ft7JGIkaGsU7YNpCtT04a1soTRk3bBL7Q7GIIicfz9S9HJiUpPwEueqa1LSWTFb0YpA4QaO8aGDo7YKEH3bmEzhsykkcBGdTp657d6HzUAx6liKxRT0zeVCmpVDNnJUG4kiv73ATFk0y5EDRJAumoKp0Rd6yBtKUjsUXtirgvhsgxZR0FQxMS46vo1sPvwA",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 39070,
+      "createdOn": "2025-12-21T18:45:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694840351c508c5d5ee9f612",
+          "products": [
+            {
+              "_id": "694840351c508c5d5ee9f610",
+              "name": "Towels20117",
+              "amount": 617,
+              "price": 39070,
+              "manufacturer": "Microsoft",
+              "notes": "TSHiOJIfBfIF2rE7lVn9AOsB2yjtCNfGw6k5XDifv9cN59dLWR9uVIRfeY6ft7JGIkaGsU7YNpCtT04a1soTRk3bBL7Q7GIIicfz9S9HJiUpPwEueqa1LSWTFb0YpA4QaO8aGDo7YKEH3bmEzhsykkcBGdTp657d6HzUAx6liKxRT0zeVCmpVDNnJUG4kiv73ATFk0y5EDRJAumoKp0Rd6yBtKUjsUXtirgvhsgxZR0FQxMS46vo1sPvwA",
+              "received": false
+            }
+          ],
+          "total_price": 39070,
+          "delivery": null,
+          "changedOn": "2025-12-21T18:45:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694840361c508c5d5ee9f646"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

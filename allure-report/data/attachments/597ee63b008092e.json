@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:45:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-SKZjDUeqNDlSYWBdqm8bYg9EdnA\"",
+    "keep-alive": "timeout=5, max=60",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694840341c508c5d5ee9f5b0",
+        "email": "Andreanne.Gleichner78@yahoo.com",
+        "name": "Estevan Reymundo",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 601,
+        "flat": 8906,
+        "phone": "+7901973911",
+        "createdOn": "2025-12-21T18:45:08.000Z",
+        "notes": "dXdvSGJOUKY7x5FYCF6WQu1GhBtOilZOl9flK0Tvzw5Fk3b6ip88WC7jiKzHAgn3RJ0SovUgjfBLIWI14rWBEGVzFQHq2LfcjpNgRV84ZSlMH4CHWWypWYlAmfLgmM0WYBYXWawXgZ6tA5keSWTGVj1tp0YSgNlLku3hiewNWMMUjqgSEkSGd0N1JnkmR5vljeiaeHi4HySgkbHDqcBdgbXm1TB1CZrwwxYyxJgkvFhaCjDB6Vlr87dR7F"
+      },
+      "products": [
+        {
+          "_id": "694840341c508c5d5ee9f5b2",
+          "name": "Cheese14475",
+          "amount": 456,
+          "price": 89566,
+          "manufacturer": "Google",
+          "notes": "KUTs5ELxEqHUbvRJBAuh8LQGXsmGlt7ZEKCzSZGcPcqWhgGGx26B79zm9Or3HVGOBnii4V6s45zi6Yk022fu2wprgNPvfK8J31DWvPE5ZhRxa7s1Fgie7Q0W56hL6DC8Zx5EIAW7v2HY3YPDl5Q6VuCDtBPBtnLd7TKrv1uxUi53bABbMqyNTeO8k4CAdd80MpDwhhe11kzeqh6X0sIyhDkre7jbOZ1IibBDjgZWnBJYhTWR1zg7xG9Byw",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 89566,
+      "createdOn": "2025-12-21T18:45:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694840341c508c5d5ee9f5b0",
+          "products": [
+            {
+              "_id": "694840341c508c5d5ee9f5b2",
+              "name": "Cheese14475",
+              "amount": 456,
+              "price": 89566,
+              "manufacturer": "Google",
+              "notes": "KUTs5ELxEqHUbvRJBAuh8LQGXsmGlt7ZEKCzSZGcPcqWhgGGx26B79zm9Or3HVGOBnii4V6s45zi6Yk022fu2wprgNPvfK8J31DWvPE5ZhRxa7s1Fgie7Q0W56hL6DC8Zx5EIAW7v2HY3YPDl5Q6VuCDtBPBtnLd7TKrv1uxUi53bABbMqyNTeO8k4CAdd80MpDwhhe11kzeqh6X0sIyhDkre7jbOZ1IibBDjgZWnBJYhTWR1zg7xG9Byw",
+              "received": false
+            }
+          ],
+          "total_price": 89566,
+          "delivery": null,
+          "changedOn": "2025-12-21T18:45:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694840351c508c5d5ee9f5cd"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

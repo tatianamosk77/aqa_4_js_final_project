@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:44:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "672",
+    "etag": "W/\"2a0-4TyaCuhjNkB74nZWrd//fW/0wRg\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "6948402a1c508c5d5ee9f200",
+        "email": "Lon_Schuppe8@yahoo.com",
+        "name": "Erwin Zion",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 819,
+        "flat": 3644,
+        "phone": "+1761704407",
+        "createdOn": "2025-12-21T18:44:58.000Z",
+        "notes": "KJh9dulIHUnsCWKB1PkNftcPZzK9lSxX5FcY36OBXxcKKSCbBdg9FnKpoHcRVPI0qs533rGSDMjrLXD26vSPpdRl2U9rtNZYgXE7Vyyg7Yt7A03c4YrWW8Ux50iO8MRVz8XSsugMg2q0jlhAHSVcMlkGeatdHgk1C1sOCjkSqMlXAiFvKlkT9vIJYMB97gPYs77psZ4vm0ryu8ypqYziCOmOhzOdKn3rgxteGoVMGCGQlF9tcYcWEp8TJn"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Erwin Zion",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

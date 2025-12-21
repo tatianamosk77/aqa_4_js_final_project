@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:45:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "538",
+    "etag": "W/\"21a-eJ95wr6TmEsz15Ivh1uDuVSLUuU\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ima19@hotmail.com",
+      "name": "Rosa Grayce",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 560,
+      "flat": 4760,
+      "phone": "+8018905990",
+      "createdOn": "2025-12-21T18:45:10.000Z",
+      "notes": "W1jKL4PpvYDeqENrUi7VfyIb8gswhgh9K7Lcd0xqfXgmp0wJgrUQplBlaXiaWzjNWroPEOP9RaTdwGZToGfsgl1ilxyGNYAt71XgVe8NBnbaoWmpF8rPmsGlFgGZ6bqHyqCuATlYVrv4SW0UmJIVD2nbQafzDlfzwrN6F9yw8IfD2DSRFGEfB42uqeQEVRafk4fHWajXmHbsfwpHse7rdgXEQHDYSNUzZOzQ1LT0mlWziOrkoRCHYFzj2S",
+      "_id": "694840361c508c5d5ee9f63f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

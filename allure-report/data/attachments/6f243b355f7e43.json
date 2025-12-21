@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:45:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "553",
+    "etag": "W/\"229-gdpIJON78wISO7RwwwiLb7l4G8I\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Amanda.Schinner@hotmail.com",
+      "name": "Jeramie Kristofer",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 25,
+      "flat": 6415,
+      "phone": "+8558405116",
+      "createdOn": "2025-12-21T18:45:11.000Z",
+      "notes": "LpYKowBG27stXKWExnwdcIRzyWRNHai0rYl9CfsOg8XKSzvdbASA6tFRJSzk5HlhzYaTS9HZncKMJAPKi0oktsp0mwFqu5XWtBuwp0G8MtW3EBNJs5RCFf7ZqinloqopLCmPr7tJGQ9NwuCMTj5KLtvekSfU51I7XB0rPe1ChYIW7sRriEKvr3wlh3Nm8oCkueyPBaRMm8MzslRJto6UGCUKoQyLIVXqbEdMdjOZEsTPxSFcPRc6kmDBUi",
+      "_id": "694840371c508c5d5ee9f6c4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:45:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4950",
+    "etag": "W/\"1356-Kd1/hZZ9rq88eb4XPk++ee0l2JM\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694840331c508c5d5ee9f53a",
+      "status": "Draft",
+      "customer": {
+        "_id": "694840321c508c5d5ee9f4b1",
+        "email": "Federico.Ondricka55@gmail.com",
+        "name": "Tianna Aliza",
+        "country": "France",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 374,
+        "flat": 6131,
+        "phone": "+6298967521",
+        "createdOn": "2025-12-21T18:45:06.000Z",
+        "notes": "I7ZGtkW3Mc6fWsfMRS185CyNls98oR98Ks3XXN1Kv3pyKlyZ0fRu2By29IVG4y0FtEm9jf9Gos3Ss6wiupD3CLosi8TKeBPsXtAl30BnMD17kAO4VufqvGxXMk0DnXNN91IM5doBJdrOVfKUVaIpR6jAgmkD5UxLOmYhPe9zVs90OYD3PDfhaDN3XSDrRrEAWde8JwrwVEqNTQAdQV6xtA1YF5o9NZE5PpFgbq0Hrkhs3SJt7SewpfEOq5"
+      },
+      "products": [
+        {
+          "_id": "694840331c508c5d5ee9f4f2",
+          "name": "Towels59161",
+          "amount": 971,
+          "price": 75357,
+          "manufacturer": "Amazon",
+          "notes": "jTVltouVWxuPmXt7Jc2JjhYnYANPnoW7K2P5HHUczl1i3CI9aKBSLJQzWbxjg1uhsNjBazGvZLiA7llJF60SqhFcMI26C5dzUitaAQzrKeoL146fDfRmIGZM5enn4QjCJioFUGNBXv9kyJTis5DYm0nm2rqO68qKQpyzGKF393qz8O6EtA7Ix7mgARXgfIN81VuExMVbAHa77REhd3NBFeNf51OVizQFjICaVDrqd53eFEFUuWyPIy098q",
+          "received": false
+        },
+        {
+          "_id": "694840331c508c5d5ee9f4e0",
+          "name": "Keyboard26944",
+          "amount": 762,
+          "price": 40464,
+          "manufacturer": "Apple",
+          "notes": "v8cGOmm8EpisEyATJJ7BXEDL3igow0zX9d0ag43KKVBIc5K4W0nlNra4kos0HdKHKSWFl7gHVS4SxB3ftWjsKsNk7WsaQMEsp1vko0p0koKkvwjt01W8FRYLXB8hb3Iw2Ar7XrF1rKL9pSRxyD7J1nEe2w1nGOcfLUwoNdpUDuQAp16uR6FhVfsYZqMtUrJ8YnibTFtxGVlMIrscYTpUKRT3C5Uj6z7zH95ahPdWhYuERHPDquiNbUUlZD",
+          "received": false
+        },
+        {
+          "_id": "694840331c508c5d5ee9f4e2",
+          "name": "Pizza23194",
+          "amount": 5,
+          "price": 56772,
+          "manufacturer": "Xiaomi",
+          "notes": "znOnqb99TzSRNsM429L3xH5Wru4UNxvR1I3kGRZ4ghK77vzHN4JoWfR3R5NS1Sss9FBY6XnWyR1DVBd9DWAjuJez2fwwCD0wzoEKexOV6laIopehCaFtqaB7NWobjhbqNvWGUJdUEmGavlb8aARQWvrypeLm3wIbxx3ToX5oV2Hw0p4ErwmhpYuT523duztynve3cx4Ng3OwzjqaGPrbOB6MRh8p3qRED1suuZxs55AuasRklyoLYpEhyX",
+          "received": false
+        },
+        {
+          "_id": "694840331c508c5d5ee9f4e4",
+          "name": "Bike26425",
+          "amount": 624,
+          "price": 74100,
+          "manufacturer": "Google",
+          "notes": "tBEqilfYT1WNhIqWFP7m1LcIkBidC8QXTtiONk8iC0xVqNbdY3E0GKM4TuAerhElUljPhuzPh2U0OD3pGQ6x8Dmm6wP3AnN8NVk23w14xH8BLKNAmqBjWxuRGqhLYtYjbycrMahTcTyCgiDmOvyeHb6eARwt70yQKFl395AP4ecoczLPiBhEb0z5IJa4Tztac3s7o9yxgjns0U3nj1Gd3qjetnellJZFfOImGnURnIL75kPp9DUm9a8xZY",
+          "received": false
+        },
+        {
+          "_id": "694840331c508c5d5ee9f51c",
+          "name": "Mouse22725",
+          "amount": 16,
+          "price": 35244,
+          "manufacturer": "Tesla",
+          "notes": "jHXjeTc85DZFM4kD8WlddhHaC2yhj0jWw5nQznwfhD2oSZwGXHt498hUMlkr78IslEAD1kDOcDVihMUGijgZMKm2loicB1TZmIeTpBkR7Iemwz9tnx7REOH7qLnjYNlIhI2WdmW73wybedEwVlayWEJCsbF4lMy1NOFWyua8NEvQwsXsBLHeRlL0LnkoLwkCTuU5ue1Vb6SVaPrGCevpiL1o4jm7Nr4eG9vcDDQ3j1a4Ym2iJEBky6FmyG",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 281937,
+      "createdOn": "2025-12-21T18:45:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694840321c508c5d5ee9f4b1",
+          "products": [
+            {
+              "_id": "694840331c508c5d5ee9f4f2",
+              "name": "Towels59161",
+              "amount": 971,
+              "price": 75357,
+              "manufacturer": "Amazon",
+              "notes": "jTVltouVWxuPmXt7Jc2JjhYnYANPnoW7K2P5HHUczl1i3CI9aKBSLJQzWbxjg1uhsNjBazGvZLiA7llJF60SqhFcMI26C5dzUitaAQzrKeoL146fDfRmIGZM5enn4QjCJioFUGNBXv9kyJTis5DYm0nm2rqO68qKQpyzGKF393qz8O6EtA7Ix7mgARXgfIN81VuExMVbAHa77REhd3NBFeNf51OVizQFjICaVDrqd53eFEFUuWyPIy098q",
+              "received": false
+            },
+            {
+              "_id": "694840331c508c5d5ee9f4e0",
+              "name": "Keyboard26944",
+              "amount": 762,
+              "price": 40464,
+              "manufacturer": "Apple",
+              "notes": "v8cGOmm8EpisEyATJJ7BXEDL3igow0zX9d0ag43KKVBIc5K4W0nlNra4kos0HdKHKSWFl7gHVS4SxB3ftWjsKsNk7WsaQMEsp1vko0p0koKkvwjt01W8FRYLXB8hb3Iw2Ar7XrF1rKL9pSRxyD7J1nEe2w1nGOcfLUwoNdpUDuQAp16uR6FhVfsYZqMtUrJ8YnibTFtxGVlMIrscYTpUKRT3C5Uj6z7zH95ahPdWhYuERHPDquiNbUUlZD",
+              "received": false
+            },
+            {
+              "_id": "694840331c508c5d5ee9f4e2",
+              "name": "Pizza23194",
+              "amount": 5,
+              "price": 56772,
+              "manufacturer": "Xiaomi",
+              "notes": "znOnqb99TzSRNsM429L3xH5Wru4UNxvR1I3kGRZ4ghK77vzHN4JoWfR3R5NS1Sss9FBY6XnWyR1DVBd9DWAjuJez2fwwCD0wzoEKexOV6laIopehCaFtqaB7NWobjhbqNvWGUJdUEmGavlb8aARQWvrypeLm3wIbxx3ToX5oV2Hw0p4ErwmhpYuT523duztynve3cx4Ng3OwzjqaGPrbOB6MRh8p3qRED1suuZxs55AuasRklyoLYpEhyX",
+              "received": false
+            },
+            {
+              "_id": "694840331c508c5d5ee9f4e4",
+              "name": "Bike26425",
+              "amount": 624,
+              "price": 74100,
+              "manufacturer": "Google",
+              "notes": "tBEqilfYT1WNhIqWFP7m1LcIkBidC8QXTtiONk8iC0xVqNbdY3E0GKM4TuAerhElUljPhuzPh2U0OD3pGQ6x8Dmm6wP3AnN8NVk23w14xH8BLKNAmqBjWxuRGqhLYtYjbycrMahTcTyCgiDmOvyeHb6eARwt70yQKFl395AP4ecoczLPiBhEb0z5IJa4Tztac3s7o9yxgjns0U3nj1Gd3qjetnellJZFfOImGnURnIL75kPp9DUm9a8xZY",
+              "received": false
+            },
+            {
+              "_id": "694840331c508c5d5ee9f51c",
+              "name": "Mouse22725",
+              "amount": 16,
+              "price": 35244,
+              "manufacturer": "Tesla",
+              "notes": "jHXjeTc85DZFM4kD8WlddhHaC2yhj0jWw5nQznwfhD2oSZwGXHt498hUMlkr78IslEAD1kDOcDVihMUGijgZMKm2loicB1TZmIeTpBkR7Iemwz9tnx7REOH7qLnjYNlIhI2WdmW73wybedEwVlayWEJCsbF4lMy1NOFWyua8NEvQwsXsBLHeRlL0LnkoLwkCTuU5ue1Vb6SVaPrGCevpiL1o4jm7Nr4eG9vcDDQ3j1a4Ym2iJEBky6FmyG",
+              "received": false
+            }
+          ],
+          "total_price": 281937,
+          "delivery": null,
+          "changedOn": "2025-12-21T18:45:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

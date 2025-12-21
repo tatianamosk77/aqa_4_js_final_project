@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:44:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-qZPHzAplr4cgItp3aV6UGd+VPhc\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Felix_Pfannerstill@gmail.com",
+      "name": "Mathias Abe",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 19,
+      "flat": 1940,
+      "phone": "+1493279652",
+      "createdOn": "2025-12-21T18:44:59.000Z",
+      "notes": "PNsjQxY6J6NKfMdHPbeFx6jKSARo0J9Kns8qcLiT0oDt2V1lM9l9tdhI3RixsVexFqaTs3cdDhuSEzpiTe84NQ9SoeZsHuNHWyGlYpxpOwvab57hl6ZWk1anLASTmonixF67Z3rgOncfXdfgjjTOLbatEQ6gFl9NxUBsTHaGfS3gGZMp6CIURWgH4OK1bFiWvom1gbnuZpR8fGbnTkyo6omdV8TJMZxrXwzoRwvnBUkRg9XE5v7KxbTTIb",
+      "_id": "6948402b1c508c5d5ee9f25b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

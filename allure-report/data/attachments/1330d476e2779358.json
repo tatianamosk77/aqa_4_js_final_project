@@ -1,0 +1,161 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:45:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4136",
+    "etag": "W/\"1028-NGcpJ6rslgX6WnEUENVSjoeLuCs\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6948403a1c508c5d5ee9f7fa",
+      "status": "Draft",
+      "customer": {
+        "_id": "6948403c1c508c5d5ee9f9aa",
+        "email": "Madisyn69@yahoo.com",
+        "name": "Ernie Alejandra",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 630,
+        "flat": 7687,
+        "phone": "+7736291465",
+        "createdOn": "2025-12-21T18:45:16.000Z",
+        "notes": "vCcvdoeP9ohiCxYnUUpXR9LFI2YU5I4mkOo8p8udcgJdJad8aDqpSPSRZgvpwnFPsTMYAxha1UdOldwtfqKvIJX3FpXlBEGi5zu8AwGNinziWIAlIICdvTnnYUEILxL3lPIymhwerSoguljfrV1hrGlYuQv7xzGcZR0qgOpxNwg8x9o9pchvAM6iGw9RRE3RzAV2eK1r8BgDMnlhMPNmgWaimsIxnh2KYZhHK3SOotbWsiJ7vOtD0VZEem"
+      },
+      "products": [
+        {
+          "_id": "6948403c1c508c5d5ee9f9a8",
+          "name": "Salad21015",
+          "amount": 618,
+          "price": 3207,
+          "manufacturer": "Amazon",
+          "notes": "aMPX20UoIuFdWRQFZjroQ7jHZMxXLx1AK4fp6DZGX6fdUJqJB2oseVkY3zzNXXb2kjb2x3uSrXPo7zTbrLlxkNnvB6CfYa3ZNfNAUc2VAkYWJCvAs2KgvHwxeGWH7aKGiRk6eJBcNyIQOviDfaRWrtBXHna70qxwEdHTanP9yNYJ1lggUUsC2xcLIdRUS0Jtuqk2EshRSbxIH1KTciqtT7u4lGEdPykA4HZHuE2MombLXiXvxyNEV7Rlup",
+          "received": false
+        },
+        {
+          "_id": "6948403c1c508c5d5ee9f9ad",
+          "name": "Table1568",
+          "amount": 670,
+          "price": 52064,
+          "manufacturer": "Tesla",
+          "notes": "8vrwQfEUUoiBwNpt19NWaaGOSEOZudiQNZMml5i3MR2IQCzmp1Q81nwumN5NVN4ZjanwpUeyV2JcMwoLyT8BjmMYztetC3abgGuRZ8VghU8oAHktjx5FG6xMXXG3Nt9zY1YF3BVr17a2RRamVYQdWpoaZCp8WjR5zHZksJT89E0DFlnA9jEASHwxyY4i6p3l49PEGqljtMVFbYrxWlr3xFvyO1rq53l1cLS2UWAUH7uXusUknuxRQ0CnUz",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 55271,
+      "createdOn": "2025-12-21T18:45:14.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6948403c1c508c5d5ee9f9aa",
+          "products": [
+            {
+              "_id": "694840391c508c5d5ee9f7ce",
+              "name": "Car5242",
+              "amount": 613,
+              "price": 30628,
+              "manufacturer": "Apple",
+              "notes": "nZU8suSs5qDu9jPs7Tgr9VQqbIj8lvSGd5lZzYmaN15pgFcQQvacJ5QZMG6jyNzMvnkeUp002dFOidtYQRJsVwvjqd9NAr10d3CObSGeZMZmATXI9BfqcuG5pUUZKKiGMsMNLxhf3pia66s6bYBKCRHe0QV8rISgu9TdLJGKhVTbMK6mC47czcIyb3IE56rXwHvt9MZSI2ZSQITAPEhAXW4dy4fzEPkI6NeO6VHtxXEq1Dz6f1Nfk6zENQ",
+              "received": false
+            }
+          ],
+          "total_price": 55271,
+          "delivery": null,
+          "changedOn": "2025-12-21T18:45:17.000Z",
+          "action": "Customer changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694840391c508c5d5ee9f7d0",
+          "products": [
+            {
+              "_id": "6948403c1c508c5d5ee9f9a8",
+              "name": "Salad21015",
+              "amount": 618,
+              "price": 3207,
+              "manufacturer": "Amazon",
+              "notes": "aMPX20UoIuFdWRQFZjroQ7jHZMxXLx1AK4fp6DZGX6fdUJqJB2oseVkY3zzNXXb2kjb2x3uSrXPo7zTbrLlxkNnvB6CfYa3ZNfNAUc2VAkYWJCvAs2KgvHwxeGWH7aKGiRk6eJBcNyIQOviDfaRWrtBXHna70qxwEdHTanP9yNYJ1lggUUsC2xcLIdRUS0Jtuqk2EshRSbxIH1KTciqtT7u4lGEdPykA4HZHuE2MombLXiXvxyNEV7Rlup",
+              "received": false
+            },
+            {
+              "_id": "6948403c1c508c5d5ee9f9ad",
+              "name": "Table1568",
+              "amount": 670,
+              "price": 52064,
+              "manufacturer": "Tesla",
+              "notes": "8vrwQfEUUoiBwNpt19NWaaGOSEOZudiQNZMml5i3MR2IQCzmp1Q81nwumN5NVN4ZjanwpUeyV2JcMwoLyT8BjmMYztetC3abgGuRZ8VghU8oAHktjx5FG6xMXXG3Nt9zY1YF3BVr17a2RRamVYQdWpoaZCp8WjR5zHZksJT89E0DFlnA9jEASHwxyY4i6p3l49PEGqljtMVFbYrxWlr3xFvyO1rq53l1cLS2UWAUH7uXusUknuxRQ0CnUz",
+              "received": false
+            }
+          ],
+          "total_price": 55271,
+          "delivery": null,
+          "changedOn": "2025-12-21T18:45:17.000Z",
+          "action": "Requested products changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694840391c508c5d5ee9f7d0",
+          "products": [
+            {
+              "_id": "694840391c508c5d5ee9f7ce",
+              "name": "Car5242",
+              "amount": 613,
+              "price": 30628,
+              "manufacturer": "Apple",
+              "notes": "nZU8suSs5qDu9jPs7Tgr9VQqbIj8lvSGd5lZzYmaN15pgFcQQvacJ5QZMG6jyNzMvnkeUp002dFOidtYQRJsVwvjqd9NAr10d3CObSGeZMZmATXI9BfqcuG5pUUZKKiGMsMNLxhf3pia66s6bYBKCRHe0QV8rISgu9TdLJGKhVTbMK6mC47czcIyb3IE56rXwHvt9MZSI2ZSQITAPEhAXW4dy4fzEPkI6NeO6VHtxXEq1Dz6f1Nfk6zENQ",
+              "received": false
+            }
+          ],
+          "total_price": 30628,
+          "delivery": null,
+          "changedOn": "2025-12-21T18:45:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

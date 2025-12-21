@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:44:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "531",
+    "etag": "W/\"213-uXE7tTk/bym3VgGQBqURjzTrvmo\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Eino9@yahoo.com",
+      "name": "William Stephan",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "U",
+      "house": 93,
+      "flat": 9323,
+      "phone": "+6229185030",
+      "createdOn": "2025-12-21T18:44:53.000Z",
+      "notes": "gD7aeLYAmpBNVKfTYYTI3JCYDiYj6s3TkL0WUdZKMOMRJCGxW61qCxbvVqzJFCWtJGCAfXVKNf4W3UG44neB5AjFupEApr5uWi7RCWTWYE6Od5KHLY7Lyrjkp9x1VleAFpTP5Cwidw81VB9ye44cz0r6fDgn8wQZvh5CFBTwcyPpXozuasFtoRQ8QOt4LYkRxZevkK24pKd5xYTtnt7W3bG0tNlc1NJGu2w2EX0qhztHQx3AcDK1HtIwJ9",
+      "_id": "694840251c508c5d5ee9f045"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

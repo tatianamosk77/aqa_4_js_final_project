@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:44:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-yFODe2umdcEW1w7GMarPFt3446A\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Nathanael.Mohr@gmail.com",
+      "name": "Esperanza Edgar",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 243,
+      "flat": 9727,
+      "phone": "+6189243887",
+      "createdOn": "2025-12-21T18:44:58.000Z",
+      "notes": "5DDVgTU2wf5NEC7LiUjOQUKv0WCDxCMWrLb8UaeQJAAHAnwFFfvVFQKaXYMpfPyv9rG7zYkSjNN2YegZldWvgLndy25yYV978ItF0Za4dd8YzseX0KxhsWi7gqVpGh6L68iFOpc9rjfWLyxSqlLaCZRdVAXV242DpP8xipK9FjyxAFhz6ZIMiouiOxiE8SvphYo0rezt4tpiMYZZxov6CCzBtlSQE3GvLnYzv3IoCPPt1T3QiRhHTUgrid",
+      "_id": "6948402a1c508c5d5ee9f1a5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

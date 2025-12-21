@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 18:45:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "325",
+    "etag": "W/\"145-ruHkaDjSrZxfAduCrIu/nKsiWDA\"",
+    "connection": "close"
+  },
+  "body": {
+    "IsSuccess": false,
+    "ErrorMessage": "Incorrect request body",
+    "SchemaErrors": [
+      {
+        "instancePath": "/country",
+        "schemaPath": "#/properties/country/enum",
+        "keyword": "enum",
+        "params": {
+          "allowedValues": [
+            "USA",
+            "Canada",
+            "Belarus",
+            "Ukraine",
+            "Germany",
+            "France",
+            "Great Britain",
+            "Russia"
+          ]
+        },
+        "message": "must be equal to one of the allowed values"
+      }
+    ]
+  }
+}
