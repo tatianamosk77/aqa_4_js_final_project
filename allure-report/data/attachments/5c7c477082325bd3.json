@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 22:15:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-Ae/qf6P2bTfLG7nO6+NySwHBvXE\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Hipolito61@hotmail.com",
+      "name": "Test Customer",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 995,
+      "flat": 1077,
+      "phone": "+2098800334",
+      "createdOn": "2025-12-22T22:15:37.000Z",
+      "notes": "bwXG3jWiAzTOZ3Xke1L0UbnXPxiDgl7dkjePxw3u8ptvqD3GLDg07SWIALXuRg83a4VDiuQzsVaMUjEnNNfP2HHqOAArDxb5lQkhgPnSbnvrkr08I4jJnTdCh42ccgBOtmZZRvOpGzkDWIH3ZwnRFDZbh2WN1Q284zIYuHWcSPQC4Nzw53fdO25qKew1fxjAliU2Z5pAA8OisaGsUsukvpxNT5SXzEn0A037a71AeJn6hirYNyRrBZNJHZ",
+      "_id": "6949c3091c508c5d5ef484ad"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

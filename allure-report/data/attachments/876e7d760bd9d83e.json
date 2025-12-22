@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 22:16:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-RlZu2kJgd9zYp5oX/7troZnqles\"",
+    "keep-alive": "timeout=5, max=75",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6949c3231c508c5d5ef48d66",
+        "email": "Rocio_Kuhlman74@hotmail.com",
+        "name": "Jefferey Jade",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 323,
+        "flat": 2554,
+        "phone": "+1353671239",
+        "createdOn": "2025-12-22T22:16:03.000Z",
+        "notes": "PBxygnLWjhzmmbjL6G6Lt1rB8UKp9WuxtTXZd4ytMrSa48phR5MlFJNa2LC7WQgBDrqdPjN4uINfJyu2EGPCJwRFlYlbSPKm3rmqesPfsKSmIc5k3zzklT1eGEm2h6sx7UmzcDfeO8WWpgClmRj0Bno2aTC7OE1PBQNef7xQZWkR31HxEwBFUgG2hGNOKBiWyVxn06Fk8kejfiX6Cb0pxdlQXpGEd9NO7NBf2gXbrFBGyZK5yvIPE1kDV1"
+      },
+      "products": [
+        {
+          "_id": "6949c3231c508c5d5ef48d64",
+          "name": "Keyboard1623",
+          "amount": 904,
+          "price": 48102,
+          "manufacturer": "Google",
+          "notes": "aTQFSJIqM0UbxG5NDpB9ZIhxj9xkkaBCtQcSlDZ5JqkyZz0b1lMzhUy9t30EcaGPKbyxuBXcqn2CTrl39p2O5OUrM0MS6bbIhdFRzWaCXmimZ8ZLCMBfP7s0BKSvzK2pCKIbAuuYIG33YIVAf6UgwfcpXHEnW9P15Ripz111fHFyLwCoXwyxYdNJfOILX5WTjYGlFp2S6C91Bs5HmX4KJuT2duUOIvc3XHw7cx6h2vU5DVtYqqoznIm8RO",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 48102,
+      "createdOn": "2025-12-22T22:16:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6949c3231c508c5d5ef48d66",
+          "products": [
+            {
+              "_id": "6949c3231c508c5d5ef48d64",
+              "name": "Keyboard1623",
+              "amount": 904,
+              "price": 48102,
+              "manufacturer": "Google",
+              "notes": "aTQFSJIqM0UbxG5NDpB9ZIhxj9xkkaBCtQcSlDZ5JqkyZz0b1lMzhUy9t30EcaGPKbyxuBXcqn2CTrl39p2O5OUrM0MS6bbIhdFRzWaCXmimZ8ZLCMBfP7s0BKSvzK2pCKIbAuuYIG33YIVAf6UgwfcpXHEnW9P15Ripz111fHFyLwCoXwyxYdNJfOILX5WTjYGlFp2S6C91Bs5HmX4KJuT2duUOIvc3XHw7cx6h2vU5DVtYqqoznIm8RO",
+              "received": false
+            }
+          ],
+          "total_price": 48102,
+          "delivery": null,
+          "changedOn": "2025-12-22T22:16:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6949c3241c508c5d5ef48d8e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

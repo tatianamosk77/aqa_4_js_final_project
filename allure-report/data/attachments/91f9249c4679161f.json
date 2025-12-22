@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 22:15:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MjMzN2NlMWM1MDhjNWQ1ZTk1MzM1ZCIsInJvbGVzIjpbIlVTRVIiXSwiaWF0IjoxNzY2NDQxNzM3LCJleHAiOjE3NjY1MjgxMzd9.k1pTMEAMBGHhXSCw-KvEKF_xJxYe9IhILcDjX7Lamb8",
+    "x-user-name": "Bill",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "204",
+    "etag": "W/\"cc-JCn7eUcmf0ElMXNwpSTuLLf29h0\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "IsSuccess": true,
+    "ErrorMessage": null,
+    "User": {
+      "_id": "692337ce1c508c5d5e95335d",
+      "username": "student14@gmail.com",
+      "firstName": "Bill",
+      "lastName": "Schuppe",
+      "roles": [
+        "USER"
+      ],
+      "createdOn": "2025/11/23 16:35:26"
+    }
+  }
+}

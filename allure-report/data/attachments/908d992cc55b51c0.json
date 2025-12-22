@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 22:15:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1881",
+    "etag": "W/\"759-LdLzERnNx+ZoTBbGupYmf+flMuc\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6949c3191c508c5d5ef488ec",
+        "email": "Adam.Carter@hotmail.com",
+        "name": "Evans Claude",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 930,
+        "flat": 7785,
+        "phone": "+1546472262",
+        "createdOn": "2025-12-22T22:15:53.000Z",
+        "notes": "C6HXSDVGPz5ZKFWir3RxOAz0iaxk5Pln09VHMcjA34K7JdclpDyQhRONALRsPkRjeVFI9nZzUi4cfEoerKEu0qliwPTasqN9LRCaBwc9NwMjKtmgmYVB7NaNXjte4dVufsL9zXJynD04v6bAc1JVOA85Q5e8aJhxJOROMP0UEfkXNpRlWOOr9OnRqRwYrQzvrxzPtRHbLrQ7IrM9ehKiQ6eyvoRwmjnj6dC24nAjgcw9GQ4DdK9OFOlb6w"
+      },
+      "products": [
+        {
+          "_id": "6949c31a1c508c5d5ef48908",
+          "name": "Computer10045",
+          "amount": 121,
+          "price": 31245,
+          "manufacturer": "Google",
+          "notes": "Pfy7jMMb6pigmdpX0ey6BOFmKmP5tUIB4bNiwHfpKOfSj8VimXw9DlTaCsFui6sUvrY0Q2ypj0Hxgg2N2gMYzHcxo0tY5v7xSBURtbFR9UlUbUkvGqTOI1UU3bb6Lua4WTwG6q7t43IyIs5xmALS7gzN13WoLOtdbUIz5jo0slL7jbNeaYxJRbAR9aVDEqUpb8CV7uTe8qozhMNJvoOia884xeGsdqHFQMmObc63DjJEkzKJksh9HmVv1q",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 31245,
+      "createdOn": "2025-12-22T22:15:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6949c3191c508c5d5ef488ec",
+          "products": [
+            {
+              "_id": "6949c31a1c508c5d5ef48908",
+              "name": "Computer10045",
+              "amount": 121,
+              "price": 31245,
+              "manufacturer": "Google",
+              "notes": "Pfy7jMMb6pigmdpX0ey6BOFmKmP5tUIB4bNiwHfpKOfSj8VimXw9DlTaCsFui6sUvrY0Q2ypj0Hxgg2N2gMYzHcxo0tY5v7xSBURtbFR9UlUbUkvGqTOI1UU3bb6Lua4WTwG6q7t43IyIs5xmALS7gzN13WoLOtdbUIz5jo0slL7jbNeaYxJRbAR9aVDEqUpb8CV7uTe8qozhMNJvoOia884xeGsdqHFQMmObc63DjJEkzKJksh9HmVv1q",
+              "received": false
+            }
+          ],
+          "total_price": 31245,
+          "delivery": null,
+          "changedOn": "2025-12-22T22:15:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6949c31a1c508c5d5ef4892c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

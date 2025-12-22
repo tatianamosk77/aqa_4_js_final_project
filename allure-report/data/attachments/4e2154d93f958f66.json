@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 22:16:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1866",
+    "etag": "W/\"74a-zW2pY8mCZ5GmmZykrFFY5NCdZW0\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6949c3211c508c5d5ef48c98",
+      "status": "Draft",
+      "customer": {
+        "_id": "6949c3211c508c5d5ef48c68",
+        "email": "Aniya27@hotmail.com",
+        "name": "Janiya Clay",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 235,
+        "flat": 8446,
+        "phone": "+1827292017",
+        "createdOn": "2025-12-22T22:16:01.000Z",
+        "notes": "Q6EYCmQXN3jTrUR0M0lUEga8vNohg8FdR70SSZz5HvOoYGti9L5vTuZMqWke4lYFQlCvTijEhQGbI4FWgmtT4eSVsy242BosCvr4DMYLSHBuqtjyPgmJVteSmcMwQ2VOHkGo2UKP3aw3TWMpMbib5QLjaDVszeLr5RIb6uB5ZbZ8OD6EjTxjTxTqnkCtxMp2WA3tFUZLYW8V8YPRC27mulQcK65wBlvbq33vQEXg78uTMxd2cHp2noVpCG"
+      },
+      "products": [
+        {
+          "_id": "6949c3211c508c5d5ef48c6a",
+          "name": "Towels24464",
+          "amount": 138,
+          "price": 38727,
+          "manufacturer": "Apple",
+          "notes": "rG0wOugsjVfyLeDoQHpdPoAXCjU5zQ4MeiPKf4vtU9Q6JH7BGJk1bRkkkT5EvBf48rIzBwJd3lnkWxSO1kApauT2okHckCoVoyYNcwHrRIt9x0Hz6ppiFDOcpekRfoVZr3mJmfIWnn3726uMSZr6W2oOs6AJ8cDIJ2YDEvtFrIGq0e7SuQzoGHkDUxtixSKGYTJ3gO9pwu1pjdasM2ZzIllPd2OxCaS5WEC0SyyqMW4PZ3JE6CC5ojwAL6",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 38727,
+      "createdOn": "2025-12-22T22:16:01.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6949c3211c508c5d5ef48c68",
+          "products": [
+            {
+              "_id": "6949c3211c508c5d5ef48c6a",
+              "name": "Towels24464",
+              "amount": 138,
+              "price": 38727,
+              "manufacturer": "Apple",
+              "notes": "rG0wOugsjVfyLeDoQHpdPoAXCjU5zQ4MeiPKf4vtU9Q6JH7BGJk1bRkkkT5EvBf48rIzBwJd3lnkWxSO1kApauT2okHckCoVoyYNcwHrRIt9x0Hz6ppiFDOcpekRfoVZr3mJmfIWnn3726uMSZr6W2oOs6AJ8cDIJ2YDEvtFrIGq0e7SuQzoGHkDUxtixSKGYTJ3gO9pwu1pjdasM2ZzIllPd2OxCaS5WEC0SyyqMW4PZ3JE6CC5ojwAL6",
+              "received": false
+            }
+          ],
+          "total_price": 38727,
+          "delivery": null,
+          "changedOn": "2025-12-22T22:16:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

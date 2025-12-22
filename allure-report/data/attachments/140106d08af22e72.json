@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 22:15:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1979",
+    "etag": "W/\"7bb-3jBQ1euFWfiSBsbjoqtKJvqezYw\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6949c31e1c508c5d5ef48b1c",
+      "status": "Draft",
+      "customer": {
+        "_id": "6949c31e1c508c5d5ef48aee",
+        "email": "Leone.Botsford55@hotmail.com",
+        "name": "Marilou Nyasia",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 885,
+        "flat": 9235,
+        "phone": "+9571794649",
+        "createdOn": "2025-12-22T22:15:58.000Z",
+        "notes": "lxclDcjsVgMLFy1GxDivJeqHqRu7c4QTCq77bK5G1qWIYGkT5TAeucc1cCOVM0njopr9JQp7YmJKtXD8E3pwg4NU9iG7Yz0SIkafoJ4I21GqhYpGtXsvBf2IrbvhVwcaX6CYwpZemIraZeNfY3rSWTmEXCzFC9Hciaot4BGBVDsGffv6BonvwYWmBUcRn3Rjjz5cSS899maLxGQJ5dl5xiObdP66THr6GH0zTqwBNIOT6WBREGHj2g1wqG"
+      },
+      "products": [
+        {
+          "_id": "6949c31e1c508c5d5ef48aec",
+          "name": "Bike46675",
+          "amount": 148,
+          "price": 94829,
+          "manufacturer": "Amazon",
+          "notes": "GLThsrQaC0zXZQI5kHKecIOhjyOqMSZH8poYjCn6k0QtZJCj5XvCQh7TafTUtiuUKJhgQebvJOpDU5xtoZMEPeBWtpGC1Ad33ndlF5GR2jqaDiHeLkNrGnQkVJtQX9fh0cnu1a5L9GRAOHEI8oTYG2bpl5LQrYKG0EIihdtikRIUTgfJPH7pZP7aqhIUuPEhuOOFMsJ5sFRgOk9vSaH0K9ZakplIyhDT6mjP2S4ZJTSdhuNDeQLA6dFGsn",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 94829,
+      "createdOn": "2025-12-22T22:15:58.000Z",
+      "comments": [
+        {
+          "text": "autotest comment",
+          "createdOn": "2025-12-22T22:15:59.000Z",
+          "_id": "6949c31f1c508c5d5ef48b61"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6949c31e1c508c5d5ef48aee",
+          "products": [
+            {
+              "_id": "6949c31e1c508c5d5ef48aec",
+              "name": "Bike46675",
+              "amount": 148,
+              "price": 94829,
+              "manufacturer": "Amazon",
+              "notes": "GLThsrQaC0zXZQI5kHKecIOhjyOqMSZH8poYjCn6k0QtZJCj5XvCQh7TafTUtiuUKJhgQebvJOpDU5xtoZMEPeBWtpGC1Ad33ndlF5GR2jqaDiHeLkNrGnQkVJtQX9fh0cnu1a5L9GRAOHEI8oTYG2bpl5LQrYKG0EIihdtikRIUTgfJPH7pZP7aqhIUuPEhuOOFMsJ5sFRgOk9vSaH0K9ZakplIyhDT6mjP2S4ZJTSdhuNDeQLA6dFGsn",
+              "received": false
+            }
+          ],
+          "total_price": 94829,
+          "delivery": null,
+          "changedOn": "2025-12-22T22:15:58.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

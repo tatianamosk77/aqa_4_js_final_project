@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 22:15:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "683",
+    "etag": "W/\"2ab-GAYoUD6aoG2+VEjC/aTW7xRUP6E\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "6949c3121c508c5d5ef486bf",
+        "email": "Vivienne.Pfannerstill@gmail.com",
+        "name": "Lisandro Kirstin",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 396,
+        "flat": 4923,
+        "phone": "+4656350842",
+        "createdOn": "2025-12-22T22:15:46.000Z",
+        "notes": "AnAOkz7AxoJmEL0WXTwhzGwGIlqh6v9cO2DboNqNYf6QfxiHs8ygFcofksBvxYT8FnMkyHm7qUZV9822fv2pmaGabISI4GfAtYtfW3NAjNigdKE4CwDrKkuQglVWgmVLwjINcRKWMkZhBj7dlF8i014TmBL8I2Lzq8Z3uJvOv7ZwyV4fWhoN9GEEdLtWTWuY0RJrktveZqIrg7Kl8rbJXpQxyz4ko4shFUttt3euuR4V5YMke5Bua2XWuw"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Lisandro Kirstin",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
