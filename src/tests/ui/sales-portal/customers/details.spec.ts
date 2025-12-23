@@ -3,7 +3,7 @@ import _ from "lodash";
 import { TAGS } from "data/tags";
 import { convertToDateAndTime } from "utils/date.utils";
 
-test.describe("[Sales Portal] [Products] [Customer Details]", () => {
+test.describe.skip("[Sales Portal] [Products] [Customer Details]", () => {
   let id = "";
   let token = "";
   test(

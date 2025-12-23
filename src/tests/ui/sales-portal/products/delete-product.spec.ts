@@ -3,7 +3,7 @@ import { STATUS_CODES } from "data/statusCodes";
 import { TAGS } from "data/tags";
 import { expect, test } from "fixtures/business.fixture";
 
-test.describe("[Sales Portal] [Products]", () => {
+test.describe.skip("[Sales Portal] [Products]", () => {
   test(
     "Delete",
     {

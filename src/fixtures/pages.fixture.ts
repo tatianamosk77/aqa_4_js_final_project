@@ -6,6 +6,7 @@ import {
 import { AddNewCustomerPage } from "ui/pages/customers/addNewCustomerPage";
 import { CustomersListPage } from "ui/pages/customers/customerListPage";
 import { HomePage } from "ui/pages/home.page";
+import { HeaderPage } from "ui/pages/header.page";
 import { AddNewProductPage } from "ui/pages/products/addNewProduct.page";
 import { ProductsListPage } from "ui/pages/products/productsList.page";
 import { LoginPage } from "ui/pages/sign-in.page";
@@ -18,6 +19,7 @@ import { LoginUIService } from "ui/service/login.ui-service";
 import { ProductsListUIService } from "ui/service/productsList.ui-service";
 import { EditCustomerUIService } from "ui/service/editCustomer.ui-service";
 import { CustomerDetailsPage } from "ui/pages/customers";
+//import { CreateOrderModal } from 'ui/pages/modals/orders/createOrderModal.page';
 import {
   AddNewOrderModal,
   CommentsTab,
@@ -43,7 +45,9 @@ export interface IPages {
   addNewCustomerPage: AddNewCustomerPage;
   customerDetailsPage: CustomerDetailsPage;
 
+
   ordersListPage: OrdersListPage;
+  headerPage: HeaderPage;
   commentsTab: CommentsTab;
   customerDetailsSection: CustomerDetailsSection;
   requestedProductsSection: RequestedProductsSection;
@@ -52,6 +56,7 @@ export interface IPages {
   orderDetailsPage: OrderDetailsPage;
   scheduleDeliveryPage: ScheduleDeliveryPage;
   addNewOrderModal: AddNewOrderModal;
+  //createOrderModal: CreateOrderModal;
 
   //ui-services
   homeUIService: HomeUIService;
@@ -95,6 +100,11 @@ export const test = base.extend<IPages>({
   ordersListPage: async ({ page }, use) => {
     await use(new OrdersListPage(page));
   },
+
+  headerPage: async ({ page }, use) => {
+    await use(new HeaderPage(page));
+  },
+
   commentsTab: async ({ page }, use) => {
     await use(new CommentsTab(page));
   },
@@ -119,6 +129,10 @@ export const test = base.extend<IPages>({
   addNewOrderModal: async ({ page }, use) => {
     await use(new AddNewOrderModal(page));
   },
+
+  // createOrderModal: async ({ page }, use) => {
+  //   await use(new CreateOrderModal(page));
+  // },
 
   //ui-services
   homeUIService: async ({ page }, use) => {

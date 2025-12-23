@@ -14,11 +14,11 @@ test("Login as Admin via API", async ({ page, loginApiService }) => {
     {
       name: "Authorization",
       value: token,
-      domain: "localhost",
+      domain: "anatoly-karpovich.github.io",
       path: "/",
       expires: -1,
       httpOnly: false,
-      secure: false,
+      secure: true,
       sameSite: "Lax",
     },
   ]);

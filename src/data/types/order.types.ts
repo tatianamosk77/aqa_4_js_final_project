@@ -47,7 +47,7 @@ export interface IAssignedManager {
   username: string;
   firstName: string;
   lastName: string;
-  createdOn: string; // ⬅ добавлено, т.к. приходит в ответе
+  createdOn: string; 
 }
 
 export interface IOrderData {

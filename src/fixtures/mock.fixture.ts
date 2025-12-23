@@ -1,14 +1,12 @@
-import { test as base } from "@playwright/test";
-import { Mock } from "mock/mock";
+import { test as base } from '@playwright/test';
+import { ApiMock } from '../mock/apiMock'; 
 
-export interface MockFixture {
-  mock: Mock;
-}
+export type MockFixture = {
+  mock: ApiMock;
+};
 
 export const test = base.extend<MockFixture>({
   mock: async ({ page }, use) => {
-    await use(new Mock(page));
+    await use(new ApiMock(page));
   },
 });
-
-export { expect } from "@playwright/test";

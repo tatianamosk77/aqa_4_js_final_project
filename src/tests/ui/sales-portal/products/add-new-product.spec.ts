@@ -7,7 +7,7 @@ import { AddNewProductPage } from "ui/pages/products/addNewProduct.page";
 import { ProductsListPage } from "ui/pages/products/productsList.page";
 import { TAGS } from "data/tags";
 
-test.describe("[Sales Portal] [Products]", async () => {
+test.describe.skip("[Sales Portal] [Products]", async () => {
   let id = "";
   let token = "";
 

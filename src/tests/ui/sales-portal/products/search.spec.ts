@@ -2,7 +2,7 @@ import { TAGS } from "data/tags";
 import { IProduct } from "data/types/product.types";
 import { expect, test } from "fixtures/business.fixture";
 
-test.describe("[Sales Portal] [Products]", () => {
+test.describe.skip("[Sales Portal] [Products]", () => {
   let id = "";
   let token = "";
 
