@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 22:15:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1878",
+    "etag": "W/\"756-yNYonGULVHcJ/ybrCwuuOmXISVE\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694b148b1c508c5d5efa2f7f",
+        "email": "Garrison_Kuvalis49@gmail.com",
+        "name": "Terrence Blaise",
+        "country": "France",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 148,
+        "flat": 4982,
+        "phone": "+8433246401",
+        "createdOn": "2025-12-23T22:15:39.000Z",
+        "notes": "x1XMU35q2CBNckVxe9qKrRihicXzJuYNujOxD62rVV9NnUvCGTxDhIrPNlZeSGQe1GfCVgy9O0eCEDI7zhJAE8V98NoDSkP9ZQFmeMpeOqWrBqIQuZQ8nZqeZy5f11Z64kQnA7OhN2pZVPLIf5wTIWOLQQUQS5QusOmHataPGVqGbIfOA32IUHtPEegSjxR8GEWZnZNGJqY4xc7BnUCPKjTUPjmxWasKssji5LWGnvvUhUcUkp4hmdgFGQ"
+      },
+      "products": [
+        {
+          "_id": "694b148c1c508c5d5efa2f89",
+          "name": "Mouse94921",
+          "amount": 855,
+          "price": 77318,
+          "manufacturer": "Sony",
+          "notes": "Lhx0EtlUVGyW5LLnmeHyTbrIAWdsOClWmj6MEqAMZkdQLA85ScjLX2cV8YtQJF1Cuw66XlaOJ6yyiOMB8m3tpPXKyLEkbf65c0KqkGL9ygLGvZD5JqZ3BmD6vQJAoxdJ2o2smZevdBGTptTs3dhx8pI1lp3yjphmfSiVdQsp1sNNyGRkMYzmj4Vx5Gr7YLm6hRcWuSS9VbBDuDYNiMce4lbthzg6413HiOHRhyKlPZwu8lPoITdyQo9zf0",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 77318,
+      "createdOn": "2025-12-23T22:15:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b148b1c508c5d5efa2f7f",
+          "products": [
+            {
+              "_id": "694b148c1c508c5d5efa2f89",
+              "name": "Mouse94921",
+              "amount": 855,
+              "price": 77318,
+              "manufacturer": "Sony",
+              "notes": "Lhx0EtlUVGyW5LLnmeHyTbrIAWdsOClWmj6MEqAMZkdQLA85ScjLX2cV8YtQJF1Cuw66XlaOJ6yyiOMB8m3tpPXKyLEkbf65c0KqkGL9ygLGvZD5JqZ3BmD6vQJAoxdJ2o2smZevdBGTptTs3dhx8pI1lp3yjphmfSiVdQsp1sNNyGRkMYzmj4Vx5Gr7YLm6hRcWuSS9VbBDuDYNiMce4lbthzg6413HiOHRhyKlPZwu8lPoITdyQo9zf0",
+              "received": false
+            }
+          ],
+          "total_price": 77318,
+          "delivery": null,
+          "changedOn": "2025-12-23T22:15:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694b148c1c508c5d5efa2fa2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

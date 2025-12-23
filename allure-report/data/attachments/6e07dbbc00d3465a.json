@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 22:15:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-Xp/n7M/WSvQxGgDOy/QU7JOcrXk\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Noelia.Klein@gmail.com",
+      "name": "Kenna Elenor",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 475,
+      "flat": 6685,
+      "phone": "+1229757958",
+      "createdOn": "2025-12-23T22:15:36.000Z",
+      "notes": "zZEa7aAjSmNPxy5fsM91sXhZeNZqelV8igi12XFInDr5ZwisA2JZ14M2jphnRETQMVTC92ICNYRmpvRasyAfLqcG5ZARb9NvizUDbYfO9rQAsL6Wmx3AZxyDROb8jPk2Jh02QwYbUQO83soNsGUElDwTGgSd92FSnJ2ll8YbUDUUdCjMDGRyV1ANkjiAs8xW62VtrwAmzSz3vOIMDyoAQDLCStYuqCkMAdvbZN4GLHr4t2j9HiHOtXUBW3",
+      "_id": "694b14881c508c5d5efa2f56"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

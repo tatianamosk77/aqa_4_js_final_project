@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 22:15:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "162",
+    "etag": "W/\"a2-C8/cA4nLufFh5wqLTtLVLh/Zt2M\"",
+    "connection": "close"
+  },
+  "body": {
+    "IsSuccess": false,
+    "ErrorMessage": "Login error",
+    "reason": "No document found for query \"{ _id: new ObjectId(\"6949c3091c508c5d5ef484a6\") }\" on model \"Token\""
+  }
+}

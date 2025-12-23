@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 22:15:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-KmfEiO+Gm6vtuln0DKj/qMfcD+E\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694b14791c508c5d5efa279f",
+        "email": "Elijah.Kutch81@hotmail.com",
+        "name": "Maryam Coby",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 50,
+        "flat": 1728,
+        "phone": "+6048557000",
+        "createdOn": "2025-12-23T22:15:21.000Z",
+        "notes": "EHBu5zobv2zsp7WHtaGjnOriYQ5ZFwy9tHn5HvzXkymI6D3OmkuEKGJ3DxMf7CUlpzAqmySUEsQgNEPC0nHQpbgfQ2zBVvs9k6l2L1HOoU58bFWBh8UBXc4ckznoWF72Fnc7bcrP2kfoaBTrCO949NcCflcXb2ukzn6AifwCt7eqM7l7zX6R3hiOFozJwa9PDAeDr9F1wFXTdnxzO2v05sQh8fRIwB5U02oiTkv4GatrgMASf0qphqSJUU"
+      },
+      "products": [
+        {
+          "_id": "694b14791c508c5d5efa27b0",
+          "name": "Ball58303",
+          "amount": 911,
+          "price": 23882,
+          "manufacturer": "Amazon",
+          "notes": "OfcdqoAbixbYmys8fkomaeHQn4IHrRybaPwXWlUNTT29szdY3dbdAXIFLcO9jlfv4afRllH4kM4PU3gyj9MHpbZqTViar2IuyA8Bp7imc1awEobYGxuJ4jbjYv4ResZ2Dn1ArHXrQCRT7LUDjpYiA7tX9snYdDNeZFLLaRhoniQjNpeBDQIeBCivg2Xaxsg2XdM5nNHQeEXvWr8lMXOcgVGYCNwlCA0DVIxIZpX6EEINOxFLd8ympD7CFG",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 23882,
+      "createdOn": "2025-12-23T22:15:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b14791c508c5d5efa279f",
+          "products": [
+            {
+              "_id": "694b14791c508c5d5efa27b0",
+              "name": "Ball58303",
+              "amount": 911,
+              "price": 23882,
+              "manufacturer": "Amazon",
+              "notes": "OfcdqoAbixbYmys8fkomaeHQn4IHrRybaPwXWlUNTT29szdY3dbdAXIFLcO9jlfv4afRllH4kM4PU3gyj9MHpbZqTViar2IuyA8Bp7imc1awEobYGxuJ4jbjYv4ResZ2Dn1ArHXrQCRT7LUDjpYiA7tX9snYdDNeZFLLaRhoniQjNpeBDQIeBCivg2Xaxsg2XdM5nNHQeEXvWr8lMXOcgVGYCNwlCA0DVIxIZpX6EEINOxFLd8ympD7CFG",
+              "received": false
+            }
+          ],
+          "total_price": 23882,
+          "delivery": null,
+          "changedOn": "2025-12-23T22:15:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694b147a1c508c5d5efa27c1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

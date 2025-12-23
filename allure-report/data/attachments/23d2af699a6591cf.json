@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 22:15:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "286",
+    "etag": "W/\"11e-+FPSb7A9pj3jaY3PrlbSXOSjUhA\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Leopoldo_Rempel24@gmail.com",
+      "name": "Lonny Kian",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 744,
+      "flat": 5992,
+      "phone": "+6028852644",
+      "createdOn": "2025-12-23T22:15:14.000Z",
+      "_id": "694b14721c508c5d5efa2573"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

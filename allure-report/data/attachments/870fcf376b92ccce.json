@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 22:15:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "537",
+    "etag": "W/\"219-eH0xOeXpXHvlbahDZyY+9LniJpA\"",
+    "keep-alive": "timeout=5, max=65",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Deja32@hotmail.com",
+      "name": "Einar Violet",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 423,
+      "flat": 2358,
+      "phone": "+6507273276",
+      "createdOn": "2025-12-23T22:15:23.000Z",
+      "notes": "ns4mozTLnJFp7rBStVLQuzvZu4rt7qgOiqvIlTsEn0NKaTCi4flonirWY4nrTt7LO9pjb7LYf5Xpx61pR8K4b4yU75oCSLOp1hyVB9FGTnXUBqoNnew3O0W5JSD1LjYGe8hUGhyOqTw3Wr39aotW7lVBoC40v1IG6HERmbCQbOl6j35xNII9abUZjX2qNXrDqpAmKXJ3gofM78GBu27WawVT8eeoA0nAQkfrr27rrtnQ1NA2q62BHVjhdN",
+      "_id": "694b147b1c508c5d5efa2846"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

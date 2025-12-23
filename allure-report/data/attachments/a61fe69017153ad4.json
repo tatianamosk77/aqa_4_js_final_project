@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 22:15:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1876",
+    "etag": "W/\"754-k0F3zNfrxAwUSwZmJroHd+2D9RM\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694b147d1c508c5d5efa28eb",
+        "email": "Ransom_Prohaska95@hotmail.com",
+        "name": "Maya Efrain",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 23,
+        "flat": 2049,
+        "phone": "+9333222853",
+        "createdOn": "2025-12-23T22:15:25.000Z",
+        "notes": "dRPjuTaNSIkvPUstCFxzl3qrcKFJhiFOMFwkbEiyMo0LPOPLSKgmDzE2xRSwE5VlZOM0JhSBVEFZETVMnNZt6VI8ySKFCPJ9l2XnqwgSWp7wYvtnkcBk5NRcrvDSRGAIgpoJ6YsKIJBoMeqTSaF2d3jZG0TKUxFBVTw8cw2Y8pByKhw1XmtIPxz9vwhztGXd8rItiJmPPn9b3KgRLKH8MEdzCZdmMEQ0KrsuFSKRLfKND0Sf58MwXF8AAT"
+      },
+      "products": [
+        {
+          "_id": "694b147d1c508c5d5efa2907",
+          "name": "Fish26527",
+          "amount": 301,
+          "price": 10722,
+          "manufacturer": "Google",
+          "notes": "pU9NWSKlgzmHoiVnus7VUrI3eqTvy4QEcIYi6MPGsg7XbyVyJdjIQLreMn4IPDvdbQ9WJxqK8dyYiIvkx5cfwysjv0Gw4hfF8MHGRIPj6YImcTQvRZF6NO8m9ZzSm8d9VT937UK7oMaAqlWq3FUH3oFtm09FJDgkZIXHEPGiwvnZEBq9moja3YVTWa7oDRAPiZadNPFo8InXhMCVVu4DuOLYRdhoZH1gzoBoB28a96uyMlMThw9tlNU1o5",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 10722,
+      "createdOn": "2025-12-23T22:15:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b147d1c508c5d5efa28eb",
+          "products": [
+            {
+              "_id": "694b147d1c508c5d5efa2907",
+              "name": "Fish26527",
+              "amount": 301,
+              "price": 10722,
+              "manufacturer": "Google",
+              "notes": "pU9NWSKlgzmHoiVnus7VUrI3eqTvy4QEcIYi6MPGsg7XbyVyJdjIQLreMn4IPDvdbQ9WJxqK8dyYiIvkx5cfwysjv0Gw4hfF8MHGRIPj6YImcTQvRZF6NO8m9ZzSm8d9VT937UK7oMaAqlWq3FUH3oFtm09FJDgkZIXHEPGiwvnZEBq9moja3YVTWa7oDRAPiZadNPFo8InXhMCVVu4DuOLYRdhoZH1gzoBoB28a96uyMlMThw9tlNU1o5",
+              "received": false
+            }
+          ],
+          "total_price": 10722,
+          "delivery": null,
+          "changedOn": "2025-12-23T22:15:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694b147d1c508c5d5efa291a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

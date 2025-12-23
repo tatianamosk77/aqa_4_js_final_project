@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 22:15:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1877",
+    "etag": "W/\"755-usGpeVLuEUxkOwp1LiXy8oNz3LA\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b147e1c508c5d5efa2972",
+      "status": "Draft",
+      "customer": {
+        "_id": "694b147d1c508c5d5efa2932",
+        "email": "Rafael_Kuhlman@gmail.com",
+        "name": "Kailee Lupe",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 975,
+        "flat": 741,
+        "phone": "+4647862854",
+        "createdOn": "2025-12-23T22:15:25.000Z",
+        "notes": "6xFyznW7a7ahb7nHFGsxe1BKarINP0avDnLBtOisPAWkFMoi6xnSGfW1gyEGTkAMiupKrxSEvrh1hWwqLCRPpKX93g7sMC5FdY8clKy1Q9zeSKqqylH7aQJwiIKOq4TcOllS72MfWM4UD0anJTrjWdKe2NjpCPaEOdse2DKNiBOiSqy6vIIs92SSBMz3kl7JFJ6cCGpNXQUu257U170vuwMGEnqjKXPFVfmNGKflgEeP7vqMEt27nKiV43"
+      },
+      "products": [
+        {
+          "_id": "694b147d1c508c5d5efa2951",
+          "name": "Keyboard86380",
+          "amount": 404,
+          "price": 33714,
+          "manufacturer": "Apple",
+          "notes": "5Gbk3HIKfXbzqLpWZJKvDgkURCzrNkNUjRBKiegBzcvuiHbmvVJmzhocg1Zz2eosBZGYRkC9XopNiA1iNGt9rUJVzU5eQqe8eEIkLXUpQpxQLwsP7xAKg2LAuHra44c6vkUfunWUmfq1IDKgBFGqbOhSbS8OgHG8E5rKeYPwnC8UNW1KBrH91nzqlNPWGx2Y6wpQEXVPwC8Sl774lbdNgcnITqpHsE3Ycnt3f8G97r5YEbCkGM044WV9vc",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 33714,
+      "createdOn": "2025-12-23T22:15:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b147d1c508c5d5efa2932",
+          "products": [
+            {
+              "_id": "694b147d1c508c5d5efa2951",
+              "name": "Keyboard86380",
+              "amount": 404,
+              "price": 33714,
+              "manufacturer": "Apple",
+              "notes": "5Gbk3HIKfXbzqLpWZJKvDgkURCzrNkNUjRBKiegBzcvuiHbmvVJmzhocg1Zz2eosBZGYRkC9XopNiA1iNGt9rUJVzU5eQqe8eEIkLXUpQpxQLwsP7xAKg2LAuHra44c6vkUfunWUmfq1IDKgBFGqbOhSbS8OgHG8E5rKeYPwnC8UNW1KBrH91nzqlNPWGx2Y6wpQEXVPwC8Sl774lbdNgcnITqpHsE3Ycnt3f8G97r5YEbCkGM044WV9vc",
+              "received": false
+            }
+          ],
+          "total_price": 33714,
+          "delivery": null,
+          "changedOn": "2025-12-23T22:15:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

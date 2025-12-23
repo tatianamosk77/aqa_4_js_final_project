@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 22:15:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "191",
+    "etag": "W/\"bf-CdKkTMtardN/mtfT/mVornshrJc\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Table137",
+      "amount": 950,
+      "price": 27178,
+      "manufacturer": "Xiaomi",
+      "createdOn": "2025-12-23T22:15:52.000Z",
+      "_id": "694b14981c508c5d5efa38a0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 22:15:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-Oe0dC1F0eyhdmTkPnxQUVAn9vn4\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Mark.Streich@yahoo.com",
+      "name": "Bernadine Lacey",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 14,
+      "flat": 4111,
+      "phone": "+7795115753",
+      "createdOn": "2025-12-23T22:15:19.000Z",
+      "notes": "NloLTGvHqnSHeQRADW3DFc6F76XdmhD1EaYBsO69oRjFp4ml9aFrUrzzd3rhSrRjbTF8LoT8eX1kauBD73gag6veLeS2ukAhhz2RePsZAn8oJ7Fx1lenuYcZQx3M7e3rsKl00XsMNnM2AxcbXialTxA1hR871a9JbDQcl0OoBFKIYO0JTeMhuGUO9GdAUzc1qyudfnogcnDJxYleySgaUVwFvNreEggwON9v42vrQRhoptnaP9tEgLmjOe",
+      "_id": "694b14771c508c5d5efa26cb"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

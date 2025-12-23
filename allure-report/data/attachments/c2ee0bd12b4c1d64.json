@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 22:15:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "539",
+    "etag": "W/\"21b-UqhY5h3UbhxktIO1R5Dimfs8h3w\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Kristin82@gmail.com",
+      "name": "Marques Edna",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 1,
+      "flat": 1111,
+      "phone": "+2356879245",
+      "createdOn": "2025-12-23T22:15:15.000Z",
+      "notes": "apnkcUAB0DgReXmbHsVKXJgIoum2wf4dGSk8wmtYVSo8HKd7ERydtWNwMdalNwxTYDVKwQkDwXIk8ZDKTFBGqUEyeIfTfEDOa7pu7c4MAfyxTxryWIYeis6Ozs59jYKPzr5VvbX72Y88CNYpKZ0bYDvXgBUZOzIcbMRpXZkfbCmcu2gcWA4QLarsWzyMbxOCUgLOZCmGq5OSRoMdCNlyJYx1e2NCkDXJxAoQWTLGD9z0vjyDzyiy5lMSSb",
+      "_id": "694b14731c508c5d5efa25bf"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

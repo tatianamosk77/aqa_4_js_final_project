@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 22:15:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-tOpgRGBKjZYk6YMawjaixRWJSl0\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Dave_Schinner@yahoo.com",
+      "name": "Juliana Giovani",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 907,
+      "flat": 8420,
+      "phone": "+4842423379",
+      "createdOn": "2025-12-23T22:15:18.000Z",
+      "notes": "3ie8IHF7hb3RGZFalDJHrTlPT0sP4QMvh4KVCXOnSVChKjvgZxJQxPNou8eESizfOWFp0FNfIBZw1KIiiIwWVipFyXFIh9fdNUpbSUmBo3wzLkJjS3iDJeakgEpD5gQmfpDWYSgMQWvj09EL6v66WDuaulpnETx6fjvjOUl8hN1oaEX8kxRNcfsTyLx0UBoAhEVAZXtEqa2djtr2Oz3JeP8YrjpWRgQeAu9qR4W1yAaXjrMTkP1nLO67Jw",
+      "_id": "694b14761c508c5d5efa26b9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

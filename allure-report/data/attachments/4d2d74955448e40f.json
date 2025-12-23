@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 22:15:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-4eorWA1HS9Cnp5HoTMgMcICHEok\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Rodolfo_Lang@gmail.com",
+      "name": "Ashlee Bobby",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 55,
+      "flat": 9567,
+      "phone": "+3440659088",
+      "createdOn": "2025-12-23T22:15:31.000Z",
+      "notes": "xCB3LJwNCL1Iu1rmxe4DwJAI4nbQJVJniPC64bVSYTfbLihzVzE8cbRekW9EgZxpssOSiFDmAdGmTeBtd7jLolKhQDYqdcQeEgaANzqXBGzS13dyH7PpfXSuhM9WvAnnCtizj65eeox0FMolWEnyOlLQBjY7XzAge9zdy5vf0GEUgzWnDkIo6juCvQOFgFsnRgvuHQp6utOywLqw0nVdpoxePL0yjLgBqpzFOcvrI6fWRy7bexBaSA8QuM",
+      "_id": "694b14831c508c5d5efa2bb4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

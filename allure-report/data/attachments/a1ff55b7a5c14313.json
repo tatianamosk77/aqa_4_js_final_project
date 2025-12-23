@@ -1,0 +1,155 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 22:15:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4954",
+    "etag": "W/\"135a-4Xlo8gqeHwv0EpTMSCPQa4QM3bc\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b147f1c508c5d5efa29fc",
+      "status": "Draft",
+      "customer": {
+        "_id": "694b147e1c508c5d5efa299f",
+        "email": "Sigurd_Mayert11@hotmail.com",
+        "name": "Mozell Flossie",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 556,
+        "flat": 576,
+        "phone": "+3103794358",
+        "createdOn": "2025-12-23T22:15:26.000Z",
+        "notes": "Hl3WmddZ9D9cpne0tyRMoT7ksjFYeHI1kTpTaR5gzQv88ez535hFJ42iZSAkuV7cj85iSRcQQFuIoWyq43aDBljvXfaoaxtIRx2qll3e0kzRfgnKc5AOnoosmmWV0iSJhzsKvorqn5dPRDR3BCEgmksCa6WLogK07I768DoA3gRVPOKUVVsdhs8mGrrWk4WcRoQXgLib6Xdut8EX3oFCTgbO32VMTqJhGmjzh4u9EtiAu0XmHrLX8mivnR"
+      },
+      "products": [
+        {
+          "_id": "694b147e1c508c5d5efa29a3",
+          "name": "Towels53933",
+          "amount": 39,
+          "price": 50217,
+          "manufacturer": "Sony",
+          "notes": "HfNNTWHKVjJ0hp6M5du3nxYuqQYdEkvx5Mh2eSh2d2IGMCv5JoAiBuEMG56Il8BAV1eTyb2m3pTffstmTl3ZjkunWK5jwzGsuNIg3DGA1VtfT0F7GA3gyMK7qSKP9DIDU70N0pCcdSH8Iyeir4V63AXSsDbFF2IokO4owT5R4mkdrDaXECwuBwyG1evxypI41L7gfMVrLIf5hGOroINe4RxeA94ih7hoAirr5XDYuWbelSB8TcVoAHe3q3",
+          "received": false
+        },
+        {
+          "_id": "694b147e1c508c5d5efa29d3",
+          "name": "Table64053",
+          "amount": 608,
+          "price": 77037,
+          "manufacturer": "Samsung",
+          "notes": "7lMfsBL2ufNh73VsCFFmO6b87VQ8lP5n9od0UKA9nwYx6mxZrAsAFiXPPLqTh6VyQfZ7jYzMBGe4xOUGy7MGsQvHFKZGqzNSPm0BXpwoM6y9WkrcjSeda6Bbf55EvMDzUmq3lLa6fInq3RVwZ22acTYaPyH7pUQunnAzYStm6GQ8UhZ9NLIwYN08ZRJUUqjq790LfwgLQE9mjCGjzFrbmr2qG6SoQK3ZQAtwNtlUwUh0JIxxLG1gABTeL7",
+          "received": false
+        },
+        {
+          "_id": "694b147e1c508c5d5efa29d5",
+          "name": "Gloves39466",
+          "amount": 167,
+          "price": 90006,
+          "manufacturer": "Google",
+          "notes": "XKYTIEUPfJD02E6tW21sKkhybwGjrO2G64o4Xf19DBhAj9J9vAWGc9Ma1Agn8GBwYWTShOqMY9mkNnq7EStmIXYZK5LrlEQIzLE4tXkfvgPGVO2zmxd8DBKrzYgzJxuCDrIJKxZkMJ8HNUuxgViCEsiuzmBTsXpLowRoZepqGPvRZqBzXExQsdXS7Ky9Xc2pquG0aMnC7BSKd6owMIlc3d81zwXKt2WHJ0PZgKv75K4r10kYgRNzkK7BBG",
+          "received": false
+        },
+        {
+          "_id": "694b147e1c508c5d5efa29e4",
+          "name": "Keyboard55107",
+          "amount": 870,
+          "price": 31910,
+          "manufacturer": "Sony",
+          "notes": "skdhXs9r5h5WpfAHxcVqGHMRV55Y0O935O5mlym7DLmMZTUyoN18nvvsghFsV7q2m8mafM2UbijK765OXermq1hFmTZaEbsTVhX4JNTtCFcb6AIzUA9HGeGGOLTmTV6L0QBwyq8Fy2pFt4QJwyqrAaLbhrscvKnfOFKk6yJGArGSnSWRikEgpkxm5PNN06vTZazCqqXw4JwYulFChLq4SnD7NNwuVG2kYivTqJVbA9BEZbrGYscpfhCzvh",
+          "received": false
+        },
+        {
+          "_id": "694b147e1c508c5d5efa29cd",
+          "name": "Hat60291",
+          "amount": 898,
+          "price": 86808,
+          "manufacturer": "Microsoft",
+          "notes": "djNN4WwuWasZkk0ujB08Zt91iHOjdYEhQUTgid4FSMczCbsumdWkS3VXKgcyZuIcIq1BollUH0Yqt9kqLJUpmLoqlaBTVAO7tUbDZeEstlpxDOGzpk0hp31KR3szu1LVpUQ3cmVirqtOfaXbpgsThuB9GCNrQw1Phy475b6wpT0ngVv84tG43uYr3NcsCznbQ5fYN0umk3g2diXbZKEodprzTq2TYZyud1eT80HepnitB2wELERgwjQANN",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 335978,
+      "createdOn": "2025-12-23T22:15:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b147e1c508c5d5efa299f",
+          "products": [
+            {
+              "_id": "694b147e1c508c5d5efa29a3",
+              "name": "Towels53933",
+              "amount": 39,
+              "price": 50217,
+              "manufacturer": "Sony",
+              "notes": "HfNNTWHKVjJ0hp6M5du3nxYuqQYdEkvx5Mh2eSh2d2IGMCv5JoAiBuEMG56Il8BAV1eTyb2m3pTffstmTl3ZjkunWK5jwzGsuNIg3DGA1VtfT0F7GA3gyMK7qSKP9DIDU70N0pCcdSH8Iyeir4V63AXSsDbFF2IokO4owT5R4mkdrDaXECwuBwyG1evxypI41L7gfMVrLIf5hGOroINe4RxeA94ih7hoAirr5XDYuWbelSB8TcVoAHe3q3",
+              "received": false
+            },
+            {
+              "_id": "694b147e1c508c5d5efa29d3",
+              "name": "Table64053",
+              "amount": 608,
+              "price": 77037,
+              "manufacturer": "Samsung",
+              "notes": "7lMfsBL2ufNh73VsCFFmO6b87VQ8lP5n9od0UKA9nwYx6mxZrAsAFiXPPLqTh6VyQfZ7jYzMBGe4xOUGy7MGsQvHFKZGqzNSPm0BXpwoM6y9WkrcjSeda6Bbf55EvMDzUmq3lLa6fInq3RVwZ22acTYaPyH7pUQunnAzYStm6GQ8UhZ9NLIwYN08ZRJUUqjq790LfwgLQE9mjCGjzFrbmr2qG6SoQK3ZQAtwNtlUwUh0JIxxLG1gABTeL7",
+              "received": false
+            },
+            {
+              "_id": "694b147e1c508c5d5efa29d5",
+              "name": "Gloves39466",
+              "amount": 167,
+              "price": 90006,
+              "manufacturer": "Google",
+              "notes": "XKYTIEUPfJD02E6tW21sKkhybwGjrO2G64o4Xf19DBhAj9J9vAWGc9Ma1Agn8GBwYWTShOqMY9mkNnq7EStmIXYZK5LrlEQIzLE4tXkfvgPGVO2zmxd8DBKrzYgzJxuCDrIJKxZkMJ8HNUuxgViCEsiuzmBTsXpLowRoZepqGPvRZqBzXExQsdXS7Ky9Xc2pquG0aMnC7BSKd6owMIlc3d81zwXKt2WHJ0PZgKv75K4r10kYgRNzkK7BBG",
+              "received": false
+            },
+            {
+              "_id": "694b147e1c508c5d5efa29e4",
+              "name": "Keyboard55107",
+              "amount": 870,
+              "price": 31910,
+              "manufacturer": "Sony",
+              "notes": "skdhXs9r5h5WpfAHxcVqGHMRV55Y0O935O5mlym7DLmMZTUyoN18nvvsghFsV7q2m8mafM2UbijK765OXermq1hFmTZaEbsTVhX4JNTtCFcb6AIzUA9HGeGGOLTmTV6L0QBwyq8Fy2pFt4QJwyqrAaLbhrscvKnfOFKk6yJGArGSnSWRikEgpkxm5PNN06vTZazCqqXw4JwYulFChLq4SnD7NNwuVG2kYivTqJVbA9BEZbrGYscpfhCzvh",
+              "received": false
+            },
+            {
+              "_id": "694b147e1c508c5d5efa29cd",
+              "name": "Hat60291",
+              "amount": 898,
+              "price": 86808,
+              "manufacturer": "Microsoft",
+              "notes": "djNN4WwuWasZkk0ujB08Zt91iHOjdYEhQUTgid4FSMczCbsumdWkS3VXKgcyZuIcIq1BollUH0Yqt9kqLJUpmLoqlaBTVAO7tUbDZeEstlpxDOGzpk0hp31KR3szu1LVpUQ3cmVirqtOfaXbpgsThuB9GCNrQw1Phy475b6wpT0ngVv84tG43uYr3NcsCznbQ5fYN0umk3g2diXbZKEodprzTq2TYZyud1eT80HepnitB2wELERgwjQANN",
+              "received": false
+            }
+          ],
+          "total_price": 335978,
+          "delivery": null,
+          "changedOn": "2025-12-23T22:15:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

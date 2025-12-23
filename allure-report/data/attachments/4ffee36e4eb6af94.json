@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 22:15:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "207",
+    "etag": "W/\"cf-MOmnoZ1ED/ILptckqJqgxA3RpyM\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Pizza19520",
+      "amount": 519,
+      "price": 62893,
+      "manufacturer": "Microsoft",
+      "createdOn": "2025-12-23T22:15:53.000Z",
+      "notes": "",
+      "_id": "694b14991c508c5d5efa397d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

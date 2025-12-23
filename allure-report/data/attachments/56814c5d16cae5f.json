@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 22:15:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-ar0oYNOTgW7LDIJfXrbbW1Rka1g\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Samanta53@hotmail.com",
+      "name": "Test Customer",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 914,
+      "flat": 617,
+      "phone": "+0136031432",
+      "createdOn": "2025-12-23T22:15:13.000Z",
+      "notes": "GIot2ShRIlihM0U98xvPdIaCoC2Nn4QWIAUfZTDgTSsln2NrEHv3ws6g6RHdT9eFUIIWwNHOLOxpnh3WODEDRgDeYuF06iELOqBjU8bTJdt0dtOwr94qXY0f8Fff8A0Hng5oPPAZZHdi5xjbtLfkEUciRIqjuWfZxRaSunrfP0RLfXte3F6AfxZy25YpmKQsJZteXAnmUWmnC9qTrJpngmB2idX5CXQv0YlW2v7VUsUxK000z8VFyFMtBl",
+      "_id": "694b14711c508c5d5efa24de"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

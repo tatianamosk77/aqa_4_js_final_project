@@ -1,0 +1,179 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 22:15:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4138",
+    "etag": "W/\"102a-2h45qHUgQC76GlrNciXZ12FaiNU\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Orders": [
+      {
+        "_id": "694b14761c508c5d5efa2692",
+        "status": "Draft",
+        "customer": "694b14761c508c5d5efa2669",
+        "products": [
+          {
+            "_id": "694b14761c508c5d5efa267d",
+            "name": "Cheese44778",
+            "amount": 710,
+            "price": 20901,
+            "manufacturer": "Samsung",
+            "notes": "wis5m2i3lUNHIHXCC8fEePZwpGRJQA2eiwukuKtHkaAoJt9r62bLsVuMLqQVTzSqhCAxR2u1BN85DkGp0SaWLrlBwvOMQwM03ILI9PSXDD31Z7VltQrMvFgx0G79FS4EnDwESlNJ0WHuonMFmNjA4iRACt8S7jbM9fdTp2rcfMuN4LLZbMahxUaYOBYX96KygeBZUv51Q09TTWNYS4skoYlEE1JFReHZCpE98xmRGpZDRK2R8vUbafQhSS",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 20901,
+        "createdOn": "2025-12-23T22:15:18.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "694b14761c508c5d5efa2669",
+            "products": [
+              {
+                "_id": "694b14761c508c5d5efa267d",
+                "name": "Cheese44778",
+                "amount": 710,
+                "price": 20901,
+                "manufacturer": "Samsung",
+                "notes": "wis5m2i3lUNHIHXCC8fEePZwpGRJQA2eiwukuKtHkaAoJt9r62bLsVuMLqQVTzSqhCAxR2u1BN85DkGp0SaWLrlBwvOMQwM03ILI9PSXDD31Z7VltQrMvFgx0G79FS4EnDwESlNJ0WHuonMFmNjA4iRACt8S7jbM9fdTp2rcfMuN4LLZbMahxUaYOBYX96KygeBZUv51Q09TTWNYS4skoYlEE1JFReHZCpE98xmRGpZDRK2R8vUbafQhSS",
+                "received": false
+              }
+            ],
+            "total_price": 20901,
+            "delivery": null,
+            "changedOn": "2025-12-23T22:15:18.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337ce1c508c5d5e95335d",
+              "username": "student14@gmail.com",
+              "firstName": "Bill",
+              "lastName": "Schuppe",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:26"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      },
+      {
+        "_id": "694b14761c508c5d5efa26ab",
+        "status": "Draft",
+        "customer": "694b14761c508c5d5efa2669",
+        "products": [
+          {
+            "_id": "694b14761c508c5d5efa267d",
+            "name": "Cheese44778",
+            "amount": 710,
+            "price": 20901,
+            "manufacturer": "Samsung",
+            "notes": "wis5m2i3lUNHIHXCC8fEePZwpGRJQA2eiwukuKtHkaAoJt9r62bLsVuMLqQVTzSqhCAxR2u1BN85DkGp0SaWLrlBwvOMQwM03ILI9PSXDD31Z7VltQrMvFgx0G79FS4EnDwESlNJ0WHuonMFmNjA4iRACt8S7jbM9fdTp2rcfMuN4LLZbMahxUaYOBYX96KygeBZUv51Q09TTWNYS4skoYlEE1JFReHZCpE98xmRGpZDRK2R8vUbafQhSS",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 20901,
+        "createdOn": "2025-12-23T22:15:18.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "694b14761c508c5d5efa2669",
+            "products": [
+              {
+                "_id": "694b14761c508c5d5efa267d",
+                "name": "Cheese44778",
+                "amount": 710,
+                "price": 20901,
+                "manufacturer": "Samsung",
+                "notes": "wis5m2i3lUNHIHXCC8fEePZwpGRJQA2eiwukuKtHkaAoJt9r62bLsVuMLqQVTzSqhCAxR2u1BN85DkGp0SaWLrlBwvOMQwM03ILI9PSXDD31Z7VltQrMvFgx0G79FS4EnDwESlNJ0WHuonMFmNjA4iRACt8S7jbM9fdTp2rcfMuN4LLZbMahxUaYOBYX96KygeBZUv51Q09TTWNYS4skoYlEE1JFReHZCpE98xmRGpZDRK2R8vUbafQhSS",
+                "received": false
+              }
+            ],
+            "total_price": 20901,
+            "delivery": null,
+            "changedOn": "2025-12-23T22:15:18.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337ce1c508c5d5e95335d",
+              "username": "student14@gmail.com",
+              "firstName": "Bill",
+              "lastName": "Schuppe",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:26"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      },
+      {
+        "_id": "694b14771c508c5d5efa26c5",
+        "status": "Draft",
+        "customer": "694b14761c508c5d5efa2669",
+        "products": [
+          {
+            "_id": "694b14761c508c5d5efa267d",
+            "name": "Cheese44778",
+            "amount": 710,
+            "price": 20901,
+            "manufacturer": "Samsung",
+            "notes": "wis5m2i3lUNHIHXCC8fEePZwpGRJQA2eiwukuKtHkaAoJt9r62bLsVuMLqQVTzSqhCAxR2u1BN85DkGp0SaWLrlBwvOMQwM03ILI9PSXDD31Z7VltQrMvFgx0G79FS4EnDwESlNJ0WHuonMFmNjA4iRACt8S7jbM9fdTp2rcfMuN4LLZbMahxUaYOBYX96KygeBZUv51Q09TTWNYS4skoYlEE1JFReHZCpE98xmRGpZDRK2R8vUbafQhSS",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 20901,
+        "createdOn": "2025-12-23T22:15:19.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "694b14761c508c5d5efa2669",
+            "products": [
+              {
+                "_id": "694b14761c508c5d5efa267d",
+                "name": "Cheese44778",
+                "amount": 710,
+                "price": 20901,
+                "manufacturer": "Samsung",
+                "notes": "wis5m2i3lUNHIHXCC8fEePZwpGRJQA2eiwukuKtHkaAoJt9r62bLsVuMLqQVTzSqhCAxR2u1BN85DkGp0SaWLrlBwvOMQwM03ILI9PSXDD31Z7VltQrMvFgx0G79FS4EnDwESlNJ0WHuonMFmNjA4iRACt8S7jbM9fdTp2rcfMuN4LLZbMahxUaYOBYX96KygeBZUv51Q09TTWNYS4skoYlEE1JFReHZCpE98xmRGpZDRK2R8vUbafQhSS",
+                "received": false
+              }
+            ],
+            "total_price": 20901,
+            "delivery": null,
+            "changedOn": "2025-12-23T22:15:19.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337ce1c508c5d5e95335d",
+              "username": "student14@gmail.com",
+              "firstName": "Bill",
+              "lastName": "Schuppe",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:26"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      }
+    ],
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

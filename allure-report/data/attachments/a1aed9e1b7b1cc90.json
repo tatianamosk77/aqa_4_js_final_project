@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 22:15:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3418",
+    "etag": "W/\"d5a-o06I6aXjVWV0D3xjxkqUOY0xgBA\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694b148f1c508c5d5efa31a2",
+        "email": "Zaria_Wiza@gmail.com",
+        "name": "Alexie Pink",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 356,
+        "flat": 6111,
+        "phone": "+6017293090",
+        "createdOn": "2025-12-23T22:15:43.000Z",
+        "notes": "zVaEf7R0SJUb6kJGvAs0ObIwyffjagy8bB211TueK2xPclOfANGMRI2386EunkJeHTOCg7ixdaeM4QmcrvVJZ0Nyj7xgPIYn8sjm6x5WkX0ERXzaxXivbxRloJAmHMrwz6Htp018ZCk1tl48DLuyDnu68iwXoaYe4PhwoCbgPHLuuN8WoQDjLcOVYyRKBrp2xOSzBWEtwVbIa9lyC7TwzM8Wj8E4cc6tV40fZ5A5gs7nRJTFl9yXwV3pzO"
+      },
+      "products": [
+        {
+          "_id": "694b148f1c508c5d5efa31a4",
+          "name": "Pizza36844",
+          "amount": 939,
+          "price": 1734,
+          "manufacturer": "Microsoft",
+          "notes": "3y2CfU5fb2OnqHd3t9UoHfqPKiACsF3QmleHjGBNh24I1jKKsHJdpnE4xwlAHFeHcVkUvFF9d7KPMkYAuWoHvzt05SsaJNH7i559MRvEQlkFCBY8duIRmIAkkOakkbYjK2P7j9XqPZIBk7UKGefqxuPi8e61MlihiUIq7guQBR9efWzs5kdhjJuHsUq46NOL4xzqrzL6vhNUjmDto5eT01sp6dF7ukRKGkH1Ol5DOQDfqA691T2qunmoDI",
+          "received": false
+        },
+        {
+          "_id": "694b14911c508c5d5efa335b",
+          "name": "Mouse17958",
+          "amount": 310,
+          "price": 40515,
+          "manufacturer": "Samsung",
+          "notes": "qdio9QyE4NXwHehl9bKnIEagIw2lhGEOEmtynWkrEgi2YFKQwj3TJYjSzEgqyglnz9PMMCRY3k8PPQN5Cy4HhhKOD2OE9qSJtMIQ3DFToXEAprmnH7P0MJefPDBtHTrYRvndqcQTYL6wdQ8ijHo4b4Fnb3cPh5KZzJaNhzRnaO9QHVh8CJPsgBSAQkD3SqWlMjAi3NlFiMQ31XeCk8dOrf07RF84Gd2tEKH25cdLo3RPV6UXHwt6zHChEz",
+          "received": false
+        },
+        {
+          "_id": "694b14911c508c5d5efa335d",
+          "name": "Pants82094",
+          "amount": 107,
+          "price": 41099,
+          "manufacturer": "Microsoft",
+          "notes": "ouAM9DOXxrC3vCf5RwDJ1AeqKGgvJZ8Uzdo8b1mYsxH8ubgvrfmAW5yzWnjmxog2uh6sApCG4IlbZPo5X9zWNehrMhnX8BqRcpPAk6x8hfpzRTz0vPkJQM0cRfqAjC7wklnhpZ0dVst6N3CLobY5HHbQ7GmkDwhfZjSNcrF4RPMW6hJoTeoPm8GELfHmqNHytkTRjPTOIRPxnJuyJYZogMwN1k3Xw9VyYnZvLlL4nKq5lPNd7p27lT7fwB",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 83348,
+      "createdOn": "2025-12-23T22:15:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b148f1c508c5d5efa31a2",
+          "products": [
+            {
+              "_id": "694b148f1c508c5d5efa31a4",
+              "name": "Pizza36844",
+              "amount": 939,
+              "price": 1734,
+              "manufacturer": "Microsoft",
+              "notes": "3y2CfU5fb2OnqHd3t9UoHfqPKiACsF3QmleHjGBNh24I1jKKsHJdpnE4xwlAHFeHcVkUvFF9d7KPMkYAuWoHvzt05SsaJNH7i559MRvEQlkFCBY8duIRmIAkkOakkbYjK2P7j9XqPZIBk7UKGefqxuPi8e61MlihiUIq7guQBR9efWzs5kdhjJuHsUq46NOL4xzqrzL6vhNUjmDto5eT01sp6dF7ukRKGkH1Ol5DOQDfqA691T2qunmoDI",
+              "received": false
+            },
+            {
+              "_id": "694b14911c508c5d5efa335b",
+              "name": "Mouse17958",
+              "amount": 310,
+              "price": 40515,
+              "manufacturer": "Samsung",
+              "notes": "qdio9QyE4NXwHehl9bKnIEagIw2lhGEOEmtynWkrEgi2YFKQwj3TJYjSzEgqyglnz9PMMCRY3k8PPQN5Cy4HhhKOD2OE9qSJtMIQ3DFToXEAprmnH7P0MJefPDBtHTrYRvndqcQTYL6wdQ8ijHo4b4Fnb3cPh5KZzJaNhzRnaO9QHVh8CJPsgBSAQkD3SqWlMjAi3NlFiMQ31XeCk8dOrf07RF84Gd2tEKH25cdLo3RPV6UXHwt6zHChEz",
+              "received": false
+            },
+            {
+              "_id": "694b14911c508c5d5efa335d",
+              "name": "Pants82094",
+              "amount": 107,
+              "price": 41099,
+              "manufacturer": "Microsoft",
+              "notes": "ouAM9DOXxrC3vCf5RwDJ1AeqKGgvJZ8Uzdo8b1mYsxH8ubgvrfmAW5yzWnjmxog2uh6sApCG4IlbZPo5X9zWNehrMhnX8BqRcpPAk6x8hfpzRTz0vPkJQM0cRfqAjC7wklnhpZ0dVst6N3CLobY5HHbQ7GmkDwhfZjSNcrF4RPMW6hJoTeoPm8GELfHmqNHytkTRjPTOIRPxnJuyJYZogMwN1k3Xw9VyYnZvLlL4nKq5lPNd7p27lT7fwB",
+              "received": false
+            }
+          ],
+          "total_price": 83348,
+          "delivery": null,
+          "changedOn": "2025-12-23T22:15:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694b14931c508c5d5efa3524"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
