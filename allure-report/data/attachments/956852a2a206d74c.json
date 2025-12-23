@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 14:12:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-cu1w4vvgOZ0GT1y6S/eMitUtrU4\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Grayce53@yahoo.com",
+      "name": "Test Customer",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 935,
+      "flat": 6210,
+      "phone": "+2318648119",
+      "createdOn": "2025-12-23T14:12:44.000Z",
+      "notes": "dwTgtsdZwWvtgZrFkVKJwqr2o8NlmFShCh0Nn88svIwrUW7rJrC886LTFncL7lvrVjPl129hVtObTfkj7bgYCWh8uLAkRDqbCt4n7Zzx85kdBdprk677mgFPWFIcm1BgTLGCdAqjRPTJFg4E5s4WRVMwxwHmNrp9M4Yo3lBtho6fi3c7ywCrynofF0yORwrdPjwGCO2du5kO2TPhAurC4ZzVJElc1XPx6HyxF8y5tinVP3gPWtZ0jbk4Fd",
+      "_id": "694aa35c1c508c5d5ef510af"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

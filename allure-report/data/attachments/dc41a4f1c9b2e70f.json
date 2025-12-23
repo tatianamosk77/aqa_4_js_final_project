@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 14:12:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "278",
+    "etag": "W/\"116-yBs34lVNHz4dGb1aqqR2vYPDoRg\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Chyna12@gmail.com",
+      "name": "Cleve Irving",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 368,
+      "flat": 4058,
+      "phone": "+9115911888",
+      "createdOn": "2025-12-23T14:12:45.000Z",
+      "_id": "694aa35d1c508c5d5ef51122"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

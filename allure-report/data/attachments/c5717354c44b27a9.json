@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 14:13:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1977",
+    "etag": "W/\"7b9-ISWnpEmlobCNrAtUISasPB1aCyg\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694aa36c1c508c5d5ef5169e",
+      "status": "Draft",
+      "customer": {
+        "_id": "694aa36b1c508c5d5ef5166e",
+        "email": "Kristy_Hackett@hotmail.com",
+        "name": "Theresa Trevor",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 906,
+        "flat": 8938,
+        "phone": "+7137283119",
+        "createdOn": "2025-12-23T14:12:59.000Z",
+        "notes": "THqwAgUA1RnMOUqjJI9Zi2OyEOAqgWf8vB2uP5mJ45GSgT19vRGhZSdwj0ALXLmVoO0bC0PC4AUWinZNc16hRJclOuvVjY3zV1fEquDnpjt0ld8p6Gwufdx3q5EeTZlnpcmpg0V4Qtl52kIjga0t7MWDHS2vh8AV8sR35PqzuL9GjQKMefmwpA7534eXXGlq1Bh9F6GELNu8G70cOLVXtP8Kzwcib9uI5NYm0sMhcDWZV5jAbhmAubV0vt"
+      },
+      "products": [
+        {
+          "_id": "694aa36b1c508c5d5ef51670",
+          "name": "Mouse16032",
+          "amount": 253,
+          "price": 13699,
+          "manufacturer": "Tesla",
+          "notes": "9J96iLInPyMDWc9bAVpVabGKXqH9UYanHKWrX8Bts1TCRBvPpG64AoMQtPpCVAXA32EpOuIny3WFs70Zafq51vbHbx8N5RgR9o6oHCCYwx5e0rQg03kWjz4PTWW9OzxS6A3nxwhaqTZXLIo89PLaszHOH5VF2tKbxPFvdU67q0JvWsyIxXh8gT2yGDKKlWYuPOLTbRLNuuiMQEAoIEPsHE3D8kaIOJP3IUVUKxRkbBLZxhxXd3VIUghtal",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 13699,
+      "createdOn": "2025-12-23T14:13:00.000Z",
+      "comments": [
+        {
+          "text": "autotest comment",
+          "createdOn": "2025-12-23T14:13:00.000Z",
+          "_id": "694aa36c1c508c5d5ef516d0"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694aa36b1c508c5d5ef5166e",
+          "products": [
+            {
+              "_id": "694aa36b1c508c5d5ef51670",
+              "name": "Mouse16032",
+              "amount": 253,
+              "price": 13699,
+              "manufacturer": "Tesla",
+              "notes": "9J96iLInPyMDWc9bAVpVabGKXqH9UYanHKWrX8Bts1TCRBvPpG64AoMQtPpCVAXA32EpOuIny3WFs70Zafq51vbHbx8N5RgR9o6oHCCYwx5e0rQg03kWjz4PTWW9OzxS6A3nxwhaqTZXLIo89PLaszHOH5VF2tKbxPFvdU67q0JvWsyIxXh8gT2yGDKKlWYuPOLTbRLNuuiMQEAoIEPsHE3D8kaIOJP3IUVUKxRkbBLZxhxXd3VIUghtal",
+              "received": false
+            }
+          ],
+          "total_price": 13699,
+          "delivery": null,
+          "changedOn": "2025-12-23T14:13:00.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

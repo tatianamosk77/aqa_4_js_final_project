@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 14:12:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "288",
+    "etag": "W/\"120-WKksHUeRgprKkrMi+gUhpCu3d74\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Austen95@yahoo.com",
+      "name": "Art Benny",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 578,
+      "flat": 8701,
+      "phone": "+8091937682",
+      "createdOn": "2025-12-23T14:12:45.000Z",
+      "notes": "",
+      "_id": "694aa35d1c508c5d5ef51144"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

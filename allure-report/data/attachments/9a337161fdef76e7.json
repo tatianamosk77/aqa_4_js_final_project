@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 14:13:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-xqV+2htHVT1yP9IbqJPyUzK6wrE\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Nels99@gmail.com",
+      "name": "Lindsey Archibald",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 134,
+      "flat": 126,
+      "phone": "+6723672334",
+      "createdOn": "2025-12-23T14:13:02.000Z",
+      "notes": "2rp8JqCQo9nTF7oHlpbH7ethJYhxMoc6bQPtgMX4QgF81Tp3419yMckniKxzNQ5kjzoHSLQRIt8eWBg55r0AClri4wxmjaqcwGh0BGFiDr2uScVY7rNFOnzq9oW7OTTcims2TsRzY3XUdJxbf9ZxK1Mit4fLECJjgS7NLoZbHY6L8oQadW1yzxWKNNz21lgiyIKus3KE7aSpkINoN6kLgMXres8iZtvmktEa03KA9VV1BTvpOaP9EIbFzQ",
+      "_id": "694aa36e1c508c5d5ef51794"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

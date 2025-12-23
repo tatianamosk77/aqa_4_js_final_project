@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 14:14:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-tbFh7/dUzT8VcrjmM3eEAFpUW68\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Nora_Mertz@gmail.com",
+      "name": "Gillian Letitia",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 812,
+      "flat": 326,
+      "phone": "+3347753345",
+      "createdOn": "2025-12-23T14:14:55.000Z",
+      "notes": "igN9y9XEeqfego7jigvPkdDolFaHpAnxWsIskRQNGW0Dz21DC0GkMCASdm91ppKZWVTq8Mfd0GwuEdDVhY1KR6XybdLB8HsiEjy0WUyMvzGkgBu7NyLSEOsFJi3OLhyzJTYy2Q2inksYlypsm3qGqVqmoNpJlVVaeZY4Sm3LiqjK0F3UpX4nBflIIHrhZVC81ZE4abc6ggB37ibZcNSa2SanNctBP6PQ2jaWW5HbaW6aOsTXOZZxXtfaAc",
+      "_id": "694aa3df1c508c5d5ef52037"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

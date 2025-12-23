@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 14:13:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "538",
+    "etag": "W/\"21a-AJJR+sE6y7HUZrCerYCrQzsLfgs\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Al35@gmail.com",
+      "name": "Ofelia Daphney",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 116,
+      "flat": 1153,
+      "phone": "+3705181760",
+      "createdOn": "2025-12-23T14:13:04.000Z",
+      "notes": "e7GhBWpie7sYAVO5vgetXYNwlPMt1TC5ffwPXvVlGfhG27bfeamVz2g5tDY2BTzmPanVdXVEqaqbZsuisv6xCr1jDbAteBHPM1kxns8wzxAkNO5HfgaKVJHTLr978DzTNeZARyU7Guzs7jVjsMJYLQ3u2u60SZp0CrBDrY7x90hXm5adW21Feu0CZOxnCmK22oS5l89d8jUjxkm8zIE2uZKTDBnlyqcJZXj9jByxicqXjjry5C4uZBhXfM",
+      "_id": "694aa3701c508c5d5ef51870"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

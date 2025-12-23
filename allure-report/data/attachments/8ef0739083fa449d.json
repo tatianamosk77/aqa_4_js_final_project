@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 14:13:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-DZVmDYDUyQK+1iNMSTxeWhBnJ9Q\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Gus2@gmail.com",
+      "name": "Glennie Salvador",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 178,
+      "flat": 7714,
+      "phone": "+1633125305",
+      "createdOn": "2025-12-23T14:13:01.000Z",
+      "notes": "5zgiGe9cdm0MX4iQA2TxthG2C7LyKk9TXy6wG5Cyb5yOuew5Vy87jLotTACTbkdt48MG9aawE2beBDLZ5VoBPPj5cS6RdXCCIRMLZIa6bEyoV1qScGA6gmho72ALO58ot8fPOGUmlM3RFXdsZFEEjUuMX5Rhgl8jUjRfPgovMhdF6NkiFwA90zSH0LNCcdbYEBo3HXQWvRQwjbjGq7hPJCE7T1Z41dlDisRgASoipxX5CAzqTP4wpKb6RV",
+      "_id": "694aa36d1c508c5d5ef51755"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

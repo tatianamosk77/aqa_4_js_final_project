@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 14:13:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1972",
+    "etag": "W/\"7b4-mH9lh45CVcE3bqQXzcqwdU+tkXk\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694aa36c1c508c5d5ef516bc",
+      "status": "Draft",
+      "customer": {
+        "_id": "694aa36c1c508c5d5ef51693",
+        "email": "Urban.Wisozk@gmail.com",
+        "name": "Augustus Cristal",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 763,
+        "flat": 2748,
+        "phone": "+7896517617",
+        "createdOn": "2025-12-23T14:13:00.000Z",
+        "notes": "DbBQPKOlBp8tAgkiqQMk8NjSuk0EEbnQkY30LJkhOFJjEnPTuoco1zC26UYjwrfRxtCMWRdpf0dRFnBwFlvwJAzzZai1Yyv4xOt6dOg3RLxO2P61d17dcbk4OhpHgyZLjuX1OaBp53x48Ai588bJnMv4PSi0k9wUqJAY6y44Dp8pNbQKZgwcJHQEzrbaxltCtGHXbTt8LGnjc77gwCiXuzPkvqdh6PSIngqV4JGYoHn53ocWrRT4OpxvZy"
+      },
+      "products": [
+        {
+          "_id": "694aa36c1c508c5d5ef51697",
+          "name": "Pants99719",
+          "amount": 334,
+          "price": 40197,
+          "manufacturer": "Sony",
+          "notes": "sAKtTRGzl9X5NaGd4KXyVlwjZhI2gPK8BgKgoOG9BYJn5KNTrdXHkQDcyanKZW0cLMyN0K1m77wLAx2bqglRhBBZGTHv3OpK3tfHsM4PsPcs0wluW5AhxGBxPaCne08y0Zb2Vl8hVOobu5Ira4TInwO2G2JYAhVRjLQUNYRU5zMNfhs4LUm17gvKIFW9UBj33AI5FwP10QUH5YXO22J7cRNiqp9tcMGz63CRz7mFznCskEVavI1jT6ewjt",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 40197,
+      "createdOn": "2025-12-23T14:13:00.000Z",
+      "comments": [
+        {
+          "text": "autotest comment",
+          "createdOn": "2025-12-23T14:13:00.000Z",
+          "_id": "694aa36c1c508c5d5ef516f3"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694aa36c1c508c5d5ef51693",
+          "products": [
+            {
+              "_id": "694aa36c1c508c5d5ef51697",
+              "name": "Pants99719",
+              "amount": 334,
+              "price": 40197,
+              "manufacturer": "Sony",
+              "notes": "sAKtTRGzl9X5NaGd4KXyVlwjZhI2gPK8BgKgoOG9BYJn5KNTrdXHkQDcyanKZW0cLMyN0K1m77wLAx2bqglRhBBZGTHv3OpK3tfHsM4PsPcs0wluW5AhxGBxPaCne08y0Zb2Vl8hVOobu5Ira4TInwO2G2JYAhVRjLQUNYRU5zMNfhs4LUm17gvKIFW9UBj33AI5FwP10QUH5YXO22J7cRNiqp9tcMGz63CRz7mFznCskEVavI1jT6ewjt",
+              "received": false
+            }
+          ],
+          "total_price": 40197,
+          "delivery": null,
+          "changedOn": "2025-12-23T14:13:00.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

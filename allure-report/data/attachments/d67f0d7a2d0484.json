@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 14:13:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "554",
+    "etag": "W/\"22a-TyfIXupBO7zsX2KlO3AtiJhkb/g\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Sam.Lehner@hotmail.com",
+      "name": "Garrison Maxime",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 162,
+      "flat": 2144,
+      "phone": "+3366544189",
+      "createdOn": "2025-12-23T14:13:04.000Z",
+      "notes": "MZIrtHGm1vONA7yLmHDsis9x8T1nJOJkmUvNGnnUfIsXUaoQa8hqYJl1YpXJiY6ody3PwIQIIvAxATEgZaLYjEuQ9XbeFGuC0EKxYhRmsMOSss4Oi9saKqDfor4tHjF80z4Ix2QdKsvu2xb79MTggXDEm8GGZJmMrPLOn2avvi27E6ENxAfoaMrp33JR8auxZbE2pGxVAwgMqB3xEpIB51mBbezAGwLx0qTbrQJrB0uj6sfzTgR8B2UC8u",
+      "_id": "694aa3701c508c5d5ef518a4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

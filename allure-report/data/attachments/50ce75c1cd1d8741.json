@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 14:13:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-WphzftJfH4IvVTlDpcyzgmqJ2HY\"",
+    "keep-alive": "timeout=5, max=54",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694aa36b1c508c5d5ef51666",
+        "email": "Nikita_Bruen3@gmail.com",
+        "name": "Amos Alejandra",
+        "country": "France",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 480,
+        "flat": 1087,
+        "phone": "+4170294940",
+        "createdOn": "2025-12-23T14:12:59.000Z",
+        "notes": "UWayMOsgjBuUlJdcHAZesODFKL2jqHcYqEeEhCXVgBxVPVQcNRjJQpwmo2j48o8UGbsA8rOCmP37cLn7EMI30Giwm96cIRBqoeWdNftkoeBaRPhU94UBSuRVMnZ9jpkYzJDVpMYVVCB9Tkl3kq7f4e8SYUxj8Wws79lBmw00V5CQyye3ls2K8kZqEDsgejxpfdmgfdq7nUUT53Sjv5WbPiGuQYghtATnLUAV4DyrOcioGCy10ECLH5Hrxc"
+      },
+      "products": [
+        {
+          "_id": "694aa36b1c508c5d5ef51669",
+          "name": "Computer83860",
+          "amount": 622,
+          "price": 42347,
+          "manufacturer": "Google",
+          "notes": "QmXkE0ROm6CklUS7XAA9On7tOxujz5av36PvNQ945JpRe76Na23YSZqvqUG4K2qqqnpQm67szTD16Tv28ad4yp6pPfjgeOXtU42QHknvDF4FnqxFB89uCQHCtkQAKlftIbhnT4q43zwlOnyYiZUj6dtj0y3BACAtTsepBUMPfDKifnyMvmSws6DZMBjRInpj3oA1jrGLKCTuv9HbhQtVqp63C2xfPT4HViJHeSFprzinbX0zZfuOzRx5c0",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 42347,
+      "createdOn": "2025-12-23T14:13:00.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694aa36b1c508c5d5ef51666",
+          "products": [
+            {
+              "_id": "694aa36b1c508c5d5ef51669",
+              "name": "Computer83860",
+              "amount": 622,
+              "price": 42347,
+              "manufacturer": "Google",
+              "notes": "QmXkE0ROm6CklUS7XAA9On7tOxujz5av36PvNQ945JpRe76Na23YSZqvqUG4K2qqqnpQm67szTD16Tv28ad4yp6pPfjgeOXtU42QHknvDF4FnqxFB89uCQHCtkQAKlftIbhnT4q43zwlOnyYiZUj6dtj0y3BACAtTsepBUMPfDKifnyMvmSws6DZMBjRInpj3oA1jrGLKCTuv9HbhQtVqp63C2xfPT4HViJHeSFprzinbX0zZfuOzRx5c0",
+              "received": false
+            }
+          ],
+          "total_price": 42347,
+          "delivery": null,
+          "changedOn": "2025-12-23T14:13:00.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694aa36c1c508c5d5ef516a0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 14:12:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-WK/KuNdI5CA0yMEKk4SigdQx7fA\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694aa36a1c508c5d5ef515cc",
+        "email": "Maymie_Little@hotmail.com",
+        "name": "Shaylee Kendall",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 236,
+        "flat": 1472,
+        "phone": "+6873762889",
+        "createdOn": "2025-12-23T14:12:58.000Z",
+        "notes": "XO0jN3nr7edOX97POJqlSReOX2ZFpD9YQO1duI1ZLIBa4WSvUZjHabFelHIoC17ZsyemdaXTKqjg90hjEDlby6Cfj2cTK0PVUnu171fsg3VYnUuei24GYDMdwXUhXdabUZf0NH776CljFFW10mE4WVWw2tUgydcoNGbNRlzygqtVstnJhnN8SUNJQCih4r5YASxqfYciWdMRFKpXXSz5cDDwtdUbnTF3jUr87XYnZvrod49xwnBkMFJj5N"
+      },
+      "products": [
+        {
+          "_id": "694aa36a1c508c5d5ef515cf",
+          "name": "Computer65640",
+          "amount": 886,
+          "price": 36351,
+          "manufacturer": "Apple",
+          "notes": "rqXJ2KPDO4uyrQomqWqAsHxRKM0oFj6h5YC7xYU5rIjeCboxwwiqNMUAWJ0lZ5LTJ5rNnVnVjl1U6v6KmHIlp7iwHLNYzzPEPEEPHywnSE8NQNtHoK1qkzoMH2MXn3fkifSBMvgS9HWcbrkIwywXKtLHH7EJW2pKh4TAQ5u357sdYxLafYrW8jDPPOg5JfhDWCBYvoOTcnZ5RpQe28ODFww2uHVCIUBfrCbmg9JufcTa4ja9gmBKQtFEbq",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 36351,
+      "createdOn": "2025-12-23T14:12:58.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694aa36a1c508c5d5ef515cc",
+          "products": [
+            {
+              "_id": "694aa36a1c508c5d5ef515cf",
+              "name": "Computer65640",
+              "amount": 886,
+              "price": 36351,
+              "manufacturer": "Apple",
+              "notes": "rqXJ2KPDO4uyrQomqWqAsHxRKM0oFj6h5YC7xYU5rIjeCboxwwiqNMUAWJ0lZ5LTJ5rNnVnVjl1U6v6KmHIlp7iwHLNYzzPEPEEPHywnSE8NQNtHoK1qkzoMH2MXn3fkifSBMvgS9HWcbrkIwywXKtLHH7EJW2pKh4TAQ5u357sdYxLafYrW8jDPPOg5JfhDWCBYvoOTcnZ5RpQe28ODFww2uHVCIUBfrCbmg9JufcTa4ja9gmBKQtFEbq",
+              "received": false
+            }
+          ],
+          "total_price": 36351,
+          "delivery": null,
+          "changedOn": "2025-12-23T14:12:58.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694aa36a1c508c5d5ef515e6"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

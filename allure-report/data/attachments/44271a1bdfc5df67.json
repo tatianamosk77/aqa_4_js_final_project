@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 14:12:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-CwobB8f+vXh2+mwVzkB4WbbJ3MU\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Merlin1@gmail.com",
+      "name": "Juliana Vincent",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 197,
+      "flat": 1,
+      "phone": "+8063753085",
+      "createdOn": "2025-12-23T14:12:45.000Z",
+      "notes": "90jivC86zMic27z3etSClki7U9QQGwDTuavzpvjdjyj6v8SorhISx1PjFwmaXChgz35sdSc0Z3NCR59suaibKiVIrUUkvJ6yZO6UanX5WLJi0ueVr361DS3aa4zEV3ZFlDAxDx0T7SwRaCULsy5n1vFXwWhjqQmGIRqn39oaDOXb7mSLaFjobDX7LJqMxeXle71I7AFZpbk65L20jDcZ0yJR4FXHqVBZiMWPD7uvPN6UPY32ANHR2jecUf",
+      "_id": "694aa35d1c508c5d5ef510e0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

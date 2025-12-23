@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 14:14:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-cIVhtcWRJ+9Ji6LZkKJ9egzdPsM\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Johathan.Hoeger@yahoo.com",
+      "name": "Idell Larissa",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 860,
+      "flat": 3378,
+      "phone": "+6925911236",
+      "createdOn": "2025-12-23T14:14:39.000Z",
+      "notes": "tjLLwk8hD3wcU7nQ1N8tedp8GSUyCMjQ8cgbpJTGskOuAGPOXIOGrs6ncNAZQLup9P7206ahBEkEfQP7yI7beXxGNSULr060MFTkBR27q9qJ9o4v9MWLnwlwXKfawkwrC5IVeD0I97e11iscagzENgoVoFG4SxDFjHogxHJqUPP8sX2SgJCdPzEsT7qJEUH7TyRSaSPABVN4KfOvgEDrL0diRrM7QSJadqQjFjSy7ePZp79PWPOfR0GgFs",
+      "_id": "694aa3cf1c508c5d5ef52028"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

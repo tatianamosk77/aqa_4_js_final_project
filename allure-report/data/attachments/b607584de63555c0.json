@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 14:13:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-4ps9XRz6idllYW85AesClEUKbW8\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694aa36e1c508c5d5ef51799",
+        "email": "Jazmin_Waters51@yahoo.com",
+        "name": "Sidney Demond",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 123,
+        "flat": 7141,
+        "phone": "+9907663943",
+        "createdOn": "2025-12-23T14:13:02.000Z",
+        "notes": "SorjgkclLtFZ4o9ehq3N1unyLi6aDRflvqN2QME1DkpJcvCoaFHB2RxfALJ7k6inMrw7fyfzANHU6UxhCPaKouAaAG1lzvCsa9zn3wnNRdyS9FwQWngHcwPv0QjRpyh8zp8XZ8vCbNe6aqYbBpLAlIX3oscOxDfcxNWCAOJzwhMKOAdevgFhP32Xva4Cp48hlK79rB8Xx8jnZzht0vRbPBgv0W4YBexDKV6mdYXYmotGsLWUcYu5JCbWor"
+      },
+      "products": [
+        {
+          "_id": "694aa36e1c508c5d5ef5179b",
+          "name": "Gloves33213",
+          "amount": 901,
+          "price": 47516,
+          "manufacturer": "Samsung",
+          "notes": "ynABH5F2Uj7S5JlXV7HDxMoxIHNStHO4CFhM5xU7tmZNsWhye4eJrDg11d7RFDJkeB04T0HjtHffe7VdsAfbCZAnBHuHwNDzDREtrjcS86RTLvqbPN3JrHkHxFBanpUSyHRJxuUw7XqUFMnRLJLUfKlxSr1qNVDd0YqqqSXqB525u8jqapvH74XPFFkOvF9MMxR2Pn7GMdactYgCjSgIglmBmSeFMwpluluKYeiqeJTGJmiFNcn8Ya7Lnu",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 47516,
+      "createdOn": "2025-12-23T14:13:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694aa36e1c508c5d5ef51799",
+          "products": [
+            {
+              "_id": "694aa36e1c508c5d5ef5179b",
+              "name": "Gloves33213",
+              "amount": 901,
+              "price": 47516,
+              "manufacturer": "Samsung",
+              "notes": "ynABH5F2Uj7S5JlXV7HDxMoxIHNStHO4CFhM5xU7tmZNsWhye4eJrDg11d7RFDJkeB04T0HjtHffe7VdsAfbCZAnBHuHwNDzDREtrjcS86RTLvqbPN3JrHkHxFBanpUSyHRJxuUw7XqUFMnRLJLUfKlxSr1qNVDd0YqqqSXqB525u8jqapvH74XPFFkOvF9MMxR2Pn7GMdactYgCjSgIglmBmSeFMwpluluKYeiqeJTGJmiFNcn8Ya7Lnu",
+              "received": false
+            }
+          ],
+          "total_price": 47516,
+          "delivery": null,
+          "changedOn": "2025-12-23T14:13:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694aa36e1c508c5d5ef517b5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

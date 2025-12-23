@@ -1,0 +1,20 @@
+apiRequestContext.fetch: socket hang up
+Call log:
+  - → POST https://aqa-course-project.app//api/products
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.37 Safari/537.36
+    - accept: */*
+    - accept-encoding: gzip,deflate,br
+    - content-type: application/json
+    - Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MjMzN2NlMWM1MDhjNWQ1ZTk1MzM1ZCIsInJvbGVzIjpbIlVTRVIiXSwiaWF0IjoxNzY2NDQxNzM3LCJleHAiOjE3NjY1MjgxMzd9.k1pTMEAMBGHhXSCw-KvEKF_xJxYe9IhILcDjX7Lamb8
+    - content-length: 330
+
+apiRequestContext.fetch: Request context disposed.
+Call log:
+  - → POST https://aqa-course-project.app//api/customers
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.37 Safari/537.36
+    - accept: */*
+    - accept-encoding: gzip,deflate,br
+    - content-type: application/json
+    - Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MjMzN2NlMWM1MDhjNWQ1ZTk1MzM1ZCIsInJvbGVzIjpbIlVTRVIiXSwiaWF0IjoxNzY2NDQxNzM3LCJleHAiOjE3NjY1MjgxMzd9.k1pTMEAMBGHhXSCw-KvEKF_xJxYe9IhILcDjX7Lamb8
+    - content-length: 424
+
