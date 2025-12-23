@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 16:47:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-IP8/rks9u/tBm5qqFFSEoh3gz7g\"",
+    "keep-alive": "timeout=5, max=72",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Abigail50@hotmail.com",
+      "name": "Damian Kara",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 648,
+      "flat": 2394,
+      "phone": "+2002089095",
+      "createdOn": "2025-12-23T16:47:41.000Z",
+      "notes": "lIsO63FAHXIO2aD2ZRATfw4vRMHV5mQ9OYbGf73QsQ2lE39I9Ke910E6qLTfzAWRRrH5sVLwD8WPHzqsb7OuRbDbVHTGLsbJQHDQ8kgV9ezBu9sLgvZC8G4tycOtHPnqepcUouV5AMVFeQQqlzQTeWIkGByK759fm9YcvWttk34hQAfNEk4NFZjVBtEXcz1EVY8TOnf6hcAeuOPORwZ8bnloZ3agiPtwrmOSWXVFHvRhA1idi1skoenmxY",
+      "_id": "694ac7ad1c508c5d5ef54f51"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

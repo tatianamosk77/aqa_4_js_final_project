@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 16:47:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "667",
+    "etag": "W/\"29b-NFq7jGn6YzFvo9Dl5bWvDt7u0+w\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "694ac79b1c508c5d5ef54836",
+        "email": "Elody72@gmail.com",
+        "name": "Taya Jana",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 533,
+        "flat": 3887,
+        "phone": "+2398762581",
+        "createdOn": "2025-12-23T16:47:23.000Z",
+        "notes": "ks2EjP4luFCICQ7ko3yvZ219giNJQHuh0Syrq9exEft53VEXSePFVm9U4Stqexkwu4qr7HyXOSkxfd1IywdlRxjCuIwTVDzqMrgucsxUXMzi96FqREdTuiOh7EmRGIzM81oFRe8AfXxZY2fMebWRRxoh8nZMWN0t71ZmA8xIj8XCyDosN2rBHQB13C3d2uCBrRSxfgYs3zhP8IcwbrkP5IFy3athLKpEEUcy1Z2elQNVY5alKOBuXIGXDX"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Elody72@gmail.com",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

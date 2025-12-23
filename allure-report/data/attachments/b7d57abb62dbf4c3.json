@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 16:48:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "537",
+    "etag": "W/\"219-viMGuyuH6sfP0FhGtJMub++Fhv0\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Anya24@gmail.com",
+      "name": "Rory Stone",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 551,
+      "flat": 5738,
+      "phone": "+8333986761",
+      "createdOn": "2025-12-23T16:48:42.000Z",
+      "notes": "K2h8xQe69cXPqSi8CTpdYnWR5EiTm2fOV38apHDGvIpTTdrgd5rRn5b1Inf1v9WFMU7KEDEHrhE85iFNE70WJYOIajQPPljJ0MtrFgM4R50w7mYr8K7sDrzywOxhm0DYGCMjUvQjgvEAn7WceWwiNdT4LYSxRUdd081FJrMGfXCZmqrLKkSBFXa6OhDrYChDE3xZ2d0MSTE6T2tg0t1U10uI14HuADzloDMixLthi3aqF1jQT2lyTfTjh8",
+      "_id": "694ac7ea1c508c5d5ef558f2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

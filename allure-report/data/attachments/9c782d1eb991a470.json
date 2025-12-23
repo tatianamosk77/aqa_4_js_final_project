@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 16:47:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "552",
+    "etag": "W/\"228-bsvPx0Y0HdREvaSzJmOmCxUkXd0\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Norris.Dooley@yahoo.com",
+      "name": "Coty Abagail",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 987,
+      "flat": 3363,
+      "phone": "+7488786203",
+      "createdOn": "2025-12-23T16:47:24.000Z",
+      "notes": "dMw94qhPlSL5KQovMYNPGOhW2LTYr1Z0A8lLNNktJ25fnfchy9b43IVuf819SiEcoLbNgwG3h6iz5V1BqyBZzwP2LY2xo8mjM8zRb15wvG5TGUWhZgqnkcnLbT2Ev0sV3OLrt4XWLDwZ2wbSzZv9TMq6WWVIhP4BDM3OSXAOC4Lcn86edX6qezswz5T2Wx9z3eLSjsu3c8Y8CAWIang4FJNR0dM9x05XHuSaKk0rdjzF8hJSdffxJAoehl",
+      "_id": "694ac79c1c508c5d5ef548a8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

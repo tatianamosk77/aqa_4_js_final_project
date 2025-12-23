@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 16:49:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-aMHP4rnDtAzGOuKG9LmLfxy4gPg\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Juana25@gmail.com",
+      "name": "Cesar Justus",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 281,
+      "flat": 4855,
+      "phone": "+5028148064",
+      "createdOn": "2025-12-23T16:49:01.000Z",
+      "notes": "N1SSfY8hKofY57zxgt4HI41hFm69FNxSxJDPRIYnG7r73ERTI24boBvmEYnmKySdcVEbPtqWuxeweLAXpWbDbhQkvAMR6SNkRco2k8lWarmwm6UkK1Skb6FqoUPIAJ5foDKY3bM1FYXVVFeTh3stPZIE9EJSNP6sW8Svw0dJYmg7E0RtYVXAc5VMRasw4Ku1Jyx1dpEbI6AVBi2umVY7Y5xaAqq1gT9I3l9l7ecTPBkCmCdHOqtX0cUauo",
+      "_id": "694ac7fd1c508c5d5ef56108"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

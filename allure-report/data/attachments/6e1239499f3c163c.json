@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 16:47:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1872",
+    "etag": "W/\"750-F348SGKhL+TV5YKqTKCQhJhi+8o\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694ac7a01c508c5d5ef549e4",
+        "email": "Telly.Marvin24@yahoo.com",
+        "name": "Barbara Tremayne",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 264,
+        "flat": 4197,
+        "phone": "+7721241166",
+        "createdOn": "2025-12-23T16:47:28.000Z",
+        "notes": "yMe1orTnh4YdJh8Co2ql864i4jgCZgMYM2XEYelXCCpTctbNE0zdKKQhXmAEJA7hqO1te4aJRnJBNHTVDYN836PO4kJBxi9FNucROSkg0OCCs2BK6bdA9gGgGss90Iv7I7qkiYKqojl64AIxLQqREpKHbu75xW2BsZklzxssIrAgnQ5Bsf6mj5PBIB6oO9UM7svYlWkAybTxjXFh5CqVzpUhHtBG1jVXjO0MGtVRSp6s8k2ZZRbsIMQgXu"
+      },
+      "products": [
+        {
+          "_id": "694ac7a11c508c5d5ef549fb",
+          "name": "Table14667",
+          "amount": 9,
+          "price": 7525,
+          "manufacturer": "Google",
+          "notes": "9zc2V4a4jDi88spe08TYnUMnoPlW9EJYi1tajZGRiql9Gr0Nh1lpxBpczazD3ZQrubllqAhDjxtRfvBTwuVU3q2S0odLUxXdpdMsSpoe115hXYxhtcs24Ku20w6imEWLaHgnZog9CCTGuVcLgv4AuToT2jMz3vI1utOypr9rtHhjFN4UVfcLQjZzwhnRhGEbIhNnw52WtK8JWGFclzJfe1cdUHjysYcOJV5LNGNdWTEXYqNBjeuVf8nRRa",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 7525,
+      "createdOn": "2025-12-23T16:47:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694ac7a01c508c5d5ef549e4",
+          "products": [
+            {
+              "_id": "694ac7a11c508c5d5ef549fb",
+              "name": "Table14667",
+              "amount": 9,
+              "price": 7525,
+              "manufacturer": "Google",
+              "notes": "9zc2V4a4jDi88spe08TYnUMnoPlW9EJYi1tajZGRiql9Gr0Nh1lpxBpczazD3ZQrubllqAhDjxtRfvBTwuVU3q2S0odLUxXdpdMsSpoe115hXYxhtcs24Ku20w6imEWLaHgnZog9CCTGuVcLgv4AuToT2jMz3vI1utOypr9rtHhjFN4UVfcLQjZzwhnRhGEbIhNnw52WtK8JWGFclzJfe1cdUHjysYcOJV5LNGNdWTEXYqNBjeuVf8nRRa",
+              "received": false
+            }
+          ],
+          "total_price": 7525,
+          "delivery": null,
+          "changedOn": "2025-12-23T16:47:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694ac7a11c508c5d5ef54a16"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

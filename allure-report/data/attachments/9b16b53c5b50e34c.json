@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 16:47:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-mBBK5opACWHU1kuqTaT09JtCk3Y\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Amara.Pfeffer@yahoo.com",
+      "name": "Rebecca Lenny",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 60,
+      "flat": 363,
+      "phone": "+0136431351",
+      "createdOn": "2025-12-23T16:47:40.000Z",
+      "notes": "mHwxkAchrzp5rUE6KpdMf1jLZfa9isFooQmyguA7MhJNeGdSzVgJyj9AZKvtigaGN6Nh6pehcVFTj6MnpEwZ26r5D03P6rLnmub0vcYa032xj6Dt8UPPJHgHlxwKyAbHy8wvXn0uUePaufj0xLKY1zu5duc3jzNzkjWyvgITW68X2z1DSS8InPCJRtxV30X4KwAAvIYNQNQYgwwTISNRI2jvQQyxZj02Q209GF5mWpetNVtZAqixw80sGX",
+      "_id": "694ac7ac1c508c5d5ef54f31"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

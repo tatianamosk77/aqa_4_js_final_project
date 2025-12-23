@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 16:47:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-lHMaUc82Nlf97hROXayIYmICuH8\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Shaun96@gmail.com",
+      "name": "Vance Ashlynn",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 674,
+      "flat": 4976,
+      "phone": "+4488798147",
+      "createdOn": "2025-12-23T16:47:32.000Z",
+      "notes": "bcIJYU1kR98lT4L4fhsEXSVUM4onZJJ6bckAh6GxRuDqNvRQEkaDmksU0ubH1XONbl3iLOtcksJleq78HoLAnjD25YIxRSwOlRu93jyVH9MhATmMSMpg2DIN7QeGfOJxXp1YghZxTOueYC95EIACZaharDhS4XLcOiysyzzGZUFfa1ZelImuW1xKqj2GFHjrX3ufcqmiOrCipjNV2ce9Wak0yCjUiaCEitmtP00uEornWj378m1q72W5ww",
+      "_id": "694ac7a41c508c5d5ef54b6d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

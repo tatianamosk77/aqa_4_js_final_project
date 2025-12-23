@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 16:47:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-8pGGNoszJgG1TVda1xH6+SmGnXk\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Vilma.Blick@hotmail.com",
+      "name": "Christine Khalid",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 451,
+      "flat": 2308,
+      "phone": "+4465297715",
+      "createdOn": "2025-12-23T16:47:15.000Z",
+      "notes": "PoC6mQC3HF06hksdagnTLrl9g6IuVkhp7ASBu9hiwcC5uzq2nud1rka7nyYo0KMeUP8HDpnj25QHTbmWi1kgymaAL9FaV5Yvs7A9b6KGHqlBsOXAushGfyMEGz1VvZn5RG51jWk1lNMKZuWDAs6LBgRRcCgdmTfjUcg2VuWKqSyNDHv9ECSRUgXVJgiwrGuDSUDNTw2wXvsJWpRbGcR2GAuryu2ofI8mUrAXHA7ow8Iu8Ghh2nLsPzWbws",
+      "_id": "694ac7931c508c5d5ef5461a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

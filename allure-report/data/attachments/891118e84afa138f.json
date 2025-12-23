@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 16:49:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "536",
+    "etag": "W/\"218-wyMIBWhpG4g/78k3XW8CCFnjokU\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Mandy4@gmail.com",
+      "name": "Rose Virginie",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 744,
+      "flat": 3337,
+      "phone": "+4218255637",
+      "createdOn": "2025-12-23T16:49:13.000Z",
+      "notes": "SmvOjoeIpGwskezq0opjT6zAZUa3kxFSo41v68zyCEwliEXD7xY7Fwa54YbthoUugqRSE1zCKLkyjNTFDCqWm7SpHnqQVGhU0oLkK7sEAXkJakrNpHNF1V8Pl1wHQ7GG1T4Fg4WnHuLdJ3xMtzFCVenZjgqboyOMDyB2xSDo0tXENhPxxFLAyjnPtmLqeIdUISN8PuXddwwXvzCR0t2h8kmBLmQNpoS3ezov0PD8gZXtkWwArAuN8vajro",
+      "_id": "694ac8091c508c5d5ef565da"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

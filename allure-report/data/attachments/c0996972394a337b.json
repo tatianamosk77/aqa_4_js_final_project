@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 16:47:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "83",
+    "etag": "W/\"53-5sd6W2IUhMyQPy4t62G0sE3SrqY\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "IsSuccess": false,
+    "ErrorMessage": "Product with name 'Cheese83849' already exists"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 16:47:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1863",
+    "etag": "W/\"747-wT0cdYrsASD2fGmWk+7jm+5oVPE\"",
+    "keep-alive": "timeout=5, max=73",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694ac79e1c508c5d5ef54920",
+        "email": "Ayden79@gmail.com",
+        "name": "Deon Santos",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 205,
+        "flat": 9095,
+        "phone": "+0469295267",
+        "createdOn": "2025-12-23T16:47:26.000Z",
+        "notes": "gEawG1zMepbInxyW5kgvMrLVUAj2x368k3NRMM4314cEYh6JVjuRACfFwH79PvYZj4m3tvaFxkzAlxMF74kPaDVf8Jwji4RuSsoacgvVEFZRdwbnwZIomAOcAp88wGfpXxv9J1l8qqn4v5rDVOw3nS1NF26GPUNDEbhua91bAnwOOQhaYjLxOo3cbiFKzpOqVtdIsc97YanltpZ8LK86OlFUnNo5F5FFYYLsc7fNfQsboTjXcH5AeRz5aU"
+      },
+      "products": [
+        {
+          "_id": "694ac79e1c508c5d5ef5492b",
+          "name": "Fish96243",
+          "amount": 858,
+          "price": 36275,
+          "manufacturer": "Tesla",
+          "notes": "7jvUpDKm2ugGUQWf3FE6Ekfu2elpCdj9REFcrgjdk6FrFUd4bmuQ9x0Yzk6X8hh59uA5O0S24Gp0dcWvBGVyxQ0XJiN4qvS3cCUhkwcCZgxfvx5XgkqdesTzwIZMCu6mMEZzE9RhHQzB7NBFvBxuHcEx2TImCSikBan1KUBKVO0E2kjotWE9pOo4s8gTDoZRL2aHSoVxNNCNcrgJFtanvpD2TGBkF1yrXxmSm7U5RBVJDnwelGNuu2HYpa",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 36275,
+      "createdOn": "2025-12-23T16:47:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694ac79e1c508c5d5ef54920",
+          "products": [
+            {
+              "_id": "694ac79e1c508c5d5ef5492b",
+              "name": "Fish96243",
+              "amount": 858,
+              "price": 36275,
+              "manufacturer": "Tesla",
+              "notes": "7jvUpDKm2ugGUQWf3FE6Ekfu2elpCdj9REFcrgjdk6FrFUd4bmuQ9x0Yzk6X8hh59uA5O0S24Gp0dcWvBGVyxQ0XJiN4qvS3cCUhkwcCZgxfvx5XgkqdesTzwIZMCu6mMEZzE9RhHQzB7NBFvBxuHcEx2TImCSikBan1KUBKVO0E2kjotWE9pOo4s8gTDoZRL2aHSoVxNNCNcrgJFtanvpD2TGBkF1yrXxmSm7U5RBVJDnwelGNuu2HYpa",
+              "received": false
+            }
+          ],
+          "total_price": 36275,
+          "delivery": null,
+          "changedOn": "2025-12-23T16:47:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694ac79e1c508c5d5ef5493f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

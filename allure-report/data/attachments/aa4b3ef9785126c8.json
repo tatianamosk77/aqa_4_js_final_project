@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 16:47:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-jcQ8jHvY614iDGBu0IgjLntezlk\"",
+    "keep-alive": "timeout=5, max=60",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Esteban.Murazik@hotmail.com",
+      "name": "Kaden Ewald",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 457,
+      "flat": 4568,
+      "phone": "+1114072999",
+      "createdOn": "2025-12-23T16:47:29.000Z",
+      "notes": "820f0bnU9EiFJen8gdQNjifTN1JyvKeGGrfx7ECxFUJndFtJ8lKdbL1qzvUv2e3pxXAiLM8YFAxIsSn8JQl5TD5cKGZtBmutEPr9ioAam0VI0HrmEFirwferqRh3vI2X2kH4r4IczFCCv1fZ3IMp1TMeps2mr0cTXPrwNfQQUAXXYLOminSyHpXyDTDbr2SWPvWyLoi9xTpL4jw8u0qSlolsZkGR7RY4KbiBnHYMFh4g2JI3m9BlzxXfD8",
+      "_id": "694ac7a11c508c5d5ef54a3b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 16:47:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-7Hujf27s+4WqkpQMBdaYEyYpBxs\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jaden.Koepp@gmail.com",
+      "name": "Test Customer",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 945,
+      "flat": 4168,
+      "phone": "+1190503675",
+      "createdOn": "2025-12-23T16:47:15.000Z",
+      "notes": "tlhUgq56V70nBsW4PmU4jzD5AfpywfHvc3z0GFdrAT44UAHkljKkhGO5znFs0ckoMLZHK3g8mYyAkiiZBKJBuOel8TRI2a6prcWjmzL2BYJ0itDNeg2rvba6aOUl095VuSRFtXhISX7ahzRsAhnIxr4vyOtK3LqDcFN3NzRVbQEOZ0OqD5xDnEQMDJGnwqToZqq0US3fE7YDoMHlp5zGAmE8q5XoQgMIjZYCCqYeKliaZ9BtiUWNLtiaBE",
+      "_id": "694ac7931c508c5d5ef54647"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

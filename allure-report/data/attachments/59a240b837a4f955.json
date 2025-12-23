@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 16:47:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "679",
+    "etag": "W/\"2a7-Qt5IMvagsIYZBBKVue4B86OTSf0\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "694ac79a1c508c5d5ef54822",
+        "email": "Vincenzo_Corwin12@hotmail.com",
+        "name": "Hester Toy",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 957,
+        "flat": 6725,
+        "phone": "+3044954863",
+        "createdOn": "2025-12-23T16:47:22.000Z",
+        "notes": "Vc4JTSGUOnB6BxaXOp0U2oggmABnctBrTcPi3DvvMo5BHM52JLc5qZvCBFd3tS9HzXinl3w798KRLYSDusVRmzU7LHME8xY4a5nF5EsZOTmSPAh9ARZWWHPU56fOTKsJnRk6EX7PMm84lLiOpMwkR2aPXtpwtWYrCwmmqBTKJQX7j0n4yzjucf7lURdizFhLEw834LmwmaemJFEgU8YuSKT41g6SF7vnakRzQEJSGavFdyw3pf0nL0FTxG"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Hester Toy",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

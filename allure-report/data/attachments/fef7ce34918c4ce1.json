@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 16:47:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "295",
+    "etag": "W/\"127-0XYt/FQFl/SVuOACGjQ6xwxPA6I\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Rusty.OConnell@gmail.com",
+      "name": "Conner Joey",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 70,
+      "flat": 7874,
+      "phone": "+0496237160",
+      "createdOn": "2025-12-23T16:47:17.000Z",
+      "notes": "",
+      "_id": "694ac7951c508c5d5ef546e6"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 16:47:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1868",
+    "etag": "W/\"74c-/fDs8vhox1d9Wvk8XQbN2EFMURU\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694ac7991c508c5d5ef547bc",
+        "email": "Roberto3@hotmail.com",
+        "name": "Noel Shania",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 904,
+        "flat": 3164,
+        "phone": "+0466717939",
+        "createdOn": "2025-12-23T16:47:21.000Z",
+        "notes": "WGjIZBsSwgmxR0ChltsK6sfjo18FI9gpT9qBgeISNeSXNjgTwv6aRSKP1A0XrPaHBS709QcXo5uwmpyLxYpBPGJ0x7QINHFLMGfVDlqZ6KaxlYZYHIpDZaq4x1jX1toAPiwSdKy4NUNCzCvZPgbiTxUmWbFFeB9bEjbK84MrOh7CDyrZvfMp0kRRoYFdnMI2jkHs7CNuYz56AGAi8TMJIB1zdmsvRXca6nJmOqfrLdH8s2ZIFuRKSTEhjI"
+      },
+      "products": [
+        {
+          "_id": "694ac7991c508c5d5ef547cf",
+          "name": "Pants81843",
+          "amount": 376,
+          "price": 16080,
+          "manufacturer": "Apple",
+          "notes": "vJHuwdAnIke4lvUXEj1or7i0ELPauRBHrSM2itqtNCtUH8KqCxJAlpgfgiP55X8PO2lqAKN5dggpZdxfaqx1j4iRvtitNhyOv9dOvLrTKuKmBEuiCDxYwjAnppKN1yZyTaNzF430kEbykx1wK1HhFr19RfdP4EJAnu90LMJ9OxfZ06T0TvD1vqDIoC6UhD9hCNnrJE4kEwQnw7jJfpNupZQJ63lEnifG13gwenuKo4sRBrtLHysPfJKiVq",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 16080,
+      "createdOn": "2025-12-23T16:47:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694ac7991c508c5d5ef547bc",
+          "products": [
+            {
+              "_id": "694ac7991c508c5d5ef547cf",
+              "name": "Pants81843",
+              "amount": 376,
+              "price": 16080,
+              "manufacturer": "Apple",
+              "notes": "vJHuwdAnIke4lvUXEj1or7i0ELPauRBHrSM2itqtNCtUH8KqCxJAlpgfgiP55X8PO2lqAKN5dggpZdxfaqx1j4iRvtitNhyOv9dOvLrTKuKmBEuiCDxYwjAnppKN1yZyTaNzF430kEbykx1wK1HhFr19RfdP4EJAnu90LMJ9OxfZ06T0TvD1vqDIoC6UhD9hCNnrJE4kEwQnw7jJfpNupZQJ63lEnifG13gwenuKo4sRBrtLHysPfJKiVq",
+              "received": false
+            }
+          ],
+          "total_price": 16080,
+          "delivery": null,
+          "changedOn": "2025-12-23T16:47:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694ac79a1c508c5d5ef547e3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

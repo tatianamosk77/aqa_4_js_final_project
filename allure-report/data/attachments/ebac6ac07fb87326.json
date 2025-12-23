@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 16:47:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-7itz6U66kOexKfly5/2ES//Ebvg\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694ac7ab1c508c5d5ef54eae",
+        "email": "Hassie.Dickens65@gmail.com",
+        "name": "Rose Felton",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 209,
+        "flat": 2339,
+        "phone": "+4382471279",
+        "createdOn": "2025-12-23T16:47:39.000Z",
+        "notes": "QpjCUfdUOmvx03XPzUjhkkLQCpsQJq0LH60tI32DVTwFcmEZdQujdEEZi1hK82mlg1IjkWopgFjFdfMzMYdWToVPypUFWpU9n7iaGNReA8Wpg0rHg9puODT0qkiAZ8RbXFcZOkYAube5rNvF6uwRiaBBlRsBC2areH9fmFW9MceKfDjfsiUtdipgWSST9A0ILylsBi5MYfkxqbhp17bVHIsvTOdqLPwQhNN3R2P7vjMZeIEyhwj4qlN84Q"
+      },
+      "products": [
+        {
+          "_id": "694ac7ab1c508c5d5ef54eb0",
+          "name": "Keyboard57294",
+          "amount": 640,
+          "price": 62374,
+          "manufacturer": "Xiaomi",
+          "notes": "LaJD8u93WERxNfStdCxTBZnDQDo7UwtgDmD8FubGx7vfmHVALd6Fy8mQtKHTyGMxqgJnjgS6fks9RRFqoYxLGhf54BszHr7lOfaiIdNNIzpL5WbB1RdD97BI688OFw0gr9DGqK6X0GBKs2auur37wm8ZWiSAGBOztBMatjFhEs9W5QG6G5MKNxLabK9dKsxfpxmBTw0acG7Qc69eieryHQD9NkgbMHaJK1a27pyywtGYasltpCrFjxXeG6",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 62374,
+      "createdOn": "2025-12-23T16:47:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694ac7ab1c508c5d5ef54eae",
+          "products": [
+            {
+              "_id": "694ac7ab1c508c5d5ef54eb0",
+              "name": "Keyboard57294",
+              "amount": 640,
+              "price": 62374,
+              "manufacturer": "Xiaomi",
+              "notes": "LaJD8u93WERxNfStdCxTBZnDQDo7UwtgDmD8FubGx7vfmHVALd6Fy8mQtKHTyGMxqgJnjgS6fks9RRFqoYxLGhf54BszHr7lOfaiIdNNIzpL5WbB1RdD97BI688OFw0gr9DGqK6X0GBKs2auur37wm8ZWiSAGBOztBMatjFhEs9W5QG6G5MKNxLabK9dKsxfpxmBTw0acG7Qc69eieryHQD9NkgbMHaJK1a27pyywtGYasltpCrFjxXeG6",
+              "received": false
+            }
+          ],
+          "total_price": 62374,
+          "delivery": null,
+          "changedOn": "2025-12-23T16:47:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694ac7ac1c508c5d5ef54ef8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
