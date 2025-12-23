@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 18:22:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "552",
+    "etag": "W/\"228-9nYLdON5cxzK9RGvwYTK/pB2Dw4\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jonathan.Jakubowski@hotmail.com",
+      "name": "Cyrus Kyle",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 828,
+      "flat": 1135,
+      "phone": "+6626265601",
+      "createdOn": "2025-12-23T18:22:29.000Z",
+      "notes": "HIiy7GkQJPrOCHeypqI2852fcHNrxjKEjCnci7rdHFckgexZTc537Jdr37WYLb9ShfiLOc2CDVsUwzTQvKQ7Iv7iHnDRlnRjaBis4iVUBnitwwBPNo2Xy0RXkIMrNOsiDIG2uKvOYLcM8NIVNEd7esh88ZZ4x1iw8UL5OGmFAQtK8Z9sGeHVnMKMw31ucO5v5cOO9HYQZowLWeB0qzgINDaKYDTxU5T7JGwzz5J9LE76FaM1xFa8Cu470n",
+      "_id": "694adde51c508c5d5ef5e325"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

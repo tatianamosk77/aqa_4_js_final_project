@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 18:22:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3413",
+    "etag": "W/\"d55-oY6itc3wN1HZ2ULdy7x4w7GLDog\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694added1c508c5d5ef5e6fb",
+        "email": "Boris52@hotmail.com",
+        "name": "Harmon Donnell",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 940,
+        "flat": 2875,
+        "phone": "+1133181726",
+        "createdOn": "2025-12-23T18:22:37.000Z",
+        "notes": "z2LZQi5e6PWZykvHRytpb9o6VoPZW0ZGxdeuL50CI3SOsd83rr3lmSryTeWTEdDeYght8jNIKf90rOXkvQQJZm5p7B6BN0xXZvUWQvJ0XI4ksqkD3Hu7U1VPgbzy2lIBsJMXRjJCAc8JxEKEthhDjTyJqH8mcZDtAnKC0MIYxJyYpeYXzX1wXQssN2AlA3GjJM5X45POIqXTLN4F081PRum2jcdkwYd8uTGtFxrNfDRlNgaa6pqK0DQeJn"
+      },
+      "products": [
+        {
+          "_id": "694added1c508c5d5ef5e6fd",
+          "name": "Keyboard13912",
+          "amount": 542,
+          "price": 11883,
+          "manufacturer": "Xiaomi",
+          "notes": "pIQCPc9JwICIHl10jc7u0R9ZnDMmaLH5PBgJ4y7uX7Vmnr5PDbLFpU30FhQoYLIY5Kq3VVS4xH8xDS3nchJMgHDvsUOMP5DdIM9teEzBTE51ur5kH1p8dsL93Wt9okGdvrcT8qfnxjWYgVVqTIPiyKQmH0ouuwUhMxW425ZLu26wcAoKP2cJHv8dzTyIOaOLj8DfvuFq3HIvCbZf8h5qdVxONcuzfLsqEE8WMN0QCgW3qjDK0hlzjgawwk",
+          "received": false
+        },
+        {
+          "_id": "694addee1c508c5d5ef5e720",
+          "name": "Chips83326",
+          "amount": 879,
+          "price": 64755,
+          "manufacturer": "Amazon",
+          "notes": "9nUqUz95nJ3KcgPGyt4ht1oNNHUzTtGCmrL3QntqjmhMptiN1NR2wnrG6VYJKskdxBn0zXLb8eTMYBDTYhA1po0MqP38a8SuyqwU5vqy5wmcX17ovXwwFpRGxaa8W7FRkf01xSmzFRIFSo3nIUbu6hWpWYTH6niVxSgu9wllmqmK4QX5RIJwND1KqINYDXhVhfDKoyF6G0bcFTLwrDRYhcKXHGekiJdEClGezC5Udf2X9ae8b0iacx6bFT",
+          "received": false
+        },
+        {
+          "_id": "694addee1c508c5d5ef5e725",
+          "name": "Tuna98177",
+          "amount": 619,
+          "price": 57958,
+          "manufacturer": "Apple",
+          "notes": "zhr9PIpMpKqiJkx84l6TgY4Qp9hlYDjz1YazmbM7IIz7EM7GMh2XLaHCvKyCfQ6bluOWgjjhl7isDI542aTOiGLDhkunz50jZ6wQZyyZV9bivGGgsKGICXRD2zpN9Hmw1ZvVKVIqi6oiNXtVlPpEQbKeqS1alF4QSW86CXdOLiEeWkAEho2DU1AxyKpLbBISYhkCCuuNWwekDKdWzomN9GEbirNEXwRUYnOuYFhYt4klurg9FXIo7rADjJ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 134596,
+      "createdOn": "2025-12-23T18:22:38.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694added1c508c5d5ef5e6fb",
+          "products": [
+            {
+              "_id": "694added1c508c5d5ef5e6fd",
+              "name": "Keyboard13912",
+              "amount": 542,
+              "price": 11883,
+              "manufacturer": "Xiaomi",
+              "notes": "pIQCPc9JwICIHl10jc7u0R9ZnDMmaLH5PBgJ4y7uX7Vmnr5PDbLFpU30FhQoYLIY5Kq3VVS4xH8xDS3nchJMgHDvsUOMP5DdIM9teEzBTE51ur5kH1p8dsL93Wt9okGdvrcT8qfnxjWYgVVqTIPiyKQmH0ouuwUhMxW425ZLu26wcAoKP2cJHv8dzTyIOaOLj8DfvuFq3HIvCbZf8h5qdVxONcuzfLsqEE8WMN0QCgW3qjDK0hlzjgawwk",
+              "received": false
+            },
+            {
+              "_id": "694addee1c508c5d5ef5e720",
+              "name": "Chips83326",
+              "amount": 879,
+              "price": 64755,
+              "manufacturer": "Amazon",
+              "notes": "9nUqUz95nJ3KcgPGyt4ht1oNNHUzTtGCmrL3QntqjmhMptiN1NR2wnrG6VYJKskdxBn0zXLb8eTMYBDTYhA1po0MqP38a8SuyqwU5vqy5wmcX17ovXwwFpRGxaa8W7FRkf01xSmzFRIFSo3nIUbu6hWpWYTH6niVxSgu9wllmqmK4QX5RIJwND1KqINYDXhVhfDKoyF6G0bcFTLwrDRYhcKXHGekiJdEClGezC5Udf2X9ae8b0iacx6bFT",
+              "received": false
+            },
+            {
+              "_id": "694addee1c508c5d5ef5e725",
+              "name": "Tuna98177",
+              "amount": 619,
+              "price": 57958,
+              "manufacturer": "Apple",
+              "notes": "zhr9PIpMpKqiJkx84l6TgY4Qp9hlYDjz1YazmbM7IIz7EM7GMh2XLaHCvKyCfQ6bluOWgjjhl7isDI542aTOiGLDhkunz50jZ6wQZyyZV9bivGGgsKGICXRD2zpN9Hmw1ZvVKVIqi6oiNXtVlPpEQbKeqS1alF4QSW86CXdOLiEeWkAEho2DU1AxyKpLbBISYhkCCuuNWwekDKdWzomN9GEbirNEXwRUYnOuYFhYt4klurg9FXIo7rADjJ",
+              "received": false
+            }
+          ],
+          "total_price": 134596,
+          "delivery": null,
+          "changedOn": "2025-12-23T18:22:38.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694addee1c508c5d5ef5e73a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

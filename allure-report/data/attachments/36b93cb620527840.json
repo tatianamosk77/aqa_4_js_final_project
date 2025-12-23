@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 18:22:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-ncE0Kdopr5A9jjfp/WV4TOpTqlA\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694adddf1c508c5d5ef5e08d",
+        "email": "Edwina35@hotmail.com",
+        "name": "Abel Delores",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 776,
+        "flat": 2180,
+        "phone": "+5165134386",
+        "createdOn": "2025-12-23T18:22:23.000Z",
+        "notes": "WVsBd11PTtYur6KxTOrlrk5B6C6o89hUQZBOgeyQuDU6t9FHmlSOVdSU06ZrDmkwFz9gKp7Vx8a4gUtHGDXuOTtf7tltPyfWjJp2MSSdL8WioBn9bPPpS3JW9MJYXouAAvQqgwp2QixgGSFZcBVZTVQk4oACfpo2dQUlg82eypCXGERdSRg9Q4Yc3r2dqcBuVfznOCe2yt273zA7MBNuSpC25KbhsmQrSfRCxGYqCovh7unhV2p8ZYIwYD"
+      },
+      "products": [
+        {
+          "_id": "694adddf1c508c5d5ef5e09d",
+          "name": "Computer75257",
+          "amount": 338,
+          "price": 55787,
+          "manufacturer": "Google",
+          "notes": "4XPDIyBgX6yzeY0CScsXrOmeGmnfVBSK1VjY9geWYj0PxVLhX9asnkRU7zwi04E8C6VXn60WKBA88eLc0423f5t8s0b4Wdd7tsim1iDm6P0KZUHngM9W8seON7UDwUkQ4Ph3b6mvfJ9WCkkECX6d9L2de6Vipln4LNT7Qu1CwqD2BDaUbcRfbivM2WOPhnfKAs04mEiPQRzEEOl3p1ym3q8Z6Eu1Exy3ODbABRrdNebZ7rakBwEOIpwxPx",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 55787,
+      "createdOn": "2025-12-23T18:22:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694adddf1c508c5d5ef5e08d",
+          "products": [
+            {
+              "_id": "694adddf1c508c5d5ef5e09d",
+              "name": "Computer75257",
+              "amount": 338,
+              "price": 55787,
+              "manufacturer": "Google",
+              "notes": "4XPDIyBgX6yzeY0CScsXrOmeGmnfVBSK1VjY9geWYj0PxVLhX9asnkRU7zwi04E8C6VXn60WKBA88eLc0423f5t8s0b4Wdd7tsim1iDm6P0KZUHngM9W8seON7UDwUkQ4Ph3b6mvfJ9WCkkECX6d9L2de6Vipln4LNT7Qu1CwqD2BDaUbcRfbivM2WOPhnfKAs04mEiPQRzEEOl3p1ym3q8Z6Eu1Exy3ODbABRrdNebZ7rakBwEOIpwxPx",
+              "received": false
+            }
+          ],
+          "total_price": 55787,
+          "delivery": null,
+          "changedOn": "2025-12-23T18:22:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694adddf1c508c5d5ef5e0b1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

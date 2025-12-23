@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 18:22:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "539",
+    "etag": "W/\"21b-od+bYljnAvDHBI1j19IsY41dRYQ\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Oswald40@gmail.com",
+      "name": "Collin Jillian",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 300,
+      "flat": 3889,
+      "phone": "+2415154044",
+      "createdOn": "2025-12-23T18:22:12.000Z",
+      "notes": "bR3dLdRIDkRw0tPKtvlgRxUBZmYRRuRhQfKXPcsF33QgykzdCZxaGK4sNrLtPTIZILF95ydIt4fYMoK0suwkqjlj7a9smlyurAWSbeYsvSB9wMViAoUzXx21mCVVB3jacLkfyacb56SvHzrQujNFB7UfGwq2pYOxTJHf8Mv5EKGkpJQQs8CVAmq8O5F9maXyNXlkPqR7qyS9J583HJPqRCfSrBwqyiVOHWk0vuKiUMsu0mynC704M74CvE",
+      "_id": "694addd41c508c5d5ef5dda2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

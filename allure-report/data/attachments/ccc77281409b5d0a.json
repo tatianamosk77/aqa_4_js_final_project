@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 18:23:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-cFfvLjcql1yS86+q+WvvDlwXN9w\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Sarina10@hotmail.com",
+      "name": "Curtis Katlyn",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 766,
+      "flat": 9293,
+      "phone": "+5202233711",
+      "createdOn": "2025-12-23T18:23:46.000Z",
+      "notes": "zmw6ZGU5KGVVAZZgw5PLmL5i2IShr9LAbKPfxXJmKsvDagHd7FLK15jblxIJsAqsE27PCukIWgyuMSjiJW3mmH9CJtgpP1Dd4Zfo5B29oHMtB0U4G5VNTSRiMwERoSHfQfyKyXFSrV8vgf4kkoPImuF3JPq0KmqoWWgYJuidFm8pjlkKNVmTCP55zqheWSjdewUrWiX4DSDhtQkqv54nRLLgSn6oa0ItolSY0xblq8FI21lidylRqvrsYb",
+      "_id": "694ade321c508c5d5ef5f81e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

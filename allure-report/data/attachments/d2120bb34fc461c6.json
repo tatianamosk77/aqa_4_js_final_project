@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 18:22:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1981",
+    "etag": "W/\"7bd-7cjS3n+7fX6wypSSAA+5jahlgjA\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694adde51c508c5d5ef5e33d",
+      "status": "Draft",
+      "customer": {
+        "_id": "694adde51c508c5d5ef5e312",
+        "email": "Kasey.Huel90@gmail.com",
+        "name": "Ayana Mariah",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 557,
+        "flat": 4092,
+        "phone": "+9047802191",
+        "createdOn": "2025-12-23T18:22:29.000Z",
+        "notes": "YKBHxojyDOZ8RV0DW2Y7uEutivE3veOtstQchSMko3YNu8zJ51kZVxmdkYC0eKJzHjeo8nrQKQZ9vxE7Lp4dV8o9XT0DuoxBlZ7sx2OVy7Z6baprfwl1tTlg8fuJlOTOvVzuxxiJjZQANDj5i4KpDgrfNw5JoLEoxl8J1oqeqhPZpHpqoU1Uacsfzp4lYkxlZQIiaxypkZrGfKmIVkldViJFcrC2lWb7k3AD1ZZydC8UfxWLKafBc7n4yo"
+      },
+      "products": [
+        {
+          "_id": "694adde51c508c5d5ef5e317",
+          "name": "Bike1638",
+          "amount": 219,
+          "price": 87043,
+          "manufacturer": "Microsoft",
+          "notes": "qCVqcHvwMxwQROJLuXlV7B004Rf5nmoorYmtOoBHc5TPZcGYDDsY84jGm7NNzWCFd56v50fAdetKAbjeAOWOowqEF2slfs637Jj7ubalYWbQHDkmtTRDFvYtYBEUBdaWmAc41IFFzMD8SPv7ofnw5zvJmKFaUwbw4oEg2aRIB5xfPrnyer8LLne3td5uCJeW1TNJOfgP3L1qIjDrVA7Hvt3KxIehyflUK8YfPalqcxIHLLalVYdQba3TIg",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 87043,
+      "createdOn": "2025-12-23T18:22:29.000Z",
+      "comments": [
+        {
+          "text": "autotest comment",
+          "createdOn": "2025-12-23T18:22:30.000Z",
+          "_id": "694adde61c508c5d5ef5e37f"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694adde51c508c5d5ef5e312",
+          "products": [
+            {
+              "_id": "694adde51c508c5d5ef5e317",
+              "name": "Bike1638",
+              "amount": 219,
+              "price": 87043,
+              "manufacturer": "Microsoft",
+              "notes": "qCVqcHvwMxwQROJLuXlV7B004Rf5nmoorYmtOoBHc5TPZcGYDDsY84jGm7NNzWCFd56v50fAdetKAbjeAOWOowqEF2slfs637Jj7ubalYWbQHDkmtTRDFvYtYBEUBdaWmAc41IFFzMD8SPv7ofnw5zvJmKFaUwbw4oEg2aRIB5xfPrnyer8LLne3td5uCJeW1TNJOfgP3L1qIjDrVA7Hvt3KxIehyflUK8YfPalqcxIHLLalVYdQba3TIg",
+              "received": false
+            }
+          ],
+          "total_price": 87043,
+          "delivery": null,
+          "changedOn": "2025-12-23T18:22:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

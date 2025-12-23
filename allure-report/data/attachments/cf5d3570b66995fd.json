@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 18:22:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-Xnuc/gDt8g4/fGpbC4OLU4fpwJ4\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Pete.Thiel@gmail.com",
+      "name": "Ettie Romaine",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 946,
+      "flat": 190,
+      "phone": "+2682520456",
+      "createdOn": "2025-12-23T18:22:36.000Z",
+      "notes": "JFqu5ceW1eVkP8oxaQOd17SuMUKTfQJ2T64lb52u9IoiHrlltUoWAvMdJ7wv3zbWCSryTSDAdWNBBggMMNH3bz3RvWp867mnwWNWZ68KQrwtlgVEVfzdrBKXtdqNmOCYk3YOuQueQu8eUaT4OFuaborDgp0DjAMv0oChqBEzG7SimaVHrgy6LnlToAGLsQav5ou3KiePsfvJ0jh3O9Bw1wr46e6BPTsbLsmSBDkuGwFz43ssL6Qm0YbEpb",
+      "_id": "694addec1c508c5d5ef5e65f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

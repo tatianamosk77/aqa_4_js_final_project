@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 18:22:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1985",
+    "etag": "W/\"7c1-+L9I7ieLWFxHnQbHBbazpn90TVI\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694adde51c508c5d5ef5e32d",
+      "status": "Draft",
+      "customer": {
+        "_id": "694adde51c508c5d5ef5e30f",
+        "email": "Keshawn_Rodriguez67@hotmail.com",
+        "name": "Dell Wanda",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 28,
+        "flat": 2388,
+        "phone": "+8173900581",
+        "createdOn": "2025-12-23T18:22:29.000Z",
+        "notes": "vCUZ3c8h7AFiNejhYrPW8Huml3ALuKHXOVfpg4CZRkRzja3TZzOZ9hZB4zyRd1CdkuAmjKJguajVXM20gKgKxGh0EAE9sJnBNQrMoijLIfBlWyXTlJs1I9vZuBVNzgce1hkP3xt8yFWZr4kjoIXy0HyjBLbXO4DcYPmRcZzHMpO5YiI1mlWsuopX5ROWbEVBZ1YguMK9kX1IVarWLqbbN3V3N9c5wG0tWD5HGNzusDwuvzpCxi2WTIomjc"
+      },
+      "products": [
+        {
+          "_id": "694adde51c508c5d5ef5e315",
+          "name": "Shirt51466",
+          "amount": 648,
+          "price": 15192,
+          "manufacturer": "Microsoft",
+          "notes": "jqm4SzdTpdLOjs4foT51I6NDOEFewwoF6WuWwFQ7mcgDDaFkeisFPNYyJllO2uHU4EWhfyy36eNMYqFrrJzKxdTMDUwWkOwtoRn7QjDNh8w7dpANKEFMTgxwdCDutedP8dYb2zWzLqFQLqIEWUDwiZ9sYri15rEcfvRNZiZufm0v2XiudO1sU2ljeBo6nTEp8I3FnmNDabHem3vTkzCNGbVV5XJZOtNKZXCOiM8oiPZH1FDkO0GKmoO6r5",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 15192,
+      "createdOn": "2025-12-23T18:22:29.000Z",
+      "comments": [
+        {
+          "text": "autotest comment",
+          "createdOn": "2025-12-23T18:22:29.000Z",
+          "_id": "694adde51c508c5d5ef5e35d"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694adde51c508c5d5ef5e30f",
+          "products": [
+            {
+              "_id": "694adde51c508c5d5ef5e315",
+              "name": "Shirt51466",
+              "amount": 648,
+              "price": 15192,
+              "manufacturer": "Microsoft",
+              "notes": "jqm4SzdTpdLOjs4foT51I6NDOEFewwoF6WuWwFQ7mcgDDaFkeisFPNYyJllO2uHU4EWhfyy36eNMYqFrrJzKxdTMDUwWkOwtoRn7QjDNh8w7dpANKEFMTgxwdCDutedP8dYb2zWzLqFQLqIEWUDwiZ9sYri15rEcfvRNZiZufm0v2XiudO1sU2ljeBo6nTEp8I3FnmNDabHem3vTkzCNGbVV5XJZOtNKZXCOiM8oiPZH1FDkO0GKmoO6r5",
+              "received": false
+            }
+          ],
+          "total_price": 15192,
+          "delivery": null,
+          "changedOn": "2025-12-23T18:22:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

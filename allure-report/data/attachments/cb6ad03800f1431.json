@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 18:22:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-bZjx8lFQeGGiuZn1RZhrYHKdi8I\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Brennon_Dooley@gmail.com",
+      "name": "Fred Nathanial",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 338,
+      "flat": 1584,
+      "phone": "+0509031795",
+      "createdOn": "2025-12-23T18:22:27.000Z",
+      "notes": "K8rS7oDDQLC2nCp89IrKCDj33z1NiYAJYkrQTEvjEpaKjoFqo6v9FZBSqC2bKW0yi6PgHXvVU9FtSWAqn73Caan5xPnN2Y9nRXY7BiVfmIImbE3BoEAdP2m2l7lgGTxTwaBNuqynxhANQgE3YbY0eZRhF1h6qPtRELARZAbLhsO7tTv02MC7q8raaZY12d2rKidtCscofq8UxRY4rdftX0Ux5355kaDIdRHYip64PLCA8PeIIpTu4gVUek",
+      "_id": "694adde31c508c5d5ef5e272"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
