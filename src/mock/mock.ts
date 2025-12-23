@@ -2,6 +2,7 @@ import { Page } from "@playwright/test";
 import { apiConfig } from "config/apiConfig";
 import { STATUS_CODES } from "data/statusCodes";
 import { IMetricsResponse } from "data/types/metrics.types";
+import { IOrdersSortedResponse } from "data/types/order.types";
 import { IProductResponse, IProductsSortedResponse } from "data/types/product.types";
 
 export class Mock {
@@ -29,6 +30,7 @@ export class Mock {
       }
     );
   }
+
   async homePageMetrics(body: IMetricsResponse, statusCode: STATUS_CODES = STATUS_CODES.OK) {
     await this.page.route(apiConfig.baseURL + apiConfig.endpoints.metrics, async route => {
       await route.fulfill({
@@ -39,16 +41,13 @@ export class Mock {
     });
   }
 
-  async customerOrders(customerId: string, responseData: any) {
-    await this.page.route(
-      apiConfig.baseURL + apiConfig.endpoints.customerOrders(customerId),
-      async route => {
-        await route.fulfill({
-          status: 200,
-          contentType: "application/json",
-          body: JSON.stringify(responseData),
-        });
-      }
-    );
+  async ordersPage(body: IOrdersSortedResponse, statusCode: STATUS_CODES = STATUS_CODES.OK) {
+    this.page.route(/\/api\/orders(\?.*)?$/, async route => {
+      await route.fulfill({
+        status: statusCode,
+        contentType: "application/json",
+        body: JSON.stringify(body),
+      });
+    });
   }
 }
