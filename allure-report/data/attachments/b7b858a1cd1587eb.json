@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 22:16:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-PUAO4guJPkuGCr8D2cpL2VpOeYE\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Charity.Bergstrom@gmail.com",
+      "name": "Jakob Nikita",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 718,
+      "flat": 7002,
+      "phone": "+5406742504",
+      "createdOn": "2025-12-24T22:16:17.000Z",
+      "notes": "tZNCcs9YpbymLvuWLnhuQpnvfI86iWYPrZGBC44m8DNxTuxIWlE5uBOHnOuToNwjChhNVzX07QnwylbCsjYQ3byLS3ZAugIACtWLjr01n0EAStOeG4FfFjZCbmdVNJG40KtqMdEZ1bArtUOGkCRuiW9AaH0nZZpyQ2lSbUq2aUVoQ9RiaJll8EXPc6WpVpO95fDMiyU3EbXna0BftJ72NFBvMHD3EVsYYvsnWWRv2mmgRNcW93TvXnGhNo",
+      "_id": "694c66311c508c5d5e022608"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

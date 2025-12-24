@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 22:16:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-l78dNfjL8gjB5YJyPUDy9m11M7c\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Nora20@yahoo.com",
+      "name": "Bianka Forrest",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 123,
+      "flat": 8426,
+      "phone": "+5823244698",
+      "createdOn": "2025-12-24T22:16:04.000Z",
+      "notes": "UCbObsSZfVI4bBwQbcktWKDsCFzpaJEgvw2dxfcKmlL7DGgXNGtc7jXKYWyWwoaC8imOdYQO3RUZ1dkXQAj8L1xNWagtMIQljWGgz0i8fgOOB6iWhDwPTVd5Aw92K4mHDUyByMd0LBLNQJOWbs7UmBT4AA0FnCkbsEKvkNfU3VMEpacaPxKEGlf9f3z2QE5LuJkebn0Ga9yO5sWd8TzwEr8rpPI78cgUCHWfkDuaUm3V1UcJBGVWxlsDQ2",
+      "_id": "694c66241c508c5d5e0221af"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

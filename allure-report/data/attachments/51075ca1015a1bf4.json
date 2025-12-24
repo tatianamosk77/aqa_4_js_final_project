@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 22:16:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3413",
+    "etag": "W/\"d55-JePatCWXbrOLazdbMxOR5mLtrlE\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694c663f1c508c5d5e022ed8",
+        "email": "Aimee_Schroeder@gmail.com",
+        "name": "Melyssa Allie",
+        "country": "France",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 347,
+        "flat": 4365,
+        "phone": "+8294608631",
+        "createdOn": "2025-12-24T22:16:31.000Z",
+        "notes": "L2HCL6llVbHxYN7Pic2iPQivRTfE52PX95cJ13imkNYHInheuyeYT8lcoVGlr6UI7a6cODLXeGXffu1uemwFrgXZBHKdH819zBHl2f7uluNAgw5eNV67IAVTsgwTfhW3WJDynVn9CEDcrPVvRhFTZTCtrosAHw1Pa5zGQDjs0UVtjmhzzx0tcCkiKKDvaBCulyoCgPxlJrxKm7kcRjsPRviY4pnraGXNPbNpzJ0x9W0atDcsgXVPva6n6V"
+      },
+      "products": [
+        {
+          "_id": "694c663f1c508c5d5e022edd",
+          "name": "Pants22359",
+          "amount": 90,
+          "price": 87018,
+          "manufacturer": "Amazon",
+          "notes": "TomQlBIXSv6yzyKl6myyK82ktDMnQhrDCs2Ss2s36BB6T813GqKP9eoHL7sDOklrDxBUjxJPUc1uWwaDYseMF6m2WBy0PpDwbqrI6X7yAA8wCrBDcppOPHll62h0UcEZcF9j7Incg4IqCUeWe5XJOTIw7lP7LILnKa2QCfLrfpn2HmI53qMGJBeqHFAtgSZgmRxfKNvMgLV9scqFn20fEu77uVZn0O3G49ZnhWU8qyiRwIZmkibsdKPCfc",
+          "received": false
+        },
+        {
+          "_id": "694c66401c508c5d5e022f03",
+          "name": "Pizza70366",
+          "amount": 395,
+          "price": 12582,
+          "manufacturer": "Microsoft",
+          "notes": "ZWWc0LvVk7LK72myLOxFulIR0hOZ8hbOwBjjCyzmP3x9eb5QGgVG57PZyBuzmkTAdFQznu05CeS9hS2gfH3BxfGDFMMV2kCBCJnjCqjsb2z70FldptV0pPrRz4vbOoASKGTZ26eRhUqn7kqxTS0s1WuwoqXuR2yoZtagLYeUaxDRTC2NX85fK0AcDiZSBNYL6BoJfEMflxrNQ1IZ8wBQBbu8nCOGywTEFgJkpfVYqqUO5bQvBNmlVHBwpC",
+          "received": false
+        },
+        {
+          "_id": "694c66401c508c5d5e022f0b",
+          "name": "Ball67328",
+          "amount": 506,
+          "price": 17964,
+          "manufacturer": "Sony",
+          "notes": "SVcQJsdmICxPDu7fGH94R0yWOIFQSq5L7sBqbV17P8velg8SvHsxcVsH6S9AsUd38wa7VXXZLeICEJc7rfX7487ze7wSWzn207a40mqeuZ7RPlOnRtTzQDw8wEnOUQEq6ixZoeAMHvw3Nm2QVYUbgCdod0bhawXp6lVK0Z7Uhyt84IOlK9mdAYnDozAe3J14WcqweYBSZT3oCx5JkkewNTJgfdvydIcwpddkncE1dpR3dbIKjPkzz9FzPn",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 117564,
+      "createdOn": "2025-12-24T22:16:34.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c663f1c508c5d5e022ed8",
+          "products": [
+            {
+              "_id": "694c663f1c508c5d5e022edd",
+              "name": "Pants22359",
+              "amount": 90,
+              "price": 87018,
+              "manufacturer": "Amazon",
+              "notes": "TomQlBIXSv6yzyKl6myyK82ktDMnQhrDCs2Ss2s36BB6T813GqKP9eoHL7sDOklrDxBUjxJPUc1uWwaDYseMF6m2WBy0PpDwbqrI6X7yAA8wCrBDcppOPHll62h0UcEZcF9j7Incg4IqCUeWe5XJOTIw7lP7LILnKa2QCfLrfpn2HmI53qMGJBeqHFAtgSZgmRxfKNvMgLV9scqFn20fEu77uVZn0O3G49ZnhWU8qyiRwIZmkibsdKPCfc",
+              "received": false
+            },
+            {
+              "_id": "694c66401c508c5d5e022f03",
+              "name": "Pizza70366",
+              "amount": 395,
+              "price": 12582,
+              "manufacturer": "Microsoft",
+              "notes": "ZWWc0LvVk7LK72myLOxFulIR0hOZ8hbOwBjjCyzmP3x9eb5QGgVG57PZyBuzmkTAdFQznu05CeS9hS2gfH3BxfGDFMMV2kCBCJnjCqjsb2z70FldptV0pPrRz4vbOoASKGTZ26eRhUqn7kqxTS0s1WuwoqXuR2yoZtagLYeUaxDRTC2NX85fK0AcDiZSBNYL6BoJfEMflxrNQ1IZ8wBQBbu8nCOGywTEFgJkpfVYqqUO5bQvBNmlVHBwpC",
+              "received": false
+            },
+            {
+              "_id": "694c66401c508c5d5e022f0b",
+              "name": "Ball67328",
+              "amount": 506,
+              "price": 17964,
+              "manufacturer": "Sony",
+              "notes": "SVcQJsdmICxPDu7fGH94R0yWOIFQSq5L7sBqbV17P8velg8SvHsxcVsH6S9AsUd38wa7VXXZLeICEJc7rfX7487ze7wSWzn207a40mqeuZ7RPlOnRtTzQDw8wEnOUQEq6ixZoeAMHvw3Nm2QVYUbgCdod0bhawXp6lVK0Z7Uhyt84IOlK9mdAYnDozAe3J14WcqweYBSZT3oCx5JkkewNTJgfdvydIcwpddkncE1dpR3dbIKjPkzz9FzPn",
+              "received": false
+            }
+          ],
+          "total_price": 117564,
+          "delivery": null,
+          "changedOn": "2025-12-24T22:16:34.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694c66421c508c5d5e0230a3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

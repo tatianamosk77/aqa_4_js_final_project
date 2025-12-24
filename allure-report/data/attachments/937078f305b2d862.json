@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 22:16:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "203",
+    "etag": "W/\"cb-vuIOQVCjctO43cvO+NeC4R0+/Tc\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Cheese62175",
+      "amount": 627,
+      "price": 30095,
+      "manufacturer": "Sony",
+      "createdOn": "2025-12-24T22:16:47.000Z",
+      "notes": "",
+      "_id": "694c664f1c508c5d5e023a9d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

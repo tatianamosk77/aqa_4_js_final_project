@@ -1,0 +1,161 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 22:16:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4156",
+    "etag": "W/\"103c-NV+rFrSHLnMmCcYbGu0tttbtr4s\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694c66371c508c5d5e022971",
+      "status": "Draft",
+      "customer": {
+        "_id": "694c66371c508c5d5e022992",
+        "email": "Schuyler.Wilkinson42@yahoo.com",
+        "name": "Nannie Hermann",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 508,
+        "flat": 6614,
+        "phone": "+0711663420",
+        "createdOn": "2025-12-24T22:16:23.000Z",
+        "notes": "VCLPpp4E9XMWruKxkLZj6PFzKXiWoqhbSbQ14dpInl5tOUBmtxl1id6Jch0B6cfMPyPi0QgdSz9bd7oLIgflVWzm4xBPHz88CMaSFAobwbz01jMM0NcqEspCTqv1QV05CvGhdnoYeDGqhuhis3XOmCBYoaZp4xOKs36WdTuJsTop6uphicWBMaJ9ZLi7r8XPeq8cQZ8SDyH1a12UjBsIHxQSTItHRMVtuGtmbv8RserbCMB87EECWVKwFN"
+      },
+      "products": [
+        {
+          "_id": "694c66371c508c5d5e022990",
+          "name": "Tuna84309",
+          "amount": 584,
+          "price": 38547,
+          "manufacturer": "Sony",
+          "notes": "LYwpLs1grLNhmfqUgSLPcRJOQlIJh0oJQ7Gm19qsxfLw72YjfysOS4AAxkem3FX0zAyhCKtEmu3MewL17TwzMzlCu7EgSXACVdFb2fT5nmPLj7cTL5yG0YPT1BWtePQnuD7SQGChZ4eurjaYP10rVIgCe3I1fAoHJKKM7DKLncvGPYKaYK5jSbfeVKRh5mxnweojjjyNLDlCcUy2hkzz4Ppi6o9JzthP8R3uOTPZXtxFJxhGCdTMo0DGxx",
+          "received": false
+        },
+        {
+          "_id": "694c66381c508c5d5e0229a0",
+          "name": "Shoes79827",
+          "amount": 436,
+          "price": 58639,
+          "manufacturer": "Amazon",
+          "notes": "8QGENx3UmJvYYJOYK0PK1302xwUZzONG50hPu4bEbIR3RJVqk4G7ZmWkOGBmD1S9kizr5kPh1sQG2ViblnePnStjmJW08QelSPg6tCKssfLgjIH4XO3LhRmN6MNGKCc8tqdjcft3fLmJB6MtvVQ4VtksuKA4yDOiLWhM0wrZQPCJXDgU99dJwvC1f4bpFKE1H1xxbfLONFMBpyAghyas6zF7d402RUJbuoFjWcfzoOT4GUdav254UZMSiJ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 97186,
+      "createdOn": "2025-12-24T22:16:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c66371c508c5d5e022992",
+          "products": [
+            {
+              "_id": "694c66351c508c5d5e0227d6",
+              "name": "Pants28614",
+              "amount": 968,
+              "price": 52499,
+              "manufacturer": "Apple",
+              "notes": "vObZepY0nS8IkCGfnps24yCU67SMWnqTfer1oy5047B3JF6VmWjOyV8nbfIrvzDL5Wmhcc56kbxd8iuyQzM9xRtGShbMwi3hAzJojXCWHhheWVrl3rREH0FMJbtdyKjBT1rtPs6UnC1XGoA5FEi7zlHhhs7yspFFnbQ41o77UV8gg3bGJxAtH3oOppgdkz7lnJujVcnzr9XTaWNp3dbO9Ek1OzZVlOnxjSBdozjl2G4EGL197r0t28B1vg",
+              "received": false
+            }
+          ],
+          "total_price": 97186,
+          "delivery": null,
+          "changedOn": "2025-12-24T22:16:28.000Z",
+          "action": "Customer changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694c66351c508c5d5e0227d3",
+          "products": [
+            {
+              "_id": "694c66371c508c5d5e022990",
+              "name": "Tuna84309",
+              "amount": 584,
+              "price": 38547,
+              "manufacturer": "Sony",
+              "notes": "LYwpLs1grLNhmfqUgSLPcRJOQlIJh0oJQ7Gm19qsxfLw72YjfysOS4AAxkem3FX0zAyhCKtEmu3MewL17TwzMzlCu7EgSXACVdFb2fT5nmPLj7cTL5yG0YPT1BWtePQnuD7SQGChZ4eurjaYP10rVIgCe3I1fAoHJKKM7DKLncvGPYKaYK5jSbfeVKRh5mxnweojjjyNLDlCcUy2hkzz4Ppi6o9JzthP8R3uOTPZXtxFJxhGCdTMo0DGxx",
+              "received": false
+            },
+            {
+              "_id": "694c66381c508c5d5e0229a0",
+              "name": "Shoes79827",
+              "amount": 436,
+              "price": 58639,
+              "manufacturer": "Amazon",
+              "notes": "8QGENx3UmJvYYJOYK0PK1302xwUZzONG50hPu4bEbIR3RJVqk4G7ZmWkOGBmD1S9kizr5kPh1sQG2ViblnePnStjmJW08QelSPg6tCKssfLgjIH4XO3LhRmN6MNGKCc8tqdjcft3fLmJB6MtvVQ4VtksuKA4yDOiLWhM0wrZQPCJXDgU99dJwvC1f4bpFKE1H1xxbfLONFMBpyAghyas6zF7d402RUJbuoFjWcfzoOT4GUdav254UZMSiJ",
+              "received": false
+            }
+          ],
+          "total_price": 97186,
+          "delivery": null,
+          "changedOn": "2025-12-24T22:16:28.000Z",
+          "action": "Requested products changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694c66351c508c5d5e0227d3",
+          "products": [
+            {
+              "_id": "694c66351c508c5d5e0227d6",
+              "name": "Pants28614",
+              "amount": 968,
+              "price": 52499,
+              "manufacturer": "Apple",
+              "notes": "vObZepY0nS8IkCGfnps24yCU67SMWnqTfer1oy5047B3JF6VmWjOyV8nbfIrvzDL5Wmhcc56kbxd8iuyQzM9xRtGShbMwi3hAzJojXCWHhheWVrl3rREH0FMJbtdyKjBT1rtPs6UnC1XGoA5FEi7zlHhhs7yspFFnbQ41o77UV8gg3bGJxAtH3oOppgdkz7lnJujVcnzr9XTaWNp3dbO9Ek1OzZVlOnxjSBdozjl2G4EGL197r0t28B1vg",
+              "received": false
+            }
+          ],
+          "total_price": 52499,
+          "delivery": null,
+          "changedOn": "2025-12-24T22:16:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

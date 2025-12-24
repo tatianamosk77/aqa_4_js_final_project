@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 22:16:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2930",
+    "etag": "W/\"b72-u8fJpw0KAe0Lo5pBRiH8hMz2gb4\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694c66341c508c5d5e022775",
+      "status": "Draft",
+      "customer": {
+        "_id": "694c66341c508c5d5e022747",
+        "email": "Cale96@gmail.com",
+        "name": "Claude Felix",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 616,
+        "flat": 4654,
+        "phone": "+0388944628",
+        "createdOn": "2025-12-24T22:16:20.000Z",
+        "notes": "KaITIFDRcuVeB0V7PyIyXnsIRwwq6OLL5MrdxEzOEo4Iwh5MeqHZsgmmNIuVz2d5enlnUo8UNQGC22f967rASahdbTWj9qpbC2lwIaIqiJ9mtyhHBOjcCo360VX8AetDAFo0IhYPSveURhSNkgeMjIYS2FQNkkj4Pv0I9OXQ7EDyn0Hd7lutiZvmD47cIMqL2qfVk1scRR33ylbcDDiRuqrwhTuN8D2yr6xp5k6nG2uqmceoLdOm3k8qno"
+      },
+      "products": [
+        {
+          "_id": "694c66341c508c5d5e022749",
+          "name": "Ball15167",
+          "amount": 655,
+          "price": 41530,
+          "manufacturer": "Google",
+          "notes": "85V4RioUrmk9pdw0EWsqeMPhTaRY9eHlqUOpnFSQc4BTADs5fma70p98UTD9Kujt7mbjnloKMyUneNfBOctUf0nuc8QXJCsJIvuyzWNy62mvuVTqonzOMOgL35o5q3julDRJP4wV4KyhMGn7HUD21XOfUOufWkpvtfzmdFBhyWyePohzhiEAGFqQLtb4hAWEz7GwLoUyx9Cu1DGZTiFJ0ElMIbq2eaiYhzjcO1mroEzztKxhU2jALmStA3",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 41530,
+      "createdOn": "2025-12-24T22:16:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c66341c508c5d5e022747",
+          "products": [
+            {
+              "_id": "694c66341c508c5d5e022749",
+              "name": "Ball15167",
+              "amount": 655,
+              "price": 41530,
+              "manufacturer": "Google",
+              "notes": "85V4RioUrmk9pdw0EWsqeMPhTaRY9eHlqUOpnFSQc4BTADs5fma70p98UTD9Kujt7mbjnloKMyUneNfBOctUf0nuc8QXJCsJIvuyzWNy62mvuVTqonzOMOgL35o5q3julDRJP4wV4KyhMGn7HUD21XOfUOufWkpvtfzmdFBhyWyePohzhiEAGFqQLtb4hAWEz7GwLoUyx9Cu1DGZTiFJ0ElMIbq2eaiYhzjcO1mroEzztKxhU2jALmStA3",
+              "received": false
+            }
+          ],
+          "total_price": 41530,
+          "delivery": null,
+          "changedOn": "2025-12-24T22:16:21.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "694c66341c508c5d5e022747",
+          "products": [
+            {
+              "_id": "694c66341c508c5d5e022749",
+              "name": "Ball15167",
+              "amount": 655,
+              "price": 41530,
+              "manufacturer": "Google",
+              "notes": "85V4RioUrmk9pdw0EWsqeMPhTaRY9eHlqUOpnFSQc4BTADs5fma70p98UTD9Kujt7mbjnloKMyUneNfBOctUf0nuc8QXJCsJIvuyzWNy62mvuVTqonzOMOgL35o5q3julDRJP4wV4KyhMGn7HUD21XOfUOufWkpvtfzmdFBhyWyePohzhiEAGFqQLtb4hAWEz7GwLoUyx9Cu1DGZTiFJ0ElMIbq2eaiYhzjcO1mroEzztKxhU2jALmStA3",
+              "received": false
+            }
+          ],
+          "total_price": 41530,
+          "delivery": null,
+          "changedOn": "2025-12-24T22:16:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337ce1c508c5d5e95335d",
+        "username": "student14@gmail.com",
+        "firstName": "Bill",
+        "lastName": "Schuppe",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:26"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

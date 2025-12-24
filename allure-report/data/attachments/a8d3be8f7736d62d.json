@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 22:16:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-zvT1nAYvB2/nlKhqXLEu3BVlAM8\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Adrien.Russel@gmail.com",
+      "name": "Sterling Ryder",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 229,
+      "flat": 605,
+      "phone": "+8073261666",
+      "createdOn": "2025-12-24T22:16:06.000Z",
+      "notes": "nyGyMJz65jKwfFYUwLj8hcdSUIQENdHV1EUAXDhHk3OGv0Div72dQBGYfwj9wKrQExMoh03YBe900xsNf0E6MxqK0340iSGDp6XhgdmU7cprs3QeDOnu5gW5qRzXVmPX4XzzmBsyiu7docfrCP1byQLcUVbuKgauwh5vMaM1CJumBnqBCMkGcaXgABLEdr6vZs2nscP7n0IwPBaYRqOXkBx7oMlIyZIvP7X6sn8A0hWelIT5omQ3DHOTWP",
+      "_id": "694c66261c508c5d5e022240"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

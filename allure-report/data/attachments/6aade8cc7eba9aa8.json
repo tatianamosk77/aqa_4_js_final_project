@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 22:15:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-Ewc8RkCZRqNk6fu6pxXDi8LiOjs\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Garnet.Ruecker@hotmail.com",
+      "name": "Daphne Beryl",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 29,
+      "flat": 7899,
+      "phone": "+9873150230",
+      "createdOn": "2025-12-24T22:15:58.000Z",
+      "notes": "o6gyhAlqo5WLYqQHGMsGISiX6QMLptq8vvi6CIrA9SC0baTpaoBmuDe68TkBsAvmWApDdOchuAdUo2cFetJSrjOkIwpOBR1pFdWEb28riXOobAgoeZUD9nIMKGWtr22TqITQkBeD2BEDdl30ub2lPLns1J67LyvdQt8MQMK5OTyDgDz9jNNzyfJOv4wRhoDWi4rTT6d2KuqPOpBhwo8tzhxdJ6opJeI3teaP00OH6bdiwJUento02TMNPe",
+      "_id": "694c661e1c508c5d5e021ff0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

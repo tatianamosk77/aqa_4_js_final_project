@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 22:16:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-T0zR4qHOGyBbkFFUEjMjR/Xh/EE\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Armand_Zieme@hotmail.com",
+      "name": "Imelda Vito",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 1,
+      "flat": 3961,
+      "phone": "+9665868210",
+      "createdOn": "2025-12-24T22:16:00.000Z",
+      "notes": "yvPHlbjd3elvYfcTWVmJDitIz58mBQuVYM3lUDuBbIu2f7JBebmCVN8BYO0BriSXePe6VlsqZ23Gk72KvdeQaMTzectpPlN8kFKgZ9rIVK8235BYmJ3nrtVYc7jat7sTOolNpAxQCb6dwVA4uMWXpzrSRWT8SPzunuvsEtdqIXS2q4jHTbWJaU6VEIjMUsVXFhRHilzzvm5SVEnRTKWT95Ambl2cCpGNE8CDqvdAx3I0lX6Vjr7Bsf6J5L",
+      "_id": "694c66201c508c5d5e02208c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

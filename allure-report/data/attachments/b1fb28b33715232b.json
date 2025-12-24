@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 22:16:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1968",
+    "etag": "W/\"7b0-ZPZcDRb5yRDbXhGdU+8YIwKbjVo\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694c66311c508c5d5e02261e",
+      "status": "Draft",
+      "customer": {
+        "_id": "694c66311c508c5d5e0225f9",
+        "email": "Virgie30@hotmail.com",
+        "name": "Leonor Crystel",
+        "country": "France",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 403,
+        "flat": 7323,
+        "phone": "+8182983698",
+        "createdOn": "2025-12-24T22:16:17.000Z",
+        "notes": "ryiqnsLoWBDCAT8nRaVGwract2992HnKZHlNST1zrI9Nudz8Fw3chX7SNCC92h33AmcEnVFuY8mpNMw2qynzgbr19tR3gpNeHHdaGdIaV7f8iZabH0dTFXvH4fHf48T0FnR0KcW58OxB0cCEjsyquL8RmOwogpCJ3PqxtqpQBQgkeybfL21vShptCnUVby9T8fbRmK8RyixJMT1y9OCZfxQM0FGw9sxw23VfLQTdLK40ieCSB3nZvlF9we"
+      },
+      "products": [
+        {
+          "_id": "694c66311c508c5d5e0225ff",
+          "name": "Mouse7600",
+          "amount": 476,
+          "price": 62156,
+          "manufacturer": "Tesla",
+          "notes": "3NYGCFK47xt21plZsiLETAjujdjGUJlBVnfM4X33A5sY6nD3s1h4tjg2omdq1ed8AAmQVjeLhY3mTi7pmE4Z1Ch87DC8fIF7LEa9bgWgNytYp0fqltjnQTXSpWk6OVdONX6hBOPKY1zl1WBYzJwTZ1Yz66clrZxmuJV9oGnZZ3XS3sVyyGz8uwjqxZj3pEQnjE793LuzN3ilXw7utBENScolZ9eeWnv5WtPjXlnlA3taaCJ2XdI4YivGrm",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 62156,
+      "createdOn": "2025-12-24T22:16:17.000Z",
+      "comments": [
+        {
+          "text": "autotest comment",
+          "createdOn": "2025-12-24T22:16:18.000Z",
+          "_id": "694c66321c508c5d5e02265d"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c66311c508c5d5e0225f9",
+          "products": [
+            {
+              "_id": "694c66311c508c5d5e0225ff",
+              "name": "Mouse7600",
+              "amount": 476,
+              "price": 62156,
+              "manufacturer": "Tesla",
+              "notes": "3NYGCFK47xt21plZsiLETAjujdjGUJlBVnfM4X33A5sY6nD3s1h4tjg2omdq1ed8AAmQVjeLhY3mTi7pmE4Z1Ch87DC8fIF7LEa9bgWgNytYp0fqltjnQTXSpWk6OVdONX6hBOPKY1zl1WBYzJwTZ1Yz66clrZxmuJV9oGnZZ3XS3sVyyGz8uwjqxZj3pEQnjE793LuzN3ilXw7utBENScolZ9eeWnv5WtPjXlnlA3taaCJ2XdI4YivGrm",
+              "received": false
+            }
+          ],
+          "total_price": 62156,
+          "delivery": null,
+          "changedOn": "2025-12-24T22:16:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
