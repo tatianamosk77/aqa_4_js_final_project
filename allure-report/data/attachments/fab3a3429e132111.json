@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 22:15:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1895",
+    "etag": "W/\"767-N0O4FD25mNtyuL/vB1lP0nX8BO4\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694db7841c508c5d5e0f9dd2",
+        "email": "German_Schmeler-Weimann10@hotmail.com",
+        "name": "Lyda Alanis",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 51,
+        "flat": 9964,
+        "phone": "+4152111056",
+        "createdOn": "2025-12-25T22:15:32.000Z",
+        "notes": "OTL0KRE3LCzX4SbEZTJsrR66oL1yIseVhRLNmf8us1VobuhrquikPBtCPpZkent0BSMg6jtkOC0EDN40p4IwEZLw8d18ZWTuaPwjDB89u0ne89H1XByqxn0fJYePqg8TdUiJ5Jzepr7lOMb7pV22wqBaA0wWpP1FL4TE0kVBRcSM4zbcMQNTzKRPzqjDpOXydtoveYz9XSlHo1ny84eg2RhFy0idBJJYUzPkkyHIO5py9F8eYlkyKXyspp"
+      },
+      "products": [
+        {
+          "_id": "694db7841c508c5d5e0f9dce",
+          "name": "Pizza13302",
+          "amount": 566,
+          "price": 67885,
+          "manufacturer": "Samsung",
+          "notes": "XtwSD7ydKuIhmEW8GlGhAvM1y9Igi52tBYn3FEd1hT9O7WNJdGrrroFpNOIcgZfRmRFhRjNOC8hznPzdSz7Vd16oDtWJLmmFnEbKFmREyqQ7ye4J52HUlxceGxSt5bJaTYOpXR5y0zpUF02C6cqvjBOSybiSaddYWvzoM4OsocwORTWxElv7Dgg2hItECzjVbzSFwEdd4NYBtVVrHBMPuRv6m8zd2lK2ID8DoRx7o1dt5zh2ifFRal05gw",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 67885,
+      "createdOn": "2025-12-25T22:15:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694db7841c508c5d5e0f9dd2",
+          "products": [
+            {
+              "_id": "694db7841c508c5d5e0f9dce",
+              "name": "Pizza13302",
+              "amount": 566,
+              "price": 67885,
+              "manufacturer": "Samsung",
+              "notes": "XtwSD7ydKuIhmEW8GlGhAvM1y9Igi52tBYn3FEd1hT9O7WNJdGrrroFpNOIcgZfRmRFhRjNOC8hznPzdSz7Vd16oDtWJLmmFnEbKFmREyqQ7ye4J52HUlxceGxSt5bJaTYOpXR5y0zpUF02C6cqvjBOSybiSaddYWvzoM4OsocwORTWxElv7Dgg2hItECzjVbzSFwEdd4NYBtVVrHBMPuRv6m8zd2lK2ID8DoRx7o1dt5zh2ifFRal05gw",
+              "received": false
+            }
+          ],
+          "total_price": 67885,
+          "delivery": null,
+          "changedOn": "2025-12-25T22:15:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694db7851c508c5d5e0f9dfe"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

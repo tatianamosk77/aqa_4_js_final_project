@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 22:15:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2937",
+    "etag": "W/\"b79-UYOqa/YnpaSnIdcMDAIlen5eGWM\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694db7891c508c5d5e0f9fc5",
+      "status": "Draft",
+      "customer": {
+        "_id": "694db7881c508c5d5e0f9f77",
+        "email": "Justine.DuBuque@yahoo.com",
+        "name": "Ryley Johnpaul",
+        "country": "France",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 246,
+        "flat": 8113,
+        "phone": "+8235354296",
+        "createdOn": "2025-12-25T22:15:36.000Z",
+        "notes": "j1U5gDeZOBQ0ykOrTwo6zemT0BN2hhPIZrXWCdOgja7mk1Snq0DklvCsFfaAsBIPBflKLQclUDlakbpMap7jiqswJmMdSucV2cemDibFhf0tDkT2HK7NA9glri5FoQk7OmiFY5EQvcUuliLwpxkUzdZnBzPPrQo8Ys9XVwGwRIjcYaa5zOqt9bo1tqI3dltImZzxn59KctX4ZQSBdxgqErfJMWrvrSUYaR8h3a3PyASt27RlkfQnX6Mt80"
+      },
+      "products": [
+        {
+          "_id": "694db7891c508c5d5e0f9fa3",
+          "name": "Mouse99694",
+          "amount": 455,
+          "price": 44968,
+          "manufacturer": "Xiaomi",
+          "notes": "9wnPldEFDK3ucCOpX6CmYfsOb1eDtEU8HW9bsi5erD3UPn0WxXd9tvlznKbIVZglTEGEDQTcPClhatEPFVTRDBbQOZs2e91KVJOz07zxJcr9fRXQB5Ul99yWxU20SXtoifz400U0oYjkPlrC0hELX7chELJ9NAEp9X0XnAygRbcbg6K1HV3tUidLrJ6Ijxlr4iBi1z7jXNxaAY78FFrWK57f8aEOmBEyLroK1L09VH5t0A3FWn9gaFqcgR",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 44968,
+      "createdOn": "2025-12-25T22:15:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694db7881c508c5d5e0f9f77",
+          "products": [
+            {
+              "_id": "694db7891c508c5d5e0f9fa3",
+              "name": "Mouse99694",
+              "amount": 455,
+              "price": 44968,
+              "manufacturer": "Xiaomi",
+              "notes": "9wnPldEFDK3ucCOpX6CmYfsOb1eDtEU8HW9bsi5erD3UPn0WxXd9tvlznKbIVZglTEGEDQTcPClhatEPFVTRDBbQOZs2e91KVJOz07zxJcr9fRXQB5Ul99yWxU20SXtoifz400U0oYjkPlrC0hELX7chELJ9NAEp9X0XnAygRbcbg6K1HV3tUidLrJ6Ijxlr4iBi1z7jXNxaAY78FFrWK57f8aEOmBEyLroK1L09VH5t0A3FWn9gaFqcgR",
+              "received": false
+            }
+          ],
+          "total_price": 44968,
+          "delivery": null,
+          "changedOn": "2025-12-25T22:15:37.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "694db7881c508c5d5e0f9f77",
+          "products": [
+            {
+              "_id": "694db7891c508c5d5e0f9fa3",
+              "name": "Mouse99694",
+              "amount": 455,
+              "price": 44968,
+              "manufacturer": "Xiaomi",
+              "notes": "9wnPldEFDK3ucCOpX6CmYfsOb1eDtEU8HW9bsi5erD3UPn0WxXd9tvlznKbIVZglTEGEDQTcPClhatEPFVTRDBbQOZs2e91KVJOz07zxJcr9fRXQB5Ul99yWxU20SXtoifz400U0oYjkPlrC0hELX7chELJ9NAEp9X0XnAygRbcbg6K1HV3tUidLrJ6Ijxlr4iBi1z7jXNxaAY78FFrWK57f8aEOmBEyLroK1L09VH5t0A3FWn9gaFqcgR",
+              "received": false
+            }
+          ],
+          "total_price": 44968,
+          "delivery": null,
+          "changedOn": "2025-12-25T22:15:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337ce1c508c5d5e95335d",
+        "username": "student14@gmail.com",
+        "firstName": "Bill",
+        "lastName": "Schuppe",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:26"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

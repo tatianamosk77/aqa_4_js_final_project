@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 22:15:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1879",
+    "etag": "W/\"757-l/18GmP4YvwQMcBVsZobg/lKkNo\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694db7851c508c5d5e0f9df5",
+        "email": "Laurence_Quitzon@gmail.com",
+        "name": "Laurel Maryjane",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 189,
+        "flat": 4213,
+        "phone": "+2624550313",
+        "createdOn": "2025-12-25T22:15:33.000Z",
+        "notes": "cWiSLhVVPo9y9X4vQ5dV7TCZM3Hr111TVyX5cSp086SFd8hwmBfTk2gCADzGLDaLVeilV5035rfCxJbgAXRg3tn9cEa4n0Z9y7kaUyi2uKjpJUUZ1umefEWWPzEnjIucviNSqMUSAtetiaIblOIWWmLeIOzJRDFWWF4QrbAMnvGPLFBCJvNd18DIZyAxhpZnmNJihzLbA5IMCibX9u5Nr6eOfXdDoKd9IIaVoomCrmSdICcbWByPY9eeG6"
+      },
+      "products": [
+        {
+          "_id": "694db7851c508c5d5e0f9df1",
+          "name": "Chair63341",
+          "amount": 77,
+          "price": 77715,
+          "manufacturer": "Amazon",
+          "notes": "kxZLuqaONAdxdxHTMLVl5IZNIJlZdrSOXlHihBOcDs9ZyFYYe6vHhsUszL67PxmHdKw7j9XWMDcDAir1WxGr7cloqFO5XqvrWjCrqyztGsi5Ebor2rBgDjwwAKK7MGnphAjb4DMW3DXPVOFaoyGoksW5b0DJE55TxtTdsAA48ZHpURadjO12QlkRBXywrREaP3vJZpL8bhZljcRGsd5IbSF8bla0HRvPrVkmeSxxrGQaLKScjZ5FQ2Of2r",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 77715,
+      "createdOn": "2025-12-25T22:15:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694db7851c508c5d5e0f9df5",
+          "products": [
+            {
+              "_id": "694db7851c508c5d5e0f9df1",
+              "name": "Chair63341",
+              "amount": 77,
+              "price": 77715,
+              "manufacturer": "Amazon",
+              "notes": "kxZLuqaONAdxdxHTMLVl5IZNIJlZdrSOXlHihBOcDs9ZyFYYe6vHhsUszL67PxmHdKw7j9XWMDcDAir1WxGr7cloqFO5XqvrWjCrqyztGsi5Ebor2rBgDjwwAKK7MGnphAjb4DMW3DXPVOFaoyGoksW5b0DJE55TxtTdsAA48ZHpURadjO12QlkRBXywrREaP3vJZpL8bhZljcRGsd5IbSF8bla0HRvPrVkmeSxxrGQaLKScjZ5FQ2Of2r",
+              "received": false
+            }
+          ],
+          "total_price": 77715,
+          "delivery": null,
+          "changedOn": "2025-12-25T22:15:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694db7851c508c5d5e0f9e14"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

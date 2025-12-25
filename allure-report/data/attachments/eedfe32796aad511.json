@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 22:15:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-QitkcraUBTRpkKTwiDzYnnby/Wc\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Rudy18@yahoo.com",
+      "name": "Bill Florencio",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 664,
+      "flat": 1,
+      "phone": "+3381779967",
+      "createdOn": "2025-12-25T22:15:18.000Z",
+      "notes": "CPgVsLBturEDxe6RjtIPrH28wJ2AJm0sPwWdSmECCS1y3s82Hr6BBqYeSsCHXQUJI8kYiFaPJLNsL5OGYS3wiWCWegv9l9rTB7rm0JlA89Ift6cV3i2HcdajnqBhz8gw65wwp83Kp0cks0cKp7gGFECoXKErtUoXMCa2dMo3OByEsCsY0mNseof4jo2qw4m2Cqc5aBID4BAZh9ojDthEGiIZ2mUrlFru7zjKVsCOVTxJ9a9U6TS8El8EFl",
+      "_id": "694db7761c508c5d5e0f98cb"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

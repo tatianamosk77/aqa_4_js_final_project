@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 22:15:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-nSXbreQrU7L11cz9kcgm7FhlZHA\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Sophie.Bogisich@hotmail.com",
+      "name": "Frieda Price",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 532,
+      "flat": 8693,
+      "phone": "+8607243614",
+      "createdOn": "2025-12-25T22:15:26.000Z",
+      "notes": "LJQq0pQaLu7WeQyPmDfO25agFwZtUrvoBmdBbmqKj0MDSRODQHmT3WdT45V5K4qt7StIUksQNFD41ojwjjQVh9XQ33EIPObejXNJu6ZoZsYziFewgnanXU9i92kGH4PL9rYhQviP0gWUhXGMXWOB0Dpg5Mo9wTXFRd5jgrjdJjc5u10xfHCX4Cl6rXvJnUuB8H1e8u7Rt61s9w8pxjQpBHKqyMWSeCOCJ2qCi6toOtv3rUy0HwpR6AE5Dv",
+      "_id": "694db77e1c508c5d5e0f9b25"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
