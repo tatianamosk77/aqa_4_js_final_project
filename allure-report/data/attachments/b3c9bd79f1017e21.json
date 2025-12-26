@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:15:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "535",
+    "etag": "W/\"217-+gDaJF7Hhj2rD+6xN7wxQkkm5+c\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Loma42@gmail.com",
+      "name": "Dena Dale",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 470,
+      "flat": 5196,
+      "phone": "+7999174247",
+      "createdOn": "2025-12-26T22:15:35.000Z",
+      "notes": "uY1Mv2iVmVDg08rPsplghJCnibA1fj0x5V15xmUW8iZH0iKrg1im3AMrb8ff44H56rSwLeEDaJJNAyIaG7iriQtN1jPYZaEokxy0LIyL6LB7txmlWAlwx4BCmNrW1UhbKD7ItYGOOhKJl7SCkmyz6KHr9WGkUux5m376zIDJGtvUJyNUlvmlfd5UWNes40NbvUfYPK2JLxDglsTkEEglG1ONTohvwseO50T4dvjkD0rvtX1bmMCnzHr3uA",
+      "_id": "694f09071c508c5d5e3166cb"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

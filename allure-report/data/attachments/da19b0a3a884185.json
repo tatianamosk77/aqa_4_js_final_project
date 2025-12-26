@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:15:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-fu++rhKDNFtSP6k6x8N2+YRk5Iw\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Lois.Corkery67@hotmail.com",
+      "name": "Test Customer",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 514,
+      "flat": 3188,
+      "phone": "+5320083017",
+      "createdOn": "2025-12-26T22:15:33.000Z",
+      "notes": "2bKjUlO5tlIAhAQ4GT1FTgx3eJonRNUJwKvvvaG9tDUfw4yRhhN2cZmmTbqSUDX71nwa1o8YUJTiiumtJlPgVTMAy5DbOQ2Zfi0bWVWZf2UfkLMz4km683Yn5sy85qsXFOO457vlxTT3miJ5wlHIeJ3QboxerYFs63W4s74DQnpcbduQK8cnXpyoMfgV7lpxOJ8WXFKZd5GpiFSuAPdWDczHCGFNiUQyHBZGrAllri2YGBMPUOrEo6dx6y",
+      "_id": "694f09051c508c5d5e316645"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

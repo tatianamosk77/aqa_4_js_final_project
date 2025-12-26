@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:15:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "99",
+    "etag": "W/\"63-kxU1mxmGwdL0O4jYG9Pvy3mAeOA\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "IsSuccess": false,
+    "ErrorMessage": "Customer with email 'Kennedy.Stehr@hotmail.com' already exists"
+  }
+}

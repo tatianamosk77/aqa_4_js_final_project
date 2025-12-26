@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:15:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1871",
+    "etag": "W/\"74f-5qZUMWqfjhkMuaKhBR2z+G/OzN0\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694f091d1c508c5d5e316d1a",
+        "email": "Meggie46@gmail.com",
+        "name": "Rowland Hal",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 848,
+        "flat": 3417,
+        "phone": "+5735812883",
+        "createdOn": "2025-12-26T22:15:57.000Z",
+        "notes": "4B0HnevYA8xoLejuuGg6MbmhNhKQX6yaLQhgpMtHDHKtv0rLeexxptyk3eSYPUW8oSgl9X0vfsDa3cT6B9xuw0IthBYeigZ64ix83Gw4fPOl75gzISyq02N4Rk5mPxiLbk2HuvTc4atZBTDrQBZeOF7kh4RaDyXBwOizoRgzpGdMtqup6pqHA0e1WuMQUUlrx74H9lsgvdmiDNECXrCV8yvpf5C9pNUJrAoAlQXeKZn5qOevWHLFKVmE1c"
+      },
+      "products": [
+        {
+          "_id": "694f091d1c508c5d5e316d1f",
+          "name": "Fish70138",
+          "amount": 49,
+          "price": 18677,
+          "manufacturer": "Microsoft",
+          "notes": "3M8BN4oeTAxGgR9hmcHDDgKuifv8hllSQkyVKEoa4gD8MsGPri45LMweIqfH3goLC0UM5peu8gsCGLZ6D1EAhK0QjPkdyeqMlKgU8szA6QLPpGnyta5iBa4OS3a8E2K14j8YcYhHxRpgnshNx1gbdqyti6UdWOye0MI4bJQKH1DWfLhBrX00CXIDBXsLQ2RTmaomyiQvgMuN7CiAV3WJWEDbuU8wFho7tdFdMhU3QuBltV64IuXd2yDkKl",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 18677,
+      "createdOn": "2025-12-26T22:15:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694f091d1c508c5d5e316d1a",
+          "products": [
+            {
+              "_id": "694f091d1c508c5d5e316d1f",
+              "name": "Fish70138",
+              "amount": 49,
+              "price": 18677,
+              "manufacturer": "Microsoft",
+              "notes": "3M8BN4oeTAxGgR9hmcHDDgKuifv8hllSQkyVKEoa4gD8MsGPri45LMweIqfH3goLC0UM5peu8gsCGLZ6D1EAhK0QjPkdyeqMlKgU8szA6QLPpGnyta5iBa4OS3a8E2K14j8YcYhHxRpgnshNx1gbdqyti6UdWOye0MI4bJQKH1DWfLhBrX00CXIDBXsLQ2RTmaomyiQvgMuN7CiAV3WJWEDbuU8wFho7tdFdMhU3QuBltV64IuXd2yDkKl",
+              "received": false
+            }
+          ],
+          "total_price": 18677,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:15:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694f091d1c508c5d5e316d2d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

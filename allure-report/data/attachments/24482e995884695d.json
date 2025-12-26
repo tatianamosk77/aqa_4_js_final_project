@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:16:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-b/vX5WwV1rjyKMUwoA0ro5VQCAU\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Zoe.Roberts@gmail.com",
+      "name": "Destini Deion",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 471,
+      "flat": 7452,
+      "phone": "+8891547242",
+      "createdOn": "2025-12-26T22:16:01.000Z",
+      "notes": "qkB5ev64Cxz6aZZQUnFpMAlXDLiz4KD6iGkQ5CHopuVqrCcQ7yIYzDshulTAcdBrHZHsBjo9IfOsxdTpXgfD47xfQf6mc8JF50GKADpnDWaWwKmVHOPz7NE3ouccp1aUAg6xhAUIWa9RvWmwJMOdDyhueN0XkGjV61dXy7japDHs45oMxFVuWPhjO3OxV5L5DKGExwTme7HYnfrmviqfybjDNMyvU3cvVdRlNPJaqrkcnNjCd80iFjQZNE",
+      "_id": "694f09211c508c5d5e316ebc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

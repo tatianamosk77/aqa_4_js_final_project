@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:16:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1878",
+    "etag": "W/\"756-EwUzA15TPK6JEQEutyRBOfGlynE\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694f09241c508c5d5e31703c",
+        "email": "Brad_Larson48@hotmail.com",
+        "name": "Billy Hal",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 938,
+        "flat": 5091,
+        "phone": "+2289229453",
+        "createdOn": "2025-12-26T22:16:04.000Z",
+        "notes": "Jw8NPzUfFj1CInRWBnGq8Ak5y80krexZZVMDCCTbe3mFa0gyy7kcis6OuBnyGDaaPi6hmk0GI98ihAqusFUR4gXwCENARYj6JElGiaJhpfOT8SKbMM0P5DOGoKE82SXE9Qx0Lt3jYAIGCldWkqxCdh5Yt9Tms9Mpt1Ec4Gj02As0ZFjdAAT5bFa0X1p168Gzs3Fj0iZTcgYJ2Zwascm55hC0UzOtNWtyr1gSI2AtdWiHqp7C4lxdvxf7zr"
+      },
+      "products": [
+        {
+          "_id": "694f09241c508c5d5e317044",
+          "name": "Shoes22692",
+          "amount": 567,
+          "price": 61095,
+          "manufacturer": "Apple",
+          "notes": "LwHOOyTRPYXjEMlFjDj3uj29HqplADs4RsItaCU9oTp8geZf7Zp1MDWM3A7yQu6QvGJNhUEo9XuWQKeOOhJxKSRZDwyBpOpunMXoy9pWHZp7cNHHxqjptQsnf8gGB3qWeWxJb53BZKWJR8bu8wEqVhpBKNAa8g1vFTzPNNuUra89C8sklRHJyG9P3p69XoYW8SuxL5vKe7AtxRRiaZhoHQxSBqn99fiwuoo7LSo2jUmQ7EIhhvFsZ7vFBN",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 61095,
+      "createdOn": "2025-12-26T22:16:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694f09241c508c5d5e31703c",
+          "products": [
+            {
+              "_id": "694f09241c508c5d5e317044",
+              "name": "Shoes22692",
+              "amount": 567,
+              "price": 61095,
+              "manufacturer": "Apple",
+              "notes": "LwHOOyTRPYXjEMlFjDj3uj29HqplADs4RsItaCU9oTp8geZf7Zp1MDWM3A7yQu6QvGJNhUEo9XuWQKeOOhJxKSRZDwyBpOpunMXoy9pWHZp7cNHHxqjptQsnf8gGB3qWeWxJb53BZKWJR8bu8wEqVhpBKNAa8g1vFTzPNNuUra89C8sklRHJyG9P3p69XoYW8SuxL5vKe7AtxRRiaZhoHQxSBqn99fiwuoo7LSo2jUmQ7EIhhvFsZ7vFBN",
+              "received": false
+            }
+          ],
+          "total_price": 61095,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:16:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694f09241c508c5d5e317073"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

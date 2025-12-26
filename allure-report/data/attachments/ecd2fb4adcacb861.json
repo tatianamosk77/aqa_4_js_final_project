@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:15:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "282",
+    "etag": "W/\"11a-1lKEG6fD00WQcKeAFpC0F76kQEI\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Giles.Fay8@hotmail.com",
+      "name": "Rose Kelley",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 976,
+      "flat": 8167,
+      "phone": "+1810233683",
+      "createdOn": "2025-12-26T22:15:35.000Z",
+      "_id": "694f09071c508c5d5e3166cd"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

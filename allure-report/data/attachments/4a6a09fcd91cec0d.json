@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:16:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1879",
+    "etag": "W/\"757-sT2dNicQrtsvnEv1jy6Z7Nab4Bg\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694f09211c508c5d5e316f22",
+        "email": "Dorothea83@yahoo.com",
+        "name": "Isaac Katelin",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 509,
+        "flat": 3543,
+        "phone": "+5829289105",
+        "createdOn": "2025-12-26T22:16:01.000Z",
+        "notes": "11zYjKKJemXiKC3F2QpjfIn6ZKED3iWN8ZRLSItypFEsjOWPgWyi3mD0JWmsG3P7cddK1XM8qDW5RDLPxSaUieg2bHjnXlhmhSaxgfsbvbaYcCDORN6Onkc2jHVn6lMTKBD26KWZ45CqfJ0ZS9lI6pjsRPCIcr3I5Nd9jG3r7WLiIgS3R6icEDyMcICJBiZeoxSfKf73PkC4dtIo2dbghlQR6IpqR2Iz4nIeqNj9Ofuda8X5RuhPOHIvZi"
+      },
+      "products": [
+        {
+          "_id": "694f09211c508c5d5e316f26",
+          "name": "Computer94530",
+          "amount": 383,
+          "price": 85974,
+          "manufacturer": "Amazon",
+          "notes": "YJ1DUSICADlfXIvySUJWmbeD2GlKBui1HLusLLevIcJksE9odDVapjrVVFuPUJk6dNZCiW3FIAnVqx8MmT0mjwfYprlFnucbc3cSeqOf8cqFCQnXyk709UfdIXb7G2NFgQP0wGsappgXbngfknRly9yP6HNWzYTbZEZCY7bTdlKYqXfr5ZLi4TeFPShtNgHkgpTxGWNe6YMFhy5Jt3L0VnaHesJoZP426jp8Fz3CjNj8cOuugm3ykYPNRT",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 85974,
+      "createdOn": "2025-12-26T22:16:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694f09211c508c5d5e316f22",
+          "products": [
+            {
+              "_id": "694f09211c508c5d5e316f26",
+              "name": "Computer94530",
+              "amount": 383,
+              "price": 85974,
+              "manufacturer": "Amazon",
+              "notes": "YJ1DUSICADlfXIvySUJWmbeD2GlKBui1HLusLLevIcJksE9odDVapjrVVFuPUJk6dNZCiW3FIAnVqx8MmT0mjwfYprlFnucbc3cSeqOf8cqFCQnXyk709UfdIXb7G2NFgQP0wGsappgXbngfknRly9yP6HNWzYTbZEZCY7bTdlKYqXfr5ZLi4TeFPShtNgHkgpTxGWNe6YMFhy5Jt3L0VnaHesJoZP426jp8Fz3CjNj8cOuugm3ykYPNRT",
+              "received": false
+            }
+          ],
+          "total_price": 85974,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:16:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694f09221c508c5d5e316f3c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

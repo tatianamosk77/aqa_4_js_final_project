@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:16:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1875",
+    "etag": "W/\"753-PpeBbPT3bs4n+Wjqn38mNy2xlng\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694f09241c508c5d5e31705d",
+        "email": "Noble.Kautzer71@yahoo.com",
+        "name": "Andres Daren",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 539,
+        "flat": 3231,
+        "phone": "+1262106533",
+        "createdOn": "2025-12-26T22:16:04.000Z",
+        "notes": "BSWCsFcv9ved4UylCPsodtFZvgCIbmWXyee3mSdZ3X4NM9r28MTdRoPCoxBBTS0ydpj1wGnZIyzVIfiVaDCtxxhVZdKjIOKKeezWhpJLUJEck0ph2g1vTbyFgrkpd8vbgN8MX4HlavOB2vWi1CCjMBLSFjUPba4NIIr9idh7ruMkWN8rBCKZw620jS9tZh9Z0ZrFlxEP7W7mxlTp95GXOyt0Oaw84b9tqQ1QyGk7w0mSRyndLqETAv0Hbx"
+      },
+      "products": [
+        {
+          "_id": "694f09241c508c5d5e31705f",
+          "name": "Bacon85640",
+          "amount": 179,
+          "price": 160,
+          "manufacturer": "Google",
+          "notes": "GhgPAwXWKz8JoDC3nNxYkhVtcaJItznAWcr37Ka2YPEaRBhdpttzGduRBfhSyWYTZ5xs4Iuj0bx2lp4tUz3E2IpBJD4wQof0aCz9EptsPjzpfGN5bDPuRvxi9B9KPwHNxjltUPWrXwdOb8uqK0a6B8hHB5vAxxdgbcSH9Un4nsffz04eQ0H7BpHytLVyeqzhIC9eJ88cR1ST4mihruOgAjFpVV2DuxjbLSOfQh0qI16aGNs9PlprjaKKOo",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 160,
+      "createdOn": "2025-12-26T22:16:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694f09241c508c5d5e31705d",
+          "products": [
+            {
+              "_id": "694f09241c508c5d5e31705f",
+              "name": "Bacon85640",
+              "amount": 179,
+              "price": 160,
+              "manufacturer": "Google",
+              "notes": "GhgPAwXWKz8JoDC3nNxYkhVtcaJItznAWcr37Ka2YPEaRBhdpttzGduRBfhSyWYTZ5xs4Iuj0bx2lp4tUz3E2IpBJD4wQof0aCz9EptsPjzpfGN5bDPuRvxi9B9KPwHNxjltUPWrXwdOb8uqK0a6B8hHB5vAxxdgbcSH9Un4nsffz04eQ0H7BpHytLVyeqzhIC9eJ88cR1ST4mihruOgAjFpVV2DuxjbLSOfQh0qI16aGNs9PlprjaKKOo",
+              "received": false
+            }
+          ],
+          "total_price": 160,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:16:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694f09241c508c5d5e317087"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

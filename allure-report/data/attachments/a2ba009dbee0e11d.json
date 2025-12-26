@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:15:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1881",
+    "etag": "W/\"759-mF2GZy5uC5GYYe8/C8/rhHaxXvU\"",
+    "keep-alive": "timeout=5, max=69",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694f09131c508c5d5e316993",
+        "email": "Garland_Buckridge48@hotmail.com",
+        "name": "Luella Ray",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 618,
+        "flat": 7229,
+        "phone": "+4090537634",
+        "createdOn": "2025-12-26T22:15:47.000Z",
+        "notes": "4azhGyIB8luxiekYp3pKrpzJOxEgUrpLrCqGHGG1VHYnfmvlZFdp0Cx81wx4WVafaTf44AuTsGwMR4zbdI8RmOubzBzneo2myF5RbEna3tGbDu2Vh6jMBD5AZCnSELWRQwwtEkaLrDVk2fHxqZbtasKQp7xkTPte5mdXXKMww3spXacAVXlLZcWDJ3JC7DusHYnQdVg08UxMM0tP2VVJsJ2AAjNhhhsC5HBwd0xgVdSfcTYufUKpSUSRnr"
+      },
+      "products": [
+        {
+          "_id": "694f09141c508c5d5e3169aa",
+          "name": "Ball75375",
+          "amount": 771,
+          "price": 87596,
+          "manufacturer": "Samsung",
+          "notes": "IZdrBRQ45BWb7hlGTQKAel423g8OoTIfNs7RdKKuveWWIPQn1CkbhdD7GHdlYoGM79KcNYka6hJTyD0F5tbnrrNPGhzI0f9GUjz07UzCZLaEKBz5k7b0XHFJgHwLSNeiuVic6ociZt1nJDWo4VNmfPGNqzkGd3Q5IMWcVn2Czq7lrGokXvwgxyIAs3x3VxfPihjUhH3bfIYUcP0mSR80GByExeYvmJ0GyEDSO2MScYPCpUIzdb1ZDIsdDH",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 87596,
+      "createdOn": "2025-12-26T22:15:48.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694f09131c508c5d5e316993",
+          "products": [
+            {
+              "_id": "694f09141c508c5d5e3169aa",
+              "name": "Ball75375",
+              "amount": 771,
+              "price": 87596,
+              "manufacturer": "Samsung",
+              "notes": "IZdrBRQ45BWb7hlGTQKAel423g8OoTIfNs7RdKKuveWWIPQn1CkbhdD7GHdlYoGM79KcNYka6hJTyD0F5tbnrrNPGhzI0f9GUjz07UzCZLaEKBz5k7b0XHFJgHwLSNeiuVic6ociZt1nJDWo4VNmfPGNqzkGd3Q5IMWcVn2Czq7lrGokXvwgxyIAs3x3VxfPihjUhH3bfIYUcP0mSR80GByExeYvmJ0GyEDSO2MScYPCpUIzdb1ZDIsdDH",
+              "received": false
+            }
+          ],
+          "total_price": 87596,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:15:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694f09141c508c5d5e3169c2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

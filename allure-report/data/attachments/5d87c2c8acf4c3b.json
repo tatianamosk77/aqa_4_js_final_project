@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:16:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "200",
+    "etag": "W/\"c8-O7dCcYLvguwTOwhzA48pil1cdgM\"",
+    "keep-alive": "timeout=5, max=67",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Soap86904",
+      "amount": 47,
+      "price": 15806,
+      "manufacturer": "Sony",
+      "createdOn": "2025-12-26T22:16:09.000Z",
+      "notes": "",
+      "_id": "694f09291c508c5d5e317306"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:16:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1878",
+    "etag": "W/\"756-nWTmBLwVHiwbuf5VDcnRcj9A+jg\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694f09211c508c5d5e316ed8",
+        "email": "Cleo.Tillman@gmail.com",
+        "name": "Clifton Velva",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 715,
+        "flat": 9185,
+        "phone": "+8452011611",
+        "createdOn": "2025-12-26T22:16:01.000Z",
+        "notes": "AFkxg9W3kRIuRo1214NqX3ueh7Aw7JjEf7Q5urOQEnhNPPdLoSPRrlxbHcsGn46trv9IuIkwmDk1CNwh1OEI020CsrmL1wQ8LVK9cpBstak1VNXYNdliCCiO0z70Bfo2H4GO8nuu2VvxR6cYd2EIBTuKAGviGYfrP4DeBskfqKAT3hw5JMeEl75jC1hAB5WkZItkm6HgGcldwZKeNLRQl5NZA3gkA3EAKDl9QZhx0w9J8DWx4sOME7GZyu"
+      },
+      "products": [
+        {
+          "_id": "694f09211c508c5d5e316edd",
+          "name": "Chicken11987",
+          "amount": 293,
+          "price": 94190,
+          "manufacturer": "Google",
+          "notes": "K9qRG9fx18bDXGJnW0ZFsLpGUdSjQRNtrLNMx8lRIQ8vmOYHZHFF3tmgk5OLiVT5WIFIvb5LYJTh0bQHt2EnGDR3y33ljW9y0TIaNcxJW9sP2ID7MbM6ZQ3Wc1zkba0nhDBYuOuYiQ3wiETkQUqMXhBa3OcwTPffNv2os3srGqy9ynjRnppqRWBnOAk6XRUqIMpwwKMiysnCqzJQyUELbwfbpaCujKyWmHvYvAVmQc9HVgMU1s7NUtUsPb",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 94190,
+      "createdOn": "2025-12-26T22:16:01.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694f09211c508c5d5e316ed8",
+          "products": [
+            {
+              "_id": "694f09211c508c5d5e316edd",
+              "name": "Chicken11987",
+              "amount": 293,
+              "price": 94190,
+              "manufacturer": "Google",
+              "notes": "K9qRG9fx18bDXGJnW0ZFsLpGUdSjQRNtrLNMx8lRIQ8vmOYHZHFF3tmgk5OLiVT5WIFIvb5LYJTh0bQHt2EnGDR3y33ljW9y0TIaNcxJW9sP2ID7MbM6ZQ3Wc1zkba0nhDBYuOuYiQ3wiETkQUqMXhBa3OcwTPffNv2os3srGqy9ynjRnppqRWBnOAk6XRUqIMpwwKMiysnCqzJQyUELbwfbpaCujKyWmHvYvAVmQc9HVgMU1s7NUtUsPb",
+              "received": false
+            }
+          ],
+          "total_price": 94190,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:16:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694f09211c508c5d5e316ef9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

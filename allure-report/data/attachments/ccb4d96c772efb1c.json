@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:15:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "538",
+    "etag": "W/\"21a-jmPvcYmhH70O8UW96nvxu9qXPRE\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Seth95@gmail.com",
+      "name": "Will Rozella",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 769,
+      "flat": 1973,
+      "phone": "+2297607559",
+      "createdOn": "2025-12-26T22:15:43.000Z",
+      "notes": "N3uswKVwXpDgEXeiGLcS27dfEVFGokLIUHTDtQozx4TYIroaIXB8rQ0cnEKUNl5Gm0OTuJNutk2M71hmawU7DXGvY1slX3XdnOIyBLNUQTBSKT2iRfdVEI6pL3dgHukhPvAY8geKDm44cnJMgcXq1bJrN7tfXnYWyu0meRAPB2w6tTmyKkIJNmD0QOUAGDGVXEm0CEI6EEFtQ8kZEQpnW2DMSd0UzRjpawjaA8ATHjFehpuOlUgZk4pisp",
+      "_id": "694f090f1c508c5d5e31688b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:15:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1867",
+    "etag": "W/\"74b-+MIE44bBwR4jZVMm73jWHXJZm5U\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694f091a1c508c5d5e316c51",
+      "status": "Draft",
+      "customer": {
+        "_id": "694f091a1c508c5d5e316c2a",
+        "email": "Gudrun_Kutch51@gmail.com",
+        "name": "Evans Emma",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 753,
+        "flat": 228,
+        "phone": "+2867620545",
+        "createdOn": "2025-12-26T22:15:54.000Z",
+        "notes": "Quuct48QwenmD4HXGFVM3cpm1MT5wBknArc9ahVIbziKT9W4MbaSrzL0jkwfSD68Ksl2e5fOXxowCBcE4nasHyK7iqTj7QIJj1DA4Ed0xUOXMXeKhjL3H5pluov7YEJ86nUtuPzdKeaT3kiamVygqyx9xrw1TIwmIXyQ7KT4T7LmeIF584aZeSsSiIMw0UkeUMB1cEAMLLuM2EupJ5IyBTHWiqLttwrIdExqO1DvhsZYvf0TldTyczDcsm"
+      },
+      "products": [
+        {
+          "_id": "694f091a1c508c5d5e316c31",
+          "name": "Ball13826",
+          "amount": 73,
+          "price": 90733,
+          "manufacturer": "Tesla",
+          "notes": "IoufqfXDNOX3zJVvdmZAiA8M2Ud5C4UHUcxNQDCNOtLq3vs2IHgi1jxiuku1qFjvwlvKuJziTIpXHMY8PdDHImutRfZBlvRFEWKXe7gS5w5lt0JcONzpg3bhn0xYy80Yau89mE8YVCqcQ5OQIVKwXt9aQgLhNFLDm9bOgEmHNeEQPxTH97wGEC1bpXJ9HHlBIc2Ri1meWvm5bZMPdWGr93pilcRfAdaogi6HfZhGSdM6zd1gVEWUUsu8sx",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 90733,
+      "createdOn": "2025-12-26T22:15:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694f091a1c508c5d5e316c2a",
+          "products": [
+            {
+              "_id": "694f091a1c508c5d5e316c31",
+              "name": "Ball13826",
+              "amount": 73,
+              "price": 90733,
+              "manufacturer": "Tesla",
+              "notes": "IoufqfXDNOX3zJVvdmZAiA8M2Ud5C4UHUcxNQDCNOtLq3vs2IHgi1jxiuku1qFjvwlvKuJziTIpXHMY8PdDHImutRfZBlvRFEWKXe7gS5w5lt0JcONzpg3bhn0xYy80Yau89mE8YVCqcQ5OQIVKwXt9aQgLhNFLDm9bOgEmHNeEQPxTH97wGEC1bpXJ9HHlBIc2Ri1meWvm5bZMPdWGr93pilcRfAdaogi6HfZhGSdM6zd1gVEWUUsu8sx",
+              "received": false
+            }
+          ],
+          "total_price": 90733,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:15:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

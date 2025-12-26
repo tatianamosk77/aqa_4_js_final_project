@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:15:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2713",
+    "etag": "W/\"a99-JUQHKqoDEAvZyKB5mJffTX9cDMs\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "694f090e1c508c5d5e316854",
+        "email": "Richard21@yahoo.com",
+        "name": "Bennett Destany",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 655,
+        "flat": 1309,
+        "phone": "+6237847612",
+        "createdOn": "2025-12-26T22:15:42.000Z",
+        "notes": "Joljy7EWIgySYZMicbjShpMYckkUkB9CpHY3o13pqPuLI8kQwVIwywS7z7LOdVqn7jZeoLS5Xs2OjvVTNy8Oy7hNCuOKVchuG7FZgZnN9GZggfgT8X4cugqPgLInvw2ciRuWFZpTH6xLpOEBOS4VSw7mB8ltrGSiKL4rcbKlEhiVsUVwxty02JI20q1NUNsF4CUpF59ypkDTB0Wt80ZC0OWzl7FZrMuYTofZ2hFtKgsrDNu1kIYt8lMIJS"
+      },
+      {
+        "_id": "694f06b81c508c5d5e311d91",
+        "email": "Libby90@yahoo.com",
+        "name": "Rachel Raynor",
+        "country": "Canada",
+        "city": "Wildermanberg",
+        "street": "Vicarage Close 3",
+        "house": 804,
+        "flat": 9470,
+        "phone": "+859460779162059",
+        "createdOn": "2025-12-26T22:05:44.000Z",
+        "notes": "c9sYQXNvpDBSIPzEFSF79weItE7wPg"
+      },
+      {
+        "_id": "694f06b31c508c5d5e311a8c",
+        "email": "Jerry.Muller@gmail.com",
+        "name": "Mabel Morissette",
+        "country": "Canada",
+        "city": "Eastvale",
+        "street": "Schroeder Motorway 86",
+        "house": 502,
+        "flat": 5572,
+        "phone": "+383403476864343",
+        "createdOn": "2025-12-26T22:05:39.000Z",
+        "notes": "uU36uKRlzWurvED3Uh8BoKCtJtMFEa"
+      },
+      {
+        "_id": "694f06ab1c508c5d5e3116ef",
+        "email": "Flossie_Price@hotmail.com",
+        "name": "Lavon Denesik",
+        "country": "Canada",
+        "city": "Nampa",
+        "street": "Schuyler Track 25",
+        "house": 498,
+        "flat": 8143,
+        "phone": "+577880251273687",
+        "createdOn": "2025-12-26T22:05:31.000Z",
+        "notes": "O2McxFumoz2crBvrIvLLPgWpyswWdi"
+      },
+      {
+        "_id": "694f06ab1c508c5d5e3116fc",
+        "email": "Zachariah.Spinka@gmail.com",
+        "name": "Deanna Greenfelder",
+        "country": "Canada",
+        "city": "Harveystead",
+        "street": "Wunsch Grove 60",
+        "house": 674,
+        "flat": 2659,
+        "phone": "+274258220143078",
+        "createdOn": "2025-12-26T22:05:31.000Z",
+        "notes": "koGiVHlf3esWfReWVbEizhU3EnPiPU"
+      },
+      {
+        "_id": "694f06a51c508c5d5e31145e",
+        "email": "Larissa.Hodkiewicz9@gmail.com",
+        "name": "Zoila White",
+        "country": "Canada",
+        "city": "Lake Lori",
+        "street": "S Market Street 98",
+        "house": 862,
+        "flat": 6671,
+        "phone": "+653451708426688",
+        "createdOn": "2025-12-26T22:05:25.000Z",
+        "notes": "KbeCo304V3wX3VzULA33z3XVNSansi"
+      },
+      {
+        "_id": "694ef7f31c508c5d5e30cded",
+        "email": "Minnie_Jakubowski84@hotmail.com",
+        "name": "Audrey Sauer",
+        "country": "Canada",
+        "city": "East Tatyanaboro",
+        "street": "Ahmed Ridge 79",
+        "house": 222,
+        "flat": 716,
+        "phone": "+690692205284390",
+        "createdOn": "2025-12-26T21:02:43.000Z",
+        "notes": "U1E60EK3q0yGg4Nls7a0MF90qsYZ3n"
+      },
+      {
+        "_id": "694ef7ee1c508c5d5e30cbd3",
+        "email": "Vito.Von15@hotmail.com",
+        "name": "Aiden Bruen",
+        "country": "Canada",
+        "city": "North Delfina",
+        "street": "Ines Grove 63",
+        "house": 161,
+        "flat": 1562,
+        "phone": "+373326630572722",
+        "createdOn": "2025-12-26T21:02:38.000Z",
+        "notes": "jnjDTvKXaGjO88Bjn9wCArANrVxfVE"
+      }
+    ],
+    "total": 8,
+    "page": 1,
+    "limit": 10,
+    "search": "Canada",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

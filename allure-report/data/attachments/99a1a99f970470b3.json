@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:15:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-hPP4vV6kNSetrBR3hWTIfH2ubW0\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Vicente72@hotmail.com",
+      "name": "Presley Jon",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 102,
+      "flat": 2159,
+      "phone": "+4835248456",
+      "createdOn": "2025-12-26T22:15:42.000Z",
+      "notes": "afb6dgZsHV9AopJ1LWvqUQRy2rcnvP2RBa9MN2FIXEvwA95UQ942sfJnjjSeGfMF950QLqrIAUJKpSPRmtuZXZTvWngXc3jiXmgvTlpPVIXDrtlO7CeGGUnqoTzNjkRSM0BN5Yb6tEJ1EKGnvBHz168Y0zTxQzDddgb1bvgyftYeGhyQ1lCZQAgc180N3kTBJP32XXz5xW2dxbKzkRgawDfNoMdzrmoiyKScnMWIurokHClxzwClBubxrJ",
+      "_id": "694f090e1c508c5d5e31686f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

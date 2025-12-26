@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:15:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-0DKFmgLvdocbeDguff22Irh0aMs\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ken_Harvey@gmail.com",
+      "name": "Osborne Randi",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 398,
+      "flat": 2562,
+      "phone": "+5654953246",
+      "createdOn": "2025-12-26T22:15:41.000Z",
+      "notes": "2TJpQPQp62iywfZKXrFPGACVi0yHfN6XMKiiB3jIVsdC4AgUk14LHOye2gymRNtmuJn2euBftEFzNgZy1o0vG35AMNqNNWu5lpNc39jiMmwn3oMVA2ZD8dKI1QWcPkwwPPOAFLOyt6jDSmG6RGYhk5deGcqglfr5YYfy1lTMp4dRWR1tJgmKghm3MqlDosjmxBioLAKvPp1OOhUgo0IbfWDvmWbgYQhRzptT2aUbsb4uoujx2Pun5YTJk1",
+      "_id": "694f090d1c508c5d5e31681c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

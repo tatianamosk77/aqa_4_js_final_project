@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:15:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "539",
+    "etag": "W/\"21b-IGnqidC+ZRYjiKYBxjRkWOJ0PeE\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Geo79@yahoo.com",
+      "name": "Katrine Davin",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 809,
+      "flat": 9203,
+      "phone": "+4244776303",
+      "createdOn": "2025-12-26T22:15:45.000Z",
+      "notes": "A9VrGutsD7CKrAH10I631oOwD0quBHHyc6CdjS5QCOVuuGxideKDNnj2r1lC1zbGyqKA56lpKuRp9lWAJHC3URLH27mSiZxv3taqSUj7JqztZqF55hcKQk6AxvpNFkjNPHqZyBjkTfakFA1S9ZXea4plbGwL54QMiJXNPmJPEgxGGW8OoDegDaXrTgjDpUCtZk6gW5nyn5hY42X4pHzcJEaMLEB8mzEmt1qT4qGvRGnSb8l1D39E511DAp",
+      "_id": "694f09111c508c5d5e3168d5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

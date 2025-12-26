@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:15:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "539",
+    "etag": "W/\"21b-KbBBvHT6H2HzXb8sEWzrB+cIM2M\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Collin_Crona@hotmail.com",
+      "name": "Jana Dave",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 19,
+      "flat": 5643,
+      "phone": "+8888703536",
+      "createdOn": "2025-12-26T22:15:58.000Z",
+      "notes": "QOlhNmnaJEpMZhpPNv7J5pVHlePZdnBbLBhiRg0oJXeqZK5jRMxRhfYoC54p8hsDzbsBAqdmcMZeO54p2DUfY20AkWCUkWv7iDKRdBjUOSMM5V63RBQmCxzx45ptUJzLrXoaDVg6HZ5DXwVSCYBPi9qPmcOdMIRXsgaqumkmLs6sFYYnoKeDZHrmg7CUuM4bfkFhBKytY6f939O2AMgcfuyKCnQX2D2tseIu9S4VE8BAM06qGTnqBYtMTu",
+      "_id": "694f091e1c508c5d5e316d9a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

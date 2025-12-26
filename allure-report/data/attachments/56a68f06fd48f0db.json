@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:15:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-99GeuKduY/UrWloEPnOtMaXW5Qs\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ethan38@hotmail.com",
+      "name": "Garrick Nicholaus",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 776,
+      "flat": 1,
+      "phone": "+6600807205",
+      "createdOn": "2025-12-26T22:15:34.000Z",
+      "notes": "HRcCTzaK6NxnFcimU8AvZzNeYIHIB1PwtX5vJvsB9gX6er6DLcKY9me0Crgqe3CLDOZsiQJva6b9PvcGRJiOva1VV8ggFt9RanErur8qHv8Oa0HkAWNK5aOVAByD6fyNjdMogwC2yex5i4kJpMBCJA4H8FOYRamg21UPVadHtY9WESadtUhiUHkPPbxIUmF76hSBeNVGvD1BZSNs6i9rjEN9PjP9ggEiZRxzPDjPl5QMNpkEhzURX71jJV",
+      "_id": "694f09061c508c5d5e316691"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

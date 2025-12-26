@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:15:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "677",
+    "etag": "W/\"2a5-v16ePdqqQtKp7VpTx/tFoUIOZ1U\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "694f090d1c508c5d5e316835",
+        "email": "Deonte88@yahoo.com",
+        "name": "Chauncey Charlene",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 356,
+        "flat": 3035,
+        "phone": "+2377752127",
+        "createdOn": "2025-12-26T22:15:41.000Z",
+        "notes": "jd7MV241y1rY0eMMl6kYGsLFRmrodeV5Kb19tc0T59vJbc3cy86Kb9ou245Oaonoxmjee4DvW0J6yJD9CgcFBluLV7PyonQ7L82lRbo5TMs2obkPRwSxaiLFOLACw0xjfmcb4xdODJa0QZuOFTjVGebI79497C7Xl3Mo6fnW6maJNRJTfrOonGF5iu6zEiMIm6bNCwxDZkmWZrST5CYEDElLBChrSakoZKxqtkBuJ6fkWYBOUaQ8ZGN40X"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Deonte88@yahoo.com",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

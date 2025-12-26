@@ -1,0 +1,155 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:15:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4954",
+    "etag": "W/\"135a-lyifLhHksDEqXtFYEBU8snfz798\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694f09171c508c5d5e316afb",
+        "email": "Austin.Hartmann60@hotmail.com",
+        "name": "Dylan Vivienne",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 59,
+        "flat": 5680,
+        "phone": "+6378082133",
+        "createdOn": "2025-12-26T22:15:51.000Z",
+        "notes": "kmYakf9KWuq6qhbzh8jzNMEMhINAgBZ622c7q7ZHwvvNHCso6TlUexu9ewxe8mUB23ZllZNj8gPvbMygmR0mtQ9IvyE1g8q2M2IdsDLRsX03dYbUuwitFwfgbxZ85AEWuodZe6Dy8ab1r5FOWdLDrWqPZa5UwODmm3e5gqDC9pBL96oe5BpPeYNE2q8hQS7kuvmRtwppXEhZI6iYBztYQoM9wGSymTZ3dvhp30uJAu83jNEMsFEUY9TeIR"
+      },
+      "products": [
+        {
+          "_id": "694f09171c508c5d5e316b01",
+          "name": "Computer87544",
+          "amount": 144,
+          "price": 20937,
+          "manufacturer": "Tesla",
+          "notes": "ZEoSq7jG0tbLe869nvzP1VjI7hFUlh2Y5eZ08WEYqhpbOC2wMmRoMFo95GLhLA5A85XIgEU0J4rWTNVoX37FOVmLvG0biXyJPdIOjmwgGFSIzwLF0hfUPtkdqTGQgqb7CTFZVdbKcX017TS05Z4fIEGrZrzgll9jrBq8PzeQE5NWdAUFRDT0zVTOme3oQCMLU4A2Wj8wSk8kz9VcN2uzXAeAVm3JpgRmQM7F9AgXj6l6KbRMCKvKGlifLT",
+          "received": false
+        },
+        {
+          "_id": "694f09181c508c5d5e316b30",
+          "name": "Tuna42563",
+          "amount": 943,
+          "price": 435,
+          "manufacturer": "Amazon",
+          "notes": "KXlD32Eo6P6Si1FwsUIkaoCMzQfKxhWsISvFZEUef3LE4p3R6T9dmoz09UgWA0CGERxva5qA9HRmzo7M3f5gJEnG4pOnBuSysgP1cgKRtI668CkUfe3Qq4l1cUYxjUotgeRqM3GHjD3cwzjOmZbiWd5PfYPEfJT2PKfwV7d2siX4MrWy505zk3OIIb1fkjlXTXMTj2x7SIAzBSZf68yLsRwNV9EFPp7Q8YIdAUbtdvoPV3GNwG7rcZaOfs",
+          "received": false
+        },
+        {
+          "_id": "694f09181c508c5d5e316b2e",
+          "name": "Chair57166",
+          "amount": 633,
+          "price": 8961,
+          "manufacturer": "Tesla",
+          "notes": "AgEeIwPsjXotRrmbCHe6VjHQvMo9Mi1MPt5fK0H3hVpGgO7MY2Aqj9EnMuzMb59bh0tgnNNpoR9VOI82L0CYXYHbT3ZUbKZjfCEc2QAWKaT9HXxv2Ae5wgM7wDGPfznUDLVAXmfxey4qZigkt5WirWJnqRsi2neP8ajuygadC47rdJIafidGRxVfyp9LMFIzwbapyNYa0r1KZWBe2zU7nLr1rO7aA420XiNflzmYJ0smen8czoJmZjThph",
+          "received": false
+        },
+        {
+          "_id": "694f09181c508c5d5e316b2c",
+          "name": "Shirt49600",
+          "amount": 798,
+          "price": 88038,
+          "manufacturer": "Tesla",
+          "notes": "Vfc7ZxDfhKR3XwG91wdg5zjtDQyuC2i1bCS1Gmrrn566R83Go85Q4nCSzd49yL5hA12leA3QboDyiCbQxNl7rryjrrmedcAeKSfNlx8waHlqgIEZjgELxpsEzd5tIAsh78OwrQK7U9UTnHqPogO3R3iwxHg6CgmFIRHi8o9uP43J0faTok1du2kNzlRwdGryCJeRnRQQoRmiE1TlgwGsjt4DCJLBHFcEkTl1a5AAp30ITSYh3OQDTgF5ix",
+          "received": false
+        },
+        {
+          "_id": "694f09181c508c5d5e316b32",
+          "name": "Shoes97497",
+          "amount": 933,
+          "price": 24509,
+          "manufacturer": "Xiaomi",
+          "notes": "jgaFQVFnvmZ0HkHAEpxV0srsQeWxhVmIAj0Ecm7G3ZjklwJrmY0CVNGnAKVYG1o1WbC0eTL8QAFf13IlkQ1Qa9nULeS0QCXJuQF1YTIPUbVYBST0rbIHczcXC8ENISihVCxawUkTQIbf2IbtsMav7CK39nc2SkxPDtHgiWWGeXXgueNmOR8kg4GftOnkEWoq4r7k4pjMDeHVQy22fh0Y7Fkp59sgYBW78jVyDwwKhk9cIgGFRpaF2luAfJ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 142880,
+      "createdOn": "2025-12-26T22:15:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694f09171c508c5d5e316afb",
+          "products": [
+            {
+              "_id": "694f09171c508c5d5e316b01",
+              "name": "Computer87544",
+              "amount": 144,
+              "price": 20937,
+              "manufacturer": "Tesla",
+              "notes": "ZEoSq7jG0tbLe869nvzP1VjI7hFUlh2Y5eZ08WEYqhpbOC2wMmRoMFo95GLhLA5A85XIgEU0J4rWTNVoX37FOVmLvG0biXyJPdIOjmwgGFSIzwLF0hfUPtkdqTGQgqb7CTFZVdbKcX017TS05Z4fIEGrZrzgll9jrBq8PzeQE5NWdAUFRDT0zVTOme3oQCMLU4A2Wj8wSk8kz9VcN2uzXAeAVm3JpgRmQM7F9AgXj6l6KbRMCKvKGlifLT",
+              "received": false
+            },
+            {
+              "_id": "694f09181c508c5d5e316b30",
+              "name": "Tuna42563",
+              "amount": 943,
+              "price": 435,
+              "manufacturer": "Amazon",
+              "notes": "KXlD32Eo6P6Si1FwsUIkaoCMzQfKxhWsISvFZEUef3LE4p3R6T9dmoz09UgWA0CGERxva5qA9HRmzo7M3f5gJEnG4pOnBuSysgP1cgKRtI668CkUfe3Qq4l1cUYxjUotgeRqM3GHjD3cwzjOmZbiWd5PfYPEfJT2PKfwV7d2siX4MrWy505zk3OIIb1fkjlXTXMTj2x7SIAzBSZf68yLsRwNV9EFPp7Q8YIdAUbtdvoPV3GNwG7rcZaOfs",
+              "received": false
+            },
+            {
+              "_id": "694f09181c508c5d5e316b2e",
+              "name": "Chair57166",
+              "amount": 633,
+              "price": 8961,
+              "manufacturer": "Tesla",
+              "notes": "AgEeIwPsjXotRrmbCHe6VjHQvMo9Mi1MPt5fK0H3hVpGgO7MY2Aqj9EnMuzMb59bh0tgnNNpoR9VOI82L0CYXYHbT3ZUbKZjfCEc2QAWKaT9HXxv2Ae5wgM7wDGPfznUDLVAXmfxey4qZigkt5WirWJnqRsi2neP8ajuygadC47rdJIafidGRxVfyp9LMFIzwbapyNYa0r1KZWBe2zU7nLr1rO7aA420XiNflzmYJ0smen8czoJmZjThph",
+              "received": false
+            },
+            {
+              "_id": "694f09181c508c5d5e316b2c",
+              "name": "Shirt49600",
+              "amount": 798,
+              "price": 88038,
+              "manufacturer": "Tesla",
+              "notes": "Vfc7ZxDfhKR3XwG91wdg5zjtDQyuC2i1bCS1Gmrrn566R83Go85Q4nCSzd49yL5hA12leA3QboDyiCbQxNl7rryjrrmedcAeKSfNlx8waHlqgIEZjgELxpsEzd5tIAsh78OwrQK7U9UTnHqPogO3R3iwxHg6CgmFIRHi8o9uP43J0faTok1du2kNzlRwdGryCJeRnRQQoRmiE1TlgwGsjt4DCJLBHFcEkTl1a5AAp30ITSYh3OQDTgF5ix",
+              "received": false
+            },
+            {
+              "_id": "694f09181c508c5d5e316b32",
+              "name": "Shoes97497",
+              "amount": 933,
+              "price": 24509,
+              "manufacturer": "Xiaomi",
+              "notes": "jgaFQVFnvmZ0HkHAEpxV0srsQeWxhVmIAj0Ecm7G3ZjklwJrmY0CVNGnAKVYG1o1WbC0eTL8QAFf13IlkQ1Qa9nULeS0QCXJuQF1YTIPUbVYBST0rbIHczcXC8ENISihVCxawUkTQIbf2IbtsMav7CK39nc2SkxPDtHgiWWGeXXgueNmOR8kg4GftOnkEWoq4r7k4pjMDeHVQy22fh0Y7Fkp59sgYBW78jVyDwwKhk9cIgGFRpaF2luAfJ",
+              "received": false
+            }
+          ],
+          "total_price": 142880,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:15:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694f09181c508c5d5e316b66"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

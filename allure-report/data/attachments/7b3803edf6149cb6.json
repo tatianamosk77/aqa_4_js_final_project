@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:15:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-ueJ7bsMSSkg9IZuYBY76ZKlO4M8\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Lionel_Tromp@gmail.com",
+      "name": "Maxie Rose",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 687,
+      "flat": 7024,
+      "phone": "+7428085820",
+      "createdOn": "2025-12-26T22:15:43.000Z",
+      "notes": "ARwPI4yYUbSLmlKL6vDu13TpFnSxB8btpuKyOrJ9roQFqvHpb0bmWLSK6dN8lxS3rimAhv8oUPHjmruHsLYHsAo68w7uasFvxk1HAIvt5fYaWY6kMZIceVbV0TVbt69aJLdZySKHnh5z3lVrRA7zVq25SRa9ZLUPbrMTnuK0yqKcyNtFwtjErXVZlqSiSKGpZVtCVxLteGjd81Vr7OgCX7dlrlNnseR6riPrvzTKyrJei7w3AmrGn8ILAV",
+      "_id": "694f090f1c508c5d5e31687d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

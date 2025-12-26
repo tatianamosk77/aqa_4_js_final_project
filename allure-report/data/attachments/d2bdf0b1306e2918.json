@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:15:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "300",
+    "etag": "W/\"12c-oUFFVa7EtuG8Xeo47LEtLlRkjpk\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Beulah.Johnston60@gmail.com",
+      "name": "Rashawn Joanie",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 50,
+      "flat": 1864,
+      "phone": "+7276495770",
+      "createdOn": "2025-12-26T22:15:35.000Z",
+      "notes": "",
+      "_id": "694f09071c508c5d5e3166f2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
