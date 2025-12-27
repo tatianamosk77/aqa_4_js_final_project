@@ -1,18 +1,16 @@
-import { ROUTES } from "config/uiConfig";
 import { expect, test } from "fixtures/index";
 import { TAGS } from "data/tags";
 
-test.describe("Orders navigation", () => {
+test.describe("[UI] [Orders] [Navigation]", () => {
   test.describe("From Home", () => {
-    test.beforeEach(async ({ page, headerPage }) => {
-      await page.goto(ROUTES.HOME);
-      await expect(headerPage.uniqueElement).toBeVisible();
+    test.beforeEach(async ({ homeUIService }) => {
+      await homeUIService.openAsLoggedInUser();
     });
 
-    test("Orders page can be accessed through the navigation menu",
+    test("Should open Orders page via navigation menu",
       { tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDERS] },
-      async ({ page, headerPage, ordersListUIService }) => {
-        await headerPage.clickModule("Orders");
+      async ({ page, ordersListUIService, headerPage }) => {
+        await ordersListUIService.openOrdersList();
         await ordersListUIService.verifyOrdersListLoaded();
 
         await expect(page).toHaveURL(/#\/orders$/);
@@ -20,7 +18,7 @@ test.describe("Orders navigation", () => {
       }
     );
 
-    test("Orders page can be opened via Home module button",
+    test("Should open Orders page via Home module button",
       { tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDERS] },
       async ({ page, homePage, headerPage, ordersListUIService }) => {
         await homePage.clickOnViewModule("Orders");
@@ -39,7 +37,7 @@ test.describe("Orders navigation", () => {
       await expect(headerPage.uniqueElement).toBeVisible();
     });
 
-    test("Orders page is opened by URL and loaded",
+    test("Should open Orders page by direct URL",
       { tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDERS] },
       async ({ page, headerPage }) => {
         await expect(page).toHaveURL(/#\/orders$/);
@@ -47,7 +45,7 @@ test.describe("Orders navigation", () => {
       }
     );
 
-    test("Active menu item is highlighted on Orders page",
+    test("Should highlight active Orders menu item",
       { tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDERS] },
       async ({ headerPage }) => {
         await expect(headerPage.moduleButtons["Orders"]).toHaveClass(/active/);
@@ -57,4 +55,4 @@ test.describe("Orders navigation", () => {
       }
     );
   });
-}); 
+});

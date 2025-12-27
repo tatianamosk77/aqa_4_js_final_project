@@ -22,8 +22,8 @@ test.describe("[Sales Portal] [Customers] [E2E Add]", async () => {
     }
   );
 
-  test.afterEach(async ({ customersApiService }) => {
-    if (id) await customersApiService.delete(token, id);
-    id = "";
+    test.afterEach(async ({ customersApiService }) => {
+      if (id) await customersApiService.delete(token, id);
+      id = "";
   });
 });

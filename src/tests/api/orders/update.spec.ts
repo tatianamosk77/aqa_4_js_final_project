@@ -26,7 +26,6 @@ test.describe("[API] [Sales Portal] [Orders] [Update]", () => {
     initialCustomerId = null;
     initialProductIds = [];
 
-    // Явное использование для обхода ESLint
     void initialCustomerId;
     void initialProductIds;
 

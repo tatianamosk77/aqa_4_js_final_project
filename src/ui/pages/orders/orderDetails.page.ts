@@ -3,7 +3,7 @@ import { SalesPortalPage } from "../sales-portal.page";
 
 export class OrderDetailsPage extends SalesPortalPage {
   readonly orderDetailsHeader = this.page.locator("#order-details-header");
-  readonly backToOrdersLink = this.orderDetailsHeader.locator("a");
+  readonly backToOrdersLink = this.orderDetailsHeader.locator("a[href='#/orders']");
   readonly title = this.orderDetailsHeader.locator("h2");
   readonly orderStatusBar = this.orderDetailsHeader.locator("#order-status-bar-container");
   readonly orderNumber = this.orderDetailsHeader.filter({ hasText: "Order number" });
@@ -15,14 +15,18 @@ export class OrderDetailsPage extends SalesPortalPage {
   readonly clickToAssingManager = this.assignedManagerContainer.locator("span");
   readonly assignedManagerLink = this.orderDetailsHeader.locator("#assigned-manager-link");
   readonly editManagerButton = this.assignedManagerContainer.filter({ hasText: "Edit" });
-  readonly removeManagerButton = this.assignedManagerContainer.filter({ hasText: "Remove" });
+  readonly removeManagerButton = this.assignedManagerContainer.locator("button.text-danger");
   readonly cancelOrderButton = this.orderDetailsHeader.locator("#cancel-order");
+  readonly clicktoCancelOrder = this.page.getByRole("button", { name: /yes,\s*cancel/i });
   readonly refreshOrderButton = this.orderDetailsHeader.locator("#refresh-order");
   readonly orderStatus = this.orderStatusBar.filter({ hasText: "Order Status" }).locator("..");
+  readonly orderHistoryTab = this.page.getByRole("tab", { name: /order history/i });
+
   readonly totalPrice = this.orderStatusBar.filter({ hasText: "Total Price" }).locator("..");
   readonly delivery = this.orderStatusBar.filter({ hasText: "Delivery" }).locator("..");
   readonly createdOn = this.orderStatusBar.filter({ hasText: "Created On" }).locator("..");
   readonly processOrderButton = this.orderDetailsHeader.locator("#process-order");
+  readonly reopenOrderButton = this.page.getByRole("button", { name: /reopen/i });
 
   readonly uniqueElement = this.title;
 
@@ -78,5 +82,10 @@ export class OrderDetailsPage extends SalesPortalPage {
   @logStep("Back to orders list")
   async backToOrdersList() {
     return await this.backToOrdersLink.click();
+  }
+
+  @logStep("Reopen order button")
+  async clickReopenOrder() {
+    return await this.reopenOrderButton.click();
   }
 }
