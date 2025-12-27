@@ -4,10 +4,10 @@ import { generateProductData } from "data/salesPortal/products/generateProductDa
 import _ from "lodash";
 import { TAGS } from "data/tags";
 
-test.describe.skip("[Sales Portal] [Products]", () => {
+test.describe("[Sales Portal] [Products]", () => {
   let id = "";
   let token = "";
-  test.skip(
+  test(
     "Product Details",
     {
       tag: [TAGS.REGRESSION, TAGS.PRODUCTS, TAGS.UI],

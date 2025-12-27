@@ -7,7 +7,7 @@ import { AddNewProductPage } from "ui/pages/products/addNewProduct.page";
 import { ProductsListPage } from "ui/pages/products/productsList.page";
 import { TAGS } from "data/tags";
 
-test.describe.skip("[Sales Portal] [Products]", async () => {
+test.describe("[Sales Portal] [Products]", async () => {
   let id = "";
   let token = "";
 
@@ -31,7 +31,7 @@ test.describe.skip("[Sales Portal] [Products]", async () => {
     id = "";
   });
 
-  test.skip(
+  test(
     "Add new product",
     {
       tag: [TAGS.SMOKE, TAGS.REGRESSION, TAGS.PRODUCTS, TAGS.UI],
@@ -57,7 +57,7 @@ test.describe.skip("[Sales Portal] [Products]", async () => {
     }
   );
 
-  test.skip("Add new product OLD", async ({ page }) => {
+  test("Add new product OLD", async ({ page }) => {
     const homePage = new HomePage(page);
     const productsListPage = new ProductsListPage(page);
     const addNewProductPage = new AddNewProductPage(page);

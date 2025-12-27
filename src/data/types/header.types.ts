@@ -1,1 +1,1 @@
-export type HeaderItem = 'Home' | 'Orders' | 'Customers' | 'Products' | 'Managers';
+export type HeaderItem = "Home" | "Orders" | "Customers" | "Products" | "Managers";

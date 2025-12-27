@@ -14,11 +14,11 @@ test("Login as Admin via API", async ({ page, loginApiService }) => {
     {
       name: "Authorization",
       value: token,
-      domain: "anatoly-karpovich.github.io",
+      domain: process.env.ENV === "local" ? "localhost" : "anatoly-karpovich.github.io",
       path: "/",
       expires: -1,
       httpOnly: false,
-      secure: true,
+      secure: false,
       sameSite: "Lax",
     },
   ]);

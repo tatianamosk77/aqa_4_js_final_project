@@ -4,7 +4,7 @@ import _ from "lodash";
 import { convertToFullDateAndTime } from "utils/date.utils";
 import { TAGS } from "data/tags";
 
-test.describe.skip("[Sales Portal] [Products] [E2E Update]", async () => {
+test.describe("[Sales Portal] [Products] [E2E Update]", async () => {
   let id = "";
   let token = "";
 

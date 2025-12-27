@@ -1,5 +1,5 @@
-import { test as base } from '@playwright/test';
-import { ApiMock } from '../mock/apiMock'; 
+import { test as base } from "@playwright/test";
+import { ApiMock } from "../mock/apiMock";
 
 export type MockFixture = {
   mock: ApiMock;
