@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:15:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "668",
+    "etag": "W/\"29c-KMXhxnWOEnHSlUFh0F48fOUGGDI\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "69505a701c508c5d5e36f765",
+        "email": "Paul17@hotmail.com",
+        "name": "Brennan Jada",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 485,
+        "flat": 7368,
+        "phone": "+9573966200",
+        "createdOn": "2025-12-27T22:15:12.000Z",
+        "notes": "3WLzyDnmli5tsYLAbkkazODTBDzpPU5gGAhxAjLN9YcgyEYSI2ZeYkn650QMQ3mqGOwmTxJvL4AVKSBM9OKJCOEMAW9mo5Ufx4aE1IqmdQ4s1ThqB8xOzAnjzIiE2rs3XQBmz31IxOTnIVfwIi2qX73hOVgp36zrNdzzKPf9r5Wa2CAiKu4WBaCMXEYdNTmsCqDAOgnM8IB4gWgjTHZ8WPD1HPOHLLGa9itfWokBNlInSXlc9AEyhQ9RWy"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Paul17@hotmail.com",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

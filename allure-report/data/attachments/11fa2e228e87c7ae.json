@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:14:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-y3hfeI3f+aKemVIzB7sMHG/Ceu8\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Marcelo90@hotmail.com",
+      "name": "Test Customer",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 838,
+      "flat": 4614,
+      "phone": "+1247637283",
+      "createdOn": "2025-12-27T22:14:58.000Z",
+      "notes": "2gRQyVxuFDpLErj3Q3q0WJwisv4mSoa5cyMTc0xh1jHQwJw39Y9g1H5SHvinHe6kI5BpDSmND5J9fPNFy97XWunnWM14UAxF8aqpTM7j93HpYo5VOyJN6Tv7hWqiDaTnJWKlAMaMrB4ybTTH2LcUHCIYqKi3ewdvBwdKqvTsUnXuIMjysy5oJNySrvX4RishWy4ek8MhzaLLylR4C93zZaBFtAPC7sX4GgoJStCUBDg3ntLKO0W6zjrbkf",
+      "_id": "69505a621c508c5d5e36f5a3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

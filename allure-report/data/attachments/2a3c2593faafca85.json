@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:15:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-yRbLzShsd9H9exaO6yrm5QUN1Io\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Rosalia_Wiegand@hotmail.com",
+      "name": "Matilde Amari",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 545,
+      "flat": 3622,
+      "phone": "+8561976632",
+      "createdOn": "2025-12-27T22:15:35.000Z",
+      "notes": "Xj0kcm4JpEA4Ua8bWz9PVUoPc30Oplh8kF00Unwbp3jvJYVONcSzoqXMf9tQAvFzwtfYCKXxQuXcFzmUxPUXiE9f9iaviheQmSgVPaADnHYvn0EwHZJSNqZvdsVCEhetRSkIC472Du2W0SomIYSp05AQzQQWnypDL4HPQObiLgSFvHk1SqQW0NPP1pxAABZphH5hZhiKl54ZIQUPCim1FKSNEn9pfMZV4BqDn9nOFMGAccU3RVqZxk8I1k",
+      "_id": "69505a871c508c5d5e36fb68"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

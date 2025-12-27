@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:15:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "296",
+    "etag": "W/\"128-ju8z7DSTPC6ckAzV5Ty+tMMNjkA\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Amos_Bode76@gmail.com",
+      "name": "Eleazar Jannie",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 843,
+      "flat": 4658,
+      "phone": "+6925260767",
+      "createdOn": "2025-12-27T22:15:02.000Z",
+      "notes": "",
+      "_id": "69505a661c508c5d5e36f627"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:15:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-JMWep1i4V/AlLdy7oVFVA+kzj2Q\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Karli48@hotmail.com",
+      "name": "Rocio Wilfred",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 17,
+      "flat": 9679,
+      "phone": "+0385131604",
+      "createdOn": "2025-12-27T22:15:01.000Z",
+      "notes": "y0cNNzhJf4YaFPRK892wlYNEpALChGPY9NEDFLQ7p4NZMxOozjGTUAt3HsSEu21xaxavJmqbeTEACpDLb6e3ABFidtbJm20zCdR9G8onXDG9XaIj0wAGwdWO8gWdJeoOhXZ28ZOoFf7L2EoaE8e22f2NLddRjuq9LACY0hapEgBsSmBbyH3QE8E7CiykztAbURTHGJKzg3qqbgdKPN9MxbAxvIUFpo3Ah9qkjFKbaSipUv24W4r8Twrgs8",
+      "_id": "69505a651c508c5d5e36f623"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

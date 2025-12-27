@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:15:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1879",
+    "etag": "W/\"757-KcXgN7hb63oS8Fv14gQntf2zH2c\"",
+    "keep-alive": "timeout=5, max=70",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69505a7d1c508c5d5e36f912",
+        "email": "Verner_Goodwin@gmail.com",
+        "name": "Creola Wyman",
+        "country": "France",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 316,
+        "flat": 9994,
+        "phone": "+1048907417",
+        "createdOn": "2025-12-27T22:15:25.000Z",
+        "notes": "AXtWCn1JdvBqRxytOVVdcLlQX5ym6L3ICtqRPYFG0OjUkKN9xLM3Ug8P66Ic5kfHgNbmIn53Nt0V08XcDHN7RUkNqGr6dULvqIKab23L9MTLkLUTNZErl3nzqgqGkr9l3twaIA3tz4HpTutZ23whrAUstApQLTfJwljYeCR3XmOatQaCPYTvgdjCYZDGgG7eA3Io5Sn9wLgATyxX5iRIi05DDUxAXIZ3UicVD5HhDyucCHOdUwaDFXW6rH"
+      },
+      "products": [
+        {
+          "_id": "69505a7f1c508c5d5e36f948",
+          "name": "Towels80230",
+          "amount": 258,
+          "price": 19858,
+          "manufacturer": "Samsung",
+          "notes": "qLSoW5D9o5AX0Jnkd6WGF7dNpFaaXOofpbwadtzQhE89eoDtH6zyLsBO00zLvvImMtyJkXKjuI9Y5KiVG1BCrPsN5GiMftMPYOEs3EasVAg95ctDHJjQK1IVGbyw2OqHIJRN9drp43rqF2Mokrcc9KFN2wCW3y78sxIOpQyjLoQX2vidxqkCAoezej2GfWVMgzppH00uxi5CDUyxcXPWwsoWz2IQDVfWwgAg6sXHaC6Lj664wsEs9ST9Ox",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 19858,
+      "createdOn": "2025-12-27T22:15:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69505a7d1c508c5d5e36f912",
+          "products": [
+            {
+              "_id": "69505a7f1c508c5d5e36f948",
+              "name": "Towels80230",
+              "amount": 258,
+              "price": 19858,
+              "manufacturer": "Samsung",
+              "notes": "qLSoW5D9o5AX0Jnkd6WGF7dNpFaaXOofpbwadtzQhE89eoDtH6zyLsBO00zLvvImMtyJkXKjuI9Y5KiVG1BCrPsN5GiMftMPYOEs3EasVAg95ctDHJjQK1IVGbyw2OqHIJRN9drp43rqF2Mokrcc9KFN2wCW3y78sxIOpQyjLoQX2vidxqkCAoezej2GfWVMgzppH00uxi5CDUyxcXPWwsoWz2IQDVfWwgAg6sXHaC6Lj664wsEs9ST9Ox",
+              "received": false
+            }
+          ],
+          "total_price": 19858,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:15:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69505a7f1c508c5d5e36f95d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

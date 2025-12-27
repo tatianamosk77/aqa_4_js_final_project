@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:15:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-t+nA1PveiVm5o2di9dXOsMC3GVM\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Lisandro_Bosco@hotmail.com",
+      "name": "Brooke Isaias",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 771,
+      "flat": 2398,
+      "phone": "+2131764479",
+      "createdOn": "2025-12-27T22:15:33.000Z",
+      "notes": "8pb0aiSJnMBxLWv5FX8tPYAtvmHD0YfqTdT4PTnqdUNNPV7s4vbA3ATLix3pTyX5iJeuQPmFultSiMmRsSTuTEgpJz38LQ0MSGFpXH7dZOnrzBVI3LHu4EonOk2toGXG7kDhGvPclMt1Y0MEu7hd2LxAY3ZdwH9MRxOkFCMZAwxa6ZX9EFQrkmkwHldtPuC1hHqPhT4fAjmfHYJB7Kj93qCYtAsXGkp7j8CGygk3y9j8hu9ZeuS0O75FNl",
+      "_id": "69505a851c508c5d5e36faec"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

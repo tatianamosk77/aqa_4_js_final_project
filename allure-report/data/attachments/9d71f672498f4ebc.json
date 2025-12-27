@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:15:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-Dgp9fVErcNF4K80447h4mIUBocA\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Daphne9@gmail.com",
+      "name": "Brian Aurelia",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 626,
+      "flat": 2361,
+      "phone": "+4281532770",
+      "createdOn": "2025-12-27T22:15:35.000Z",
+      "notes": "Pb7rAZEiiMyFB8a3Bd2VyFehVVKr2oT7eOE5wJrvIHxs9ryNHlYoIZ1MO5FdhsrMWBGYWIKCAHdqU66XsfCwv3nq8bNn27J1iqq1O4n7eojPyJwaMkREwvDCfEG62A0zkneXiTzB4QH5AbRUhkCQUlQLHwJY26reM6T1XxdZTnwbTjm2jpQAL5HhUWKlrmuRfLHNmJGGo5jxqXopvXF1c58TAMKO6qch8jmo2PYkabWdHqRITemuDwy62i",
+      "_id": "69505a871c508c5d5e36fb87"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

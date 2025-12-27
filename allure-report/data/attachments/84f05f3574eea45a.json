@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:15:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-gT3PIDknnuXfe7DNqI6ZtF1I/FM\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Kirstin15@yahoo.com",
+      "name": "Alexandra Griffin",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 77,
+      "flat": 3855,
+      "phone": "+5178528004",
+      "createdOn": "2025-12-27T22:15:14.000Z",
+      "notes": "8PyKJAqYKz5c7t4sCUOitgGmbORmIpYKPfmRypxnnaX1CPAJ2ycefYVtqVNB0uGpNERWgNG1o7EPbZpuI6EzI4RlESV1jX19sQWcPpbXskL9kEIxGUt10cWmxadhgclE8b1qu0eugV02vzonSQgOjau14MKgJTswDVDi5NZHPboDPnYTf09G3QJFr4z2O9ldhuYcmI7V6shjHWoV3FEcoPFlYc3G61CKTUMxjiPeZLPvf3cEABHUNvBlXy",
+      "_id": "69505a721c508c5d5e36f7ab"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

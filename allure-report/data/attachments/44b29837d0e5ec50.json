@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:15:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-4YRRu17u4sqMLnAG3bOLd6XJm/Q\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Reymundo67@gmail.com",
+      "name": "Larry Emmalee",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 668,
+      "flat": 2758,
+      "phone": "+9447466127",
+      "createdOn": "2025-12-27T22:15:21.000Z",
+      "notes": "JnAUq3m0KBHmpCYopF0rwymrjMumSGt5MBXQCehbIHsvhJvQwWWYd1AXVuhb07eAIsSL1zg5KrovE1zdCUdxoyboAQVa5iht5WBD7lEAiOfgnjahmy9xYj3z7vuBBdetFID2ilAeRYOAds9NjuJbcHZIykvOngi7OIQcKqEoS12dcssnODibe4Kz7spgjIKH42Vaz74g9oTc2B6ulzT0KS3A5emAuRDz7NbGIeLLzR1qa4itYGMeBh7L4d",
+      "_id": "69505a791c508c5d5e36f86d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

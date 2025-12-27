@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:15:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-tU44d4Vwj58xh739HU3NwhuJ86w\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Erick97@gmail.com",
+      "name": "Berenice Edythe",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 866,
+      "flat": 1944,
+      "phone": "+3508170290",
+      "createdOn": "2025-12-27T22:15:20.000Z",
+      "notes": "sWmcne9MHJiG0uVvlcv0qmp9sw6GOhP1KiGTYVZo6zwOHX1fL7HttFA7zYbRay6Ih5GnWUorJIXNPiHc5bjNsCm054OR2pCLw6lCVmbPuP1CYidAtL69kMXKseg0UQm8Pc1FIGRHNKcicBi2aDKWF3Xxsb145x0qt2mIPZXUYUGZwPLrAHCko0wWwTgdnl9Hq5tpMw4NngOpO1TzXocEuk0P1ROCPM17CWpDYstYt7mz5Uynu9WrBoIC42",
+      "_id": "69505a781c508c5d5e36f832"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:15:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1976",
+    "etag": "W/\"7b8-mOnAeCOU+F0nck1aB9URE8rbPL4\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69505a871c508c5d5e36fb83",
+      "status": "Draft",
+      "customer": {
+        "_id": "69505a871c508c5d5e36fb68",
+        "email": "Rosalia_Wiegand@hotmail.com",
+        "name": "Matilde Amari",
+        "country": "France",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 545,
+        "flat": 3622,
+        "phone": "+8561976632",
+        "createdOn": "2025-12-27T22:15:35.000Z",
+        "notes": "Xj0kcm4JpEA4Ua8bWz9PVUoPc30Oplh8kF00Unwbp3jvJYVONcSzoqXMf9tQAvFzwtfYCKXxQuXcFzmUxPUXiE9f9iaviheQmSgVPaADnHYvn0EwHZJSNqZvdsVCEhetRSkIC472Du2W0SomIYSp05AQzQQWnypDL4HPQObiLgSFvHk1SqQW0NPP1pxAABZphH5hZhiKl54ZIQUPCim1FKSNEn9pfMZV4BqDn9nOFMGAccU3RVqZxk8I1k"
+      },
+      "products": [
+        {
+          "_id": "69505a871c508c5d5e36fb6b",
+          "name": "Shirt86823",
+          "amount": 758,
+          "price": 40886,
+          "manufacturer": "Tesla",
+          "notes": "k2fsDm7n7jesprcoib8nGOMda1SLanQGP6tjsTYiws23lRzhqqFlLlNOdOVGmDhPK8suMBzz9tdSQUkbFANp8APNicmcgphV6CUYkc4aqHmCeJEJURgztOppMaYsFZsX639YqKbtuJTjNADJ1DpEq1ZB79v0Hc0YE3YcfvZGYlUNXXSQfqY6TGw3LRWyBO1S7W3azeJ93udsCD3ZGOj3Ftwm8mgXBaCqGYyNrcitnz00uxw1XH4ZFbcgzp",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 40886,
+      "createdOn": "2025-12-27T22:15:35.000Z",
+      "comments": [
+        {
+          "text": "autotest comment",
+          "createdOn": "2025-12-27T22:15:36.000Z",
+          "_id": "69505a881c508c5d5e36fba4"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69505a871c508c5d5e36fb68",
+          "products": [
+            {
+              "_id": "69505a871c508c5d5e36fb6b",
+              "name": "Shirt86823",
+              "amount": 758,
+              "price": 40886,
+              "manufacturer": "Tesla",
+              "notes": "k2fsDm7n7jesprcoib8nGOMda1SLanQGP6tjsTYiws23lRzhqqFlLlNOdOVGmDhPK8suMBzz9tdSQUkbFANp8APNicmcgphV6CUYkc4aqHmCeJEJURgztOppMaYsFZsX639YqKbtuJTjNADJ1DpEq1ZB79v0Hc0YE3YcfvZGYlUNXXSQfqY6TGw3LRWyBO1S7W3azeJ93udsCD3ZGOj3Ftwm8mgXBaCqGYyNrcitnz00uxw1XH4ZFbcgzp",
+              "received": false
+            }
+          ],
+          "total_price": 40886,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:15:35.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

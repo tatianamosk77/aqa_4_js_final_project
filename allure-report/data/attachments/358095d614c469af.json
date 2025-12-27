@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:15:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-fNfUlXntvLK9XjqeTkcKy+rFDMI\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69505a8a1c508c5d5e36fc77",
+        "email": "Narciso_Hane@hotmail.com",
+        "name": "Virginia Kathryne",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 512,
+        "flat": 4194,
+        "phone": "+1624347429",
+        "createdOn": "2025-12-27T22:15:38.000Z",
+        "notes": "0R6dQ9wPMoYMgPDK0vrw2yxWajfB3rm7H7WEkO7i7mebJMyrWjkCNK7RdjTyvYSGukBgOYNsCYkxDQu3Bae6RqtUScGIIgCyElJsUSllUsfXNFZpuvD8I9fZ92HK2luaenCuOfZhKp83lcgj92WwvasoGc7FQWFBU4YxSx5dNv9uRgyQC5uGlK7ARxUNVLMkKJvJJ1mQPDCNcqsYd8FGeoEgUL75mBKf8x58bdKJ7NLXrWje0hfr7EXG5r"
+      },
+      "products": [
+        {
+          "_id": "69505a8a1c508c5d5e36fc7b",
+          "name": "Mouse37066",
+          "amount": 335,
+          "price": 75382,
+          "manufacturer": "Amazon",
+          "notes": "aoOBw67eFoQdPmKx1esX3ZlCif1N4fcx9Cv4sOpHfl6ci6hnqVa6nJYKfJVnSzMiaJJKxA5MYKVQtQCiaUxNLbj2cUS8pTFE0Wgo1uHrQ9OEZ6Pb89u0n0BvWlvTBUCNE8FEfPyD5tAqfpFCo3SRS7DNVTSkU0ho1kJehR9eIL1aXfErYrX77KGn9IpWMkRLZTKHhRFytDPbYadIhm7BZ78OBIR1VSTKX5IHsTgB0SHdVWKO8cdiHqL6eo",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 75382,
+      "createdOn": "2025-12-27T22:15:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69505a8a1c508c5d5e36fc77",
+          "products": [
+            {
+              "_id": "69505a8a1c508c5d5e36fc7b",
+              "name": "Mouse37066",
+              "amount": 335,
+              "price": 75382,
+              "manufacturer": "Amazon",
+              "notes": "aoOBw67eFoQdPmKx1esX3ZlCif1N4fcx9Cv4sOpHfl6ci6hnqVa6nJYKfJVnSzMiaJJKxA5MYKVQtQCiaUxNLbj2cUS8pTFE0Wgo1uHrQ9OEZ6Pb89u0n0BvWlvTBUCNE8FEfPyD5tAqfpFCo3SRS7DNVTSkU0ho1kJehR9eIL1aXfErYrX77KGn9IpWMkRLZTKHhRFytDPbYadIhm7BZ78OBIR1VSTKX5IHsTgB0SHdVWKO8cdiHqL6eo",
+              "received": false
+            }
+          ],
+          "total_price": 75382,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:15:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69505a8b1c508c5d5e36fc95"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

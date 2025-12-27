@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:15:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-pPg1oV9UdAo05T3ELWeVFLg/yrM\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Emmet.McClure@yahoo.com",
+      "name": "Walter Monroe",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 523,
+      "flat": 747,
+      "phone": "+4951599555",
+      "createdOn": "2025-12-27T22:15:47.000Z",
+      "notes": "w5l2GG2BhAtesQLZsNLH5Fh5H961U8x8jAnkFi216hUtBdBVd9eMGJ7pPVKXNi3ymoUPJVmDQIhXmyI9eGGYyMJqLQYzHmZzFdRVaBecC8LWTalIGqJQN2jJzwxqOPlvCalFXK0tS6BGJodu4pwJ5srjGGEcikM8SgIjWMYImCVQPGSc92b3d2XS6wGllmgP9dtfnBnS28fCNcpKvBXME9hkZY3CvpfPONRckXJtOR44LCwYCebxAbbzeF",
+      "_id": "69505a931c508c5d5e370043"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
