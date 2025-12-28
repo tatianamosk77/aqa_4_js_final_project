@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:16:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-0n6rcvB1YIqjLuqIbbbW44oSFLE\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6951ac2c1c508c5d5e450a14",
+        "email": "Clare.Grady37@gmail.com",
+        "name": "Beatrice Katarina",
+        "country": "France",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 22,
+        "flat": 3505,
+        "phone": "+8768990949",
+        "createdOn": "2025-12-28T22:16:12.000Z",
+        "notes": "OK98JJrdz9y7RaPWZ7puKqWwC3yOIsKP1olXddospONjGykJugvUPltNQKTdQNT1hKs2giFzQKrSTT1ZVBUAMstiURet4zQOJX9f1sq4XivFW8SleWFmfinUz6CjvrNZ06eTyvrfZsqjdT1Q8PRgipLgjtcPulZmxYuMnKWj3K59oVTGKF7oDseHQBhXKjn6vmcLi2spYFinNm6wGhZA73VJQoFvcBt3aLcRVqOmDCWQmsaQa1rTUr6X4A"
+      },
+      "products": [
+        {
+          "_id": "6951ac2c1c508c5d5e450a2c",
+          "name": "Tuna76935",
+          "amount": 572,
+          "price": 18250,
+          "manufacturer": "Microsoft",
+          "notes": "bAarTT1VfYIWzbHsA0zglyLGa721xF85VvQkI55hpM4bjP1uHfIeuHN1hu8xZ65xXUgU2oo4t4YGLbWR9KtXJ5AxRJXDvEbHLgYhQqzTGwsuyU9v7jLPo2wRkL0LAKb43bFuSy5eTMc7BJ33BG2CxJblWlOMZl97HTLLqKCEkeGi1uDOc4cOcl2wzsUM8irnjlPzl0SSDOdO7b53GhEgDtlSNLOnDeN3Y2Z3u2RAjxfc16LlJ4eGApUsZi",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 18250,
+      "createdOn": "2025-12-28T22:16:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951ac2c1c508c5d5e450a14",
+          "products": [
+            {
+              "_id": "6951ac2c1c508c5d5e450a2c",
+              "name": "Tuna76935",
+              "amount": 572,
+              "price": 18250,
+              "manufacturer": "Microsoft",
+              "notes": "bAarTT1VfYIWzbHsA0zglyLGa721xF85VvQkI55hpM4bjP1uHfIeuHN1hu8xZ65xXUgU2oo4t4YGLbWR9KtXJ5AxRJXDvEbHLgYhQqzTGwsuyU9v7jLPo2wRkL0LAKb43bFuSy5eTMc7BJ33BG2CxJblWlOMZl97HTLLqKCEkeGi1uDOc4cOcl2wzsUM8irnjlPzl0SSDOdO7b53GhEgDtlSNLOnDeN3Y2Z3u2RAjxfc16LlJ4eGApUsZi",
+              "received": false
+            }
+          ],
+          "total_price": 18250,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:16:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6951ac2d1c508c5d5e450a78"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

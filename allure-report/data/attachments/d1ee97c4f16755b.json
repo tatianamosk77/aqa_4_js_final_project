@@ -1,0 +1,73 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:15:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1412",
+    "etag": "W/\"584-A2yza5vmlHnOT6CfLrFIOoRNMTc\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Orders": [
+      {
+        "_id": "6951abff1c508c5d5e44f961",
+        "status": "Draft",
+        "customer": "6951abfc1c508c5d5e44f8d2",
+        "products": [
+          {
+            "_id": "6951abff1c508c5d5e44f950",
+            "name": "Computer51950",
+            "amount": 395,
+            "price": 30634,
+            "manufacturer": "Tesla",
+            "notes": "4sQgcKw2wgGqeHlfIcSMi4zvzFkB0LPD4rFA1YrTaw9f2vPMv3XdVvvtFTcGL13MWBAJ2xxSNZ0w7dPcCiVLyaeYFepMFiYj7NjJabOLDQ6QQpNpVGxdveYSlLwZVgM7n2rhezTYSHCYBz2KArKE2ijd6JaP6qp3bbzTc6wnoPc5sPL4p52mAP382I2rMiUmAasK6x2d1MoSX0AiYFkpojmOEy8UeW4hN735ukznUIZfcdgxULrKRMgie3",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 30634,
+        "createdOn": "2025-12-28T22:15:27.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "6951abfc1c508c5d5e44f8d2",
+            "products": [
+              {
+                "_id": "6951abff1c508c5d5e44f950",
+                "name": "Computer51950",
+                "amount": 395,
+                "price": 30634,
+                "manufacturer": "Tesla",
+                "notes": "4sQgcKw2wgGqeHlfIcSMi4zvzFkB0LPD4rFA1YrTaw9f2vPMv3XdVvvtFTcGL13MWBAJ2xxSNZ0w7dPcCiVLyaeYFepMFiYj7NjJabOLDQ6QQpNpVGxdveYSlLwZVgM7n2rhezTYSHCYBz2KArKE2ijd6JaP6qp3bbzTc6wnoPc5sPL4p52mAP382I2rMiUmAasK6x2d1MoSX0AiYFkpojmOEy8UeW4hN735ukznUIZfcdgxULrKRMgie3",
+                "received": false
+              }
+            ],
+            "total_price": 30634,
+            "delivery": null,
+            "changedOn": "2025-12-28T22:15:27.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337ce1c508c5d5e95335d",
+              "username": "student14@gmail.com",
+              "firstName": "Bill",
+              "lastName": "Schuppe",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:26"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      }
+    ],
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

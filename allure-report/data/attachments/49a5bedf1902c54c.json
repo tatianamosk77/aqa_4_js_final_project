@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:16:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1963",
+    "etag": "W/\"7ab-PsTzIn/YRkNN25JmXHAfhkaQg3M\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951ac281c508c5d5e45080f",
+      "status": "Draft",
+      "customer": {
+        "_id": "6951ac271c508c5d5e4507d2",
+        "email": "Lawson25@yahoo.com",
+        "name": "Ashly Nestor",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 133,
+        "flat": 2597,
+        "phone": "+9295740827",
+        "createdOn": "2025-12-28T22:16:07.000Z",
+        "notes": "Vlf8ShrcIQyjPOASScSjUvpRS4F0To3K8zH8ihlh7IVIiYQU8HOTsj4eKmxHut8K584L7GvFws9IXHxzjtCSjRGmwxTozsGPHQ6wKmRopzUNlRYzKeF63ztnrxyvy2RXGLzXzmlqpt7IwfdJ4LREm2uemvqxfFl3Y4Lt48OLMfSVVgXCnTtZ8jXZdxJQ0WSoR43gyZk7xMvH9qV6dqUSbteYAsLEYF3zfEioQPVfzXowYcG6ZVb57c0OtW"
+      },
+      "products": [
+        {
+          "_id": "6951ac281c508c5d5e4507d9",
+          "name": "Tuna39760",
+          "amount": 705,
+          "price": 78857,
+          "manufacturer": "Sony",
+          "notes": "G9GcUfSiFp18YJHRZm600l5R4lK90emVLnplLBaNaw5j7E3S37cE8e1AuawEQbp7XSba3bZsivXj7DNnyBAEzV1y41ay3Vj8TjZvJOPylOGgMbol0Z8duHJzBUEP8fZpdk1QoagsCcndDoyKcvJkICUkB4GtEQBlanR9IoceXDZUJUnSuCdzxLqGbz8DUjJjFjA7FmpH52PXESWNlWRd1YyjIqqAYwxOdpPlhYXadPOMBtN6NBm1oKNlss",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 78857,
+      "createdOn": "2025-12-28T22:16:08.000Z",
+      "comments": [
+        {
+          "text": "autotest comment",
+          "createdOn": "2025-12-28T22:16:08.000Z",
+          "_id": "6951ac281c508c5d5e450863"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951ac271c508c5d5e4507d2",
+          "products": [
+            {
+              "_id": "6951ac281c508c5d5e4507d9",
+              "name": "Tuna39760",
+              "amount": 705,
+              "price": 78857,
+              "manufacturer": "Sony",
+              "notes": "G9GcUfSiFp18YJHRZm600l5R4lK90emVLnplLBaNaw5j7E3S37cE8e1AuawEQbp7XSba3bZsivXj7DNnyBAEzV1y41ay3Vj8TjZvJOPylOGgMbol0Z8duHJzBUEP8fZpdk1QoagsCcndDoyKcvJkICUkB4GtEQBlanR9IoceXDZUJUnSuCdzxLqGbz8DUjJjFjA7FmpH52PXESWNlWRd1YyjIqqAYwxOdpPlhYXadPOMBtN6NBm1oKNlss",
+              "received": false
+            }
+          ],
+          "total_price": 78857,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:16:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

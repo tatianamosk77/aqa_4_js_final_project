@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:15:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-JWS2GVHismH94Dr7O87njulfg/8\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Abel.Russel32@gmail.com",
+      "name": "Jed Verdie",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 354,
+      "flat": 104,
+      "phone": "+0806520322",
+      "createdOn": "2025-12-28T22:15:31.000Z",
+      "notes": "kL67l3SbCjKFJFGw5pWOAtjhn09MTHNhntLsCo8emo7XXYK0sjL5cvBPODhUvAlIZjduW3EyyYv8bpB1JgJuqzeQc1DaEUVMpIqqvctLC2pm2KUUokAM8HhNMuqP7rib7zB8mpRiT3tJheZknVk8scE9qym32PXhG7WugzCVtF3TgWFLTGPa8P1aqymM4mabNIzVMbmBQyRwCC9BPOWCIiWwipmhTkRYgw1cKjbe0F0Sq1leNjpABFKSIo",
+      "_id": "6951ac031c508c5d5e44fb76"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

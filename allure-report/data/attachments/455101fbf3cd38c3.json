@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:16:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1876",
+    "etag": "W/\"754-I9iSMmBfAVDmrSmPhZWaY2NxtsA\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6951ac2f1c508c5d5e450bcb",
+        "email": "Alia_Thiel18@yahoo.com",
+        "name": "Francis Gerhard",
+        "country": "France",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 698,
+        "flat": 8467,
+        "phone": "+2572391008",
+        "createdOn": "2025-12-28T22:16:15.000Z",
+        "notes": "R2NfHFVDbGSr6T9kzorRqt5cdG8s1d94b70IbtGTDtm7s5RbwOH84Cs5CpMm5Y8lmBUqKJmYUydCQBN2Kk2eFXwucQBi6xBtLC3mprM5Ds25sgBNrp6VcqOK7qW5Y9OR274Os16oRcMS7Lm3Sv9EwUbaCui6HgAoZ1Fi9tQaNsFJJn2asYtU4cHKovL1kBGyfYvp3s9dDlFeOCtFVLRGChUXPWHjsA5XaVx8maxPVdsMFIcZCCv6fwfJl5"
+      },
+      "products": [
+        {
+          "_id": "6951ac301c508c5d5e450bcd",
+          "name": "Chicken75751",
+          "amount": 730,
+          "price": 7462,
+          "manufacturer": "Xiaomi",
+          "notes": "jUohE4GevF9QDcP2QmSS9VpwtyHsDbwlJbsbrOaY1qVYAzCxwfchdJR1ANw0Y67eeFnU062tplps1QmlZXFdjbNPcDWpOJ4G56W7rR9FVuqoL0QWNMsHqrLAFTNB7ssNUJHYe55cWq1hCT5ZHm28fNZMXy73q2k2oQ91Cq7zJqXdxS2pNaWrV8Q0RuHPJivsc7R71LJxRBI8fRjaZzpN0W2tbtZkRi6JYvsj2OdiSbDPj2P3jsawKY3PY4",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 7462,
+      "createdOn": "2025-12-28T22:16:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951ac2f1c508c5d5e450bcb",
+          "products": [
+            {
+              "_id": "6951ac301c508c5d5e450bcd",
+              "name": "Chicken75751",
+              "amount": 730,
+              "price": 7462,
+              "manufacturer": "Xiaomi",
+              "notes": "jUohE4GevF9QDcP2QmSS9VpwtyHsDbwlJbsbrOaY1qVYAzCxwfchdJR1ANw0Y67eeFnU062tplps1QmlZXFdjbNPcDWpOJ4G56W7rR9FVuqoL0QWNMsHqrLAFTNB7ssNUJHYe55cWq1hCT5ZHm28fNZMXy73q2k2oQ91Cq7zJqXdxS2pNaWrV8Q0RuHPJivsc7R71LJxRBI8fRjaZzpN0W2tbtZkRi6JYvsj2OdiSbDPj2P3jsawKY3PY4",
+              "received": false
+            }
+          ],
+          "total_price": 7462,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:16:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6951ac301c508c5d5e450c01"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

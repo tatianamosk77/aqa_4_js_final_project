@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:15:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-dtKZ1KoUGOyg4Xq7W4IqcC9ljHM\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Dock_Turcotte@hotmail.com",
+      "name": "Kiera Modesta",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 303,
+      "flat": 1323,
+      "phone": "+5746944202",
+      "createdOn": "2025-12-28T22:15:24.000Z",
+      "notes": "YLyy3YM0bbGjtQrjw5kvaqDrWrEy4Vwe89TtJgp6mgvPOMQnqcDTxqeFKumyJe0gFAa5wRkCXuSmAN7EgUXVvqRmMdUAjHnkYfSHJ8LoZiFus9MzzDGBhhAjPGfkVtKV7quLOP5Lkw7mrgHI6HZkgUxnxC6N0UbhJb2YlwqCn1j19IOU5HYcaFSCP4QdCNYpTqrJXpYJG4OSYXTWQsFY9jVokISZH454pwVtRg06aeGs58cpfPQZXlqrpK",
+      "_id": "6951abfc1c508c5d5e44f8d0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

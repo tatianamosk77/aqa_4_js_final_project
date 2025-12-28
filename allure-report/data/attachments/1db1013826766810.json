@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:16:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1890",
+    "etag": "W/\"762-I7rkXJdNVfid4UZcf5l0Sl1WLHM\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6951ac281c508c5d5e450878",
+        "email": "Kaylie_Huel@hotmail.com",
+        "name": "Guadalupe Kathleen",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 631,
+        "flat": 6180,
+        "phone": "+4587700339",
+        "createdOn": "2025-12-28T22:16:08.000Z",
+        "notes": "QHdtGUxd96sfZkbyVIRJ3wbsh5nVKtIrnjcH67gKK0O6jr53AwrLgjbLWMm2IqdB0c70XSSVVE2rviIzDlUD68xwkujXsRk1OpWol9xtjbd0vPshjXQ6orHCFViOOzaAJJOrBjx5GgP2gtZFlzizjk8NzHv6I2Q3j5UlH85rIf13edDkTVBapIWTrKiUWduANXJrW43x9Y2X8DRRQRjoUtr2ID78u4dENiVaQqvGkS9Qu7Jlb619lXAd2I"
+      },
+      "products": [
+        {
+          "_id": "6951ac291c508c5d5e45087c",
+          "name": "Sausages38108",
+          "amount": 13,
+          "price": 25294,
+          "manufacturer": "Microsoft",
+          "notes": "AndTBoKhkOgL55SR1jxfGoXfM9vaU9NFNYh0YRc9mvA1fyZSYs52cwxIVBZhxE4mciHnscS2Be7XW1MxSw4AW4bNf6qzavxoKyt6XQQHznojezuc6cOw7yM5dB3j77cdpw6cxAQKPV8jnZ0GWg7Ne7Brg2qr0oqSFz10vHVm7HWmOGpEwseDPGghGYjyIuOTnIqc2pkenJIX3UzTwINaqkcqNU8tb0hnlJ6nZSRWQnB2fXGTu6UOMG6NfN",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 25294,
+      "createdOn": "2025-12-28T22:16:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951ac281c508c5d5e450878",
+          "products": [
+            {
+              "_id": "6951ac291c508c5d5e45087c",
+              "name": "Sausages38108",
+              "amount": 13,
+              "price": 25294,
+              "manufacturer": "Microsoft",
+              "notes": "AndTBoKhkOgL55SR1jxfGoXfM9vaU9NFNYh0YRc9mvA1fyZSYs52cwxIVBZhxE4mciHnscS2Be7XW1MxSw4AW4bNf6qzavxoKyt6XQQHznojezuc6cOw7yM5dB3j77cdpw6cxAQKPV8jnZ0GWg7Ne7Brg2qr0oqSFz10vHVm7HWmOGpEwseDPGghGYjyIuOTnIqc2pkenJIX3UzTwINaqkcqNU8tb0hnlJ6nZSRWQnB2fXGTu6UOMG6NfN",
+              "received": false
+            }
+          ],
+          "total_price": 25294,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:16:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6951ac291c508c5d5e4508a5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

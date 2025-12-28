@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:15:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-lBDyQfRuKOE4r2DTAyhRl/CLHRI\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Thomas81@gmail.com",
+      "name": "Clementine Elroy",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 338,
+      "flat": 3944,
+      "phone": "+0080986413",
+      "createdOn": "2025-12-28T22:15:22.000Z",
+      "notes": "lyceCnmsYxzLzAxXouFGUqRRPmroXZm12njcu8t3PX84jSkHWDKoKUl9uVRMi5VxlqcDlTL0hDMyLfpaqcrx3VvGSPZRSOMwp3gR5VYdSSUTiFYUPNIVcf9kJDEoD63imdaVsJX1trGI8dtttqlJGmvZ6IY020jujMcpRTSrpNb3h8o4VWpc8P372SfAEk2MdpbzR3O6bhiiUKVlt4QyFi1hDLpv3zxCzXT3LKCRlSNGWjQTcGljoym0By",
+      "_id": "6951abfa1c508c5d5e44f811"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

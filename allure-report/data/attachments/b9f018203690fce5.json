@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:16:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1877",
+    "etag": "W/\"755-06eVpGkqQwNQm863hV44dxIVAjs\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6951ac2c1c508c5d5e450a17",
+        "email": "Gilberto.Reichel82@yahoo.com",
+        "name": "Robin Raul",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 606,
+        "flat": 5022,
+        "phone": "+1101183996",
+        "createdOn": "2025-12-28T22:16:12.000Z",
+        "notes": "P3DQLIqF2l0hAkp33TIxxBJ82tkLboWokjhLKpWPXzuMDkiP9kFWbEcvUtoelvneVdYA0ymvnjg4cPxmD9hcE4jtD2UNitrK2ABxcLHuUDLIffueY3L6E3egy9xiuFzNHNHSVl9Bpr2qglPqRJX1B0P0QQ6zkRo4K9kJaumGGQHjeNaftBvZ8oHNcOfe6g7hkU2DSkLdjq68H1vXl0DmZLKtIXvjCQPD3NbPZySjhDa4H6yNebCOdhR7WN"
+      },
+      "products": [
+        {
+          "_id": "6951ac2c1c508c5d5e450a2e",
+          "name": "Chips13277",
+          "amount": 503,
+          "price": 99427,
+          "manufacturer": "Google",
+          "notes": "8hLgAmAbBUbyiaAYuByHD7bGprFqHLkCno19blq3MAi8NlOuN8AYO16dJmGt1EoP3osRXBgJAQPKQqMlu5zO4uGWBEauXe8w8W8pul1RmU3bZUxRfygn4fOU2Wq67zZyQMXVozmzFBjHfOKJo7ex3UYkUw5J8mqjmAUs2069vWvqwYuWCOXOE7SL2EBG6FSoqE7iHWBKbtzlJtkIe9BZDO6Av93oPUExqzhRT7RcymBXgkwNyjK3Wc73NJ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 99427,
+      "createdOn": "2025-12-28T22:16:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951ac2c1c508c5d5e450a17",
+          "products": [
+            {
+              "_id": "6951ac2c1c508c5d5e450a2e",
+              "name": "Chips13277",
+              "amount": 503,
+              "price": 99427,
+              "manufacturer": "Google",
+              "notes": "8hLgAmAbBUbyiaAYuByHD7bGprFqHLkCno19blq3MAi8NlOuN8AYO16dJmGt1EoP3osRXBgJAQPKQqMlu5zO4uGWBEauXe8w8W8pul1RmU3bZUxRfygn4fOU2Wq67zZyQMXVozmzFBjHfOKJo7ex3UYkUw5J8mqjmAUs2069vWvqwYuWCOXOE7SL2EBG6FSoqE7iHWBKbtzlJtkIe9BZDO6Av93oPUExqzhRT7RcymBXgkwNyjK3Wc73NJ",
+              "received": false
+            }
+          ],
+          "total_price": 99427,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:16:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6951ac2d1c508c5d5e450a7a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:15:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "96",
+    "etag": "W/\"60-CYfDTK5wwKHEmQQP3Dx9mwOboJA\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "IsSuccess": false,
+    "ErrorMessage": "Customer with email 'Connie_Swift@yahoo.com' already exists"
+  }
+}
