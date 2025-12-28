@@ -6,7 +6,10 @@ export class OrderDetailsPage extends SalesPortalPage {
   readonly backToOrdersLink = this.orderDetailsHeader.locator("a");
   readonly title = this.orderDetailsHeader.locator("h2");
   readonly orderStatusBar = this.orderDetailsHeader.locator("#order-status-bar-container");
-  readonly orderNumber = this.orderDetailsHeader.filter({ hasText: "Order number" });
+  readonly orderNumber = this.orderDetailsHeader
+    .locator("text=Order number:")
+    .locator("xpath=following-sibling::*")
+    .first();
   readonly assignedManager = this.orderDetailsHeader.filter({ hasText: "Assigned Manager" });
   readonly assignedManagerContainer = this.orderDetailsHeader.locator(
     "#assigned-manager-container"
@@ -23,12 +26,14 @@ export class OrderDetailsPage extends SalesPortalPage {
   readonly delivery = this.orderStatusBar.filter({ hasText: "Delivery" }).locator("..");
   readonly createdOn = this.orderStatusBar.filter({ hasText: "Created On" }).locator("..");
   readonly processOrderButton = this.orderDetailsHeader.locator("#process-order");
+  readonly orderItems = this.page.locator("#products-accordion-section button.accordion-button");
+  readonly editItems = this.page.locator("#edit-products-pencil");
 
   readonly uniqueElement = this.title;
 
   @logStep("Get order number")
   async getOrderNumber() {
-    await this.orderNumber.innerText();
+    return await this.orderNumber.innerText();
   }
 
   @logStep("Click to select manager")
@@ -78,5 +83,20 @@ export class OrderDetailsPage extends SalesPortalPage {
   @logStep("Back to orders list")
   async backToOrdersList() {
     return await this.backToOrdersLink.click();
+  }
+
+  @logStep("Get order item by name")
+  async getOrderItemsByName(name: string) {
+    return this.orderItems.filter({ hasText: name });
+  }
+
+  @logStep("Get order items")
+  async getOrderItems() {
+    return await this.orderItems.allInnerTexts();
+  }
+
+  @logStep("Edit order item")
+  async editOrderItem() {
+    return this.editItems.click();
   }
 }

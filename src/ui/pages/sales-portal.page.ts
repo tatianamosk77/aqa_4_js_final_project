@@ -30,4 +30,11 @@ export abstract class SalesPortalPage extends BasePage {
   async closeToast() {
     await this.closeToastButton.click();
   }
+
+  @logStep("Wait for toast")
+  async waitForToast(notification: string) {
+    await expect(this.toastMessage).toHaveText(notification);
+    await this.closeToast();
+    await expect(this.toastMessage).not.toBeVisible();
+  }
 }

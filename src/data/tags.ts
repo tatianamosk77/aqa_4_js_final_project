@@ -9,4 +9,5 @@ export enum TAGS {
   INTEGRATION = "@integration",
   ORDERS = "@orders",
   NOTIFICATIONS = "@notifications",
+  E2E = "@e2e",
 }

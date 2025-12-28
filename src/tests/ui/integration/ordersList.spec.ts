@@ -31,7 +31,6 @@ test.describe.serial("[Integration] [Sales Portal] [Orders] [Table Sorting]", ()
           tag: [TAGS.VISUAL_REGRESSION, TAGS.ORDERS, TAGS.INTEGRATION],
         },
         async ({
-          loginAsAdmin,
           loginApiService,
           customersApiService,
           ordersListUIService,
@@ -61,7 +60,6 @@ test.describe.serial("[Integration] [Sales Portal] [Orders] [Table Sorting]", ()
             },
           });
 
-          await loginAsAdmin();
           await ordersListUIService.open();
 
           await mock.ordersPage({

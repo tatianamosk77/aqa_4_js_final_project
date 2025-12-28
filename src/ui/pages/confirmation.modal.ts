@@ -1,5 +1,5 @@
 import { logStep } from "utils/report/logStep.utils";
-import { BaseModal } from "../base.modal";
+import { BaseModal } from "./base.modal";
 
 export class ConfirmationModal extends BaseModal {
   readonly uniqueElement = this.page.locator('[name="confirmation-modal"]');

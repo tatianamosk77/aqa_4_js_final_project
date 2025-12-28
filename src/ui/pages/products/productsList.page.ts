@@ -2,7 +2,7 @@ import { IProductInTable, ProductsTableHeader } from "data/types/product.types";
 import { SalesPortalPage } from "../sales-portal.page";
 import { MANUFACTURERS } from "data/salesPortal/products/manufacturers";
 import { ProductDetailsModal } from "./details.modal";
-import { ConfirmationModal } from "./confirmation.modal";
+import { ConfirmationModal } from "../confirmation.modal";
 import { logStep } from "utils/report/logStep.utils";
 import { SALES_PORTAL_URL } from "config/env";
 

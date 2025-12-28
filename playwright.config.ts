@@ -80,8 +80,19 @@ export default defineConfig({
       name: "sales-portal-ui-integration",
       use: {
         ...devices["Desktop Chrome"],
+        storageState: "src/.auth/user.json",
       },
+      dependencies: ["setup"],
       testDir: "src/tests/ui/integration",
+    },
+    {
+      name: "sales-portal-e2e",
+      use: {
+        ...devices["Desktop Chrome"],
+        storageState: "src/.auth/user.json",
+      },
+      dependencies: ["setup"],
+      testDir: "src/tests/ui/E2E",
     },
     // {
     //   name: "chromium",

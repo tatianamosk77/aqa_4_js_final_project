@@ -1,7 +1,7 @@
 import { CustomerTableHeader, ICustomerInTable } from "data/types/customer.types";
 import { SalesPortalPage } from "../sales-portal.page";
 import { COUNTRIES } from "data/salesPortal/customers/countries";
-import { ConfirmationModal } from "../products/confirmation.modal";
+import { ConfirmationModal } from "../confirmation.modal";
 // import { CustomerDetailsModal } from "./details.modal";
 import { logStep } from "utils/report/logStep.utils";
 
