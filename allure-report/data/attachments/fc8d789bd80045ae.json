@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:51:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1868",
+    "etag": "W/\"74c-fqPrK4/T3V3qbO3sk0yihGyeVLU\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69518a521c508c5d5e3e68f3",
+      "status": "Draft",
+      "customer": {
+        "_id": "69518a521c508c5d5e3e6899",
+        "email": "Cielo8@yahoo.com",
+        "name": "Kristoffer Sunny",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 299,
+        "flat": 7332,
+        "phone": "+5040269130",
+        "createdOn": "2025-12-28T19:51:46.000Z",
+        "notes": "vDB0tEK0haiKnKeHSBk1iwdtiQ1i2TB9PVjtqpOuSkBAURU9Dr24pqJCpqPAiTDcmpEnZTiKNbOfD7BtW8Dad4GA2cmAnjiv0TDLkCFmEwWj9CZ0dvhOomEmtgWDDYxOEMea2GCBcqRSJeLR46OafAHDJSFofE0W7F7UkHXXes4NB1y4EG7B0klewLCkIyu8Rn0JRka30kvyY386fculNBC5vMDDv9IjtT42TiyVxmDEZjNb48tLVaFUMM"
+      },
+      "products": [
+        {
+          "_id": "69518a521c508c5d5e3e68cb",
+          "name": "Soap78553",
+          "amount": 501,
+          "price": 57899,
+          "manufacturer": "Tesla",
+          "notes": "hIM8QQxrfiU9bq6FgFPbUfP0EAnccLmQzMCjIFPl6UyNldRHL5o3C0AdpbLygDR6L5D3xRCla4WFLkBKIQy8Bpt9WawuGVwoEq0N3QWdrh80DjTtmE25bCzSFXvCaL93VSknacrTWZR6iKFBEvfEuCpwhnMlLyPuQxe1rAvux5IjcF0YYo6C7PNw7QAh9azT3uQs6BgCGNeuaWg71aCHmh7yp5OcbJZJCDbwPJzga04XD0iz9twv1wzbNw",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 57899,
+      "createdOn": "2025-12-28T19:51:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69518a521c508c5d5e3e6899",
+          "products": [
+            {
+              "_id": "69518a521c508c5d5e3e68cb",
+              "name": "Soap78553",
+              "amount": 501,
+              "price": 57899,
+              "manufacturer": "Tesla",
+              "notes": "hIM8QQxrfiU9bq6FgFPbUfP0EAnccLmQzMCjIFPl6UyNldRHL5o3C0AdpbLygDR6L5D3xRCla4WFLkBKIQy8Bpt9WawuGVwoEq0N3QWdrh80DjTtmE25bCzSFXvCaL93VSknacrTWZR6iKFBEvfEuCpwhnMlLyPuQxe1rAvux5IjcF0YYo6C7PNw7QAh9azT3uQs6BgCGNeuaWg71aCHmh7yp5OcbJZJCDbwPJzga04XD0iz9twv1wzbNw",
+              "received": false
+            }
+          ],
+          "total_price": 57899,
+          "delivery": null,
+          "changedOn": "2025-12-28T19:51:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

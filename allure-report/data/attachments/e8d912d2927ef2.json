@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:51:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "291",
+    "etag": "W/\"123-4aeiGQ89HuNW0IURaN2HCg9vNKA\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Merlin52@gmail.com",
+      "name": "Edyth Brendan",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 97,
+      "flat": 7064,
+      "phone": "+7591463104",
+      "createdOn": "2025-12-28T19:51:10.000Z",
+      "notes": "",
+      "_id": "69518a2e1c508c5d5e3e633a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

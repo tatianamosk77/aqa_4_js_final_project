@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:54:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-RbdCL2ixET6iYnKjEUYsKrfSer0\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jacques69@yahoo.com",
+      "name": "Madie Abby",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 241,
+      "flat": 5155,
+      "phone": "+3981627496",
+      "createdOn": "2025-12-28T19:54:10.000Z",
+      "notes": "mV0rPcfa0l04K1BlsvjPN1vazvihlhClR5rqK4LXy5iD7R3YnbWqrKJ3ZvT0E6lZGYboHaTONv2HifTVqe69n5AfNd9Q71lLiumcEAzixhcyjtQtoDuEqNaW8o32VP5swgoGgaQXDd54E4pRw22jm2iokupOBnhLbOIPycwpw7z1fqRS7NXWn5VVAnEkCOH8aIPmAVkMqdyfAgHSGf1fihesccYOnnS9wvxpRXspwBDcHRPc4wbgKMK9IV",
+      "_id": "69518ae21c508c5d5e3e894f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

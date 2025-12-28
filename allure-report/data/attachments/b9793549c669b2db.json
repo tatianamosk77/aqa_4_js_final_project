@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:51:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-GTKRm8bS5uImP3c87O/v+/HEVSc\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Joany.Larson@hotmail.com",
+      "name": "Molly Simone",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 32,
+      "flat": 7183,
+      "phone": "+3884631242",
+      "createdOn": "2025-12-28T19:51:49.000Z",
+      "notes": "fDGMLvh8tA0bUeyaOc0G5jk9VdtYyUkBVQblAXG4QncOGcVYd4X1P34BOZ1EQ1F1DsT7PtWoMfsT7CedoEGuUmtPZx4QQf2BXeYqoqDJRIvPRiydFfyRp20exlJ3RCeormKkgZTzuLxQ4RPrMAqb2n9KFet1CNfgL4LtsI4mVahj7VtMLMd1tqh3R4yqJO9sgYXUoWbZb9TGNph8aXjqdCrrzqG7knrrrY2pfxb37sxXdMrAQusYB9dIWI",
+      "_id": "69518a551c508c5d5e3e6981"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:51:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1981",
+    "etag": "W/\"7bd-pqgDxAlHPhdmYSii22HPMKwRdgs\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69518a521c508c5d5e3e68b8",
+      "status": "Draft",
+      "customer": {
+        "_id": "69518a511c508c5d5e3e687f",
+        "email": "Britney30@gmail.com",
+        "name": "Marcelina Thurman",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 640,
+        "flat": 2178,
+        "phone": "+3063346393",
+        "createdOn": "2025-12-28T19:51:45.000Z",
+        "notes": "RcUmp88nyT3465xbAqXiHhZERZzoRbT24NlV9U8CjE8WErFFFMkYZbB2oWkAAhTCAJATEtnBStbpIG7f33Y4aesWB4YGr6rDRoPBpBKLE3E4sjisvKlXMKykgKHTm4gosIZthcx0Q7YoYEsKYras9oXvQqDy4JjFhWyQGgY4YaLzCAROw7vfboiCk0U6oRhFlJIWUjBvgSbP5uDH9hCXXoSsEsFfLrn9pJrGvjLJhx9N3V9n3ooNmrGALo"
+      },
+      "products": [
+        {
+          "_id": "69518a521c508c5d5e3e689c",
+          "name": "Mouse61807",
+          "amount": 253,
+          "price": 76759,
+          "manufacturer": "Microsoft",
+          "notes": "KTEONiiFJIAfDJaD6wfOVnevEkoB5GZbIIt0aiWp5UmqKcT8D5LrF5Zd1RaKWrzCi0qNQw6kmveOOMz8SCk6nOmX6nBdQj0OsdOK6NaAYGSUYqWlvfJp9PIZxCk5cIaqZPH1UBllvRPM4qRaWQmf669LuwIzBWvWoCWFpEC9gmvKGDZJUagPuorbj2YhA0VVdGYUrNblI07OXDODFqPJbZStmLUygg4xGant4ojHG3rDA7d4x4F5Szjuwb",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 76759,
+      "createdOn": "2025-12-28T19:51:46.000Z",
+      "comments": [
+        {
+          "text": "autotest comment",
+          "createdOn": "2025-12-28T19:51:46.000Z",
+          "_id": "69518a521c508c5d5e3e68ea"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69518a511c508c5d5e3e687f",
+          "products": [
+            {
+              "_id": "69518a521c508c5d5e3e689c",
+              "name": "Mouse61807",
+              "amount": 253,
+              "price": 76759,
+              "manufacturer": "Microsoft",
+              "notes": "KTEONiiFJIAfDJaD6wfOVnevEkoB5GZbIIt0aiWp5UmqKcT8D5LrF5Zd1RaKWrzCi0qNQw6kmveOOMz8SCk6nOmX6nBdQj0OsdOK6NaAYGSUYqWlvfJp9PIZxCk5cIaqZPH1UBllvRPM4qRaWQmf669LuwIzBWvWoCWFpEC9gmvKGDZJUagPuorbj2YhA0VVdGYUrNblI07OXDODFqPJbZStmLUygg4xGant4ojHG3rDA7d4x4F5Szjuwb",
+              "received": false
+            }
+          ],
+          "total_price": 76759,
+          "delivery": null,
+          "changedOn": "2025-12-28T19:51:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

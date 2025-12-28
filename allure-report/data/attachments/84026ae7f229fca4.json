@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:51:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "538",
+    "etag": "W/\"21a-GB1anldlTOdmmdlJPx36hB2Kqdo\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Otilia.Hegmann@hotmail.com",
+      "name": "Saul Justyn",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "D",
+      "house": 569,
+      "flat": 5439,
+      "phone": "+6184516887",
+      "createdOn": "2025-12-28T19:51:06.000Z",
+      "notes": "ovIeqiwM9aReGB8OYMkIEiuAc73V1hblS4gLCUlIqHTGjpZoZnR8Yx4jYWDNJt98WHSMElLB8m024cZkN5HNJoiqIYY66REqsS7NASxdDHxC6zMavTCmfPzO8gUw5rsnUVxCstGtrdohdvEUVZvlHGhQwCtSlClXaEvVqGnU6tP6oWrh9e5WBAVlvmNnssfvVMwtGX6GImwF4MUtQVwQ1xasPRrvRNWzeyP6AEAsty556S8nYR44l8sbWu",
+      "_id": "69518a2a1c508c5d5e3e62b0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

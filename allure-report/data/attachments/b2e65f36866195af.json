@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:51:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "537",
+    "etag": "W/\"219-oMcmNc8RaK5nJ2t8HMBMctcQMTs\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jane.Fay@yahoo.com",
+      "name": "Gayle Anya",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 1,
+      "flat": 2332,
+      "phone": "+8891634213",
+      "createdOn": "2025-12-28T19:51:08.000Z",
+      "notes": "2vICsOFEZYhzpLKkM4lw8kF9jLeGbiBWXwJFzF3pzlw9n6kPbKX35CPylOpFmm5ntLF90Gs7ZxK05yPpAK4HTiN41sdwTgu3lOB8ZFMlTlvagZJ4JTXZlIvxXRPz9TP1IT8U5mlVJm55kaI6QHqsbr3jUnDT4cYsKdRKPXwUF4yMtNzfiERTAy0NcSNtVxxKFStsnwbaX5jOQqxOZWrPyLfgA51UKJkICO52wOOkj1NkI5YdfP5cn8nSXa",
+      "_id": "69518a2c1c508c5d5e3e62f3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

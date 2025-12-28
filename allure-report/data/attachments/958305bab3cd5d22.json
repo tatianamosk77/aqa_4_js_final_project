@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:51:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-IkMfaJCIjv7CLT15lDzaVm7OxMM\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Christ76@hotmail.com",
+      "name": "Test Customer",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 91,
+      "flat": 5127,
+      "phone": "+8638195956",
+      "createdOn": "2025-12-28T19:51:05.000Z",
+      "notes": "XUDoB962qSvCumpagp5nO9CEm65Mf6fNbfZOYZuxsP8ECmPwNpiEtVQRjQaL3NozWoxPdpJiaXmHIttJYYvvYjf62O4Nd7Kp5eH5zkAT6Uak6YLrI8aejxzaf5YbNylPHBZKf0oTL6kDsqsR4JZPPfxLRa4denPqyCA1naiLDkfuiGR5fxIHFzwYHjoNFtD9aCiMjWzXNFPSnnE0YhnGO96wcbsHM7l7l1ddaTZWjV2u0y3BttSVZdzRxD",
+      "_id": "69518a291c508c5d5e3e6297"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

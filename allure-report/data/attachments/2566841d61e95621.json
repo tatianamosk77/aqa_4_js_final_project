@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:51:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-67CIB8z+zMYWj27puvRO+lor100\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Mittie.Keebler@yahoo.com",
+      "name": "Kristian Mya",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 628,
+      "flat": 2685,
+      "phone": "+1657212362",
+      "createdOn": "2025-12-28T19:51:22.000Z",
+      "notes": "Y1j6RN1P40STcgvHXhZoEUwhFLivPJn5uLLEAWUKfcnfKRY1Y4XWexMf5j2uKbLW1jy3eeMKike15ZA7k9bMM5Z8IKr5am30rogIFAquimIeY9otbSvlj9SBAcq1by9ZEaBH4pOK4fpZfTMQzJGrAc8nz8At2dQ2mConkWHohE5Ggijka1JS9iywNpr7qM1sqtSoExduIXDoKvQAgNcCUEev8LQW07DGDF4AsFKRBBUqhPtBX1rMytOIlO",
+      "_id": "69518a3a1c508c5d5e3e64be"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

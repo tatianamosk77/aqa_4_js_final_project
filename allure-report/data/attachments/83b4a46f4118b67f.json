@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:52:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-iiQPiYdSjaxCynP2KsWYaOkaG3A\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69518a621c508c5d5e3e6e4d",
+        "email": "Humberto.Dickinson@gmail.com",
+        "name": "Jalon Jeffery",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 786,
+        "flat": 274,
+        "phone": "+5124716827",
+        "createdOn": "2025-12-28T19:52:02.000Z",
+        "notes": "CWGtiFmMhqkfsM125XqDXV3meMjFGgYENMf66GyHRUm5p5FNsYw6fG6lxKJXbZzOQKuVxr1SRF12JLxFZrdeuhRNQ859WOoyLDVcbKS4bn1QUj1PBBV1MFBo2zgoQKJOSMT4F4TIQ1cKyFpS45ItXWWwvsYkwIoDHo8jQ1mdgwWQRfZGOV6WKMEbUynvwbNHM0vXFvIxJ5iJYKqx7ReynIc1M5vlfojjlJHV75Ox7bS1DL8UEpspezW0p5"
+      },
+      "products": [
+        {
+          "_id": "69518a621c508c5d5e3e6e51",
+          "name": "Chicken15699",
+          "amount": 263,
+          "price": 18148,
+          "manufacturer": "Xiaomi",
+          "notes": "A1HtZtIYuzZk0tWqAG3iMsc7AYuH6ykBjEb4eya24RmAOmSfQVwUb1vEvuVdEXQyx0v4Xz8lAVrFFuN98loccnAkX5SYMWKujZoa73AUKZYc2pteR28Woe7cyeXAP1GKXaCiUF4GqbX0yEyIFQ0PQtf27drISJLNZktW7ryoQLXzjBjTkHGUG3yDtLrP88hzUDOLOQB9slwumhI2MJ1ZtjqSwUz3L9ull4iAB9lrRZ8rYjT0RYqTSs1o5e",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 18148,
+      "createdOn": "2025-12-28T19:52:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69518a621c508c5d5e3e6e4d",
+          "products": [
+            {
+              "_id": "69518a621c508c5d5e3e6e51",
+              "name": "Chicken15699",
+              "amount": 263,
+              "price": 18148,
+              "manufacturer": "Xiaomi",
+              "notes": "A1HtZtIYuzZk0tWqAG3iMsc7AYuH6ykBjEb4eya24RmAOmSfQVwUb1vEvuVdEXQyx0v4Xz8lAVrFFuN98loccnAkX5SYMWKujZoa73AUKZYc2pteR28Woe7cyeXAP1GKXaCiUF4GqbX0yEyIFQ0PQtf27drISJLNZktW7ryoQLXzjBjTkHGUG3yDtLrP88hzUDOLOQB9slwumhI2MJ1ZtjqSwUz3L9ull4iAB9lrRZ8rYjT0RYqTSs1o5e",
+              "received": false
+            }
+          ],
+          "total_price": 18148,
+          "delivery": null,
+          "changedOn": "2025-12-28T19:52:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69518a621c508c5d5e3e6e60"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
