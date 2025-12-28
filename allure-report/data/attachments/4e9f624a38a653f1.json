@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:26:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "280",
+    "etag": "W/\"118-sWclzZypRxgG5Om9Y/L+jzIotfw\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Talia21@gmail.com",
+      "name": "Jaydon Danyka",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 736,
+      "flat": 3179,
+      "phone": "+0919536457",
+      "createdOn": "2025-12-28T19:26:27.000Z",
+      "_id": "695184631c508c5d5e3d890d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

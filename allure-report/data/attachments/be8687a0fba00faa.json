@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:26:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-+NBesCWgcPO9Q92IRRtbZpzPQus\"",
+    "keep-alive": "timeout=5, max=72",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Bonita.Boehm@hotmail.com",
+      "name": "Lynn Wilhelm",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 539,
+      "flat": 6313,
+      "phone": "+3781109101",
+      "createdOn": "2025-12-28T19:26:51.000Z",
+      "notes": "uZiu0kldpev9JAtJ4YjrCnyDsaDGkULQlsaiAyiIC3NhJSERWMcTFtB8BWVe3YRiWb96AwZg4oWVQzbh0PohmWYQ2YIsYvCxjFbQNc6wBj3uBoASSRcYk1VPvzzjpunYq2I22JdwNuqxhFowTp8Uo6W6knNGlHjcZKTqQItwT1WykmdGTVNNniGxd9dST8KAyHvPIv5SoIKArs1ceh8WbmzLRzAGqpgXngsfV6Sr6SOfN9m0dDzKBehYmX",
+      "_id": "6951847b1c508c5d5e3d8bfc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

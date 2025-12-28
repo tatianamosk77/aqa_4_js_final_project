@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:27:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "551",
+    "etag": "W/\"227-twYrOxwRGLRG0x8lWtcB6dzMIis\"",
+    "keep-alive": "timeout=5, max=68",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Daphne.Prohaska@hotmail.com",
+      "name": "Jose Nathanael",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 310,
+      "flat": 1482,
+      "phone": "+3319871944",
+      "createdOn": "2025-12-28T19:27:24.000Z",
+      "notes": "Z3vSAbKrj1KWaFdxRQvuV0XPnFv26KSL8OuorJmHd16gWLusqJdhKjB6xnXUn41jkZRcH08rOSvfjULjCqHzUyv7IQVTZVNkbF0SQ9MD9fa7HblWlrkfOaYf1w1jfIXWdeZtPn9SWGm6bDBUrnXZ5AlwpSii96KKBmrbbGBF6XvNqNCY6BPU81iuEFCrJqKVWpQPWek6084mcfkxTXbye4FN8VSUCyR8VhcyDircLLmEyPO4jgE13pOm86",
+      "_id": "6951849c1c508c5d5e3d9f5f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

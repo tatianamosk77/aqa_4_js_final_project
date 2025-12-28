@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:27:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1975",
+    "etag": "W/\"7b7-POhNQU2RhScIQEpX1PsHeBY0naE\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695184981c508c5d5e3d9d24",
+      "status": "Draft",
+      "customer": {
+        "_id": "695184931c508c5d5e3d9b4e",
+        "email": "Graham82@gmail.com",
+        "name": "Bertha Roosevelt",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 579,
+        "flat": 7047,
+        "phone": "+6975647774",
+        "createdOn": "2025-12-28T19:27:15.000Z",
+        "notes": "0Gurj4ycuZzbkMkzmTQyJ4zvNIpYycdO5ssS6EZXwApCPHsxqOKIcAPRgr4rhYXaCQ7S5sPOjs27YYG8jSBmggU6LPVvvH2xzsf9cAFTRzWgfI3ChiCmKl1TeBueedXvdM5nNO0qaI1p2BID3KhV4dkNNDgrX4JlbU6DidiGe2sI7aNAcyRhn7lA2wcjdSWqrxWhY3T6czAB1vfkLkwxD6LZTgaqmI54a0PVu3mNXFB3Zuenaze1cKBHG6"
+      },
+      "products": [
+        {
+          "_id": "695184931c508c5d5e3d9b52",
+          "name": "Salad11947",
+          "amount": 126,
+          "price": 70918,
+          "manufacturer": "Sony",
+          "notes": "pKCdGTpR9EftgZe9pV1lvBZrHe9O0ldP3v5fEJ9JklOIj432MGgeO34WWnaSX2Xf9qSsnK9nr1mGvaa1tR3sTdoqD8cBnsQSdE57TVqICh8uhsf49oLRCPaSS6nWUDSyyR3DJNwl63vI9QwmNWDimMj1VCNohDhEvVy0Sjmdw7t4MCI3hpALrvItwKTBncguJ7kqgaiAbe9qWB3waaIExC0Ug6IBDcOFh1brX6XRzvuZws6M6tqYZUUCRS",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 70918,
+      "createdOn": "2025-12-28T19:27:20.000Z",
+      "comments": [
+        {
+          "text": "autotest comment",
+          "createdOn": "2025-12-28T19:27:20.000Z",
+          "_id": "695184981c508c5d5e3d9d79"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695184931c508c5d5e3d9b4e",
+          "products": [
+            {
+              "_id": "695184931c508c5d5e3d9b52",
+              "name": "Salad11947",
+              "amount": 126,
+              "price": 70918,
+              "manufacturer": "Sony",
+              "notes": "pKCdGTpR9EftgZe9pV1lvBZrHe9O0ldP3v5fEJ9JklOIj432MGgeO34WWnaSX2Xf9qSsnK9nr1mGvaa1tR3sTdoqD8cBnsQSdE57TVqICh8uhsf49oLRCPaSS6nWUDSyyR3DJNwl63vI9QwmNWDimMj1VCNohDhEvVy0Sjmdw7t4MCI3hpALrvItwKTBncguJ7kqgaiAbe9qWB3waaIExC0Ug6IBDcOFh1brX6XRzvuZws6M6tqYZUUCRS",
+              "received": false
+            }
+          ],
+          "total_price": 70918,
+          "delivery": null,
+          "changedOn": "2025-12-28T19:27:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

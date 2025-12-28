@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:31:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-45ggsJIK1ma4v8AKUqTNz2v+qZE\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Aliza4@hotmail.com",
+      "name": "Quentin Ariel",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 143,
+      "flat": 5312,
+      "phone": "+3821007351",
+      "createdOn": "2025-12-28T19:31:11.000Z",
+      "notes": "gYnICS2UegPdoYZu3zZWRryMG7LpLgmrkPLlLltYp7f8x13fWsjrZ1TXwhvnA0kYc2xTsv3yOqsn0BggVveQ4BnvwuNWXahyvt2fcrFssHFzWLNsNJ2VZTNuj0JoKIQ6Oqm0GzlxiA3Dbvukt7L3ikwsEROQNTpULjdW5gyfEN2rMXiVbfqZuKBpl5cQ0Vwb0Q2isVHBTAYccLkBQ6nAlNZVhL8MFsOXG1hlfUxJAiv0ISXaF9lhaAapFH",
+      "_id": "6951857f1c508c5d5e3e0089"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

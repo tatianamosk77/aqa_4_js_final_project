@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:27:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-7M/fgV6l28WJ6HwFHCb/UR6DPOE\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Samir.Muller@gmail.com",
+      "name": "Mariah Esther",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 18,
+      "flat": 9626,
+      "phone": "+0331446572",
+      "createdOn": "2025-12-28T19:27:23.000Z",
+      "notes": "1O9vv8PjM59zbC3Bw2xKvXPRjyzZfIzdqmxxiCtmdez6iwrm6FrxEbySrumjh5czyeHHIOaCiShOv2SpHRqyZZJWtCXaVIUGSO87OCKLZ51uBDyqH1XwdWGUsjzEfuJWkVn5jScrTDll01Ze3zxxNPNG952SpXiAH7uvnigiITEz4vI8GTqDlBQwtog9xYub1zy40lVsiTcZfLkVduc4sgV80HvRV4o28MuTvy3dHSfY0mzuO3KVFs5CBa",
+      "_id": "6951849b1c508c5d5e3d9e74"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

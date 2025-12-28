@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:26:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "680",
+    "etag": "W/\"2a8-rGsmUuR3t9B0C6wqVRPZwwShz64\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "6951846d1c508c5d5e3d8a3d",
+        "email": "Jeramie.Rutherford@hotmail.com",
+        "name": "Kenton Naomie",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 280,
+        "flat": 8055,
+        "phone": "+3792689054",
+        "createdOn": "2025-12-28T19:26:37.000Z",
+        "notes": "mlp6LMAYAy0h6tIlVRoeh5PhuUh8oUfjOw3NN36m3GCbHJIoyuka7ffTiyhcwDp9PKlm798NAmPd5oCrcvluho9RrXl13r5ztWfHNGgvZizaTZn8TdEoQ3WptlZpVJlSYeNUgpkmcwnTVMIYmrkQJHzRB3NgQM0KU2oC47iVidLmoqsZfX9KnUA0aDdDZpYPtBQ0iBL8qrQzlmqhlLRNY0fxjDwDeeJd0XYdegcotvJLxsCspIQGM8UUIe"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Kenton Naomie",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

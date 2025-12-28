@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:29:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-HyeAwTtmOD/2D1Az06UYPFuue7U\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Danny.Halvorson@gmail.com",
+      "name": "William Edmond",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 363,
+      "flat": 9322,
+      "phone": "+0699679104",
+      "createdOn": "2025-12-28T19:29:22.000Z",
+      "notes": "aieoTMtZyM3F8mkXurOzjmGyCBqpdyLojKtIFI9o91I9ZyTqmr666KkckQU3G6Gf9J8haMKj5syraGinm7OSFOCFQ6K1SugiALO1w8HrDnr2qs1f3D18vStAdBagow6JOk3mnFoG9mgGHbjbBQRU5NaPQq00zKTEzLWD3t7ba6wqsGvO9hkcfGbqtO9fs6zjDEaoNOcqvSVWTWd2Ab8E3hgCSTjgCleanhA9QVEILwF8fou6Plbc44YPal",
+      "_id": "695185121c508c5d5e3dda10"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

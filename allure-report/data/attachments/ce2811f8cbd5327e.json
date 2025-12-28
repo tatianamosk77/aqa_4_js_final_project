@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:26:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "539",
+    "etag": "W/\"21b-h3plpdSssNlYm1qvP022CbHbCQc\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Mario.Tillman@yahoo.com",
+      "name": "Jesus Lisa",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 893,
+      "flat": 775,
+      "phone": "+0131508104",
+      "createdOn": "2025-12-28T19:26:34.000Z",
+      "notes": "lt4iruMgG7fMFsnFREPaQ1wFshKaKYKoJebhYGOofz6YDyPIv1d0lH15dj3fc5mgECl6L6DUVp4AHTTs6sZQtJcvEdl3NbZeo1AtufXf0iTFqqs4vdbXrl9CDwsnb2rEkLTISrIBlpn2ygpJfUXmyk418kqrpQKCsdydZckyYr00YtNJvb1uzZOXuKerYwJxs5wqSp0ssSzanpBgPsD4E2QRPioV7JlvX0OgCZ82YoXOfL4wr6oWLosdnG",
+      "_id": "6951846a1c508c5d5e3d89cd"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

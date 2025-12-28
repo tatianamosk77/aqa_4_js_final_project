@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:26:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-+GpRYf6bSPB0zIJR863I+aXyz2g\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695184801c508c5d5e3d8e0d",
+        "email": "Toby.Schmeler8@hotmail.com",
+        "name": "Evans Wilhelmine",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 479,
+        "flat": 4216,
+        "phone": "+3591281777",
+        "createdOn": "2025-12-28T19:26:56.000Z",
+        "notes": "cJ9cvxJTCevVEYvTiFPPJZlcPNg2m6RpemBN3S7Nsasm2e5thVkuwVOda5CSkCiHwt71Q7uuFKOLs0kWqMlSlXFQ7nEYHLYSPbvb2LZMyxwyNJrdOW2qQ2twYIN7xHGAoB7E3Xb0vH7ee3hLRyvbJKG9BqINI4uWVMjDriEM2Yqb2BdMe0AjnP63J8qDwH44TOFClmZpmPHecvJqiANFbX9FipA2YqBvFogCmdQPrRwRlajCKewuSb9fIS"
+      },
+      "products": [
+        {
+          "_id": "695184801c508c5d5e3d8e77",
+          "name": "Keyboard29535",
+          "amount": 722,
+          "price": 36989,
+          "manufacturer": "Google",
+          "notes": "dyGM3Fy5ncv6j0Gey9magurirLnELc2f6PLXJXbvTDRhgRifcvsbtepkDlWnqieLcvdErnKkChek01fE7W7PEybEtt1umzlDKo2CTpYM7lN4EYLWsEi6ZXRYxaWafgBMw4NOFh0g8jO9Z7pF7YcGSkmHY2mlKx4FxT4U6k7hBU5BS2j0qHLyPiDHvnj2GO9Lkr7kTQphtPekpkw3wqwh0nYOsZiwjxqGlSjzmTAesQq78aoITwmQFraIjm",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 36989,
+      "createdOn": "2025-12-28T19:26:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695184801c508c5d5e3d8e0d",
+          "products": [
+            {
+              "_id": "695184801c508c5d5e3d8e77",
+              "name": "Keyboard29535",
+              "amount": 722,
+              "price": 36989,
+              "manufacturer": "Google",
+              "notes": "dyGM3Fy5ncv6j0Gey9magurirLnELc2f6PLXJXbvTDRhgRifcvsbtepkDlWnqieLcvdErnKkChek01fE7W7PEybEtt1umzlDKo2CTpYM7lN4EYLWsEi6ZXRYxaWafgBMw4NOFh0g8jO9Z7pF7YcGSkmHY2mlKx4FxT4U6k7hBU5BS2j0qHLyPiDHvnj2GO9Lkr7kTQphtPekpkw3wqwh0nYOsZiwjxqGlSjzmTAesQq78aoITwmQFraIjm",
+              "received": false
+            }
+          ],
+          "total_price": 36989,
+          "delivery": null,
+          "changedOn": "2025-12-28T19:26:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695184811c508c5d5e3d8eb1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

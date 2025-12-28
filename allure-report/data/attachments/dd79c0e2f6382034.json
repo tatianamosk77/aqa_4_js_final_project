@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:26:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1879",
+    "etag": "W/\"757-+WxT6q+/BFTYJwjWrvj0H28Wthw\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6951847b1c508c5d5e3d8be2",
+        "email": "Arnaldo_Auer4@hotmail.com",
+        "name": "Shanny Susana",
+        "country": "France",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 212,
+        "flat": 1711,
+        "phone": "+5580584089",
+        "createdOn": "2025-12-28T19:26:51.000Z",
+        "notes": "sCU6C3nyWOp8Y6NHxtVHiAH7dcIaFT8Q06YHNGbEjzVWdmkf6ijboONKY2qb4JnNcSfnAiAd7tmPmP4chkfaYxjX2rwuT1N1sL4AcNUky04QtjzNHwpoeHn5UGYhEieaU0oQhhFz4cij15i1q5Ea7vu20ToKWUEsYIq03C3TcqhjDKgPBqYiKJ8As7UFRjesvHlhZgAxRoEuxWltHuwfb2kszDaW3c8uHi5AnVVSs4xeltdcWzsCpAr3d8"
+      },
+      "products": [
+        {
+          "_id": "6951847c1c508c5d5e3d8c79",
+          "name": "Pizza14802",
+          "amount": 208,
+          "price": 98149,
+          "manufacturer": "Samsung",
+          "notes": "pkQgFlNpr0ObGT3i825BObQW4mfiEIOYcp6cs5fMEAcvi5UK3HJqE4wkCdLczaE2gHmThmj8qJd2akhTZKgo3aQncWF0aUEoHIyltZaL0hoD9IXfSGm4rqHD2QgyalOzopjCItA8e0criSpRU7bkLRmnBTZk9SUm8fBF6wZsZqNlE6HixzH2re05TPiV9oooL6uF04uDLGCHZMqpKksEhrObAGxDsiiSxZk3oh1DAxqObrlMX98N3aLSS0",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 98149,
+      "createdOn": "2025-12-28T19:26:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951847b1c508c5d5e3d8be2",
+          "products": [
+            {
+              "_id": "6951847c1c508c5d5e3d8c79",
+              "name": "Pizza14802",
+              "amount": 208,
+              "price": 98149,
+              "manufacturer": "Samsung",
+              "notes": "pkQgFlNpr0ObGT3i825BObQW4mfiEIOYcp6cs5fMEAcvi5UK3HJqE4wkCdLczaE2gHmThmj8qJd2akhTZKgo3aQncWF0aUEoHIyltZaL0hoD9IXfSGm4rqHD2QgyalOzopjCItA8e0criSpRU7bkLRmnBTZk9SUm8fBF6wZsZqNlE6HixzH2re05TPiV9oooL6uF04uDLGCHZMqpKksEhrObAGxDsiiSxZk3oh1DAxqObrlMX98N3aLSS0",
+              "received": false
+            }
+          ],
+          "total_price": 98149,
+          "delivery": null,
+          "changedOn": "2025-12-28T19:26:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6951847c1c508c5d5e3d8ca0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
