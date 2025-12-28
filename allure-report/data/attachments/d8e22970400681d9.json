@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 18:53:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1886",
+    "etag": "W/\"75e-ABaVMHaenYFTU/I0yiNfydtCNL4\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69517ca31c508c5d5e3c7bda",
+        "email": "Enrique_Tremblay@hotmail.com",
+        "name": "Dwight Tyson",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 286,
+        "flat": 7107,
+        "phone": "+8428014468",
+        "createdOn": "2025-12-28T18:53:23.000Z",
+        "notes": "iM9oMydgIu4m0QMQ3Oah0vJZ3gDyNGSWX2SLgVWZS3jgcBj6kQMWU5exKfJ83VQfbAHwKWLKgbYor88Vh5Zmhtid0iAjV4PONg2Aey8SCzTFQUS5GoL1bcKdec4mZmzT6eXNJXtUvmzKDFfhjZWqYPOePkeTnS9vcY6cLp3Sh7peSRbaTx1JtbZfA8A8Rhc9qBhd2NjUURu98l1fZWkeJf3DHc5g3O21HTBzGlhYDc29EuYflO0RTQzTSn"
+      },
+      "products": [
+        {
+          "_id": "69517ca31c508c5d5e3c7bee",
+          "name": "Pants63922",
+          "amount": 603,
+          "price": 89759,
+          "manufacturer": "Microsoft",
+          "notes": "TB0k30LNplmczvhwhmxc7p2EOfugG5J3BWWvllykMgjY60PqxX4regyVuy6OcICjzrX1yaE6NukxiqsTieiIMUhmlXMxEwfGwgI75CmZQqknim5KTVi18Jutjz6tXiNaX2ynaWhwiwgphbO2EKBZKruSoOHANGqt0lwDfrESz80Nud2OlstPhhwQk2yf7yc4upGEzbbKZRi9WEBLp7WscRdO2H2oRZGkjpFqc6qUnS2VbsT9Qt4Z8URp8U",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 89759,
+      "createdOn": "2025-12-28T18:53:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69517ca31c508c5d5e3c7bda",
+          "products": [
+            {
+              "_id": "69517ca31c508c5d5e3c7bee",
+              "name": "Pants63922",
+              "amount": 603,
+              "price": 89759,
+              "manufacturer": "Microsoft",
+              "notes": "TB0k30LNplmczvhwhmxc7p2EOfugG5J3BWWvllykMgjY60PqxX4regyVuy6OcICjzrX1yaE6NukxiqsTieiIMUhmlXMxEwfGwgI75CmZQqknim5KTVi18Jutjz6tXiNaX2ynaWhwiwgphbO2EKBZKruSoOHANGqt0lwDfrESz80Nud2OlstPhhwQk2yf7yc4upGEzbbKZRi9WEBLp7WscRdO2H2oRZGkjpFqc6qUnS2VbsT9Qt4Z8URp8U",
+              "received": false
+            }
+          ],
+          "total_price": 89759,
+          "delivery": null,
+          "changedOn": "2025-12-28T18:53:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69517ca31c508c5d5e3c7c0b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 18:52:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "670",
+    "etag": "W/\"29e-s4qiF9MUAQnMEFz7sM8zupu+/RU\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "69517c871c508c5d5e3c72f4",
+        "email": "Preston_Deckow57@yahoo.com",
+        "name": "Bella Julia",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 143,
+        "flat": 758,
+        "phone": "+0181997258",
+        "createdOn": "2025-12-28T18:52:55.000Z",
+        "notes": "Vfg5k8OEXsPv4Z1QqfOWLAuRxXQPAm8dbKrQARI2uB2o1SXphHF3gS7KRQKP6j2j4zU5NHkyN9P75pkOk6CwCcQFaQopRxX2TVbuyca6ogz3AN9NxpmHzdff83oCbijS8W2k0nzGim8tu0njj5ItwAsmItE9Br7HmHV0747oqLZqtwOkvHlnclE6XFIw6h3jt8dGTBrsXlxvGyRBmTzOFRR7Ft9V5Z4taCCUpCOcGdj5ZpGdqtGTUpUbLB"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Bella Julia",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

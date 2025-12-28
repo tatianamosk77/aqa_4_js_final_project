@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 18:53:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "190",
+    "etag": "W/\"be-zLMr4W7c3iIHBuhiT6/Wi4j4JaY\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Bike91112",
+      "amount": 100,
+      "price": 78263,
+      "manufacturer": "Sony",
+      "createdOn": "2025-12-28T18:53:33.000Z",
+      "_id": "69517cad1c508c5d5e3c7fd5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 18:53:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-DvjlKJvA5g1zDYTRKC0hMWhr0Zw\"",
+    "keep-alive": "timeout=5, max=70",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69517c9b1c508c5d5e3c788b",
+        "email": "Cathryn_Homenick75@yahoo.com",
+        "name": "Devin Coralie",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 606,
+        "flat": 3557,
+        "phone": "+2919018376",
+        "createdOn": "2025-12-28T18:53:15.000Z",
+        "notes": "e6CvijB9VEzW907AgwOoIbFlhLTJYlsc1Kh23mqw7FY8wJ24sl0PSAyKoHdtyzvqiuBDys1FUszkNNeMd3dH3kF3MXvph0cskgSqJGLRMPqkczDRlqWktNhZstLTfDMuJ7Aw9wUJxZc8o6oVm9tgiQM9LmsBubdVXpipManCj70UrwIWdoy3cQ7xtfZF6u894uo0QsU1M1fqqATBZRmofL5Lti6UIoMI4clx5ME73tfLSxTD8KVH7ySQL9"
+      },
+      "products": [
+        {
+          "_id": "69517c9c1c508c5d5e3c78ad",
+          "name": "Keyboard23137",
+          "amount": 719,
+          "price": 20675,
+          "manufacturer": "Google",
+          "notes": "CBwTLegsxEmWQc73JUoqI8fpgZYcBhPEXROGJTEsu92vQxeoStHlz8oUUlllJ7pgPDtZtzYiJo6OMVQcNZhha4k4WtKPYngyjffRiGr5naFCttVbNJJizsJctPnyG8bm4f9DEViIYwhttvzPZh7PHEuRZ2k1vUoyBs3avEIiNivxhj5znxryQQEzLDLC4lslBmpadOryno28Fxn5nqxOK9rxTR233xI9nZTysBzZAa3csS1Trqev9MBeze",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 20675,
+      "createdOn": "2025-12-28T18:53:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69517c9b1c508c5d5e3c788b",
+          "products": [
+            {
+              "_id": "69517c9c1c508c5d5e3c78ad",
+              "name": "Keyboard23137",
+              "amount": 719,
+              "price": 20675,
+              "manufacturer": "Google",
+              "notes": "CBwTLegsxEmWQc73JUoqI8fpgZYcBhPEXROGJTEsu92vQxeoStHlz8oUUlllJ7pgPDtZtzYiJo6OMVQcNZhha4k4WtKPYngyjffRiGr5naFCttVbNJJizsJctPnyG8bm4f9DEViIYwhttvzPZh7PHEuRZ2k1vUoyBs3avEIiNivxhj5znxryQQEzLDLC4lslBmpadOryno28Fxn5nqxOK9rxTR233xI9nZTysBzZAa3csS1Trqev9MBeze",
+              "received": false
+            }
+          ],
+          "total_price": 20675,
+          "delivery": null,
+          "changedOn": "2025-12-28T18:53:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69517c9c1c508c5d5e3c78cc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

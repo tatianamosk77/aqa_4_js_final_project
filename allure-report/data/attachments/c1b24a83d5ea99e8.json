@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 18:53:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-gtr+phDmHi7M8mS5JAaiJIXUlM0\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69517c921c508c5d5e3c756f",
+        "email": "Zelma_Morar@hotmail.com",
+        "name": "Kristian Jeanne",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 209,
+        "flat": 3741,
+        "phone": "+4295532396",
+        "createdOn": "2025-12-28T18:53:06.000Z",
+        "notes": "RCukV9rtfd6RFzlAv43NrOhduZAiD8CFvAkmb6iNjfJFmHD28XVF2WavQEDIgL0ps4UYmu8LfQWR8lUBehSvA5R6NYyuvuKtfDKDgJTGLi9j4zW2w0FJWGlXhu4ScmftLw2w8zFgmY76O8em0169NvpvMT0wtbuneFa96CbdIIpsLWQhMLjyGYoljdsbiENFCOcgvBPkyeajM5LXvt4MCnlmKi2omunNT616wp4apjaNZAvWF0P5QgLR9U"
+      },
+      "products": [
+        {
+          "_id": "69517c931c508c5d5e3c7583",
+          "name": "Keyboard4028",
+          "amount": 395,
+          "price": 54897,
+          "manufacturer": "Xiaomi",
+          "notes": "W7Nt1cFVqqKUpi0NXI1EI6n4PYkFGx5bObfs14021Yv16QwNygd7m1Q6QH9cDdfaCSpR9IvXN8fBtWhpMOaujSQ3if1OjevaTDDdQXjjXvlju37IG1y3U1I3urj2tkNIFMJB0egT2agXGfHJANtYRoYLaCoHqHFaocwwDhSlwgDNKYY349P2WjF5k9BnY1vGCteN6Viuk07Ro3HR5uK350oeDZuEG5ODz4BTRSc9boYQ3aEGypyX67uplN",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 54897,
+      "createdOn": "2025-12-28T18:53:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69517c921c508c5d5e3c756f",
+          "products": [
+            {
+              "_id": "69517c931c508c5d5e3c7583",
+              "name": "Keyboard4028",
+              "amount": 395,
+              "price": 54897,
+              "manufacturer": "Xiaomi",
+              "notes": "W7Nt1cFVqqKUpi0NXI1EI6n4PYkFGx5bObfs14021Yv16QwNygd7m1Q6QH9cDdfaCSpR9IvXN8fBtWhpMOaujSQ3if1OjevaTDDdQXjjXvlju37IG1y3U1I3urj2tkNIFMJB0egT2agXGfHJANtYRoYLaCoHqHFaocwwDhSlwgDNKYY349P2WjF5k9BnY1vGCteN6Viuk07Ro3HR5uK350oeDZuEG5ODz4BTRSc9boYQ3aEGypyX67uplN",
+              "received": false
+            }
+          ],
+          "total_price": 54897,
+          "delivery": null,
+          "changedOn": "2025-12-28T18:53:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69517c931c508c5d5e3c7597"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

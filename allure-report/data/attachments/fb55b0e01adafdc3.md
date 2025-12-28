@@ -1,0 +1,119 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - img
+        - generic [ref=e7]: Sales Portal
+      - link "Home" [ref=e9] [cursor=pointer]:
+        - /url: "#/home"
+      - link "Orders" [ref=e11] [cursor=pointer]:
+        - /url: "#/orders"
+      - link "Products" [ref=e13] [cursor=pointer]:
+        - /url: "#/products"
+      - link "Customers" [ref=e15] [cursor=pointer]:
+        - /url: "#/customers"
+      - link "Managers" [ref=e17] [cursor=pointer]:
+        - /url: "#/managers"
+    - generic [ref=e19]:
+      - button " 5" [ref=e21] [cursor=pointer]:
+        - generic: 
+        - generic [ref=e22]: "5"
+      - button "" [ref=e23] [cursor=pointer]:
+        - generic: 
+      - link "User" [ref=e25] [cursor=pointer]:
+        - /url: "#/managers/undefined"
+        - strong [ref=e26]: User
+      - button "" [ref=e27] [cursor=pointer]:
+        - generic: 
+  - generic [ref=e28]:
+    - generic [ref=e30]:
+      - generic [ref=e31]:
+        - heading "Orders List" [level=2] [ref=e32]
+        - button "Create Order" [ref=e33] [cursor=pointer]
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - searchbox "Search" [ref=e36]
+          - button " Search" [disabled]:
+            - generic: 
+            - text: Search
+        - button " Filter" [ref=e37] [cursor=pointer]:
+          - generic: 
+          - text: Filter
+        - button "Export" [ref=e38] [cursor=pointer]
+    - generic [ref=e41]:
+      - table [ref=e43]:
+        - rowgroup [ref=e44]:
+          - row "Order Number  Email Price Delivery Status Assigned Manager Created On Actions" [ref=e45]:
+            - columnheader "Order Number " [ref=e46]:
+              - generic [ref=e47]:
+                - generic [ref=e48] [cursor=pointer]: Order Number
+                - generic [ref=e49]:
+                  - generic: 
+            - columnheader "Email" [ref=e50]:
+              - generic [ref=e52] [cursor=pointer]: Email
+            - columnheader "Price" [ref=e53]:
+              - generic [ref=e55] [cursor=pointer]: Price
+            - columnheader "Delivery" [ref=e56]:
+              - generic [ref=e58] [cursor=pointer]: Delivery
+            - columnheader "Status" [ref=e59]:
+              - generic [ref=e61] [cursor=pointer]: Status
+            - columnheader "Assigned Manager" [ref=e62]:
+              - generic [ref=e64] [cursor=pointer]: Assigned Manager
+            - columnheader "Created On" [ref=e65]:
+              - generic [ref=e67] [cursor=pointer]: Created On
+            - columnheader "Actions" [ref=e68]
+        - rowgroup [ref=e69]:
+          - row "ded63ffc293d1f12e4eaed1c Bettye.Mitchell63@yahoo.com $84552 - Received - 2025/12/28 01:27:50 " [ref=e70]:
+            - cell "ded63ffc293d1f12e4eaed1c" [ref=e71]
+            - cell "Bettye.Mitchell63@yahoo.com" [ref=e72]
+            - cell "$84552" [ref=e73]
+            - cell "-" [ref=e74]
+            - cell "Received" [ref=e75]
+            - cell "-" [ref=e76]
+            - cell "2025/12/28 01:27:50" [ref=e77]
+            - cell "" [ref=e78]:
+              - link "" [ref=e79] [cursor=pointer]:
+                - /url: "#/orders/ded63ffc293d1f12e4eaed1c"
+                - generic: 
+          - row "c67a8c9bf6fdc2c33323dee8 Rhiannon_Gottlieb@yahoo.com $1904 - Draft - 2025/12/28 00:31:50 " [ref=e80]:
+            - cell "c67a8c9bf6fdc2c33323dee8" [ref=e81]
+            - cell "Rhiannon_Gottlieb@yahoo.com" [ref=e82]
+            - cell "$1904" [ref=e83]
+            - cell "-" [ref=e84]
+            - cell "Draft" [ref=e85]
+            - cell "-" [ref=e86]
+            - cell "2025/12/28 00:31:50" [ref=e87]
+            - cell "" [ref=e88]:
+              - link "" [ref=e89] [cursor=pointer]:
+                - /url: "#/orders/c67a8c9bf6fdc2c33323dee8"
+                - generic: 
+          - row "5adcb597cccc9299dcf24ba0 Bernadine21@hotmail.com $62442 - Partially Received - 2025/12/28 00:39:32 " [ref=e90]:
+            - cell "5adcb597cccc9299dcf24ba0" [ref=e91]
+            - cell "Bernadine21@hotmail.com" [ref=e92]
+            - cell "$62442" [ref=e93]
+            - cell "-" [ref=e94]
+            - cell "Partially Received" [ref=e95]
+            - cell "-" [ref=e96]
+            - cell "2025/12/28 00:39:32" [ref=e97]
+            - cell "" [ref=e98]:
+              - link "" [ref=e99] [cursor=pointer]:
+                - /url: "#/orders/5adcb597cccc9299dcf24ba0"
+                - generic: 
+      - generic [ref=e100]:
+        - generic [ref=e101]:
+          - generic [ref=e102]: "Items on page:"
+          - combobox [ref=e103]:
+            - option "10" [selected]
+            - option "25"
+            - option "50"
+            - option "100"
+        - generic [ref=e104]:
+          - button "" [disabled]:
+            - generic: 
+          - button "1" [ref=e105] [cursor=pointer]
+          - button "" [disabled]:
+            - generic: 
+```

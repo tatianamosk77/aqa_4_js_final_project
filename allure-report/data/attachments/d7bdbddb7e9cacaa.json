@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 18:53:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "100",
+    "etag": "W/\"64-E4IbXEvy8BnvNA4sftwrtIkLqQA\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "IsSuccess": false,
+    "ErrorMessage": "Customer with email 'Keely_Predovic59@yahoo.com' already exists"
+  }
+}

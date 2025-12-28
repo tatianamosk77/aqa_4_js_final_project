@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 18:52:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "678",
+    "etag": "W/\"2a6-3G+hQBjBbUdJmKt/6Ue7du4xhU0\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "69517c871c508c5d5e3c7302",
+        "email": "Jennyfer71@gmail.com",
+        "name": "Lysanne Carissa",
+        "country": "France",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 945,
+        "flat": 6822,
+        "phone": "+8717066197",
+        "createdOn": "2025-12-28T18:52:55.000Z",
+        "notes": "2j6fzZPBQJTpTWk1QZlRZ8DtRi76xI2Zx9wfCP1fQWlAyZeOqshbt6Z5dPkVj16LxC0U2Is5H41rWJI5jpdVs9RH82DK6P2MFIUrfjD1TFfazBYQkdYLxunJPDJMKhNK40Ady9hUKGErDYFfjxa3ZpOQ3C8rzWcb6IyXytTqSZg2gEQiQGLCr3ubnKtCskhNjE3D1l1xrOmkSz95xvKoMx3loIKk6ZL05bHwswfI0jQaSg32X4EeLFaJaw"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Jennyfer71@gmail.com",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

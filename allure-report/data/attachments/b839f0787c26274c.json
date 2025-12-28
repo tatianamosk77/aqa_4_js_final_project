@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 18:53:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-8il8VgKkn/Hcte7XGIr6EtcWSn0\"",
+    "keep-alive": "timeout=5, max=62",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69517c961c508c5d5e3c76bb",
+        "email": "Evans.Considine31@hotmail.com",
+        "name": "Beth Letha",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 265,
+        "flat": 9512,
+        "phone": "+8097768952",
+        "createdOn": "2025-12-28T18:53:10.000Z",
+        "notes": "9YSAQRer9fofFjB1l8mEGcLP2cPnfqQK8an4XkG6q9ZR5hJfknY0HSwV3fhFZMj5zhxWgjpzflAvY8zjwjnDfO2gnjpfZkYdXfbdJXkWIgk7y555jetOoyJeIeYJSAldXXooqU7IFKGCgxzjrW9oSLo17koeE1xw8xaW4wIcUergx6ypMnA1GkJtSAaSmqTIHMR4JVbD2cCNwEfTiXBinFIYSdMvOL25UkTvL6jsmc6I0BF6HTMun8IBlt"
+      },
+      "products": [
+        {
+          "_id": "69517c961c508c5d5e3c76c9",
+          "name": "Bike56539",
+          "amount": 679,
+          "price": 75490,
+          "manufacturer": "Samsung",
+          "notes": "PfZd4uUeOdBLxF7TalaAt5pC7yXXaKUrYPypXdKPxRg20Kz7nFU7jiNhwXNz2x8wEP9CuiTXI4TUArzibaso7uDtuu1Ouy6xTejD6mxG70PRkh9otS4EDNlFiID0EXH7PPF2IK7UaA4SmPX6I0POKX7lRSHochZKLBdr7HILkqV8es44A61QNGWYl69hlc2xLIoL9GJNoW5Pq4vXM2cA66e1EzINdNYTeDVlI9NrhJU1PRGQE59gllENmC",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 75490,
+      "createdOn": "2025-12-28T18:53:11.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69517c961c508c5d5e3c76bb",
+          "products": [
+            {
+              "_id": "69517c961c508c5d5e3c76c9",
+              "name": "Bike56539",
+              "amount": 679,
+              "price": 75490,
+              "manufacturer": "Samsung",
+              "notes": "PfZd4uUeOdBLxF7TalaAt5pC7yXXaKUrYPypXdKPxRg20Kz7nFU7jiNhwXNz2x8wEP9CuiTXI4TUArzibaso7uDtuu1Ouy6xTejD6mxG70PRkh9otS4EDNlFiID0EXH7PPF2IK7UaA4SmPX6I0POKX7lRSHochZKLBdr7HILkqV8es44A61QNGWYl69hlc2xLIoL9GJNoW5Pq4vXM2cA66e1EzINdNYTeDVlI9NrhJU1PRGQE59gllENmC",
+              "received": false
+            }
+          ],
+          "total_price": 75490,
+          "delivery": null,
+          "changedOn": "2025-12-28T18:53:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69517c971c508c5d5e3c76de"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

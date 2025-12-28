@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 18:53:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-yNIfNwtelgKORU2D4hweIJI5QVA\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69517c921c508c5d5e3c7577",
+        "email": "Alysa.Bartoletti2@hotmail.com",
+        "name": "Deborah Callie",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 674,
+        "flat": 8264,
+        "phone": "+1169643762",
+        "createdOn": "2025-12-28T18:53:06.000Z",
+        "notes": "84kxa7V0GGxlIFICGwK7Deacp56X9wNvyEAsw2pWVWkgkuF6TdpySkQH9NA4RdEPcxbJPWOkxUzv9pBlpwkMEIiWBL8EMFXKjq0kt09dyCN6xHvGSZIZdbWNL2SWUOlXpXoLHIr6Cdw7Zm7eFAe8PFhGJzj93Zv67UQLv20WTXVNJJvAF4mTrKJ4MMCptWYSq9k6Jnu7tvIo9sq5vYedTLzZQIxpzE7b5HcOJR4SPKDKBwEInICcJ04tYI"
+      },
+      "products": [
+        {
+          "_id": "69517c931c508c5d5e3c759a",
+          "name": "Shoes57324",
+          "amount": 673,
+          "price": 44873,
+          "manufacturer": "Microsoft",
+          "notes": "SCeG1cgkxAgPu16sBwU5Q2gr4TuzMXcffqopczutkcCvfh5lLNKvCdfPto7giORvLbvVqKwZIgB191PHwBFUBMkWwzQiKGhETN6HDTCCsC7HuPOLpuCWSRAi5Tps7LkuRiqPxmp8ytgCMDAHRSmMAJOWKYjG7LZgfkupB465xiJlPxsiywihk5rg4OxpQRWlDlkBAOQGhX4OgE4h91z2Nw3lYXcnjJzuQRrgvjgNfow8ThRXMFbjczvRVo",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 44873,
+      "createdOn": "2025-12-28T18:53:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69517c921c508c5d5e3c7577",
+          "products": [
+            {
+              "_id": "69517c931c508c5d5e3c759a",
+              "name": "Shoes57324",
+              "amount": 673,
+              "price": 44873,
+              "manufacturer": "Microsoft",
+              "notes": "SCeG1cgkxAgPu16sBwU5Q2gr4TuzMXcffqopczutkcCvfh5lLNKvCdfPto7giORvLbvVqKwZIgB191PHwBFUBMkWwzQiKGhETN6HDTCCsC7HuPOLpuCWSRAi5Tps7LkuRiqPxmp8ytgCMDAHRSmMAJOWKYjG7LZgfkupB465xiJlPxsiywihk5rg4OxpQRWlDlkBAOQGhX4OgE4h91z2Nw3lYXcnjJzuQRrgvjgNfow8ThRXMFbjczvRVo",
+              "received": false
+            }
+          ],
+          "total_price": 44873,
+          "delivery": null,
+          "changedOn": "2025-12-28T18:53:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69517c931c508c5d5e3c75b7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

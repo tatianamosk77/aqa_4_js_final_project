@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 18:53:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3430",
+    "etag": "W/\"d66-I9jIgR5FCa6tVy3SN2GVghbOld0\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69517ca51c508c5d5e3c7c82",
+        "email": "Alden_Zulauf@gmail.com",
+        "name": "Kaylie Darion",
+        "country": "France",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 878,
+        "flat": 3335,
+        "phone": "+5372053567",
+        "createdOn": "2025-12-28T18:53:25.000Z",
+        "notes": "HHrl7rvH5srv0PndSS3Slsdt0RZ9lbl2Z2EQEWFn3Nzsq5LJt8MRosvHAylrC7SNjcORGCxYSeJhOoMhoDvZ4Bdij2IryREvXXkTm8mkuowgltIi2hOdojIYoabkf5bzk8P4Evbfx6tmU9YFmWKCCp8vC92uGMClawcWqx3xMUHjakGZJkhKC66qEy2Rv0O379VPF1qeasxEGPWsQArFhjgEsvuQc0aPCxBhp27sweTuX4N0lQqScsJbEy"
+      },
+      "products": [
+        {
+          "_id": "69517ca51c508c5d5e3c7c88",
+          "name": "Bacon72824",
+          "amount": 500,
+          "price": 74119,
+          "manufacturer": "Microsoft",
+          "notes": "LBnxFPUcyfdZgeJXiKmGQ6IfaISxSUxCN8IqwF1iCesLbJG05BQ8Vvqnf0kIeyULeILKyVGrcAUhxTBRokQZedNUnw05Lc3dwGWjCC2HDb2YEHkVcnDSGHpU78WUH0k7NcZUmaJVmMWB8Y4GKLABaTIoI9KIRUekxlmjOqqHS2PlBB6MD2QXyrVu5LwnKUZ0YuUcIYwgSO3Ww1Thzebu9oL01bm0qwU1DAA40bZwqAjdHLlDMmalWagfki",
+          "received": false
+        },
+        {
+          "_id": "69517ca51c508c5d5e3c7c8a",
+          "name": "Cheese83199",
+          "amount": 975,
+          "price": 95056,
+          "manufacturer": "Microsoft",
+          "notes": "aAQUJXpw2W8R2h3J1KacMpQSKJZTf4fuLWTZANw9NBHHsCsNYss8OrEddqqkh8iPTVI5yqq9cXwjc5g1cV3MnEX1GzpoOZD3vW1ggThrgED68z5Sk6BGrICQp84IcD6XF2nmFr3MkdXJbFDHL7sGlPpfxBdxqvATj7CcWEwqzQzCTc4GtIv8aEywTwrNFL76tsrkrh6I6nreyh1a2x37COIwuaPq1sC8qVnG5XMalmdYJ1UO2QMIRVJQ5L",
+          "received": false
+        },
+        {
+          "_id": "69517ca51c508c5d5e3c7c8c",
+          "name": "Computer5714",
+          "amount": 778,
+          "price": 80637,
+          "manufacturer": "Google",
+          "notes": "UrS6pqarGqkL0XzfcKYA5WcBwxdAM4v9iIbFA4Xu5IQRbh4DJmMvHIzelizMvUDKdvXBlhFuGcDpuE6xuUQr5JJquh4sW6CqXQMo5NjXRn4jEBK8tvcwOLpSDbng3jqE74S5b5f9v5izWORCV67y4Y3dSkSlSAg8xqAm2eVuvQDivPjdTVCVVytzSqjISAbsIJQ2Q8IE65ezepLkqE98CgKGFR32KsucP1e7xBz7XhcYgPwfdPeRh6dZPr",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 249812,
+      "createdOn": "2025-12-28T18:53:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69517ca51c508c5d5e3c7c82",
+          "products": [
+            {
+              "_id": "69517ca51c508c5d5e3c7c88",
+              "name": "Bacon72824",
+              "amount": 500,
+              "price": 74119,
+              "manufacturer": "Microsoft",
+              "notes": "LBnxFPUcyfdZgeJXiKmGQ6IfaISxSUxCN8IqwF1iCesLbJG05BQ8Vvqnf0kIeyULeILKyVGrcAUhxTBRokQZedNUnw05Lc3dwGWjCC2HDb2YEHkVcnDSGHpU78WUH0k7NcZUmaJVmMWB8Y4GKLABaTIoI9KIRUekxlmjOqqHS2PlBB6MD2QXyrVu5LwnKUZ0YuUcIYwgSO3Ww1Thzebu9oL01bm0qwU1DAA40bZwqAjdHLlDMmalWagfki",
+              "received": false
+            },
+            {
+              "_id": "69517ca51c508c5d5e3c7c8a",
+              "name": "Cheese83199",
+              "amount": 975,
+              "price": 95056,
+              "manufacturer": "Microsoft",
+              "notes": "aAQUJXpw2W8R2h3J1KacMpQSKJZTf4fuLWTZANw9NBHHsCsNYss8OrEddqqkh8iPTVI5yqq9cXwjc5g1cV3MnEX1GzpoOZD3vW1ggThrgED68z5Sk6BGrICQp84IcD6XF2nmFr3MkdXJbFDHL7sGlPpfxBdxqvATj7CcWEwqzQzCTc4GtIv8aEywTwrNFL76tsrkrh6I6nreyh1a2x37COIwuaPq1sC8qVnG5XMalmdYJ1UO2QMIRVJQ5L",
+              "received": false
+            },
+            {
+              "_id": "69517ca51c508c5d5e3c7c8c",
+              "name": "Computer5714",
+              "amount": 778,
+              "price": 80637,
+              "manufacturer": "Google",
+              "notes": "UrS6pqarGqkL0XzfcKYA5WcBwxdAM4v9iIbFA4Xu5IQRbh4DJmMvHIzelizMvUDKdvXBlhFuGcDpuE6xuUQr5JJquh4sW6CqXQMo5NjXRn4jEBK8tvcwOLpSDbng3jqE74S5b5f9v5izWORCV67y4Y3dSkSlSAg8xqAm2eVuvQDivPjdTVCVVytzSqjISAbsIJQ2Q8IE65ezepLkqE98CgKGFR32KsucP1e7xBz7XhcYgPwfdPeRh6dZPr",
+              "received": false
+            }
+          ],
+          "total_price": 249812,
+          "delivery": null,
+          "changedOn": "2025-12-28T18:53:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69517ca51c508c5d5e3c7c9d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
