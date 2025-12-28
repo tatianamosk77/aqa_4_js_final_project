@@ -1,6 +1,5 @@
 import {
   test as base,
-  expect,
   // Page
 } from "@playwright/test";
 import { AddNewCustomerPage } from "ui/pages/customers/addNewCustomerPage";
@@ -163,4 +162,3 @@ export const test = base.extend<IPages>({
     await use(new EditOrderUIService(page));
   },
 });
-export { expect };
