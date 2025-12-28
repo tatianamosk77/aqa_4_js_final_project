@@ -12,7 +12,7 @@ export const apiConfig = {
     customerOrders: (id: string) => `/api/customers/${id}/orders/`,
     customersAll: "/api/customers/all",
     metrics: "/api/metrics",
-    orders: "//api/orders",
+    orders: "/api/orders",
     orderById: (id: string) => `/api/orders/${id}/`,
     orderReceive: (id: string) => `/api/orders/${id}/receive`,
     orderDelivery: (id: string) => `/api/orders/${id}/delivery`,
