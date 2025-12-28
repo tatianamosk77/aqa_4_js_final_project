@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:15:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-dbv0AoZ1i4wA/m3oCRtdHoLMeI0\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695181b51c508c5d5e3d343a",
+        "email": "Reymundo.Bergnaum48@yahoo.com",
+        "name": "Ibrahim Lavada",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 271,
+        "flat": 8184,
+        "phone": "+9493861467",
+        "createdOn": "2025-12-28T19:15:01.000Z",
+        "notes": "pXCSLVmeNCbY6iz9tXx13Ia9uPHWwPrmz1OtKFUlWANCL6mZve2IvSAbcpZLqHdCs78DOQDrOldz5aywYAweNrkn0o4Iq892m4FdsvexKGs66Um4fkJ39ag6Hjms95WlkpPkf7xi45UFRovoI3S9K2fGBWvOXagIjatr0QjHjSndMF0IxfQwIJyXeIJPnzrgM3Vkl9agnGCwwGRURH0ZhTUxi1OMRiGGzmEEUT4BmXqddoySygIoyhjnys"
+      },
+      "products": [
+        {
+          "_id": "695181b51c508c5d5e3d3456",
+          "name": "Chair80448",
+          "amount": 364,
+          "price": 43117,
+          "manufacturer": "Samsung",
+          "notes": "4LFEwVNH8HkIbAAo3RdoA8RH4e0HvXbrDgUBIlitjZxOCgyE7m1zhTEHtoafvn4tF9cyi17KqkCeovxUZBw6i3wyac6FOVjAuBz2NUP9AUWlijheMRWDNaYHQ4dPawCDzjtq3iV5DX9RIJQv7AC89vMPm2ugV5gof7e5cbTXc9EOAgCFKHTCpKueySwgrQWEPxkVcNOiE22QoRWMS9TIKD1NCErdPKTTaiss3HsjLXX2K0EzKyEjcXD8t5",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 43117,
+      "createdOn": "2025-12-28T19:15:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695181b51c508c5d5e3d343a",
+          "products": [
+            {
+              "_id": "695181b51c508c5d5e3d3456",
+              "name": "Chair80448",
+              "amount": 364,
+              "price": 43117,
+              "manufacturer": "Samsung",
+              "notes": "4LFEwVNH8HkIbAAo3RdoA8RH4e0HvXbrDgUBIlitjZxOCgyE7m1zhTEHtoafvn4tF9cyi17KqkCeovxUZBw6i3wyac6FOVjAuBz2NUP9AUWlijheMRWDNaYHQ4dPawCDzjtq3iV5DX9RIJQv7AC89vMPm2ugV5gof7e5cbTXc9EOAgCFKHTCpKueySwgrQWEPxkVcNOiE22QoRWMS9TIKD1NCErdPKTTaiss3HsjLXX2K0EzKyEjcXD8t5",
+              "received": false
+            }
+          ],
+          "total_price": 43117,
+          "delivery": null,
+          "changedOn": "2025-12-28T19:15:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695181b61c508c5d5e3d3467"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

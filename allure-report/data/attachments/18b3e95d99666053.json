@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:17:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-SYN/yIasgbaGTQMA3uhNZCrGzOc\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Matteo.VonRueden@hotmail.com",
+      "name": "Kyra Savanah",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 675,
+      "flat": 8367,
+      "phone": "+2153215558",
+      "createdOn": "2025-12-28T19:17:19.000Z",
+      "notes": "tKfmlDmO4AZFBJ0YxXXpDNjRZm6gZWNmkDdeETw49WRg99LldV6bc3d9HGv4mh6sfv1NQgRw7wfKL7tiQWYSWHD6KKDxiYASlyiq7UawBNpJAQHhP7YHou0ce0oXQapzThezcWPQV7oH8Zz2hJBkFy5ArpviSHUY3oRykJf6sLwS05OOi2jlDG0uHUxxUeDbRl6rd5YQ48AAWucTPE7dQ44ni2ydUMNdBKlltobqcJTJE94T71urGfUIbg",
+      "_id": "6951823f1c508c5d5e3d78b1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

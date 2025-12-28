@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:16:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-D5XbqUNm3XO59bRgguT1JpMWrXA\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Antone.Blick@hotmail.com",
+      "name": "Drew Marcellus",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 967,
+      "flat": 2299,
+      "phone": "+4965667591",
+      "createdOn": "2025-12-28T19:16:43.000Z",
+      "notes": "ZIEVIKrFuZaYvxBDS5pnj5MyaiMX2WvSjo0NUeY62NuXmTNRLtJvOnE1PAbbPtoTWYMoiC3dV4FuakfFe9WV9gHh8WRc4uUotm7IjcXpuEQusUs8lZ6Pb4h8dzNvLs94I24yX9NGkInKKx5ez1yXZx6fjCOb3MMZKb1qlEsBCFNdMLMCD4e4yThHp0H1pe3W8TL8Pk6iJy84nQtWkEdGSEfjMxKgXCRbxWhOpk61Z87mClZeUDibYhfYvL",
+      "_id": "6951821b1c508c5d5e3d7293"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

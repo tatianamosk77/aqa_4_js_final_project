@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:15:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "200",
+    "etag": "W/\"c8-hFMJlBFaYb8YCYV7itbWBOM5lck\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Hat79118",
+      "amount": 375,
+      "price": 12243,
+      "manufacturer": "Sony",
+      "createdOn": "2025-12-28T19:15:39.000Z",
+      "notes": "",
+      "_id": "695181db1c508c5d5e3d4ae4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

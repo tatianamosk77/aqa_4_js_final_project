@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:14:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "674",
+    "etag": "W/\"2a2-pOd9pqesQ0eVO8L0CvZOXm8fLjc\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "695181911c508c5d5e3d1eef",
+        "email": "Whitney38@gmail.com",
+        "name": "Pattie Monserrat",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 216,
+        "flat": 1288,
+        "phone": "+2756737961",
+        "createdOn": "2025-12-28T19:14:25.000Z",
+        "notes": "yYsTwMWsywX95nqpPleTMEFaMnACMBafldYwi2fMdzFfDsf4xk76ZXsK8gfOMW2vq6bYEPeQ40HJXWVL3wJlAoi3oAQZxxDHabGXUDkEwTSeN9UOXInSTiBHjWMsISe5Pek6pLirnsFisnWCICj1UgFOr7nKYJU37oyA7AYirbEAB9oHoPHwMXxYXsV5AYg7HksRuT6wMgGW7fF2GawnUG3Z2mwsFSGMA91d8o17mIfBeorrvtI5VB5SBg"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Pattie Monserrat",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

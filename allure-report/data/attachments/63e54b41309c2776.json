@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:15:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-RFc3QHj1h3bhHoGSsQM9RXRLcpY\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Sheldon_Bode@gmail.com",
+      "name": "John Gunnar",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 791,
+      "flat": 2379,
+      "phone": "+3272164863",
+      "createdOn": "2025-12-28T19:15:20.000Z",
+      "notes": "45jV4BxMEjIsdqQbEowOLoybXy4GqeNCHGmk0ZBKMkGTXW1TAkk7bmqqzzuOL1wmg6SNo0zLBQF5HessR31hNNXLadhd70RsV851dS7iAwt6ssN8tidnxTfde3Y1mnRqrm9stQhBnNyQ6HCY2lxijhPFN0MG3t7PrPCnE0upL88g658HJ3S7DqO7PBh9XS5qtGxiEsns8vzgCNXG76QH5MhMVlKnDX0xN4AobwelWClw8NccNYDSIZxUNT",
+      "_id": "695181c81c508c5d5e3d3f1d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

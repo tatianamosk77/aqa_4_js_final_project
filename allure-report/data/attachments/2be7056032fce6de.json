@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:15:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1879",
+    "etag": "W/\"757-HhlK2xjnDgf4UWJoeZnjeUVAmTM\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695181c81c508c5d5e3d3f44",
+        "email": "Eleazar_Walter@hotmail.com",
+        "name": "Amiya Tod",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 484,
+        "flat": 2118,
+        "phone": "+2900458934",
+        "createdOn": "2025-12-28T19:15:20.000Z",
+        "notes": "ZSnr7YJHv9nd2IsQ6YecY2Igl3qlpRylY75AY27OL2GRr27d1JA7ida9C0u5mDe6CxhCD5dZYCIi4qETOCYuxAIaUeIrfjV1WkEwVZGKR62fNiAU5meuKYXIBNkLwI7yJaaSt34ooEyMzFL4N5ewvuA0ag3y60WPftYvOSOlV5gWDHNk4lqdU3kcADJGdxAJKZzDEUOrVftgErEmP7Ks8446MFg3nkypMgRUlFw440IhobvpVorNoIm91g"
+      },
+      "products": [
+        {
+          "_id": "695181c81c508c5d5e3d3f5e",
+          "name": "Chicken23428",
+          "amount": 734,
+          "price": 92137,
+          "manufacturer": "Google",
+          "notes": "HQSPoIdzim8MKx80uiEryhg9cHD5Jt2NPUByvkbjZxYwmWhXr6r2EDvYaRO7CyZnXIPokG6KF4QYDjkzlU0zqTpnjEbNP19dGP17n4yoEiQhCuTBakZSt5vGK3yh01VKCH6zfM4NUr8kmlu760R5Usv8oXodLhD37nkpMCj3rO1rB7ZaW42240hWFBvkhWmCrz0HyAVTC9syFmu8LEl1xWw53MMujDygRaaahurjilRdq4Voy7t6IDKLd8",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 92137,
+      "createdOn": "2025-12-28T19:15:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695181c81c508c5d5e3d3f44",
+          "products": [
+            {
+              "_id": "695181c81c508c5d5e3d3f5e",
+              "name": "Chicken23428",
+              "amount": 734,
+              "price": 92137,
+              "manufacturer": "Google",
+              "notes": "HQSPoIdzim8MKx80uiEryhg9cHD5Jt2NPUByvkbjZxYwmWhXr6r2EDvYaRO7CyZnXIPokG6KF4QYDjkzlU0zqTpnjEbNP19dGP17n4yoEiQhCuTBakZSt5vGK3yh01VKCH6zfM4NUr8kmlu760R5Usv8oXodLhD37nkpMCj3rO1rB7ZaW42240hWFBvkhWmCrz0HyAVTC9syFmu8LEl1xWw53MMujDygRaaahurjilRdq4Voy7t6IDKLd8",
+              "received": false
+            }
+          ],
+          "total_price": 92137,
+          "delivery": null,
+          "changedOn": "2025-12-28T19:15:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695181c91c508c5d5e3d3f71"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

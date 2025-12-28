@@ -1,0 +1,161 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:15:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4148",
+    "etag": "W/\"1034-mt2eIBGRd4XMl7nR5MuY0Us7LrI\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695181c01c508c5d5e3d3a6e",
+      "status": "Draft",
+      "customer": {
+        "_id": "695181c11c508c5d5e3d3ae9",
+        "email": "Russell_Weimann96@gmail.com",
+        "name": "Jerry Emil",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 214,
+        "flat": 4448,
+        "phone": "+4053745813",
+        "createdOn": "2025-12-28T19:15:13.000Z",
+        "notes": "4XREXQArr0wektjADAPyQtTcJ8Bl417P0bhN5J21FHRUKDQgEqHu12i4YgofBmFPwwXk4LDeBYKfLvArnho5zkodxk8Nz4rYJ7bzHPjfZ1GzlEzJdS7WeCFRHnWSv77A35hKKuFgFjLuvwoGQXGz9g3BJuN3BJqLkJ1Z908wjPredtMPDulfM5cErCLzT348Ltq9mGcrYC47ejwcs0aBu71fIIM2pxjXUZc1ltsAAR0NS5Jbv6DBGjxqu7"
+      },
+      "products": [
+        {
+          "_id": "695181c11c508c5d5e3d3afa",
+          "name": "Shoes64450",
+          "amount": 636,
+          "price": 78708,
+          "manufacturer": "Tesla",
+          "notes": "uMAt4mnsSQlPeBul09N7ZSB7zaV8IqbTuSfpe6YllE3F2KlgLEiWBkKwbt9bwLEcgnzLkzO4JG3bgmCqdJbLfcfwFrebB18N7JCw6tZp8RLlwaHX5RjbSSEVB1xNO32waisio2SFXKcP4yEnkDTs9RS4zMjMtX9acqfMv1nlKk4xZKemuIzkFpLsiPqIeyQQFpfxBKupDt4A27IwaQYVQ3hukAOX1h6SI9dMR8LSs7xMZdEeqhvcIdjzxX",
+          "received": false
+        },
+        {
+          "_id": "695181c21c508c5d5e3d3b39",
+          "name": "Gloves30384",
+          "amount": 841,
+          "price": 72518,
+          "manufacturer": "Tesla",
+          "notes": "BWEtRwAMl1nkWjWeY7lxtwGcngh6j1oCeMpkQGR1IJv3Aes0mjqxN5r5ReWZx3WjpQ1omfe0odMOdJuYNfKUBOQFZKhTG7c77sJWnnnRX5GNydi2DXsbkuSsMESmNb5Z9R02LVIRQufaysIDhBrKUduoy6MKlWuyJT6jpw58LBNKBBOI6q4ArYc2m5IEAt31HSJYwLyt6uHGnXBIYHt2LInA77dgfxfisQqacEuRbaZuaSbdm0GgWsQuBm",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 151226,
+      "createdOn": "2025-12-28T19:15:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695181c11c508c5d5e3d3ae9",
+          "products": [
+            {
+              "_id": "695181c01c508c5d5e3d3a51",
+              "name": "Hat68342",
+              "amount": 951,
+              "price": 23027,
+              "manufacturer": "Tesla",
+              "notes": "tP4lQQzrvp8431yNv6SeAis6pDIKagjAtAjpzxFmF1FT5pMfx0S2qXlj3dNlB5WtO4CBJvscVluRpE14krD9V5K6Dm6chZyefouDA2zAjRQ7XtcVCxftvxf9VdrJCv4L8ylLn8GZeYpoAJvJIGbDiICh15QlTfA8OABejKJ7fiSxz5gsdopbBBPBv53wTsplG1UZHNjuRlaRLaD89yxGVnjFuBIJDBW70F1r78uObFWHhQGyitO8XG3R2L",
+              "received": false
+            }
+          ],
+          "total_price": 151226,
+          "delivery": null,
+          "changedOn": "2025-12-28T19:15:14.000Z",
+          "action": "Customer changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695181c01c508c5d5e3d3a21",
+          "products": [
+            {
+              "_id": "695181c11c508c5d5e3d3afa",
+              "name": "Shoes64450",
+              "amount": 636,
+              "price": 78708,
+              "manufacturer": "Tesla",
+              "notes": "uMAt4mnsSQlPeBul09N7ZSB7zaV8IqbTuSfpe6YllE3F2KlgLEiWBkKwbt9bwLEcgnzLkzO4JG3bgmCqdJbLfcfwFrebB18N7JCw6tZp8RLlwaHX5RjbSSEVB1xNO32waisio2SFXKcP4yEnkDTs9RS4zMjMtX9acqfMv1nlKk4xZKemuIzkFpLsiPqIeyQQFpfxBKupDt4A27IwaQYVQ3hukAOX1h6SI9dMR8LSs7xMZdEeqhvcIdjzxX",
+              "received": false
+            },
+            {
+              "_id": "695181c21c508c5d5e3d3b39",
+              "name": "Gloves30384",
+              "amount": 841,
+              "price": 72518,
+              "manufacturer": "Tesla",
+              "notes": "BWEtRwAMl1nkWjWeY7lxtwGcngh6j1oCeMpkQGR1IJv3Aes0mjqxN5r5ReWZx3WjpQ1omfe0odMOdJuYNfKUBOQFZKhTG7c77sJWnnnRX5GNydi2DXsbkuSsMESmNb5Z9R02LVIRQufaysIDhBrKUduoy6MKlWuyJT6jpw58LBNKBBOI6q4ArYc2m5IEAt31HSJYwLyt6uHGnXBIYHt2LInA77dgfxfisQqacEuRbaZuaSbdm0GgWsQuBm",
+              "received": false
+            }
+          ],
+          "total_price": 151226,
+          "delivery": null,
+          "changedOn": "2025-12-28T19:15:14.000Z",
+          "action": "Requested products changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695181c01c508c5d5e3d3a21",
+          "products": [
+            {
+              "_id": "695181c01c508c5d5e3d3a51",
+              "name": "Hat68342",
+              "amount": 951,
+              "price": 23027,
+              "manufacturer": "Tesla",
+              "notes": "tP4lQQzrvp8431yNv6SeAis6pDIKagjAtAjpzxFmF1FT5pMfx0S2qXlj3dNlB5WtO4CBJvscVluRpE14krD9V5K6Dm6chZyefouDA2zAjRQ7XtcVCxftvxf9VdrJCv4L8ylLn8GZeYpoAJvJIGbDiICh15QlTfA8OABejKJ7fiSxz5gsdopbBBPBv53wTsplG1UZHNjuRlaRLaD89yxGVnjFuBIJDBW70F1r78uObFWHhQGyitO8XG3R2L",
+              "received": false
+            }
+          ],
+          "total_price": 23027,
+          "delivery": null,
+          "changedOn": "2025-12-28T19:15:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

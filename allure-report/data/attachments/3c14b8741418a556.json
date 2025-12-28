@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:14:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "536",
+    "etag": "W/\"218-O+xAcLWENJg6bqGd+7J3476eie8\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Moises.Rau@yahoo.com",
+      "name": "Fred Adah",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "K",
+      "house": 836,
+      "flat": 254,
+      "phone": "+9611825312",
+      "createdOn": "2025-12-28T19:14:09.000Z",
+      "notes": "p4OuACoy2qA1yg5onhHvh9LkmuzGfrcG5dGuf58aDuFwnZ0LNsg7T01sapVQCRnSmujn0rpwgTUezZ6Q8Y5v2HxggEZhqlErz74NlHRjZbhaMKpLzSJMSsJ7d3sucyeWLFOZUqtBRtCK60bWpdhaLy2g3y2iY05mv5ITTitWOOlSkzv1IY17wMLywKyghftUZV41FNvzVLkQYpw9tCNF2Tcv9XuvpNHVCet9QWawZJaCTN8MFMZVyGyAWd",
+      "_id": "695181811c508c5d5e3d1732"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

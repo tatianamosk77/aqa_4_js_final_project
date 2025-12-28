@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:15:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1874",
+    "etag": "W/\"752-0ayfrK5B6kftr79R/ru0yspEg6g\"",
+    "keep-alive": "timeout=5, max=67",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695181b71c508c5d5e3d350e",
+      "status": "Draft",
+      "customer": {
+        "_id": "695181b61c508c5d5e3d349b",
+        "email": "Peter19@hotmail.com",
+        "name": "Alec Beatrice",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 665,
+        "flat": 8494,
+        "phone": "+8356353706",
+        "createdOn": "2025-12-28T19:15:02.000Z",
+        "notes": "XcQlxhcxRbsaWjEPtkij5tBb7jkQjIGQc9GPxZR5VB5DLwiulFTjHoJ07CC5xD5kJBlSbCP0TDBBRsSpJGfBrtJaLan8PZHzFtzpMDN7l914AynAsT63xnrK1oDM8xPS3w1HPaQ7NhPmKdadvlGMJTQWQmE5ZAMs888I4ukrU8YldEnv0OcwokXFLYWClOvaNVuXdWdqFYpqwPdIFtPN45kcFpdcN7LOTnd2P0IoIEjSzIRze4d2I5eiHM"
+      },
+      "products": [
+        {
+          "_id": "695181b61c508c5d5e3d34dc",
+          "name": "Keyboard9066",
+          "amount": 46,
+          "price": 67010,
+          "manufacturer": "Google",
+          "notes": "tYkN4h37upUiCQJh2SLym0nLZbGGYk5z8wcYI1goxZkVDLaXz6arSj9OwI4EbFJCv1XYjP9m30mMyOuRAXDXeDKp6IiMpdkIXs5kN1v1RpdtW7asHX4MGrFo7OYUCAOi9l94h1j8UiNkELTogpdoKQtJW8deRQ29liF0g09NdUU4rZ1NuiMXTHkDs52UjdMLLU2sH2lao1xEebFWsUOA7e2gW3KTOyswuBNUvLehsAwcl39IQI8waZKpU5",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 67010,
+      "createdOn": "2025-12-28T19:15:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695181b61c508c5d5e3d349b",
+          "products": [
+            {
+              "_id": "695181b61c508c5d5e3d34dc",
+              "name": "Keyboard9066",
+              "amount": 46,
+              "price": 67010,
+              "manufacturer": "Google",
+              "notes": "tYkN4h37upUiCQJh2SLym0nLZbGGYk5z8wcYI1goxZkVDLaXz6arSj9OwI4EbFJCv1XYjP9m30mMyOuRAXDXeDKp6IiMpdkIXs5kN1v1RpdtW7asHX4MGrFo7OYUCAOi9l94h1j8UiNkELTogpdoKQtJW8deRQ29liF0g09NdUU4rZ1NuiMXTHkDs52UjdMLLU2sH2lao1xEebFWsUOA7e2gW3KTOyswuBNUvLehsAwcl39IQI8waZKpU5",
+              "received": false
+            }
+          ],
+          "total_price": 67010,
+          "delivery": null,
+          "changedOn": "2025-12-28T19:15:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:15:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-5GpcILBpQPZXsJTTAUuAqpOE940\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Peter19@hotmail.com",
+      "name": "Alec Beatrice",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 665,
+      "flat": 8494,
+      "phone": "+8356353706",
+      "createdOn": "2025-12-28T19:15:02.000Z",
+      "notes": "XcQlxhcxRbsaWjEPtkij5tBb7jkQjIGQc9GPxZR5VB5DLwiulFTjHoJ07CC5xD5kJBlSbCP0TDBBRsSpJGfBrtJaLan8PZHzFtzpMDN7l914AynAsT63xnrK1oDM8xPS3w1HPaQ7NhPmKdadvlGMJTQWQmE5ZAMs888I4ukrU8YldEnv0OcwokXFLYWClOvaNVuXdWdqFYpqwPdIFtPN45kcFpdcN7LOTnd2P0IoIEjSzIRze4d2I5eiHM",
+      "_id": "695181b61c508c5d5e3d349b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

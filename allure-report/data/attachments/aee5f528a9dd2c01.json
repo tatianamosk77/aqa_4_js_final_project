@@ -1,0 +1,179 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:14:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4114",
+    "etag": "W/\"1012-3JYUf57Ib4SZGA9dD8F4WDDHJxM\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Orders": [
+      {
+        "_id": "695181901c508c5d5e3d1ed4",
+        "status": "Draft",
+        "customer": "6951818f1c508c5d5e3d1e68",
+        "products": [
+          {
+            "_id": "695181901c508c5d5e3d1ec1",
+            "name": "Salad27117",
+            "amount": 154,
+            "price": 18712,
+            "manufacturer": "Sony",
+            "notes": "Cu5TWB5pdQv2XPC2fVVepS6eWmvwmjH5CYNe577hUoEBmDWD6vNDhBShmorIUblnBpNUMnWxhV6W1d4eU7ikb9lA0WlPYQjiBISirqMpX84ITlJkyZeytYxx2FaRpOgwTfzT0UbSNHEyQfrelpSEVD9Eu6mHRAS9wN2ptOTiHq5odALmiwd1j8BLhHCqszjFm7EAwXt3lz5E8YOyvxSOUdoZaHRpGXiDpzroZk8jOpuUZMi4BPlNpjy6vd",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 18712,
+        "createdOn": "2025-12-28T19:14:24.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "6951818f1c508c5d5e3d1e68",
+            "products": [
+              {
+                "_id": "695181901c508c5d5e3d1ec1",
+                "name": "Salad27117",
+                "amount": 154,
+                "price": 18712,
+                "manufacturer": "Sony",
+                "notes": "Cu5TWB5pdQv2XPC2fVVepS6eWmvwmjH5CYNe577hUoEBmDWD6vNDhBShmorIUblnBpNUMnWxhV6W1d4eU7ikb9lA0WlPYQjiBISirqMpX84ITlJkyZeytYxx2FaRpOgwTfzT0UbSNHEyQfrelpSEVD9Eu6mHRAS9wN2ptOTiHq5odALmiwd1j8BLhHCqszjFm7EAwXt3lz5E8YOyvxSOUdoZaHRpGXiDpzroZk8jOpuUZMi4BPlNpjy6vd",
+                "received": false
+              }
+            ],
+            "total_price": 18712,
+            "delivery": null,
+            "changedOn": "2025-12-28T19:14:24.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337ce1c508c5d5e95335d",
+              "username": "student14@gmail.com",
+              "firstName": "Bill",
+              "lastName": "Schuppe",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:26"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      },
+      {
+        "_id": "695181911c508c5d5e3d1eed",
+        "status": "Draft",
+        "customer": "6951818f1c508c5d5e3d1e68",
+        "products": [
+          {
+            "_id": "695181901c508c5d5e3d1ec1",
+            "name": "Salad27117",
+            "amount": 154,
+            "price": 18712,
+            "manufacturer": "Sony",
+            "notes": "Cu5TWB5pdQv2XPC2fVVepS6eWmvwmjH5CYNe577hUoEBmDWD6vNDhBShmorIUblnBpNUMnWxhV6W1d4eU7ikb9lA0WlPYQjiBISirqMpX84ITlJkyZeytYxx2FaRpOgwTfzT0UbSNHEyQfrelpSEVD9Eu6mHRAS9wN2ptOTiHq5odALmiwd1j8BLhHCqszjFm7EAwXt3lz5E8YOyvxSOUdoZaHRpGXiDpzroZk8jOpuUZMi4BPlNpjy6vd",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 18712,
+        "createdOn": "2025-12-28T19:14:25.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "6951818f1c508c5d5e3d1e68",
+            "products": [
+              {
+                "_id": "695181901c508c5d5e3d1ec1",
+                "name": "Salad27117",
+                "amount": 154,
+                "price": 18712,
+                "manufacturer": "Sony",
+                "notes": "Cu5TWB5pdQv2XPC2fVVepS6eWmvwmjH5CYNe577hUoEBmDWD6vNDhBShmorIUblnBpNUMnWxhV6W1d4eU7ikb9lA0WlPYQjiBISirqMpX84ITlJkyZeytYxx2FaRpOgwTfzT0UbSNHEyQfrelpSEVD9Eu6mHRAS9wN2ptOTiHq5odALmiwd1j8BLhHCqszjFm7EAwXt3lz5E8YOyvxSOUdoZaHRpGXiDpzroZk8jOpuUZMi4BPlNpjy6vd",
+                "received": false
+              }
+            ],
+            "total_price": 18712,
+            "delivery": null,
+            "changedOn": "2025-12-28T19:14:25.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337ce1c508c5d5e95335d",
+              "username": "student14@gmail.com",
+              "firstName": "Bill",
+              "lastName": "Schuppe",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:26"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      },
+      {
+        "_id": "695181911c508c5d5e3d1f12",
+        "status": "Draft",
+        "customer": "6951818f1c508c5d5e3d1e68",
+        "products": [
+          {
+            "_id": "695181901c508c5d5e3d1ec1",
+            "name": "Salad27117",
+            "amount": 154,
+            "price": 18712,
+            "manufacturer": "Sony",
+            "notes": "Cu5TWB5pdQv2XPC2fVVepS6eWmvwmjH5CYNe577hUoEBmDWD6vNDhBShmorIUblnBpNUMnWxhV6W1d4eU7ikb9lA0WlPYQjiBISirqMpX84ITlJkyZeytYxx2FaRpOgwTfzT0UbSNHEyQfrelpSEVD9Eu6mHRAS9wN2ptOTiHq5odALmiwd1j8BLhHCqszjFm7EAwXt3lz5E8YOyvxSOUdoZaHRpGXiDpzroZk8jOpuUZMi4BPlNpjy6vd",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 18712,
+        "createdOn": "2025-12-28T19:14:25.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "6951818f1c508c5d5e3d1e68",
+            "products": [
+              {
+                "_id": "695181901c508c5d5e3d1ec1",
+                "name": "Salad27117",
+                "amount": 154,
+                "price": 18712,
+                "manufacturer": "Sony",
+                "notes": "Cu5TWB5pdQv2XPC2fVVepS6eWmvwmjH5CYNe577hUoEBmDWD6vNDhBShmorIUblnBpNUMnWxhV6W1d4eU7ikb9lA0WlPYQjiBISirqMpX84ITlJkyZeytYxx2FaRpOgwTfzT0UbSNHEyQfrelpSEVD9Eu6mHRAS9wN2ptOTiHq5odALmiwd1j8BLhHCqszjFm7EAwXt3lz5E8YOyvxSOUdoZaHRpGXiDpzroZk8jOpuUZMi4BPlNpjy6vd",
+                "received": false
+              }
+            ],
+            "total_price": 18712,
+            "delivery": null,
+            "changedOn": "2025-12-28T19:14:25.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337ce1c508c5d5e95335d",
+              "username": "student14@gmail.com",
+              "firstName": "Bill",
+              "lastName": "Schuppe",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:26"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      }
+    ],
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

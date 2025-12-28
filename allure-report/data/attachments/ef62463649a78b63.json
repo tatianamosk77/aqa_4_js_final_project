@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:14:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "539",
+    "etag": "W/\"21b-WVgBu808zHQl1mAqwBXhFTxBea0\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ines76@yahoo.com",
+      "name": "Adam Kathlyn",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 611,
+      "flat": 1985,
+      "phone": "+2512803950",
+      "createdOn": "2025-12-28T19:14:23.000Z",
+      "notes": "5HDTHj8PuBRthl0N7vZfncnOQqQSUZRpu9pTJKc8BLm6QYEMKVVJV865fi1vb2C01RekYkxmsZZmgs2or5CETxhOiZrTdiDCXxY57cuAmHU2fsrnsYej1PxJhEce15WpZvFS4kJuIF44DLFSS1tehNjn5brwg04hwE004sJtCqIx6G3ndJeF9xlCJ9dOBee1eCa2T0aParcL0IuVuwO6rAzY7SxAMk4knDbyBcKY5NFuoNN3XAxTbMF9ct",
+      "_id": "6951818f1c508c5d5e3d1e7a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

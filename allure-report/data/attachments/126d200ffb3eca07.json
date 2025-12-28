@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:14:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1881",
+    "etag": "W/\"759-AajlfOzUFnE1Yrzyhh3/16RmKH8\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695181991c508c5d5e3d23cc",
+        "email": "Rogers_Mitchell89@yahoo.com",
+        "name": "Bernard Ricardo",
+        "country": "France",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 708,
+        "flat": 7296,
+        "phone": "+2351674516",
+        "createdOn": "2025-12-28T19:14:33.000Z",
+        "notes": "ViImA52BVNNJWMBh5zN4s3i06Vrr54gWgxS0foH0sATFZbjOkcZZKlhkHN0q9vjTiIRgSJ3QG9pjLQandmvrTXvo0U4eQFJHtOQAmWk9oXxbQOpeiYfrbJ0QwMp04w5uv2fzejlVpvnGuBmxHT401OEMW8TUIqIQpNVJEtNYY4MAlwlprtR0HqH1EkLcbpTxfXgQUaI56CICeDYTdBcvDJhfU3wabbYxvQabXgiOAmZTOPPvLrTUVPDtZO"
+      },
+      "products": [
+        {
+          "_id": "6951819b1c508c5d5e3d241c",
+          "name": "Pants79359",
+          "amount": 577,
+          "price": 92836,
+          "manufacturer": "Amazon",
+          "notes": "CvPTu9Il8HN1IOD8YtxBw0LeRMHnp3jSa3ZaY1c2oT5SUcWR7SuOll6rfkc1VeNTlqJSFD82Qe5A40j5N7rv8nSVOskrukE4wSM55HukGEVJBVsJEacduSp3Th7NjvLJKxNCk4Y909wIJ7TQe1uWPTJdgs4aXnjm2pofm4iYGR5SbiiY8MAa2rHIB3B1KEaFA0SZaavXoGaYNXfdqPemhHbKVQ7DsL0Ie1sfJ63kUuByjoSib3UGxkdiaK",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 92836,
+      "createdOn": "2025-12-28T19:14:35.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695181991c508c5d5e3d23cc",
+          "products": [
+            {
+              "_id": "6951819b1c508c5d5e3d241c",
+              "name": "Pants79359",
+              "amount": 577,
+              "price": 92836,
+              "manufacturer": "Amazon",
+              "notes": "CvPTu9Il8HN1IOD8YtxBw0LeRMHnp3jSa3ZaY1c2oT5SUcWR7SuOll6rfkc1VeNTlqJSFD82Qe5A40j5N7rv8nSVOskrukE4wSM55HukGEVJBVsJEacduSp3Th7NjvLJKxNCk4Y909wIJ7TQe1uWPTJdgs4aXnjm2pofm4iYGR5SbiiY8MAa2rHIB3B1KEaFA0SZaavXoGaYNXfdqPemhHbKVQ7DsL0Ie1sfJ63kUuByjoSib3UGxkdiaK",
+              "received": false
+            }
+          ],
+          "total_price": 92836,
+          "delivery": null,
+          "changedOn": "2025-12-28T19:14:35.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6951819b1c508c5d5e3d2434"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

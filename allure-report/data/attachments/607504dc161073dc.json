@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 19:15:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1878",
+    "etag": "W/\"756-1fdJ2h5LbIdYp1KL/zoukiYrAm4\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695181c01c508c5d5e3d3a21",
+        "email": "Christiana33@hotmail.com",
+        "name": "Theodore Tiana",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 866,
+        "flat": 2849,
+        "phone": "+7886843220",
+        "createdOn": "2025-12-28T19:15:12.000Z",
+        "notes": "AGyvkXoqiA0ehxjgdLOSrhQpd1ivgjeqef6q6UAD2ng9FhUMsdfRe74ysNfBCWIu4px5xNJhKaXfGjYaQasXV6JGVABCo0JLCwvI9zmECKFUK5NB4FOi392G1pXV4G8mn0IpstDy8ytpUmi3nbMP57yoIHQNnOW9w4A1UyDm5FSvkNrNk085gJcjeh4P6PGUN1ZhY5rt0b9cCpB8aIfxApLDEkqYHH1SYAX28YmOB9xjvux9Yr4BnWS0fr"
+      },
+      "products": [
+        {
+          "_id": "695181c01c508c5d5e3d3a51",
+          "name": "Hat68342",
+          "amount": 951,
+          "price": 23027,
+          "manufacturer": "Tesla",
+          "notes": "tP4lQQzrvp8431yNv6SeAis6pDIKagjAtAjpzxFmF1FT5pMfx0S2qXlj3dNlB5WtO4CBJvscVluRpE14krD9V5K6Dm6chZyefouDA2zAjRQ7XtcVCxftvxf9VdrJCv4L8ylLn8GZeYpoAJvJIGbDiICh15QlTfA8OABejKJ7fiSxz5gsdopbBBPBv53wTsplG1UZHNjuRlaRLaD89yxGVnjFuBIJDBW70F1r78uObFWHhQGyitO8XG3R2L",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 23027,
+      "createdOn": "2025-12-28T19:15:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695181c01c508c5d5e3d3a21",
+          "products": [
+            {
+              "_id": "695181c01c508c5d5e3d3a51",
+              "name": "Hat68342",
+              "amount": 951,
+              "price": 23027,
+              "manufacturer": "Tesla",
+              "notes": "tP4lQQzrvp8431yNv6SeAis6pDIKagjAtAjpzxFmF1FT5pMfx0S2qXlj3dNlB5WtO4CBJvscVluRpE14krD9V5K6Dm6chZyefouDA2zAjRQ7XtcVCxftvxf9VdrJCv4L8ylLn8GZeYpoAJvJIGbDiICh15QlTfA8OABejKJ7fiSxz5gsdopbBBPBv53wTsplG1UZHNjuRlaRLaD89yxGVnjFuBIJDBW70F1r78uObFWHhQGyitO8XG3R2L",
+              "received": false
+            }
+          ],
+          "total_price": 23027,
+          "delivery": null,
+          "changedOn": "2025-12-28T19:15:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695181c01c508c5d5e3d3a6e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

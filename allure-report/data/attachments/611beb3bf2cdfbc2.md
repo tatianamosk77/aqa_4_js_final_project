@@ -1,0 +1,123 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - img
+        - generic [ref=e7]: Sales Portal
+      - link "Home" [ref=e9] [cursor=pointer]:
+        - /url: "#/home"
+      - link "Orders" [ref=e11] [cursor=pointer]:
+        - /url: "#/orders"
+      - link "Products" [ref=e13] [cursor=pointer]:
+        - /url: "#/products"
+      - link "Customers" [ref=e15] [cursor=pointer]:
+        - /url: "#/customers"
+      - link "Managers" [ref=e17] [cursor=pointer]:
+        - /url: "#/managers"
+    - generic [ref=e19]:
+      - button " 4" [ref=e21] [cursor=pointer]:
+        - generic: 
+        - generic [ref=e22]: "4"
+      - button "" [ref=e23] [cursor=pointer]:
+        - generic: 
+      - link "Bill" [ref=e25] [cursor=pointer]:
+        - /url: "#/managers/692337ce1c508c5d5e95335d"
+        - strong [ref=e26]: Bill
+      - button "" [ref=e27] [cursor=pointer]:
+        - generic: 
+  - generic [ref=e28]:
+    - generic [ref=e30]:
+      - generic [ref=e31]:
+        - heading "Orders List" [level=2] [ref=e32]
+        - button "Create Order" [ref=e33] [cursor=pointer]
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - searchbox "Search" [ref=e36]
+          - button " Search" [disabled]:
+            - generic: 
+            - text: Search
+        - button " Filter" [ref=e37] [cursor=pointer]:
+          - generic: 
+          - text: Filter
+        - button "Export" [ref=e38] [cursor=pointer]
+    - generic [ref=e41]:
+      - table [ref=e43]:
+        - rowgroup [ref=e44]:
+          - row "Order Number Email  Price Delivery Status Assigned Manager Created On Actions" [ref=e45]:
+            - columnheader "Order Number" [ref=e46]:
+              - generic [ref=e48] [cursor=pointer]: Order Number
+            - columnheader "Email " [ref=e49]:
+              - generic [ref=e50]:
+                - generic [ref=e51] [cursor=pointer]: Email
+                - generic [ref=e52]:
+                  - generic: 
+            - columnheader "Price" [ref=e53]:
+              - generic [ref=e55] [cursor=pointer]: Price
+            - columnheader "Delivery" [ref=e56]:
+              - generic [ref=e58] [cursor=pointer]: Delivery
+            - columnheader "Status" [ref=e59]:
+              - generic [ref=e61] [cursor=pointer]: Status
+            - columnheader "Assigned Manager" [ref=e62]:
+              - generic [ref=e64] [cursor=pointer]: Assigned Manager
+            - columnheader "Created On" [ref=e65]:
+              - generic [ref=e67] [cursor=pointer]: Created On
+            - columnheader "Actions" [ref=e68]
+        - rowgroup [ref=e69]:
+          - row "956e09ddcdfeedc11e1be8ff Helene_Parker@gmail.com $39474 - Received - 2025/12/27 21:15:04 " [ref=e70]:
+            - cell "956e09ddcdfeedc11e1be8ff" [ref=e71]
+            - cell "Helene_Parker@gmail.com" [ref=e72]
+            - cell "$39474" [ref=e73]
+            - cell "-" [ref=e74]
+            - cell "Received" [ref=e75]
+            - cell "-" [ref=e76]
+            - cell "2025/12/27 21:15:04" [ref=e77]
+            - cell "" [ref=e78]:
+              - link "" [ref=e79] [cursor=pointer]:
+                - /url: "#/orders/956e09ddcdfeedc11e1be8ff"
+                - generic: 
+          - row "c5bdb0c582bfd79619eb6c2b Maya_Wiza@gmail.com $44459 - Canceled - 2025/12/28 03:59:14  " [ref=e80]:
+            - cell "c5bdb0c582bfd79619eb6c2b" [ref=e81]
+            - cell "Maya_Wiza@gmail.com" [ref=e82]
+            - cell "$44459" [ref=e83]
+            - cell "-" [ref=e84]
+            - cell "Canceled" [ref=e85]
+            - cell "-" [ref=e86]
+            - cell "2025/12/28 03:59:14" [ref=e87]
+            - cell " " [ref=e88]:
+              - link "" [ref=e89] [cursor=pointer]:
+                - /url: "#/orders/c5bdb0c582bfd79619eb6c2b"
+                - generic: 
+              - button "" [ref=e90] [cursor=pointer]:
+                - generic: 
+          - row "9a822c7ddaf3ffafe7b4112e Emile70@hotmail.com $196324 - Canceled - 2025/12/27 21:18:05  " [ref=e91]:
+            - cell "9a822c7ddaf3ffafe7b4112e" [ref=e92]
+            - cell "Emile70@hotmail.com" [ref=e93]
+            - cell "$196324" [ref=e94]
+            - cell "-" [ref=e95]
+            - cell "Canceled" [ref=e96]
+            - cell "-" [ref=e97]
+            - cell "2025/12/27 21:18:05" [ref=e98]
+            - cell " " [ref=e99]:
+              - link "" [ref=e100] [cursor=pointer]:
+                - /url: "#/orders/9a822c7ddaf3ffafe7b4112e"
+                - generic: 
+              - button "" [ref=e101] [cursor=pointer]:
+                - generic: 
+      - generic [ref=e102]:
+        - generic [ref=e103]:
+          - generic [ref=e104]: "Items on page:"
+          - combobox [ref=e105]:
+            - option "10" [selected]
+            - option "25"
+            - option "50"
+            - option "100"
+        - generic [ref=e106]:
+          - button "" [disabled]:
+            - generic: 
+          - button "1" [ref=e107] [cursor=pointer]
+          - button "" [disabled]:
+            - generic: 
+```
