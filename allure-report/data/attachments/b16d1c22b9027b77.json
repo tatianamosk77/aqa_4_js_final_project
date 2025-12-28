@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 17:34:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-s1CjHaseVahsfvMJ8WZoEhiYPiw\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Albin.Dooley10@gmail.com",
+      "name": "Test Customer",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 103,
+      "flat": 3740,
+      "phone": "+4474303391",
+      "createdOn": "2025-12-28T17:34:07.000Z",
+      "notes": "SUrmhyzbTdPYkSZ9SIH7VZYjmKINy6jpepwtyo5vrAOfadG7sjOpRdcF0MunQlOUBlMCqUIpyipkTKrXUGlFgbgIbHrcVbQ8fXcYxds32UVy9lDV0PDCik9DS4OIORVU7j9vEOUaSK8B6WLYJsxy510LIyxmRGbMS5MmRMRPcOHLucm4hIPwH7PNUojUDWjWiYSrkIbnRIkB0EB1fyhSwUoO8t1JCA2pvGNHhJwP0yx04oIdrCjyhHAgFt",
+      "_id": "69516a0f1c508c5d5e3ae927"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

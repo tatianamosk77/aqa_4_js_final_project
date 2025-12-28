@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 17:34:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-kWrko4KioJ8+nFJ+AN8gQe2Sn/0\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Shane57@gmail.com",
+      "name": "Grace Patricia",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 244,
+      "flat": 4469,
+      "phone": "+3165715759",
+      "createdOn": "2025-12-28T17:34:34.000Z",
+      "notes": "QY77Qv11gdsgSP1AN3IHHdD3u7sFTKSUQ8QSN6a0srojSzHNp4RJOSnOp4LqJWVm3ztn0tdXzrFyLKYq9mhwFdsiShWjdTmKuersnAvpUr169uId310p71cZykFoqeYTPZTCg1GR6Xpy1TlF89Y3z1AcOZVg0XqeBFmJGn2AeLooLTm51RSLg9OJYZz9aSNGRrCBTtQ4uWbfkTMfWX7ZhJk00IGFT6vJU9lvex6ZDKk3jjVi1Wcm45u9EV",
+      "_id": "69516a2a1c508c5d5e3af400"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

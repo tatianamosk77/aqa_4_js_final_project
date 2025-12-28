@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 17:34:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-rW1pPfxQZWSUx/9ttNSZTihl8Sk\"",
+    "keep-alive": "timeout=5, max=71",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Douglas.Lynch@hotmail.com",
+      "name": "Ola Daryl",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 247,
+      "flat": 8252,
+      "phone": "+5703935962",
+      "createdOn": "2025-12-28T17:34:26.000Z",
+      "notes": "LUI5CAucNUesMVBPKchy7hQkmiVqjkOPbsKjb8ndKNmpswYLRebiIHxpFsG4yKMTUnAhV5GKZJ1R4b6HskuIt0IQxFPsU99O0JA8rNE0vLYmPIsi12incrrUKsy2X4IJ9pvYGYRqjdB4vHKzZtYpV1Yc5vwTZC16Vi1i4Bx9ejJlaDDXXi2PKY6WuR0CCvWgLNtyeYWbooRNFv6BQ51OIgkan8QhadVKh5GcajnsmA1wclK8LAoV5V1Iko",
+      "_id": "69516a221c508c5d5e3af0be"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 17:34:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-k63YTtRecg/Ji8GcNK+X2zXymTg\"",
+    "keep-alive": "timeout=5, max=76",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69516a1f1c508c5d5e3aef92",
+        "email": "Domenick_Littel@yahoo.com",
+        "name": "Eli Florian",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 596,
+        "flat": 4113,
+        "phone": "+1321224199",
+        "createdOn": "2025-12-28T17:34:23.000Z",
+        "notes": "yrvjgbyqlNz3k9cECLATNjpA8qS9uhUhi0nfEP4eTkVcIpTonTnrE0LBpHgeCRPEIyjRhq0KxxQ0VDGqZB5UfIlfnDnQPxlB0jLjLRrkUGaatcWfNA7fyhb8KYe8PI2M8Ql2JPwG52aeQeObRR51jMznMKHslJRXSh6FUPmK5eTIbXyVc7TntYVAXCpyMzwl4KEDmDaSOsqG3bYHnUQ2z1zDun05BQKpVNdaNVFxlBpgUkHy5VjWxG41i4"
+      },
+      "products": [
+        {
+          "_id": "69516a201c508c5d5e3af011",
+          "name": "Pants65142",
+          "amount": 190,
+          "price": 39942,
+          "manufacturer": "Amazon",
+          "notes": "I59EByi4PBeGqNNjpyo7kgOYrzVVHm6e1JY4TajscT38vAJr470M8Aa24nPzUdLBRgfFAkdYn09OEZDEW4ajAj83X4v0umu7OpwlW0VAB38oshoL4Qk0slJZb1sEpqZPvd8RhoPs5uHB4e6NzKCXajRJfgQlBFaPsQbdTXtlVl8NEzv6fHj5VfovypYOBR6xgooCj1IzS8lIw8C0KSW3xyvWzp5TMp0DTCDsfxLIj6IcTFlzcydRe6qDJW",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 39942,
+      "createdOn": "2025-12-28T17:34:24.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69516a1f1c508c5d5e3aef92",
+          "products": [
+            {
+              "_id": "69516a201c508c5d5e3af011",
+              "name": "Pants65142",
+              "amount": 190,
+              "price": 39942,
+              "manufacturer": "Amazon",
+              "notes": "I59EByi4PBeGqNNjpyo7kgOYrzVVHm6e1JY4TajscT38vAJr470M8Aa24nPzUdLBRgfFAkdYn09OEZDEW4ajAj83X4v0umu7OpwlW0VAB38oshoL4Qk0slJZb1sEpqZPvd8RhoPs5uHB4e6NzKCXajRJfgQlBFaPsQbdTXtlVl8NEzv6fHj5VfovypYOBR6xgooCj1IzS8lIw8C0KSW3xyvWzp5TMp0DTCDsfxLIj6IcTFlzcydRe6qDJW",
+              "received": false
+            }
+          ],
+          "total_price": 39942,
+          "delivery": null,
+          "changedOn": "2025-12-28T17:34:24.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69516a201c508c5d5e3af027"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

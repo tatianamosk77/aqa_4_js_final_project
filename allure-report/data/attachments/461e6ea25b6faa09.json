@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 17:34:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-DnqxjRFOdHdol38Dt9HxR9/sRDo\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Sunny14@hotmail.com",
+      "name": "Jayce Karli",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 288,
+      "flat": 9558,
+      "phone": "+4001120515",
+      "createdOn": "2025-12-28T17:34:23.000Z",
+      "notes": "tp2iCfZ4pJWMZ0G5WEs7O05EiNze0XQq2SfJvJHcHqjfTKuQYAw71PWcIdbW6i10m1SXHZ3vvJZzK87wLxqMtsFuF87I2GvtfsQuErfF76JYqSeiSxe5uMjtmgX4ET9VJChJk1KpzOm5T7VHCFNnM86nX7eO0eoARJO5GB8VaV79dWu2LnQu5GKViziMm1P2uot99XSWkMvsR75w8yjVew5GjhXYG25jY8FhX2XZk5oWSDhN7zWFHusW2E",
+      "_id": "69516a1f1c508c5d5e3aef82"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

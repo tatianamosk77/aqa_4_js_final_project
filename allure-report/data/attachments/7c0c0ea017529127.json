@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 17:34:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-wLhGU31vpnF/RTXHVaH1suyZqI8\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Nicole.Rolfson@gmail.com",
+      "name": "Laurel Bettie",
+      "country": "Great Britain",
+      "city": "b",
+      "street": "testStreet",
+      "house": 250,
+      "flat": 5048,
+      "phone": "+9286270886",
+      "createdOn": "2025-12-28T17:34:07.000Z",
+      "notes": "vEuZsAvtAONvKnwMv8jn2wZS5Wr20LLLm41bo1mUSoF0cgh0d8OfK6w6PcsOYaYBb0TmZsteppMttx9OgX6vhtRhEZKCscOl1Z6EgFhDAIpyY1QGajyfpG1HyGtL52mPvN38DwRCBN3PMq6SovJp0FTPzAPrvM0lsLkpKZF5Avqb5cCGvYHn7af85Gezdkg32Dbh9tMCnJs07gph54XcNuENFyGFTUrxIb2V2R0mvoc5puMYgQrNtB1zzQ",
+      "_id": "69516a0f1c508c5d5e3ae932"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

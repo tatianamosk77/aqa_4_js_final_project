@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 17:35:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "539",
+    "etag": "W/\"21b-Qh0kHMWLyuhSiCXdBs9zQ3BnR18\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ruth_Koss@gmail.com",
+      "name": "Matilde Reyes",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 581,
+      "flat": 6418,
+      "phone": "+0129401227",
+      "createdOn": "2025-12-28T17:35:20.000Z",
+      "notes": "aA99kq9ad7mTHbgDcTtiFL8JCZ6ffqPOoMEfQ3P7myikQKs4tzDZ3kzhbLV70BKG8QduYE70LxAKc2bcv4MubKBDtlzxzC43hP9IvNCjY3ec8DsOBQhzsNh42mNU9Rj32tZGWkraWruyGV15wjX3ryWTGlmdSn9gP5430CvCLmerXmprrkkyJQzGBn8zi48Wdcvlh5lIXPhbtAIYoH7VKtsG14DslYuu4rqTH5YdeaImAvuOafR8yOKLXH",
+      "_id": "69516a581c508c5d5e3b06ae"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

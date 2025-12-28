@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 17:34:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-m7ggwHr/2C25CPSog03dlyhh4Co\"",
+    "keep-alive": "timeout=5, max=57",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Luis.Fadel-Yost@hotmail.com",
+      "name": "Joanne Aletha",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 309,
+      "flat": 2161,
+      "phone": "+3670812684",
+      "createdOn": "2025-12-28T17:34:34.000Z",
+      "notes": "Sk6SvanY0dlsgQwfTaZEZMserkmjAH84Yn6HIvBpdSP80eJhSt0j7XDS7WtDlgCJzOV23StqTh3jQqoTMVr4eLOIUoZIF6dIAQ8y8sSeAN37eFc6e27lFEx5XsO8r6lKRn3V3vohNIexGU4kqqbqI4crrwN8dtOK3BWsDBGyH1ZsvkrONFApoEXLTguYxRAatWwH1l1mwR9ogMw2gsrmHUTcUt3w1BdDkCBiP3hNEOJchHcNmph3i6oZ4o",
+      "_id": "69516a2a1c508c5d5e3af412"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

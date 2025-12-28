@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 17:35:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-lwztO7KeXdmeezWK1IEQEdvfy3w\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ross.Johnson@yahoo.com",
+      "name": "Kyra Albert",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 547,
+      "flat": 9543,
+      "phone": "+2114363887",
+      "createdOn": "2025-12-28T17:35:23.000Z",
+      "notes": "DrNzkatCKIAQT3xZDpvl710PLiowQ66PZtqH2uA816V5s88C02UAUxSqugU0r5QyWWv2pHO9GvJH2C13MpHQizlLGJX8CBLtdSeOLYh5LJc6NAV7G5Bgm3rIDVUbxoO066jxXKyBLCCxnXAUhbDIhyWJCgHH2Kgyq0gzag3Hi2ojks5c3uqdN08IlBkIa6sFjVCNeX8YXrOzHjqmAnCgqp6D8Jx0CohtX7ZYVjyDNrnSndedxjuNvUX3iU",
+      "_id": "69516a5b1c508c5d5e3b07e9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

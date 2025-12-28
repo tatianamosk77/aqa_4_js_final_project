@@ -1,0 +1,155 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 17:34:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4942",
+    "etag": "W/\"134e-SZxY8l39bjojt7AdmlwALQ0bUcg\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69516a271c508c5d5e3af2e7",
+      "status": "Draft",
+      "customer": {
+        "_id": "69516a261c508c5d5e3af284",
+        "email": "Monserrat22@yahoo.com",
+        "name": "Herta Tyrel",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 496,
+        "flat": 6141,
+        "phone": "+9341919458",
+        "createdOn": "2025-12-28T17:34:30.000Z",
+        "notes": "du2ln2LdRuPzvfDE8zGt8NFl0WxV7SsDxero7RksOAdzrXmGUIjrCKztJFmbb813jAJE0bHKCFSnCLotavkXsOEwzN5MLcVmYAomOvRxju6OZjh5s5h4IjGSEadnPKgphtRms1rH9ZA8o3oPNBLDz5j0UFRz0ESS1KFD3iae4ikNnY96uzcPCII3l3z6vphYi7nqURdCHnlNp5wVYm5EHADKbhF2l0OGzrBBpdwKCJgO0K3aCB20DszkJk"
+      },
+      "products": [
+        {
+          "_id": "69516a261c508c5d5e3af297",
+          "name": "Fish91582",
+          "amount": 101,
+          "price": 65542,
+          "manufacturer": "Apple",
+          "notes": "aAuay82Uqbkm0nSCfzcTQh0wJf7Jm92ZMDj1lQGKPA32Cy1enlCOSbHjLvB4oV6qQEm3DRYW7VhT9glYy1H6ZYzzG5oNXP2aKlbnfuWU4RlCxDJYvXBltT7FBbIJOC1SEpo9kKRHmaOUQMNZJiv8VptWcPGgYKIaO9PgR9KrFkQjhjf7nUtQOZAR2q99TGLJjascHPmaMrIGoiZlBcdPdPKGzgxMAhFGQVXA1HruFepJkYHHHNR0wc3QVb",
+          "received": false
+        },
+        {
+          "_id": "69516a261c508c5d5e3af2b6",
+          "name": "Computer19479",
+          "amount": 745,
+          "price": 69597,
+          "manufacturer": "Google",
+          "notes": "yjODDVjsyR3BCYoG6lycUPa8e3IOeG1KRNzZquDMERhrSkZfxW9mxt1jrF61bUW1BddNiTFz4JPHiCAfIkkHC4m4mczvXXv4GZVOnJn3o4rf0wLGGboY4sQqC6JCjTvn0HS7A39T8BGF40pbk3n2XvBcMHlqKyXSN12EYrSDJSkNQzxoP0SNdzBfuWVWRTmlCVYGQrJORxNZ5ZnU641UblCZ0jvNRxf3rzqHCujIuHFKmnb6IIHF4YXqsy",
+          "received": false
+        },
+        {
+          "_id": "69516a261c508c5d5e3af2b8",
+          "name": "Mouse42492",
+          "amount": 773,
+          "price": 57396,
+          "manufacturer": "Google",
+          "notes": "mbu0MCV9zVFzqYZxypph49eHv1wWHBGXMHE26DWiMTyVtDVGweIX7V9QSglpDDY3StdPS5agvcuwtzQ266DUbWSCH8KxPC3QLstIswly724F6CGcUKJ4aLZ0Jy0rtw6wGF43iBibG4YCzlC7MQbW1PegzpsYZE71XJKwLZwM5VxV0zMbULFa9Po3afVP4h4zKQWI7A1fIWvUagY0N7hsrq9fxqkHovxqrTwkIswmyXaULHdSh0Lp8N6b90",
+          "received": false
+        },
+        {
+          "_id": "69516a261c508c5d5e3af2be",
+          "name": "Fish64288",
+          "amount": 959,
+          "price": 70766,
+          "manufacturer": "Amazon",
+          "notes": "TUgyiXsXAyhHJU53KP9T39w2tTj9hxOFUUzeWH6ZnxpvqWgRb6V6UTVOnOH2DprfMh0MUrdsDgdOF0vo6F2PSLV1FcnCPhWcG3yJyHOsrySMykU8KMiRVE7qlYkoy70pVtYsrEPBmNm0gttM5GCRGwEzgVYfP6xVLnkmctLK8yqXasQEWGtnXC7yFnN4qLL4SBrhMaYqL2hTqDbvgLFODkSxCOBeNCstPlpfkvEbEjUMa4StKdoKWlIdDE",
+          "received": false
+        },
+        {
+          "_id": "69516a261c508c5d5e3af2bc",
+          "name": "Fish80411",
+          "amount": 116,
+          "price": 83413,
+          "manufacturer": "Tesla",
+          "notes": "SMc8ZPTiZA545XYfDi7fbftHOvndCDOAbPagDzeHQSpsXN9ZMSXHpWzb3hbQ3Vc9RGMsrtieXxPUsGAbDr5ieJHwdOJPXWF8oOUFXPzSEsnToesfZEY9ta6HHjQqiLTbVfpIgLO5LH2nlwIjSrinrJLMLs8uf1Clom5nOV6IVCsb7oy9TtgKQMGNHrANr4KdJBqPuvudanddS4Nz6yCfhAOHeKv3AGXI4liZPX7SssJ74C7ThWEulEdTFV",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 346714,
+      "createdOn": "2025-12-28T17:34:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69516a261c508c5d5e3af284",
+          "products": [
+            {
+              "_id": "69516a261c508c5d5e3af297",
+              "name": "Fish91582",
+              "amount": 101,
+              "price": 65542,
+              "manufacturer": "Apple",
+              "notes": "aAuay82Uqbkm0nSCfzcTQh0wJf7Jm92ZMDj1lQGKPA32Cy1enlCOSbHjLvB4oV6qQEm3DRYW7VhT9glYy1H6ZYzzG5oNXP2aKlbnfuWU4RlCxDJYvXBltT7FBbIJOC1SEpo9kKRHmaOUQMNZJiv8VptWcPGgYKIaO9PgR9KrFkQjhjf7nUtQOZAR2q99TGLJjascHPmaMrIGoiZlBcdPdPKGzgxMAhFGQVXA1HruFepJkYHHHNR0wc3QVb",
+              "received": false
+            },
+            {
+              "_id": "69516a261c508c5d5e3af2b6",
+              "name": "Computer19479",
+              "amount": 745,
+              "price": 69597,
+              "manufacturer": "Google",
+              "notes": "yjODDVjsyR3BCYoG6lycUPa8e3IOeG1KRNzZquDMERhrSkZfxW9mxt1jrF61bUW1BddNiTFz4JPHiCAfIkkHC4m4mczvXXv4GZVOnJn3o4rf0wLGGboY4sQqC6JCjTvn0HS7A39T8BGF40pbk3n2XvBcMHlqKyXSN12EYrSDJSkNQzxoP0SNdzBfuWVWRTmlCVYGQrJORxNZ5ZnU641UblCZ0jvNRxf3rzqHCujIuHFKmnb6IIHF4YXqsy",
+              "received": false
+            },
+            {
+              "_id": "69516a261c508c5d5e3af2b8",
+              "name": "Mouse42492",
+              "amount": 773,
+              "price": 57396,
+              "manufacturer": "Google",
+              "notes": "mbu0MCV9zVFzqYZxypph49eHv1wWHBGXMHE26DWiMTyVtDVGweIX7V9QSglpDDY3StdPS5agvcuwtzQ266DUbWSCH8KxPC3QLstIswly724F6CGcUKJ4aLZ0Jy0rtw6wGF43iBibG4YCzlC7MQbW1PegzpsYZE71XJKwLZwM5VxV0zMbULFa9Po3afVP4h4zKQWI7A1fIWvUagY0N7hsrq9fxqkHovxqrTwkIswmyXaULHdSh0Lp8N6b90",
+              "received": false
+            },
+            {
+              "_id": "69516a261c508c5d5e3af2be",
+              "name": "Fish64288",
+              "amount": 959,
+              "price": 70766,
+              "manufacturer": "Amazon",
+              "notes": "TUgyiXsXAyhHJU53KP9T39w2tTj9hxOFUUzeWH6ZnxpvqWgRb6V6UTVOnOH2DprfMh0MUrdsDgdOF0vo6F2PSLV1FcnCPhWcG3yJyHOsrySMykU8KMiRVE7qlYkoy70pVtYsrEPBmNm0gttM5GCRGwEzgVYfP6xVLnkmctLK8yqXasQEWGtnXC7yFnN4qLL4SBrhMaYqL2hTqDbvgLFODkSxCOBeNCstPlpfkvEbEjUMa4StKdoKWlIdDE",
+              "received": false
+            },
+            {
+              "_id": "69516a261c508c5d5e3af2bc",
+              "name": "Fish80411",
+              "amount": 116,
+              "price": 83413,
+              "manufacturer": "Tesla",
+              "notes": "SMc8ZPTiZA545XYfDi7fbftHOvndCDOAbPagDzeHQSpsXN9ZMSXHpWzb3hbQ3Vc9RGMsrtieXxPUsGAbDr5ieJHwdOJPXWF8oOUFXPzSEsnToesfZEY9ta6HHjQqiLTbVfpIgLO5LH2nlwIjSrinrJLMLs8uf1Clom5nOV6IVCsb7oy9TtgKQMGNHrANr4KdJBqPuvudanddS4Nz6yCfhAOHeKv3AGXI4liZPX7SssJ74C7ThWEulEdTFV",
+              "received": false
+            }
+          ],
+          "total_price": 346714,
+          "delivery": null,
+          "changedOn": "2025-12-28T17:34:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

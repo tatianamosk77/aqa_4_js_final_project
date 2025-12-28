@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 17:34:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "282",
+    "etag": "W/\"11a-IPQo9zCmy2KZ7PDxsBFhY1SdBqo\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Cielo_Howe67@yahoo.com",
+      "name": "Tyler Karine",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 538,
+      "flat": 920,
+      "phone": "+5969533308",
+      "createdOn": "2025-12-28T17:34:10.000Z",
+      "_id": "69516a121c508c5d5e3aea6a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
