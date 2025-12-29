@@ -59,6 +59,7 @@ export class OrdersListPage extends SalesPortalPage {
     await this.openPage("ORDERS");
   }
 
+
   @logStep("Search for orders by text: {searchText}")
   async searchOrders(searchText: string) {
     await this.searchInput.fill(searchText);
@@ -221,5 +222,6 @@ export class OrdersListPage extends SalesPortalPage {
   @logStep("Clear search input")
   async clearSearch() {
     await this.searchInput.clear();
+
   }
 }
