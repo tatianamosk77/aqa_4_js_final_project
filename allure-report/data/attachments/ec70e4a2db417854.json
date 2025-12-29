@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:15:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-zJ/6ffgtDBDYATZ1Q3fhzXkvQpU\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6952fd941c508c5d5e4e381b",
+        "email": "Kiara_Hahn@hotmail.com",
+        "name": "Maritza Queenie",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 247,
+        "flat": 9798,
+        "phone": "+7699496485",
+        "createdOn": "2025-12-29T22:15:48.000Z",
+        "notes": "koMzklaSkxY6RQf4teuR6slrd4Inp3mhKVWkfdwZa6mjXjuEpYqhuMOOgi7OzPIZ8sTBEVFjtDAHQQS788LWmRPeOTIioOqhpOhuBiTQmBzccxceM793jDMt67Y1k6QOFUBr18W8H0ARlVFqkAu5N9aqx52Zb2PrHyfapDPJqJ8uJCYTxZXVUxic0yCzzU0vUJOHDeBp2KvWxa6UhG0VVZMKoLWs6ttxDbCsBN1CHSt8mpDKH8cFFYz5Vb"
+      },
+      "products": [
+        {
+          "_id": "6952fd951c508c5d5e4e3850",
+          "name": "Pizza26618",
+          "amount": 176,
+          "price": 82410,
+          "manufacturer": "Microsoft",
+          "notes": "4mOWlwfZYXNCgHPs9tBKftOv7O52Cwy62qqyONWS9Ptx8UtTgZuj2ur2NhVPeM6qIAmgfhYJpnEdhwMpLx0iDRVLgbVKcfKVW6SpJhjk6Qb9iWEOWEVG85yoBFN66M9y3hybDyqIMQjqoOE7V2yDCr1kkTHmK692J8IFbTbYVmldoWQ0SsFBxz7nvkj3SislveuTae7j54Y5m76cWRjcGWPaVT2y9oBue5XWRYmBKxYxmfd4XMNbgXfmlD",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 82410,
+      "createdOn": "2025-12-29T22:15:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6952fd941c508c5d5e4e381b",
+          "products": [
+            {
+              "_id": "6952fd951c508c5d5e4e3850",
+              "name": "Pizza26618",
+              "amount": 176,
+              "price": 82410,
+              "manufacturer": "Microsoft",
+              "notes": "4mOWlwfZYXNCgHPs9tBKftOv7O52Cwy62qqyONWS9Ptx8UtTgZuj2ur2NhVPeM6qIAmgfhYJpnEdhwMpLx0iDRVLgbVKcfKVW6SpJhjk6Qb9iWEOWEVG85yoBFN66M9y3hybDyqIMQjqoOE7V2yDCr1kkTHmK692J8IFbTbYVmldoWQ0SsFBxz7nvkj3SislveuTae7j54Y5m76cWRjcGWPaVT2y9oBue5XWRYmBKxYxmfd4XMNbgXfmlD",
+              "received": false
+            }
+          ],
+          "total_price": 82410,
+          "delivery": null,
+          "changedOn": "2025-12-29T22:15:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6952fd961c508c5d5e4e3871"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

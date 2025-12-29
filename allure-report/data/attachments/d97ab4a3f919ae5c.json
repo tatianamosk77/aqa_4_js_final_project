@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:15:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-aFazOo2ckIRzNDQSMWjK5G5bnZ0\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Alicia_Moore@hotmail.com",
+      "name": "Test Customer",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 485,
+      "flat": 759,
+      "phone": "+9380073155",
+      "createdOn": "2025-12-29T22:15:21.000Z",
+      "notes": "c765K5mpT5oKHV22XyC7Yj831kfLBCr63cvutoV5ybwJwgFiqE3Xv8zg26JA4iHRLSKtmccT3Xfv4BTt77xxbtEJUVrjlejOWn3VMSkuwy0rrmphtg7ItnvtOSKK2nE557FDyX4ccVi9KAEnAmFNNQdfIsswYUpRfuFMGuo2hXf3CTqBwupoaPfWNinQMFkvkLoStkiDefSMNhWWB1ARzPD7ZcKYzlojoi9Z6O645iXXd86n9ms8rveSSR",
+      "_id": "6952fd791c508c5d5e4e306e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

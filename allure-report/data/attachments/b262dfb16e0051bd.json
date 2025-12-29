@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:15:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-lxapHpvjtNyhNBWKyRgRQH+mGH8\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Kira40@hotmail.com",
+      "name": "Adriana Loy",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 449,
+      "flat": 1,
+      "phone": "+4022989561",
+      "createdOn": "2025-12-29T22:15:24.000Z",
+      "notes": "C1mopvj5O1B3hm6tqh0HWggm6Ytf7C5Oxwc8uCrK19WyPaPppastlrgWK96AX8gscBTCJIbPdMA1ZiyrFHVu3KDkXILzAFoJ8qaGYVG0ixZirEFW0qn1qUNsTNwD3b5XB9kGlccTF0s0QKJ38qzorXNPtCFVxHxmgRJBYm9i01sPnqFLSEbZyyamY0DPDWus5UJ44lKu51hEGzocQ4f8hH29cqY3VuPmhxFX0SOt3aE7tOu2aeLs3C8iZB",
+      "_id": "6952fd7c1c508c5d5e4e3110"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

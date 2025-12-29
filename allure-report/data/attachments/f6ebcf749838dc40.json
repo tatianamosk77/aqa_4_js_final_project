@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:15:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "280",
+    "etag": "W/\"118-Mhzzdt3lcx1IaElFzoxhVbpTdQE\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Anika33@hotmail.com",
+      "name": "Sharon Zack",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 650,
+      "flat": 9458,
+      "phone": "+2413100379",
+      "createdOn": "2025-12-29T22:15:26.000Z",
+      "_id": "6952fd7e1c508c5d5e4e31a3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

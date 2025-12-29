@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:15:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "687",
+    "etag": "W/\"2af-K64dnTEntfvRLKncc1Tj2OzTAUA\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "6952fd8a1c508c5d5e4e3699",
+        "email": "Salvador_Beer92@gmail.com",
+        "name": "Lorenz Marion",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 821,
+        "flat": 8361,
+        "phone": "+3763752756",
+        "createdOn": "2025-12-29T22:15:38.000Z",
+        "notes": "sheCAhfpz0Zsnvqqj3K24L2fhmngOs1WHe0TKTtQkDkI3sYWYf4MsP1BKsAqinbxQ6eubWgmcxUa3y4pui5QwxjZtcFTalVcZsiALb3sZkUfpeLejqgwgBvsTK0TY1fL7pAhW7ZAkVal7wFhhT6xk3uumzOP1aty0m5l9FlTSk9sDzq9Ld3lzgDcN8Arh7savSuYsG1Q0U9UzHHO46vBhO0xaTnMdyCFIzPCVPjJVwtDQaZHgmHF0KwDm1"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Salvador_Beer92@gmail.com",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

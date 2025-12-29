@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:16:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "554",
+    "etag": "W/\"22a-uxubylUIxsGX/M3a+5FTCSjrojs\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Martine.Yundt@yahoo.com",
+      "name": "Marlee Pauline",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 825,
+      "flat": 2255,
+      "phone": "+9360567587",
+      "createdOn": "2025-12-29T22:16:11.000Z",
+      "notes": "CABvGQEKyEekOyTptv9gxrchQ3noSf3UUAsSkeLK8rjKKMAE5rZTIAX7hcmrxlPiasWp5f1kToibgt49YDuMnV69IxT66KMgBn5wMAhEbjRB6PtXqme2wOWdBUP8AKg9G7W8FexnBjibWJUjW9FWMXd2OMhr7hgnBJWoAGIcGVhavwObPvecFYZWK6vClBszmDShZ3rzDZOPR5u26oGioc2ykXiIaBJEefI1y95lFoo8UlKIn1pxUzf35M",
+      "_id": "6952fdab1c508c5d5e4e4090"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

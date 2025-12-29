@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:15:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-d7Rkd52o3JRUXpzCkmNCE68qkVg\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Janet39@gmail.com",
+      "name": "Colten Gilberto",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 660,
+      "flat": 4767,
+      "phone": "+5003338400",
+      "createdOn": "2025-12-29T22:15:31.000Z",
+      "notes": "hKYdZ0iirJXQp66ceFZY396Eyd4LNBGMrllgqyyt9r3ICl5Jw8ijszKS9nuAu8cXtwms2c38CZi1xxktNrKZDipl9gXIKd2WANzuXtLyU3L37gFmImB2Zle67CloviardjueX1HFmWhtjfNsV9bq9rL1Vun1l1NjGOfK8aZI7HMU200uw7VgdArjZnLwzdChWjJeK7JgQlR9vjD7POu9XAXBQ8ShfckkAdPcVYM2vFwkbwGgKKYq0Uus0j",
+      "_id": "6952fd831c508c5d5e4e332d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

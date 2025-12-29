@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:15:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-oC35KAWiGNn2drndu369MiEXrQw\"",
+    "keep-alive": "timeout=5, max=59",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Talia.Mann@gmail.com",
+      "name": "Marcel Doris",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 684,
+      "flat": 9348,
+      "phone": "+9170251880",
+      "createdOn": "2025-12-29T22:15:56.000Z",
+      "notes": "mZ5kMDxnDXtBnj6Js75IAkBKpiDgtzWhwCGCoablZ8gqQhNwK2HdxOmTSkEQrUloGKcu2RqTyJ914yLYZb8HHYQSk19iFb8K3jPq42eZNLCu1DVilpcds5DbCIyUjOcHIidgtnNg8i0aWrWx4QusrvUmpzs5lLTZ0pKpIoFCXvSO9KsHkianKzoxP86EUMvbB9sbDTGR1Xe4vFdd7fbXYreTuMKQThAB4yDM4Ry1Wp6H6eA00WNOQrlb3h",
+      "_id": "6952fd9c1c508c5d5e4e3a5a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:16:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1870",
+    "etag": "W/\"74e-i07L7AkepDo0Rh3mTwUUS46+4L0\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952fda21c508c5d5e4e3c6b",
+      "status": "Draft",
+      "customer": {
+        "_id": "6952fda21c508c5d5e4e3c38",
+        "email": "Keara_Hyatt@hotmail.com",
+        "name": "Candida Vernie",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 808,
+        "flat": 2670,
+        "phone": "+9498611847",
+        "createdOn": "2025-12-29T22:16:02.000Z",
+        "notes": "tz7GN2ZSu9rK5XGXYDIG7462JlOf9rPy83YJc3jtuVIRlPCa1Xj7bkZ9gKSJ2UE6bSe8gtDV9v3bSCpxAhnEMobrb87LRAMnoWy7gmqLLSkC8fBhWM75BE5iZnLbePKki2zcJqbldFkC8igHEwo9uW6JdpNacWqeAw3j4LcG7wZPSCUoJJXAb5JquYj61u6DQ9j5ooX8CsNMoAxT9quDCWCEaIliHPamhBrxxhTcPXcDXsnhrgT19UL7sa"
+      },
+      "products": [
+        {
+          "_id": "6952fda21c508c5d5e4e3c50",
+          "name": "Salad23213",
+          "amount": 751,
+          "price": 6733,
+          "manufacturer": "Tesla",
+          "notes": "rAJH9trlyxboRYf1SFlYZiXwiozc9YM87j95KWMx8CNSuidMCHC13dchnn8KKkQjh1gE7NzZ479Bb2IlXqzIidoNmvRWWSriz2XylXz5E6rpW4WfB9ni05KviO2UfP2zmcQ0yiIaPv6ahIDiHFOKlt85HX2n9v9eqyzYXDCzV3y4lyVaxHhj2N94aWj7YI4jbsV7OCzO0DBDhSFmNev8zGO4wfNm20V3fhnAuR9FhPNGHDF05Wre0bkgjs",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 6733,
+      "createdOn": "2025-12-29T22:16:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6952fda21c508c5d5e4e3c38",
+          "products": [
+            {
+              "_id": "6952fda21c508c5d5e4e3c50",
+              "name": "Salad23213",
+              "amount": 751,
+              "price": 6733,
+              "manufacturer": "Tesla",
+              "notes": "rAJH9trlyxboRYf1SFlYZiXwiozc9YM87j95KWMx8CNSuidMCHC13dchnn8KKkQjh1gE7NzZ479Bb2IlXqzIidoNmvRWWSriz2XylXz5E6rpW4WfB9ni05KviO2UfP2zmcQ0yiIaPv6ahIDiHFOKlt85HX2n9v9eqyzYXDCzV3y4lyVaxHhj2N94aWj7YI4jbsV7OCzO0DBDhSFmNev8zGO4wfNm20V3fhnAuR9FhPNGHDF05Wre0bkgjs",
+              "received": false
+            }
+          ],
+          "total_price": 6733,
+          "delivery": null,
+          "changedOn": "2025-12-29T22:16:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:15:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4947",
+    "etag": "W/\"1353-DDZ7d7xTgsWyxYaWVoIlKAWE2O0\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952fd991c508c5d5e4e395d",
+      "status": "Draft",
+      "customer": {
+        "_id": "6952fd981c508c5d5e4e38fd",
+        "email": "Natalie30@gmail.com",
+        "name": "Germaine Makenzie",
+        "country": "France",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 930,
+        "flat": 9504,
+        "phone": "+1342275415",
+        "createdOn": "2025-12-29T22:15:52.000Z",
+        "notes": "wj1M9VJ3Uvbrvw7ApQ3MsOkmqSyOQhPMKJJOaa4MS50wJeKSnBoopN2gPmkLPMvVa1T2XgpIcpOOPhidbjZx45wk0FirwmAy6LZqmy1QnC22mUAnpAeDGAME6OO3MWoGjZrpPPiojNk8bI16zfmjbS9AnTpihbVRrQhtJKr70HTcI9iOsrUeKDYovRQWFotQuDoCHwigjGAZqWfyFD5tthvRdN2KVLHaj1rppBoMqfWbV5gF8aygnFzfsa"
+      },
+      "products": [
+        {
+          "_id": "6952fd981c508c5d5e4e3910",
+          "name": "Chair5434",
+          "amount": 808,
+          "price": 58173,
+          "manufacturer": "Xiaomi",
+          "notes": "t6vl4UPOqCJwxKxpjzRXFkCm66EioZZfHR1DshadY8xSLpBJ3tRbEQvkYIOHScwll3J0ozJDVAVC9vWABH0cprg1EjVJRF2XrAzr3E52h5whUzfZq4yxMvAy9n7hHOesWHbHHeGTP5dyeypY8Vudh1HHaFVwJAaMbXudpX1UEUkWcXOtrBCc5K3QIpmoKzBQZXRaxEUmXfR4ppuDrrxNBtKfCdno6H0F2i3PAY4pTHSjA6Wb14Psuk3p1V",
+          "received": false
+        },
+        {
+          "_id": "6952fd981c508c5d5e4e392c",
+          "name": "Hat45445",
+          "amount": 680,
+          "price": 22800,
+          "manufacturer": "Apple",
+          "notes": "dbwHpzURhlq4fz6HBDIKvvJ0C6bc51XhC34MKpzdp9A5Ce1JsULPrBsaLDjYGFf3cLwS3noXEqxftSo7JHUylMDIvX4HX0p8H2q1XkbI0JSC80dBrDHpKZkU3G9yLITPqwx4kz2Im94t6CDIbBYKVZN5Gw836otZZ3ifVhCo9f8F8Z1Q9p9y1pSOrA8ss3pbugEMetBICFbmM09dUlQAVopuhj8qNO9N32dJlIMNDFY6bMQ3zxSb4bgzNU",
+          "received": false
+        },
+        {
+          "_id": "6952fd981c508c5d5e4e392e",
+          "name": "Gloves61989",
+          "amount": 616,
+          "price": 48096,
+          "manufacturer": "Xiaomi",
+          "notes": "dXDdBZGTCfUd2DcUn4GIlwjMnZwzaOmCQzO6HFW473C6hhvdwfmoqYj60Rk82HILcXbf7pYlxxbsOQq6q2eQyhLfeBJ47j8mthO2iIUZlomPR0GbkoBXTSJAdAah4O5Yl1b9l0g86RqlYQ5A66A5E3Tuv5jP9lJjHP4KpElf3qvWIiKRmI8aHGDKgDzE4BUyquWUUFM8ph0KOF7LLeHIgIJU1lPYoYniIst7hJQ11nmxJEgMvN8MaQ1VUu",
+          "received": false
+        },
+        {
+          "_id": "6952fd981c508c5d5e4e3930",
+          "name": "Chair25763",
+          "amount": 778,
+          "price": 87708,
+          "manufacturer": "Xiaomi",
+          "notes": "2l14wtBFpOmnYFpRamspJ6ej3YJyHr5iGgyugCUQIXuxcTjQLF8JAb5PRrtH0LSBvuSOGXE5rvV2C91h1zcjtXf3NXxdt2OGbWq0Ae8n5MOUYomsDcoPuGunXgchB1v8138vNXOO22dEUWGDEi2Pb18ZKQrkLWbuM2QD4fhL10u9OaZLoUjK4ODXIoNjvtUcmHlOgxKeIWorPnLrXPXx5ieQSua50UmaYztwDjP4XFM2wU9r9rHNUlzBG0",
+          "received": false
+        },
+        {
+          "_id": "6952fd981c508c5d5e4e3934",
+          "name": "Chips98055",
+          "amount": 62,
+          "price": 75624,
+          "manufacturer": "Microsoft",
+          "notes": "meVvgByhL8hqzmTdzveTXe855ZxJbqzDwE5LKdnUwsGzDMerpJFgU04gw3wFNEEkITzCENnyRvfhp63QDMKvZSYpVBnVdjoxqdjJMHtkr7SdbYJOJskXlkryrwyHOQNfPklhuqfraseiyannjKEdmMW354tUD8DPUK6bomLYqkAbuLUdlIOAvmqaUcoK1MkNEjUHmtg3HLJ9ESkczAt7jenuW88dAvHvfGTBey7ugWlUoUSLNAQeYYrJtg",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 292401,
+      "createdOn": "2025-12-29T22:15:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6952fd981c508c5d5e4e38fd",
+          "products": [
+            {
+              "_id": "6952fd981c508c5d5e4e3910",
+              "name": "Chair5434",
+              "amount": 808,
+              "price": 58173,
+              "manufacturer": "Xiaomi",
+              "notes": "t6vl4UPOqCJwxKxpjzRXFkCm66EioZZfHR1DshadY8xSLpBJ3tRbEQvkYIOHScwll3J0ozJDVAVC9vWABH0cprg1EjVJRF2XrAzr3E52h5whUzfZq4yxMvAy9n7hHOesWHbHHeGTP5dyeypY8Vudh1HHaFVwJAaMbXudpX1UEUkWcXOtrBCc5K3QIpmoKzBQZXRaxEUmXfR4ppuDrrxNBtKfCdno6H0F2i3PAY4pTHSjA6Wb14Psuk3p1V",
+              "received": false
+            },
+            {
+              "_id": "6952fd981c508c5d5e4e392c",
+              "name": "Hat45445",
+              "amount": 680,
+              "price": 22800,
+              "manufacturer": "Apple",
+              "notes": "dbwHpzURhlq4fz6HBDIKvvJ0C6bc51XhC34MKpzdp9A5Ce1JsULPrBsaLDjYGFf3cLwS3noXEqxftSo7JHUylMDIvX4HX0p8H2q1XkbI0JSC80dBrDHpKZkU3G9yLITPqwx4kz2Im94t6CDIbBYKVZN5Gw836otZZ3ifVhCo9f8F8Z1Q9p9y1pSOrA8ss3pbugEMetBICFbmM09dUlQAVopuhj8qNO9N32dJlIMNDFY6bMQ3zxSb4bgzNU",
+              "received": false
+            },
+            {
+              "_id": "6952fd981c508c5d5e4e392e",
+              "name": "Gloves61989",
+              "amount": 616,
+              "price": 48096,
+              "manufacturer": "Xiaomi",
+              "notes": "dXDdBZGTCfUd2DcUn4GIlwjMnZwzaOmCQzO6HFW473C6hhvdwfmoqYj60Rk82HILcXbf7pYlxxbsOQq6q2eQyhLfeBJ47j8mthO2iIUZlomPR0GbkoBXTSJAdAah4O5Yl1b9l0g86RqlYQ5A66A5E3Tuv5jP9lJjHP4KpElf3qvWIiKRmI8aHGDKgDzE4BUyquWUUFM8ph0KOF7LLeHIgIJU1lPYoYniIst7hJQ11nmxJEgMvN8MaQ1VUu",
+              "received": false
+            },
+            {
+              "_id": "6952fd981c508c5d5e4e3930",
+              "name": "Chair25763",
+              "amount": 778,
+              "price": 87708,
+              "manufacturer": "Xiaomi",
+              "notes": "2l14wtBFpOmnYFpRamspJ6ej3YJyHr5iGgyugCUQIXuxcTjQLF8JAb5PRrtH0LSBvuSOGXE5rvV2C91h1zcjtXf3NXxdt2OGbWq0Ae8n5MOUYomsDcoPuGunXgchB1v8138vNXOO22dEUWGDEi2Pb18ZKQrkLWbuM2QD4fhL10u9OaZLoUjK4ODXIoNjvtUcmHlOgxKeIWorPnLrXPXx5ieQSua50UmaYztwDjP4XFM2wU9r9rHNUlzBG0",
+              "received": false
+            },
+            {
+              "_id": "6952fd981c508c5d5e4e3934",
+              "name": "Chips98055",
+              "amount": 62,
+              "price": 75624,
+              "manufacturer": "Microsoft",
+              "notes": "meVvgByhL8hqzmTdzveTXe855ZxJbqzDwE5LKdnUwsGzDMerpJFgU04gw3wFNEEkITzCENnyRvfhp63QDMKvZSYpVBnVdjoxqdjJMHtkr7SdbYJOJskXlkryrwyHOQNfPklhuqfraseiyannjKEdmMW354tUD8DPUK6bomLYqkAbuLUdlIOAvmqaUcoK1MkNEjUHmtg3HLJ9ESkczAt7jenuW88dAvHvfGTBey7ugWlUoUSLNAQeYYrJtg",
+              "received": false
+            }
+          ],
+          "total_price": 292401,
+          "delivery": null,
+          "changedOn": "2025-12-29T22:15:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

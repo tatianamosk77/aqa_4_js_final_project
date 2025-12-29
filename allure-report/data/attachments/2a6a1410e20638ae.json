@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:15:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1879",
+    "etag": "W/\"757-34PWs3Sa+tLa+X1+r7IplffyJ2c\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6952fd9b1c508c5d5e4e39ef",
+        "email": "Vincenzo.Jaskolski@hotmail.com",
+        "name": "Sidney Berta",
+        "country": "France",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 512,
+        "flat": 4221,
+        "phone": "+9784400802",
+        "createdOn": "2025-12-29T22:15:55.000Z",
+        "notes": "RKuZ8Ofa9ImmlwZRlHc7jwQP2aZ8wBsfzT5DHONoE7BZ9B2phfBVeLaXiHvrraPuT6nrGfIehIZ7Ij9ksPjuVioGQ5KdvuC3q17HIzZ24V8UeUsuDvCKH1AReoKANFp7XqrpyKH1s7wLdZiEGoxF43WVEHq4bBnfeOJwZ7quQpTI5vGqO6r6o5nJN1H5YBBJFCr6efJk59YjLOhtywi9QricjX46Vh2fHlY22NzYpy3GkwXrHopf26ndc8"
+      },
+      "products": [
+        {
+          "_id": "6952fd9b1c508c5d5e4e3a04",
+          "name": "Tuna63862",
+          "amount": 484,
+          "price": 43934,
+          "manufacturer": "Google",
+          "notes": "HTzDrk5yYCWQewkK30Rlwlu4AFcO7XbVTNjg6eetCysLmzgzULGiDQ42QB9jg2IxbZym0WHRXxqGthEesf8lSGABpBninOgyIB9gGb3KgiW1gU8iiKIgT9LeavbPnIhhvSo8MH7G1corFDmHu8Dig9lHyPMKusN6tEghnGNLXWtDVWs3T30cKTt7Bl2FXOediED7syhQtw64yPhR0E2unRxt5PHCOWexfWA1E6GU4egoPpJh4vN9cLnwkl",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 43934,
+      "createdOn": "2025-12-29T22:15:55.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6952fd9b1c508c5d5e4e39ef",
+          "products": [
+            {
+              "_id": "6952fd9b1c508c5d5e4e3a04",
+              "name": "Tuna63862",
+              "amount": 484,
+              "price": 43934,
+              "manufacturer": "Google",
+              "notes": "HTzDrk5yYCWQewkK30Rlwlu4AFcO7XbVTNjg6eetCysLmzgzULGiDQ42QB9jg2IxbZym0WHRXxqGthEesf8lSGABpBninOgyIB9gGb3KgiW1gU8iiKIgT9LeavbPnIhhvSo8MH7G1corFDmHu8Dig9lHyPMKusN6tEghnGNLXWtDVWs3T30cKTt7Bl2FXOediED7syhQtw64yPhR0E2unRxt5PHCOWexfWA1E6GU4egoPpJh4vN9cLnwkl",
+              "received": false
+            }
+          ],
+          "total_price": 43934,
+          "delivery": null,
+          "changedOn": "2025-12-29T22:15:55.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6952fd9b1c508c5d5e4e3a19"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

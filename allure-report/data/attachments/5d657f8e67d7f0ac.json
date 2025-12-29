@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:15:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-x6xNXO23TYShnsm6/cWUrLAza3A\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Humberto.Dickens@yahoo.com",
+      "name": "Isai Randi",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 306,
+      "flat": 9206,
+      "phone": "+3252791891",
+      "createdOn": "2025-12-29T22:15:23.000Z",
+      "notes": "Ov5EwgqgexFp5sSJhknEd1Py6v4ryZvs0dAGXEs91fkrKpyEJ5HWY6GE6BencbPNbKgNrGpNNYy2wDERWcUOzeTgXEyIRbF97jOOOgYidmHPPcZ6cOeiUdshpxmiR4VEHnWc1eUQWxGYShZKL7i8LWQtbTaSECAeN9Gnq6B8vJkAQsDSoPtAwiA6gKANTAX5cgLFUBIa0Qjm6DfaufVY5lY29Ccp8bij3hlGhEizp8oaGRW10WCQTJptGD",
+      "_id": "6952fd7b1c508c5d5e4e30a6"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

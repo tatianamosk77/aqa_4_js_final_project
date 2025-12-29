@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:15:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "551",
+    "etag": "W/\"227-V3mGWi0lTFTyGSm48bgY4/WKFlQ\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ana.Schuppe@yahoo.com",
+      "name": "Marisol Clair",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 841,
+      "flat": 6471,
+      "phone": "+2049331567",
+      "createdOn": "2025-12-29T22:15:41.000Z",
+      "notes": "fNSsqN2DwFC9XaeaH0cgFAimOIsyJwvkbvlcPoCSKpYV4fkbwAXg9iSVhVwI8ZCLV7uCyebkozuUimENq98VlR7SfRBbiuqx8HAB1LMiCGriCLFjyLvpMTHksU0KLuFWdoJYoPlHHPYxS5mPMH66JxPeEkJdXK2CEDaux7qEFTq7gpU9m4Fn8oM3Xr2sCXdyfL4Ty9zajrQCrgNea2kRFvXuB7ZN3cF6UIx8xASzh14DosjXPsLRlfYObR",
+      "_id": "6952fd8d1c508c5d5e4e3714"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

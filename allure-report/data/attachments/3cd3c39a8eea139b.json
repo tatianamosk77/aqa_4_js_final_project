@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:15:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-AjfYsIJLf5Wp4yI6TMgVZF5Ud0U\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Sigurd.Funk@yahoo.com",
+      "name": "Elinore Nicolette",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 870,
+      "flat": 8664,
+      "phone": "+7434736219",
+      "createdOn": "2025-12-29T22:15:39.000Z",
+      "notes": "CsjeV1fF1UuZGHmtbqlEDmniPIW71zNxYlefvpOpxx2WAqkDNrLbon8xYcU1nwWCR6nV0ETJWK5tAKKCn5ewei7WeHNnHy7PlOGDYFs61jGItPgvvujSFlXUJrhFIRimHl3QPcRejLGg2txFY3ulOCWOBTMxrx6V8yBwbb3efwhapny6Vxyc0qpqYjnApWQLEovnxQWF71AtyJokHIMFaDZXnQ8qdGBGlt09mHcY45Ud1IWXpwZeTnEm2S",
+      "_id": "6952fd8b1c508c5d5e4e36d5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

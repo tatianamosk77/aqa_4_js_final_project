@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:15:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "536",
+    "etag": "W/\"218-XVJaSZIYJntnJREMD/FOnbZKNJs\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Wilma92@yahoo.com",
+      "name": "Ben Green",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 880,
+      "flat": 7394,
+      "phone": "+9909516290",
+      "createdOn": "2025-12-29T22:15:52.000Z",
+      "notes": "GB0GAnScVSPY6uIYicpmAxsBhBoRN0zuumQHajMmOgz4Fnx748nKOysGsK3FSMyjrlbLzY3Pz6bDb6J7ncCgZBAn2w4FhVNkAQipIO6PnPvETt2c2xnNHbXxO0ndERWIkK163Oa1aOXN1mGJev9YZ1LngN2y5UHmvfPoWJnOWEIzDm1EKtUo9z23tyhpfH5Jc5MPzMmY14NCN5oY3ZerfXwvABegqoKt53vczXBTktvwFtkcRBBTX7JTEd",
+      "_id": "6952fd981c508c5d5e4e38ff"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
