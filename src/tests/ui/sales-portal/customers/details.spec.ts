@@ -6,15 +6,14 @@ import { convertToDateAndTime } from "utils/date.utils";
 test.describe.skip("[Sales Portal] [Products] [Customer Details]", () => {
   let id = "";
   let token = "";
-  test(
-    "Customer Details",
+  test("Customer Details",
     {
       tag: [TAGS.REGRESSION, TAGS.CUSTOMERS, TAGS.UI],
     },
     async ({ customersListPage, customerDetailsPage, customersApiService }) => {
       token = await customersListPage.getAuthToken();
       const customer = await customersApiService.create(token);
-      await customersListPage.open("customers");
+      await customersListPage.open();
       await customersListPage.waitForOpened();
       await customersListPage.detailsButton(customer.name).click();
       await customerDetailsPage.waitForOpened();
@@ -42,7 +41,7 @@ test.describe.skip("[Sales Portal] [Products] [Customer Details]", () => {
 
       const customer = await customersApiService.create(token);
       id = customer._id;
-      await customersListPage.open("customers");
+      await customersListPage.open();
       await customersListUIService.openDetailsCustomersPage(customer.email);
       const actual = await customerDetailsPage.getData();
       const expectedCustomer = {
