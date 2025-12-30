@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 22:15:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-GXDncLzKBPGkpKvLMvkBKeH1Gfc\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Bernadette.Bruen@gmail.com",
+      "name": "Aimee Demarco",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 419,
+      "flat": 3440,
+      "phone": "+6910044622",
+      "createdOn": "2025-12-30T22:15:21.000Z",
+      "notes": "1qC9WjUeRUWBSqA3xVVhesdnnUu81AY7zHl0w2FNia6W2YIhfX4zViinqxUDclGpxgQdQ7bjVrnkJQzySbVvuIX4vzCN1jSiauwnpfoDAg3h1ZjcobtBONIzsNaGY8hiDfxb2nOXhpJjCAJm0xKt4RHHMhDyJd2R5HXuFlswMsVQ0HfZCz5jwEVptiEzcRvhphJGOBtq8A4ZRY4noXWKW3AvZGJ2OC1n7iitKTGyZL92JzntB8Yh8M2rwN",
+      "_id": "69544ef91c508c5d5e57f3b9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

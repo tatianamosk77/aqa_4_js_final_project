@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 22:15:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-4YpqZwzRLRvzk+FPp5FocTeJlyE\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Gregory_West1@gmail.com",
+      "name": "Test Customer",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 166,
+      "flat": 5449,
+      "phone": "+2542472748",
+      "createdOn": "2025-12-30T22:15:08.000Z",
+      "notes": "xjIi2rKLQORTHuJFN0e5aMsAndmOFs19GzCI2zpNPFVC3NOV4BBhfdJ3OXWlIUluJ5TNELjCQOXcxHmdyYDBm4gnrRCcXfwEGU0F3AobqGar8Lrvnn1hALwDJta90uFTy1cKndXBP6TDYgjTObSEfrBH3cfR8M7O0dLJ7nLohPZtb2ltxrIOfwTRGhfOVlCEWsh29KntJizPLhOuDPm23W4o8uSD6fhuIaJ7wIaux6XXMgBmIeu1VG6ehF",
+      "_id": "69544eec1c508c5d5e57f121"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

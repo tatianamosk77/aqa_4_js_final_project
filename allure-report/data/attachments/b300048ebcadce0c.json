@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 22:15:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "529",
+    "etag": "W/\"211-S4Siwhu2We7+RLSPqgL36L5u8yM\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Amiya.Kunde@yahoo.com",
+      "name": "u",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 172,
+      "flat": 2698,
+      "phone": "+5971923922",
+      "createdOn": "2025-12-30T22:15:07.000Z",
+      "notes": "j7jzx3PEWZdhEa4kxqpItdcMNJlVdaMYt6f0h5jf5nBhVh2n3296PRiZSMfX1Hk4oc1z562fQCckt3QZbPyW8hzfwDlcR9ltVTcMDUWydnFcD8z3LrcpPPMqJicFv7Jk77YwvJXx6bzsNNnFEHSDBZr4Ip5PD7MRiFiAby6fJseMGSx3FPH3MZQjqf1m5L3KTP9rV4e2qG80FEbWgCn4s4LT6pDrMs91w0L3tFhSLgyMzKjuYYmCA3qBEC",
+      "_id": "69544eeb1c508c5d5e57f10d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

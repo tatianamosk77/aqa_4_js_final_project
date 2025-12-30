@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 22:15:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-Rz/MdRs9SSMMFjZQW6ojGN/kaGA\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Olin.Miller@hotmail.com",
+      "name": "Vada Edd",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 782,
+      "flat": 97,
+      "phone": "+2555415123",
+      "createdOn": "2025-12-30T22:15:10.000Z",
+      "notes": "ZF4MgZkjZL8SjEnFo7RgdSrnHr2Gnc6j1Nuq8ihWShZ7YKMkODJ9jlcASiZE5RIxCLRlwtWWRn1vRc2JM0t7zoQtnFeptJscVTCdlIYlMmsDsfGT0jwcguLwyW2vubVDUiqhIhl8mSobqbOqMopwW0ynQtG7eEqAzk4cKVxvQRPKuiTydZUDJtedUHDAvJ0FteYN0swmcUF8XPPgOalLzDVUhezVHWG2o3iOkTaTVRhPxNmSv60mkf9xkX",
+      "_id": "69544eee1c508c5d5e57f1b8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

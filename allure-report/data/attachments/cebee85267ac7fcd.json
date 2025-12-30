@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 22:15:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1879",
+    "etag": "W/\"757-8a5WyB/QkTFTZuUbsuI7OOzpm/Q\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69544f041c508c5d5e57f717",
+      "status": "Draft",
+      "customer": {
+        "_id": "69544f041c508c5d5e57f6f1",
+        "email": "Mazie.Mitchell95@yahoo.com",
+        "name": "Shany Ken",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 426,
+        "flat": 7915,
+        "phone": "+7837946438",
+        "createdOn": "2025-12-30T22:15:32.000Z",
+        "notes": "jbyNN78CWA6ZGevP8IDu4sJSaLkmDUmamN8yjaVZCr3HkDoc8iCGIQzqWNr7bryqwglgQ3gbYJGH6SRV396uoCg92NZmgVvFOBrurbjSlM2vm1VMimueydnyh6I2OSKjLGMwG2xuA4qIsZn1SXKalWC0PHwPV9sc7VsGxBu6RfCuhmmaZVo674Cc6J9uVrWpstAKUZto32BFjLLwQPGSkX32niif8wrY6HKBViSGP9sm5GAri32iBqa1z6"
+      },
+      "products": [
+        {
+          "_id": "69544f041c508c5d5e57f6f9",
+          "name": "Soap47969",
+          "amount": 511,
+          "price": 30553,
+          "manufacturer": "Microsoft",
+          "notes": "lkGYR3C3xDGOxgRMffpYIluFuaJJtpiXQZDJ4Pc4ETN6cqlL1Zy21tGJLfeFJ0Ie1izImombe9vZF5ZCUC2oIQCe8YZ3mRtEbbOAKZbK6pLg4AiA5JoFGx4bU7xyZfaCWMiIvr7187LvD6jhdPTXU0GYhfrnGRlZ3EjrKwdHFwDgfHgNtNjTctam1xAFe565mQg5SeO1aUP5uFHjqNDcPuhbyYsXpEaMY6l04vmCyIf97LgbsCHHNp3tbg",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 30553,
+      "createdOn": "2025-12-30T22:15:32.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69544f041c508c5d5e57f6f1",
+          "products": [
+            {
+              "_id": "69544f041c508c5d5e57f6f9",
+              "name": "Soap47969",
+              "amount": 511,
+              "price": 30553,
+              "manufacturer": "Microsoft",
+              "notes": "lkGYR3C3xDGOxgRMffpYIluFuaJJtpiXQZDJ4Pc4ETN6cqlL1Zy21tGJLfeFJ0Ie1izImombe9vZF5ZCUC2oIQCe8YZ3mRtEbbOAKZbK6pLg4AiA5JoFGx4bU7xyZfaCWMiIvr7187LvD6jhdPTXU0GYhfrnGRlZ3EjrKwdHFwDgfHgNtNjTctam1xAFe565mQg5SeO1aUP5uFHjqNDcPuhbyYsXpEaMY6l04vmCyIf97LgbsCHHNp3tbg",
+              "received": false
+            }
+          ],
+          "total_price": 30553,
+          "delivery": null,
+          "changedOn": "2025-12-30T22:15:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

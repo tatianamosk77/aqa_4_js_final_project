@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 22:15:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-SigIxMCAiVQ1rJVJ1PkxppAYoWQ\"",
+    "keep-alive": "timeout=5, max=76",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Joesph.Kessler@hotmail.com",
+      "name": "Kaycee Lavina",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 456,
+      "flat": 6842,
+      "phone": "+4271162620",
+      "createdOn": "2025-12-30T22:15:33.000Z",
+      "notes": "ElPtfQ5donzDaMq77yxQxQ8KpiP8ZN6kcCbuNnjsBWekpMMQexccn39emKtGpBUCVXJh5U3supdhwmkWFH5IeNXPTQE1Shz0QQWR0rmPNzDVjAwCVm4tTLFdy3Sbx60mFTtifjgWKPSbHOU1we3aQjLB0yxvCUKpBbgmFTOgUbSt8mXXNJKh6x6kyQKEN4c6N9lN5Ov4A4tq3crsqVLgoOG42maaRBVU7P4MVXOGu0qu3NUdSY7SFZw9qm",
+      "_id": "69544f051c508c5d5e57f748"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

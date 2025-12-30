@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 22:15:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1875",
+    "etag": "W/\"753-6MZwBvr4T7kYcRiAj/rM7smyJkg\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69544f091c508c5d5e57f8e2",
+      "status": "Draft",
+      "customer": {
+        "_id": "69544f081c508c5d5e57f8ba",
+        "email": "Jennyfer7@hotmail.com",
+        "name": "Jennyfer Sallie",
+        "country": "France",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 892,
+        "flat": 3914,
+        "phone": "+0977474898",
+        "createdOn": "2025-12-30T22:15:36.000Z",
+        "notes": "4K6wsZ8ffyRWpBK8grkDSDWavPbLfYB2DGOlnm0vBnsJeWnnGMdvs16eg36DxjmBJS1GC0MMjjSCRSYADJiU3do1IunttDe0VRyH9JyBDSpuzGv700gGpRs98CSqx9eQDQNmCTdcftT8qyj5sMNRoMR6suFfJQmcDbG3l7UMysSxzvL7YpDG9cMaYbXLYSqsgqRz2ae0ZXecYv4MvIheppqidtTT64W4vNAuMo0W3vKXup7xmVHQUVriYC"
+      },
+      "products": [
+        {
+          "_id": "69544f081c508c5d5e57f8c8",
+          "name": "Pizza49757",
+          "amount": 905,
+          "price": 74905,
+          "manufacturer": "Xiaomi",
+          "notes": "ok7EW2AsVilAejaJYKbJVaRU5TQ61NzWMCoUrfkYFbADP33vXpCHWzO9a5yOGMiaCkOqJ2obeQtia7MYimtLUgFPi9aIl3WMX2UbqarSCWXvX60XryGzCwjno3Nlf3j6LLfHm7bgDf2HmK45vq1yhqf4kf7CvEQWPRCaIIh8U11zhf3xRVJaepgsihJ43nxh0tXXZYtj5sBOlgHNZbL4DFnx4Sehn6zc2BNCZdK1bEHGN9FnMhnvoMbcln",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 74905,
+      "createdOn": "2025-12-30T22:15:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69544f081c508c5d5e57f8ba",
+          "products": [
+            {
+              "_id": "69544f081c508c5d5e57f8c8",
+              "name": "Pizza49757",
+              "amount": 905,
+              "price": 74905,
+              "manufacturer": "Xiaomi",
+              "notes": "ok7EW2AsVilAejaJYKbJVaRU5TQ61NzWMCoUrfkYFbADP33vXpCHWzO9a5yOGMiaCkOqJ2obeQtia7MYimtLUgFPi9aIl3WMX2UbqarSCWXvX60XryGzCwjno3Nlf3j6LLfHm7bgDf2HmK45vq1yhqf4kf7CvEQWPRCaIIh8U11zhf3xRVJaepgsihJ43nxh0tXXZYtj5sBOlgHNZbL4DFnx4Sehn6zc2BNCZdK1bEHGN9FnMhnvoMbcln",
+              "received": false
+            }
+          ],
+          "total_price": 74905,
+          "delivery": null,
+          "changedOn": "2025-12-30T22:15:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

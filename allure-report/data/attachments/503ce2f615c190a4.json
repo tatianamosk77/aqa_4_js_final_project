@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 22:15:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1878",
+    "etag": "W/\"756-seALpZ8CjcP0AP9duID+atw3s28\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69544efd1c508c5d5e57f495",
+        "email": "Layne_Stark@gmail.com",
+        "name": "Lilly Brianne",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 648,
+        "flat": 4461,
+        "phone": "+7557200911",
+        "createdOn": "2025-12-30T22:15:25.000Z",
+        "notes": "1TQDMS4s1LO0j8HB7YjM6qviSrc68ZjS59nJi89PZX4nxWVPBKnUEmqzw71zwrV5chLD12QsGHYePmhSTFriqcf1IWswsbWKjnfE1JhVeGsp8kiTisRPEyoCiIlYTldKIJOejPA7RDZ916MHW9JIdwG79YdFKs5eLlqjkCQE1nafaDmiKDIALQIugNddtoU2JzVSpSZ4DVgbeqMh4SXZIIBbt9SmQQObbAYCCxBOWPwUeHMhnCni2dSQOw"
+      },
+      "products": [
+        {
+          "_id": "69544efe1c508c5d5e57f4bd",
+          "name": "Fish29262",
+          "amount": 694,
+          "price": 62441,
+          "manufacturer": "Google",
+          "notes": "k1tYOWV2qFTmXuIAxXVQBqQkDs94xLKijrUbjzjeGKjlCRtP0E7LbPCOA6NiNb9DAnoTojbX0HMcmAXAIGzkzA8UfCMgp27M5KDc6EdyRf3KP0JRvtgHkqU14YU5yPyvH6tmCkDCOl0uvAfnJGmLhiwbWeQbRkoZjYG2a17h5D0cJO0IGGXlEwGLUIRJQ4eHXJ7Bx3fYEVXpIqRQZ2VAzm0M6RFzVcqnU5ByV38Szms0WLo4yEGRLe0C4E",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 62441,
+      "createdOn": "2025-12-30T22:15:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69544efd1c508c5d5e57f495",
+          "products": [
+            {
+              "_id": "69544efe1c508c5d5e57f4bd",
+              "name": "Fish29262",
+              "amount": 694,
+              "price": 62441,
+              "manufacturer": "Google",
+              "notes": "k1tYOWV2qFTmXuIAxXVQBqQkDs94xLKijrUbjzjeGKjlCRtP0E7LbPCOA6NiNb9DAnoTojbX0HMcmAXAIGzkzA8UfCMgp27M5KDc6EdyRf3KP0JRvtgHkqU14YU5yPyvH6tmCkDCOl0uvAfnJGmLhiwbWeQbRkoZjYG2a17h5D0cJO0IGGXlEwGLUIRJQ4eHXJ7Bx3fYEVXpIqRQZ2VAzm0M6RFzVcqnU5ByV38Szms0WLo4yEGRLe0C4E",
+              "received": false
+            }
+          ],
+          "total_price": 62441,
+          "delivery": null,
+          "changedOn": "2025-12-30T22:15:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69544efe1c508c5d5e57f4d8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

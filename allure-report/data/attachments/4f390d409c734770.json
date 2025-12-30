@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 22:17:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "554",
+    "etag": "W/\"22a-jc9xXQEzhy6ARBfEvn8j2PFOX/8\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Immanuel_Oberbrunner@hotmail.com",
+      "name": "Ruthe Durward",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 579,
+      "flat": 458,
+      "phone": "+2443811578",
+      "createdOn": "2025-12-30T22:17:20.000Z",
+      "notes": "nTr3P7ZFZkXnJxt9rhUHXQqASV8cNjWfg97FmAI0XQVcqi0m7sjKGJjercVh9ROyTatzQUayMLWvm5pILqU1lHGnzYn0Al5TUKnaEYKmkrumk4BS83LVj15YuNxxHlCB7uFgtSGTfSPjb3dxmckmnaRVMDUGdXRuQR0gDXpezhkPU7cGGpTINBucney6ev0e2UWNHYeZgW1BmzKYT4Jd6gu2PihuDS5RO2QkWtZb3NUvOjVLWkoM8isfjO",
+      "_id": "69544f701c508c5d5e5812eb"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

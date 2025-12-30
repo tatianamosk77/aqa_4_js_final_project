@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 22:15:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-JU5rPwes+TIonGRoIO/lH4foE4E\"",
+    "keep-alive": "timeout=5, max=69",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69544f001c508c5d5e57f59c",
+        "email": "Hudson.Lakin@hotmail.com",
+        "name": "Lourdes Jamey",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 393,
+        "flat": 359,
+        "phone": "+0638769284",
+        "createdOn": "2025-12-30T22:15:28.000Z",
+        "notes": "hbOwGRu4g2GZrA4TL9kDVEpq27283S2IeMsIGmtGTAKqo58z2VxvOeSwveLrdMuO03Zbj3eANErlpATEsAPEVYBRYrmpEdJflHJ7K3uBM4GSGWFnx35by51R3ElG7elqLR86yA8d0VxkjdzLYyO1r1ZfcFMHVUNY0peB9flpwqCBvUXoORHIUSIl5p9fRvKv2f4ReNgUd7ZqvakmSAnN7hsJmNL7jLaceGRGQ1GZqLX1CSvwh2jIJWaDiu"
+      },
+      "products": [
+        {
+          "_id": "69544f001c508c5d5e57f5a5",
+          "name": "Sausages64246",
+          "amount": 403,
+          "price": 52438,
+          "manufacturer": "Amazon",
+          "notes": "907bmuVimuPVW3ycvCwShDcHehZrhx3enAjhB7o85lB3fuDWoYq0Douj98ghTbuaweIHWzxZj3kNRyHyOvvckE7rYGKW33Jboih7xa4KGfsOxFJSFWlDMxWdhqykTIeVKDKsFGZiJWQaqSOtmEHNn5c5quwhgFRNNIx0QyLv0RIIU3aks1TKa0iKStpIFe23p4JZlnEo8i5TSrT5508TuHY4WLnKB8JL5aBJMP1QLiOs4YT2QpOBT0VkNS",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 52438,
+      "createdOn": "2025-12-30T22:15:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69544f001c508c5d5e57f59c",
+          "products": [
+            {
+              "_id": "69544f001c508c5d5e57f5a5",
+              "name": "Sausages64246",
+              "amount": 403,
+              "price": 52438,
+              "manufacturer": "Amazon",
+              "notes": "907bmuVimuPVW3ycvCwShDcHehZrhx3enAjhB7o85lB3fuDWoYq0Douj98ghTbuaweIHWzxZj3kNRyHyOvvckE7rYGKW33Jboih7xa4KGfsOxFJSFWlDMxWdhqykTIeVKDKsFGZiJWQaqSOtmEHNn5c5quwhgFRNNIx0QyLv0RIIU3aks1TKa0iKStpIFe23p4JZlnEo8i5TSrT5508TuHY4WLnKB8JL5aBJMP1QLiOs4YT2QpOBT0VkNS",
+              "received": false
+            }
+          ],
+          "total_price": 52438,
+          "delivery": null,
+          "changedOn": "2025-12-30T22:15:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69544f011c508c5d5e57f5cb"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

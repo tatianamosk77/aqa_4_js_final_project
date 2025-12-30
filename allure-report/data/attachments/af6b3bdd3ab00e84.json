@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 22:15:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-1msYjvHczExDDiDxUk1eV7W+OzU\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Kira.Franecki@gmail.com",
+      "name": "Beatrice Nichole",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 756,
+      "flat": 7798,
+      "phone": "+5561659951",
+      "createdOn": "2025-12-30T22:15:29.000Z",
+      "notes": "C84xNT6p2Gq2ahMJG14ohi8D6D3r9nQ3OelTioJMDiyKNnBBvRE11jbhbbugcwzMkEQlhcK8TgHKfMBus0aaJePCnELmlqsQx6t5EtyMQ4csk8CdxX2AKXxtiMdzrXP9jD2KuunOsWnvEwZCOkzi4o8nk6RbvNgwh21HsXMSjTR4HHsDQ2XOmfbXidBh8iSZEONf92WcJvaPfR3KHHmyVdMJfPisTl3b18Jhx2ii9jRFEY8GufughEqN9y",
+      "_id": "69544f011c508c5d5e57f5b9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

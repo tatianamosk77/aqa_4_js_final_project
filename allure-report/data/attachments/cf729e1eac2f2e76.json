@@ -1,0 +1,75 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 22:15:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1557",
+    "etag": "W/\"615-u+5UhA3LAPpZzMBjX1IlcX4PgQo\"",
+    "keep-alive": "timeout=5, max=71",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Notifications": [
+      {
+        "_id": "6952fda21c508c5d5e4e3c3c",
+        "userId": "692337ce1c508c5d5e95335d",
+        "type": "assigned",
+        "orderId": "6952fda11c508c5d5e4e3c1c",
+        "message": "You have been assigned to order",
+        "read": true,
+        "expiresAt": "2025-12-30T22:16:02.239Z",
+        "createdAt": "2025-12-29T22:16:02.239Z",
+        "updatedAt": "2025-12-30T22:15:24.635Z"
+      },
+      {
+        "_id": "6952fda11c508c5d5e4e3c0e",
+        "userId": "692337ce1c508c5d5e95335d",
+        "type": "assigned",
+        "orderId": "6952fda11c508c5d5e4e3bf6",
+        "message": "You have been assigned to order",
+        "read": true,
+        "expiresAt": "2025-12-30T22:16:01.755Z",
+        "createdAt": "2025-12-29T22:16:01.755Z",
+        "updatedAt": "2025-12-30T22:15:24.635Z"
+      },
+      {
+        "_id": "6952fda11c508c5d5e4e3bf9",
+        "userId": "692337ce1c508c5d5e95335d",
+        "type": "unassigned",
+        "orderId": "6952fda01c508c5d5e4e3bb2",
+        "message": "You have been unassigned from order",
+        "read": true,
+        "expiresAt": "2025-12-30T22:16:01.433Z",
+        "createdAt": "2025-12-29T22:16:01.434Z",
+        "updatedAt": "2025-12-30T22:15:24.635Z"
+      },
+      {
+        "_id": "6952fda11c508c5d5e4e3bd0",
+        "userId": "692337ce1c508c5d5e95335d",
+        "type": "assigned",
+        "orderId": "6952fda01c508c5d5e4e3bb2",
+        "message": "You have been assigned to order",
+        "read": true,
+        "expiresAt": "2025-12-30T22:16:01.031Z",
+        "createdAt": "2025-12-29T22:16:01.031Z",
+        "updatedAt": "2025-12-30T22:15:24.635Z"
+      },
+      {
+        "_id": "6952fd951c508c5d5e4e3865",
+        "userId": "692337ce1c508c5d5e95335d",
+        "type": "assigned",
+        "orderId": "6952fd951c508c5d5e4e383c",
+        "message": "You have been assigned to order",
+        "read": true,
+        "expiresAt": "2025-12-30T22:15:49.938Z",
+        "createdAt": "2025-12-29T22:15:49.939Z",
+        "updatedAt": "2025-12-29T22:15:50.375Z"
+      }
+    ],
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

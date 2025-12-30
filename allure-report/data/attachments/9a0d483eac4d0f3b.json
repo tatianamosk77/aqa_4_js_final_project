@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 22:15:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1872",
+    "etag": "W/\"750-TEnvmJnhPbe/zYHE0/ZUY62imUo\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69544f051c508c5d5e57f77c",
+      "status": "Draft",
+      "customer": {
+        "_id": "69544f051c508c5d5e57f748",
+        "email": "Joesph.Kessler@hotmail.com",
+        "name": "Kaycee Lavina",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 456,
+        "flat": 6842,
+        "phone": "+4271162620",
+        "createdOn": "2025-12-30T22:15:33.000Z",
+        "notes": "ElPtfQ5donzDaMq77yxQxQ8KpiP8ZN6kcCbuNnjsBWekpMMQexccn39emKtGpBUCVXJh5U3supdhwmkWFH5IeNXPTQE1Shz0QQWR0rmPNzDVjAwCVm4tTLFdy3Sbx60mFTtifjgWKPSbHOU1we3aQjLB0yxvCUKpBbgmFTOgUbSt8mXXNJKh6x6kyQKEN4c6N9lN5Ov4A4tq3crsqVLgoOG42maaRBVU7P4MVXOGu0qu3NUdSY7SFZw9qm"
+      },
+      "products": [
+        {
+          "_id": "69544f051c508c5d5e57f751",
+          "name": "Soap70084",
+          "amount": 309,
+          "price": 74162,
+          "manufacturer": "Sony",
+          "notes": "39VtI9aqvjBuv3VyDN6EN1kHIPHeLBfbKK7D6TJWi5ObmiM5Vk5A03GjmdqwLug3FzumzrSwiP1wsEY5z6k6uyhYKBea9iDv5GdsfrTW72oT3kABzyI9mngEB8i2wk0I2sfXeUBdNyMJIysPqvecZYRi4Nxddo8lRtQnfBr8LBPSqUUUFSeEpv28s2USNvNMUV86FsgIrQ2an2TV0n2k9dyEd9R2PXg8AU5k4HQHfGRCqsTHeo6eK2152d",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 74162,
+      "createdOn": "2025-12-30T22:15:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69544f051c508c5d5e57f748",
+          "products": [
+            {
+              "_id": "69544f051c508c5d5e57f751",
+              "name": "Soap70084",
+              "amount": 309,
+              "price": 74162,
+              "manufacturer": "Sony",
+              "notes": "39VtI9aqvjBuv3VyDN6EN1kHIPHeLBfbKK7D6TJWi5ObmiM5Vk5A03GjmdqwLug3FzumzrSwiP1wsEY5z6k6uyhYKBea9iDv5GdsfrTW72oT3kABzyI9mngEB8i2wk0I2sfXeUBdNyMJIysPqvecZYRi4Nxddo8lRtQnfBr8LBPSqUUUFSeEpv28s2USNvNMUV86FsgIrQ2an2TV0n2k9dyEd9R2PXg8AU5k4HQHfGRCqsTHeo6eK2152d",
+              "received": false
+            }
+          ],
+          "total_price": 74162,
+          "delivery": null,
+          "changedOn": "2025-12-30T22:15:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

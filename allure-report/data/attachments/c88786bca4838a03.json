@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 22:15:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1877",
+    "etag": "W/\"755-DW2LONJbEoUlN+yj5Cp8IQZiTtM\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69544efe1c508c5d5e57f4ad",
+        "email": "Lucie.Swaniawski73@yahoo.com",
+        "name": "Nia Janick",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 35,
+        "flat": 9963,
+        "phone": "+9586784269",
+        "createdOn": "2025-12-30T22:15:26.000Z",
+        "notes": "042yrKa7v2h8InhvoSYas9i5xaRij44ziSoFroMMnsSfTjaLagxQRCud5A5ekNLMEz3g7S29SuTGDsWA3NXshXUeUnLNTNSEeGn7F6sUcn9I86KtvUc1JsJQ0JEAzO5lAHkxPQMefRRt5WKyI2fo0i64ArfMtjWLs0Wxk1o4lvqg1TTQDPKtLiQNIdL1Gj16gC5caMJZsL0kvnHxuo4BogydtQGGLo3vpmSreYhFhGDNMOJF1xG8V3IHg5"
+      },
+      "products": [
+        {
+          "_id": "69544efe1c508c5d5e57f4c6",
+          "name": "Shoes15498",
+          "amount": 104,
+          "price": 82105,
+          "manufacturer": "Google",
+          "notes": "fsmIHVAwW5gBd4bAACuGZyB2TyJ4ql5WlTGU4WIIMKxkvAQmJPAWKl8D39x5BCy0GRzrbIyrQcXC5ThuE9DYAH6vEm3vy4FmIKCS1B3xmfCEzwV0UTmc2VyylGGKK2k9Qi8KDr5CkSbVsCVcbQClgqRfRohcgJZL32urAyaYkJ5Cs9xBAiRjAgqOejw7UmL3L4EwfnjhzCPZYhPIO2bWC1WluOne1kh53oaDXzYncOZLm64zqdlhZ6Gii9",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 82105,
+      "createdOn": "2025-12-30T22:15:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69544efe1c508c5d5e57f4ad",
+          "products": [
+            {
+              "_id": "69544efe1c508c5d5e57f4c6",
+              "name": "Shoes15498",
+              "amount": 104,
+              "price": 82105,
+              "manufacturer": "Google",
+              "notes": "fsmIHVAwW5gBd4bAACuGZyB2TyJ4ql5WlTGU4WIIMKxkvAQmJPAWKl8D39x5BCy0GRzrbIyrQcXC5ThuE9DYAH6vEm3vy4FmIKCS1B3xmfCEzwV0UTmc2VyylGGKK2k9Qi8KDr5CkSbVsCVcbQClgqRfRohcgJZL32urAyaYkJ5Cs9xBAiRjAgqOejw7UmL3L4EwfnjhzCPZYhPIO2bWC1WluOne1kh53oaDXzYncOZLm64zqdlhZ6Gii9",
+              "received": false
+            }
+          ],
+          "total_price": 82105,
+          "delivery": null,
+          "changedOn": "2025-12-30T22:15:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69544efe1c508c5d5e57f4e2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

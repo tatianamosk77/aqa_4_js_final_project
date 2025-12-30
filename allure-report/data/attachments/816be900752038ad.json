@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 22:15:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-4PTr/OhFb56EOKPjUA3GX2iw4g8\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Bobby_Nienow@gmail.com",
+      "name": "Ulises Sam",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 215,
+      "flat": 7824,
+      "phone": "+0137317788",
+      "createdOn": "2025-12-30T22:15:19.000Z",
+      "notes": "xtzLpBXqoBSAmERer7DxmM49VnE7zPqcgELC9cvD4zkwDz084KHMRnIUM5X5ybCYeyLse8yI82Bs98jS1IEuBgCY6lzZHzaiXgPX22Jf6GI6n3syJUMwigiUlmz3k5ddgtupT9P2wcfyM3Zu9EMo9QRdT4ZTgarTZvlOXu7MQBGfit2HxqSvTguY94QQUZeHyr7CNPiXmlkYm3yjuzJx8gtY2Wxj0aKcxuTKt2IwMVjO5rBl6NsgIH0nzm",
+      "_id": "69544ef71c508c5d5e57f36d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

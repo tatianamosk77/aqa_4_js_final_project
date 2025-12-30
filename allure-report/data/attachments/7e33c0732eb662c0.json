@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 22:16:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "551",
+    "etag": "W/\"227-6pI4H9gypNlJaP+mz9JtVoChgmg\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Devin.Beier@yahoo.com",
+      "name": "Sheila Nicola",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 311,
+      "flat": 5768,
+      "phone": "+1254425923",
+      "createdOn": "2025-12-30T22:16:49.000Z",
+      "notes": "eqCiZeZuV2f4KUwbzkOZOnrYnXCrfpwCDqaWEG7r6BPpjmzOGAy5t6J4bgqJJa5Wh81XpFmU8sEddGXCETdZGr9WUGzW2RHfcVuXhxe7eAHI9lu7afsZ4C9qluhaCuoRFtQC8CYyGXu1RrROYnUSN3Xy0LytJOgx92o6zDSHeeY7PruOH5b9NAfZxIWh4R7LghN2NRJ55D7X9hbBFqMe5irtBBDkaw7suhnuSLfBAz96vFN4oZ9TPZuMGs",
+      "_id": "69544f511c508c5d5e581183"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

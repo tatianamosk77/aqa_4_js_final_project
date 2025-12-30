@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 22:15:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-ld5plAY+nBUmPjSXKlPnB2zKGH4\"",
+    "keep-alive": "timeout=5, max=63",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Kale17@gmail.com",
+      "name": "Favian Jena",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 698,
+      "flat": 4301,
+      "phone": "+1337504396",
+      "createdOn": "2025-12-30T22:15:28.000Z",
+      "notes": "EGspBZfvn6c5pahz74c9kEtC0ll16u2d1F3rzFR5PO7BXDwWQSnTEKntSs3Fgf5UoXLQzDGp7jZG9Nkku0xFEmemen34jHWyI8dEqRTQnUNGU8Dma4YM9kNrte7s1ukQmAn2hsz1RzPWBFQoooVMa2J7zkXpKR0fivEkASnqZmSzDVVGNvQTACyVXGV1w0gbOobwCjTT5C8W3iZzhc8rPWkUN5MpXJsGL310t0guTXtYVXR1xKcrkezBip",
+      "_id": "69544f001c508c5d5e57f55d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

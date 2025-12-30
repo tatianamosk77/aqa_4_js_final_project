@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 22:16:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-YXhyb7MrlXZWx5UZkInwhCqkVuQ\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Adrain.Berge@gmail.com",
+      "name": "Manuel Kaia",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 142,
+      "flat": 8614,
+      "phone": "+7725917068",
+      "createdOn": "2025-12-30T22:16:24.000Z",
+      "notes": "C7tESgcXO8om3imNGA9DoK4tNoyH2HpcvTs68Hiwt6ecep2tqKgtV0JK8jJZ8COUS6mxvtu6L3bXBYft1lWbWOvb9Mftkm3T2tyMmnyy922J2Bab8dxkOuoblbr0rszNgKoz61wDfaNdEToybaMGUgF1fyc8CiwUfUqRQtB91GuwY6z1wfeZTRHaO8YYMcCg9YU0Pd075cyVo2dYDRbi5LqeNQBMv3BUXWPcamIFJsKHLS3QSS4224aPWa",
+      "_id": "69544f381c508c5d5e580e97"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
