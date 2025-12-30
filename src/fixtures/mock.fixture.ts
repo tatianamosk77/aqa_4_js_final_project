@@ -1,12 +1,12 @@
 import { test as base } from "@playwright/test";
-import { ApiMock } from "../mock/apiMock";
+import { Mock } from "../mock/mock"; 
 
 export type MockFixture = {
-  mock: ApiMock;
+  mock: Mock;
 };
 
 export const test = base.extend<MockFixture>({
   mock: async ({ page }, use) => {
-    await use(new ApiMock(page));
+    await use(new Mock(page));
   },
 });

@@ -5,8 +5,7 @@ import { convertToFullDateAndTime } from "utils/date.utils";
 import { TAGS } from "data/tags";
 
 test.describe("[Integration] [Sales Portal] [Products]", () => {
-  test(
-    "Product Details",
+  test("Product Details",
     {
       tag: [TAGS.VISUAL_REGRESSION, TAGS.PRODUCTS, TAGS.INTEGRATION],
     },

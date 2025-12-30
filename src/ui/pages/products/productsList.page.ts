@@ -22,13 +22,11 @@ export class ProductsListPage extends SalesPortalPage {
     this.tableRowByName(productName).locator("td").nth(1);
   readonly manufacturerCell = (productName: string) =>
     this.tableRowByName(productName).locator("td").nth(2);
-  // readonly createdOnCell = (productName: string) => this.tableRowByName(productName).locator("td").nth(3);
   readonly createdOnCell = (nameOrIndex: string | number) =>
     typeof nameOrIndex === "string"
       ? this.tableRowByName(nameOrIndex).locator("td").nth(3)
       : this.tableRowByIndex(nameOrIndex).locator("td").nth(3);
   readonly tableHeader = this.page.locator("thead th div[current]");
-  // readonly nameHeader = this.tableHeader.nth(0);
   readonly tableHeaderNamed = (name: ProductsTableHeader) =>
     this.tableHeader.filter({ hasText: name });
 
@@ -133,6 +131,7 @@ export class ProductsListPage extends SalesPortalPage {
   }
   @logStep("Open products-page")
   async open() {
-    await this.page.goto(SALES_PORTAL_URL + "products");
+    const base = SALES_PORTAL_URL.replace(/\/+$/, "");
+    await this.page.goto(`${base}#/products`);
   }
 }

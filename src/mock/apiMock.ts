@@ -5,7 +5,7 @@ import type { IOrderFilteredResponse, IOrderFromResponse } from "data/types/orde
 import type { IProductResponse } from "data/types/product.types";
 
 export class ApiMock {
-  constructor(private page: Page) {}
+  constructor(protected page: Page) {}
 
   async customers(body: ICustomerResponse, statusCode: STATUS_CODES = STATUS_CODES.OK) {
     await this.page.route(/\/api\/customers(\?.*)?$/, async route => {
@@ -42,7 +42,7 @@ export class ApiMock {
     body: IOrderFromResponse,
     statusCode: STATUS_CODES = STATUS_CODES.OK
   ) {
-    this.page.route(new RegExp(`/api/orders/${orderId}(\\?.*)?$`), async route => {
+    await this.page.route(new RegExp(`/api/orders/${orderId}(\\?.*)?$`), async route => {
       await route.fulfill({
         status: statusCode,
         contentType: "application/json",

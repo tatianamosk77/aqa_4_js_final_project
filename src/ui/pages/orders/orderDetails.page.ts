@@ -1,5 +1,6 @@
 import { logStep } from "utils/report/logStep.utils";
 import { SalesPortalPage } from "../sales-portal.page";
+import { SALES_PORTAL_URL } from "config/env";
 
 export class OrderDetailsPage extends SalesPortalPage {
   readonly orderDetailsHeader = this.page.locator("#order-details-header");
@@ -30,11 +31,15 @@ export class OrderDetailsPage extends SalesPortalPage {
 
   readonly uniqueElement = this.title;
 
+  @logStep("Open Order Details page")
+  async open(id: string) {
+    const base = SALES_PORTAL_URL.replace(/\/+$/, "");
+    await this.page.goto(`${base}#/orders/${id}`);
+  }
   @logStep("Get order number")
   async getOrderNumber() {
     await this.orderNumber.innerText();
   }
-
   @logStep("Click to select manager")
   async clickToSelectManager() {
     await this.clickToAssingManager.click();
@@ -83,7 +88,6 @@ export class OrderDetailsPage extends SalesPortalPage {
   async backToOrdersList() {
     return await this.backToOrdersLink.click();
   }
-
   @logStep("Reopen order button")
   async clickReopenOrder() {
     return await this.reopenOrderButton.click();

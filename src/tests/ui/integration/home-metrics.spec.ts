@@ -5,8 +5,7 @@ import { HomeMetricsTestBuilder } from "utils/homeMetricsHelper";
 import { TAGS } from "data/tags";
 
 test.describe("[Integration] [Sales Portal] [Home Metrics]", () => {
-  test(
-    "Orders This Year metric",
+  test("Orders This Year metric",
     {
       tag: [TAGS.VISUAL_REGRESSION, TAGS.PRODUCTS, TAGS.INTEGRATION],
     },
@@ -26,8 +25,7 @@ test.describe("[Integration] [Sales Portal] [Home Metrics]", () => {
     }
   );
 
-  test(
-    "New Customers metric",
+  test("New Customers metric",
     {
       tag: [TAGS.VISUAL_REGRESSION, TAGS.PRODUCTS, TAGS.INTEGRATION],
     },
@@ -48,8 +46,7 @@ test.describe("[Integration] [Sales Portal] [Home Metrics]", () => {
     }
   );
 
-  test(
-    "Canceled Orders metric",
+  test("Canceled Orders metric",
     {
       tag: [TAGS.VISUAL_REGRESSION, TAGS.PRODUCTS, TAGS.INTEGRATION],
     },
@@ -70,8 +67,7 @@ test.describe("[Integration] [Sales Portal] [Home Metrics]", () => {
     }
   );
 
-  test(
-    "Total Revenue metric",
+  test("Total Revenue metric",
     {
       tag: [TAGS.VISUAL_REGRESSION, TAGS.PRODUCTS, TAGS.INTEGRATION],
     },
@@ -93,8 +89,7 @@ test.describe("[Integration] [Sales Portal] [Home Metrics]", () => {
     }
   );
 
-  test(
-    "Avg Order Value metric",
+  test("Avg Order Value metric",
     {
       tag: [TAGS.REGRESSION, TAGS.PRODUCTS, TAGS.INTEGRATION],
     },
