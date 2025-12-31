@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 06:00:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "539",
+    "etag": "W/\"21b-yVUzW+PS7nfhEYG0rshwVBzbDkE\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Dale73@hotmail.com",
+      "name": "Josie Verda",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 95,
+      "flat": 2562,
+      "phone": "+7300587101",
+      "createdOn": "2025-12-31T06:00:45.000Z",
+      "notes": "O9YMEMKG06D5HFLqQNtvOyQZ0jeqV2f6BzS6bYJvHKCI2J9Gov05AlA9I7fy1lCP22DtUuDcvQ1NOVuTDCDtf15wnS86QeBXQGKBwcJ4FtKKiuHEMiurPamvcwYvWVDRbpziqgUgIngCYjkUtbGACgedZ4kECKeCFj7yMN5a0yugvlyuGeZBqEW1iDXXuUhg9S2mAR9uRNm5wnSDuBftWi6PsyloEwnj9W5OuVbMg053z72P2eOx12HyTK",
+      "_id": "6954bc0d1c508c5d5e5949d9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 05:59:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1875",
+    "etag": "W/\"753-bw04Ef6qTIus53mThohCTpEqBNM\"",
+    "keep-alive": "timeout=5, max=76",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6954bbc31c508c5d5e592572",
+        "email": "Conrad_Turner@yahoo.com",
+        "name": "Daniela Charity",
+        "country": "France",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 228,
+        "flat": 8245,
+        "phone": "+9157643423",
+        "createdOn": "2025-12-31T05:59:31.000Z",
+        "notes": "rM1O6TySywsT6PoWosALE4gAadCuVPWP6OUHGvDdhKDS8kK9Eb0WY8H8c9Blfb4tQiEqtPKtwIwjf8ca7P4QN3Lts6GX3MkT5g3p1rxh3nM4E2iG6acgVywhma01N98oeMSPHeRJkMYQXo92xZrynmaflPi4serBPTS5H0x8SQS7FcpW3qyYEKIDnYppfUw9A4Ueiuo8z3lCyVUKeJEmW9s7EOT9TtTRmLuMrt1Wgrq3fldqeci7mEaslT"
+      },
+      "products": [
+        {
+          "_id": "6954bbc41c508c5d5e5925b4",
+          "name": "Shirt52955",
+          "amount": 487,
+          "price": 28176,
+          "manufacturer": "Apple",
+          "notes": "vAe2cWTqpxWwbYKmusMLpailrkg0cKQ7IDIgrMLnVPAx3cc5OZDYi1tJNt136sRafUhXLI498tAiOOMkCMEcAV5dvgALVIEGBhd7rC8MOZKjgOGlxljkWZSrbVsAlxQgyYDBeinoGTx70zxJT1GXJzX20sQzf4bnn0fgBcgQNCBqHnuWFnQyzrKSHVyjDcKr6Rj2rTehTTPVamNLDNoRaWlFx4ULPc7EeLvqqfvCHxKu4Y6rrFu8ZVMlc6",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 28176,
+      "createdOn": "2025-12-31T05:59:32.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6954bbc31c508c5d5e592572",
+          "products": [
+            {
+              "_id": "6954bbc41c508c5d5e5925b4",
+              "name": "Shirt52955",
+              "amount": 487,
+              "price": 28176,
+              "manufacturer": "Apple",
+              "notes": "vAe2cWTqpxWwbYKmusMLpailrkg0cKQ7IDIgrMLnVPAx3cc5OZDYi1tJNt136sRafUhXLI498tAiOOMkCMEcAV5dvgALVIEGBhd7rC8MOZKjgOGlxljkWZSrbVsAlxQgyYDBeinoGTx70zxJT1GXJzX20sQzf4bnn0fgBcgQNCBqHnuWFnQyzrKSHVyjDcKr6Rj2rTehTTPVamNLDNoRaWlFx4ULPc7EeLvqqfvCHxKu4Y6rrFu8ZVMlc6",
+              "received": false
+            }
+          ],
+          "total_price": 28176,
+          "delivery": null,
+          "changedOn": "2025-12-31T05:59:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6954bbc41c508c5d5e5925c4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 05:59:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "674",
+    "etag": "W/\"2a2-7qJVIJwtXQ10PEBy+CzRmcGZTEw\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "6954bbbb1c508c5d5e592460",
+        "email": "Owen59@hotmail.com",
+        "name": "Ignatius Isaac",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 912,
+        "flat": 1735,
+        "phone": "+1465948777",
+        "createdOn": "2025-12-31T05:59:23.000Z",
+        "notes": "XnqqdKWNGEQC2bm67LgL1ZyZr2VWbLMIomNeLakqIQOtM50QWUg57YZE0ijLbDvj0DRW7IdKidNhhpD6gsqu3RtbYenkH4n86JPYZA5yjM1jgcr282kkK7uZGTvUgn8bNTQ2Sj5laPFwp3XMlX2Je4j5y9QCooRHI7wDzJvLjkqCHy5PKFAE78t920JB8Nq1MW5lUyb08Mwj9tKcqUidgwjSCjc6Xi3hSiSIZz4mmJzZcPs4HaL0b0IbBl"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Owen59@hotmail.com",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

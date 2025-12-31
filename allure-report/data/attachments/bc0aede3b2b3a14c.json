@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 05:59:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "278",
+    "etag": "W/\"116-HrRkBVbEgfZurK4xoCnem7hApYM\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Tad_Witting@yahoo.com",
+      "name": "Lucy Seth",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 859,
+      "flat": 803,
+      "phone": "+0528509831",
+      "createdOn": "2025-12-31T05:59:15.000Z",
+      "_id": "6954bbb31c508c5d5e59232b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

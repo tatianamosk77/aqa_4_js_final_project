@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 06:03:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-23sKIwIwXPTRHHs/JFmIoyZfJy4\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Lue92@hotmail.com",
+      "name": "Ariel Yvette",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 675,
+      "flat": 2522,
+      "phone": "+2660142288",
+      "createdOn": "2025-12-31T06:03:02.000Z",
+      "notes": "hToCf1BvPi6uV84UTg1t25YGo9mclmJejoSjK3WPncH2gNh5Hduwp5Ugm4pe9Lg7vAHK1kCArywi1jFvmr8USVH1RiclBO6jPvNFwuhugZM43wXSP61ShHrsG2EB6NcgSW53QWsoxP4SATwFJXssx9u16TVLodxuMSPFSeRduMYB2F28NzYKCUWRQWl4JOnOL06m4RfLkGHA0CdUrv5wL7I7v2GUwnKaI66Rw7kx5E0Oof3aAOcSrGNoWy",
+      "_id": "6954bc961c508c5d5e596938"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

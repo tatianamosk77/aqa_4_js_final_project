@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 05:59:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "662",
+    "etag": "W/\"296-JGKjLfNqT/de04ihegbOqe7pZD0\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "6954bbbb1c508c5d5e592456",
+        "email": "Robyn.Crooks@yahoo.com",
+        "name": "Lexus Amy",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 669,
+        "flat": 327,
+        "phone": "+6655206126",
+        "createdOn": "2025-12-31T05:59:23.000Z",
+        "notes": "ZP8cN24y5cIixwuWOCB9BBeDiaQME64e6bBJvGFuKXYm8d9NKWZt2XZtkV8nct45UExeBIMocgTpI2z3pwg7piUCUHk0MzEqV2N8XtEueN1iaHpirYhNAoEpSqHlDkGyfGgc2qy0M9mBfRjMT5l39Ff6ZllPB8uNvN3wv7gnu2e9bYRMrCdcwwNVPPoay2B9kqWxAcyZr2qKWkzcxGB4L22xZKU5NNfTIJY1veTrExoACvkz8oTk81wW16"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Lexus Amy",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

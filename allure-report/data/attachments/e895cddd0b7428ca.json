@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 05:59:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-OVPVw2kSU1vPxsI3HyCg/e72EqU\"",
+    "keep-alive": "timeout=5, max=73",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Gaston.Schulist@hotmail.com",
+      "name": "Ivy Rosella",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 341,
+      "flat": 5861,
+      "phone": "+4020103188",
+      "createdOn": "2025-12-31T05:59:55.000Z",
+      "notes": "K6HIm3nD3vmU3MLr3yZwmAbN1F7glxeiQ7bjbK22dUq8h9endiU52K5VyWGyI7UXYCreC1ts3N6rbiFuUmi1uCz8MbEG5fv8TBfw0UlovwSkx0nIMySbSnevCAyDjXmCIL7SpHapJ9SSzPYkyCOa0kJydNgRxxknmrKrrJqSyqmlYWEWBhZdZEMJJsj5sKbsO7wRZuhwd6lbEXRI5tBE8AF59ElPSyjY9tDCgWdMKbU9IDnvGdSxw7lGDD",
+      "_id": "6954bbdb1c508c5d5e592d9f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

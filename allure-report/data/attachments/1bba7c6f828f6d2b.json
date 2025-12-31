@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 05:59:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1890",
+    "etag": "W/\"762-HOdX7wEyYr1bobvqJ2R9ajOkEvU\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6954bbc61c508c5d5e59260d",
+        "email": "Raymond.Oberbrunner58@gmail.com",
+        "name": "Isaiah Salvatore",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 128,
+        "flat": 233,
+        "phone": "+6757425880",
+        "createdOn": "2025-12-31T05:59:34.000Z",
+        "notes": "TZi6diNYkmOFzLjzQKTeT2XcqxcbVPJnZQyylQJq1vK4U0On8IV4JnPp0uQlkVrADyVeypBaktSVQsr1PhjB5hTREJoZ3Atz0LDMz2dARzB4tNBfKxFTZ3la7oKm7wROPLvzVjCpakZwxIpDAZnzkBwOa5aA7iIEG3k0TiWXt7U0QwOPEZfmslm22pTrjVGUPRzMcZ6UGf6KevcGZiDQ8RzDNVf9T4Oz4X3kr03Z8v1aGHanCPt3xRjPlE"
+      },
+      "products": [
+        {
+          "_id": "6954bbc71c508c5d5e59262b",
+          "name": "Gloves67493",
+          "amount": 635,
+          "price": 53893,
+          "manufacturer": "Microsoft",
+          "notes": "2CpSMv1vCQg2gqXbYp552tHvNrIRVMciQsxOQrWoVSdsUFjapXgArTmXedg7g6zdpBrYaL3sqaysbnZ5I1rDyN9ey9zqE02Qh1r5gNB79BBrSWkrjwDflevnNaQi9PWW14Se6RSeGa2Vg2FccV2sCkVg3iRgMIGbV5KkalahxFIEyiJGKOYU0jyN7AERFQr1CpZvrxtybhplISa1uooDhJo5CMeOsYrRsZehs8kawvo4nsaxJhrhdC1g9w",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 53893,
+      "createdOn": "2025-12-31T05:59:35.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6954bbc61c508c5d5e59260d",
+          "products": [
+            {
+              "_id": "6954bbc71c508c5d5e59262b",
+              "name": "Gloves67493",
+              "amount": 635,
+              "price": 53893,
+              "manufacturer": "Microsoft",
+              "notes": "2CpSMv1vCQg2gqXbYp552tHvNrIRVMciQsxOQrWoVSdsUFjapXgArTmXedg7g6zdpBrYaL3sqaysbnZ5I1rDyN9ey9zqE02Qh1r5gNB79BBrSWkrjwDflevnNaQi9PWW14Se6RSeGa2Vg2FccV2sCkVg3iRgMIGbV5KkalahxFIEyiJGKOYU0jyN7AERFQr1CpZvrxtybhplISa1uooDhJo5CMeOsYrRsZehs8kawvo4nsaxJhrhdC1g9w",
+              "received": false
+            }
+          ],
+          "total_price": 53893,
+          "delivery": null,
+          "changedOn": "2025-12-31T05:59:35.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6954bbc71c508c5d5e59263c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

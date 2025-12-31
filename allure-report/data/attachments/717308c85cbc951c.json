@@ -1,0 +1,161 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 05:59:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4165",
+    "etag": "W/\"1045-dp2qtB6hp54VVUWRvXv0WVIhSu0\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6954bbd41c508c5d5e592a5d",
+      "status": "Draft",
+      "customer": {
+        "_id": "6954bbd51c508c5d5e592a86",
+        "email": "Emory_Pagac43@yahoo.com",
+        "name": "Audra Hassie",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 422,
+        "flat": 5744,
+        "phone": "+5057105094",
+        "createdOn": "2025-12-31T05:59:49.000Z",
+        "notes": "T1OcCYnPGssTndTiwDxzvAizuA0HQ6JdVmKuZX468ujuGqKjVvtKqoDcIaaNqqe9FnTUlTnCffMKlCJ5ekPYEOJ2gDbLFGJsCpHvOGTlJowYof3InsyTuc2POi5tKnAdMXRVy7QPxB4OCjH9AKR9fgr2kvAD5CX7szaXiR86kgi8eDmpR7p3yFkA6Rf7J7CpoFc6OfZdIUzEDzXVMrl999oV8ykyNjiYQxIlEPrdYtO6lbgqwg3XXeipI7"
+      },
+      "products": [
+        {
+          "_id": "6954bbd51c508c5d5e592a88",
+          "name": "Pants17206",
+          "amount": 199,
+          "price": 84335,
+          "manufacturer": "Amazon",
+          "notes": "WHmpdjz1DvrpPvZXnl4xi1EWagaIPbyr5cmtgmiq4MaUQO1KDTFKijVeUoWNw2fUgn8IvSSTBwvijNK0v0GO4mL01ZjjKxPWDHByLJOreWAD7JdrZLBe5zIijc8DO0e5EWi97P1yUQOT4rcRaASedR21BEtMs5KSl0YAwVGKgugDJaUb5o8Q7Y4qY9u2VIH440ToSQj5G0AA1N1XjBnulON1H7RYsfbBlzmnGsS9pzfyz3hzGSY8DJuTsF",
+          "received": false
+        },
+        {
+          "_id": "6954bbd61c508c5d5e592a8a",
+          "name": "Computer94544",
+          "amount": 545,
+          "price": 31971,
+          "manufacturer": "Microsoft",
+          "notes": "l1eb8y514WMN2SF7IRRLXFhVBWcbPBt4dVmqRKf9c8in0kl42ggNsQrDs97BBuCjo9Kl6mrQdQ2WEbilDPt1U9O66xnxWBvrxy5e6puJQXAD2O1Rr3ky7euJvZLhsgJVGFBJlZqJYNDlgy7ALzHDDrZ8enzd2XE0KmYq86BpnMzQgUfGSaomRfrUooYk7C8KEY1NU4HD6hAVGpMhoqE2Sn4T9wBGEgV2pK1KUfslwGWV7UDmngk5xucfXj",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 116306,
+      "createdOn": "2025-12-31T05:59:48.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6954bbd51c508c5d5e592a86",
+          "products": [
+            {
+              "_id": "6954bbd41c508c5d5e592a43",
+              "name": "Table88470",
+              "amount": 554,
+              "price": 23663,
+              "manufacturer": "Sony",
+              "notes": "6o3KsFW9a4xbYJA8c6QO6w1cIbqH4ykxvt4kbYogPlEb6tsCUwafewHDw0OC40kbEEBQnNr7jM5OujiioSVtv5wHKbioVVNqKUniaIrk13uw0Zyox067ld0UM4shVg7npY3jbyQC5uWn2k8NLOZPMa7tFq7Q2UE3J8Isq58CvX3647UYhzkgE2K0VZ3XjrZHMhqN8TmLsL4eL786N2fXoolmSjfMnNQT7b9g2ntuFRuBc4Wwv0i0OO41zz",
+              "received": false
+            }
+          ],
+          "total_price": 116306,
+          "delivery": null,
+          "changedOn": "2025-12-31T05:59:53.000Z",
+          "action": "Customer changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6954bbd31c508c5d5e592a12",
+          "products": [
+            {
+              "_id": "6954bbd51c508c5d5e592a88",
+              "name": "Pants17206",
+              "amount": 199,
+              "price": 84335,
+              "manufacturer": "Amazon",
+              "notes": "WHmpdjz1DvrpPvZXnl4xi1EWagaIPbyr5cmtgmiq4MaUQO1KDTFKijVeUoWNw2fUgn8IvSSTBwvijNK0v0GO4mL01ZjjKxPWDHByLJOreWAD7JdrZLBe5zIijc8DO0e5EWi97P1yUQOT4rcRaASedR21BEtMs5KSl0YAwVGKgugDJaUb5o8Q7Y4qY9u2VIH440ToSQj5G0AA1N1XjBnulON1H7RYsfbBlzmnGsS9pzfyz3hzGSY8DJuTsF",
+              "received": false
+            },
+            {
+              "_id": "6954bbd61c508c5d5e592a8a",
+              "name": "Computer94544",
+              "amount": 545,
+              "price": 31971,
+              "manufacturer": "Microsoft",
+              "notes": "l1eb8y514WMN2SF7IRRLXFhVBWcbPBt4dVmqRKf9c8in0kl42ggNsQrDs97BBuCjo9Kl6mrQdQ2WEbilDPt1U9O66xnxWBvrxy5e6puJQXAD2O1Rr3ky7euJvZLhsgJVGFBJlZqJYNDlgy7ALzHDDrZ8enzd2XE0KmYq86BpnMzQgUfGSaomRfrUooYk7C8KEY1NU4HD6hAVGpMhoqE2Sn4T9wBGEgV2pK1KUfslwGWV7UDmngk5xucfXj",
+              "received": false
+            }
+          ],
+          "total_price": 116306,
+          "delivery": null,
+          "changedOn": "2025-12-31T05:59:53.000Z",
+          "action": "Requested products changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6954bbd31c508c5d5e592a12",
+          "products": [
+            {
+              "_id": "6954bbd41c508c5d5e592a43",
+              "name": "Table88470",
+              "amount": 554,
+              "price": 23663,
+              "manufacturer": "Sony",
+              "notes": "6o3KsFW9a4xbYJA8c6QO6w1cIbqH4ykxvt4kbYogPlEb6tsCUwafewHDw0OC40kbEEBQnNr7jM5OujiioSVtv5wHKbioVVNqKUniaIrk13uw0Zyox067ld0UM4shVg7npY3jbyQC5uWn2k8NLOZPMa7tFq7Q2UE3J8Isq58CvX3647UYhzkgE2K0VZ3XjrZHMhqN8TmLsL4eL786N2fXoolmSjfMnNQT7b9g2ntuFRuBc4Wwv0i0OO41zz",
+              "received": false
+            }
+          ],
+          "total_price": 23663,
+          "delivery": null,
+          "changedOn": "2025-12-31T05:59:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

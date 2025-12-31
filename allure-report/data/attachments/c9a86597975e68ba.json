@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 05:59:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1875",
+    "etag": "W/\"753-9+lURlsSbVj6d0xZYtP7GbQoMko\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6954bbd31c508c5d5e592a12",
+        "email": "Casimer.Ortiz39@hotmail.com",
+        "name": "Lavon Christy",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 417,
+        "flat": 9802,
+        "phone": "+5410345091",
+        "createdOn": "2025-12-31T05:59:47.000Z",
+        "notes": "9JuIwsNlOvKvFJFXtnLZGcNFd5i9BmgN3Ps2wHX3cJIDPmcNFVsPPkaJyPgNbgzhBuZaJy0DqsKZsTf36V02C0MCAGmIJbPcRGhXJ9sswPjzwNyg2xkVJDgCoMdgeVH0y7h3hJ622JHv7dLuN08jy4DFpO8pyO6PRe2hAjjoseFdbriWhl8SrsbvgNR1TBX6xEePTimacCSUeG0ttGW83ChP3cU5jY9oI2qs21XH74Tm7VDFGuMiaP0L3X"
+      },
+      "products": [
+        {
+          "_id": "6954bbd41c508c5d5e592a43",
+          "name": "Table88470",
+          "amount": 554,
+          "price": 23663,
+          "manufacturer": "Sony",
+          "notes": "6o3KsFW9a4xbYJA8c6QO6w1cIbqH4ykxvt4kbYogPlEb6tsCUwafewHDw0OC40kbEEBQnNr7jM5OujiioSVtv5wHKbioVVNqKUniaIrk13uw0Zyox067ld0UM4shVg7npY3jbyQC5uWn2k8NLOZPMa7tFq7Q2UE3J8Isq58CvX3647UYhzkgE2K0VZ3XjrZHMhqN8TmLsL4eL786N2fXoolmSjfMnNQT7b9g2ntuFRuBc4Wwv0i0OO41zz",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 23663,
+      "createdOn": "2025-12-31T05:59:48.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6954bbd31c508c5d5e592a12",
+          "products": [
+            {
+              "_id": "6954bbd41c508c5d5e592a43",
+              "name": "Table88470",
+              "amount": 554,
+              "price": 23663,
+              "manufacturer": "Sony",
+              "notes": "6o3KsFW9a4xbYJA8c6QO6w1cIbqH4ykxvt4kbYogPlEb6tsCUwafewHDw0OC40kbEEBQnNr7jM5OujiioSVtv5wHKbioVVNqKUniaIrk13uw0Zyox067ld0UM4shVg7npY3jbyQC5uWn2k8NLOZPMa7tFq7Q2UE3J8Isq58CvX3647UYhzkgE2K0VZ3XjrZHMhqN8TmLsL4eL786N2fXoolmSjfMnNQT7b9g2ntuFRuBc4Wwv0i0OO41zz",
+              "received": false
+            }
+          ],
+          "total_price": 23663,
+          "delivery": null,
+          "changedOn": "2025-12-31T05:59:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6954bbd41c508c5d5e592a5d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

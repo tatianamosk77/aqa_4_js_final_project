@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 05:59:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1877",
+    "etag": "W/\"755-3CtI2TMz1tom3/dWmTQsAwg54NE\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6954bbdb1c508c5d5e592d9f",
+        "email": "Gaston.Schulist@hotmail.com",
+        "name": "Ivy Rosella",
+        "country": "France",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 341,
+        "flat": 5861,
+        "phone": "+4020103188",
+        "createdOn": "2025-12-31T05:59:55.000Z",
+        "notes": "K6HIm3nD3vmU3MLr3yZwmAbN1F7glxeiQ7bjbK22dUq8h9endiU52K5VyWGyI7UXYCreC1ts3N6rbiFuUmi1uCz8MbEG5fv8TBfw0UlovwSkx0nIMySbSnevCAyDjXmCIL7SpHapJ9SSzPYkyCOa0kJydNgRxxknmrKrrJqSyqmlYWEWBhZdZEMJJsj5sKbsO7wRZuhwd6lbEXRI5tBE8AF59ElPSyjY9tDCgWdMKbU9IDnvGdSxw7lGDD"
+      },
+      "products": [
+        {
+          "_id": "6954bbdb1c508c5d5e592dcf",
+          "name": "Shirt99299",
+          "amount": 283,
+          "price": 29758,
+          "manufacturer": "Amazon",
+          "notes": "O7pjVusDfZDu4tt9GxcawWgnBIFnao9HbR7gHI26QOqkUENRBzW1O3YTDgUPUtDF1tahGg4d3YLnIsi3IM4OQ8mjbXIkjlaPtrF5ss9lvvwMwcEMWdz2dt65ECubsZferXQIX8ruysCF44J8qNnBnHND5NazaAeTlde8y82seWJyXF39XuW3PJYgvjgfgZzafa5WHY8vc26NDMKjBSL0y6YxCwBted5ehmq08bMSrr7HF80FU2tTM61zxR",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 29758,
+      "createdOn": "2025-12-31T05:59:56.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6954bbdb1c508c5d5e592d9f",
+          "products": [
+            {
+              "_id": "6954bbdb1c508c5d5e592dcf",
+              "name": "Shirt99299",
+              "amount": 283,
+              "price": 29758,
+              "manufacturer": "Amazon",
+              "notes": "O7pjVusDfZDu4tt9GxcawWgnBIFnao9HbR7gHI26QOqkUENRBzW1O3YTDgUPUtDF1tahGg4d3YLnIsi3IM4OQ8mjbXIkjlaPtrF5ss9lvvwMwcEMWdz2dt65ECubsZferXQIX8ruysCF44J8qNnBnHND5NazaAeTlde8y82seWJyXF39XuW3PJYgvjgfgZzafa5WHY8vc26NDMKjBSL0y6YxCwBted5ehmq08bMSrr7HF80FU2tTM61zxR",
+              "received": false
+            }
+          ],
+          "total_price": 29758,
+          "delivery": null,
+          "changedOn": "2025-12-31T05:59:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6954bbdc1c508c5d5e592df2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

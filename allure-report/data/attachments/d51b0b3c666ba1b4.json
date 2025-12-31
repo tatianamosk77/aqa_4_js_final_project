@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 05:59:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-Z4Y5qQrWVgUTvS9PPp6R1dHh4/4\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Garnett81@gmail.com",
+      "name": "Test Customer",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 888,
+      "flat": 2754,
+      "phone": "+8223422898",
+      "createdOn": "2025-12-31T05:59:12.000Z",
+      "notes": "XdGTx6YAToV4vtcodxpsNDQ8dl2hFSOAkuxhsMNREuJnTQ5KF4olyrftDq0cFoJIFgYZSM3L8Smx0bXEPp29RJCM9Zg6mvtjhP6Enj4b5JqA14KB28kYGuHyojwZQO7nUl6jNLlxTFaXoZAmnpvjOTT1I1oWrIVCutwiKn1HM6D7dNHGRIzygRd48O2FnJePKAq8UcdaMLeoiOH5ZJPDhZ8lR0EAnh1eMF8ZZxDnfg24RALDYamjhnV0Jc",
+      "_id": "6954bbb01c508c5d5e592292"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
