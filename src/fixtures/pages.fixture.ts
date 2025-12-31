@@ -5,6 +5,7 @@ import {
 import { AddNewCustomerPage } from "ui/pages/customers/addNewCustomerPage";
 import { CustomersListPage } from "ui/pages/customers/customerListPage";
 import { HomePage } from "ui/pages/home.page";
+import { HeaderPage } from "ui/pages/header.page";
 import { AddNewProductPage } from "ui/pages/products/addNewProduct.page";
 import { ProductsListPage } from "ui/pages/products/productsList.page";
 import { LoginPage } from "ui/pages/sign-in.page";
@@ -42,7 +43,9 @@ export interface IPages {
   addNewCustomerPage: AddNewCustomerPage;
   customerDetailsPage: CustomerDetailsPage;
 
+
   ordersListPage: OrdersListPage;
+  headerPage: HeaderPage;
   commentsTab: CommentsTab;
   customerDetailsSection: CustomerDetailsSection;
   requestedProductsSection: RequestedProductsSection;
@@ -94,6 +97,11 @@ export const test = base.extend<IPages>({
   ordersListPage: async ({ page }, use) => {
     await use(new OrdersListPage(page));
   },
+
+  headerPage: async ({ page }, use) => {
+    await use(new HeaderPage(page));
+  },
+
   commentsTab: async ({ page }, use) => {
     await use(new CommentsTab(page));
   },

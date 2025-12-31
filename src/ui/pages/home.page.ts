@@ -1,5 +1,6 @@
 import { Locator } from "@playwright/test";
 import { SalesPortalPage } from "./sales-portal.page";
+import { logStep } from "utils/report/logStep.utils"; 
 
 export type HomeModuleButton = "Products" | "Customers" | "Orders";
 
@@ -61,4 +62,11 @@ export class HomePage extends SalesPortalPage {
     }
     return text.trim().replace(/\s+/g, " ");
   }
+
+  @logStep('Open Home page via URL')
+  async open() {
+    await this.openPage('HOME');
+    await this.waitForOpened();
+  }
+
 }

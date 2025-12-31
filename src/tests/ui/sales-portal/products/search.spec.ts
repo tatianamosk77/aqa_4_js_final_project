@@ -28,7 +28,7 @@ test.describe("[Sales Portal] [Products]", () => {
     if (id) await productsApiService.delete(token, id);
     id = "";
   });
-  test.skip("Search by name", async ({
+  test("Search by name", async ({
     loginUIService,
     productsApiService,
     productsListUIService,
@@ -41,7 +41,7 @@ test.describe("[Sales Portal] [Products]", () => {
     await expect(productsListPage.tableRowByName(product.name)).toBeVisible();
   });
 
-  test.skip("Search by price", async ({
+  test("Search by price", async ({
     loginUIService,
     productsApiService,
     productsListUIService,
@@ -54,7 +54,7 @@ test.describe("[Sales Portal] [Products]", () => {
     await expect(productsListPage.tableRowByName(product.name)).toBeVisible();
   });
 
-  test.skip("Search by manufacturer", async ({
+  test("Search by manufacturer", async ({
     loginUIService,
     productsApiService,
     productsListUIService,
