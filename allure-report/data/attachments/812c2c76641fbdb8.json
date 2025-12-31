@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 22:20:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "539",
+    "etag": "W/\"21b-HSBxwnkSXbmDnT6o41GtqGlZcxE\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Eugenia98@yahoo.com",
+      "name": "Olaf Deron",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 195,
+      "flat": 1210,
+      "phone": "+1663934543",
+      "createdOn": "2025-12-31T22:20:54.000Z",
+      "notes": "07SFO4Zm1zIsCW3V9l9LDXccBPzQJFqTUczWpiXl69FR4xO1gTRDCyAsetWB6o6szz4O3hiANQLCsZX1EIWNdJYTJnr1pxFL15FcpCGcLwgreBBXDmSMl52EDD8IHbaBBeNNGqJ97Mb2CB27BtxgjwdZIfLORwMKWY8u4kmKPywYAzT5stiGCr6SbBkhvC8CVKGpGhHSP07G6RySJSutaQ0Xt3wbNVsLbpdwiEsOkn5hf5FjoRuShGaRAo",
+      "_id": "6955a1c61c508c5d5e60b40f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

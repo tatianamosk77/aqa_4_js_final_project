@@ -1,0 +1,155 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 22:16:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4929",
+    "etag": "W/\"1341-szJXruRAvx6dr009o35JqO0KVuw\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6955a0d31c508c5d5e607e91",
+        "email": "Amani_Flatley@gmail.com",
+        "name": "Newton Marisol",
+        "country": "France",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 27,
+        "flat": 1729,
+        "phone": "+6279892630",
+        "createdOn": "2025-12-31T22:16:51.000Z",
+        "notes": "uMoSujjc8oJAd5EmpBa0gzZxRcno5xJwe0tI5YBd13SPoaK6I2hevBCgl5sY6bwSFXA197dUAp5JQ1qao3VGz8f6iYLikcyI6AFCnzebExSfVPEvE9f9aI1qQ62OAbhLJuXhvEGxsbRngBTZJ2hZXjYae5O24wrXQYxDrlM4Jq6114hW1z7WsBa0W8B2FxZTapETDNsorZWQYEWDdKmdAKtV3Qp0f5DdjW5QATa4wTOAw0lbCFxm8Dtuoa"
+      },
+      "products": [
+        {
+          "_id": "6955a0d41c508c5d5e607ea5",
+          "name": "Hat38458",
+          "amount": 584,
+          "price": 74105,
+          "manufacturer": "Amazon",
+          "notes": "gCJbyPmiKqqGMpcRmP0CvcjbrjUoZGwkDYiGb0DF4t3QF4v9DQwT2E6J0VVbygiqpyzH2OZ4STC0V2SED5ZIeZ7Thwh10yMmT0Zf1jR26uW2S24Lnc9WShsqHsrN12TQd5fi3FhRN7VPX2GZTB6ZlumKuVWE74PTDETj1nYXxyVbTiIG5mzPJbKHrHMUdiujsYRk5EitqAvADIBNYWpAvdGG0GNjb8NVn8hrt2FtTY1bAJ0GwE2yAXkSqo",
+          "received": false
+        },
+        {
+          "_id": "6955a0d41c508c5d5e607ebb",
+          "name": "Hat51624",
+          "amount": 920,
+          "price": 77258,
+          "manufacturer": "Sony",
+          "notes": "6r3lMhONvd3YKYPcqh99ziZhPePB0lqnEF3nWJDJsLO0DzwlG27WNe5TRm3IjM8j1z8BaVL8BJEY7XXiEFnkaJmAqTCeavYBWf2VFikagoVFxxZeMD79LPavBTA45iRpAWvABtj9dns0ERg6PGY519dDdd9GWo2gjTvYyQKWL9gNBSHsthyQvIVmfmPeLRS7jb9RhqVd0iGmeEx46f7BvdTkmRG1suQ7SSAHz6bUGEcWkUHn5q6Ldou16A",
+          "received": false
+        },
+        {
+          "_id": "6955a0d41c508c5d5e607ebd",
+          "name": "Hat78995",
+          "amount": 905,
+          "price": 93929,
+          "manufacturer": "Google",
+          "notes": "v3mJLjJtFTgskIMIZtkjJuFFkSrXSYfgl2VXx4t3xcieAscwGHagqFiYWvi72pUqWH73LROl3Y4NfT7nSM57FjqPYTdEIxvhmlc7mg9TRjSVzLEhRytIGen9I0sKvGi53Q91DnDYyQEfK1QsE4MASQvH4NpNPf2NnxiIiDBdirFvr0ejLo3GzMiRdboG5jCEUIiuC3RIWbViEMMdw4vV1JrSeBPbDkQ76B1c1ZK5dOQl8OZDWG1z1Vu6Ux",
+          "received": false
+        },
+        {
+          "_id": "6955a0d41c508c5d5e607ebf",
+          "name": "Bacon48501",
+          "amount": 113,
+          "price": 65137,
+          "manufacturer": "Xiaomi",
+          "notes": "xMIhAkjgCoBp6PpRosSvJTuEAH6ndjVe6Sh59Wvc51bbHa6yz2atQobBqUs8qa3bzHrpZVk8yuGCZ7lOWS7gGvQ0tuTLoiAbgUICSQhQXBs9TBuZig1Q0CweZOAX8ZaJzSwIU3Nc2dP2QGVIgSfGQ7BKJrtYQLPrLU8EEcWRFYWySOmZrU9IH0g4MrZk7XSGeKGj4iuMFQk5IO3kuWHI5ucazE8rnaoMx2wSj1x4qF00zOddUQHm72Ik5G",
+          "received": false
+        },
+        {
+          "_id": "6955a0d41c508c5d5e607eb9",
+          "name": "Soap43877",
+          "amount": 781,
+          "price": 60194,
+          "manufacturer": "Tesla",
+          "notes": "An7i60JRDqfd1nXRmKv3ImcChCReq6jRZouJVNpFsbwNsMpVG51xM0MbH3G5WaAIXzWeaMsMMkf5VkYJvrR64SicHCRQanNUKyLyUi45qysHTETGTi1TReyLrPoPSO3MefgIPDER6C1xJ3OvxPFLYZGxUlXPI59MTFTTLXzLuQyu05hTWoXXOeytBuBH8sshXDgyAXPQ4ZRwHVH5cLY4rBGkpDEo2ciAF8jrN9ndFkjm19QJ7E0ZPsOhys",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 370623,
+      "createdOn": "2025-12-31T22:16:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6955a0d31c508c5d5e607e91",
+          "products": [
+            {
+              "_id": "6955a0d41c508c5d5e607ea5",
+              "name": "Hat38458",
+              "amount": 584,
+              "price": 74105,
+              "manufacturer": "Amazon",
+              "notes": "gCJbyPmiKqqGMpcRmP0CvcjbrjUoZGwkDYiGb0DF4t3QF4v9DQwT2E6J0VVbygiqpyzH2OZ4STC0V2SED5ZIeZ7Thwh10yMmT0Zf1jR26uW2S24Lnc9WShsqHsrN12TQd5fi3FhRN7VPX2GZTB6ZlumKuVWE74PTDETj1nYXxyVbTiIG5mzPJbKHrHMUdiujsYRk5EitqAvADIBNYWpAvdGG0GNjb8NVn8hrt2FtTY1bAJ0GwE2yAXkSqo",
+              "received": false
+            },
+            {
+              "_id": "6955a0d41c508c5d5e607ebb",
+              "name": "Hat51624",
+              "amount": 920,
+              "price": 77258,
+              "manufacturer": "Sony",
+              "notes": "6r3lMhONvd3YKYPcqh99ziZhPePB0lqnEF3nWJDJsLO0DzwlG27WNe5TRm3IjM8j1z8BaVL8BJEY7XXiEFnkaJmAqTCeavYBWf2VFikagoVFxxZeMD79LPavBTA45iRpAWvABtj9dns0ERg6PGY519dDdd9GWo2gjTvYyQKWL9gNBSHsthyQvIVmfmPeLRS7jb9RhqVd0iGmeEx46f7BvdTkmRG1suQ7SSAHz6bUGEcWkUHn5q6Ldou16A",
+              "received": false
+            },
+            {
+              "_id": "6955a0d41c508c5d5e607ebd",
+              "name": "Hat78995",
+              "amount": 905,
+              "price": 93929,
+              "manufacturer": "Google",
+              "notes": "v3mJLjJtFTgskIMIZtkjJuFFkSrXSYfgl2VXx4t3xcieAscwGHagqFiYWvi72pUqWH73LROl3Y4NfT7nSM57FjqPYTdEIxvhmlc7mg9TRjSVzLEhRytIGen9I0sKvGi53Q91DnDYyQEfK1QsE4MASQvH4NpNPf2NnxiIiDBdirFvr0ejLo3GzMiRdboG5jCEUIiuC3RIWbViEMMdw4vV1JrSeBPbDkQ76B1c1ZK5dOQl8OZDWG1z1Vu6Ux",
+              "received": false
+            },
+            {
+              "_id": "6955a0d41c508c5d5e607ebf",
+              "name": "Bacon48501",
+              "amount": 113,
+              "price": 65137,
+              "manufacturer": "Xiaomi",
+              "notes": "xMIhAkjgCoBp6PpRosSvJTuEAH6ndjVe6Sh59Wvc51bbHa6yz2atQobBqUs8qa3bzHrpZVk8yuGCZ7lOWS7gGvQ0tuTLoiAbgUICSQhQXBs9TBuZig1Q0CweZOAX8ZaJzSwIU3Nc2dP2QGVIgSfGQ7BKJrtYQLPrLU8EEcWRFYWySOmZrU9IH0g4MrZk7XSGeKGj4iuMFQk5IO3kuWHI5ucazE8rnaoMx2wSj1x4qF00zOddUQHm72Ik5G",
+              "received": false
+            },
+            {
+              "_id": "6955a0d41c508c5d5e607eb9",
+              "name": "Soap43877",
+              "amount": 781,
+              "price": 60194,
+              "manufacturer": "Tesla",
+              "notes": "An7i60JRDqfd1nXRmKv3ImcChCReq6jRZouJVNpFsbwNsMpVG51xM0MbH3G5WaAIXzWeaMsMMkf5VkYJvrR64SicHCRQanNUKyLyUi45qysHTETGTi1TReyLrPoPSO3MefgIPDER6C1xJ3OvxPFLYZGxUlXPI59MTFTTLXzLuQyu05hTWoXXOeytBuBH8sshXDgyAXPQ4ZRwHVH5cLY4rBGkpDEo2ciAF8jrN9ndFkjm19QJ7E0ZPsOhys",
+              "received": false
+            }
+          ],
+          "total_price": 370623,
+          "delivery": null,
+          "changedOn": "2025-12-31T22:16:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6955a0d41c508c5d5e607eea"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 22:16:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1879",
+    "etag": "W/\"757-vJr6auVfoqanWnp/rGLFtPwb/u8\"",
+    "keep-alive": "timeout=5, max=78",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6955a0cb1c508c5d5e607d0c",
+        "email": "Emmie_Donnelly61@yahoo.com",
+        "name": "Harold Alda",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 221,
+        "flat": 2321,
+        "phone": "+8986869585",
+        "createdOn": "2025-12-31T22:16:43.000Z",
+        "notes": "EEU6sFzcX9wGTL2g38MkEQQLCVDj8nvROiNREVEvjVNAcENo3AusyWBCz1SGBJ3QwlsD30qvbvwllsp7a3aq3CKfmisZ6qwmn9wzeiRBkgiU5FMhGftKwXiU9HcT3gzhruPMiAqIPnRFgnSpheKHlxArHuRYfMDYD20TQpxoyh8dKtwpXoGD8t0A3FQ7LrK5x0k2FjO28aWkNS4AhaXcbtOEWFGQlHB38upC3gLhhoCcT8VcydWggkLtxr"
+      },
+      "products": [
+        {
+          "_id": "6955a0cd1c508c5d5e607d71",
+          "name": "Cheese80229",
+          "amount": 923,
+          "price": 63457,
+          "manufacturer": "Google",
+          "notes": "aQxPxyjq3HI8doZIuA7sHqjM97b0wlygo5XnKC642GPYejpaERvpM125MYzD5sNzg6vSirFTuss3TTquPkzhgIVygZH5Zz8VODRXMDbjzdjOZSGWgYOl2aZYdNmxzpXhKTN26E53J5Rf9OMs43ZJYI2DBB8G4fzgMr1ARBCFzDabaGSRxKBONob0rbcUOvfa7GZCiR2OKlFIY0jjEbzEj6LI20rfQjSqjHO2OGBWt8zDkIBdIBaNjU6MPC",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 63457,
+      "createdOn": "2025-12-31T22:16:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6955a0cb1c508c5d5e607d0c",
+          "products": [
+            {
+              "_id": "6955a0cd1c508c5d5e607d71",
+              "name": "Cheese80229",
+              "amount": 923,
+              "price": 63457,
+              "manufacturer": "Google",
+              "notes": "aQxPxyjq3HI8doZIuA7sHqjM97b0wlygo5XnKC642GPYejpaERvpM125MYzD5sNzg6vSirFTuss3TTquPkzhgIVygZH5Zz8VODRXMDbjzdjOZSGWgYOl2aZYdNmxzpXhKTN26E53J5Rf9OMs43ZJYI2DBB8G4fzgMr1ARBCFzDabaGSRxKBONob0rbcUOvfa7GZCiR2OKlFIY0jjEbzEj6LI20rfQjSqjHO2OGBWt8zDkIBdIBaNjU6MPC",
+              "received": false
+            }
+          ],
+          "total_price": 63457,
+          "delivery": null,
+          "changedOn": "2025-12-31T22:16:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6955a0cd1c508c5d5e607d84"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 22:17:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "203",
+    "etag": "W/\"cb-H5zVpfpL8Wl4ipf8Xd7G4k3Mj+E\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Car63005",
+      "amount": 544,
+      "price": 10055,
+      "manufacturer": "Samsung",
+      "createdOn": "2025-12-31T22:17:48.000Z",
+      "notes": "",
+      "_id": "6955a10c1c508c5d5e609406"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

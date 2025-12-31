@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 22:16:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-Yzp9eZKMikxaz7y1gLM7diO9ncA\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Herman.Batz@gmail.com",
+      "name": "Valentin Madisen",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 796,
+      "flat": 5928,
+      "phone": "+6065711706",
+      "createdOn": "2025-12-31T22:16:28.000Z",
+      "notes": "oAZqS571aNm5xqD6e8s7FBd2fXCFoOEZvQK66w0sLkiVrNGuNv97jkA7bNl5bbqgFYYmS9GvZ7eslPXTf0KbseeWZThvLb5KvT9GSmpxTcvx4WUmZbIi4CtIRj20V3AOzKMgkbSreyeRGF1poKcffPy90jOlrvBQyme8UsmdwwRsCBp5cSuZGd7sfoPLjTS4METNMv925KW3bPrAvkSQUOKHIsWQXJdDAOChlaM2drSf7S5DsupFCW1DJc",
+      "_id": "6955a0bc1c508c5d5e607bc0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

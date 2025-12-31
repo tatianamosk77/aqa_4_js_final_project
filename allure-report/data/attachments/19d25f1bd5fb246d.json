@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 22:16:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-voqt88F8HIOhekqNBU1LbMVrGvo\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Gwen.Welch@gmail.com",
+      "name": "Stefan Allan",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 857,
+      "flat": 2468,
+      "phone": "+1499015072",
+      "createdOn": "2025-12-31T22:16:25.000Z",
+      "notes": "soykj6ETfjXTdzBGVHU3TeshHRcugsnf95lGotwZ2fsFlsO2WFZIbE8ghOCykbCXzWDFWM7xr0J7BhkNj5bC6QakcM4kESmRRSMszrojMwVvbpbjQh3mjfpPzqJTDd5JwUWM3yoImoK3kwi6sh43MhzFrMD1VAJO3HoQ4sdjB1LtbSBPVr5N7XqG8XVVokYlOSu8PSbeJYRh3oCa3eU3IH3fzqFjr62Y5MQ1KARIFMkc42LubuYcYtxJRB",
+      "_id": "6955a0b91c508c5d5e607b73"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

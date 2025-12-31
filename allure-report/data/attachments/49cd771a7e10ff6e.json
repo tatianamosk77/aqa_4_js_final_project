@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 22:16:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "296",
+    "etag": "W/\"128-h/0GUU1qUiRKuKL9OJlJ5xR/Uyg\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Lillian.Prohaska@hotmail.com",
+      "name": "Vernice Abdiel",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 77,
+      "flat": 854,
+      "phone": "+1021693274",
+      "createdOn": "2025-12-31T22:16:15.000Z",
+      "_id": "6955a0af1c508c5d5e607a80"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

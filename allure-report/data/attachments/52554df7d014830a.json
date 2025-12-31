@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 22:17:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-A6hTzTNqvjIXY/5o1xEp2kFPWcI\"",
+    "keep-alive": "timeout=5, max=78",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Rebeka12@yahoo.com",
+      "name": "Lew Alexanne",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 830,
+      "flat": 2124,
+      "phone": "+3627552083",
+      "createdOn": "2025-12-31T22:17:17.000Z",
+      "notes": "1T4Cfn4Q7Qae0JGYE2wYcua9DFFmtsxeNIjP30qCjdjSY8mCEISBXeXxMQVXDVx01UcSeLoz222juK6IrC4RXKZD9V7yX0lsr6pMpuz7di980eynmu1GCzftIzaKinkG2iCaWdOvZnftYfJZB1Yh5sabmxqGr5u0vi9giujJqUQXZWHWeS5S7KKuyGSdlQ91BhthdKERNHOGp8j63lflDeDriSP8iqIEzZvzZ9rRfczmCpwPWYukSZWlV3",
+      "_id": "6955a0ed1c508c5d5e6086f0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

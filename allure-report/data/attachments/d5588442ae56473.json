@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 22:16:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-mj9c099s7dqFdDfJi3T/gpSnREY\"",
+    "keep-alive": "timeout=5, max=76",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6955a0c91c508c5d5e607d00",
+        "email": "Eduardo_Block23@gmail.com",
+        "name": "Violette Travon",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 800,
+        "flat": 3406,
+        "phone": "+8902807148",
+        "createdOn": "2025-12-31T22:16:41.000Z",
+        "notes": "DCwfx5A4AH8zbiZCerNEHlEMlXaFmnB6u6O35fo8m5et7cmT9AT4C8OHKnWTGyJuqJVGajldomZrz1zxEL5WVtyC9BkHn6oHz3Ikx0iDbO3os3km5Apyo4a7zai0xkh0kRqA1Deob6uHjPpYLGUhmDxd2nnz8gB8t3aDkiVCWzUGYoL88gzse5XLXenG7mrPabzgnf9WXOne9FNPoEZ22nI8jCiJKHJUlemTegsMPnJXvkUqMM4DUUKZ1H"
+      },
+      "products": [
+        {
+          "_id": "6955a0cc1c508c5d5e607d33",
+          "name": "Chair27624",
+          "amount": 766,
+          "price": 65330,
+          "manufacturer": "Google",
+          "notes": "Rd14zQHFz4ZfEZkCJ89gtv9c3LdWUAbwy5SXDO7OSoXMc8PCc2F3rajlyLcZt69jgiFeh2TDJ0c9ESEzJvUEE0GZvWFX1TM4Di9vkixjs9ATMKZJhYn1kRFd9PNBGSm706uBycwFW7ZHSVfwwdXiAVs1hnBdvgxGvfXX8Q21IqlrvOn3SW0IoV3mau7VU6rUIsJN4HqyfIfNS9cdNVksaiZTCkpvptBEsEdFeShPH3xNZ8OouVQ3epO3tw",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 65330,
+      "createdOn": "2025-12-31T22:16:44.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6955a0c91c508c5d5e607d00",
+          "products": [
+            {
+              "_id": "6955a0cc1c508c5d5e607d33",
+              "name": "Chair27624",
+              "amount": 766,
+              "price": 65330,
+              "manufacturer": "Google",
+              "notes": "Rd14zQHFz4ZfEZkCJ89gtv9c3LdWUAbwy5SXDO7OSoXMc8PCc2F3rajlyLcZt69jgiFeh2TDJ0c9ESEzJvUEE0GZvWFX1TM4Di9vkixjs9ATMKZJhYn1kRFd9PNBGSm706uBycwFW7ZHSVfwwdXiAVs1hnBdvgxGvfXX8Q21IqlrvOn3SW0IoV3mau7VU6rUIsJN4HqyfIfNS9cdNVksaiZTCkpvptBEsEdFeShPH3xNZ8OouVQ3epO3tw",
+              "received": false
+            }
+          ],
+          "total_price": 65330,
+          "delivery": null,
+          "changedOn": "2025-12-31T22:16:44.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6955a0cc1c508c5d5e607d46"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 22:17:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3536",
+    "etag": "W/\"dd0-U9np0MCBS5Sn41535qc5NhJ68Io\"",
+    "keep-alive": "timeout=5, max=54",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6955a0df1c508c5d5e608102",
+      "status": "Draft",
+      "customer": {
+        "_id": "6955a0de1c508c5d5e6080d5",
+        "email": "Lavina.Kuvalis92@yahoo.com",
+        "name": "Pearl Ardella",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 746,
+        "flat": 9410,
+        "phone": "+0217015356",
+        "createdOn": "2025-12-31T22:17:02.000Z",
+        "notes": "XOgHrFmf2YDmFXnlzgIeJVzU5z8teuKDOwuX9VAWbeJKAoevtoko9dg7q9iwG3vuCDETnnTlcLieJf97mH0iNuE4pEdDb1hcnHahHSiISPObPe4fZ6ROlNktKreeFUvbmtiqM3s256D84qV54H7PnVVz1f1azKle7aRlrns4UMwZj7IqqrXsYId9KJu4XpKBfBE8KT1cEnv9OFw1HrOwL0Clgdrdt1b9AuIm9DgxboGrXlZD6PpgtsGGCF"
+      },
+      "products": [
+        {
+          "_id": "6955a0df1c508c5d5e6080f4",
+          "name": "Chair68198",
+          "amount": 728,
+          "price": 87568,
+          "manufacturer": "Google",
+          "notes": "UwDD6k1nhJTJsvBJvftikfRNjpGwy8VdPVOzeDR8mTRQAUz7KAo7MBdjn96eE9Nku5Dgqjw40vxyOc5V7kiGs0RR2YN2s900Hfh7jwdDkqqBPMollfdSxQ0zn1xUOERbJwmaqYVUOwCBdRvCgWxGCucx6FhUAdlNJFVvkQSmNDxKLvh0oZEVeky04KnPqBrXhlIWJYNs3aqa8rI7eSRaeNprHrDU4tIaRcV57Et0CKVkwd3Zw53F0JFVLz",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 87568,
+      "createdOn": "2025-12-31T22:17:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6955a0de1c508c5d5e6080d5",
+          "products": [
+            {
+              "_id": "6955a0df1c508c5d5e6080f4",
+              "name": "Chair68198",
+              "amount": 728,
+              "price": 87568,
+              "manufacturer": "Google",
+              "notes": "UwDD6k1nhJTJsvBJvftikfRNjpGwy8VdPVOzeDR8mTRQAUz7KAo7MBdjn96eE9Nku5Dgqjw40vxyOc5V7kiGs0RR2YN2s900Hfh7jwdDkqqBPMollfdSxQ0zn1xUOERbJwmaqYVUOwCBdRvCgWxGCucx6FhUAdlNJFVvkQSmNDxKLvh0oZEVeky04KnPqBrXhlIWJYNs3aqa8rI7eSRaeNprHrDU4tIaRcV57Et0CKVkwd3Zw53F0JFVLz",
+              "received": false
+            }
+          ],
+          "total_price": 87568,
+          "delivery": null,
+          "changedOn": "2025-12-31T22:17:04.000Z",
+          "action": "Manager Unassigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6955a0de1c508c5d5e6080d5",
+          "products": [
+            {
+              "_id": "6955a0df1c508c5d5e6080f4",
+              "name": "Chair68198",
+              "amount": 728,
+              "price": 87568,
+              "manufacturer": "Google",
+              "notes": "UwDD6k1nhJTJsvBJvftikfRNjpGwy8VdPVOzeDR8mTRQAUz7KAo7MBdjn96eE9Nku5Dgqjw40vxyOc5V7kiGs0RR2YN2s900Hfh7jwdDkqqBPMollfdSxQ0zn1xUOERbJwmaqYVUOwCBdRvCgWxGCucx6FhUAdlNJFVvkQSmNDxKLvh0oZEVeky04KnPqBrXhlIWJYNs3aqa8rI7eSRaeNprHrDU4tIaRcV57Et0CKVkwd3Zw53F0JFVLz",
+              "received": false
+            }
+          ],
+          "total_price": 87568,
+          "delivery": null,
+          "changedOn": "2025-12-31T22:17:04.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "6955a0de1c508c5d5e6080d5",
+          "products": [
+            {
+              "_id": "6955a0df1c508c5d5e6080f4",
+              "name": "Chair68198",
+              "amount": 728,
+              "price": 87568,
+              "manufacturer": "Google",
+              "notes": "UwDD6k1nhJTJsvBJvftikfRNjpGwy8VdPVOzeDR8mTRQAUz7KAo7MBdjn96eE9Nku5Dgqjw40vxyOc5V7kiGs0RR2YN2s900Hfh7jwdDkqqBPMollfdSxQ0zn1xUOERbJwmaqYVUOwCBdRvCgWxGCucx6FhUAdlNJFVvkQSmNDxKLvh0oZEVeky04KnPqBrXhlIWJYNs3aqa8rI7eSRaeNprHrDU4tIaRcV57Et0CKVkwd3Zw53F0JFVLz",
+              "received": false
+            }
+          ],
+          "total_price": 87568,
+          "delivery": null,
+          "changedOn": "2025-12-31T22:17:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

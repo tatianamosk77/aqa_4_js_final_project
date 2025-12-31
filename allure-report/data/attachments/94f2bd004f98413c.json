@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 22:20:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-l0CuT7n+hDPPxnL71pezHa/dBbI\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Misael_Ondricka@hotmail.com",
+      "name": "Mark Gretchen",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 717,
+      "flat": 5969,
+      "phone": "+1756182883",
+      "createdOn": "2025-12-31T22:20:32.000Z",
+      "notes": "5kt6zOtf56mwYsuxVTyRXRGBVf8p1rYkuPj3RUZXscX9vA4XflaZk8I9mlxlUY2M6y70FqblfNlnmKtTCrcj00bcN98Pp9YPwRsx9NKuAbG6nH3Gb4eblo5GJygNjmbSvwGEjoTIS48xrLDxXhij4TruMbSdKohfcNnW70Sfsivra2AVJKMNAEwZIIwjrM5rr994H3rMsyu5lx2LfPdAbvHziS9tEOsBECQZotTymP8azR7LXEdXaezQR5",
+      "_id": "6955a1b01c508c5d5e60b2d0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

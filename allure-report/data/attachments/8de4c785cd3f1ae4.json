@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 22:16:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-GXbj4H9xm/RDbcrnMbs8UnYtisE\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6955a0c91c508c5d5e607d02",
+        "email": "Kole77@hotmail.com",
+        "name": "Jaime Shakira",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 734,
+        "flat": 8748,
+        "phone": "+5201370744",
+        "createdOn": "2025-12-31T22:16:41.000Z",
+        "notes": "e6zXqaUGx86qwSnunWEoPqllikxK8MTilDzOJH7oFs9NgCFjpRNPtErMBJuVDHxgVa8vCn9l3YBt3ZyGBLvfYr1XUaN8pObjnLkCLQcuBs6muSrc23JIDsjLeTkrtzWKCqnp5M042faTXVGUERlnCChDK1iprlAjEbGDS3VcUFsaBMhsd7LsvKmit1axyLwTwor7ndXAHhgYONqgmwE50WaayKnjSeqCpWPy8bN8wPRWHPo24UoI8BCrJl"
+      },
+      "products": [
+        {
+          "_id": "6955a0cc1c508c5d5e607d39",
+          "name": "Sausages31520",
+          "amount": 142,
+          "price": 91162,
+          "manufacturer": "Amazon",
+          "notes": "z37yCBo4fazwvfXXYKuG45XnEf7P9JnOxi11nnfuKPH0uyRH3EPOqKwhXam4Cp2p7M0b7GNSoKQTB3WVZiwgdFIYrehCdEM26EPHK0tPZVXdOuFLz7QQUSDfZ6xMRFknXfDuNcNdpVdZZng8sJdpAjc3xC6ARa4mGOojbaO5c9wdRsYJugZyqkt9efcR0s6W59BCDK1YuRXXFo7e9YH6TtCIdutzVf5r8xxam80gg9RJ3l7qN7TY9Fiuc9",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 91162,
+      "createdOn": "2025-12-31T22:16:44.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6955a0c91c508c5d5e607d02",
+          "products": [
+            {
+              "_id": "6955a0cc1c508c5d5e607d39",
+              "name": "Sausages31520",
+              "amount": 142,
+              "price": 91162,
+              "manufacturer": "Amazon",
+              "notes": "z37yCBo4fazwvfXXYKuG45XnEf7P9JnOxi11nnfuKPH0uyRH3EPOqKwhXam4Cp2p7M0b7GNSoKQTB3WVZiwgdFIYrehCdEM26EPHK0tPZVXdOuFLz7QQUSDfZ6xMRFknXfDuNcNdpVdZZng8sJdpAjc3xC6ARa4mGOojbaO5c9wdRsYJugZyqkt9efcR0s6W59BCDK1YuRXXFo7e9YH6TtCIdutzVf5r8xxam80gg9RJ3l7qN7TY9Fiuc9",
+              "received": false
+            }
+          ],
+          "total_price": 91162,
+          "delivery": null,
+          "changedOn": "2025-12-31T22:16:44.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6955a0cc1c508c5d5e607d55"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
