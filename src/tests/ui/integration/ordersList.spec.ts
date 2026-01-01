@@ -13,14 +13,12 @@ test.describe("[Integration] [Sales Portal] [Orders] [Table Sorting]", () => {
     for (const direction of directions) {
       test(
         `Field: ${header}, direction: ${direction} → sends correct API sort and updates UI`,
-        {
-          tag: [TAGS.VISUAL_REGRESSION, TAGS.ORDERS, TAGS.INTEGRATION],
-        },
+        { tag: [TAGS.VISUAL_REGRESSION, TAGS.ORDERS, TAGS.INTEGRATION] },
         async ({
           loginApiService,
           customersApiService,
-          ordersListUIService,
           ordersListPage,
+          ordersListUIService,
           mock,
         }) => {
           try {
@@ -96,7 +94,6 @@ test.describe("[Integration] [Sales Portal] [Orders] [Table Sorting]", () => {
                 assignedManager: orders[i]!.assignedManager ?? "-",
                 delivery: orders[i]!.delivery ?? "-",
               };
-              console.log(order);
               expect(order).toMatchObject({
                 assignedManager: expected.assignedManager,
                 delivery: expected.delivery,

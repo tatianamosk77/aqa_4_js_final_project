@@ -1,6 +1,7 @@
 import { IProduct } from "data/types/product.types";
 import { SalesPortalPage } from "../sales-portal.page";
 import { logStep } from "utils/report/logStep.utils";
+import { SALES_PORTAL_URL } from "config/env";
 
 export class EditProductPage extends SalesPortalPage {
   readonly title = this.page.locator("h2.page-title-text");
@@ -26,5 +27,11 @@ export class EditProductPage extends SalesPortalPage {
   @logStep("Click save button during update")
   async clickSave() {
     await this.saveButton.click();
+  }
+
+  @logStep("Open Edit Product page")
+  async open(id: string) {
+    const base = SALES_PORTAL_URL.replace(/\/+$/, "");
+    await this.page.goto(`${base}#/products/${id}/edit`);
   }
 }

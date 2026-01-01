@@ -31,7 +31,7 @@ export function generateOrderData(customerId: string): IOrder {
       "In Process",
       "Received",
     ]),
-    customer, // ✅ customer теперь ICustomerFromResponse
+    customer,
     products,
     delivery: null,
     total_price,

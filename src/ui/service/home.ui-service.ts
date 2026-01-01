@@ -25,4 +25,10 @@ export class HomeUIService {
       await this.customersListPage.waitForOpened();
     }
   }
+
+  @logStep("Open Sales Portal on Home Page as logged in user")
+  async openAsLoggedInUser() {
+    await this.homePage.openPortal();
+    await this.homePage.waitForOpened();
+  }
 }

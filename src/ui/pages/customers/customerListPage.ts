@@ -4,9 +4,9 @@ import { COUNTRIES } from "data/salesPortal/customers/countries";
 import { ConfirmationModal } from "../confirmation.modal";
 // import { CustomerDetailsModal } from "./details.modal";
 import { logStep } from "utils/report/logStep.utils";
+import { SALES_PORTAL_URL } from "config/env";
 
 export class CustomersListPage extends SalesPortalPage {
-  // readonly detailsModal = new CustomerDetailsModal(this.page);
   readonly deleteModal = new ConfirmationModal(this.page);
 
   readonly customersPageTitle = this.page.locator("h2.fw-bold");
@@ -105,5 +105,11 @@ export class CustomersListPage extends SalesPortalPage {
   @logStep("Click search button")
   async clickSearch() {
     await this.searchButton.click();
+  }
+
+  @logStep("Open customers-page")
+  async open() {
+    const base = SALES_PORTAL_URL.replace(/\/+$/, "");
+    await this.page.goto(`${base}#/customers`);
   }
 }

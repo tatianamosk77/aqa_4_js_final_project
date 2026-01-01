@@ -7,7 +7,7 @@ import { TAGS } from "data/tags";
 test.describe("[Sales Portal] [Products]", () => {
   let id = "";
   let token = "";
-  test.skip(
+  test(
     "Product Details",
     {
       tag: [TAGS.REGRESSION, TAGS.PRODUCTS, TAGS.UI],
