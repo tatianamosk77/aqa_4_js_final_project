@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:15:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2929",
+    "etag": "W/\"b71-iPzOO/6fBillOWfrHiXr81vRL2s\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6956f2191c508c5d5e6b657e",
+      "status": "Draft",
+      "customer": {
+        "_id": "6956f2191c508c5d5e6b6560",
+        "email": "Mallie.Denesik49@gmail.com",
+        "name": "Elbert Hillary",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 525,
+        "flat": 8718,
+        "phone": "+3136937732",
+        "createdOn": "2026-01-01T22:15:53.000Z",
+        "notes": "2zOmVt11AZa0OHBMpBFOUn6fcz05VMBZjUZ8MT9eEGnZjnCjtDdanN2deuqE18FIB1yKrKcOn8cFLEDAjR8QxNL4PvZ7PQwxUZMjqvr5lTrh2abEMyWmiMEWRgTkiT6JDetv1cC4VbUG1n4sWRlzd6jAfq2kTPfmOJCesV3Yw2hcL73PxYTTIG6UV3e3SeCITj9xtAblKiL7ScJD9snBCkFNDzr0aCN07MiLnaOSHvj5vzkvTnvg4ejjef"
+      },
+      "products": [
+        {
+          "_id": "6956f2191c508c5d5e6b6565",
+          "name": "Pants28758",
+          "amount": 62,
+          "price": 7367,
+          "manufacturer": "Xiaomi",
+          "notes": "2QtT1p6pHDhHeWaSMfl1yRyghxizPmYqMtEkCXoRzK43Umddr3rGFQvrVETM3dt6dTxMgURAKPgSCfIDUYJW5m1PyPSLHoQS61bcPBDFAp6WIdiLV1vSLp4gWIZAwpBh40vmOxOulzcVWgKsBIQByV2LvxzBpxa3HKQMmrWoxMHuRC7YfVEIF9q1Z2buP5oIe0Wo8qGdruBgXdSbAVcnzZSzK8U10Nayb6XaVEA96lIfo4mYR5LAA5iZBD",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 7367,
+      "createdOn": "2026-01-01T22:15:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956f2191c508c5d5e6b6560",
+          "products": [
+            {
+              "_id": "6956f2191c508c5d5e6b6565",
+              "name": "Pants28758",
+              "amount": 62,
+              "price": 7367,
+              "manufacturer": "Xiaomi",
+              "notes": "2QtT1p6pHDhHeWaSMfl1yRyghxizPmYqMtEkCXoRzK43Umddr3rGFQvrVETM3dt6dTxMgURAKPgSCfIDUYJW5m1PyPSLHoQS61bcPBDFAp6WIdiLV1vSLp4gWIZAwpBh40vmOxOulzcVWgKsBIQByV2LvxzBpxa3HKQMmrWoxMHuRC7YfVEIF9q1Z2buP5oIe0Wo8qGdruBgXdSbAVcnzZSzK8U10Nayb6XaVEA96lIfo4mYR5LAA5iZBD",
+              "received": false
+            }
+          ],
+          "total_price": 7367,
+          "delivery": null,
+          "changedOn": "2026-01-01T22:15:53.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "6956f2191c508c5d5e6b6560",
+          "products": [
+            {
+              "_id": "6956f2191c508c5d5e6b6565",
+              "name": "Pants28758",
+              "amount": 62,
+              "price": 7367,
+              "manufacturer": "Xiaomi",
+              "notes": "2QtT1p6pHDhHeWaSMfl1yRyghxizPmYqMtEkCXoRzK43Umddr3rGFQvrVETM3dt6dTxMgURAKPgSCfIDUYJW5m1PyPSLHoQS61bcPBDFAp6WIdiLV1vSLp4gWIZAwpBh40vmOxOulzcVWgKsBIQByV2LvxzBpxa3HKQMmrWoxMHuRC7YfVEIF9q1Z2buP5oIe0Wo8qGdruBgXdSbAVcnzZSzK8U10Nayb6XaVEA96lIfo4mYR5LAA5iZBD",
+              "received": false
+            }
+          ],
+          "total_price": 7367,
+          "delivery": null,
+          "changedOn": "2026-01-01T22:15:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337ce1c508c5d5e95335d",
+        "username": "student14@gmail.com",
+        "firstName": "Bill",
+        "lastName": "Schuppe",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:26"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

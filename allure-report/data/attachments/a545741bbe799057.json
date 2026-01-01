@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:17:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "81",
+    "etag": "W/\"51-C3m9wm4rJA6+TVY+XL5NQmxsX/M\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "IsSuccess": false,
+    "ErrorMessage": "Product with name 'Tuna82367' already exists"
+  }
+}

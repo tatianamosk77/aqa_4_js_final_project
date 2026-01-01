@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:15:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1869",
+    "etag": "W/\"74d-qdP5Q8McrA4avBkLnv/oPwoYUUY\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6956f2151c508c5d5e6b63e8",
+      "status": "Draft",
+      "customer": {
+        "_id": "6956f2151c508c5d5e6b63d7",
+        "email": "Danial_Morar@yahoo.com",
+        "name": "Arlo Hope",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 876,
+        "flat": 5760,
+        "phone": "+2558341766",
+        "createdOn": "2026-01-01T22:15:49.000Z",
+        "notes": "GnkgmzPyr9xR0jNmJSY9pGtkghAuz9Puk6uohKVzlvrNrobiOapT0W3Z0qFJwzUeCu07OixG4LIvdgATDztlNAn9ZaxGAT0F9GWvb3PlEuzOuQBt9QmlYiMmR8uNwoakfwp7J1p22VgQacx1X61lzykeqQObrSrtMTKk5nYpwkxm4kGTpDhwa4L0Wp7ZCgilPcEdxEDPmWO5wzM3oQ3u0JCP5UYPc3EE60mEswBf9XUAGGdZVrSS37kaz2"
+      },
+      "products": [
+        {
+          "_id": "6956f2151c508c5d5e6b63d9",
+          "name": "Tuna83335",
+          "amount": 785,
+          "price": 43942,
+          "manufacturer": "Google",
+          "notes": "9NrkYkueJYNBgRWPNbQ4Uelyaf0WhZuUZOxfADRzge2JhQjUJSYUjyaM6equPramINQHc0vMgjegC8XUjsKTPYP4aP8b9kcVcjs6H2hLdzzpvyCKMi7YJmfabjCl5edqmRVyWbb3vHesZvnVZrzyvbyDcSd2rxa2eBPTxuyGJhf1iUMs7xU7djcDUBQ3qxppup9ENRDpoVlSy7gqn1s3c6DrrCmfXG9zhqc84jxU9JuPokZXxfFlkTdX2f",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 43942,
+      "createdOn": "2026-01-01T22:15:49.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956f2151c508c5d5e6b63d7",
+          "products": [
+            {
+              "_id": "6956f2151c508c5d5e6b63d9",
+              "name": "Tuna83335",
+              "amount": 785,
+              "price": 43942,
+              "manufacturer": "Google",
+              "notes": "9NrkYkueJYNBgRWPNbQ4Uelyaf0WhZuUZOxfADRzge2JhQjUJSYUjyaM6equPramINQHc0vMgjegC8XUjsKTPYP4aP8b9kcVcjs6H2hLdzzpvyCKMi7YJmfabjCl5edqmRVyWbb3vHesZvnVZrzyvbyDcSd2rxa2eBPTxuyGJhf1iUMs7xU7djcDUBQ3qxppup9ENRDpoVlSy7gqn1s3c6DrrCmfXG9zhqc84jxU9JuPokZXxfFlkTdX2f",
+              "received": false
+            }
+          ],
+          "total_price": 43942,
+          "delivery": null,
+          "changedOn": "2026-01-01T22:15:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

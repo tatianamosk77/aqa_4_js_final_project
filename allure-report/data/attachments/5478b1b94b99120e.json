@@ -1,0 +1,161 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:15:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4168",
+    "etag": "W/\"1048-42mNhY21HTNNRWgBYcN/4IInT70\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6956f21b1c508c5d5e6b6618",
+      "status": "Draft",
+      "customer": {
+        "_id": "6956f21c1c508c5d5e6b675b",
+        "email": "Noah_Gerhold@yahoo.com",
+        "name": "Sheila Berenice",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 887,
+        "flat": 7928,
+        "phone": "+7092280922",
+        "createdOn": "2026-01-01T22:15:56.000Z",
+        "notes": "IEGiv0k2g2XZPqq21hm0dikwT6FOX3c7sqUbruxjj89w6xV94VhPfIxd5eJGtusSGUuPcQBNfgBAIK1d21NinqxfyEVUc8eKMqaG90u3tgEHkrFYwn0QA22IhAQemv9qeZUCqbg2GWH2aAJsJBpWJThkPvnDKHldLYgCqLaan5xtVATiJGltV9AAzVgoANttc7aVXNib5WG7raRPwzeMjLPJILjMPsNMV4sWQdUXaDS1xkwq4sRutT3wBT"
+      },
+      "products": [
+        {
+          "_id": "6956f21c1c508c5d5e6b675d",
+          "name": "Salad83349",
+          "amount": 655,
+          "price": 34836,
+          "manufacturer": "Tesla",
+          "notes": "OcvrAKXFOjSdindkmW02fg3RC23ondNHIp2A2PiKefIfEFfJGoe1y1SyQRx7QE0x0dDOOVR2OkVe4ymZdmHAI4jlCDz2Bciu3xuDEInOybh3WxlIccL3P4gQXocM0i1WMYdYjdBhUuVRzIRnmtAWqYbZhRMQk2FLobdYVxz2zXlhC1UBBr4EX6D6vFXnum5WrzlP3VvyE4Y6uRhLadfGKTrLT7yxgR0J5hlNoFFUX2Jt3Gq3P4XwWj61wO",
+          "received": false
+        },
+        {
+          "_id": "6956f21d1c508c5d5e6b675f",
+          "name": "Towels58760",
+          "amount": 915,
+          "price": 46978,
+          "manufacturer": "Xiaomi",
+          "notes": "Ekc8anQvWv4lNa5iYTIpKKU200aVUyBz5rTNto6lVARSktT5XnT2mth1gPADjH6EljCTuDiY1rbKWd6B6bl6c4gpyY5kdHsnd9GvwXyOGUJVV9nlkWUbkQgLjhIiLl56yzKvGNFC0kYpw9MquM0VcD9z9WKsV57OHdqnYscqjmnBDv97XoEBcNruZItfhaaizXu5xO0zTje7wvqXQa7omtZZWWMJ0d2LB6Cd6HPioFwPQzOb4L1y42JhBs",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 81814,
+      "createdOn": "2026-01-01T22:15:55.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956f21c1c508c5d5e6b675b",
+          "products": [
+            {
+              "_id": "6956f21a1c508c5d5e6b6604",
+              "name": "Computer64312",
+              "amount": 158,
+              "price": 82640,
+              "manufacturer": "Microsoft",
+              "notes": "Lc79GNuLGMYuGcqxduYmYBtp7G72B3lJ6WH4RTPyPoVEcjOhA64BjvW7Cti6pbwURetOjvVvxXmEMlQ6t6acgbARTo6TWyXuS9JDm9z7yjEH4q7KCtjP1p5yymeYFL7IPyGo8cWzewYUTFuJOS6Oymc5Qc1xIEyJ3q90jDG8URiIqQKhSiTpwb9OJPB2srlHvu6yzcgye0wgJMKPn9584DJFuqcX99P7C63ftHgwlmHJPLAWe7wX1EgcrL",
+              "received": false
+            }
+          ],
+          "total_price": 81814,
+          "delivery": null,
+          "changedOn": "2026-01-01T22:15:57.000Z",
+          "action": "Customer changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956f21a1c508c5d5e6b65ff",
+          "products": [
+            {
+              "_id": "6956f21c1c508c5d5e6b675d",
+              "name": "Salad83349",
+              "amount": 655,
+              "price": 34836,
+              "manufacturer": "Tesla",
+              "notes": "OcvrAKXFOjSdindkmW02fg3RC23ondNHIp2A2PiKefIfEFfJGoe1y1SyQRx7QE0x0dDOOVR2OkVe4ymZdmHAI4jlCDz2Bciu3xuDEInOybh3WxlIccL3P4gQXocM0i1WMYdYjdBhUuVRzIRnmtAWqYbZhRMQk2FLobdYVxz2zXlhC1UBBr4EX6D6vFXnum5WrzlP3VvyE4Y6uRhLadfGKTrLT7yxgR0J5hlNoFFUX2Jt3Gq3P4XwWj61wO",
+              "received": false
+            },
+            {
+              "_id": "6956f21d1c508c5d5e6b675f",
+              "name": "Towels58760",
+              "amount": 915,
+              "price": 46978,
+              "manufacturer": "Xiaomi",
+              "notes": "Ekc8anQvWv4lNa5iYTIpKKU200aVUyBz5rTNto6lVARSktT5XnT2mth1gPADjH6EljCTuDiY1rbKWd6B6bl6c4gpyY5kdHsnd9GvwXyOGUJVV9nlkWUbkQgLjhIiLl56yzKvGNFC0kYpw9MquM0VcD9z9WKsV57OHdqnYscqjmnBDv97XoEBcNruZItfhaaizXu5xO0zTje7wvqXQa7omtZZWWMJ0d2LB6Cd6HPioFwPQzOb4L1y42JhBs",
+              "received": false
+            }
+          ],
+          "total_price": 81814,
+          "delivery": null,
+          "changedOn": "2026-01-01T22:15:57.000Z",
+          "action": "Requested products changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956f21a1c508c5d5e6b65ff",
+          "products": [
+            {
+              "_id": "6956f21a1c508c5d5e6b6604",
+              "name": "Computer64312",
+              "amount": 158,
+              "price": 82640,
+              "manufacturer": "Microsoft",
+              "notes": "Lc79GNuLGMYuGcqxduYmYBtp7G72B3lJ6WH4RTPyPoVEcjOhA64BjvW7Cti6pbwURetOjvVvxXmEMlQ6t6acgbARTo6TWyXuS9JDm9z7yjEH4q7KCtjP1p5yymeYFL7IPyGo8cWzewYUTFuJOS6Oymc5Qc1xIEyJ3q90jDG8URiIqQKhSiTpwb9OJPB2srlHvu6yzcgye0wgJMKPn9584DJFuqcX99P7C63ftHgwlmHJPLAWe7wX1EgcrL",
+              "received": false
+            }
+          ],
+          "total_price": 82640,
+          "delivery": null,
+          "changedOn": "2026-01-01T22:15:55.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

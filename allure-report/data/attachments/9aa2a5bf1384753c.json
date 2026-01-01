@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:15:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-eo/VxDCVlB6NLTBf2vUZRpfVpE8\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Alysha_Towne@yahoo.com",
+      "name": "Jaron Fiona",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 170,
+      "flat": 3801,
+      "phone": "+4440995800",
+      "createdOn": "2026-01-01T22:15:26.000Z",
+      "notes": "kXhhYlrvXOqBRamZ7qCFxInw5l9FQ8cgBTc470d9kclNFOZM0ClqzhKpL15zHbsmVJJYTX6PoNTtGObIqpimkCqR3bNF644g4W85JBtLSp1C0vdNj0LtzYWYfmjMmI0EfHFapbjpbfVNlVSZxdAhh2erGVLwAjCBimFdjY3cZxCQJcGGw765kwcptTuC6VByAitLBEre3tUa0RS9jPVjpFRCbcRCFAABEtjj0S8CvAO4YcAkxZcBSh6HcH",
+      "_id": "6956f1fe1c508c5d5e6b5a69"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

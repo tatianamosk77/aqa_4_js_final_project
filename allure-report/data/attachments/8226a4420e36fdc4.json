@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:15:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-Osi8gfBfkKja08oJE9ah0mjIq6Q\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jayne_Wiegand@gmail.com",
+      "name": "Ludwig Darby",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 248,
+      "flat": 2919,
+      "phone": "+3989666795",
+      "createdOn": "2026-01-01T22:15:26.000Z",
+      "notes": "Tdp0VxN44g0NNAbJrIyrYFucTM6jJ0Xr51F0x9Ko2HCGYMDA9XjXnEQci9ywUIZv9uTKhGXBk1dyEmhMELdN3aPw52kOrwJ1M2mJ72EYy4OYlio05shW3SRXmkuCxCBsXlMUvP4QggFmO5hYnNqi9KduQ7aLy04il9VpTTocmtR0dTI7DSCxq8gH0jcpkZ7aClbDEHOHW0ERYLQYtLxbsZB3qGJ4HyqZG18ZBUYloUC1wNTzT22PgXcxYu",
+      "_id": "6956f1fe1c508c5d5e6b5a64"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

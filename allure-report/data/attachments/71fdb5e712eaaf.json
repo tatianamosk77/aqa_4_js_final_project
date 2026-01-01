@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:16:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "206",
+    "etag": "W/\"ce-K30DLjrl2KzCoResNggI+nbW3Zo\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Computer21816",
+      "amount": 418,
+      "price": 4578,
+      "manufacturer": "Amazon",
+      "createdOn": "2026-01-01T22:16:22.000Z",
+      "notes": "",
+      "_id": "6956f2361c508c5d5e6b78cc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

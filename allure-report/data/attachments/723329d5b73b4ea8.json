@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:15:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-uMLhDKcIQDVem5mRSq2zAtKJaoQ\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Danial0@hotmail.com",
+      "name": "Shemar Christopher",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 76,
+      "flat": 4984,
+      "phone": "+1113036545",
+      "createdOn": "2026-01-01T22:15:20.000Z",
+      "notes": "Gn2gqMLiEp3BYQTRFENQpULx0ghMuswVEVdxssicBcN7spkqjtqOxbTjB5qSyZEFpLE02Sm1qKu68HxQBo2RGsQ5Evo72mSO8mylT0BRmfltOpHJa0MfYwcLgh7HWeNewno8UXU08ChUapqN3teUVhykJdlx5t1DKtZYS0Gk3mFaI5nuJbmyxfwgH1jqKVj0krOf2gtdoDMy1n89UcTeANhQGXcT3YAOZ3T5ufp8lGFFHyg3ZapWyiU2XE",
+      "_id": "6956f1f81c508c5d5e6b57b8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

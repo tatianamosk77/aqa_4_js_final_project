@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:18:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-dNszkn807IwUxquhP53ePYscj0A\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jamal.Hoeger16@gmail.com",
+      "name": "Bryce Rocio",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 717,
+      "flat": 858,
+      "phone": "+9378323319",
+      "createdOn": "2026-01-01T22:18:59.000Z",
+      "notes": "Ra2WPNuAmLQ6FEXh85QEMeSWq0c2XU7YDBb1l6bfbLvpDlTkx4WC6zpmLvE9lQ9b0qYpfbIhADDpl9bKPlHuXrEzIdiHeOP2qbwBPjSk4mcBVE88ZpMbottRcIHFUi6mBEor9q7OllUWQeIwtg1euBZAweHp0g0fLRFHIquXKynxEogI2pxKgBnsV9C900z8MZU233MemnZDDaPnE47e9bV327XGAzECYduQbUwZxBv4WT9YKLQGmnQxsf",
+      "_id": "6956f2d31c508c5d5e6b97b7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

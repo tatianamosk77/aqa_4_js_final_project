@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:15:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-mSAM2HV+V5D5SV6SfR6SfPoa1G0\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6956f2171c508c5d5e6b64d0",
+        "email": "Pinkie.Kemmer@hotmail.com",
+        "name": "Queenie Mozell",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 276,
+        "flat": 3685,
+        "phone": "+3167170636",
+        "createdOn": "2026-01-01T22:15:51.000Z",
+        "notes": "R0xjFZbzat2ikhW5SkMLlL5KYJqyBPzUtY0wB8YaUDCKDmxmTfJwhnCUjyvlN70CXoEyrCova98403xiPNMokJofPs7g4k4frbrgrCRt7W9Jes7bXeK9OziXqyq1rijf5pXkgHB4oab4U08QRk9YobqKhFWvzKjeXA2MEpKxjAS03FSXQhWDDiGLPABpfnYYaEcw4NNAUTC50py6Ae81iucroLFktqjflq9PoH85VgJhJBnR0qVWt8Cmxs"
+      },
+      "products": [
+        {
+          "_id": "6956f2171c508c5d5e6b64d8",
+          "name": "Chips26843",
+          "amount": 830,
+          "price": 22535,
+          "manufacturer": "Samsung",
+          "notes": "pMIGySr84rBz9VzvaY0MhY0HUJW8cnFfTkCtamSNvyBgbq6pJBHEclGnT3Gb7BO4Rm5wj7E83u3HDxnSbFGnBuqXfzU9haEJhyhyIDtumrCd7GVOc1uqTI6OHzCtF3oYTR3v67baWOi6No9FroD3nx3DSiCyjwxQKMtlGtzc8Dr9BFV1jzTvalunJ4IpFxzVCxrCVSwO4IQbo22TEUJxSEwao0AgVPLdsibdVqCIGt08l2Ay7unUjqESOW",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 22535,
+      "createdOn": "2026-01-01T22:15:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956f2171c508c5d5e6b64d0",
+          "products": [
+            {
+              "_id": "6956f2171c508c5d5e6b64d8",
+              "name": "Chips26843",
+              "amount": 830,
+              "price": 22535,
+              "manufacturer": "Samsung",
+              "notes": "pMIGySr84rBz9VzvaY0MhY0HUJW8cnFfTkCtamSNvyBgbq6pJBHEclGnT3Gb7BO4Rm5wj7E83u3HDxnSbFGnBuqXfzU9haEJhyhyIDtumrCd7GVOc1uqTI6OHzCtF3oYTR3v67baWOi6No9FroD3nx3DSiCyjwxQKMtlGtzc8Dr9BFV1jzTvalunJ4IpFxzVCxrCVSwO4IQbo22TEUJxSEwao0AgVPLdsibdVqCIGt08l2Ay7unUjqESOW",
+              "received": false
+            }
+          ],
+          "total_price": 22535,
+          "delivery": null,
+          "changedOn": "2026-01-01T22:15:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6956f2171c508c5d5e6b64e7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

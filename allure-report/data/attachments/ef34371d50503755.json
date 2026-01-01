@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:18:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "559",
+    "etag": "W/\"22f-2TWG5bxb4sPP49hB5Y5OEoTFqlM\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Tyson.Schaefer@hotmail.com",
+      "name": "Burdette Brennan",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 991,
+      "flat": 8324,
+      "phone": "+9110307549",
+      "createdOn": "2026-01-01T22:18:25.000Z",
+      "notes": "xoIqZuU8Az2DxanFlRsh9JW4eyp45N5UMvNnYOoY9UTx9BJOGyxgnTGyGRAgepNImkjoL9GaHWxNZKQzaVtBdjUzcxVOoOBu2IYP8s5VEJMAv7cvRlpykBYRu2cFy00pBt7DtwHw5Yvk1kOZNvC4W16jY1EQJKi4APSSiZpLcGISwLu2RRrNCO3Gi53E1B1cytaqG9nn60TKgXmzLRj431if2NxO6rCaOMjZmFJm9UthnWKgkp1bVpjw2Y",
+      "_id": "6956f2b11c508c5d5e6b95b7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

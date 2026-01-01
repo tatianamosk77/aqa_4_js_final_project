@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:16:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-PiM7YWKXpNr22w3ZIYzA5NlZMtk\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Mayra.Franey@hotmail.com",
+      "name": "Madison Gabe",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 856,
+      "flat": 3898,
+      "phone": "+1405907980",
+      "createdOn": "2026-01-01T22:16:06.000Z",
+      "notes": "d9OQ3KiguKPhiN98rfoXbr2mVUxknRsoIr83MIK9oPVLQTr9R0Urb0q6iXtnjpxocBKWLMXV919aOVydKze8LAiTp2gaMvsUB8kJK5nVU7AL9mWrBRTOmuvylBF2R3KpeMZgldUaovwIg0AKeXwjZ1lvLbTEglPQ4AEEjNT37GUILmULMXzn0bg4dctuSWUupxW9hDkQEmZjqeJdtGkyCcuSAMZ4GFXnrsUwxYV43cDcflW8OM95pilqIJ",
+      "_id": "6956f2261c508c5d5e6b6dc9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

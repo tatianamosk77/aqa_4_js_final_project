@@ -1,0 +1,155 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:15:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4944",
+    "etag": "W/\"1350-SON7ICqN3DeAh0WhYGxKb+s1XfY\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6956f2111c508c5d5e6b61ef",
+      "status": "Draft",
+      "customer": {
+        "_id": "6956f2101c508c5d5e6b61be",
+        "email": "Dillan64@gmail.com",
+        "name": "Craig Ramiro",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 987,
+        "flat": 4045,
+        "phone": "+3770626222",
+        "createdOn": "2026-01-01T22:15:44.000Z",
+        "notes": "NrNrsuz3WBiWHQDQCGyoKDhSBOl4nEU63Kk5KQdXFhH5ZgTV4nIyQbw2MNobOmxl9IIkltXTfVopOxRX3wwffiuZtYS5fA5xdGjC7vH2XaLhlhNUUCEgvjO1ODO7XOMr4nslvpT7xMZH0DFUiH0wGcn66wW25nT4VgkE9qxdo3sKMU2bJklu3XqFcSJQnVusWIBxVnwoyyGNWFWlg7eicD8HToLUc0XQocybT8fBe7EGORhR3wpXMTMSkX"
+      },
+      "products": [
+        {
+          "_id": "6956f2101c508c5d5e6b61bb",
+          "name": "Shoes55953",
+          "amount": 421,
+          "price": 91715,
+          "manufacturer": "Xiaomi",
+          "notes": "SEDXmCIWSuBMkptC4W2xeTKLBSdmKFa3MZ5UM073jRS6gzqRvzUght8G4BacXezb8jTsz9mSglIoIeGUvipob3eqKzP22noibodX3poaadYrQ4i1oCWKUkZAj83lTHbTzcuMeCupVODGELJT9s6tITmaioguRmrOXBi0JY9dR4GxjXvBmExLBDrGjLa7HGCV3dj9DVp3d9fn0dOIWv7nynyLbmEf8n5Ut3hmt6YG24vMgAA9Wq1gXnTuOz",
+          "received": false
+        },
+        {
+          "_id": "6956f2101c508c5d5e6b61c6",
+          "name": "Keyboard82060",
+          "amount": 963,
+          "price": 4053,
+          "manufacturer": "Sony",
+          "notes": "w5e0tHCAsP9lUOuEawP8YWrLe0rKQeVCbzThGCMm77sIA50xAp6bldWMtW801Ll4CvDkntV8iusbLTigaFJv27k1cOXRXNqKI1MEJ1FiBfWN5D1JmyEpcJwg99m1JluXvLktNGVmJRqQfrpwcpE1jvXchdHvZYKh78epZzHIciGV3770ptj7jyGE4Lcmw6KYr073rh4V0RsjeMpbZO5z5f6CbUAwgCkzVWyNBByFd6BKCrT5m1qDZTXnJ2",
+          "received": false
+        },
+        {
+          "_id": "6956f2101c508c5d5e6b61ca",
+          "name": "Sausages48711",
+          "amount": 55,
+          "price": 59972,
+          "manufacturer": "Tesla",
+          "notes": "65LvaY0YusnatKT60WJomNiflShllq0iL3bFTCCcHiHQw4RXNcn3va1U2MezakrfBQTp7lkEHdGlfVU2sSVl4AdiVeAFAER2FBREo37zC8qgd3GuPVmVvDDBQlT0JsEDGJfwiDIyzXstUSNJSlrV4q4nyAKrN6JKaT7cHoRlxYGl3GVE1nKed9pXkddrARqz9cLwKIGxWFBIsXMmUMgqOfk6wxlmZsuBg5WmaEyVOxjXz9rm4JhDcfbgir",
+          "received": false
+        },
+        {
+          "_id": "6956f2101c508c5d5e6b61c8",
+          "name": "Bacon5779",
+          "amount": 730,
+          "price": 42860,
+          "manufacturer": "Google",
+          "notes": "25fAZXgYlOxRXNB1uvowbqBSXRcMTleL5RpNgNldX66kfa7Vv3YnAA5tEJfrLtmLAmofbYgM7MAVRPu9tHPZc9IOajcfZzEetAzVDxRmfIkGRD7OO17jh6akbi0HYTVMqGscsp4UFVvaaTYYeyyVLrPKFZxGCFFykL44gJNkHGYLw0JEmhVDslRelPpGp3sZa7i398FeFSSIMZoWZoCNjhfDOV6OTHcde7z2fbpGHMm12immoxlNkbUA5M",
+          "received": false
+        },
+        {
+          "_id": "6956f2101c508c5d5e6b61c4",
+          "name": "Salad8099",
+          "amount": 839,
+          "price": 68146,
+          "manufacturer": "Sony",
+          "notes": "x7l5Z5oHx5o2yCMljR4GrjeRaOrQBdgpLE0MxtVyAJMfvoAgKA3nhYAUCaL56HqDrRN8mkUCge7NSSYcuQJ6akXLBBz3aF1QJXyJkn8kwoWjKlFLPqtqHq2rJsd7bMFUorb3GQsVH22dFNQg5uk2sYzFAC6spaqZc0Uc7BVPK8aG7OrBuge2Bbje8vglqi83LrMUfzUtlkJXdZI6Bi3VO5gyERNnK5rTcyDH96W15N3caY0rJA1CfNPAZ6",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 266746,
+      "createdOn": "2026-01-01T22:15:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956f2101c508c5d5e6b61be",
+          "products": [
+            {
+              "_id": "6956f2101c508c5d5e6b61bb",
+              "name": "Shoes55953",
+              "amount": 421,
+              "price": 91715,
+              "manufacturer": "Xiaomi",
+              "notes": "SEDXmCIWSuBMkptC4W2xeTKLBSdmKFa3MZ5UM073jRS6gzqRvzUght8G4BacXezb8jTsz9mSglIoIeGUvipob3eqKzP22noibodX3poaadYrQ4i1oCWKUkZAj83lTHbTzcuMeCupVODGELJT9s6tITmaioguRmrOXBi0JY9dR4GxjXvBmExLBDrGjLa7HGCV3dj9DVp3d9fn0dOIWv7nynyLbmEf8n5Ut3hmt6YG24vMgAA9Wq1gXnTuOz",
+              "received": false
+            },
+            {
+              "_id": "6956f2101c508c5d5e6b61c6",
+              "name": "Keyboard82060",
+              "amount": 963,
+              "price": 4053,
+              "manufacturer": "Sony",
+              "notes": "w5e0tHCAsP9lUOuEawP8YWrLe0rKQeVCbzThGCMm77sIA50xAp6bldWMtW801Ll4CvDkntV8iusbLTigaFJv27k1cOXRXNqKI1MEJ1FiBfWN5D1JmyEpcJwg99m1JluXvLktNGVmJRqQfrpwcpE1jvXchdHvZYKh78epZzHIciGV3770ptj7jyGE4Lcmw6KYr073rh4V0RsjeMpbZO5z5f6CbUAwgCkzVWyNBByFd6BKCrT5m1qDZTXnJ2",
+              "received": false
+            },
+            {
+              "_id": "6956f2101c508c5d5e6b61ca",
+              "name": "Sausages48711",
+              "amount": 55,
+              "price": 59972,
+              "manufacturer": "Tesla",
+              "notes": "65LvaY0YusnatKT60WJomNiflShllq0iL3bFTCCcHiHQw4RXNcn3va1U2MezakrfBQTp7lkEHdGlfVU2sSVl4AdiVeAFAER2FBREo37zC8qgd3GuPVmVvDDBQlT0JsEDGJfwiDIyzXstUSNJSlrV4q4nyAKrN6JKaT7cHoRlxYGl3GVE1nKed9pXkddrARqz9cLwKIGxWFBIsXMmUMgqOfk6wxlmZsuBg5WmaEyVOxjXz9rm4JhDcfbgir",
+              "received": false
+            },
+            {
+              "_id": "6956f2101c508c5d5e6b61c8",
+              "name": "Bacon5779",
+              "amount": 730,
+              "price": 42860,
+              "manufacturer": "Google",
+              "notes": "25fAZXgYlOxRXNB1uvowbqBSXRcMTleL5RpNgNldX66kfa7Vv3YnAA5tEJfrLtmLAmofbYgM7MAVRPu9tHPZc9IOajcfZzEetAzVDxRmfIkGRD7OO17jh6akbi0HYTVMqGscsp4UFVvaaTYYeyyVLrPKFZxGCFFykL44gJNkHGYLw0JEmhVDslRelPpGp3sZa7i398FeFSSIMZoWZoCNjhfDOV6OTHcde7z2fbpGHMm12immoxlNkbUA5M",
+              "received": false
+            },
+            {
+              "_id": "6956f2101c508c5d5e6b61c4",
+              "name": "Salad8099",
+              "amount": 839,
+              "price": 68146,
+              "manufacturer": "Sony",
+              "notes": "x7l5Z5oHx5o2yCMljR4GrjeRaOrQBdgpLE0MxtVyAJMfvoAgKA3nhYAUCaL56HqDrRN8mkUCge7NSSYcuQJ6akXLBBz3aF1QJXyJkn8kwoWjKlFLPqtqHq2rJsd7bMFUorb3GQsVH22dFNQg5uk2sYzFAC6spaqZc0Uc7BVPK8aG7OrBuge2Bbje8vglqi83LrMUfzUtlkJXdZI6Bi3VO5gyERNnK5rTcyDH96W15N3caY0rJA1CfNPAZ6",
+              "received": false
+            }
+          ],
+          "total_price": 266746,
+          "delivery": null,
+          "changedOn": "2026-01-01T22:15:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

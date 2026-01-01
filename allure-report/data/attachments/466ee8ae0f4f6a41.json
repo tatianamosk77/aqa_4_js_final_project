@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:15:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-9r5jdWbkG+xsxUkY4Ym5vv7V+6Y\"",
+    "keep-alive": "timeout=5, max=58",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Pinkie.Kemmer@hotmail.com",
+      "name": "Queenie Mozell",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 276,
+      "flat": 3685,
+      "phone": "+3167170636",
+      "createdOn": "2026-01-01T22:15:51.000Z",
+      "notes": "R0xjFZbzat2ikhW5SkMLlL5KYJqyBPzUtY0wB8YaUDCKDmxmTfJwhnCUjyvlN70CXoEyrCova98403xiPNMokJofPs7g4k4frbrgrCRt7W9Jes7bXeK9OziXqyq1rijf5pXkgHB4oab4U08QRk9YobqKhFWvzKjeXA2MEpKxjAS03FSXQhWDDiGLPABpfnYYaEcw4NNAUTC50py6Ae81iucroLFktqjflq9PoH85VgJhJBnR0qVWt8Cmxs",
+      "_id": "6956f2171c508c5d5e6b64d0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

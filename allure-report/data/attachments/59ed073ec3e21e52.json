@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:18:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-hgtfMWX1GQgtz65Y4iHI1T798fg\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Raphael13@hotmail.com",
+      "name": "Danny Etha",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 445,
+      "flat": 138,
+      "phone": "+7396202482",
+      "createdOn": "2026-01-01T22:18:52.000Z",
+      "notes": "n4HuCVhqVFbVemD2bQRwZSWOKBXGeJyhoWLhNMSnzDWm1qbjsNg5pgVFWM1HhmFkuOtS5L9yIGtJz2TMvmCDJ41UgfCxuaIgQdZWsgFkTyOYyW6LD3r1rkUun3s9imjmTZi66MKDcqM0ZbtWRxDRv1mVJNa2cKci1O4vIXPUQs7FFV3Gi2GXpj6dAYFQDs00VBP18PyTtALODdCjKP1xwBzoLINdH5mLyyUH9BDSCENktUqLDHiOvd7ACH",
+      "_id": "6956f2cc1c508c5d5e6b96b3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

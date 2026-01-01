@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:15:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-Z6athN4yaPfMDh6MVU+c8sR1h9E\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Margot1@gmail.com",
+      "name": "Garrick Jayda",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 119,
+      "flat": 9752,
+      "phone": "+5247137581",
+      "createdOn": "2026-01-01T22:15:53.000Z",
+      "notes": "0QlYQfMdk0dO6COh7cwW0kev7X5NGchmsNzfLNdx61GXUQZOjj5pNWP4EyTQYFJZmZ3NQIsVSZfWnbTK14Uy5eGgoCYhsDvhtoIJ4XnChuNhucjD6wMX87Q6RWO50uC9irU6Y4NJwa9zrQQAXQ8PJPPaGfcRZ0YUCIVm4sfmTH9ysNGja044M7qxNfc7T46yx9Gen0wU34xr2f6qECpTXX3K27Y9jIY3StZ4bFyUTGPCBXccumIluNFwdZ",
+      "_id": "6956f2191c508c5d5e6b655e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

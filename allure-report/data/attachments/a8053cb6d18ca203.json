@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:15:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "536",
+    "etag": "W/\"218-gSs0z+nPT2O7/gQlpl46wPvvqFw\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Al96@gmail.com",
+      "name": "Fay Vanessa",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 235,
+      "flat": 8180,
+      "phone": "+3732719073",
+      "createdOn": "2026-01-01T22:15:52.000Z",
+      "notes": "GVZ9YpUtwOI4k45Hzl61JYdN5QAyn7PZFAZyMaDhbG2ZhJSMYk1HdJ4M2ovgOtB2HwJvJZ40I8MwC8wWvhmj3iRQ8TjnEtsITGh0IXqmUcSVgTWQza5n82wknq7MXQCh141tqq6WnsPYa6zcVTrdwDWNH4tzNJG66Ex9CNObJzGzdxF6dNnX43a8fZglGJjFjiqtbCvPGOnBb0Jug66bFnb2hU6vURCRi8TiPVpdhSSN4Hq6gSggD8EEmF",
+      "_id": "6956f2181c508c5d5e6b6533"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

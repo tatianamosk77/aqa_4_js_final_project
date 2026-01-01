@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:16:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "192",
+    "etag": "W/\"c0-1vX4Xue1lFIoUFlgd8BkKFQ0JxQ\"",
+    "keep-alive": "timeout=5, max=64",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Fish18804",
+      "amount": 817,
+      "price": 87610,
+      "manufacturer": "Xiaomi",
+      "createdOn": "2026-01-01T22:16:19.000Z",
+      "_id": "6956f2331c508c5d5e6b73bb"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

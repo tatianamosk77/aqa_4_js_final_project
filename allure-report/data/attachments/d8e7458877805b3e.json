@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:15:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "558",
+    "etag": "W/\"22e-XfFr5UofRR7WuyYsXBPUOAp/Sfk\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Rosario.Legros38@yahoo.com",
+      "name": "Cleveland Tobin",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 840,
+      "flat": 5018,
+      "phone": "+8712575949",
+      "createdOn": "2026-01-01T22:15:40.000Z",
+      "notes": "5pJgF9gsruJMvWtckbFRwaUDXFcMfjD9S2vWpiVogNpLfxSyUQn7HdOPNNuJjyrVczRXZWhmaTgHSzH11FiaYjTpWv0lTfPvt0QGNP0fZjHwf4QngU0qbwGwT1K23E3j8EMi6ft8cgdEsJnTEdM3kC6kBqJWgRgdZQoDvSc6bKU5GbKWe0dhcPOqlFAsA9MYiCICg2XwPX6QnkrWNxHhITV9TvEtlLyAauX9o6D4PY3JLe06aO7sNHAmXA",
+      "_id": "6956f20c1c508c5d5e6b5fba"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

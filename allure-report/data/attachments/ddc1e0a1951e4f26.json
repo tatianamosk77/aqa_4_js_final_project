@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:15:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-PuUwqQFs5cF+DV3QWadk6zIc2TE\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Danial_Morar@yahoo.com",
+      "name": "Arlo Hope",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 876,
+      "flat": 5760,
+      "phone": "+2558341766",
+      "createdOn": "2026-01-01T22:15:49.000Z",
+      "notes": "GnkgmzPyr9xR0jNmJSY9pGtkghAuz9Puk6uohKVzlvrNrobiOapT0W3Z0qFJwzUeCu07OixG4LIvdgATDztlNAn9ZaxGAT0F9GWvb3PlEuzOuQBt9QmlYiMmR8uNwoakfwp7J1p22VgQacx1X61lzykeqQObrSrtMTKk5nYpwkxm4kGTpDhwa4L0Wp7ZCgilPcEdxEDPmWO5wzM3oQ3u0JCP5UYPc3EE60mEswBf9XUAGGdZVrSS37kaz2",
+      "_id": "6956f2151c508c5d5e6b63d7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

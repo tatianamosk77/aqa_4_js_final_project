@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:15:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-5DPr/rw/SEK+xMbYajf9A2MJPVk\"",
+    "keep-alive": "timeout=5, max=72",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6956f2071c508c5d5e6b5e6b",
+        "email": "Rowland_Hartmann24@gmail.com",
+        "name": "Collin Myrtice",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 804,
+        "flat": 9717,
+        "phone": "+3637971938",
+        "createdOn": "2026-01-01T22:15:35.000Z",
+        "notes": "Z60as6Tg3tZLdQa7D6aLvVhxzXvbO6239Lnnaavfp5fxMK6eibCtbutV2tpXR7ktAiMeevFx9qLVbI5gSUu0Bgs84eTiTyAQc2bfivR9qCY711dZjUSsMD2YXD7M1VhdLhrlA3XuYQdeZErNQqsvOAO8YQJR79J1mIJa0R7oDOCJesmgo0EGpTtPXKatk9kbwRYyFW64onwOOmnNdOsOXKFYM8RvRi5LTXIlBt1muxzVJ7FADN3F5yWGpF"
+      },
+      "products": [
+        {
+          "_id": "6956f2081c508c5d5e6b5e8f",
+          "name": "Computer71616",
+          "amount": 81,
+          "price": 79960,
+          "manufacturer": "Tesla",
+          "notes": "WGTsI9KoJDyPl90rLTSVMrlzCyj6MJXe6MlLKDdTLrZIiqLpFfm4U0Yz5yJjdSSATBmnE6lxOQqpKX4hoHIJwzAwoASYbga3HSeJD9Ch9YPrFLM1Tc7QoFynhUHQkUIeUPdda69OoslJCROKR45OaHIHOO81yQgKAsybarHhUnMMXviuWBPVqpT4SoPVnsEpk1JdjwDtcUNN9SWGg2kzSTK9RayZrdl9dY6cVrOGAob9hhvkpDy6wxUAUY",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 79960,
+      "createdOn": "2026-01-01T22:15:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956f2071c508c5d5e6b5e6b",
+          "products": [
+            {
+              "_id": "6956f2081c508c5d5e6b5e8f",
+              "name": "Computer71616",
+              "amount": 81,
+              "price": 79960,
+              "manufacturer": "Tesla",
+              "notes": "WGTsI9KoJDyPl90rLTSVMrlzCyj6MJXe6MlLKDdTLrZIiqLpFfm4U0Yz5yJjdSSATBmnE6lxOQqpKX4hoHIJwzAwoASYbga3HSeJD9Ch9YPrFLM1Tc7QoFynhUHQkUIeUPdda69OoslJCROKR45OaHIHOO81yQgKAsybarHhUnMMXviuWBPVqpT4SoPVnsEpk1JdjwDtcUNN9SWGg2kzSTK9RayZrdl9dY6cVrOGAob9hhvkpDy6wxUAUY",
+              "received": false
+            }
+          ],
+          "total_price": 79960,
+          "delivery": null,
+          "changedOn": "2026-01-01T22:15:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6956f2091c508c5d5e6b5ea0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

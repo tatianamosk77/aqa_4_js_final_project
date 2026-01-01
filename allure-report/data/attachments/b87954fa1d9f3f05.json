@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:15:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-LRJSlunC5dNN9REeMaNIaeBYkqg\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Cyrus2@yahoo.com",
+      "name": "Test Customer",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 828,
+      "flat": 2120,
+      "phone": "+5102096782",
+      "createdOn": "2026-01-01T22:15:08.000Z",
+      "notes": "cAn2pgKZXn7YAP4SmFBbw8DD256BkuWMu3v96kld31cjJvYm8Ills2YLWk7HliDA8Jxep7f4X1cW8Rc18Qos4cquRdZP3n1NmTXn3EjbjoKEu8kOqs5SYXcoEJCCUsHOklDe5SNibTT1Lh9w7zKlGk5UPjeFjphFqstHlvuMZvgsfw9fplxSmnLbnO3PktVpi5vUyPVDPhVXORpsQB7ZzSKi4S5c6ZbEvmGxXeT8DMUUdV0mqprxGqjqTv",
+      "_id": "6956f1ec1c508c5d5e6b5342"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

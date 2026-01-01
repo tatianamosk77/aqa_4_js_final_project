@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:16:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3420",
+    "etag": "W/\"d5c-5t5yEuawYSUMAQ+4T/x2QveaQ9o\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6956f2271c508c5d5e6b6dd5",
+        "email": "Edythe24@hotmail.com",
+        "name": "Keshaun Keaton",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 496,
+        "flat": 8832,
+        "phone": "+0714559058",
+        "createdOn": "2026-01-01T22:16:07.000Z",
+        "notes": "4hOS9w2IDJUxK2EcrHPjJn1gROwB65gvlKEWQBxhPFoYHhgnbUcxkqKs9eXnVrGa4AWUyZagGm8mlivQeAxEDpenHTDDoaGwzOwrtq62LKf4ZBgT5dHLTBi8Q734GWJTZLc7JrDnoLdUbmSdM85DWiLbsbMig0X4hZog2z5Yodo8h1RNATnN5t55JIUcGtpjMbmxuiripGf8xid2mV3ScANIrLZhDrgNf7qHJXP9CcUmGEQQoEhSMPOKBf"
+      },
+      "products": [
+        {
+          "_id": "6956f2271c508c5d5e6b6dd3",
+          "name": "Chicken23549",
+          "amount": 594,
+          "price": 67611,
+          "manufacturer": "Xiaomi",
+          "notes": "YtfcrJYAxTx83GDRnaLnWstwSaGTy4DgC9J6jPx29hwQJVcwEQaLKVpMw90zzeDHspc1lhc6M33CmZL57IllOxMCMyUTbOaF5So7s3UeEibHBEHEh0dnFD8KClpn9Ndl1EwNynTfqNr2cZeS4QIuUoVEBJVmE6ph0YIiDBFEoyS23EVEfzm1nlSOleAxKYlxsTlZni3kN6lj6zbbLjGOW2tan4PhqjD4paPnpETAr1qLrzibSHa3nPJebu",
+          "received": false
+        },
+        {
+          "_id": "6956f2271c508c5d5e6b6dcf",
+          "name": "Towels89323",
+          "amount": 272,
+          "price": 70523,
+          "manufacturer": "Tesla",
+          "notes": "dR6roaXPDGaZ3M8vHvSFJh7o49dcVamT8AhsihCHSrrt2nWlyaiFFkiZ2RustHTJpU3TF7kPrrG36TF2A8aPYSSM9ZVKhDEBWtH7PfFzk4gEdmT1i7vG1JwCTDHjKahk7zlZgy3gRRkjRfNDVCIJ9Wn71Ay5UAzV24vGNqHhaWpzYX8ymZBKj8Wwj8IAn2HzgLNIt7c805Koj2GmA8Z4MQk6BuV55dnAVamkI1AW2Ts4AMp4JQm8IXbnX4",
+          "received": false
+        },
+        {
+          "_id": "6956f2271c508c5d5e6b6dcb",
+          "name": "Gloves71732",
+          "amount": 989,
+          "price": 71412,
+          "manufacturer": "Microsoft",
+          "notes": "ZAlu9Cm7c9S3FgQWRnL8i90xnkLGbTewfTfGq6FthisnECi21WmUhcH6RnziGjf7nuOcGx4FtEijCkrixBPB3WdDtkaR6siIAR4rBFTsEFZvrSb5LSuS3lh8x6ya6XZVoEmqrRgle88yZMS7tcaq8W4ECbl8bUMK2VYslAct67aQupBYPy5Hl5dCHdA19QUznB4SpGx0UGrjyOxzzDs85sqr0MNnh4y60dc1mah1Ccn9s0bR9nL96BmvpE",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 209546,
+      "createdOn": "2026-01-01T22:16:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956f2271c508c5d5e6b6dd5",
+          "products": [
+            {
+              "_id": "6956f2271c508c5d5e6b6dd3",
+              "name": "Chicken23549",
+              "amount": 594,
+              "price": 67611,
+              "manufacturer": "Xiaomi",
+              "notes": "YtfcrJYAxTx83GDRnaLnWstwSaGTy4DgC9J6jPx29hwQJVcwEQaLKVpMw90zzeDHspc1lhc6M33CmZL57IllOxMCMyUTbOaF5So7s3UeEibHBEHEh0dnFD8KClpn9Ndl1EwNynTfqNr2cZeS4QIuUoVEBJVmE6ph0YIiDBFEoyS23EVEfzm1nlSOleAxKYlxsTlZni3kN6lj6zbbLjGOW2tan4PhqjD4paPnpETAr1qLrzibSHa3nPJebu",
+              "received": false
+            },
+            {
+              "_id": "6956f2271c508c5d5e6b6dcf",
+              "name": "Towels89323",
+              "amount": 272,
+              "price": 70523,
+              "manufacturer": "Tesla",
+              "notes": "dR6roaXPDGaZ3M8vHvSFJh7o49dcVamT8AhsihCHSrrt2nWlyaiFFkiZ2RustHTJpU3TF7kPrrG36TF2A8aPYSSM9ZVKhDEBWtH7PfFzk4gEdmT1i7vG1JwCTDHjKahk7zlZgy3gRRkjRfNDVCIJ9Wn71Ay5UAzV24vGNqHhaWpzYX8ymZBKj8Wwj8IAn2HzgLNIt7c805Koj2GmA8Z4MQk6BuV55dnAVamkI1AW2Ts4AMp4JQm8IXbnX4",
+              "received": false
+            },
+            {
+              "_id": "6956f2271c508c5d5e6b6dcb",
+              "name": "Gloves71732",
+              "amount": 989,
+              "price": 71412,
+              "manufacturer": "Microsoft",
+              "notes": "ZAlu9Cm7c9S3FgQWRnL8i90xnkLGbTewfTfGq6FthisnECi21WmUhcH6RnziGjf7nuOcGx4FtEijCkrixBPB3WdDtkaR6siIAR4rBFTsEFZvrSb5LSuS3lh8x6ya6XZVoEmqrRgle88yZMS7tcaq8W4ECbl8bUMK2VYslAct67aQupBYPy5Hl5dCHdA19QUznB4SpGx0UGrjyOxzzDs85sqr0MNnh4y60dc1mah1Ccn9s0bR9nL96BmvpE",
+              "received": false
+            }
+          ],
+          "total_price": 209546,
+          "delivery": null,
+          "changedOn": "2026-01-01T22:16:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6956f2271c508c5d5e6b6df1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

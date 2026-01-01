@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:15:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-aJdxXwG4UcyukLpEU5h8TsT0y5E\"",
+    "keep-alive": "timeout=5, max=72",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Effie.Volkman92@gmail.com",
+      "name": "Sammy Bailey",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 139,
+      "flat": 6044,
+      "phone": "+3531997810",
+      "createdOn": "2026-01-01T22:15:39.000Z",
+      "notes": "GBCsb7YrIpxKmpyToq8aAY6ZaufYtZqWN3Wu7fFr8wZ36JArysNF2Pwu2m9sj0Z5uTqD4D0Jm5Mkc03KJhXAHi3GeCeurK905Us4MlPOxBvM1Rl3GcFFhQyF4mDTiX2v6B67fbcHQkFroHLPi0j0weuNcEMeRieKaIK57mlfWlQCulN8UU6EzN6WUhV87mZIEdfBnslyL9KKFkYa3oiLM1KrUmtg6TS7Z1m3sGmHEjuV86RISq5R6ueD5g",
+      "_id": "6956f20b1c508c5d5e6b5f2d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

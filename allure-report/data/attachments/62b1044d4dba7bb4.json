@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:15:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "535",
+    "etag": "W/\"217-YhaACQA8JZVOlxcwGYbryrv4G7I\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Hank95@yahoo.com",
+      "name": "Lucio Justen",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 349,
+      "flat": 3398,
+      "phone": "+1035000516",
+      "createdOn": "2026-01-01T22:15:34.000Z",
+      "notes": "ib9rfLWnryl1feb365y82m6JpBT7lccIxFa8xag9rMwGzHr4S3dInCsp2xRMc4KIqt7Vj6kiQgE2shX08L2FtVFPrKlsXT988duQZ8fYzOvhZA49fFzaU8c2qGjslr0ZyzZ3Y78eW1MEIJRmdF3AuCFDPXl1pbNQTqPJrQEc3517raYf1nRxGw1WHGAYYiov5lFc0vCBE7xuh1pDJoOmBqRFjSvTikz835qa6sxHZwDBFNbTW4T58AC44T",
+      "_id": "6956f2061c508c5d5e6b5e02"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:15:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-/Ln60sz31hq7T06JS0jKKagW6rc\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Brice32@hotmail.com",
+      "name": "Judson Yazmin",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 134,
+      "flat": 7342,
+      "phone": "+3196553662",
+      "createdOn": "2026-01-01T22:15:28.000Z",
+      "notes": "LVkiFTQpIBGD2TMzqwvExIQWppEqXkBOVY3YBVAH3V53YcU4tNgJFtBoVheaY9HMeFlB2BJEp8J1hiI2bgcG2JjPxFU3avCtRUrNl3EKFw4ej9F34NpQj5EZHenbLlQolVvyLoCSYf8OBRcNKAttDUt2yJLEhmlQleVrR6sqjp2bZaDMoGo6GoA3uIt1X8v3P58rzJ2ySraYsSj1XsnvyuIOOmYIIOa4FQR2X5ZINDERtwQinLcPTg1Fg2",
+      "_id": "6956f2001c508c5d5e6b5b27"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

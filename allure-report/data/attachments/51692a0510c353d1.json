@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:15:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-3dNDuNtTaJD+beIzTp+IM9T/rnk\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6956f21a1c508c5d5e6b65ff",
+        "email": "Eloisa.Yundt29@yahoo.com",
+        "name": "Brain Khalid",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 204,
+        "flat": 5852,
+        "phone": "+4153507521",
+        "createdOn": "2026-01-01T22:15:54.000Z",
+        "notes": "jNaSk9iH6buC8Bopp3clfsQtWsoiM3IH4XtCOo7O6ZySwOYL8XaV5P1xuxkkCtD3k933067m87RnS7teC0gmg3eOe0qG3adedvOjuJHNjJnjxepZT4hK8VpR5fxmhoBMAkecqgJ4nqCOyopxw084ZmQc5Gp3NhzqRZ5aiVWKErrZT52CMfdIEJycGAiuTF870X9jVZKdeXy0FUm7gjAoEIBfXsVkIYEM4IANSehzNeeOEYdUUQFy4AL2zC"
+      },
+      "products": [
+        {
+          "_id": "6956f21a1c508c5d5e6b6604",
+          "name": "Computer64312",
+          "amount": 158,
+          "price": 82640,
+          "manufacturer": "Microsoft",
+          "notes": "Lc79GNuLGMYuGcqxduYmYBtp7G72B3lJ6WH4RTPyPoVEcjOhA64BjvW7Cti6pbwURetOjvVvxXmEMlQ6t6acgbARTo6TWyXuS9JDm9z7yjEH4q7KCtjP1p5yymeYFL7IPyGo8cWzewYUTFuJOS6Oymc5Qc1xIEyJ3q90jDG8URiIqQKhSiTpwb9OJPB2srlHvu6yzcgye0wgJMKPn9584DJFuqcX99P7C63ftHgwlmHJPLAWe7wX1EgcrL",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 82640,
+      "createdOn": "2026-01-01T22:15:55.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956f21a1c508c5d5e6b65ff",
+          "products": [
+            {
+              "_id": "6956f21a1c508c5d5e6b6604",
+              "name": "Computer64312",
+              "amount": 158,
+              "price": 82640,
+              "manufacturer": "Microsoft",
+              "notes": "Lc79GNuLGMYuGcqxduYmYBtp7G72B3lJ6WH4RTPyPoVEcjOhA64BjvW7Cti6pbwURetOjvVvxXmEMlQ6t6acgbARTo6TWyXuS9JDm9z7yjEH4q7KCtjP1p5yymeYFL7IPyGo8cWzewYUTFuJOS6Oymc5Qc1xIEyJ3q90jDG8URiIqQKhSiTpwb9OJPB2srlHvu6yzcgye0wgJMKPn9584DJFuqcX99P7C63ftHgwlmHJPLAWe7wX1EgcrL",
+              "received": false
+            }
+          ],
+          "total_price": 82640,
+          "delivery": null,
+          "changedOn": "2026-01-01T22:15:55.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6956f21b1c508c5d5e6b6618"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:15:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1889",
+    "etag": "W/\"761-rCp6GSj04+QuQd9jjBG3yiz+RiM\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6956f2131c508c5d5e6b6277",
+        "email": "Michaela.Monahan62@gmail.com",
+        "name": "Anibal Stephanie",
+        "country": "France",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 540,
+        "flat": 7234,
+        "phone": "+9679559935",
+        "createdOn": "2026-01-01T22:15:47.000Z",
+        "notes": "1NfMEYaIvw1bBBdeZc6dDsBgZh74GXW6SYQOc4oCRKGZcM9BaUAMiRvnn2YP0VTcp5Rn2iHPfoQdsue0dQJgQsWJkDeAT0Yldpc7AGf1JD5znAZFFPF3ofqbeeGoyAx7w7zHr3CUwLAARsSL7CTJiw3awF59w7XXNWvYcZThn83fNz3Fjnb8aC1vNoKvxEhpwAuHJMJRF4bIblHuaSRgPNjaqUx6ASnQZInxq3XGbU3Gbydomtq8d22llv"
+      },
+      "products": [
+        {
+          "_id": "6956f2131c508c5d5e6b627b",
+          "name": "Chips74166",
+          "amount": 448,
+          "price": 47011,
+          "manufacturer": "Microsoft",
+          "notes": "1PYm5iQtfQRmMwW5rnMmPcs83O2DmCmaBrtcuki6fTZH0eXEC4PUfsYX0xJ2594aYRRGKnoKXSVL7KPsyQabVfuA0h9JAa6vIFBqirJwR9BnuA3T4C6Z6RJgjhKRRjaY42dUULxaXv9zMYydD9sOQKmp12eKC0F0SF8eLmIqu5hqaBGOE0rt4IJAXI1h3DVUo2XgmdMiGOcdkZhxnQzy5aRSAuxFyjex4jh0fPbO4jQT9r09U0mPQuPHU3",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 47011,
+      "createdOn": "2026-01-01T22:15:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956f2131c508c5d5e6b6277",
+          "products": [
+            {
+              "_id": "6956f2131c508c5d5e6b627b",
+              "name": "Chips74166",
+              "amount": 448,
+              "price": 47011,
+              "manufacturer": "Microsoft",
+              "notes": "1PYm5iQtfQRmMwW5rnMmPcs83O2DmCmaBrtcuki6fTZH0eXEC4PUfsYX0xJ2594aYRRGKnoKXSVL7KPsyQabVfuA0h9JAa6vIFBqirJwR9BnuA3T4C6Z6RJgjhKRRjaY42dUULxaXv9zMYydD9sOQKmp12eKC0F0SF8eLmIqu5hqaBGOE0rt4IJAXI1h3DVUo2XgmdMiGOcdkZhxnQzy5aRSAuxFyjex4jh0fPbO4jQT9r09U0mPQuPHU3",
+              "received": false
+            }
+          ],
+          "total_price": 47011,
+          "delivery": null,
+          "changedOn": "2026-01-01T22:15:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6956f2131c508c5d5e6b628e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

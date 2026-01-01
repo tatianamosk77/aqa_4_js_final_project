@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:15:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-jduLmT25+3AiHOMn9xqkxrTFH+8\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Noah_Gerhold@yahoo.com",
+      "name": "Sheila Berenice",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 887,
+      "flat": 7928,
+      "phone": "+7092280922",
+      "createdOn": "2026-01-01T22:15:56.000Z",
+      "notes": "IEGiv0k2g2XZPqq21hm0dikwT6FOX3c7sqUbruxjj89w6xV94VhPfIxd5eJGtusSGUuPcQBNfgBAIK1d21NinqxfyEVUc8eKMqaG90u3tgEHkrFYwn0QA22IhAQemv9qeZUCqbg2GWH2aAJsJBpWJThkPvnDKHldLYgCqLaan5xtVATiJGltV9AAzVgoANttc7aVXNib5WG7raRPwzeMjLPJILjMPsNMV4sWQdUXaDS1xkwq4sRutT3wBT",
+      "_id": "6956f21c1c508c5d5e6b675b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

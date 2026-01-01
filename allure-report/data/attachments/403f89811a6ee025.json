@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:15:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1867",
+    "etag": "W/\"74b-TXTwEU3VTXeZMr2mN+V3lBhxayw\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6956f20d1c508c5d5e6b6001",
+        "email": "Mina.Sanford5@yahoo.com",
+        "name": "Ward Gino",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 602,
+        "flat": 3730,
+        "phone": "+0451489265",
+        "createdOn": "2026-01-01T22:15:41.000Z",
+        "notes": "AzpA18SvrmeKHjIyJp5kriLgYmrQsbFkJKmE9ZWiCSjuIS1FSTF4NkSu0g9pllveBKxzA9uQHQe1RFTKboUhYQ9HOQE77q5eNTZfkp3kTWnOqfLqhAU8F1aS9Wpoliy4XYgwMHXP3g3znyBu21d7h1UglREmKAFRCOy8TEfJR7Nfhbkzr77tnJfAjdaf4wbYJb2wIMTw0raJEiwjpnXsLCsK51DbsIeyaE8dnrepu063EwiM6mql3gjPeT"
+      },
+      "products": [
+        {
+          "_id": "6956f20d1c508c5d5e6b60f9",
+          "name": "Chips41217",
+          "amount": 784,
+          "price": 99439,
+          "manufacturer": "Sony",
+          "notes": "GYUzouHFj2ceKufEQPb6IPYbHK6BpXqBbDexe5nrJBAjXsLipTRuxObfUw4kosxbIE00x9MtfqqIiWVNWMLAo22ODyKlXUD3l4RuDsdTqtcFR1lZndPg8t5vkb6qZXgCNsQElXmxyUHaCxX1vjJed7jSU0KosVDRjSY0oQsvG2yLax0vVLhDkKmaPQpe1I15yaDPqalipGDq5pzjd7kDO1W9vfuTaJfE97OOquhIuqf6jMtX432MSBiTHE",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 99439,
+      "createdOn": "2026-01-01T22:15:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956f20d1c508c5d5e6b6001",
+          "products": [
+            {
+              "_id": "6956f20d1c508c5d5e6b60f9",
+              "name": "Chips41217",
+              "amount": 784,
+              "price": 99439,
+              "manufacturer": "Sony",
+              "notes": "GYUzouHFj2ceKufEQPb6IPYbHK6BpXqBbDexe5nrJBAjXsLipTRuxObfUw4kosxbIE00x9MtfqqIiWVNWMLAo22ODyKlXUD3l4RuDsdTqtcFR1lZndPg8t5vkb6qZXgCNsQElXmxyUHaCxX1vjJed7jSU0KosVDRjSY0oQsvG2yLax0vVLhDkKmaPQpe1I15yaDPqalipGDq5pzjd7kDO1W9vfuTaJfE97OOquhIuqf6jMtX432MSBiTHE",
+              "received": false
+            }
+          ],
+          "total_price": 99439,
+          "delivery": null,
+          "changedOn": "2026-01-01T22:15:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6956f20f1c508c5d5e6b614e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

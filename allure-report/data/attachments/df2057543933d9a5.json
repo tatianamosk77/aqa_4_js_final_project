@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:19:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "552",
+    "etag": "W/\"228-5LEwTL7UE7mDvY7ISL3adAcrCaI\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Dax.Runolfsdottir-DAmore@yahoo.com",
+      "name": "Guy Anya",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 257,
+      "flat": 949,
+      "phone": "+5104481411",
+      "createdOn": "2026-01-01T22:19:57.000Z",
+      "notes": "NbawFXmUeH5fuWpvnN9ecq3707hBqWGSDMwQIGRqN0CfhDf8iSo6xyj3E13bCxLXcUozXLRJmZzEDdoETEu2GGrADjSN9pLU4XjWTzgrQCJoeTLSCS68Fuxp2IYMjXx9yqjRssuYF62RPoTmHOQw0hZBDL2KCfnsoBaMxa2YSXz05yrn1AXhpU8XZY4jGUQQ1vfRx37oRSJTfuMYYNRgs8ViFIzZvIznB8wzPUmGwFv6uoyuLrBIoeSfhx",
+      "_id": "6956f30d1c508c5d5e6b9a2d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

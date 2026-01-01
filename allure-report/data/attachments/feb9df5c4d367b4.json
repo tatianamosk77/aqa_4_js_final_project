@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:15:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "555",
+    "etag": "W/\"22b-UjCM9NA2k/NpIxNL6xcjMFaTfGM\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Bessie.Konopelski@hotmail.com",
+      "name": "Wilfrid Leonora",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 716,
+      "flat": 6663,
+      "phone": "+3649688430",
+      "createdOn": "2026-01-01T22:15:24.000Z",
+      "notes": "MIQNDp35gIidIirC1oqTkN8nKoXGzWfBx6ntrCOLO10r8B1O0vs0GKrLBuZX4fgk9aGLnRDrodzPfygAEUKsSmsBmDHJOYmDxJbGauD1ImaFQF7LTPALntyMDAVP4silmFTxLShdoda3QFHqLKYRmzduK4Qzfqtn6DkCqXZSILUXqA2GYmL7N0bI5A5yeI5cmW8JP5MAQvlipiJ3VTY0OyYIVnplVTdH3HKJzOJpPo0o2gTzNSpgMUm6WS",
+      "_id": "6956f1fc1c508c5d5e6b5926"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

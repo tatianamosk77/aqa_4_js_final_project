@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:15:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-Gmbn7SlNscvk9nXBV6vcL5UQStI\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Brooklyn_Hyatt80@yahoo.com",
+      "name": "Eve Bruce",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 597,
+      "flat": 4681,
+      "phone": "+7380482549",
+      "createdOn": "2026-01-01T22:15:20.000Z",
+      "notes": "JYzO2e3usCsNPwbtgEiI4L39ZZSSeyC1XUth7ao4b55bndI46SF6bpmbeQ4HOSEVLalSy10FwlyzmKJPYTnhWoeGBxb7rDiXuIc5nSeGaN6ql4BHFCzP0p0SfwYHv5x9k1HVmESHu93wgdrCfvXmoqBGsZ51AdKN4odmUM6nmAJqVlrnwSAw2wGUhd8Mnn4ev829rQ9bAsm0aHcPmp2uN8uEtbuMrEA4PI4eVZFhRnh1EJbEsDlBEwtI6d",
+      "_id": "6956f1f81c508c5d5e6b57ba"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

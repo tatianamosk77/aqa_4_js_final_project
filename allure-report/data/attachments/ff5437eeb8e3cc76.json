@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:15:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-8NmJSgoV7dN/WgXdnRyNUKmnp44\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ola_Olson35@yahoo.com",
+      "name": "Kurt Abdul",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 576,
+      "flat": 8445,
+      "phone": "+1289402790",
+      "createdOn": "2026-01-01T22:15:28.000Z",
+      "notes": "GrMEGE7JIG5DLB9Enrl6EjdASaCWgC1Gfxyw7oroYUXI0bzkwndWsDbB4FZtt06m4VTRbQgyJeAVvYFk9WYK9GfGrIFzMAMbxnos3CRYgD1A88p541j825roykK2SMbB3hmvZfKgelf00SuzKuGeQlJpZlG2y2pALDNsPn9H2lm1xP1dt9gEpYVSaBFfdoxfZrGojSTQyts4CyLmhal40mxi6S27b4eJoprVi9sA4niuYdrXXvKqHNAzw9",
+      "_id": "6956f2001c508c5d5e6b5b1c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

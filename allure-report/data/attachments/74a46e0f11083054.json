@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:15:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "536",
+    "etag": "W/\"218-eT7AQYp5CAmFR/5Z4omm4M5OcTk\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Austin83@gmail.com",
+      "name": "Eliza Ned",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 90,
+      "flat": 7238,
+      "phone": "+8545103682",
+      "createdOn": "2026-01-01T22:15:27.000Z",
+      "notes": "vt9ccjy09mh9c18zmTigf5G7MksV5lfTqbVGqTv4OgQqug9SN3OBGr1ZfvVd2RchTaasIFknER3A6xlPKhoyOoEP4jjrKn5sJInMV60NE6fJVlBYF2qTNXRjHLu6A8ZQ96ALNXaGVOkHvE3nf2ZhNk4A1MXPUX6aztQ9GowOyoNPMaS9RIs4dijcsgrR3sBCEzAkcodrjkk1p7gd5m8lEhDufk7keNfVRLvVqitURiBPwE05qkSCv4bx6l",
+      "_id": "6956f1ff1c508c5d5e6b5af9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

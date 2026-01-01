@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:15:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-teMMqsURLiaITOPNO3q1Ll0mzh4\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Demario_Kovacek@gmail.com",
+      "name": "America Roselyn",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 698,
+      "flat": 350,
+      "phone": "+4356628208",
+      "createdOn": "2026-01-01T22:15:45.000Z",
+      "notes": "piYoQnGgjxtnaP2BLgZ4baw2VFUYIbAzdePPWjm6Fi2D5jyvUVbvYQeca2uPtomzvOTmxeNUlepZWWlUMCCQWublXgFSKenyEY45o9eIuOiZJVTTxpr9iPMgzfCg44yXjRQ26xOzuAzqWRiaFQol34u0rcvmnu0zBfdDcm8UdRolxuHqb1UeACjvypFAGVdGAfLYe397hStzDcvtnKirQSChsaXry3jfWSzS7J9mbkxZ9gdC3Lrt71fhj9",
+      "_id": "6956f2111c508c5d5e6b6217"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:15:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-uUQ6Jg4Zq03RP4WszAnPbdCNJzA\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Natalia15@gmail.com",
+      "name": "Clair Justice",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 318,
+      "flat": 2869,
+      "phone": "+3586143438",
+      "createdOn": "2026-01-01T22:15:48.000Z",
+      "notes": "K47xG9rAHgBGifFhfxAlFHi5QGGuYMV6TGgQRbHKcs148myAuxPln8M19IS53Mco870eUueDrGRBBv6DOG3iGHVbyrfN0MHF8gqdpezTtLGG0ccLnQuf3F7e4lrDbC5OXUc0m0AmVfWEQ5NSCOqNJjlEEnTaIWGB25fyvYeVO3BANhMcQrrayAcE3geO2a5DzI1aByAYa02u1L3RhQNPqR4VZNd36SASx9zuqNWPUWIu0y7uSMCruorQFt",
+      "_id": "6956f2141c508c5d5e6b62c3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

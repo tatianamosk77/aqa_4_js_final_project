@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:15:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "536",
+    "etag": "W/\"218-++q42rkoo8umIepdNdfPI2yxxPM\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Milford6@yahoo.com",
+      "name": "Juliet Ocie",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 614,
+      "flat": 6790,
+      "phone": "+6019490429",
+      "createdOn": "2026-01-01T22:15:50.000Z",
+      "notes": "qgJslVL5rHRjbF2q2rSyDYCbvJAUxFNwUWlE3SPY9QcC0YBejB40sLceblQtZvwVy8BWjgovPPvH4mzaSF7wXYbTCW5pNQUGxJd6PrgkevZiBzTSeja2nQBUjaIn7luFjC0W6JpZAkStXk0upHtrCAWvd3nQzb9EjFiTMOuwUzGNryyaxHJqBViUsteDzv9Ousvj5QJmVJHOgU3pVAKIb2heGfyYwjLBHLlXRTEROHuXusDlXmpyH1J86c",
+      "_id": "6956f2161c508c5d5e6b6439"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

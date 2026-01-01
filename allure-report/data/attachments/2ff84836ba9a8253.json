@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:15:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1886",
+    "etag": "W/\"75e-gr9nmfnOxhE+jjdnbeqztg3lLKU\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6956f1f91c508c5d5e6b57bc",
+        "email": "Dashawn_Schamberger@hotmail.com",
+        "name": "Kira Missouri",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 107,
+        "flat": 7584,
+        "phone": "+0451398990",
+        "createdOn": "2026-01-01T22:15:21.000Z",
+        "notes": "lE0Hnm2SL4KdE07FWz9G9RTMQi2da19kw4CCXEkjodUdrFib1JH7zzm6Hxcv2mFVN4Fo6eRUf3KyqmZGBcgLtyn5csCi0DcAi82sA9kf2UdFpDjZeECAQdVVSLPqC3QDAcbUaLhKBlDtfgCbd9RYW2XrEiWxdSEsmMfWUyqpbHaxwKEaZsew6LDk6WJdWVh2TFnjNwfMANSsF3zOfIPPwL9E3XXgyHzPCfljMeDoaAKyzMygVYkNCT7o9R"
+      },
+      "products": [
+        {
+          "_id": "6956f1fa1c508c5d5e6b58db",
+          "name": "Computer4263",
+          "amount": 426,
+          "price": 99907,
+          "manufacturer": "Apple",
+          "notes": "4DQ4dTbsLI4LixAl8aWYETX4L5jhkyoSIEnhw2U1FkmYpoXOlDIHvyAvWf0CT5ShdCw5bE1goqvlode5YakV68tOOFuhLOS8U1cOUvlLhNwkbYahPNRXcp9ES1xU5WZJjp3IVf9ruabK2rWfnpKBfGYnJfXr0p9VaoLuhnBsSaNJxDDHN8RGnlMaURyMAtM1ZUHcYg8hm8dkcjTR03WMOkFu7SOtw1BsmWZ0P6H9QekF4FqH8K9sNuhKXg",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 99907,
+      "createdOn": "2026-01-01T22:15:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956f1f91c508c5d5e6b57bc",
+          "products": [
+            {
+              "_id": "6956f1fa1c508c5d5e6b58db",
+              "name": "Computer4263",
+              "amount": 426,
+              "price": 99907,
+              "manufacturer": "Apple",
+              "notes": "4DQ4dTbsLI4LixAl8aWYETX4L5jhkyoSIEnhw2U1FkmYpoXOlDIHvyAvWf0CT5ShdCw5bE1goqvlode5YakV68tOOFuhLOS8U1cOUvlLhNwkbYahPNRXcp9ES1xU5WZJjp3IVf9ruabK2rWfnpKBfGYnJfXr0p9VaoLuhnBsSaNJxDDHN8RGnlMaURyMAtM1ZUHcYg8hm8dkcjTR03WMOkFu7SOtw1BsmWZ0P6H9QekF4FqH8K9sNuhKXg",
+              "received": false
+            }
+          ],
+          "total_price": 99907,
+          "delivery": null,
+          "changedOn": "2026-01-01T22:15:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6956f1fb1c508c5d5e6b5903"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

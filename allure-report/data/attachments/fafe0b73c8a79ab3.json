@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:17:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-QCm+fZhtqdWadsiR4vjPet20Eks\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Carson25@yahoo.com",
+      "name": "Christopher Gino",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 660,
+      "flat": 8000,
+      "phone": "+0393139799",
+      "createdOn": "2026-01-01T22:17:46.000Z",
+      "notes": "S8rLdmPT53IbEGRh9mpSyF51n0pxTbgxkgftIyTTXcevrGUFwmmo11cqLgzdfHKyedZEodhGfddwKf9ITBVtXyfGBu0PoFqdsx21kPt5yZK6vUf7UvCNZvLYWbYoKzJOjvH5rKVwfJ7XdR8hwFIqIMN2E5PVGaIE87E82g16BHW3SXpDBStKJs6nnJfM3ORjlfHvZ2zXlPwit1HeQiAyG3EaflALLQum7emz8rScbUthlqnMLkNCruZCYD",
+      "_id": "6956f28a1c508c5d5e6b9339"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

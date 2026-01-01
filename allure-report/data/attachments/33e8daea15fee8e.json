@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:15:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "558",
+    "etag": "W/\"22e-qr5MxCPiPned50l/OKfnPsclYug\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Lindsey.Adams@hotmail.com",
+      "name": "Juanita Wilhelmine",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 1,
+      "flat": 3898,
+      "phone": "+1469830647",
+      "createdOn": "2026-01-01T22:15:11.000Z",
+      "notes": "EvQ5Jw4B96Vjs4baPjo7AS8jzoEJuhKnUnLxXs06jt305MxKjh9eAIeAKu1f1qVZMII67qbydRs1iZpnzVHd3iryCWBShpvqO9z3dFPP4FjvqsFI6RTAIBwfCoz2mRw0KRI9hVGqqBfVJV9hgie37NcGpziQt9PBpd3WFt66FzJkUvsQywAewR3MhwlrfACM0uqwoUPSitTj5uHU5BCVPWdnxrhpseHDMJSLcnTxmmVhog5S3mEApLNWL0",
+      "_id": "6956f1ef1c508c5d5e6b5403"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

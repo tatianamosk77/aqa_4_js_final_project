@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:15:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "284",
+    "etag": "W/\"11c-Km68H3gAZNf7JINlgJpQjK5rjCQ\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Howard.Pfeffer6@yahoo.com",
+      "name": "Orin Myah",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 331,
+      "flat": 7388,
+      "phone": "+2227863152",
+      "createdOn": "2026-01-01T22:15:13.000Z",
+      "_id": "6956f1f11c508c5d5e6b548f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

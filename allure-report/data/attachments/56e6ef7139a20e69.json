@@ -1,0 +1,73 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:15:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1406",
+    "etag": "W/\"57e-Mj4sbto4E3pjVtpAsw6aCTvqDEQ\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Orders": [
+      {
+        "_id": "6956f1fb1c508c5d5e6b5901",
+        "status": "Draft",
+        "customer": "6956f1f81c508c5d5e6b57ba",
+        "products": [
+          {
+            "_id": "6956f1fa1c508c5d5e6b58d9",
+            "name": "Shoes73916",
+            "amount": 86,
+            "price": 44638,
+            "manufacturer": "Xiaomi",
+            "notes": "vyCLFHsI9FbKvACBBuOheFFfdw7LCXB65rSvZ7FiZtxGY93PCcGSUUQAkMcBPO9A2UkaHSfCOD1wlBhHRTEU118tb3qbbxFKv6q7BPPRe9zBztYgmlND05aJfVYz9NnsCN9IIZ4aEn3eB7s3y9gOSLOv60Nxp6Iqlk2Hu1EeOoiKHEdhJQ8HvRmGY0lcFm2JHEYQYn0pEsnbH0aZkqTimsbNZixtwMtjW5O6VmwYKnZWd0VwlopWPN3luA",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 44638,
+        "createdOn": "2026-01-01T22:15:23.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "6956f1f81c508c5d5e6b57ba",
+            "products": [
+              {
+                "_id": "6956f1fa1c508c5d5e6b58d9",
+                "name": "Shoes73916",
+                "amount": 86,
+                "price": 44638,
+                "manufacturer": "Xiaomi",
+                "notes": "vyCLFHsI9FbKvACBBuOheFFfdw7LCXB65rSvZ7FiZtxGY93PCcGSUUQAkMcBPO9A2UkaHSfCOD1wlBhHRTEU118tb3qbbxFKv6q7BPPRe9zBztYgmlND05aJfVYz9NnsCN9IIZ4aEn3eB7s3y9gOSLOv60Nxp6Iqlk2Hu1EeOoiKHEdhJQ8HvRmGY0lcFm2JHEYQYn0pEsnbH0aZkqTimsbNZixtwMtjW5O6VmwYKnZWd0VwlopWPN3luA",
+                "received": false
+              }
+            ],
+            "total_price": 44638,
+            "delivery": null,
+            "changedOn": "2026-01-01T22:15:23.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337ce1c508c5d5e95335d",
+              "username": "student14@gmail.com",
+              "firstName": "Bill",
+              "lastName": "Schuppe",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:26"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      }
+    ],
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
