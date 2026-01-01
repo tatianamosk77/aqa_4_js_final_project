@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:06:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "538",
+    "etag": "W/\"21a-rGf33fkqEjvKoFHTN4gjpIkRMgA\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Charlie83@gmail.com",
+      "name": "Maritza Sigmund",
+      "country": "Belarus",
+      "city": "v",
+      "street": "testStreet",
+      "house": 654,
+      "flat": 9591,
+      "phone": "+0222148318",
+      "createdOn": "2026-01-01T22:06:14.000Z",
+      "notes": "uy9EqYV6pzJSsBaItMoqkmLORB0DGea5gJ5q0SCKsvvUAFRDKV1MLsbRtk7SAopL17XZvGvRAJyfnPXo5FAjvspjeIvfQlS3zaDlCZbQQ1XcSNXLcsBSA30lLLI8jOrZnVIBPFEeIkhTVYsrUk8HEKWi03DE8rVZuASkE2pgilUmtKJR03bYjHvm3B51yMDgDcIUle3bqmbAuEpNCktgMu0RwirNMabUYeAy68DWJjMU86dAZvum9uJZ3o",
+      "_id": "6956efd61c508c5d5e6adafc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

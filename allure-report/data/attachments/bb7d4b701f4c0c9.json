@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:06:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "538",
+    "etag": "W/\"21a-sawNFKFGQzLKOGJ6P1TZb6p8uqM\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Emie64@gmail.com",
+      "name": "Tyson Danyka",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 652,
+      "flat": 1811,
+      "phone": "+2374215656",
+      "createdOn": "2026-01-01T22:06:36.000Z",
+      "notes": "gnBqVaZmly3kDZ9r4gQEhIrkTHP8LtyLSU1BCyjoCkRIIcw9852nPOhaVlB1jtscx3N1PNCPtugN7owKlKE1QWdo63VH6eNEiEE76GBJjsNfJxGv77nYLxRvMf2uQATRxq034rbXJXak6QdCrdita6007Kc8Nb4O6IdIJygmX8wlncpDmATFCBCMemofkczIN8Pq0UsogAEcSmwtgf8a7F7DVlrSHQvmtkSuvwV5bt6frXKyOxspPqM2sm",
+      "_id": "6956efec1c508c5d5e6ade03"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

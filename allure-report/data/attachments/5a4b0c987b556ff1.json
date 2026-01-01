@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:06:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-pPRjErPQqKPyVkNIDvgYry86ZFE\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ashton.Kovacek@hotmail.com",
+      "name": "Abel Alysson",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 462,
+      "flat": 1,
+      "phone": "+3037190648",
+      "createdOn": "2026-01-01T22:06:15.000Z",
+      "notes": "DWDPAq9CfnDixtu4TLC0KLbP5nz3sumsCcl7gpoQrjkYShRfnItmk2c1SOUge67ZFrqYRyyqOB7MJdNCm0AMXhTeyOsmv8i5JioOg8Wsb2A8d75n7Y1PzF6qjMVXUluBTayu7Jr17G1EngTb61fz9MblNMQcylbbYWiJg3Txl8F4lXpbGPXNen2ZrYuktxbfEGR9it630OPb9dq983h43ZofpSA10ZmDJe9WTSieiCfp046TcUwMfaVT6J",
+      "_id": "6956efd71c508c5d5e6adb3c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

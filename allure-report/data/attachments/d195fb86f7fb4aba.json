@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:06:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-FvxSyPi55Skh7d0ih74e1eicUKU\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Fatima_Fadel@gmail.com",
+      "name": "Whitney Hilton",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 544,
+      "flat": 5803,
+      "phone": "+4677324275",
+      "createdOn": "2026-01-01T22:06:40.000Z",
+      "notes": "VuqM8uXlPUsAmlPTPUCqBfEbpVq3YfL3z97Ef7K9mnI0nGyAaBaQElxJYSzmD8xfItFBAAIDL6YWjPpGRC1aE2BQsnNsSUo6gw5DdRiP3wXKR2JHGz0Ivhno9m9BYbKLemWgHKsediOcxudCy30xYyOgT4yJjvx55MsnWBX4MgfzVB0wL9b3pnluv0WDrCRfSreGtSvbSngCPVWp9nKNxurEU8aBnEuaSofoo4PEVSbCqw4f7dQDYCnyLr",
+      "_id": "6956eff01c508c5d5e6adeb0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

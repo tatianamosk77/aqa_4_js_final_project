@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:10:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-Au1hfxOPZMrJrbhgnIjThaXMoOw\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Shanie39@hotmail.com",
+      "name": "Sidney Jannie",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 574,
+      "flat": 5333,
+      "phone": "+1631634288",
+      "createdOn": "2026-01-01T22:10:23.000Z",
+      "notes": "GSJI8bgq3G8SvcXQuan0Mf8lLdVPFBNOc05cKskIiDj9CUWXhTlaJS719ujMRR0J9MjgXiVRpL0vQg3UYSK8XcqDASUCF6kmZO4HusKDVe2Zh4L4viGVndcMF6d5PV5uixL9XJdV5CmMt0691TTeDMORulldiMBw18bhlX69XR0ulNyS0DlpVrAR42SScAEn4UJsgsBG2mLFXCMURpwUONZ4yPtKbD2g7OOiN2jjQClaZ6gF4oOEYdyH1c",
+      "_id": "6956f0cf1c508c5d5e6b2e1a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

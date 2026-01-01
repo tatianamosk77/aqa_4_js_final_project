@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:06:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-8RRUaAax+laj9iiDVi0Ubp0vMkA\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Deja88@hotmail.com",
+      "name": "Wilhelmine Lizzie",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 382,
+      "flat": 3605,
+      "phone": "+4152407572",
+      "createdOn": "2026-01-01T22:06:27.000Z",
+      "notes": "CtqEu2KrqBXp0lrV8keR8HJ2DO4SnLXB7W8DoDRntLHlKSb6SIhpQjrMdlXyI1NANIX4NqICytZzMuj3hE4cm57bp67gZRzuXY7c2BsrIs1Fx1OXsDLRiIIkRR44ZrJz0pTKawDBdhiK4UQNBcM8N94RyWfZ3gYTmhrKEnEWUJcLRAjpcDGuPLasVLwvQKxvqGFtUatvgIpe5Ym8rAgeZTe1f2H1Gm97SrzhZjVkzEOnDHSBAdQXek6Uwf",
+      "_id": "6956efe31c508c5d5e6add11"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

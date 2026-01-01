@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:06:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-fyMZP2IRWsVBiqUrDy5lAfmjyx4\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jorge97@hotmail.com",
+      "name": "Test Customer",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 465,
+      "flat": 2815,
+      "phone": "+4750354828",
+      "createdOn": "2026-01-01T22:06:13.000Z",
+      "notes": "NtelDmURJRsPbPbXTce8lS5a1uJXVLDhB6GEQ1il545dux73fAXHHXkwKphicCKFHiZsgxASMZSFpHNk6nflFU2WEarkWK5cYHJQ1pQOMQbHXBkI2mK4Pcdxwwm0zPaCk89zJLoUXhMUy2NWdJRc3hFJXme7Y6u1eUxJ0jNlJtNnIAcbfD8jnzDhrN78fxui50DO8gsDBap0axjdwit38XqMObrhZw5kZC1GQH0lyufYWONrnTW5VHAvRD",
+      "_id": "6956efd51c508c5d5e6adae4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

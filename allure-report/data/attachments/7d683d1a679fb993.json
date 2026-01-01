@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:06:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-OgjgIih+aIENLwDkfsf0gOtFkPc\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Charlotte.Bartell@gmail.com",
+      "name": "Herbert Roger",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 10,
+      "flat": 7858,
+      "phone": "+8016391577",
+      "createdOn": "2026-01-01T22:06:54.000Z",
+      "notes": "AvEmBHG6TNCpedmgmKztN7jOBXpy6nDpjozngEt4wJC3nF2aoZ1PjSLFXHWjMowRuEduKL91pFSG5VpMwCKR7YTG3qWpRyBhNP3vtDBnL5KLaKxZCVsUx1UlR1PhKHQXxflTJP3NKfNxA0plnR4Xn6CH9zUgJQpohyDERLGQp66jpquAEs8aMfGbMi4GbeMmUvSRAXCWtfc0vNdsGGAbqnLDtrvrD1U5n7IEwrq3XVzvJwwU5l3qSA4Lgi",
+      "_id": "6956effe1c508c5d5e6ae2f3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

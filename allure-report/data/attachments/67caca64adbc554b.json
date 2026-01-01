@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:06:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-Mr4Ijl6AIlz/5LHhiHxaIxv+jOk\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Genesis.Graham@gmail.com",
+      "name": "Durward Hosea",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 538,
+      "flat": 6843,
+      "phone": "+1878022213",
+      "createdOn": "2026-01-01T22:06:12.000Z",
+      "notes": "oCRtnmUXHi46vFZCSMMfhpj2SSt59zN5Iyb5bAQfarZgX12LMGZSPGJjRuWHLuAJiKxOhnpoHL1B5SRvKeMdYMsdDt00r3Et7S7ZyicxEbI6slDpIM2wYaUTeCPbxBNqvxKLbyH7FsDxoaJQre9q0E8VpRJmVAhdVUhZAvwGI9NthZq1j8rcuN4o2wNHCHQkuJQH9eF4iLysE3gXQSoRpxTUxnIaUwFa7Gu5LabG1oBbgCt8tSG94pJsxH",
+      "_id": "6956efd41c508c5d5e6adac8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

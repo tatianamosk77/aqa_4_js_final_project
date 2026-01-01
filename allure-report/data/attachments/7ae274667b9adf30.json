@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:06:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "538",
+    "etag": "W/\"21a-+Ky7NlDxLkYIN9nhcyTV72dKviM\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Aurore61@hotmail.com",
+      "name": "Jannie Kevin",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 536,
+      "flat": 129,
+      "phone": "+8096663418",
+      "createdOn": "2026-01-01T22:06:48.000Z",
+      "notes": "4T5iYPH5rKLQPmdKAGDqaQuQwJ7AyKl3MPlEtolOoANjouBxLpowa5lX3MfpaUAB3jZPqMD0XPHtYC2qYhJfEYQZLFe8V4JXafts7Tf8BtABoIARQTBuwKnk7y6E9xZo0d26RHHG9CEcpwITkJCbXWmpo9vusMwlBLboENDcRg2ZmIe8NyCqa0b93U8pngB39BbHQKWXYzeFBrU91qlQJtjcG0Ue7aRg2TRVt2dTmcLjOZaSzyhTwQEXNI",
+      "_id": "6956eff81c508c5d5e6ae111"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:06:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-G14yPabc/Ts2f8c1l3/qq+c2GYk\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Vincent7@gmail.com",
+      "name": "Newton Layla",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 307,
+      "flat": 4106,
+      "phone": "+4399460450",
+      "createdOn": "2026-01-01T22:06:30.000Z",
+      "notes": "1KrnuAFObDDcm5zGhgRzmPoUNN7mfts7PYJ9XKwtgHKWsnOSwnepqwDD3AUixncfKEsMhH6Ga4yKgUqFxXu5kH4C1TP1dt83k9fvZlGriM4jS2fapyRTmKwMXn0Y4sKBYynKJxYnYP1TWIJk3kCNVi1TF97oS6g7xV6DwPmWZLwxnCoF7ZJpp9FRvMxAN4fnsGptRQOpYrGdgevfF9eeQyWrXcQWkZjij9eTvwT5SDDl0FdMF7axCXbRco",
+      "_id": "6956efe61c508c5d5e6add3e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

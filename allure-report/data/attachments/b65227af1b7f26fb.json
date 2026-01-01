@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:06:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2930",
+    "etag": "W/\"b72-IgUuH8IRDP1suoWcD2J0FgVfRh4\"",
+    "keep-alive": "timeout=5, max=57",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6956effb1c508c5d5e6ae22c",
+      "status": "Draft",
+      "customer": {
+        "_id": "6956effb1c508c5d5e6ae205",
+        "email": "Dillan.Schowalter88@yahoo.com",
+        "name": "Antone Denis",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 71,
+        "flat": 9736,
+        "phone": "+4447459883",
+        "createdOn": "2026-01-01T22:06:51.000Z",
+        "notes": "hITNyQV9A621WtluX2tNgeeN2ltmLslx3Lpvt4JvCre6tB8bTRsHBWp3OwUX5EcUqvpjLPrmV2jPi5juH7iksGw1DPoi9k3H3Vs5UjKIf9AKYFdmjNgzeS0HFGVpcFuVutP0xC0muE7vWz4GMpdRdevx7O6zABgYoneSaxdIlEC0epJYq0l66O4Y3MTYYIk09YHlef9M07QOYfEDHGBMTYvRWAs8ajFzZRZG9behRIqAW8w1lkhN6aw1NF"
+      },
+      "products": [
+        {
+          "_id": "6956effb1c508c5d5e6ae20f",
+          "name": "Car61885",
+          "amount": 43,
+          "price": 62077,
+          "manufacturer": "Google",
+          "notes": "n8GrA9NbhlIzwz7EdiddKFnY95seknGExW9Vg0AjTz308IWwdmz71GaWwOCdfWUlAy0DGoct0EydMPhMG0gJQjqCfNcMXO59v3Cd9SRuaknJkNzaT82iPB9Sc1y6l4TEZTou5UgC45p4rY4euoJjVHm9m2e8yK8ElBqHg4pfaJbXrOPE23vyGyxjOgL0yK5OeqJUkIAsQ3i7CCKLUuICpVWQIS0Eb9lYiDja6M0izHzFvcynIPga9d9Q5f",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 62077,
+      "createdOn": "2026-01-01T22:06:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956effb1c508c5d5e6ae205",
+          "products": [
+            {
+              "_id": "6956effb1c508c5d5e6ae20f",
+              "name": "Car61885",
+              "amount": 43,
+              "price": 62077,
+              "manufacturer": "Google",
+              "notes": "n8GrA9NbhlIzwz7EdiddKFnY95seknGExW9Vg0AjTz308IWwdmz71GaWwOCdfWUlAy0DGoct0EydMPhMG0gJQjqCfNcMXO59v3Cd9SRuaknJkNzaT82iPB9Sc1y6l4TEZTou5UgC45p4rY4euoJjVHm9m2e8yK8ElBqHg4pfaJbXrOPE23vyGyxjOgL0yK5OeqJUkIAsQ3i7CCKLUuICpVWQIS0Eb9lYiDja6M0izHzFvcynIPga9d9Q5f",
+              "received": false
+            }
+          ],
+          "total_price": 62077,
+          "delivery": null,
+          "changedOn": "2026-01-01T22:06:52.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "6956effb1c508c5d5e6ae205",
+          "products": [
+            {
+              "_id": "6956effb1c508c5d5e6ae20f",
+              "name": "Car61885",
+              "amount": 43,
+              "price": 62077,
+              "manufacturer": "Google",
+              "notes": "n8GrA9NbhlIzwz7EdiddKFnY95seknGExW9Vg0AjTz308IWwdmz71GaWwOCdfWUlAy0DGoct0EydMPhMG0gJQjqCfNcMXO59v3Cd9SRuaknJkNzaT82iPB9Sc1y6l4TEZTou5UgC45p4rY4euoJjVHm9m2e8yK8ElBqHg4pfaJbXrOPE23vyGyxjOgL0yK5OeqJUkIAsQ3i7CCKLUuICpVWQIS0Eb9lYiDja6M0izHzFvcynIPga9d9Q5f",
+              "received": false
+            }
+          ],
+          "total_price": 62077,
+          "delivery": null,
+          "changedOn": "2026-01-01T22:06:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337ce1c508c5d5e95335d",
+        "username": "student14@gmail.com",
+        "firstName": "Bill",
+        "lastName": "Schuppe",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:26"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

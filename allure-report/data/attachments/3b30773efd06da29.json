@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:07:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-5qvtYtWIb7U63wAZnGMIIxocilw\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jerod.Hoppe@hotmail.com",
+      "name": "Audie Angela",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 626,
+      "flat": 5945,
+      "phone": "+1700695965",
+      "createdOn": "2026-01-01T22:07:02.000Z",
+      "notes": "V8wlNXLRPCTednmmae5q4z1aGICIvEdNZFiClBBVlZsXoYZLukpONF88G77K69fQckmJ21rcJLAZOaq1HuXlLf8Odbryct2A79HoORyFjypHYtbJP7tkfVh0QyUxVDb6VejqbN02XHFgSbUYvdFDb6BR5OMEY2N7mZ6R2FWeSkBOAHkWjPXgqRSgzrAbmq7jNdN3YRNufoBHPkCRyEduQiatBi1JpuXCqHGcYfoMlxI0WCfTB57Dp7VgB6",
+      "_id": "6956f0061c508c5d5e6ae71d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:10:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "538",
+    "etag": "W/\"21a-+YCKLSgfutX8Te9YPFKpwkc3y6o\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Juwan32@gmail.com",
+      "name": "Alberto Gracie",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 233,
+      "flat": 3228,
+      "phone": "+8931149966",
+      "createdOn": "2026-01-01T22:10:24.000Z",
+      "notes": "auiCE2Ts8obnFacXiS0TVJs5CKMibKxR1D2oPsUH5AX7VPsq99DlshqcpVeaiJupsVztpo5WfdGXByax9RUfw6KSsgxehNu2px9owob05IhSj66Jv3RqvVCuKhGry6KLQteaxQNWiPSQcwCoTuFS3rE3dxOv0dDwSKrKEx7ilv28XLJM2FTznwAYTJNqkVtF4FMUP4MDqaICmTXEKy3b0cszQdCxZvLEOpHK5Z6GfXNVqc0VU957Mr3DiL",
+      "_id": "6956f0d01c508c5d5e6b2e21"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

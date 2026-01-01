@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:06:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-1lM26IAkEcFajO/6kDTadGNM8sw\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Kevon.Grant@yahoo.com",
+      "name": "Marian Christine",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 999,
+      "flat": 3609,
+      "phone": "+8008804962",
+      "createdOn": "2026-01-01T22:06:16.000Z",
+      "notes": "WRvx18wkcK4QCG4vFwHntZWp0kGVghq7hU2joQPwmtlaQjgIXGTwuO407gR1uKjBlZfweMlIpYalc5LoWJIFEchckJnsJqDvPrPf1Ns8O9y8vqsdqN5GdWJbvDo4eiKSU7TKyjB522AK6U3c3srC7q1mO1Fp7HsajhIVvPTQwHUVuTZBR8Ot5XuXVPi2j8Pwl6RvtsgPeMqw9VWdnndlBaCJ5kWtnO4llJCbifE626i8M2rZRT12nfHV4d",
+      "_id": "6956efd81c508c5d5e6adb69"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

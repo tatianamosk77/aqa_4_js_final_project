@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:10:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-4fyRw1ShvdXIrpX6LiLI+vPn/TQ\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Alayna93@hotmail.com",
+      "name": "Julius Jerel",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 911,
+      "flat": 4945,
+      "phone": "+9086474457",
+      "createdOn": "2026-01-01T22:10:56.000Z",
+      "notes": "wEI8tdUyC7xdvkLzJX9wYg49hxIEvrHxnvtCryknDODhnSkjijU3S7eLYAqc6ctSmKFa44I3KEIdrI4Sfy3s10GEwXNy7d3200JxvMgIseI0kYbsjZUMaNUdZ1w9Jr9DHKmkXH7ynVfTNwOQ3o8eTeEtU4T6fqlpB8g7XBjiiAs3SSkNuO3qy72Q1WKLquf32wb3jBsjNM3fEul2g8RRfgDd7NZ1NfLDR04taea9BfFVX41bikgbaq20GM",
+      "_id": "6956f0f01c508c5d5e6b2fdd"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:06:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "555",
+    "etag": "W/\"22b-lw+fCWpVoKVFnGehf0oOT1EcavA\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Zechariah.Mitchell@hotmail.com",
+      "name": "Mercedes Elena",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 850,
+      "flat": 8250,
+      "phone": "+1524284128",
+      "createdOn": "2026-01-01T22:06:29.000Z",
+      "notes": "yX4QOIF0WfxPVgGOKFTclZyKki4zJP8XoHcOnxi3ZJMq8GAMQ1TlSIGVhJBFfo19vbZ4UiEiCmjpTu8qnq2kDHGiYM7WurFFRYYEbewzmv99DgqCJBINVvm44w00stvPRe0Vf8M4dlneQb2hSwFqTXiUEYW59GTnF8iGBQ8RkLUONnPOtmx6NMcf5wvwVwEQSIY56dtyuFF2QtV8jcxjUgzHT4wIHKZcgybLLy4VQ1IG6iL2hwwDXFl8Jd",
+      "_id": "6956efe51c508c5d5e6add27"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

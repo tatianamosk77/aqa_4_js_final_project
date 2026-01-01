@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:06:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-uV/svMUBzfGoC1gPxV4HrpdYJyc\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Filiberto_Moen@hotmail.com",
+      "name": "Pierce Rogers",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 564,
+      "flat": 1259,
+      "phone": "+3368832948",
+      "createdOn": "2026-01-01T22:06:46.000Z",
+      "notes": "BQDnrQewCaTgQVN8A35MIsM2RWekmmvpkS3khqU2qB9Ade9jfsvrKr58DmQSG6FpNikl5dze3bjaxpv8ZknwKWhd51thqOhhiRSzM6wHyOvkTJvtL9pA0ze3Thvt5tO0rLGEbRq2vjftGQwP2UAiRWWL6LwQJbkKbzcPXAFVYAaZwItPmwi9WSMWgPh4NtHn1NsWKFwDPRTDq0iUsKwhqnE8dKUEqzXF7krUwmEbrmyiy1XJSES4Nr8yEp",
+      "_id": "6956eff61c508c5d5e6ae056"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

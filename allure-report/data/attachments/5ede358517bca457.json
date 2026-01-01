@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:06:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-TJkhbCUthmOHGWS79WLIdRcbunk\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Henriette.Paucek@gmail.com",
+      "name": "Linda Dillan",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 286,
+      "flat": 9378,
+      "phone": "+7213223144",
+      "createdOn": "2026-01-01T22:06:40.000Z",
+      "notes": "wVlxSwgOsK9aKVbQQKL6vfa8LahB2lib0Yd70ORlmeWL6HxshVWrquRjq4TQoSf7Y8SY2yUu6psX90aKthdK69Y3PK5uG2WC20FxFvizsu1PGkQHSDAVIcEvuapHPYjhV0i5n4QpQR3k4g4S7qktxYoBsGd2xCogr5QpK1UeALDtMmnUprADd9mlTioru7tgYfRmhCi7IlwEAkuC8p72NUYvdjI3JWf6tafSD4oPzG55QOPFe3PaEEj8ca",
+      "_id": "6956eff01c508c5d5e6adeac"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

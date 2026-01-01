@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:06:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-vVgZdKThUF+JjqGbkM6YmA6ouDM\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Bobbie14@gmail.com",
+      "name": "Eleonore Adele",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 59,
+      "flat": 3390,
+      "phone": "+6167026799",
+      "createdOn": "2026-01-01T22:06:37.000Z",
+      "notes": "EGKHCKn0leW56BDAJkgCriEp8oN2rYElZSJn8P39po28xXtyodYqmDS1D7xMejSQ6DJmLPSieYyrFcM8SGEjQj4u8BKmf8JBCC354iLA7aloI953ywiMdUdootP1QwvFnH8CAhEI6XLrlxifpIqP6qqbAuUDty2xFKmPmsS7HQA9haB3IMOPTdTHfFd5eyfhZwpYXQkhoq3Tpin4cQPRSnC8ed2yCLliJoYpPJZMwOYmz7Pg7JzDzqD0Ox",
+      "_id": "6956efed1c508c5d5e6ade1e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

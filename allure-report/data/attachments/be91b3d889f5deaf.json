@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:06:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-+9ztP11l0aT6OXqJ2AmGc43UnWw\"",
+    "keep-alive": "timeout=5, max=70",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6956efee1c508c5d5e6ade4a",
+        "email": "Elena.Collier@hotmail.com",
+        "name": "Annabell Elenor",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 278,
+        "flat": 1787,
+        "phone": "+5202519642",
+        "createdOn": "2026-01-01T22:06:38.000Z",
+        "notes": "Vqnp8BkV238mbG4d8XJrS5hHX5NAbsBr5L87RT626qoWGXUFjGqksNPaexNF0Np6s2YfsLzvZax3yD5vugl2rzZu8jXKJ5dRKINzW22A0fsGKXfNW90k27mye0lflHCmAODmNusDwIfyd0Nd09nTazWvyz6uwJ2xx8wkuHggEitKGow37dlCGSpIfSnGSEQ5zOc6qtoOq20XvghAw16qJoxJPphf8PQiS2yr97RjVKmijwvRDTLP47rI3L"
+      },
+      "products": [
+        {
+          "_id": "6956efef1c508c5d5e6ade8d",
+          "name": "Cheese99450",
+          "amount": 590,
+          "price": 27750,
+          "manufacturer": "Microsoft",
+          "notes": "14sw4vDvmHUcWhkXEF4SqyVwd6FVp1P4uUIMpircThzxUxhbHo5w7ZVywV6vdsMwBtztyjRxvS5PUPLXlWxQzMwG8bucJmZK215OepQKXTz6UcjBR7ZNzSBCwfVuf8o2hbOiSsey3y7GsoHd82U4PpK46pUSdE31dWPhPoDSfeUeVXC2zu4JHPGAEB8gzuKrasJThUZw4FT7skFAab98vfSMli8EBGjOqaN5UmKmOeeRxG8bjxURniYcgj",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 27750,
+      "createdOn": "2026-01-01T22:06:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956efee1c508c5d5e6ade4a",
+          "products": [
+            {
+              "_id": "6956efef1c508c5d5e6ade8d",
+              "name": "Cheese99450",
+              "amount": 590,
+              "price": 27750,
+              "manufacturer": "Microsoft",
+              "notes": "14sw4vDvmHUcWhkXEF4SqyVwd6FVp1P4uUIMpircThzxUxhbHo5w7ZVywV6vdsMwBtztyjRxvS5PUPLXlWxQzMwG8bucJmZK215OepQKXTz6UcjBR7ZNzSBCwfVuf8o2hbOiSsey3y7GsoHd82U4PpK46pUSdE31dWPhPoDSfeUeVXC2zu4JHPGAEB8gzuKrasJThUZw4FT7skFAab98vfSMli8EBGjOqaN5UmKmOeeRxG8bjxURniYcgj",
+              "received": false
+            }
+          ],
+          "total_price": 27750,
+          "delivery": null,
+          "changedOn": "2026-01-01T22:06:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6956efef1c508c5d5e6ade9a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

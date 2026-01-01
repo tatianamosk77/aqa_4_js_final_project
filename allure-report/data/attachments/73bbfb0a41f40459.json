@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:06:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-ehvv6Afm65tlop8z6TTtvXk++X4\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Brigitte.Metz46@hotmail.com",
+      "name": "Katarina Enos",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 412,
+      "flat": 7663,
+      "phone": "+8819734605",
+      "createdOn": "2026-01-01T22:06:47.000Z",
+      "notes": "gOC46hmE8IhO22Vw05YX409gmaTOYlIdUURcfUGNo5bNNP5RYi6tLPsyr5kngtDVVQbR1mk0DzfcRAv01aY9oCoZZxL9x1u1lv3uIpqI8wza5liE0Ftn1w7kTF6d9l1MXR2bFodGeSrLujnXw0AJoRq6wsDBI3LXHiTKB4JHoIsvA30tYKCsHqnwF6RqpC4zH1dxdhWp4Lue9xSymEPNwgCpwMKA2Iy4yIXyUGMM1Je0UNfveNFkG7Djab",
+      "_id": "6956eff71c508c5d5e6ae0ae"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

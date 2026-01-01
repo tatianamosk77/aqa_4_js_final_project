@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:06:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-VQQGFnPjUZ4MJespAVAioY4isag\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Alexane_Mraz@gmail.com",
+      "name": "Oren Carter",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 471,
+      "flat": 1486,
+      "phone": "+1394139427",
+      "createdOn": "2026-01-01T22:06:23.000Z",
+      "notes": "o4MXfvnCoEAjCUCAYJLoAskahoZXd9HeWldptzDL5zC17puOELQsznGZDzzguSUflQTa558KRJZTdaCDfc0DloQ0p21cUF9xXr76RQNBjXvMxtCuA1i2rer6qE8M0IffzZjCal1wpCv8B5r91cQotAMBcPeVENnj6mMWQ2pExGbo1hLsD2BdcogeECXqLrDWeM9gmIA6PYXmZIxiRWndZB4XnULTrWz7bZb8kZwxe8wH0PAHeBNqX7bNy4",
+      "_id": "6956efdf1c508c5d5e6adc56"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

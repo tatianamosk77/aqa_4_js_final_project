@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:06:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-jbva8IkGi1rz8uRpg//mk72RGcU\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6956eff91c508c5d5e6ae196",
+        "email": "Missouri_Homenick57@yahoo.com",
+        "name": "Clovis Lucio",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 922,
+        "flat": 9078,
+        "phone": "+8260718080",
+        "createdOn": "2026-01-01T22:06:49.000Z",
+        "notes": "vqLtI9gOnMPb1D5XqBRPmOW64r0ywY5FcSCjW3QH49fabnurtPLUdKXzjz6XtPoc2YlN7qRG1sZR0lvAKUn5fNAKp45houTRL2b8DkrrMwoR3x1gUyUhBQLfmRS7DYieyU2cRlfTzP81uZXMwMdLT1gfeWtnZqLSdIzpfgsh6CdgDC1UQtcEksBemOTkYiEqIh0YqcT3rmOUALb4JjVyRoRiffNPStNoK7srqzJ0cLsMdboP6U3EAksQre"
+      },
+      "products": [
+        {
+          "_id": "6956eff91c508c5d5e6ae1a0",
+          "name": "Mouse52443",
+          "amount": 765,
+          "price": 33464,
+          "manufacturer": "Microsoft",
+          "notes": "9SrPXuDL2g4McXDzhYUTBcw88D9DeoUYvZZet1tGga2CMG783UAOKBAV3AMmDcTpYwWw1JjJm8w4gN9kfqVKNfmSmFbot8odULJC2jbEQdVeq7uNfIWafsgUlAduyDubCTv3iFJj2xIdzVNN8a6sTxWJyqk37ln6PRBTyp2xeW8iESmaY3WREeVYs0uaRplEcRewy0u7O91gh8JTbXlNAlDBknkI63sa6HvRoNfJOj5nf9D5rfvikIm6RP",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 33464,
+      "createdOn": "2026-01-01T22:06:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956eff91c508c5d5e6ae196",
+          "products": [
+            {
+              "_id": "6956eff91c508c5d5e6ae1a0",
+              "name": "Mouse52443",
+              "amount": 765,
+              "price": 33464,
+              "manufacturer": "Microsoft",
+              "notes": "9SrPXuDL2g4McXDzhYUTBcw88D9DeoUYvZZet1tGga2CMG783UAOKBAV3AMmDcTpYwWw1JjJm8w4gN9kfqVKNfmSmFbot8odULJC2jbEQdVeq7uNfIWafsgUlAduyDubCTv3iFJj2xIdzVNN8a6sTxWJyqk37ln6PRBTyp2xeW8iESmaY3WREeVYs0uaRplEcRewy0u7O91gh8JTbXlNAlDBknkI63sa6HvRoNfJOj5nf9D5rfvikIm6RP",
+              "received": false
+            }
+          ],
+          "total_price": 33464,
+          "delivery": null,
+          "changedOn": "2026-01-01T22:06:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6956effa1c508c5d5e6ae1bc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:06:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-hfcF5eQC6R5JubdrZClEu40az7U\"",
+    "keep-alive": "timeout=5, max=59",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Clementine33@hotmail.com",
+      "name": "Hannah Jolie",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 740,
+      "flat": 5661,
+      "phone": "+0149551028",
+      "createdOn": "2026-01-01T22:06:48.000Z",
+      "notes": "FC7tsl8tR9KyztkSIc76bnXlK2qNRR1ArMuWozqR7lk6HKXmDt3SJqBxErkxBf7Z6k54CVBNsnLwwPjmVH3WeiaWqPg3csesGGR2CVydAEJECkUVR7hKzTL35mDMWpMYBexYNIudbDK3mX5QNAEXg28qQXTocTZcSeSNE37VbEbDuwfex3AysIkQEEWeHUgbRj3HoUvZiNEDd1NVMdY3ndaDDXEKMrXDUDU5NzzrOBircqEwVYLx9DMjae",
+      "_id": "6956eff81c508c5d5e6ae113"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

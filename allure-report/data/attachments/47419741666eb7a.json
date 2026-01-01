@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:06:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "539",
+    "etag": "W/\"21b-p+yiXY9Z4fftzqd5w3SpwkOW0Ho\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Neal52@yahoo.com",
+      "name": "Trisha Maximo",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 873,
+      "flat": 4140,
+      "phone": "+2550654802",
+      "createdOn": "2026-01-01T22:06:16.000Z",
+      "notes": "2hi6oPAGCIO6GLDMteTZZnVWe7t7Wu1DshgZfK3PpXk8894i94UK7pQSvHk8uNXl6KQv8qNc3c1QmdEwBxVwMUxhantBetszeAw7RPgwiaBxc7XIDV4aY2f61CVIryTzFGMvjEnBmHGUMvmdLM0Ngie3MqW60cwXFJuA2DpTyXz2kTwgpHAHfPS8tFaGzRS5NWWXL6qYG2EiDy1WUFJ6ufHj81JJ0kAY239YnrvJuDeBpltsQuK388V085",
+      "_id": "6956efd81c508c5d5e6adb74"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:10:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "554",
+    "etag": "W/\"22a-HbDh/67qicDAmaoKErL8QXUO3Ls\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Kenya.Romaguera-McKenzie@hotmail.com",
+      "name": "Renee Delta",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 304,
+      "flat": 9926,
+      "phone": "+8759591844",
+      "createdOn": "2026-01-01T22:10:23.000Z",
+      "notes": "LIXNLSzSwzjdXnd1v0IDGHPeAspXOJiQsUzPAsbpQx1Cr3tmEBP84e1jol2g6Ab8oBBruc8WPuykDJBiRKpwA6DCLwLZpSQU1rFU5lHcJpy5EAFXmQnu9EV3oEtXJjTUfOBQUHiUF89QYvWKFBav8LcqHTPtYyWtu0wLNEWP8EdNcJxLUGMFIKp9l8tOThm2bO3kk5Ck8EeUYRyJ9Dxk59K1vSgL3HIxPqbAGvZDpilpe8uMSGzfUQ2AbO",
+      "_id": "6956f0cf1c508c5d5e6b2e11"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

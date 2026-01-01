@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:06:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-oKQX/ZLZFvgsUxRUSiGlueuRoVU\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Lea_Jakubowski@gmail.com",
+      "name": "Raegan Reta",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 882,
+      "flat": 8452,
+      "phone": "+3519266482",
+      "createdOn": "2026-01-01T22:06:15.000Z",
+      "notes": "TcUbfHhZenMnL2gzq9LTmutLlsFy0v6X5gOSJqVP95BjckNjti5O3cP8na8GaPNpw6JopHdpJXbFNXYzsUgYOibaqmunNFBVxl5i1wDVGJWJHTDLA8BDZUFyHErVKfllpqkzVfJiOhB0zIqXuC0KyyatPuunemB31naGgrUQxNdXKeA9tdvR1CU7NsphDnC9hMqBMPFCvMMhdU2Mauno2TAL542ir5YfPns4GWcsJx7Z7rhlpsqmCmnSBH",
+      "_id": "6956efd71c508c5d5e6adb2c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

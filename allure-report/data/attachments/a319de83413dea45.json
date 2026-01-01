@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:06:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "551",
+    "etag": "W/\"227-Xqk0PdWkiJckjzJAkjx5pn2tASA\"",
+    "keep-alive": "timeout=5, max=60",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Kurt_Runte-Mosciski@hotmail.com",
+      "name": "Carol Braeden",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 527,
+      "flat": 2361,
+      "phone": "+5879372293",
+      "createdOn": "2026-01-01T22:06:48.000Z",
+      "notes": "I2W9xZQ38EWhjJ6PmeeQArqIhKC3zVfnIBoDwWuCmEfM2NyXAMNEkosz4gCjji59Hm4S5YRJ4s1Jr4FOmRztBCyhl5hBrPv1SkRwsQZu0gQzm4TXe0Os5w4MZ9GatP0Xz4e0EWIVz8WGFP7aDwtdZB3oQNUdu8vm5NclZZ6vgFSjjktfZF4odSm2Zn8acyqWc3I5bgErv7oJ2fp6gGwHBQn2stsRLinMwjwhZTbFhWPYDyyHVUn2EPxzVt",
+      "_id": "6956eff81c508c5d5e6ae0ff"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

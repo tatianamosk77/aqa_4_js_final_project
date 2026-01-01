@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:07:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-0DjaDZPD6yq/I8fnJ/KsFuUoETE\"",
+    "keep-alive": "timeout=5, max=50",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Adan_Weimann29@hotmail.com",
+      "name": "Abdul Angel",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 455,
+      "flat": 7094,
+      "phone": "+8630634365",
+      "createdOn": "2026-01-01T22:07:02.000Z",
+      "notes": "fRJbyWLShl4f3eKnc04iuaauY00Ke6MoAOFWbEe2FWM9wl4sYojx5yp1edbGLVhtvFmQoJXT09FcFLX66LemDe15DfdGaz43ihNxPlJlvYaeLi8zYEy3LB0mumNOq2znvoEfxM956fCpfzZdN54mvimSy3d844k21AfzG63kpgb9sikEz2gMDQXBCa91ozg8ian8c2WJHUCRDV0k8MGpVApE0AmXiojCNsf2mFfWFxSeN99lL8OVwznoam",
+      "_id": "6956f0061c508c5d5e6ae725"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

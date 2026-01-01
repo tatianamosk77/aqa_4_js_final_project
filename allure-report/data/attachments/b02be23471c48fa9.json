@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:07:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1875",
+    "etag": "W/\"753-vXEpEbnwi1lsXW+eN3lY/PRPLdM\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6956f0061c508c5d5e6ae725",
+        "email": "Adan_Weimann29@hotmail.com",
+        "name": "Abdul Angel",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 455,
+        "flat": 7094,
+        "phone": "+8630634365",
+        "createdOn": "2026-01-01T22:07:02.000Z",
+        "notes": "fRJbyWLShl4f3eKnc04iuaauY00Ke6MoAOFWbEe2FWM9wl4sYojx5yp1edbGLVhtvFmQoJXT09FcFLX66LemDe15DfdGaz43ihNxPlJlvYaeLi8zYEy3LB0mumNOq2znvoEfxM956fCpfzZdN54mvimSy3d844k21AfzG63kpgb9sikEz2gMDQXBCa91ozg8ian8c2WJHUCRDV0k8MGpVApE0AmXiojCNsf2mFfWFxSeN99lL8OVwznoam"
+      },
+      "products": [
+        {
+          "_id": "6956f0071c508c5d5e6ae748",
+          "name": "Shoes7378",
+          "amount": 880,
+          "price": 34492,
+          "manufacturer": "Google",
+          "notes": "YN73NM0wMvCGOrCDM8LZhYdlycnuEN0vhNomM268I3MUeI4KXjhJRGOp7cPnHLBlImBIetE5uV2fKZCVZbrzW3qvBGO6ZPxOH4cdjP6AyVm3xVpbqhNvv0ZGyxfHwXNkZOM9JLNlC5XGU5J0QEffgS0pNUY6rU6UltmWDchwo9gVZsEkq3gI6l93ti2KeAbiDRQgvG0av8Q0PtDObWJ3eydYHoSHeEhiAMYqURgNvVIYaYbM49du94UNAM",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 34492,
+      "createdOn": "2026-01-01T22:07:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956f0061c508c5d5e6ae725",
+          "products": [
+            {
+              "_id": "6956f0071c508c5d5e6ae748",
+              "name": "Shoes7378",
+              "amount": 880,
+              "price": 34492,
+              "manufacturer": "Google",
+              "notes": "YN73NM0wMvCGOrCDM8LZhYdlycnuEN0vhNomM268I3MUeI4KXjhJRGOp7cPnHLBlImBIetE5uV2fKZCVZbrzW3qvBGO6ZPxOH4cdjP6AyVm3xVpbqhNvv0ZGyxfHwXNkZOM9JLNlC5XGU5J0QEffgS0pNUY6rU6UltmWDchwo9gVZsEkq3gI6l93ti2KeAbiDRQgvG0av8Q0PtDObWJ3eydYHoSHeEhiAMYqURgNvVIYaYbM49du94UNAM",
+              "received": false
+            }
+          ],
+          "total_price": 34492,
+          "delivery": null,
+          "changedOn": "2026-01-01T22:07:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6956f0071c508c5d5e6ae764"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

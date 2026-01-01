@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:07:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1881",
+    "etag": "W/\"759-qoJItEmGlZcEvEaEuhL4paGmo6g\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6956f0061c508c5d5e6ae723",
+        "email": "Monty.Torp51@gmail.com",
+        "name": "Wilfrid Aryanna",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 592,
+        "flat": 8245,
+        "phone": "+1209709357",
+        "createdOn": "2026-01-01T22:07:02.000Z",
+        "notes": "jyZP3AE10iGnOKUYAzjZOsjpEkXCQgGGe9VDrhc2uowfUEtMrf80HybLB4xCBNTfzysvJNsTT5FtySL3c892LwhjPRYEENEVF7eacmFcDPZS5VXVU0wXw6JVf64OUbd9vY8E9BzZOrQ6izlwf10rdXgG7Ephybtg2XcAUrxMLgUYYb8ycnsDiUKNTlgT2RZcjugOt95FSWVSOJf9aplHb86T7IXDuKp5FNrPz4rIcKNgzJLQCYC4Ow0BiI"
+      },
+      "products": [
+        {
+          "_id": "6956f0071c508c5d5e6ae74a",
+          "name": "Computer33122",
+          "amount": 701,
+          "price": 77752,
+          "manufacturer": "Apple",
+          "notes": "tRGSXws9IUWTHs8ht0PPP8RzzBtqSi6aPPudc3ydDQqUjlnnIpzwfzJmfl1TSqTcbpoDqIqrnElzFmsSqg9PPtt0CY5X8LI5Z4vVyppl4D0veQT03397Z9XcA3wXgu7oBnviAnqaav1RjgOYcKi4UwjGU22T8i679JfFiGCTk7mVcvI2hyFHLHPzmhVUJoctag5YHcxcbqPf1CKg3KvxrCduPH4yVM2Txyi3JDRa2vpn4mJCTJBIwYn2Yy",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 77752,
+      "createdOn": "2026-01-01T22:07:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956f0061c508c5d5e6ae723",
+          "products": [
+            {
+              "_id": "6956f0071c508c5d5e6ae74a",
+              "name": "Computer33122",
+              "amount": 701,
+              "price": 77752,
+              "manufacturer": "Apple",
+              "notes": "tRGSXws9IUWTHs8ht0PPP8RzzBtqSi6aPPudc3ydDQqUjlnnIpzwfzJmfl1TSqTcbpoDqIqrnElzFmsSqg9PPtt0CY5X8LI5Z4vVyppl4D0veQT03397Z9XcA3wXgu7oBnviAnqaav1RjgOYcKi4UwjGU22T8i679JfFiGCTk7mVcvI2hyFHLHPzmhVUJoctag5YHcxcbqPf1CKg3KvxrCduPH4yVM2Txyi3JDRa2vpn4mJCTJBIwYn2Yy",
+              "received": false
+            }
+          ],
+          "total_price": 77752,
+          "delivery": null,
+          "changedOn": "2026-01-01T22:07:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6956f0071c508c5d5e6ae767"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

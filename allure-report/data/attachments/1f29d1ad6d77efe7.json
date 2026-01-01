@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:06:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-UVt/LwMxcKG3GkivafJN2p9qQTg\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Keven_Jacobs@yahoo.com",
+      "name": "Davion Derek",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 697,
+      "flat": 2281,
+      "phone": "+1975917573",
+      "createdOn": "2026-01-01T22:06:34.000Z",
+      "notes": "4paxaQPIQ21vGkz8YWMWuGrDyvlFHV4wrYlKoYoscb070ZnwVFTdxMWa0RYvhiwFGNAes96yQnsZITj2sPiZScXnLYkMpMp1L9gnuL3NMP9ejSK8CWqQ8CUMHTFWflZN61W1ZHhnNdRMXUi2qUgJz5BRcKwDNbXXInxv0RA25bDm0eQmpoNluEM5iSXt1Le2Rsfzkei7y52M2NFgMsKSniJUV7FaYxnz6tStDY2tHAKbJDrmR0C0TzjlCo",
+      "_id": "6956efea1c508c5d5e6addb2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:06:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-dqsuLIB2dr6MKWwHtK0W4FZqFjU\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6956eff21c508c5d5e6adf48",
+      "status": "Draft",
+      "customer": {
+        "_id": "6956eff11c508c5d5e6adf20",
+        "email": "Everette.Stanton99@hotmail.com",
+        "name": "Jillian Anabelle",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 254,
+        "flat": 9498,
+        "phone": "+4727412429",
+        "createdOn": "2026-01-01T22:06:41.000Z",
+        "notes": "zN8cGiuBKl7S61jLeNMHefC6lq2uN6caanPrmI2RuCqrdQ8a02EW5tPe8vh1NgYFQgtFmrffQsHq4cEAY4jJkACNV7UchIVC8gVfcFiDEDqMCp4fBUZI4C9GeqhR5Vk9yhCbZxScSjUHrBnoGJ9NRSGw8X61HdViv17unWvG2IbllqTQGKsIRhnNxdoJ78cwTxGR1zB8CfUwvX8afqc6Iy8OLWI99sDdRLJcVWzMyFxz4ix69KMnIe1cbS"
+      },
+      "products": [
+        {
+          "_id": "6956eff21c508c5d5e6adf33",
+          "name": "Mouse67673",
+          "amount": 462,
+          "price": 7209,
+          "manufacturer": "Samsung",
+          "notes": "nNJxGFBG16WeCC1xhh16CA3p6HftR8VqAxtlmbfW4aW8tKeHGEK6mf1No8sY6GdBlBkYHdiI4xyUDlK6911c8pqCmNRbyZ7CMsUzcvzgoqHNsIxunhf2s8rALEYfp4VBn1CLzn8N1Qo2gvwlCXy8ibYcAwXzYbBXEY5OQ9jB9DvFG8wP9l3acgn3nejMQWzSNj5z5KRUZR6sqloiWDQGgy3uM21oQUwEbfFVJnmKwITwizh2qZ1TWJgtRl",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 7209,
+      "createdOn": "2026-01-01T22:06:42.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956eff11c508c5d5e6adf20",
+          "products": [
+            {
+              "_id": "6956eff21c508c5d5e6adf33",
+              "name": "Mouse67673",
+              "amount": 462,
+              "price": 7209,
+              "manufacturer": "Samsung",
+              "notes": "nNJxGFBG16WeCC1xhh16CA3p6HftR8VqAxtlmbfW4aW8tKeHGEK6mf1No8sY6GdBlBkYHdiI4xyUDlK6911c8pqCmNRbyZ7CMsUzcvzgoqHNsIxunhf2s8rALEYfp4VBn1CLzn8N1Qo2gvwlCXy8ibYcAwXzYbBXEY5OQ9jB9DvFG8wP9l3acgn3nejMQWzSNj5z5KRUZR6sqloiWDQGgy3uM21oQUwEbfFVJnmKwITwizh2qZ1TWJgtRl",
+              "received": false
+            }
+          ],
+          "total_price": 7209,
+          "delivery": null,
+          "changedOn": "2026-01-01T22:06:42.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

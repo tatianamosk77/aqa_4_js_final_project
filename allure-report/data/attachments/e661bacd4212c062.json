@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:13:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-mW9uS8V+9TsLfPiwbAlDACYCWtU\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Oliver_Wunsch@yahoo.com",
+      "name": "Emilio Aubree",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 774,
+      "flat": 1465,
+      "phone": "+3174412288",
+      "createdOn": "2026-01-01T22:13:24.000Z",
+      "notes": "0qOK2ByFuRetKhcj112P99NY9NEfwEMmc2OPVBm9xribTKEsK44dm8XFnWveklYAeFrsqNc14o5iw0zidBSM6uGQif2MUrXLxOQLZe6LzQ7TVNmMMRjNPBpnrbDnDh4sFRuNPgqpTzMHcKqVrz2MNbXi1cJ9R2XFeEDtVCKSEJ9BeYm7I3xNT6RlPwDjXtOHD5Gz58YCSq6NzZTmGD6Oj2oC7TTFww5iwk4WkiXM0Dxx6CngmpFWcJaPHx",
+      "_id": "6956f1841c508c5d5e6b3bef"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

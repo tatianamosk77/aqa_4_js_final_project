@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:08:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-NXKPGJphy9fBTWfv9lvrmp5C06o\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Joana.Borer77@gmail.com",
+      "name": "Maci Kelton",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 643,
+      "flat": 7643,
+      "phone": "+9089796442",
+      "createdOn": "2026-01-01T22:08:53.000Z",
+      "notes": "SMX7qYt1IiXP0atSqEFoY1rHMLyi5DwrJUYnDGn0p5QBzXmShHhS0cyl0aQghUUdDTeQnzjHvjxGSXZiptuha3XtHCVO02jHk16gDOVHYKTGStSOQ6v0t6C85dzco6OQNweI5eporEL0Dpm0DWBCamSblFJsYe8TV0PD8wTAWDrrOSaGAczlq3CPP4rSBCf7hZ6eGx03OHxb2YQsYGDQZMuU83ZdqD0JpNySW5i7qBGcpZXkYQrvZpDrzB",
+      "_id": "6956f0751c508c5d5e6b1adc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

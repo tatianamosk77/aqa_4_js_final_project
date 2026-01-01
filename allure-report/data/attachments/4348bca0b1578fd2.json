@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:06:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1877",
+    "etag": "W/\"755-ASS1yifOXgPZ8lpMmrQ6tR9p7co\"",
+    "keep-alive": "timeout=5, max=77",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6956efea1c508c5d5e6addca",
+        "email": "Joannie_Streich23@yahoo.com",
+        "name": "Daphnee Golda",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 425,
+        "flat": 1575,
+        "phone": "+5505463987",
+        "createdOn": "2026-01-01T22:06:34.000Z",
+        "notes": "JR2eshj5gVO6Z5y953y6pZFmigdPHhd6XcfGmVwWg5nPOtcF9Brg8cArdZhsnuk9lXH3ZmjtOjgZ410hmksxDazkWe1JvWkumJTtMJ4r3SOIl89ZvbmpuWmtYugsE5Tvt7iYYVG88UkKAV5fyoVUOPer2VQu7GHenzd5lsURlg2zRtqLzO3eavCvTa0cUcy6tu8BD6l6FoQqPVO90UDz7Ysb6H3FaE7elYBeIOFH1qUBvpvb5FDSvvHLbC"
+      },
+      "products": [
+        {
+          "_id": "6956efec1c508c5d5e6addf0",
+          "name": "Shirt31523",
+          "amount": 211,
+          "price": 48977,
+          "manufacturer": "Tesla",
+          "notes": "tmEpxqn1F6RhogwlvZne7Wmi23wtIwjX4zmVNDrOZXiN22h3RiIz5eSE99jibYwiS2UumasWiXmTdWg1ORGPGVhgNT3Eo1uciHnoBFFvR4PCXoIxrnWvCAqnTy6eU0OvsLwQ8hSMMfdFge0stAKqp5sEvq3hUlGh8pLO2b3Hgig3F8KsqdLzWlhbrriC5sKbobd03UNeN1gKTUPvFlrTQuSTCdlXwJEsAxcdu0T8x3PDji9gH4klRZb13Y",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 48977,
+      "createdOn": "2026-01-01T22:06:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956efea1c508c5d5e6addca",
+          "products": [
+            {
+              "_id": "6956efec1c508c5d5e6addf0",
+              "name": "Shirt31523",
+              "amount": 211,
+              "price": 48977,
+              "manufacturer": "Tesla",
+              "notes": "tmEpxqn1F6RhogwlvZne7Wmi23wtIwjX4zmVNDrOZXiN22h3RiIz5eSE99jibYwiS2UumasWiXmTdWg1ORGPGVhgNT3Eo1uciHnoBFFvR4PCXoIxrnWvCAqnTy6eU0OvsLwQ8hSMMfdFge0stAKqp5sEvq3hUlGh8pLO2b3Hgig3F8KsqdLzWlhbrriC5sKbobd03UNeN1gKTUPvFlrTQuSTCdlXwJEsAxcdu0T8x3PDji9gH4klRZb13Y",
+              "received": false
+            }
+          ],
+          "total_price": 48977,
+          "delivery": null,
+          "changedOn": "2026-01-01T22:06:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6956efec1c508c5d5e6addfe"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

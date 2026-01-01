@@ -1,0 +1,159 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:06:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5230",
+    "etag": "W/\"146e-aPpWYpgp/ONepiEXhbkMB2AwQmo\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "6956efe31c508c5d5e6add05",
+        "email": "Dagmar_Mosciski84@yahoo.com",
+        "name": "Bernita Joyce",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 113,
+        "flat": 9418,
+        "phone": "+6940824102",
+        "createdOn": "2026-01-01T22:06:27.000Z",
+        "notes": "xOCTS5oMGZ6JxhQdztGTCksdPfGGnphQ4g2OP2SulhHtABkie6bFV0DhOe6V1kI8UeojCEcTaJtNE4uxxfsCaaECEcrm9wIJPE9Jai7YWeOctG4oNRf5uBDEtsS1GlA6MBmrwbTrXKZtLWl7UsMBGeSw4mbl2LiunfrxqoemLHMpenP2pxblH5K5D2KsWqGniqBPnKHdEjpQpcopwHSfLWJqdLYp3cBMfWjI4E4tV7a547ENqEP9n7J4e6"
+      },
+      {
+        "_id": "6956e6631c508c5d5e6a69b2",
+        "email": "Carrie.Dietrich@yahoo.com",
+        "name": "Bryce Aryanna",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 941,
+        "flat": 4483,
+        "phone": "+1912111423",
+        "createdOn": "2026-01-01T21:25:55.000Z",
+        "notes": "JNxOJed8QOJzs9YyKjr5KJEIiN59vNWBnEO81wgicw6LsGam2kCL43294AC7avgA2XwUXESuzFrJW1LoNAUoH6udBzIFsPgjD7ImqAmnzIxDNg3XX3NtIS6ivMQAnHVdZEugJWHxAQBvicfdUQkONi3uN186LvjybhF5YA2EGYWxMlEfHBMKzc4zPnAZ7KjXizPrA2PSuS6I1UVwJvD41QgXOplxywnLOkUgx1iseDphHJLfI4nzQg8jGA"
+      },
+      {
+        "_id": "6956e6621c508c5d5e6a6981",
+        "email": "Jerry.Becker27@hotmail.com",
+        "name": "Forest Desmond",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 34,
+        "flat": 3150,
+        "phone": "+9114868266",
+        "createdOn": "2026-01-01T21:25:54.000Z",
+        "notes": "qdxeZs4JPD4m1Q6SQiLcugdpCgabaCX8dK7HXU0C29PDqJK0fKjNHHhP0TP28EFIqr33ynm49kBZPkMLrJhPtgbdB6MVjhRIq0GoeLRgNPouFGiqB3biZfrt8shYwVPKBoSDMDQVt3fPF2E7PmrCuIj98rv0A2VUDylgGui4tWk7viauzIBmX7mKns1AGtac7TJyFbaOlN60FistA5vG5iXM3sCEscaxnwKuCWhEkUTDOVfdZQALMHzHMB"
+      },
+      {
+        "_id": "6956e6611c508c5d5e6a692b",
+        "email": "Broderick54@hotmail.com",
+        "name": "Foster Alec",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 162,
+        "flat": 2547,
+        "phone": "+9956708332",
+        "createdOn": "2026-01-01T21:25:53.000Z",
+        "notes": "e4aiVOlChXWDTgEWpVbfQFHpItrrKreaybLj92DbqaoOw1Q2O5ZWq3xJiYEwKb5MYqvGPGq9S9xnHgoSYK9LAYEEh3QsQDQbCRAy0fXhiDOmadgooodW4A0ZWIdzmXjx5jhwdNLsDtp45mxMRAjasUsp0ZJDnjrs1Mhq7XcEUDqe6f4UC2orr5dZo748Wdn8feqmuM6Ujl1AJh8enkB5dns47420KLAaAcfW5CL5jUZA6TxNK8tQ14kMHt"
+      },
+      {
+        "_id": "6956e65e1c508c5d5e6a6828",
+        "email": "Sedrick_OHara@gmail.com",
+        "name": "Judson Yvonne",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 660,
+        "flat": 5394,
+        "phone": "+7202993681",
+        "createdOn": "2026-01-01T21:25:50.000Z",
+        "notes": "e5x0vCQkfRnxgXfF5H4IEaiJtBwM3jAkSAn7YE5dKWkX1kKjZ10mgYSpzCYmPHSJaVTBUfcaX5MgRF5PX3slWNEbQ8hd7HFeFe2E6FYR15GXi6vDeDIlP94Ud95wAxpJ2cAkGmiCPpjzCz2kM2sh0p9hepxzrQeDrtQhpM8K6RXDmJpX8KgKCgdpKPK9ex0eZVRFzSgJq8BMfrZf6tFm7CAp7ciBs00LIDEQL75YrbZTa5th1ly5loiN9M"
+      },
+      {
+        "_id": "6956e6591c508c5d5e6a66f6",
+        "email": "Afton_Ryan-Hahn95@hotmail.com",
+        "name": "Vincenza Cecilia",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 801,
+        "flat": 1848,
+        "phone": "+2454669460",
+        "createdOn": "2026-01-01T21:25:45.000Z",
+        "notes": "n5Uxlxr3W1ydVKjTekc9If1zzhusuumDZJK6qB4hUIFeah967VAYqKryAdfwc9dpNkvSTOCgwwMTQUDDXw1Ms3gSckGiPzqyumUpIWeM5ys76bz8WuOWlOJi7ls8RL4BgMdGX6fcItkEW7DN8qX1yXFjYNFqFFaw8qJXXEvC7Bfm8Ee8vvMWcbikqoS7zyaWCQ74bZW8qAh9yKva7HLGZXwSwtbmfoiQgR8lTIae9aCy1BvEm2iQEDdOLN"
+      },
+      {
+        "_id": "6956e27f1c508c5d5e6a3d2c",
+        "email": "Frank_Gislason@hotmail.com",
+        "name": "Jabari Loren",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 852,
+        "flat": 4782,
+        "phone": "+0872530201",
+        "createdOn": "2026-01-01T21:09:19.000Z",
+        "notes": "R1LDQzbG1SfyiVK1ijN7Pe9ZlZwdinWKqy2lIlRDPphXa6tQZM21s8ZokQwSzv29bDGvRmi0hFlxoyyUw5miZtOoZ0sylWTCfQ8lrTzIrQNIAPElQ690PpGCimQXAhji7OQy9cF6ZHCVEmobISbefDsNBseMzbEPvwWWCQGE09yCj0sQoQ3zBxikTiizJWL09WzaTd0hgcVB1vDTGKL38lvXAE34VX9o0trxDJwO8gm2JGECI3shUdPrQr"
+      },
+      {
+        "_id": "6956dc591c508c5d5e69eaf3",
+        "email": "Doyle.Dare@gmail.com",
+        "name": "Bryce Aurore",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 276,
+        "flat": 7548,
+        "phone": "+9882770854",
+        "createdOn": "2026-01-01T20:43:05.000Z",
+        "notes": "BkNZ6rhtT7KF00GxpEwcCJHcN92eeXBQPaBzijVAf1FqLXNBK3kqrzD0mRGFMpiPoXZxkYGDNMv4JiXDSmWskXSf0bRZtpjFxZ2zgT1Cz3stiOerixrVgpZX2QMkEGYSbo6YGxIfIwYxGKCC7v2VftCPISL4wlKT3BJtMaZR0Tgodb6fpClCzko3Bu3LXPOpdAwEHl5J6aIRjMLTFanqhnfekodouwLnmzRJVVtqhDvbKP765PyAt4DG17"
+      },
+      {
+        "_id": "6956d4211c508c5d5e69a558",
+        "email": "Leonie.Braun91@hotmail.com",
+        "name": "Cathy Roger",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 885,
+        "flat": 9573,
+        "phone": "+0455260155",
+        "createdOn": "2026-01-01T20:08:01.000Z",
+        "notes": "wvnQejLXpc1cRBXMsrjX7SmVjt95bWwiWyptRKYlqQ0bSH5XbKUkcabcuSfohsgpBmzS9fOU4C2XP6rixrcZ9XD9Ic7I1BlQFR5jjOzMkReNQqSfaNOiZbZksmgc3VEqmi8yMTQ99FvGFYnpUEeVGr1SXOLhxbklA3XOmqz6XSeZszRZqU1U7mZsNAzn5XEWX3V8iEj5mBWKRNW8ARFYbClD6m88WRKuaVAiVUkqBU0eHjHpoU7iy7knOq"
+      },
+      {
+        "_id": "6956d4201c508c5d5e69a4e7",
+        "email": "Alfreda_OHara@yahoo.com",
+        "name": "Dallas Amani",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 935,
+        "flat": 8116,
+        "phone": "+2209106975",
+        "createdOn": "2026-01-01T20:08:00.000Z",
+        "notes": "qWy37B9dgrPn0qqdkDWH342X8zXe61H72cMvNym8PhymK92RfRevk2k1rohpMNmssAmikwphl9AdYgmFpQlNaUbIwFQ20i5rSZRccGmpt8vFcem9hXNZFdAEodZ7XHLEn7C8Nc3dtBAtclOZf7CRQi4jLIcQBVhNwRLolHEnaQ6gaLmtC7558lEid9Zitsr8bnXd9hDUA3EazcJiC9wpRfBDnSvDquYsz2qWL27Q4E7a56tN9GD28g0vI2"
+      }
+    ],
+    "total": 31,
+    "page": 1,
+    "limit": 10,
+    "search": "Great Britain",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

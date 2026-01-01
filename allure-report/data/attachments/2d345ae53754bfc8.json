@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:06:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "539",
+    "etag": "W/\"21b-xcopBOBepJCjWhK7+bunFPPOYyQ\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Else43@gmail.com",
+      "name": "Zella Leonard",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 504,
+      "flat": 8428,
+      "phone": "+9692854556",
+      "createdOn": "2026-01-01T22:06:28.000Z",
+      "notes": "Vn2H1PBJkfZvZ1leKTtYNi6q8GTl1DMrqdlDyc7341Nwud9gNl69NOR4ZRnPombk0qr3Fb696CJXez2W1d4zwm11GZcOHpU4ZBtGNt6rapMlakzeA5rApFehEV8qMvjHqV7AJNGl5Dh3ynSaSiJlpQXV8mhFQ7qu1r30BUle9WHkggv3b0BLC5ul22jnjr1Cld8QgnVKZXPfmiIcNdzxVYOiKsovNavUWTZtKABPaaCj0OGo04Llm4gyoq",
+      "_id": "6956efe41c508c5d5e6add13"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

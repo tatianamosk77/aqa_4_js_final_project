@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:06:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-r7hLGNrm0PzD0jj7AaMGYhFPnj0\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Teresa.Dooley@yahoo.com",
+      "name": "Osborne Efren",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 37,
+      "flat": 9382,
+      "phone": "+1884625808",
+      "createdOn": "2026-01-01T22:06:23.000Z",
+      "notes": "o9PwGEztrEtLDnRfD01H0xNBaOw25RDebTjRTkFMXLFt4Rkuwu585g5PSBpBKWZ0dsiodHTTdhXS26WCjKbyzGM0VDUFuxM2X97LwMBcdylTEOJvw4cQiDu9YfMJE4u7A7ThGV6f5JPxnnHFULc4TypcbkOcPt1yRRHl52Dq1cMnY3PHtuJ0mQWDGuq9FEbpIVVOnbeSRHEkRyJa7O34YldAkZd7bFmIvkfDurj5mBO7thC8IOJ5YkBH5s",
+      "_id": "6956efdf1c508c5d5e6adc51"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

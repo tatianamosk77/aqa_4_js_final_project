@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 22:06:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-3eh1rEerQ5VogEvRGJVi3xwLOAk\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Kadin82@hotmail.com",
+      "name": "Kali Bradly",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 982,
+      "flat": 5131,
+      "phone": "+5909198246",
+      "createdOn": "2026-01-01T22:06:30.000Z",
+      "notes": "6uxe5i7LPPCE7jjPvADTf3OOwSHytGjxeNYsalrbd1juPfs4i0uiC2YNjpQz1V0CnJ9J61AjTsq6SdtOtgw3WQVXoqkKBkUfO0RHiQrhe8jTdZn95lQkgoaALhYPszF1f3ZsUKWdVdLditdqwVle77KXzNkAYLsNdzawuyjvz4xaZYaUNcIFdow5aRGy0kol64Tik1LG5AfAuLhVZsbmHnHT6rntlsMqXqRyGGlypTWyPP9oY5gWk7SqjN",
+      "_id": "6956efe61c508c5d5e6add34"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
