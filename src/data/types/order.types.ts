@@ -210,3 +210,15 @@ export const HEADER_TO_SORT_FIELD: Record<OrdersTableHeader, OrdersSortField> = 
   "Assigned Manager": "assignedManager",
   "Created On": "createdOn",
 };
+
+export const headers = [
+  "Order Number",
+  "Email",
+  "Price",
+  "Delivery",
+  "Status",
+  "Assigned Manager",
+  "Created On",
+] as const satisfies OrdersTableHeader[];
+
+export const directions = ["asc", "desc"] as SortOrder[];
