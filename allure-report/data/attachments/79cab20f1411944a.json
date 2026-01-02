@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 14:11:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "203",
+    "etag": "W/\"cb-cLkL8WRFdynyeSM3RMN6kUS45bg\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Shirt2607",
+      "amount": 751,
+      "price": 76686,
+      "manufacturer": "Xiaomi",
+      "createdOn": "2026-01-02T14:11:18.000Z",
+      "notes": "",
+      "_id": "6957d2061c508c5d5e6eebf7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

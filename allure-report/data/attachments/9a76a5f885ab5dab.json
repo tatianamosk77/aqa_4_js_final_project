@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 14:10:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "102",
+    "etag": "W/\"66-cCVQl75EseGBd8gR+yLhJAtZ+fQ\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "IsSuccess": false,
+    "ErrorMessage": "Customer with email 'Janice.Oberbrunner@gmail.com' already exists"
+  }
+}

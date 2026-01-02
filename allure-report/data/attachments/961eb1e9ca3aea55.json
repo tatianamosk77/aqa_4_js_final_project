@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 14:17:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-kz+72EZG4vlDkMk1IMtkZf2umxM\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Adrain_Klein@gmail.com",
+      "name": "Lenore Bud",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 689,
+      "flat": 6967,
+      "phone": "+3102237346",
+      "createdOn": "2026-01-02T14:17:03.000Z",
+      "notes": "FLJEaMUKgtxaSg19WHO2Z0dCk6KZjneonYZr78bvNkWv8NjPdjBxfdh0yoXN80DvvVnQqFL2rBucd61iOi49IquyFfljHg1F35TgVYAAwNa8NxGCwVufDBNgBdJiI9DUuwOIQYufM02MRmev0uPPsizr8HRRW08GRUwOl8aKApbuzqUelDsvVntYozsV1GRO4DWsgcgvhP4dXjQ4uwykmGtxJD0CyXRiUCWLwJ2ZMtMFWkQVoGWLPhDk80",
+      "_id": "6957d35f1c508c5d5e6f1830"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

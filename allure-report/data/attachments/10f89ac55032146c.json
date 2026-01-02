@@ -1,0 +1,159 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 14:10:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5135",
+    "etag": "W/\"140f-B9rQ6Y+JVSxKUy15nAu3z6INWic\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "6957d1bc1c508c5d5e6ed5d8",
+        "email": "Earline_Davis31@gmail.com",
+        "name": "Paige Catalina",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 785,
+        "flat": 6327,
+        "phone": "+6947675554",
+        "createdOn": "2026-01-02T14:10:04.000Z",
+        "notes": "DiGSmp0XC9gbXfUyC9l3dxggpSURpXJYRdGxepQpZEiY2ggpNmtdi4g70v1GgHWFUNfVjJinuarwRpt1kqxHmjIQv3LDiANuxbSEGJYfoaQAD8btnIQk39egiFuMVdw0t4QkO6U3w4QrChFpj7E2urQp1rcHIPbnAGhPVifkdXztverUninPAO9hAZYUMZftQFXyU8k8uzIEQ8eWJrpvm0naLpxmfVJU4drcJppkyXfG5t8gURkZ7vm0Nd"
+      },
+      {
+        "_id": "6957b8ea1c508c5d5e6e8529",
+        "email": "Geo_Jaskolski42@hotmail.com",
+        "name": "May Maximillian",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 863,
+        "flat": 4834,
+        "phone": "+0354264976",
+        "createdOn": "2026-01-02T12:24:10.000Z",
+        "notes": "UbYIznMY1nsItKCGnOLOTygTpWIkUZVkVTNXkZBHHH2xVNIg6glsS0OOQ1UVqKrU5SpjA2HS42EXfYlzc5wWizNkCmhKWXvciIFbMptciOIMdupXlM8W9MriYpkYAboQFwGlCXDiCMkeAqRlVM1gYA8F5NJBob9xhvilnQhXvMqPxB36U1jUeLaYZRm4QYu0m9WkXPZnYRMgdYppsxuQtnFw4bXyDCGMMfGW6XskNuRB9vmf1VinNWbDhu"
+      },
+      {
+        "_id": "6957b8dc1c508c5d5e6e7fa6",
+        "email": "Brice27@gmail.com",
+        "name": "Jacinthe Heath",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 744,
+        "flat": 4479,
+        "phone": "+2149585186",
+        "createdOn": "2026-01-02T12:23:56.000Z",
+        "notes": "MdC5iyWyzTF1l0yDaqS8gAPtvESuHu6sor4FOUS8ItsCdAqblCeMjr8rGEUTSZmHxeZTMrgZJ7AoOFbNWG2k3BBl64sIaXSPgB5So23uJnXojfsIOUyoi4AVt2KR8Lkc21NCetHspiD7CwcMFUBWxqCh5uRoYpkH7wUXCDwAYtENjr4EPenlMFndfe405rt2YnRoA4ruevGszp9dyNWo2LNwAv45DRl3XFc05kSlgAvxpSJwl34plfRVci"
+      },
+      {
+        "_id": "6957b8cf1c508c5d5e6e7d00",
+        "email": "Libby.Heidenreich30@gmail.com",
+        "name": "Cordia Edward",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 401,
+        "flat": 2708,
+        "phone": "+8055486998",
+        "createdOn": "2026-01-02T12:23:43.000Z",
+        "notes": "WtQLR2UyPXJLk76L45QyySqYMWoAoyvB4Oiy46JUzzcfC9nklvn7aafaFfcP61NntFheHCWNiCwCuNIJqOBj4pYKqNasqGmYX968EvhGyZxPqldjyYYx96kP0h0I4OduSmyAgXByQHdSV2VYq4yCGgD9TzXULOK7gkEuFotVk1SQbHilZI1booOkzVe2aF8vHHWqVQPSGTfVRGuiOg1e33wlLWWyshe0VZdOoGrlJOfy9YegYkyDaPigqT"
+      },
+      {
+        "_id": "6957b8cb1c508c5d5e6e7c63",
+        "email": "Glenda_Hirthe@yahoo.com",
+        "name": "Halle Modesto",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 577,
+        "flat": 2563,
+        "phone": "+9298138343",
+        "createdOn": "2026-01-02T12:23:39.000Z",
+        "notes": "h1TIvcEv7kZIWd21EzL6btqLtdZKv2jBOIuP84BeUjgd8YnxsPFCNxNNMeaYsv7IAAq7ttcAco3560m2Cwbxct0UXioTCe5xBX0TrU9l21m042BxuNyFWb0s2jSJg75jFLTeLjxPkwv1uEWrshuHwAgGwCSRYycxZqkAmqZR1TlREExbsuk0IQTM4P0cIXWO55lRtymzU4oUAW8YsVnYAbBunk9EXwD8KEhziaTZqgdq3rvwNo1TrraxsV"
+      },
+      {
+        "_id": "6957b8c91c508c5d5e6e7c02",
+        "email": "Raleigh_Borer@gmail.com",
+        "name": "Delbert Stuart",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 748,
+        "flat": 6777,
+        "phone": "+5809573449",
+        "createdOn": "2026-01-02T12:23:37.000Z",
+        "notes": "W7YUXTHWF6drjFtqw9t5w2KJCJlKUUR5iZNeZRttDuWnKobqDPj3eLJEMFXUNJ1MDJYWETUXClGdhs0ObmBIUS6UVbI87tDJxbV4tp1eOwmRsvXWvfV9vkoqsqDdIy5ljywMB7n7G5NtSpn35iqVeqev1fUkdEvnw5FET6lWc6iyb8Z8HztHxCUSjCT1S283KwTJDJoZuEBnAjSJIe4d3qzDDgYfcpGBji2LXdhDAlkrRsb9IZXYlkJs5o"
+      },
+      {
+        "_id": "695783ab1c508c5d5e6cceea",
+        "email": "Michelle_Langosh@yahoo.com",
+        "name": "Jennie Dion",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 760,
+        "flat": 9574,
+        "phone": "+4821650360",
+        "createdOn": "2026-01-02T08:36:59.000Z",
+        "notes": "M47GGp6IB2HO8DMRUD7hBiPaE8rhFeCknbIPTtGX1ySUWE5A4lAsg1MiCYG8PlVu2P6LnOldIqcEXjOnMKzcyrkdD27sOYSvKT7B10wJsvVjT7pRJgUYC4TdtpIScef2L4U5NlEbBk3ZU6GlYqYyEqDvI6DHUu22dAxF5Ew1WgzRro41toOqTLchEJQ6cHW3Sd7KF8Arputt6jN9qWcsnUBZTNjgp6k9Vi9dF9rDAFo4H69jBcqITohBtQ"
+      },
+      {
+        "_id": "6956f5171c508c5d5e6c3026",
+        "email": "Kelsi.Quigley@hotmail.com",
+        "name": "Hortense Kemmer",
+        "country": "USA",
+        "city": "Colton",
+        "street": "Von Track",
+        "house": 1,
+        "flat": 795,
+        "phone": "+15223837648",
+        "createdOn": "2026-01-01T22:28:39.000Z",
+        "notes": "p2Kpz9D2CZ7QgI0tpAMeynSZAci9CyPQwNyBCF0QPoxuFZQpighuyavOOa1I3LeP0KoYhOdENkKOyDUYDOQ6BGrQzb8woEOc3XyunUjmF3GjLyYvO2dTxYwpUz5x0QibvaTUacUD3JxITce4cqcG8ulUSyI3rWi7MeMuA3jOej3TUVodZ73Wu6liLmSL5avxSxgaPXbXSp0baHXfaEPff7yD7x2E9lKMq0crB1WrQ9NqG84UAiq8YJ7HVz"
+      },
+      {
+        "_id": "6956f50b1c508c5d5e6c2888",
+        "email": "Orlando_Kihn77@hotmail.com",
+        "name": "Houston Runolfsdottir",
+        "country": "USA",
+        "city": "Pasco",
+        "street": "Runolfsson Mills",
+        "house": 29,
+        "flat": 422,
+        "phone": "+18359934322",
+        "createdOn": "2026-01-01T22:28:27.000Z",
+        "notes": "zymMSfA1i7fhmtC0UoCr85VMerINrrugQmWa5VkfNzTsAole6tvNhio8WsdXTsE6iKkoiRHLdZy5yFk6WVXBJKA8EFmurBK9IDhC5DEXK35OJEMCrAiFVBfpT5EnoDuSxFGW8nROAK6kDUht2VjwGJ5lrML8LQ10MCSEZRDT7BQIIr3ZSNPFFY2E4ZJNdeb8WPFmyu9ugWDkpnE7Z8SZ9CPbRUOsb3kkX4CSi6FNZo2rw2IhnbahnRM2Km"
+      },
+      {
+        "_id": "6956f49e1c508c5d5e6be502",
+        "email": "Shayna_Huels56@hotmail.com",
+        "name": "Cleora Pagac",
+        "country": "USA",
+        "city": "Montgomery",
+        "street": "Terrance Estates",
+        "house": 44,
+        "flat": 831,
+        "phone": "+18636667815",
+        "createdOn": "2026-01-01T22:26:38.000Z",
+        "notes": "NIsWdHph2qqa9drFmBfj84zwazONgt56bOsZLKrLUwxEWMD7bI9JQQhLJmXd0kdWt0pJRPfwWBrRZZwr7rhia6Z53ZbyyoWkQr8JlH9Gpm0ySKwu19hLacXJJvjyh1gdO4lWzKqFNowfhWMc4AbP5Dd7vEcOJZsnBkiKJOi829k6Xyzld3hWnxug2iF6MhPHBsY2sPseNxlfZebGDkQ8wLBKvDzTOu9cgQ7QIQmFmTArzENLFQ4sFA0Esi"
+      }
+    ],
+    "total": 502,
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "country": [],
+    "sorting": {
+      "sortField": "country",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

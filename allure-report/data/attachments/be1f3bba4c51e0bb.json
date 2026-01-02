@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 14:11:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "193",
+    "etag": "W/\"c1-i0+yz6zG13cNEsnQCmhQxPH9F8U\"",
+    "keep-alive": "timeout=5, max=72",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Chips63007",
+      "amount": 405,
+      "price": 84654,
+      "manufacturer": "Xiaomi",
+      "createdOn": "2026-01-02T14:11:11.000Z",
+      "_id": "6957d1ff1c508c5d5e6ee6a6"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

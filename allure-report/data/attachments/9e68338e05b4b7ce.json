@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 14:10:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "696",
+    "etag": "W/\"2b8-eyIm19bFqS+rp/HaO/botlD4bq8\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "6957d1b91c508c5d5e6ed586",
+        "email": "Ruthie_Satterfield18@gmail.com",
+        "name": "Jalen Raegan",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 892,
+        "flat": 1827,
+        "phone": "+6416387337",
+        "createdOn": "2026-01-02T14:10:01.000Z",
+        "notes": "JQI1bMkOFwqTzKn95hzQ8GuFMdH2eFOb8qnjozhTmHuTwtiwL2psmdCzBjpi4pbrjXe3WluOYN4UzXpXBRmN8pl7QiO0HYVcqk8hQrz1LjzhFZauN5HYiXLaQKYZia7CPsBuIRFowXzo2DkrY9UQKgjMuCZ8zYKqF5zCcckemCwaEUKgNnKQdQzflBSaC0tAZgvTEa85jqpck5Q7Ix30hgcQ9CA2D13bexVScJLdmCGywLN0WYAwApjJqO"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Ruthie_Satterfield18@gmail.com",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

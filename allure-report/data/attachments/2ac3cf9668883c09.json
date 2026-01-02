@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 14:10:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-hjUNqLOxdPJkX9RjyXUT9lLB9PQ\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Gerda_Ortiz@hotmail.com",
+      "name": "Lora Dominique",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 770,
+      "flat": 2407,
+      "phone": "+3393408550",
+      "createdOn": "2026-01-02T14:10:16.000Z",
+      "notes": "HnYMZbaWdTK0Jbuia0oJH5eZAAgMzWjmPp1MThOcXpfbLYtFUXzBh88EWMZYc2HlkqDmNDaD0VtpAEQLKUC1nEoSZBXg4E9AsPoClznbPLi0J5DsvMf6kAh9DiYIx1VJh5y59SntZCK69kTH3iFYkxU1ObKPuUfIwKGbHqKsuyUbu7U76U7D21BtdKDpJromPqOjWuUGgR8ZPhWhbqMe6LEjom7Hqw6APzGFnNAiQFfdhH3XpvBesD2Axg",
+      "_id": "6957d1c81c508c5d5e6ed6ba"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

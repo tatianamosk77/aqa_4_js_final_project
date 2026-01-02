@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 14:09:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-O4KaKm93+xrF2Ptk0F72gDB9eTQ\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Stewart_Block@hotmail.com",
+      "name": "Dejon Alexandria",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 1,
+      "flat": 5120,
+      "phone": "+8187623195",
+      "createdOn": "2026-01-02T14:09:44.000Z",
+      "notes": "MSBmf12OJvOOpqQU2oToK98YBucKZs65b0nmUem7A7sR3SRQNbZa224eX6CnhElxuGrD4AmK6xk6BakVTjoeZqZtXINwYeUGmm4zekvF3qAcf1ORxUXHXVai9EVq1LEALjdYNtLwCvnReuLyU9gLYaxEhLhNZHsuDVL9LzehxcLlTHUT3qo6pgSDmb59Hm4Fkw6WN67QBUirWRT6XoCaJkD8Yrk6VxvkkJXHkD1cK87tWBJMtpRu8YqwHQ",
+      "_id": "6957d1a81c508c5d5e6ed407"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

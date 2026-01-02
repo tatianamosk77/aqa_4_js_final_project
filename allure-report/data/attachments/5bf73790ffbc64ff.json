@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 14:09:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-ObVACSkd/SDkZUNba0HexVb23qA\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Stone.Beier68@yahoo.com",
+      "name": "Isai Arjun",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 820,
+      "flat": 507,
+      "phone": "+2316276214",
+      "createdOn": "2026-01-02T14:09:39.000Z",
+      "notes": "fMvTKBnaAi23L4ETZyDtdz6ptFstgssHW5neFUO7LlILmQ4g2aBfqevKqNDX2fKhx6BRecJh7nHiVu6VxUV5rpFtppmJPkaikSZHrvDMHQvbTochoIxRBoFLKRCRS12fyrchxURXKdCQtQ2vwpkSKNaZ0eghAUfH816hi03es763YwN2adY58MjLinYdpvpzXywuBGETFXQnI3i5AWz6UZ3Y6s7sAXsPpQWo0Apl7Ud4LgOb0vijVkoPev",
+      "_id": "6957d1a31c508c5d5e6ed37e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

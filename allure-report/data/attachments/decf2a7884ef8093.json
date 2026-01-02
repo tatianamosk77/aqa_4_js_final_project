@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 14:09:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-H8AG1yHptqmHYpfHcn8A9QzHDiY\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Alex.Kuphal@hotmail.com",
+      "name": "Jannie Finn",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 581,
+      "flat": 1157,
+      "phone": "+8921023830",
+      "createdOn": "2026-01-02T14:09:47.000Z",
+      "notes": "ZxvM66DCfWU26JftxxSoVQL9AlunCwGvggvxghuTEwcDSGvKWTcVx9fsMVnZeJ8iTFXV2hxsApTLcps3sk1wV634ssukrmdFs6auF7HXlmMn4rT4bKPuYm2h0H3kQwGqSFau5a5hV6YJ12YcpT38VpYHPM9sShmv9Sk9XcDLlyXGCk2pqbXL0YMSoKmhAqWabQj2w1mNlCPtNNjVgeyaY0lqVyCWJcmMJj9Py2OgnLRf7LJsDU5R46HWeQ",
+      "_id": "6957d1ab1c508c5d5e6ed44b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 14:10:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4168",
+    "etag": "W/\"1048-s7EjKudX+vlQGyT2V9Vv1ktz58s\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6957d1e21c508c5d5e6edb84",
+      "status": "Draft",
+      "customer": {
+        "_id": "6957d1e41c508c5d5e6edec2",
+        "email": "Guy_Mayert@yahoo.com",
+        "name": "Waldo Malvina",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 999,
+        "flat": 8881,
+        "phone": "+5960302191",
+        "createdOn": "2026-01-02T14:10:44.000Z",
+        "notes": "ml9VASIKtvtDzlqDlLOx7QWVTkWhaVmwLVMc1sCxP2q6FDfJSKwjELbi1y7NZHhKMe9po14MCind2daSahdzYCx02agsMDpsw7xQfSoPbexnL2AKNgBcD19b30EgvfqzBExKrOZzJlYTR1oLRRa4tRMCdU7dAiqfTXenVLKLJWfqoGtLxXLlvt9WLqycFh2WfRTFoa4iqU3Qc5D8czrWu6RFDZN78KWe55hzshQJM6TKxEfHn1L8jiZkSF"
+      },
+      "products": [
+        {
+          "_id": "6957d1e41c508c5d5e6edec4",
+          "name": "Pants93467",
+          "amount": 486,
+          "price": 64817,
+          "manufacturer": "Xiaomi",
+          "notes": "JVFpb5MWDXOwM5jYX9KiAQ54JVfLymdFB2cbXMTM6bLxg1FXARjq5AX5yePX577cEL2qsjHhzrgx8WnZcCskaQYoS5jhq9QvArnyah3iYovMTTZZ7aVTAXl4tznnJ9C4yO5ckOClP5124kNfXvv4BOuPv6WcnCxPfLKOwGqU8fODI8On7pi4osjElojUks1Q1HajNdM9mCfaADiWyzmWUs9Be2mbO0JRMV2JDobydykL4zGrzC7csa4AQX",
+          "received": false
+        },
+        {
+          "_id": "6957d1e51c508c5d5e6edec7",
+          "name": "Keyboard86569",
+          "amount": 680,
+          "price": 66425,
+          "manufacturer": "Xiaomi",
+          "notes": "rjHiSgSrUPaVUGlqb6y069SWT9HR33cmGH50M5pirfTjDHJugkD1OP5jpM24ABmU46B6xD5RUQhic354hKX5fFmMFgpxmxf1FHpGFOFfo5WlbhW1k02fUyqwiBH4ivWnVxwidMMNWSSqjzBYpr8N14y6QnYVqVV0OgJcOdfk90zWbR1jIDkJZvcbkAunMP62mZQqILVviHazvMOAlMZC95G1SqmnzJ93EWQcTrakvYO5E6dWPd1sH9cDub",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 131242,
+      "createdOn": "2026-01-02T14:10:42.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6957d1e41c508c5d5e6edec2",
+          "products": [
+            {
+              "_id": "6957d1e21c508c5d5e6edb73",
+              "name": "Cheese21789",
+              "amount": 674,
+              "price": 64927,
+              "manufacturer": "Tesla",
+              "notes": "3kcdu6KSSP642xRHUGa2MUr5YIXpQ8TIK3YygdWFJCsWebqovN5ixP4hqK61gNnjogsL0i0Rn7UkQMKf9ywds3k4aVtyoZWISdhLAK0uHCU0ay6e27Gg1BTmBOFZi6TTTLixZjudQEnfUsnugdtvnfVZYsOqfwqunJFrt3Cyy1Qt7z54NK388FszbVSzaM2vWBiPTJfAo7TSTZAFWr5pCKRYaGA0fkNX16esNaPYmgEmU96O5EnKfmS3tS",
+              "received": false
+            }
+          ],
+          "total_price": 131242,
+          "delivery": null,
+          "changedOn": "2026-01-02T14:10:48.000Z",
+          "action": "Customer changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6957d1e11c508c5d5e6edb68",
+          "products": [
+            {
+              "_id": "6957d1e41c508c5d5e6edec4",
+              "name": "Pants93467",
+              "amount": 486,
+              "price": 64817,
+              "manufacturer": "Xiaomi",
+              "notes": "JVFpb5MWDXOwM5jYX9KiAQ54JVfLymdFB2cbXMTM6bLxg1FXARjq5AX5yePX577cEL2qsjHhzrgx8WnZcCskaQYoS5jhq9QvArnyah3iYovMTTZZ7aVTAXl4tznnJ9C4yO5ckOClP5124kNfXvv4BOuPv6WcnCxPfLKOwGqU8fODI8On7pi4osjElojUks1Q1HajNdM9mCfaADiWyzmWUs9Be2mbO0JRMV2JDobydykL4zGrzC7csa4AQX",
+              "received": false
+            },
+            {
+              "_id": "6957d1e51c508c5d5e6edec7",
+              "name": "Keyboard86569",
+              "amount": 680,
+              "price": 66425,
+              "manufacturer": "Xiaomi",
+              "notes": "rjHiSgSrUPaVUGlqb6y069SWT9HR33cmGH50M5pirfTjDHJugkD1OP5jpM24ABmU46B6xD5RUQhic354hKX5fFmMFgpxmxf1FHpGFOFfo5WlbhW1k02fUyqwiBH4ivWnVxwidMMNWSSqjzBYpr8N14y6QnYVqVV0OgJcOdfk90zWbR1jIDkJZvcbkAunMP62mZQqILVviHazvMOAlMZC95G1SqmnzJ93EWQcTrakvYO5E6dWPd1sH9cDub",
+              "received": false
+            }
+          ],
+          "total_price": 131242,
+          "delivery": null,
+          "changedOn": "2026-01-02T14:10:48.000Z",
+          "action": "Requested products changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6957d1e11c508c5d5e6edb68",
+          "products": [
+            {
+              "_id": "6957d1e21c508c5d5e6edb73",
+              "name": "Cheese21789",
+              "amount": 674,
+              "price": 64927,
+              "manufacturer": "Tesla",
+              "notes": "3kcdu6KSSP642xRHUGa2MUr5YIXpQ8TIK3YygdWFJCsWebqovN5ixP4hqK61gNnjogsL0i0Rn7UkQMKf9ywds3k4aVtyoZWISdhLAK0uHCU0ay6e27Gg1BTmBOFZi6TTTLixZjudQEnfUsnugdtvnfVZYsOqfwqunJFrt3Cyy1Qt7z54NK388FszbVSzaM2vWBiPTJfAo7TSTZAFWr5pCKRYaGA0fkNX16esNaPYmgEmU96O5EnKfmS3tS",
+              "received": false
+            }
+          ],
+          "total_price": 64927,
+          "delivery": null,
+          "changedOn": "2026-01-02T14:10:42.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

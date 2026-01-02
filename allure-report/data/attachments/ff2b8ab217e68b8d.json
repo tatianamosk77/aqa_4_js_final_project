@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 14:10:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-lUQNsmtwu2KX3IPEzbPJA036zBU\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Penelope22@hotmail.com",
+      "name": "Alvis Hattie",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 382,
+      "flat": 9221,
+      "phone": "+4409716914",
+      "createdOn": "2026-01-02T14:10:21.000Z",
+      "notes": "ic637XvUkzCFNx8QF0MUaDHzRCru0ph4bM9bFcrtPsJgNpMVA9yGDmfjM5PTr7HOOoFxQvZ6Ge7arlyGeo3KdG24l2ZlbBE5Mlhs1ellzQ7OB0USPPRbhAV8Eqzs3aJgoZfTQRoHb5UitdIsClVmvhYuUQV2xUchRlDiCOYRg3xYtP1PzjyI25XM2dPn2UeEJY2tmtydeMbe8Jcy77jQ0RlAzB4bH2KWGSVfv2zihOvtT70WXXdGEDTQQO",
+      "_id": "6957d1cd1c508c5d5e6ed74b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

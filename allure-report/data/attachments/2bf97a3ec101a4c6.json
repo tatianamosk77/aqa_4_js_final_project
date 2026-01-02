@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 14:09:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-UlJCrESI13f6YCYCKZvC/PpSjbQ\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Christopher_Kirlin0@hotmail.com",
+      "name": "Kip Mable",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 407,
+      "flat": 745,
+      "phone": "+1942982326",
+      "createdOn": "2026-01-02T14:09:41.000Z",
+      "notes": "6J9GiuZ8J6T8ffVKsWPSAyohKNcuT46khJNp6cRZYZDhXEZh2RA9m6v5x9sCpt7QymcOCxeOCmYuEEtrhhVIqrzn26EwHfFvKvN5ebgsjmxFzGP5cCpXD7qvUFXPcq89LpDmhTnITnV2I3XI3U9I5j3fjPJTW22hid3ETDKMjUqxNHvaTTuDgNUw7uavhhJPAYYE2VIsUmW2ul7Ox6362VjmqTtyBMVIHeXQDOSUHVEbDvI5UcJMbUvOSp",
+      "_id": "6957d1a51c508c5d5e6ed3bd"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

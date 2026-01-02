@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 14:10:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1872",
+    "etag": "W/\"750-r3S+7Uacia0/oaz2xnkmDL+9L+U\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6957d1d21c508c5d5e6ed845",
+        "email": "Raegan.Cartwright@hotmail.com",
+        "name": "Quinton Mackenzie",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 605,
+        "flat": 4224,
+        "phone": "+3190928518",
+        "createdOn": "2026-01-02T14:10:26.000Z",
+        "notes": "7AGTY6tP0G89HwfQxkJ7WUpqFt07y5x9TkDYaphUhJMwfZ79OVD8fuFLVSsSFgcWqfPoeRIPaSsJ55jDFRqpaTFz99mc0zfxh49STQ0Dz6tFch9hL24XEe1oxueyUl11XVdktE4C6zYfXkoeTAGOZdcb6jVE9qTf7nLDZ8wec48eBdkoXGYwuUhdKBCMAbVyFsOHLOaQHpx3Rprdpa0mVJ4AeAqzL5z7tS7JJNxXdQkYfNUczu7ExcLmRZ"
+      },
+      "products": [
+        {
+          "_id": "6957d1d21c508c5d5e6ed847",
+          "name": "Shirt8392",
+          "amount": 865,
+          "price": 153,
+          "manufacturer": "Amazon",
+          "notes": "NQqUYyZxyp4yzlcAyQnqXPGmXnNSPmK2JuXVzvmqKrz3QR4wb4TvQUKM3Vhi0I8bJnLUjaVdhjKTnfnqUN724aMzru0t2DWfsxd6Ziwthtl6WADw3kvd3pBulpmf2A1sviKnhlgcRMkw3t3mro9eIiM6Bp6Z6WBiPPOlbLQfJurrcM5WEn4UTqLQBCVqabTzfRWDLbuccUhVb9kdqBiqJKxnJGNjFIhG4BIfFlnaPRRWUzY5JaUcGTjgsa",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 153,
+      "createdOn": "2026-01-02T14:10:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6957d1d21c508c5d5e6ed845",
+          "products": [
+            {
+              "_id": "6957d1d21c508c5d5e6ed847",
+              "name": "Shirt8392",
+              "amount": 865,
+              "price": 153,
+              "manufacturer": "Amazon",
+              "notes": "NQqUYyZxyp4yzlcAyQnqXPGmXnNSPmK2JuXVzvmqKrz3QR4wb4TvQUKM3Vhi0I8bJnLUjaVdhjKTnfnqUN724aMzru0t2DWfsxd6Ziwthtl6WADw3kvd3pBulpmf2A1sviKnhlgcRMkw3t3mro9eIiM6Bp6Z6WBiPPOlbLQfJurrcM5WEn4UTqLQBCVqabTzfRWDLbuccUhVb9kdqBiqJKxnJGNjFIhG4BIfFlnaPRRWUzY5JaUcGTjgsa",
+              "received": false
+            }
+          ],
+          "total_price": 153,
+          "delivery": null,
+          "changedOn": "2026-01-02T14:10:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6957d1d21c508c5d5e6ed853"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

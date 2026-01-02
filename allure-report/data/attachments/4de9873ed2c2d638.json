@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 14:09:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-zButDH4wU18w99774PVS73lJSZY\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Francis.Rosenbaum@gmail.com",
+      "name": "Lia Amber",
+      "country": "Great Britain",
+      "city": "B",
+      "street": "testStreet",
+      "house": 760,
+      "flat": 4519,
+      "phone": "+3148258289",
+      "createdOn": "2026-01-02T14:09:43.000Z",
+      "notes": "ULiXYJZqYx7EeRIUWz4ZQ5bqW3AWUMs4WwUNJc7B1ODC1fG2ddZKHWq3ZnYVCVbD0LKS0AJHt2qDCo7JUXHUL5z4a0vkcTjsRn2DL8PSWnPhUtgoACjqkD5V0iEQI6bE0TjEdjGlgfMJLjAfZaE1MlFNx4RXTTaD6KAxXoxInz5KOKrmh2vl2JCfnxL5d5VfIw0WRJvyOQIFNRpAN1Fz7UE03VWDnTmt3oHZn82P9csipfE7nmsY0Ym0pE",
+      "_id": "6957d1a71c508c5d5e6ed3f5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

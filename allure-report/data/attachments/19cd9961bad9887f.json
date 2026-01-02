@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 14:09:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-sAWaGZNGSX4bIl3d1RtyJO9ut2Q\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Everardo_Mann@gmail.com",
+      "name": "Niko Shany",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 699,
+      "flat": 5507,
+      "phone": "+1873163052",
+      "createdOn": "2026-01-02T14:09:55.000Z",
+      "notes": "gvFKPAnViiCqsUQmENw8cP3pb9WKvTIN9HVl3INJrqKOVMC9f56YiLYdvVozB7SOuWoofS8fC3nAIiX6rwKjessZtO0pedGfPyQxr5JcXY0YWwwM8ERAd4HHvHzNhEd832jlWDDigOm852voj0lYeeQt4uDKbBDGjpalhUS5KY4B1G83Jqi6QmrFDwCIWlE4rU6BobkJxETA5kCnVNS0vBIdPfAcB6MtSzBWMUDsxgMhc4DY31MmliL8W1",
+      "_id": "6957d1b31c508c5d5e6ed4ff"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

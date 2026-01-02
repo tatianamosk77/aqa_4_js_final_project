@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 14:12:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-9j3gtkegZ70eGSkwMDzddJaN23k\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ava.Aufderhar@gmail.com",
+      "name": "Fernando Alberto",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 107,
+      "flat": 7815,
+      "phone": "+6129338494",
+      "createdOn": "2026-01-02T14:12:46.000Z",
+      "notes": "8YZPx9m9NcV3VNU5jQhh1J43Ay3v4yiEieffoVDt18bAaFFQL9d91KAvyxgfFaRAy6FqcnkjXMBdQM1ubgxAiuATppEpZlmE1mQljM5cNzaZMlfwEAC4o4fpQkjGO6rkjAsG9IQLAg3l7rt93h2Hcco5FkCwQXItGV4VMTBckr5uEE3nbY7V83DCWsW8UTcKpNnMfZCy2tXmCdJBUUz2TotEbVt66QShnltBQVvrMekiMAqfGwiskIZyqD",
+      "_id": "6957d25e1c508c5d5e6f03be"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 14:09:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "555",
+    "etag": "W/\"22b-jg6sK/V9/pEMk1HW/Q6ME7UTeBE\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Rodrigo_Nienow86@gmail.com",
+      "name": "Rick Randall",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 451,
+      "flat": 9154,
+      "phone": "+0210480861",
+      "createdOn": "2026-01-02T14:09:57.000Z",
+      "notes": "Hm9P6otoaT2Wx4RNohHwTcIUbHbDvbCEyMjxSpiHyjBvcIqVBiXZ1JXyuCuH0zaJpxxcHUZWv745zV0oSHr3sTLFNBcPBmoKDwa8TcnEr9h3qbrMYmAKlxsdZ7EIQv6UK4L4WbiylII4KOV5s8YapyIJrHM7UKYRT62HATpxCHlBStmXBnWxT3CqtNhRcBLZ0E4zKqQQR4RoIwM9rFisuwM02M5Kxt9kKcxxgekHTgAkCURRBkRMmccofO",
+      "_id": "6957d1b51c508c5d5e6ed520"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

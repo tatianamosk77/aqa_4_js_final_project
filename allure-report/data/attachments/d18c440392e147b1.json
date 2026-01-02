@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 14:10:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-WAlCAOBEOCAaGm/NT8uD4kRFgfg\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Blair_Abernathy@gmail.com",
+      "name": "Lenora Donny",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 954,
+      "flat": 6840,
+      "phone": "+7633282148",
+      "createdOn": "2026-01-02T14:10:06.000Z",
+      "notes": "5OmaVOaFosOZqBd289WgDdzM61LNoG4tpvhsCEDm4o0BmhmBPLShf92EwSuEAdFE90L9Ihx6KNvmeNdYsiJ6dc0Ypap4RAZOdIV59rcfboCMgNqIcRW9m3vtjL6Ju7ODyTeOqwc4kBGhRBrfRjGS7lyZk0sV4rwUlvCeCK5zLY6wsVSULw6f5uYXxqm7sjBlb0O4kbSsIs5ksNAVkggpGeWfBCZiYLHw94idjdUUOIxexIaJRRa0rBKc2a",
+      "_id": "6957d1be1c508c5d5e6ed5ee"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

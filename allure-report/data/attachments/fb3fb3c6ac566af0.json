@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 14:12:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-PZrXZYj4b50LA6SLONeiF2Y5Ieg\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Cecil94@gmail.com",
+      "name": "Felipe Genoveva",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 409,
+      "flat": 4368,
+      "phone": "+2811691107",
+      "createdOn": "2026-01-02T14:12:58.000Z",
+      "notes": "iy2dLCoolQWzU9mgWNQgyVFf3d7MrnTgSeoriZlon325ioyMjdrVNdf9HEI6JjmP172dsrQ4r0ekI0ky2drq08OkVadtTzbFoOzcCltd1v8GvHoGr9vSbtH3PgGw83s8jZ6hUZeb5hNL5UGV2hEpHnzoTZEmAr8NqhYpSAlF5Cf8Ux8cmc1T8QRR1XFFNAAMy2bWL0SD9pPwrckooyTLJ9dLQ9BJAv1AKWJUi8isQfG4f5QCtrfQOc6YgU",
+      "_id": "6957d26a1c508c5d5e6f05a1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

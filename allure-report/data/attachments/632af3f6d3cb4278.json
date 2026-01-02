@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 14:10:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-d6GqyhYZnUp4h87dsJ61qVaDz50\"",
+    "keep-alive": "timeout=5, max=72",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Noe_Reichert70@yahoo.com",
+      "name": "Tyshawn Steve",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 800,
+      "flat": 511,
+      "phone": "+9552637207",
+      "createdOn": "2026-01-02T14:10:34.000Z",
+      "notes": "wsGrcRb36tRvpQT2xRhMq5CBJwwoABjDbD9V9u35I71tPKEdRUbvDWFO3MlHaYKgDMD6TDLlYPmJ04jHdVydtC1XTxWHFuCrW7dWHN9ukAZJxZrrnfYYEDhzFLIHMs3GD4zlaZUVsV4pdJWAAQlIXDD9OQOxL0zhQKrqNP19uMKPsuEOsoyZuIVzdpoj80JzBMhjERacOC8l3Klc9q3ZRPGIFJRCDgUsM25X7OMudI2vNG6ldKjQvDXuNq",
+      "_id": "6957d1da1c508c5d5e6ed9a2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
