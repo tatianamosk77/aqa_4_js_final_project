@@ -19,8 +19,7 @@ export abstract class SalesPortalPage extends BasePage {
 
   @logStep("Wait for spinner")
   async waitForSpinners() {
-   await expect(this.spinner.first()).toBeHidden({ timeout: TIMEOUTS.ELEMENT_VISIBLE });
-
+    await expect(this.spinner.first()).toBeHidden({timeout: TIMEOUTS.ELEMENT_VISIBLE });
   }
 
   @logStep("Click toast")
@@ -28,36 +27,40 @@ export abstract class SalesPortalPage extends BasePage {
     await this.closeToastButton.click();
   }
 
-    async openPortal() {
-   await this.page.goto(SALES_PORTAL_URL);
+  async openPortal() {
+    await this.page.goto(SALES_PORTAL_URL);
   }
 
-async openPage(page: keyof typeof ROUTES, id?: string) {
-  const route = ROUTES[page];
-
-  if (!route) {
-    throw new Error(`Route "${String(page)}" is not defined`);
+  private normalizeHash(url: string): string {
+    return url.replace(/#\/+/, "#/");
   }
 
-  const target =
-    typeof route === 'string'
-      ? route
-      : (() => {
-          if (!id) throw new Error('Id was not provided');
-          return route(id);
-        })();
+  async openPage(page: keyof typeof ROUTES, id?: string) {
+    const route = ROUTES[page];
 
-if (!target.includes('#/')) {
-  const base = SALES_PORTAL_URL.replace(/#.*/, '').replace(/\/+$/, '');
-  const path = target.replace(base, ''); 
-  const normalizedPath = `/${path.replace(/^\/+/, '')}`; 
-  await this.page.goto(`${base}#${normalizedPath}`);     
-  return;
+    if (!route) {
+      throw new Error(`Route "${String(page)}" is not defined`);
+    }
+
+    const target =
+      typeof route === "string"
+        ? route
+        : (() => {
+            if (!id) throw new Error("Id was not provided");
+            return route(id);
+          })();
+
+    const base = SALES_PORTAL_URL.replace(/#.*/, "").replace(/\/+$/, "");
+
+    if (target.includes("#/")) {
+      await this.page.goto(this.normalizeHash(target));
+      return;
+    }
+
+    const path = target.replace(base, "").replace(/^\/+/, "");
+    const url = `${base}#/${path}`;
+
+    await this.page.goto(this.normalizeHash(url));
+  }
 }
 
-  await this.page.goto(target);
-}
-
-
-  
-}
