@@ -30,7 +30,7 @@ export interface IOrderHistoryItem {
   changedOn: string;
   action: string;
   performer: IHistoryPerformer;
-  assignedManager: IAssignedManager | string | null; // ⬅ было string | null
+  assignedManager: IAssignedManager | string | null; 
 }
 
 export interface IHistoryPerformer {
@@ -47,7 +47,7 @@ export interface IAssignedManager {
   username: string;
   firstName: string;
   lastName: string;
-  createdOn: string; // ⬅ добавлено, т.к. приходит в ответе
+  createdOn: string; 
 }
 
 export interface IOrderData {

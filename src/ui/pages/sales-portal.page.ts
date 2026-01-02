@@ -2,6 +2,7 @@ import { expect, Locator } from "@playwright/test";
 import { BasePage } from "./base.page";
 import { SALES_PORTAL_URL, TIMEOUTS } from "config/env";
 import { logStep } from "utils/report/logStep.utils";
+import { ROUTES } from "config/uiConfig";
 
 export abstract class SalesPortalPage extends BasePage {
   readonly spinner = this.page.locator(".spinner-border");
@@ -21,13 +22,41 @@ export abstract class SalesPortalPage extends BasePage {
     await expect(this.spinner).toHaveCount(0, { timeout: TIMEOUTS.ELEMENT_VISIBLE });
   }
 
-  @logStep("Open page")
-  async open(route = "") {
-    await this.page.goto(SALES_PORTAL_URL + route);
-  }
-
   @logStep("Click toast")
   async closeToast() {
     await this.closeToastButton.click();
   }
+
+    async openPortal() {
+   await this.page.goto(SALES_PORTAL_URL);
+  }
+
+async openPage(page: keyof typeof ROUTES, id?: string) {
+  const route = ROUTES[page];
+
+  if (!route) {
+    throw new Error(`Route "${String(page)}" is not defined`);
+  }
+
+  const target =
+    typeof route === 'string'
+      ? route
+      : (() => {
+          if (!id) throw new Error('Id was not provided');
+          return route(id);
+        })();
+
+if (!target.includes('#/')) {
+  const base = SALES_PORTAL_URL.replace(/#.*/, '').replace(/\/+$/, '');
+  const path = target.replace(base, ''); 
+  const normalizedPath = `/${path.replace(/^\/+/, '')}`; 
+  await this.page.goto(`${base}#${normalizedPath}`);     
+  return;
+}
+
+  await this.page.goto(target);
+}
+
+
+  
 }
