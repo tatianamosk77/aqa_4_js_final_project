@@ -26,8 +26,8 @@ export class AssignManagerModal extends SalesPortalPage {
     await this.cancelButton.click();
   }
 
-  @logStep("Click create button on AssignManagerModal")
-  async clickEdit() {
+  @logStep("Click save button on AssignManagerModal")
+  async clickSave() {
     await this.saveButton.click();
   }
 

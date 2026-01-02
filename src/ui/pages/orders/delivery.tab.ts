@@ -1,11 +1,13 @@
 import { Locator } from "@playwright/test";
 import { SalesPortalPage } from "../sales-portal.page";
+import { logStep } from "utils/report/logStep.utils";
+import { ScheduleDeliveryPage } from "./scheduleDelivery.page";
 
 export class DeliveryTab extends SalesPortalPage {
   readonly uniqueElement = this.page.locator("#delivery");
 
   readonly dataContainer = this.uniqueElement.locator(".mb-4");
-  readonly scheduleDeliveryButton = this.uniqueElement.locator("#delivery-btn");
+  readonly deliveryActionButton = this.uniqueElement.locator("#delivery-btn");
 
   async getAllDeliveryInfo(): Promise<Record<string, string>> {
     const deliveryInfo: Record<string, string> = {};
@@ -109,4 +111,16 @@ export class DeliveryTab extends SalesPortalPage {
       rowElement: row,
     };
   }
+  
+  @logStep("Open Schedule/Edit Delivery page")
+  async openScheduleOrEditDelivery() {
+  await this.deliveryActionButton.waitFor({ state: "visible" });
+  await Promise.all([
+    this.page.waitForURL(/\/(schedule|edit)-delivery$/),
+    this.deliveryActionButton.click(),
+  ]);
+
+  return new ScheduleDeliveryPage(this.page);
+}
+  
 }

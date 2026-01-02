@@ -1,5 +1,9 @@
 import { logStep } from "utils/report/logStep.utils";
 import { SalesPortalPage } from "../sales-portal.page";
+import { DeliveryTab } from "./delivery.tab";
+import { AssignManagerModal } from "./assignManager.modal";
+import { ConfirmationModal } from "./confirmation.modal";
+import { RequestedProductsSection } from "./requestedProducts.section";
 
 export class OrderDetailsPage extends SalesPortalPage {
   readonly orderDetailsHeader = this.page.locator("#order-details-header");
@@ -18,11 +22,14 @@ export class OrderDetailsPage extends SalesPortalPage {
   readonly removeManagerButton = this.assignedManagerContainer.filter({ hasText: "Remove" });
   readonly cancelOrderButton = this.orderDetailsHeader.locator("#cancel-order");
   readonly refreshOrderButton = this.orderDetailsHeader.locator("#refresh-order");
-  readonly orderStatus = this.orderStatusBar.filter({ hasText: "Order Status" }).locator("..");
-  readonly totalPrice = this.orderStatusBar.filter({ hasText: "Total Price" }).locator("..");
-  readonly delivery = this.orderStatusBar.filter({ hasText: "Delivery" }).locator("..");
-  readonly createdOn = this.orderStatusBar.filter({ hasText: "Created On" }).locator("..");
+  readonly orderStatus = this.orderStatusBar.locator("div").filter({ hasText: "Order Status" }).locator("span:nth-of-type(2)");
+  readonly totalPrice = this.orderStatusBar.locator("div").filter({ hasText: "Total Price" }).locator(".text-primary")
+  readonly delivery = this.orderStatusBar.locator("div").filter({ hasText: "Delivery" }).locator(".text-primary");
+  readonly createdOn = this.orderStatusBar.locator("div").filter({ hasText: "Created On" }).locator(".text-primary");
   readonly processOrderButton = this.orderDetailsHeader.locator("#process-order");
+  readonly deliveryTabButton = this.page.locator("#delivery-tab");
+  readonly historyTabButton = this.page.locator("#history-tab");
+  readonly commentsTabButton = this.page.locator("#comments-tab");
 
   readonly uniqueElement = this.title;
 
@@ -38,6 +45,7 @@ export class OrderDetailsPage extends SalesPortalPage {
   @logStep("Process order")
   async processOrder() {
     await this.processOrderButton.click();
+    await this.waitForSpinners();
   }
   @logStep("Refresh order")
   async refreshOrder() {
@@ -78,5 +86,36 @@ export class OrderDetailsPage extends SalesPortalPage {
   @logStep("Back to orders list")
   async backToOrdersList() {
     return await this.backToOrdersLink.click();
+  }
+  @logStep("Open Delivery tab")
+  async openDeliveryTab() {
+    await this.deliveryTabButton.click();
+  }
+  getDeliveryTab(): DeliveryTab {
+    return new DeliveryTab(this.page);
+  }
+  
+  @logStep("Open Assign Manager modal")
+  async openAssignManagerModal(): Promise<AssignManagerModal> {
+  await this.clickToAssingManager.click();
+  const modal = new AssignManagerModal(this.page);
+  await modal.waitForOpened();
+  return modal;
+}
+
+@logStep("Get assigned manager name")
+  async getAssignedManagerName(): Promise<string | null> {
+  const managerLink = this.assignedManagerLink;
+  if (await managerLink.count() > 0) {
+    return await managerLink.innerText();
+  }
+  return null;
+}
+  getConfirmationModal() {
+    return new ConfirmationModal(this.page);
+  }
+
+  requestedProductsSection(): RequestedProductsSection {
+    return new RequestedProductsSection(this.page);
   }
 }

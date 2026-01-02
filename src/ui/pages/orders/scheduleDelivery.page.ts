@@ -9,7 +9,6 @@ export class ScheduleDeliveryPage extends SalesPortalPage {
   readonly dateInput = this.datePicker.locator("#date-input");
   readonly dateButton = this.datePicker.locator(".d-p-icon");
   readonly datePickerDays = this.page.locator(".datepicker-days");
-  readonly theFirstFreeDay = this.datePickerDays.locator("[class='day']:nth-child(1)");
 
   readonly locationInput = this.page.locator("#inputLocation");
   readonly countryInput = this.page.locator("#inputCountry");
@@ -25,13 +24,8 @@ export class ScheduleDeliveryPage extends SalesPortalPage {
 
   @logStep("Fill in schedule delivery form for order")
   async fillDeliveryForm(deliveryData: Partial<IDeliveryFormData>) {
-    if (deliveryData.deliveryType) {
-      await this.deliveryType.selectOption(deliveryData.deliveryType);
-    }
-    if (deliveryData.deliveryDate) {
-      await this.clickActiveDay();
-    }
-
+      await this.clickNearestDay();
+      
     if (deliveryData.deliveryType === DELIVERY_TYPE.DELIVERY) {
       if (deliveryData.location) {
         await this.locationInput.selectOption(deliveryData.location);
@@ -43,13 +37,19 @@ export class ScheduleDeliveryPage extends SalesPortalPage {
     }
   }
 
-  @logStep("Click an active day in datepicker")
-  async clickActiveDay() {
-    await this.theFirstFreeDay.click();
+   @logStep("Click the nearest available day in datepicker")
+  async clickNearestDay() {
+    await this.dateButton.click();
+    await this.datePickerDays.waitFor({ state: "visible" });
+
+    const nearestDay = this.datePickerDays.locator(".day:not(.disabled)").first();
+    await nearestDay.waitFor({ state: "visible" });
+    await nearestDay.click();
   }
 
   @logStep("Click save delivery for order")
   async clickSaveDelivery() {
+    await this.saveDeliveryButton.waitFor({ state: "visible" });
     await this.saveDeliveryButton.click();
   }
 
@@ -57,4 +57,8 @@ export class ScheduleDeliveryPage extends SalesPortalPage {
   async clickCancelDelivery() {
     await this.cancelDeliveryButton.click();
   }
+
+  get countryLocator() {
+  return this.page.locator("#inputCountry, #selectCountry");
+}
 }

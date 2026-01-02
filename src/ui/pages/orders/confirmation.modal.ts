@@ -5,7 +5,7 @@ export class ConfirmationModal extends BaseModal {
   readonly uniqueElement = this.page.locator('[name="confirmation-modal"]');
 
   readonly title = this.uniqueElement.locator("h5");
-  readonly confirmButton = this.uniqueElement.locator("button.btn-danger");
+  readonly confirmButton = this.uniqueElement.locator('div.modal-footer button').first();
   readonly cancelButton = this.uniqueElement.locator("button.btn-secondary");
   readonly closeButton = this.uniqueElement.locator("button.btn-close");
   readonly confirmationMessage = this.uniqueElement.locator("div.modal-body p");

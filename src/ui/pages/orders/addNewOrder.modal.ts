@@ -168,13 +168,10 @@ export class AddNewOrderModal extends SalesPortalPage {
     await dropdown.click();
 
     if (typeof productToSelect === "number") {
-      const options = await dropdown.locator("option").all();
-      if (productToSelect >= 0 && productToSelect < options.length) {
-        await options[productToSelect]!.click();
-        const selectedText = await options[productToSelect]!.innerText();
-        return this.extractName(selectedText);
-      }
-      throw new Error(`Product index ${productToSelect} is out of bounds`);
+      await dropdown.selectOption({ index: productToSelect });
+      const selectedOption = dropdown.locator("option").nth(productToSelect);
+      const selectedText = await selectedOption.innerText();
+      return this.extractName(selectedText);
     } else {
       await dropdown.selectOption({ label: productToSelect });
       return productToSelect;
@@ -200,7 +197,7 @@ export class AddNewOrderModal extends SalesPortalPage {
     }
     const productName = this.extractName(productText);
 
-    await chosenProduct?.click();
+    await dropdown.selectOption({ index: randomIndex });
     return productName;
   }
 
@@ -231,7 +228,7 @@ export class AddNewOrderModal extends SalesPortalPage {
     }
     const productName = this.extractName(productText);
 
-    await chosenProduct?.click();
+    await this.productDropdown.selectOption({ index: randomIndex });
     return productName;
   }
 

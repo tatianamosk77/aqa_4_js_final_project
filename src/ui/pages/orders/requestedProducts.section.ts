@@ -12,6 +12,9 @@ export class RequestedProductsSection extends SalesPortalPage {
   readonly productRows = this.dataContainer.locator(".accordion-header");
   readonly productStatuses = this.dataContainer.locator(".received-label");
   readonly expandedProductContainers = this.dataContainer.locator(".show");
+  readonly receiveButton = this.uniqueElement.locator("#start-receiving-products");
+  readonly saveReceivedProductsButton = this.uniqueElement.locator("#save-received-products");
+  readonly productCheckboxes = this.dataContainer.locator("input[type='checkbox']");
 
   @logStep("Click edit products button in the order")
   async clickEditProducts() {
@@ -226,5 +229,31 @@ export class RequestedProductsSection extends SalesPortalPage {
     }
 
     return customerInfo;
+  }
+
+  @logStep("Start receiving products")
+  async startReceivingProducts() {
+    await this.receiveButton.click();
+  }
+
+   @logStep("Mark product as received")
+  async markProductAsReceived(indexOrName: number | string) {
+    const row = this.productRowBy(indexOrName);
+    const checkbox = row.locator("input[type='checkbox']");
+    await checkbox.click({ force: true });;
+  }
+
+  @logStep("Mark all products as received")
+  async receiveAllProducts() {
+    const count = await this.productRows.count();
+    for (let i = 0; i < count; i++) {
+      await this.markProductAsReceived(i);
+    }
+  }
+
+   @logStep("Save received products")
+  async saveReceivedProducts() {
+    await this.saveReceivedProductsButton.click();
+    await this.waitForSpinners();
   }
 }
