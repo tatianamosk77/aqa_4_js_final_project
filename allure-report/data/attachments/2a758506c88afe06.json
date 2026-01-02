@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:16:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2932",
+    "etag": "W/\"b74-N9na+en2dz/dcse9OGYugAsNWeE\"",
+    "keep-alive": "timeout=5, max=78",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695843aa1c508c5d5e771fd7",
+      "status": "Draft",
+      "customer": {
+        "_id": "695843a91c508c5d5e771fa7",
+        "email": "Elroy12@hotmail.com",
+        "name": "Ophelia Dameon",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 209,
+        "flat": 5801,
+        "phone": "+7618524661",
+        "createdOn": "2026-01-02T22:16:09.000Z",
+        "notes": "6FpQiVubCujKlmuZnHS6pH0dVSMSjHhqObrC6hqfWyssb8PHPeOWVgLnIsBMDfS4YnOL7v2NZlhSOvteEWcUutQFVuf1gixsrfKTZD8kTgKiQ9sfk8Oh0NR3ciwqrSxzX0GEDlyGS7Y3tIAxevpbZSbTCWZtfWrbCty2dZbPjoeg9yviY8Agcpr6piTyA7iur1nVXtWpg8Yu6Px5r0eG1vfdSjjsYdWhmQUGIHaEaz0VJ6GZReI5Y9gXp0"
+      },
+      "products": [
+        {
+          "_id": "695843aa1c508c5d5e771fb7",
+          "name": "Table91344",
+          "amount": 984,
+          "price": 89523,
+          "manufacturer": "Amazon",
+          "notes": "04MqbtDMwji0qMAMjWgyeoqHG7FmQK0XA9OMLph9fWGq0oa0kmBA2PghsXk6KZ147waPhx2ZYT3buOD8WhFePQp6V8ScmsCGGzW7oPMLCh04IyMT8nQ6JXyjNhXLTexFr6CE8urRFCMjRMRZeaFhFVOyr4cn8Awhh80zJ5pCsuSSbwWQlhdJ2Th3wjtRucRDcTGdjQTKAptMSKrN9hGUBE8AACjQjn92odDVJqYOg6z68Wd9zhvKTUmEpF",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 89523,
+      "createdOn": "2026-01-02T22:16:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695843a91c508c5d5e771fa7",
+          "products": [
+            {
+              "_id": "695843aa1c508c5d5e771fb7",
+              "name": "Table91344",
+              "amount": 984,
+              "price": 89523,
+              "manufacturer": "Amazon",
+              "notes": "04MqbtDMwji0qMAMjWgyeoqHG7FmQK0XA9OMLph9fWGq0oa0kmBA2PghsXk6KZ147waPhx2ZYT3buOD8WhFePQp6V8ScmsCGGzW7oPMLCh04IyMT8nQ6JXyjNhXLTexFr6CE8urRFCMjRMRZeaFhFVOyr4cn8Awhh80zJ5pCsuSSbwWQlhdJ2Th3wjtRucRDcTGdjQTKAptMSKrN9hGUBE8AACjQjn92odDVJqYOg6z68Wd9zhvKTUmEpF",
+              "received": false
+            }
+          ],
+          "total_price": 89523,
+          "delivery": null,
+          "changedOn": "2026-01-02T22:16:10.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "695843a91c508c5d5e771fa7",
+          "products": [
+            {
+              "_id": "695843aa1c508c5d5e771fb7",
+              "name": "Table91344",
+              "amount": 984,
+              "price": 89523,
+              "manufacturer": "Amazon",
+              "notes": "04MqbtDMwji0qMAMjWgyeoqHG7FmQK0XA9OMLph9fWGq0oa0kmBA2PghsXk6KZ147waPhx2ZYT3buOD8WhFePQp6V8ScmsCGGzW7oPMLCh04IyMT8nQ6JXyjNhXLTexFr6CE8urRFCMjRMRZeaFhFVOyr4cn8Awhh80zJ5pCsuSSbwWQlhdJ2Th3wjtRucRDcTGdjQTKAptMSKrN9hGUBE8AACjQjn92odDVJqYOg6z68Wd9zhvKTUmEpF",
+              "received": false
+            }
+          ],
+          "total_price": 89523,
+          "delivery": null,
+          "changedOn": "2026-01-02T22:16:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337ce1c508c5d5e95335d",
+        "username": "student14@gmail.com",
+        "firstName": "Bill",
+        "lastName": "Schuppe",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:26"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

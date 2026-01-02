@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:16:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "557",
+    "etag": "W/\"22d-TM/LkixvarSSsnmSQUS8UbkpnRg\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Eriberto.Gislason82@yahoo.com",
+      "name": "Garth Sydni",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 339,
+      "flat": 1737,
+      "phone": "+3060838969",
+      "createdOn": "2026-01-02T22:16:18.000Z",
+      "notes": "c2WYI7am3oolntujPkhhyNMjlB8a9M6HNgRtQKq0MwQPAHtjlMjhX0mSYbiqiEBk5R2uc3O06W3cJJQ76ZmwUgGhippwQiQfr1c9SNUufHS0xs9CO1rmQAcrjrVBQ1ba1uO7OkvGzsRFDU6YZL0SJae344cbP7fluSIADjjcjfq9FstzvbfqMnLEWaE9V28FBc932a5XLQfnYuIYbNz6boIzGA6ZK9msO0xoas4bPmn9XA8fl54Ws7kawe",
+      "_id": "695843b21c508c5d5e772433"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:19:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-iYEI8MxeJX9CKdDYIxZ/u50l1KY\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Mathilde34@yahoo.com",
+      "name": "Emiliano Pietro",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 337,
+      "flat": 5728,
+      "phone": "+8539835326",
+      "createdOn": "2026-01-02T22:19:10.000Z",
+      "notes": "n1WQg1mY4ynDY14OVXifwbbE0bHJ4riiPXx3H8egx2onHF6FRmIFl74yswZpralYaTpO9Og7ezgKPCVXjIspbXLfhOtWLkUpPiWQXwGoZvIIRpcN8Lrmv6Ip6M8zYozh9PgYCE7SB8sJj09Kl3CuDf6MMKGHjUn6FiLT7sdOdFOytLUPiu4i35bvPRIH5MZ7HIjDClA8Lxo9rLYfbq7nXawtkDuk009FSbzVSZH08SVDPTRGdpCmSVNTq9",
+      "_id": "6958445e1c508c5d5e7787b2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

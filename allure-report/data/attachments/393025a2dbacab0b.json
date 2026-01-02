@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:19:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-SsrrUkvCvalMeqF65cINsPsNOuA\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Eleazar.Lind@gmail.com",
+      "name": "Rory Elijah",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 277,
+      "flat": 959,
+      "phone": "+4530376494",
+      "createdOn": "2026-01-02T22:19:10.000Z",
+      "notes": "7mKYXnCT2nem6dHErDnAPKecKHNLLKN538i8UDg14fq2Fxra1BnPoajCaHFdHiG65a67XTO9UUORqK9SWg03GXt9ZRotYaarCCBrSqWPMrJxrmyAmbk4NPgalhz4QcbthhZhhN6j05cKgkUCoCKjFEJfaiiaofI3Ygo73ZKxhNCT0Rl1CQHByzFCIWD45FncFxhs0zxdQrZ31bStc2PVPGFLMNTwwCzZ9NWfhH7nU8SiB90cXotbrxQG6m",
+      "_id": "6958445e1c508c5d5e7787b0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

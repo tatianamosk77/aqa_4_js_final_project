@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:18:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-BpIs4RxNfPhgZPVKwBbQGO7Ie58\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Misty.Kuhlman@yahoo.com",
+      "name": "Carson Omer",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 159,
+      "flat": 9364,
+      "phone": "+5615109081",
+      "createdOn": "2026-01-02T22:18:37.000Z",
+      "notes": "Gk4p5kcQ25eg3FHlYWhJ3g6utTkkyaZAFZN7e6Dy0GpmDrvtLy2VnGqmLRUWaNUDpP630rmdnHHxKa0BNlPd1qdlVmDL4sxJMGmnmgNmXFDjKMLGNxmRd38AjMiyGtmldu6CKoTvoFjxXoZa1al0NxkD2nHwybX45mK08OVC284rdGif4dlohDdoI9uN15wsNrHnjz2Ym9ZC821ASsRWBqTTBr6k6JprvSFnIzicT0EQDvUdgtujX43cFz",
+      "_id": "6958443d1c508c5d5e77773a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

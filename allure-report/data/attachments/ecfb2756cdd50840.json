@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:16:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-kdHkEiDh9s4womvYFpxiy7zePXg\"",
+    "keep-alive": "timeout=5, max=70",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695843b21c508c5d5e77240a",
+        "email": "Jeramie.Ryan5@hotmail.com",
+        "name": "Eleanora Amely",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 614,
+        "flat": 6453,
+        "phone": "+4357757999",
+        "createdOn": "2026-01-02T22:16:18.000Z",
+        "notes": "FW1HyfLwUgefk4EPORjnZbWvCLQ0QUropc3MZMf2UuJEvUkYWL67BQASDWKeM9qdHsFirksuhxPpGDicC6JvpVlpxlGNoTFK5aV2onjVeU6DqHe8X9RZfWklc5vfjSoTfJ9X0YMx1yposf8lZ772eH8YQCtnUqzbLsXjybISUgCEDaYAYTSnrImvvyb6gntMeNlOfv8V49Xn99UtQVYhoAfZXxGV9TrHZ2AxxHFvcHvqizj7dfyM2AqERw"
+      },
+      "products": [
+        {
+          "_id": "695843b21c508c5d5e772414",
+          "name": "Gloves42216",
+          "amount": 712,
+          "price": 83881,
+          "manufacturer": "Samsung",
+          "notes": "Ggr5iltGHVG88iHvr7TRiNHUshadSGl9xt0CT9Hgc4txRheFM5to60bSpt4gtkcTwNpUC9D7oVLjXnfzbpE2VAJu0m51ccWV6CbSzOImQEaw8lWDssKazpOo55I1IpnIAFbswRy5ZNn0ttFBW0xbsARnqyNmh0e5m766JND2oosRVE07qxEffLbYl6O4cv8o31XsprGEIN0PWC0MYScdrgYj4AvqAEnn7Gk7RJCQV9xNBm6AQP1gC5UQnK",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 83881,
+      "createdOn": "2026-01-02T22:16:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695843b21c508c5d5e77240a",
+          "products": [
+            {
+              "_id": "695843b21c508c5d5e772414",
+              "name": "Gloves42216",
+              "amount": 712,
+              "price": 83881,
+              "manufacturer": "Samsung",
+              "notes": "Ggr5iltGHVG88iHvr7TRiNHUshadSGl9xt0CT9Hgc4txRheFM5to60bSpt4gtkcTwNpUC9D7oVLjXnfzbpE2VAJu0m51ccWV6CbSzOImQEaw8lWDssKazpOo55I1IpnIAFbswRy5ZNn0ttFBW0xbsARnqyNmh0e5m766JND2oosRVE07qxEffLbYl6O4cv8o31XsprGEIN0PWC0MYScdrgYj4AvqAEnn7Gk7RJCQV9xNBm6AQP1gC5UQnK",
+              "received": false
+            }
+          ],
+          "total_price": 83881,
+          "delivery": null,
+          "changedOn": "2026-01-02T22:16:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695843b21c508c5d5e77243f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

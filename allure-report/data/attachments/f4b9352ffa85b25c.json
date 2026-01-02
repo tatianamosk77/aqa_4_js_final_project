@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:15:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "557",
+    "etag": "W/\"22d-Ebe4YLxQoGYtjquSlGmkzi7tqms\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Sandra.Auer97@hotmail.com",
+      "name": "Mauricio Tessie",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 554,
+      "flat": 3264,
+      "phone": "+5610807168",
+      "createdOn": "2026-01-02T22:15:48.000Z",
+      "notes": "HyHLUbsSD6Snih0iUFvYv1t7Gyrdpik4GHbLBRYDitV1ff4CHuqQaZ1ASi8RFZxRsvUrjT8jSYTQaqIE6gCEAWDcEXuQIP7ODnw3qyKNcQe6MaT6TfG2DMDNDKHcGi5Eqtma07Q1YMSK337tX2r2ZPzb0uAObw43wkEyqwwqN1up9MXxxrqubQj7i12TIBABDyJBV6ILdYnhGU0vceW6fuFR4hb6JlQm5FPWqDj7WTD8FuAvhMh4LoXfcz",
+      "_id": "695843941c508c5d5e771530"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

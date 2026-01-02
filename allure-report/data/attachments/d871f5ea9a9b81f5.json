@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:16:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "196",
+    "etag": "W/\"c4-NOojrj/veONLQTps5zBNYjzYQiI\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Sausages84508",
+      "amount": 336,
+      "price": 1722,
+      "manufacturer": "Samsung",
+      "createdOn": "2026-01-02T22:16:29.000Z",
+      "_id": "695843bd1c508c5d5e772a31"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

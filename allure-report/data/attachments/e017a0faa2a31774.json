@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:15:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "551",
+    "etag": "W/\"227-PgPZKUMYZRTn9uszZF+vjf+nH1g\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Francesco75@hotmail.com",
+      "name": "Aurelie May",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 235,
+      "flat": 4993,
+      "phone": "+0843920023",
+      "createdOn": "2026-01-02T22:15:49.000Z",
+      "notes": "wHAmhmBJSDyT0DCbmEqM2ZnDfLWUc9uCHTu3vDmGLyEN5zWBB92bn69wDq0Ohu5iXHR5hWJgLdhA0nPojAjE6ccPuezlh6unmLpaYgj1xsbHL5pMgNSHWFh8zgO65w4nlRgFie9twGeXSPvvdC93Ke9vyVY9fjoHm5DaAKCEKXmlZ9ELZDDwyyv5mQaqBeV3PV8cRiQPBU1hdrS3ZPBzwEHupuUtahXsvd9lP1bZ1tEgSMLc3k7UJxdLUm",
+      "_id": "695843951c508c5d5e7715e9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

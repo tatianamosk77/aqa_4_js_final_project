@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:18:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-90xQ2u6cwwbNP0MLZF3MCQE0fhA\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Mona.Boyle@yahoo.com",
+      "name": "Ivy Chaim",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 228,
+      "flat": 9940,
+      "phone": "+0110123597",
+      "createdOn": "2026-01-02T22:18:38.000Z",
+      "notes": "JonhPKdMIvJ7sIKgWkxf1vlV66FeXE0p7Abw1h1uFFGOZxCGpS0wLQUfpgyfyqOToOJFGBNTlbITX7TH7eYouCAAYaqZmEKjKTDYoraYCwgTCfEwfJE1YTuLUnSHSmMJzg7kjq7nyBwWsoRAIqYTVgPM8The6KIcN8WUiwDp8Jztl7N3FRKa0i4y9FrVw5v20Er0qdPslTKj6eD9ypnI9NlecAwlRZmb1KAgUAKV5mnqJXln5D4kx6osvN",
+      "_id": "6958443e1c508c5d5e77776f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

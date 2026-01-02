@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:18:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-mQcnAeryjJkM+7JhQx1QCvUv63c\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Taylor44@hotmail.com",
+      "name": "Aylin Zane",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 502,
+      "flat": 8681,
+      "phone": "+5193927592",
+      "createdOn": "2026-01-02T22:18:37.000Z",
+      "notes": "8Ai7S6w7mK5juu4wyTM1ZBMvW7wu14tmDAHhYFq9bxaTzNqUDDFjMIEmpFRD3WY6ISAIvx7pcvS7KXjIIQqK21DfUqhklzkM2eoRxNhdvEMb45OaTGX9PiP16qernKgZkObouzY75YwL55FIZL84FNfTCi0LK6FrNcVB6lr09vv25tL95UOFkbKjFn8VNzMXOfBUV6VqJhmrW4DKLGxHPzKtXEm2xHfMfHGYj5a9h7tkFUcrWlbwN406Vn",
+      "_id": "6958443d1c508c5d5e77773c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:15:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1876",
+    "etag": "W/\"754-MU8dhBNwhfSaDtJj+X6Y1RYYk4A\"",
+    "keep-alive": "timeout=5, max=76",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6958439b1c508c5d5e771828",
+        "email": "Alisa_Krajcik73@hotmail.com",
+        "name": "Eriberto Jacey",
+        "country": "France",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 856,
+        "flat": 6683,
+        "phone": "+7300549862",
+        "createdOn": "2026-01-02T22:15:55.000Z",
+        "notes": "7xbL8JEJmWEexJ9dFqLYW53pJywQsU2aGmcETAOlghEfZzXqk5N2M8hE2barvZ82UryjXGVQQ9SohEArD3bXrcCFhLTvE2DLMzDDxGigVKExnb5bzFf3vrA2c4pDlVqnUSOWJt45rnimwwQEJ9XawtTvAobxV90bfk0841RxAZALHVPmpjebs6IuH8RccGPQhJrOLkdKovB7jzADJVAti3Pyu0nIE0EZAvGbxh3x550DSH0AhQNDecZZhw"
+      },
+      "products": [
+        {
+          "_id": "6958439b1c508c5d5e7718c2",
+          "name": "Soap64838",
+          "amount": 22,
+          "price": 58511,
+          "manufacturer": "Amazon",
+          "notes": "Mea1DEC4gkCxoAf7StMZUQLoUbmaqnaNYw1iCKXkgyGtWhVY3D2qurmzwN4NuKYU5sbByWwKDzuVB7BkSok7le9c8EdM49xCNQmk097deH29yuAZcOhQPRw40iMYlFVDLJNZai3s7xXrFECwCuMv5o61YzCwYsdVUksNMTcOmTdsFsh6szAOY60nUmj9aOehvwL3UuNpwLRGFRMF0goDUB2MGM1WAkQ68j08Y4KItdC55I8mPHTkOeJ7Cl",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 58511,
+      "createdOn": "2026-01-02T22:15:56.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6958439b1c508c5d5e771828",
+          "products": [
+            {
+              "_id": "6958439b1c508c5d5e7718c2",
+              "name": "Soap64838",
+              "amount": 22,
+              "price": 58511,
+              "manufacturer": "Amazon",
+              "notes": "Mea1DEC4gkCxoAf7StMZUQLoUbmaqnaNYw1iCKXkgyGtWhVY3D2qurmzwN4NuKYU5sbByWwKDzuVB7BkSok7le9c8EdM49xCNQmk097deH29yuAZcOhQPRw40iMYlFVDLJNZai3s7xXrFECwCuMv5o61YzCwYsdVUksNMTcOmTdsFsh6szAOY60nUmj9aOehvwL3UuNpwLRGFRMF0goDUB2MGM1WAkQ68j08Y4KItdC55I8mPHTkOeJ7Cl",
+              "received": false
+            }
+          ],
+          "total_price": 58511,
+          "delivery": null,
+          "changedOn": "2026-01-02T22:15:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6958439c1c508c5d5e7718ed"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

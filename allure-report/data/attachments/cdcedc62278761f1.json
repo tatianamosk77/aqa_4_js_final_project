@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:16:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1871",
+    "etag": "W/\"74f-aVLZWCtC2QllsNpSSMTJMS+fhB0\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695843a51c508c5d5e771d7b",
+        "email": "Julia.OKon@gmail.com",
+        "name": "Mustafa Polly",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 232,
+        "flat": 4701,
+        "phone": "+0814728121",
+        "createdOn": "2026-01-02T22:16:05.000Z",
+        "notes": "hlIh9Syanp8qEIDGELlOyMH5o8KBdhc74qnHxMpdcIDjJuM0SaZ2RYrADeZh3qNeKSz3EIhWSMPFMD8w2jMLW7GNPCiHO3A9Y6MWRS2z4SvZTJhzrRsvKHHJH23AJAOK9EkZMAhVdIQA2BQT239XkmvzY1eKewNE7ymid4AvJK22ZC1UgdytblAIDnMI9EF4HqmvZ1GvrBk12q8lCxS0Rsq5HIHrprCw5eCEN98QV6qjnaRGFa7lgP7qIr"
+      },
+      "products": [
+        {
+          "_id": "695843a51c508c5d5e771d89",
+          "name": "Table69987",
+          "amount": 469,
+          "price": 48317,
+          "manufacturer": "Samsung",
+          "notes": "pjoR2tNMLDvc0bGptoCdFKXPxvcahrL5C1FU4rqLatYVdgUwEJGwxxlhLOm8RKBQjzFQVIM1XOX0wRbGB0McmYMRfHNinjTXgFZHdNGUC9Majgjb6vj1daJn4dhiaHxz5IiD0mEGoUtqgIcrhErWgM64k8QzmvtcnArRigOggmUnqwNb0vEYH5jl6O9mI7oTVgRqiFaFA0nJSdNeBBoX8nVGwz7O6iGeklm3WVWKMrsJGhXEXVmBA9scOP",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 48317,
+      "createdOn": "2026-01-02T22:16:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695843a51c508c5d5e771d7b",
+          "products": [
+            {
+              "_id": "695843a51c508c5d5e771d89",
+              "name": "Table69987",
+              "amount": 469,
+              "price": 48317,
+              "manufacturer": "Samsung",
+              "notes": "pjoR2tNMLDvc0bGptoCdFKXPxvcahrL5C1FU4rqLatYVdgUwEJGwxxlhLOm8RKBQjzFQVIM1XOX0wRbGB0McmYMRfHNinjTXgFZHdNGUC9Majgjb6vj1daJn4dhiaHxz5IiD0mEGoUtqgIcrhErWgM64k8QzmvtcnArRigOggmUnqwNb0vEYH5jl6O9mI7oTVgRqiFaFA0nJSdNeBBoX8nVGwz7O6iGeklm3WVWKMrsJGhXEXVmBA9scOP",
+              "received": false
+            }
+          ],
+          "total_price": 48317,
+          "delivery": null,
+          "changedOn": "2026-01-02T22:16:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695843a61c508c5d5e771da7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

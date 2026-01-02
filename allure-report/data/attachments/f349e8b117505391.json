@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:16:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-jRA7TPci9C26Mxs+kxTgO+nr4uU\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695843b21c508c5d5e772435",
+        "email": "Terence_Balistreri@gmail.com",
+        "name": "Pansy Liza",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 415,
+        "flat": 4903,
+        "phone": "+8497460384",
+        "createdOn": "2026-01-02T22:16:18.000Z",
+        "notes": "WkjT8mMrSMgakye7SvXBKBRv346pIzbza5CuYTbTFwKnMZ05jDzcodk59awBERYvasP81l9fDBQibi443Z7PYs6bl65UjrtQkrBxb0wYQ5Wa3d4JMJzjA0z41imvgNL4FIzMbXBONwTsxi3eH659qzqQZd2LSIgJbeEW4ZtjIGgzRaRtP5d3y45jphXvWrT2T4m9AAqveMGiYZcAFLJI8Z1QLmXZHhvX1ITvEWTp5HdJhQ9VEfTM2s23Ed"
+      },
+      "products": [
+        {
+          "_id": "695843b21c508c5d5e77242d",
+          "name": "Salad30804",
+          "amount": 201,
+          "price": 36978,
+          "manufacturer": "Microsoft",
+          "notes": "XYNlsv5L4dMfEiMgS8smvyAHjgl5BQUOyHo4Kg3IHnp9bD0w4aVlO1aHw9QnP4P9rjwuAUZ9FJ8WNMlfAf9xLhgFuYjMgly1iI9PAU0f4RpVIlj78j51Bqz4ZKZ42qiVXyKo3pKaRWW7VQLABViSEr8zecSomNlfVikZllL0Dkk3QLtKeWPagxfHQQYx5iO0RgJ25ciJwA1DxJcEGHwX1crfxO5Aww8MKrTPtSn3ZlUJkz3V7c4PgXzcXo",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 36978,
+      "createdOn": "2026-01-02T22:16:19.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695843b21c508c5d5e772435",
+          "products": [
+            {
+              "_id": "695843b21c508c5d5e77242d",
+              "name": "Salad30804",
+              "amount": 201,
+              "price": 36978,
+              "manufacturer": "Microsoft",
+              "notes": "XYNlsv5L4dMfEiMgS8smvyAHjgl5BQUOyHo4Kg3IHnp9bD0w4aVlO1aHw9QnP4P9rjwuAUZ9FJ8WNMlfAf9xLhgFuYjMgly1iI9PAU0f4RpVIlj78j51Bqz4ZKZ42qiVXyKo3pKaRWW7VQLABViSEr8zecSomNlfVikZllL0Dkk3QLtKeWPagxfHQQYx5iO0RgJ25ciJwA1DxJcEGHwX1crfxO5Aww8MKrTPtSn3ZlUJkz3V7c4PgXzcXo",
+              "received": false
+            }
+          ],
+          "total_price": 36978,
+          "delivery": null,
+          "changedOn": "2026-01-02T22:16:19.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695843b31c508c5d5e7724a9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

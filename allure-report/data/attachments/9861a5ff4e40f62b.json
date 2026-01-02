@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:16:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-R08AZzlVfExxcc4S7mPyQAEIKmQ\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Nathen.Douglas8@yahoo.com",
+      "name": "Jeramy Orpha",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 564,
+      "flat": 5820,
+      "phone": "+2095282935",
+      "createdOn": "2026-01-02T22:16:11.000Z",
+      "notes": "alZAbsSe5sVRwlnZixyjfPFH54qZV2OAAmFbsgvWjsBG3h3BBG43OhotSLkAl9DtgjR3TWEXrEWOZ2ZHEewjWOToQ9XKoESpa4uzwAI4Jz7x2GrslV49lFDCxmaIIfvtWDNs6JHhhQFGdJnxX7rVPZ2D6xgIIvpUjJGFRjpRhadwN6nOCvYJZDqDYlZyxtI6hA3ZLLPLDzHkCxnB1wmZyzxHM6ew38EoecKgHcaVrUDWN010ny9xuXnVDo",
+      "_id": "695843ab1c508c5d5e772059"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

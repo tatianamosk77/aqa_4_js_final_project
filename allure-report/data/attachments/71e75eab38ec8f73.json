@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:16:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-ynZqmmsFAZznpP8ASgLy45C21MU\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Vergie80@gmail.com",
+      "name": "Scotty Rahul",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 439,
+      "flat": 1921,
+      "phone": "+4777394601",
+      "createdOn": "2026-01-02T22:16:58.000Z",
+      "notes": "59qFEJQi7Byf6ydOMytiRr7Cb6WloiBAwblZounMjrscNNhH8HdQFCOf1UFuvqUrrWTocyX4QubDoJKVJJIiCJhTsUsdbXKdMEugalSS9D2GJyFQAVFGHlFzzOOdC780BMakkTfmMJogBtUjJ2KretUPTqothvnXFWSeBZbrBxCBcafEe1XwwPTKiv5cRUpt5VROZ6ZpDxtLlKADcJppOfyY2VmXwnhHcKjWAUWl3mYEwKPLfDgKzdpyek",
+      "_id": "695843da1c508c5d5e773a29"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

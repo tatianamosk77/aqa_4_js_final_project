@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:19:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "553",
+    "etag": "W/\"229-O9oDBwvVMrivEfF61cDwBTAr85c\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Gabriella_Runolfsson37@gmail.com",
+      "name": "Regan Orrin",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 180,
+      "flat": 4705,
+      "phone": "+5427827630",
+      "createdOn": "2026-01-02T22:19:10.000Z",
+      "notes": "7CEEeoCDGJHpJNk3w3CxCzWCsKLIGqeKrWmrMN4hzmgkBFt6vso9vMEMlht8vKl9p6yJilk4KZeVUgZVTq1BDVyVAjejL8JvNq5CYB8uVgWFkUW0zKXGIgbB3XyB1UHp38HdXd4o6CspPYrsjFHu7Yyz2YhEu2eV4yDS77oTXqTwxkkpgwX5wXktjF3duAAPLzABtuIWUABpkoZDDvyBb1mHRl7TBGIpRgEfjBL2WA6m9zEfGhiwAtmc3s",
+      "_id": "6958445e1c508c5d5e7787ac"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

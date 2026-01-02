@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:15:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-gMI3hpGCa/DvoyeCkQ1Dd7ZdV5o\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Fiona_Kautzer4@gmail.com",
+      "name": "Aleen Janice",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 941,
+      "flat": 8057,
+      "phone": "+8377664372",
+      "createdOn": "2026-01-02T22:15:53.000Z",
+      "notes": "bKabZQ5n0b7P6jpqz0pba1kKZqwU80vq9wP7Ax7GshIojjBkvmOoKN5ZU0J11B3G5e6q4a79WOe613A8hEtxfcOSpYFpr7IiWhD5Y3EiyKHrgItytiE76an5giAlwZN8ry1GInqdXShXy6LiZudFyutBd7zdD1dZ2S9dEAH8a0Nxc8lA9e5zozEnsMGrk6Ne6FBw3ovSDP28qqJnPG7EMQ1Omwv5K9UX4om9QpdTblP3I211qDn0eH3TSq",
+      "_id": "695843991c508c5d5e771773"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:15:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "297",
+    "etag": "W/\"129-aV+ntEElNjvteDlTYcRHiNOdF1I\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Yazmin_Hessel16@gmail.com",
+      "name": "Crawford Leonardo",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 51,
+      "flat": 7496,
+      "phone": "+9600772525",
+      "createdOn": "2026-01-02T22:15:43.000Z",
+      "_id": "6958438f1c508c5d5e771329"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

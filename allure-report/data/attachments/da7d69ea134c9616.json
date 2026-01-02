@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:16:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1879",
+    "etag": "W/\"757-CB745esk19X5M9PtBUa63ojtfMA\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695843ac1c508c5d5e772088",
+      "status": "Draft",
+      "customer": {
+        "_id": "695843ab1c508c5d5e77205b",
+        "email": "Reginald.Corkery@gmail.com",
+        "name": "Lowell Emelia",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 508,
+        "flat": 5184,
+        "phone": "+7240494208",
+        "createdOn": "2026-01-02T22:16:11.000Z",
+        "notes": "ihVvcxHiJwNMDRVyuHWfMehPYtJBtmrvrEdWhix2ZlEl0JSeEfXOZ8fLCcVdW64ForXVGm5viug483epKKzO6atbJ5ck6tpaYxH9hTPpqZdAS8mlt7XLnP9vQraO0CDyWoToLWK0WprJQosLnrzmXqQCfatNoQCkwyVjc5nJ1m2aO7I4WNy9iqJCyOq3MBmWTUSNr8YV4MmieMQHCjSt9WbuxcqgFL4PyyzS2PsqithEqkiBa5d2S3UzzX"
+      },
+      "products": [
+        {
+          "_id": "695843ab1c508c5d5e772061",
+          "name": "Chips46276",
+          "amount": 776,
+          "price": 13651,
+          "manufacturer": "Google",
+          "notes": "VPaud5xYlDJh42yJ4r8XOQqBa6k8NOCrVAKRDp7jEKQijqJw24DyaxWVr2ZDY8KAWK5sH5dER5uwUlWe6qXKbP0SvBi1ELU0lMIq4rU7ao0yW9rOXSsA5ksLztsvshfFD49GTPjYjivW18XkxCNVBOtE71Tz3TNmuu5GcCUIPzGaBJeiZpq5gcfCMzP7p6x37RKHuDqgpcUYYwy6c7Ee0ZQD9Lbx5mGRoLBQ2qbZBdyiPzrVpFT0Onte5u",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 13651,
+      "createdOn": "2026-01-02T22:16:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695843ab1c508c5d5e77205b",
+          "products": [
+            {
+              "_id": "695843ab1c508c5d5e772061",
+              "name": "Chips46276",
+              "amount": 776,
+              "price": 13651,
+              "manufacturer": "Google",
+              "notes": "VPaud5xYlDJh42yJ4r8XOQqBa6k8NOCrVAKRDp7jEKQijqJw24DyaxWVr2ZDY8KAWK5sH5dER5uwUlWe6qXKbP0SvBi1ELU0lMIq4rU7ao0yW9rOXSsA5ksLztsvshfFD49GTPjYjivW18XkxCNVBOtE71Tz3TNmuu5GcCUIPzGaBJeiZpq5gcfCMzP7p6x37RKHuDqgpcUYYwy6c7Ee0ZQD9Lbx5mGRoLBQ2qbZBdyiPzrVpFT0Onte5u",
+              "received": false
+            }
+          ],
+          "total_price": 13651,
+          "delivery": null,
+          "changedOn": "2026-01-02T22:16:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:15:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4138",
+    "etag": "W/\"102a-NgmQ99FQk+t4ATt3UCGNAk22SVQ\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Orders": [
+      {
+        "_id": "695843951c508c5d5e771593",
+        "status": "Draft",
+        "customer": "695843941c508c5d5e771530",
+        "products": [
+          {
+            "_id": "695843941c508c5d5e771574",
+            "name": "Sausages11380",
+            "amount": 166,
+            "price": 73612,
+            "manufacturer": "Apple",
+            "notes": "KZPkS9WttYZuwpsarm7iyQX3SQx6IR5yLT8idBuOEagcJfNk32qA3j7T9c8GSR1HrNaOU8vkDd0OXNFNmZRXg9KgKPfAXu7E3cDKMiurA4bqCcvd4GhMIsKmIxRQuoB736nLSteZKeJ23RbZa6jlkRQCXAvlYmtJVGDWN1pql6NVNlAyM4yNRArASE02ApuMFBlbObbqoyYUUQY4JavxqLAsQVNlZF6X6YCxoSuF04688Bwtk6rLrr0eWX",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 73612,
+        "createdOn": "2026-01-02T22:15:49.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "695843941c508c5d5e771530",
+            "products": [
+              {
+                "_id": "695843941c508c5d5e771574",
+                "name": "Sausages11380",
+                "amount": 166,
+                "price": 73612,
+                "manufacturer": "Apple",
+                "notes": "KZPkS9WttYZuwpsarm7iyQX3SQx6IR5yLT8idBuOEagcJfNk32qA3j7T9c8GSR1HrNaOU8vkDd0OXNFNmZRXg9KgKPfAXu7E3cDKMiurA4bqCcvd4GhMIsKmIxRQuoB736nLSteZKeJ23RbZa6jlkRQCXAvlYmtJVGDWN1pql6NVNlAyM4yNRArASE02ApuMFBlbObbqoyYUUQY4JavxqLAsQVNlZF6X6YCxoSuF04688Bwtk6rLrr0eWX",
+                "received": false
+              }
+            ],
+            "total_price": 73612,
+            "delivery": null,
+            "changedOn": "2026-01-02T22:15:49.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337ce1c508c5d5e95335d",
+              "username": "student14@gmail.com",
+              "firstName": "Bill",
+              "lastName": "Schuppe",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:26"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      },
+      {
+        "_id": "695843951c508c5d5e7715af",
+        "status": "Draft",
+        "customer": "695843941c508c5d5e771530",
+        "products": [
+          {
+            "_id": "695843941c508c5d5e771574",
+            "name": "Sausages11380",
+            "amount": 166,
+            "price": 73612,
+            "manufacturer": "Apple",
+            "notes": "KZPkS9WttYZuwpsarm7iyQX3SQx6IR5yLT8idBuOEagcJfNk32qA3j7T9c8GSR1HrNaOU8vkDd0OXNFNmZRXg9KgKPfAXu7E3cDKMiurA4bqCcvd4GhMIsKmIxRQuoB736nLSteZKeJ23RbZa6jlkRQCXAvlYmtJVGDWN1pql6NVNlAyM4yNRArASE02ApuMFBlbObbqoyYUUQY4JavxqLAsQVNlZF6X6YCxoSuF04688Bwtk6rLrr0eWX",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 73612,
+        "createdOn": "2026-01-02T22:15:49.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "695843941c508c5d5e771530",
+            "products": [
+              {
+                "_id": "695843941c508c5d5e771574",
+                "name": "Sausages11380",
+                "amount": 166,
+                "price": 73612,
+                "manufacturer": "Apple",
+                "notes": "KZPkS9WttYZuwpsarm7iyQX3SQx6IR5yLT8idBuOEagcJfNk32qA3j7T9c8GSR1HrNaOU8vkDd0OXNFNmZRXg9KgKPfAXu7E3cDKMiurA4bqCcvd4GhMIsKmIxRQuoB736nLSteZKeJ23RbZa6jlkRQCXAvlYmtJVGDWN1pql6NVNlAyM4yNRArASE02ApuMFBlbObbqoyYUUQY4JavxqLAsQVNlZF6X6YCxoSuF04688Bwtk6rLrr0eWX",
+                "received": false
+              }
+            ],
+            "total_price": 73612,
+            "delivery": null,
+            "changedOn": "2026-01-02T22:15:49.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337ce1c508c5d5e95335d",
+              "username": "student14@gmail.com",
+              "firstName": "Bill",
+              "lastName": "Schuppe",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:26"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      },
+      {
+        "_id": "695843951c508c5d5e7715cb",
+        "status": "Draft",
+        "customer": "695843941c508c5d5e771530",
+        "products": [
+          {
+            "_id": "695843941c508c5d5e771574",
+            "name": "Sausages11380",
+            "amount": 166,
+            "price": 73612,
+            "manufacturer": "Apple",
+            "notes": "KZPkS9WttYZuwpsarm7iyQX3SQx6IR5yLT8idBuOEagcJfNk32qA3j7T9c8GSR1HrNaOU8vkDd0OXNFNmZRXg9KgKPfAXu7E3cDKMiurA4bqCcvd4GhMIsKmIxRQuoB736nLSteZKeJ23RbZa6jlkRQCXAvlYmtJVGDWN1pql6NVNlAyM4yNRArASE02ApuMFBlbObbqoyYUUQY4JavxqLAsQVNlZF6X6YCxoSuF04688Bwtk6rLrr0eWX",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 73612,
+        "createdOn": "2026-01-02T22:15:49.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "695843941c508c5d5e771530",
+            "products": [
+              {
+                "_id": "695843941c508c5d5e771574",
+                "name": "Sausages11380",
+                "amount": 166,
+                "price": 73612,
+                "manufacturer": "Apple",
+                "notes": "KZPkS9WttYZuwpsarm7iyQX3SQx6IR5yLT8idBuOEagcJfNk32qA3j7T9c8GSR1HrNaOU8vkDd0OXNFNmZRXg9KgKPfAXu7E3cDKMiurA4bqCcvd4GhMIsKmIxRQuoB736nLSteZKeJ23RbZa6jlkRQCXAvlYmtJVGDWN1pql6NVNlAyM4yNRArASE02ApuMFBlbObbqoyYUUQY4JavxqLAsQVNlZF6X6YCxoSuF04688Bwtk6rLrr0eWX",
+                "received": false
+              }
+            ],
+            "total_price": 73612,
+            "delivery": null,
+            "changedOn": "2026-01-02T22:15:49.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337ce1c508c5d5e95335d",
+              "username": "student14@gmail.com",
+              "firstName": "Bill",
+              "lastName": "Schuppe",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:26"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      }
+    ],
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

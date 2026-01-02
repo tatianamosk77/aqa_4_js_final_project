@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:16:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "210",
+    "etag": "W/\"d2-IG422kEQIbndWp9UZcRtU0OJ0Vw\"",
+    "connection": "close"
+  },
+  "body": {
+    "IsSuccess": false,
+    "ErrorMessage": "Incorrect request body",
+    "SchemaErrors": [
+      {
+        "instancePath": "/name",
+        "schemaPath": "#/properties/name/type",
+        "keyword": "type",
+        "params": {
+          "type": "string"
+        },
+        "message": "must be string"
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:18:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "535",
+    "etag": "W/\"217-L6CpIhh468fREMc2bZGfrGgv900\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Sibyl9@gmail.com",
+      "name": "Lily Jane",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 810,
+      "flat": 2273,
+      "phone": "+1521271067",
+      "createdOn": "2026-01-02T22:18:38.000Z",
+      "notes": "xK1a8Gw5L8czHvWO0dDulby0U3iIHpliQRkag86SDFqsHM4Tx41huODQU217be0e1sTMqHdFpSFuUbazVuvL5Oiq4TGVtnOvKzs8uMel7zHitJb1fI6SwAubZb3mEuZUGxKxsWsArUaIwmi1RfRm4vTUSqkF5Qt7FwrfI33mzaDGzgMoqrNInW1U1srYKcX7TqC8dvC58ABXMEzsawDBpBXDWlE4eoyXKbnbDWNnCg1jJAy9MQ9nypDqJ4",
+      "_id": "6958443e1c508c5d5e77776d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

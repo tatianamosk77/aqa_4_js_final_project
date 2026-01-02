@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:15:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "551",
+    "etag": "W/\"227-c6EYIKLYxPIgJOwZJKhQ2qKBPxU\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Nichole.Smitham36@yahoo.com",
+      "name": "Test Customer",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 570,
+      "flat": 3112,
+      "phone": "+9827866887",
+      "createdOn": "2026-01-02T22:15:40.000Z",
+      "notes": "960xEFlAYHLoiZ4wIscttDM9i8uHqtqaI6tYf9oizxFxWOe45753XJ6wPDf03Al4u1pfIGlezPL25p6l1tcPZko5s9xiTeGMwQzVQ0dKnbcdPY3PihFHkSeS6WRh5GSKCKhMVzOuadY0uA5uVQrso4plqwz3ykQx2NMAqrIvqiyvxqCd3BHdFaNLdTSiRbeNZiWLCfBhT09Zsx6MaFNhXYxOmL6TNCystI9P7ggS5GBLJyYTc1hLAB2ERY",
+      "_id": "6958438c1c508c5d5e771211"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

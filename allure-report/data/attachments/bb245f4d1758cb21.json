@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:16:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-jMK+YCqEs8dcUGFtiSGwECF/07s\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Elroy12@hotmail.com",
+      "name": "Ophelia Dameon",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 209,
+      "flat": 5801,
+      "phone": "+7618524661",
+      "createdOn": "2026-01-02T22:16:09.000Z",
+      "notes": "6FpQiVubCujKlmuZnHS6pH0dVSMSjHhqObrC6hqfWyssb8PHPeOWVgLnIsBMDfS4YnOL7v2NZlhSOvteEWcUutQFVuf1gixsrfKTZD8kTgKiQ9sfk8Oh0NR3ciwqrSxzX0GEDlyGS7Y3tIAxevpbZSbTCWZtfWrbCty2dZbPjoeg9yviY8Agcpr6piTyA7iur1nVXtWpg8Yu6Px5r0eG1vfdSjjsYdWhmQUGIHaEaz0VJ6GZReI5Y9gXp0",
+      "_id": "695843a91c508c5d5e771fa7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:18:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-7S9JNTdSFByxQzz9FLgL/2c9T2s\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Cale.Morissette80@yahoo.com",
+      "name": "Beryl Kayleigh",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 85,
+      "flat": 1817,
+      "phone": "+2323457430",
+      "createdOn": "2026-01-02T22:18:05.000Z",
+      "notes": "fdh3dketaQh3oD6ftoSuMY3wKhviSbUhBNlTsZcBgpcEo5HD56HtGHAbXUHpznS12ouhgJWnYWN0CWitb81dahoekuS8BBERYrInkHxdL69itsAYSrvgZhvq7xitCUukm3CJxu9rCO5nyDIKMAMZ3NZFFo5dT8daWx7eBeHe79i0r316K9SQjhn7IUPfPfTZWnHMaRRhoG44L8hPtY52vxyr1OfeqCdPo5vgm0anDbwljw8DVVCNx66RH5",
+      "_id": "6958441d1c508c5d5e776367"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

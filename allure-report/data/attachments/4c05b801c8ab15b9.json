@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 22:16:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1884",
+    "etag": "W/\"75c-QV9eFq3pn0TXvS18u8THDIpAzOM\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695843b21c508c5d5e772439",
+        "email": "Malcolm57@yahoo.com",
+        "name": "Austyn Angelica",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 479,
+        "flat": 8136,
+        "phone": "+3464048382",
+        "createdOn": "2026-01-02T22:16:18.000Z",
+        "notes": "3GTGsvVMrXxqjBpKkE6KCRctUObwdSKjDvtT3aF7fr583fcDgXOaX9n0yQr5Zra4i3AHXbx59Byaog3ZHEKYaNKifqQjvRkvLQ0dosH4DxfjvUixclFmBWDnRkG672lCoP3WJxiyi2n75FckdhZidfXeLBtwKhopGP7YO35twr9t3EO5mjWpDoCUJ0mSm0SN0D6mtFYxWEozj8lae7obkmFTgva9pntnwoE16QMNDqi3P4GI3DKq8NEnNI"
+      },
+      "products": [
+        {
+          "_id": "695843b31c508c5d5e772449",
+          "name": "Chicken16862",
+          "amount": 532,
+          "price": 52225,
+          "manufacturer": "Xiaomi",
+          "notes": "vDCPFiB2sfu4CXraH3k00qyr5izm4jzkBojOeBxXlftWHXwf8TUOOQMzaseON0a9cLBgONuxAz8YzMBLDEMNZ7DrwPBOYLCWW24sCn5bBb4ZDaRs4KPztQbAU0qJGomub6xcmVJUGPZ3fD8LSJXQW8rhh2bE3XES9hwL9PpPMUAQz3qAycAl6syAsGTeCnuapIeAwa32YbbHXnf1IYXPTtYnfB02uKl5SGU4Z0GDQ812GAdcymMpOwjAeQ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 52225,
+      "createdOn": "2026-01-02T22:16:19.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695843b21c508c5d5e772439",
+          "products": [
+            {
+              "_id": "695843b31c508c5d5e772449",
+              "name": "Chicken16862",
+              "amount": 532,
+              "price": 52225,
+              "manufacturer": "Xiaomi",
+              "notes": "vDCPFiB2sfu4CXraH3k00qyr5izm4jzkBojOeBxXlftWHXwf8TUOOQMzaseON0a9cLBgONuxAz8YzMBLDEMNZ7DrwPBOYLCWW24sCn5bBb4ZDaRs4KPztQbAU0qJGomub6xcmVJUGPZ3fD8LSJXQW8rhh2bE3XES9hwL9PpPMUAQz3qAycAl6syAsGTeCnuapIeAwa32YbbHXnf1IYXPTtYnfB02uKl5SGU4Z0GDQ812GAdcymMpOwjAeQ",
+              "received": false
+            }
+          ],
+          "total_price": 52225,
+          "delivery": null,
+          "changedOn": "2026-01-02T22:16:19.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695843b31c508c5d5e7724c4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
