@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 17:27:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-0tfE7obIrfhM+W2F5PoaA0uvvGs\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Eugene_Baumbach@gmail.com",
+      "name": "Caleigh Jaqueline",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 999,
+      "flat": 1134,
+      "phone": "+7109999175",
+      "createdOn": "2026-01-02T17:27:20.000Z",
+      "notes": "opRyn7KGjj5WjoHb4dusKcblAxKBlYEBCAoBbFRIx9jV6gXGU4iNAwlMBIWu934Gi0LYExn1c9Xrf0oX9IXKOyMcu6qGKoZsfSJlp7JOxlCjcx324oIStWX76WjKwxOa4sh651qhEUp07Xw1EwIdeDzJkpziYcxEQ6aA5SelzPAwd7BKdECv9cuhaY8TT5gCgrfsZe7DovObkoqQLlZn8YVA8UjQpXvcVo39qSghQWyTs133XQpZfhwkLx",
+      "_id": "6957fff81c508c5d5e70f158"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

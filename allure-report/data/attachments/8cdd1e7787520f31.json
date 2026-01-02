@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 17:29:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "539",
+    "etag": "W/\"21b-FrvIBL23ohvA8FNKZA68M8OAa1Q\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Julien34@hotmail.com",
+      "name": "Julian Zoe",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 33,
+      "flat": 6323,
+      "phone": "+6585368497",
+      "createdOn": "2026-01-02T17:29:35.000Z",
+      "notes": "76VxSwmI0toZOPPQsE85dA413HphTBVip9ikQU3YClXvqMzxL20qZOZQspM6a1JdePXAcT9KYORfU3BzZPom1Yn4FBNo26hdxCQDBvIfwpxbjRsizVfvYliIWsub26BXhjZxWA869XiGO9ugN8qx5J32fNSTUPCrxlJPJnMIZZsy8na0JCUceKEonwKfkWRJcNZQvMebvwrjbKQ1YpEco7Ni9B3lUcBhDZ5G7K8VrMWkp9CRUcHjalybCx",
+      "_id": "6958007f1c508c5d5e712360"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

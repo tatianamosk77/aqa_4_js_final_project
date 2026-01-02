@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 17:29:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "552",
+    "etag": "W/\"228-iYjYk1eWk4skDbMc1uSrtbeaWoo\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Leonard.Dibbert@hotmail.com",
+      "name": "Moriah Domenick",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 574,
+      "flat": 106,
+      "phone": "+9868486512",
+      "createdOn": "2026-01-02T17:29:50.000Z",
+      "notes": "xXk7hiO5643YSydsHnFhlQit3PcCvsMOXWPZbXjghvvKowkQYXKqFHsdpJqG2H3hCGBmfvFiEOsohMj7Urb8Cd4sc7Zz4cp6GqlhcRC7AxeuAXLyrsFHjPdm57XSALw4F6KgKqkqeC4pzgLloeXiXuyqxMR8R1CJ5kvZpzfSjk1EuOsvYD0dpSdo8JJBthv7Em1TlBJPYMgUGN1Ur3PUXFUS9xxFlUU7QiaicIDf039MehRvjRR12a9zqd",
+      "_id": "6958008e1c508c5d5e7125db"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

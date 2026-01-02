@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 17:26:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-intKqe+57a6jjlzGGHV8dY3xaf8\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Lambert_Harber@gmail.com",
+      "name": "Beaulah Elliot",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 230,
+      "flat": 1,
+      "phone": "+0418986037",
+      "createdOn": "2026-01-02T17:26:25.000Z",
+      "notes": "HEDfzmMWBQS772TloBG1EfRIfMuhagCHgD6bg67V7R7L0507T33zKCYw0j7Rd9OuqMpmuDa6jZWYwM9CJ8kJFugNypU9PHbgVQRIbRnEHTTqP2JEvnJvyjieRGOOwv9mOxuDqmMCd6RWeDGexeXpMUD7oZFkw9IveupVd8FCziQNgssPOFUxSbbhkhhGkmbwP36K1MrfnmoCCzxsJVThcxDslnQwQHkRLzgb4Sypz1TlTo3karWCIQb4iK",
+      "_id": "6957ffc11c508c5d5e70e8f0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

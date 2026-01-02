@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 17:27:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1982",
+    "etag": "W/\"7be-oc4rYAobI5Hs/6tJAxEqGZQdRFI\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695800041c508c5d5e70f2d7",
+      "status": "Draft",
+      "customer": {
+        "_id": "695800031c508c5d5e70f2b7",
+        "email": "Zion_Breitenberg82@gmail.com",
+        "name": "Damien Emil",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 978,
+        "flat": 4694,
+        "phone": "+4391024968",
+        "createdOn": "2026-01-02T17:27:31.000Z",
+        "notes": "oGW0DhUSLYAK374DSLm61aPoGrzJ8iwZmOLQMQffZn01Ub0uWgs7mrx2y80gm1kOhERn8DJ1xml5aSLJXVcupJAwS7XJ7xKxO63941ihSkR3KzYoSjjY9OTpPI04tHARrqLSVUNGD6O6xG81R7eg8pRapMZI4UNfYdmu3byeWTQS6pHtB9cl9O5WQvazSgOXKyRbZVuCrCiPh3QSa4jfC3oMbvc7PxveDTv5zbXLivhmW6NgDGCWr7aV5c"
+      },
+      "products": [
+        {
+          "_id": "695800041c508c5d5e70f2c1",
+          "name": "Soap34112",
+          "amount": 730,
+          "price": 67760,
+          "manufacturer": "Google",
+          "notes": "oFjKORrBUG2h8TsbRI2YkktnefPbz6jHIKifCJwTJGiRsAPkmNuuA7MgY3mC1Ryzj98xs33zoeYqTF3KAV1OmIh8hfi2INDahqBPouudZHjbOG2ps0Ur86Z6fROjkDXgchPyzcBIZ2BQIOMpoNnsodmvYEvb6bhwwW0SdC69GY3rAieotBVNCaSRMuyyKOTSrPgVhVf3D6f7W7eD9hLHSpKd5qieAhfXe1nOV6nlTYsu7cc8VxlfRvTo1I",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 67760,
+      "createdOn": "2026-01-02T17:27:32.000Z",
+      "comments": [
+        {
+          "text": "autotest comment",
+          "createdOn": "2026-01-02T17:27:32.000Z",
+          "_id": "695800041c508c5d5e70f2fd"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695800031c508c5d5e70f2b7",
+          "products": [
+            {
+              "_id": "695800041c508c5d5e70f2c1",
+              "name": "Soap34112",
+              "amount": 730,
+              "price": 67760,
+              "manufacturer": "Google",
+              "notes": "oFjKORrBUG2h8TsbRI2YkktnefPbz6jHIKifCJwTJGiRsAPkmNuuA7MgY3mC1Ryzj98xs33zoeYqTF3KAV1OmIh8hfi2INDahqBPouudZHjbOG2ps0Ur86Z6fROjkDXgchPyzcBIZ2BQIOMpoNnsodmvYEvb6bhwwW0SdC69GY3rAieotBVNCaSRMuyyKOTSrPgVhVf3D6f7W7eD9hLHSpKd5qieAhfXe1nOV6nlTYsu7cc8VxlfRvTo1I",
+              "received": false
+            }
+          ],
+          "total_price": 67760,
+          "delivery": null,
+          "changedOn": "2026-01-02T17:27:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

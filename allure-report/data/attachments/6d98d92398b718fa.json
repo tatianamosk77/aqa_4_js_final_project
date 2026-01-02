@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 17:27:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "554",
+    "etag": "W/\"22a-yEIYuN6SzbnMX5wwjhgyyBEtp54\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Quinten.Vandervort31@hotmail.com",
+      "name": "Darlene Devyn",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 39,
+      "flat": 4443,
+      "phone": "+9744971381",
+      "createdOn": "2026-01-02T17:27:30.000Z",
+      "notes": "t1bCzCUpYWfhuB8hLyvOGjBKdPL6aEH3u4xOp1gs6KQPfYSa2RVA0YIcCaCxIwX35Zgu8LUcK9X1EhzZRr7pIRzPsQoWtKHvW5Nl29UlfwZAvIljLV4RorKuql9t4CCobPfT9QNwhPB1RiZzlw8CuTecdPE9pychwCfJJ08UtxUuA41RcKeEwaaV0g6biUuKrV4EQnWEXfRGazCsm7JHdjh0jUyEsr8dACWy9ZpvQM8adNmgd3BpVWx7H1",
+      "_id": "695800021c508c5d5e70f293"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

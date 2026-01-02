@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 17:27:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1875",
+    "etag": "W/\"753-/N3GYrTHngkhBV1Z1jzmnhHKwvk\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695800171c508c5d5e70f9a0",
+        "email": "Scotty.Larson84@yahoo.com",
+        "name": "Macie Estelle",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 417,
+        "flat": 669,
+        "phone": "+0705498080",
+        "createdOn": "2026-01-02T17:27:51.000Z",
+        "notes": "09beU9Vpt7QFTgHr4IHL6zjZgCS12uFM9aLlDlgowtjVgcltszQARmKRuXYO9jLRJA7WxNdYMfHf1SyZn5JKKv4lO8G8L3MGg2azjaFeAK1RTzkVfReY6B425RX4iP0E845UrthwOJ7o5LuEZIidyq0cVWurWMHKdE3Rt8RlkT4M498RzdB4wZwaOjSSk9IeKOMIaA8uTeWh6LgAsGs1eCy0cMsR7dLicvDpGvSRYE0Y5AbRCAthCm8aKl"
+      },
+      "products": [
+        {
+          "_id": "695800171c508c5d5e70f9a7",
+          "name": "Tuna54177",
+          "amount": 807,
+          "price": 68802,
+          "manufacturer": "Google",
+          "notes": "Co2HJxwRonWTaHGEoQzVYFD8my8CQRK513htjYKRsasy08okLnB43fEcUilycn8cVPKzK1ro4SowNjf7UuaaN0Dp4V3WoM9Y2eDtpetQcaorS6GiQh2jACkz239cXHncfHaaAh6jUP70wiyLhDVdcpfR5jWGuQtmutfc7KGpwndRruoGnpQjtSAY4WhAYLEiFno6SkHPH7jKumybPICITtuF8r9h20Jp3laDEVB6Jthv7JTxykNKdlYDIY",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 68802,
+      "createdOn": "2026-01-02T17:27:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695800171c508c5d5e70f9a0",
+          "products": [
+            {
+              "_id": "695800171c508c5d5e70f9a7",
+              "name": "Tuna54177",
+              "amount": 807,
+              "price": 68802,
+              "manufacturer": "Google",
+              "notes": "Co2HJxwRonWTaHGEoQzVYFD8my8CQRK513htjYKRsasy08okLnB43fEcUilycn8cVPKzK1ro4SowNjf7UuaaN0Dp4V3WoM9Y2eDtpetQcaorS6GiQh2jACkz239cXHncfHaaAh6jUP70wiyLhDVdcpfR5jWGuQtmutfc7KGpwndRruoGnpQjtSAY4WhAYLEiFno6SkHPH7jKumybPICITtuF8r9h20Jp3laDEVB6Jthv7JTxykNKdlYDIY",
+              "received": false
+            }
+          ],
+          "total_price": 68802,
+          "delivery": null,
+          "changedOn": "2026-01-02T17:27:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695800181c508c5d5e70f9bf"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

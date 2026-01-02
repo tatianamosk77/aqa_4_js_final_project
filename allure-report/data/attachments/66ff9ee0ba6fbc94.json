@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 17:27:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "533",
+    "etag": "W/\"215-neOl4nUWvgR9a/NrXGOKG+90n3A\"",
+    "keep-alive": "timeout=5, max=75",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Lyric45@gmail.com",
+      "name": "Hal Alden",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 907,
+      "flat": 2086,
+      "phone": "+9800646193",
+      "createdOn": "2026-01-02T17:27:07.000Z",
+      "notes": "Mqe1sYAIPyZN0wkQDrAVtLRyJCr9MZ4VibP2FnRJOmehNHkpMoHhemGtm5xi3o6sQ7T0iy9gOJzEm6RbBACSlVjZYWESIQnG5hgYCUVn5wH5IqEQAlchp1DOle0ObjJ0nxeekE230wWDwrogSGeKJJ4q0V7l2oOgH3mTO5tgZfJUJvnInE1rbhufa7EmOqwZbcEUmYYp8vYRxjm327HrkoHUyAIRcOGsS3XMwGPl6CmAngq9eo9fWhcI0h",
+      "_id": "6957ffeb1c508c5d5e70ebfd"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 17:27:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "552",
+    "etag": "W/\"228-r6pK313rYKySHGkKdD7wxdCnbdw\"",
+    "keep-alive": "timeout=5, max=72",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Lukas.Wyman50@gmail.com",
+      "name": "Alverta Rosa",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 492,
+      "flat": 4014,
+      "phone": "+2506845864",
+      "createdOn": "2026-01-02T17:27:51.000Z",
+      "notes": "rHrp72Zag2MX1gWrhzf8eMpyIu9MTiR7TeHBxsMbLT40u4eiDE1tG620Q4bSR6MtXdVTSHT1pJow8gbtozvfwMcbwyaIzEyoVCuLuegXIxHsqqsP7sSrcvI86VDSyziBGNDlpdN39NOVmJ5kDdpFFbmH6aKTAiUkQMTdG7PyGRSqaTgMeeY0TKKPqXxWCV1WIaOHzs1tnUnpNu0tKJ9YITiAsS47IRxLJJaSJcBrFToebe4QljCnTdby0h",
+      "_id": "695800171c508c5d5e70f99b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

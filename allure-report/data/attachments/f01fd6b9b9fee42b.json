@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 17:26:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-D94L4FtWuDBP47kwnTMovSjUpqA\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Kurtis18@gmail.com",
+      "name": "Callie Trinity",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 293,
+      "flat": 9999,
+      "phone": "+3011456621",
+      "createdOn": "2026-01-02T17:26:46.000Z",
+      "notes": "CwPqPjRM3TY2s0vUxvhaB0z7S4RJ0hUev6y317nwBdnrCyAtEsFJzaU8rEYhUeEQgfd14YGl1TDONBsN0CtFYHNKvKVVNzpTtl1Qh6m9i2ugApmk5pBv6gTI5rtcSgzG7MffcySWmkUWU307uulRiWPTs2MEBpvaG2ewLrETz4WUpPhqCHvOAn2knPqkyDaSh5rshH5nz3FuBJ2Z4wKXYdaqHEnbcO38g51678137tXfrNR6hBrgqFcg00",
+      "_id": "6957ffd61c508c5d5e70ea59"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 17:27:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-1b67bysD9HBB83ZiOy4P1nqIJ1o\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Gustave_Bins@gmail.com",
+      "name": "Brielle Jimmy",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 414,
+      "flat": 6706,
+      "phone": "+3313582400",
+      "createdOn": "2026-01-02T17:27:31.000Z",
+      "notes": "YFJ2N7UwnzupdHT2Pj6X2wGJEUSoofy4moQStKppCsLvo6kNHTMx4nImyV8HdVinslapQfNVHX7qxtIS1FGwsFCp64cT2NYhS1fH02r2GTZjvJrQyJeYpuOI1RklXp1rt4jEadOxoqztMmrRpL9QoC1wOlS95aWqaaS56K0PoIGoxuaIsrnI5o92UI0EGAXlXRx1ZZeniK75iU4FDEHZDPPEi5DOSK6Ou1LRluEOzb94c0g0OrW61WSwpV",
+      "_id": "695800031c508c5d5e70f2a7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

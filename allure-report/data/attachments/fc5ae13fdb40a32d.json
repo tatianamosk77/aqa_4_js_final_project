@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 17:26:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-vrGmqNnV33Vi5An3sOKq0HSc5s4\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "_id": "6957ffdb1c508c5d5e70ead6",
+      "email": "Keanu28@hotmail.com",
+      "name": "Sidney Tobin",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 631,
+      "flat": 7582,
+      "phone": "+0749815393",
+      "createdOn": "2026-01-02T17:26:51.000Z",
+      "notes": "Q27hVI7ymsDOcbMfGWL0LS97IrxAqUzsClLwPubtuZOuTLgaGLx7ze6DI1SOYUr2DdvPP678lLW3m9G6T26iQZLGHb7HuRQHlR0IEN4GBdfFSHUgCeUMVFt7BmrAKZQBYp9HR1KdssFMRNCFzax1YEpIyxyWVfXWujINIkXF3VEFdbS8iZXmnCAil3IY1r3vzqvKH508o7sYqfSlyrk61L9rOv8APBr4oWgJVyucpSjIi98A9rktHQaiLt"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

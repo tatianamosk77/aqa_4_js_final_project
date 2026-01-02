@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 17:26:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "556",
+    "etag": "W/\"22c-3goKm73GPSIQV3GFH4/AeY0P1L8\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Furman_Pacocha@hotmail.com",
+      "name": "Juliana Lance",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 429,
+      "flat": 5827,
+      "phone": "+0348387484",
+      "createdOn": "2026-01-02T17:26:58.000Z",
+      "notes": "vxbaxrlgOfdLuGYbMEjlciyQu0zdERPJ5nV3DY3AuBQAfhJRUOJRmGMy7tDnoWqUIBusD4HaBaI7dwSUas2g4a4z4tS6NMYxwaGDLnkaErUFkvDltK4RJQ8MmOGjQxQksTZGJ0TvdAYRkrjyO63lU8T1r0xnjm3cbbTJNmMBv7afK7lyDEqYLVyrV1sSVaSXCanUqiTwDf5AunDAdonZwDlqYNSScH6INxUvGrEBymnu7UFzX2MnItszzb",
+      "_id": "6957ffe21c508c5d5e70eb34"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

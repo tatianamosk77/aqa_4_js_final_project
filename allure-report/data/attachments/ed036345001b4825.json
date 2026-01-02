@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 17:27:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "537",
+    "etag": "W/\"219-Rsax8PBaoOu+ilxcuD10F0r1TKs\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Shemar39@yahoo.com",
+      "name": "Rex Rosina",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 42,
+      "flat": 9057,
+      "phone": "+2012874397",
+      "createdOn": "2026-01-02T17:27:12.000Z",
+      "notes": "nFtBLyax9HpBhRHefTAyre9LxBB1DlVSSjgG0yhmUIQsOHzSpjjLkxcberWtNwf4Ed7POtGUvwdw94fGSjZJS1iTxgzaWgnZ7rMuyugsVan1PtiM2zgVziUnIOtYdcjgdfoNSNw1BCFTwVOyRQUdYv2CBOCHIxyZ6UuRyt3lTWIaOIpgwCPb8pOcwJah4660UQO2HyYEXRdTh0NoatumfLt51qN8iPna4tY6FcQrVcnYZ28t9lv5HHAyZX",
+      "_id": "6957fff01c508c5d5e70ecf0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

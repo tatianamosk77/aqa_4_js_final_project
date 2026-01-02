@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 17:27:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1867",
+    "etag": "W/\"74b-NITUJ/Gl+7lCybVF7gyqkETzdXA\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6957fffb1c508c5d5e70f18d",
+      "status": "Draft",
+      "customer": {
+        "_id": "6957fff71c508c5d5e70f14f",
+        "email": "Juana42@yahoo.com",
+        "name": "Rosalyn Ona",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 158,
+        "flat": 4161,
+        "phone": "+6978095869",
+        "createdOn": "2026-01-02T17:27:19.000Z",
+        "notes": "F3Y1d0NqN45GorV6NqvSmrPLApHSQtq7JakkaH9EAhMegWdvH3iumR7Tbb9bSeHLTxQcQbeKdkv4Aei9QcJVsq77CjfYlCv6IhC4zzKmtw6U3TFw631PFPfyvEqLeEgghAfNQkOk5sttTo8ubdCLplkmreR3g4LWXcsRbJD1lOYGrYcBozPGUJpoO90qMWpZ66g2rE5RrZ1Dw4FN41ehm8OfjSf1iUb4fl1AB3C6frB7ZsOeWbwtAgWWTZ"
+      },
+      "products": [
+        {
+          "_id": "6957fff81c508c5d5e70f152",
+          "name": "Pants26761",
+          "amount": 964,
+          "price": 25649,
+          "manufacturer": "Xiaomi",
+          "notes": "cbzPZNESa1zCuAebmkiV6E8RSeEArNV37fYufpD34JWKAxQPaEgexEinUQ96k0n1lik6XZfEcfGBxxec6VsJYfZTIOEndi3qvaZjlrwcDi3Yj8PvzAkWzplidLPxtiOFX0ecBiiEePXs0wQmIVvGXHrbN3FihJScpqejroGf0zUWrsyEPM9pvHoyYr5zuXvGuEoV8sMe2CCoirZKApWFIgcZl4RuJXSakhayxIHO3XRICjMq3dznhKyOsB",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 25649,
+      "createdOn": "2026-01-02T17:27:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6957fff71c508c5d5e70f14f",
+          "products": [
+            {
+              "_id": "6957fff81c508c5d5e70f152",
+              "name": "Pants26761",
+              "amount": 964,
+              "price": 25649,
+              "manufacturer": "Xiaomi",
+              "notes": "cbzPZNESa1zCuAebmkiV6E8RSeEArNV37fYufpD34JWKAxQPaEgexEinUQ96k0n1lik6XZfEcfGBxxec6VsJYfZTIOEndi3qvaZjlrwcDi3Yj8PvzAkWzplidLPxtiOFX0ecBiiEePXs0wQmIVvGXHrbN3FihJScpqejroGf0zUWrsyEPM9pvHoyYr5zuXvGuEoV8sMe2CCoirZKApWFIgcZl4RuJXSakhayxIHO3XRICjMq3dznhKyOsB",
+              "received": false
+            }
+          ],
+          "total_price": 25649,
+          "delivery": null,
+          "changedOn": "2026-01-02T17:27:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

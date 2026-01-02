@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 17:26:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-HzVSIs7a0cQ1mjp3v17+2fb9UjQ\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Harmony38@yahoo.com",
+      "name": "Abby Meaghan",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 571,
+      "flat": 393,
+      "phone": "+0783853167",
+      "createdOn": "2026-01-02T17:26:53.000Z",
+      "notes": "HnB3mqCbqF247mJwevdJfzkSANbmnvdMr0D0bx4gwzHmURYgWTDLMqcVW8QI7G4CfZmGdBsDpqcci2wmQ2t5FZPv2NKB5i7TT01cSFhTLiiQcxJFV9y6SAlaMFejAWJ3EO87kiYt5ldiqXR5uIGPIonLWCGMf4ZHbvJqk3HBSAZ0TwJgwxHTIRK5whysz1niCU6SIrydfGVPweYueMeuq3B2728LstPmb3fjtpiMmAgntBGaz9lWFumRbL",
+      "_id": "6957ffdd1c508c5d5e70eaea"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

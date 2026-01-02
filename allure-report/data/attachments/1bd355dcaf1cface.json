@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 17:29:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "551",
+    "etag": "W/\"227-tRrsW/dajDX6AqsH/UKGvymNmuU\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Emmanuelle.Huels@hotmail.com",
+      "name": "Marcus Lesley",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 443,
+      "flat": 5104,
+      "phone": "+1436073960",
+      "createdOn": "2026-01-02T17:29:49.000Z",
+      "notes": "4uwgUUpLoVlzH2Cc4ypC73dtiqXiecxaaW7chKuMDkULicYF68lxRNWOHd1auZR4c6sRoEbVE2zuOkxsNXlUqapGgS7iTvgHeDnWsIGpTFuUVoqOAEKdTJbHfbLhZZTujc0lhqXRlDCq3qekNgqamb8ErLs3rolPiYMYo5RIDLKoXdueDpp7jhweXZtlm3hzF6LWvPGbuIU7AO4KocLMCP9OjUPlN1zVN0E0lrG9hYI6pj7raEtwp8D52Q",
+      "_id": "6958008d1c508c5d5e7125b6"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

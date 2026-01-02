@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 17:30:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-68zvt4RPb3Cn3TU4NjHW/ctjSgI\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Carol0@hotmail.com",
+      "name": "Frank Rowan",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 11,
+      "flat": 7143,
+      "phone": "+7879169147",
+      "createdOn": "2026-01-02T17:30:11.000Z",
+      "notes": "Q8HpcvlZI6GMCB3gSFhKO8Tip9Qpm59scjRwboXIWoiRGq8fGHWFWdpZbz2v3oTXMK49NNXGOlqPVMYUNsOPSva5D3N7eEuU1AMpRypzkk5UKBUkqUVXkeYgnKDxCUxJ8awUmwVvhifw3HCb7Ni9m5y2bKcQutyl6pIbC403qYbDbdR4zo4y1h7uCakCQ3CNkheuNSujaXxNZa4id19CMICa7VtxzEGmihtPXVi0j5XLjphpo7UOjTl6AB",
+      "_id": "695800a31c508c5d5e7128f2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

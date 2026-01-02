@@ -1,0 +1,155 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 17:27:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4920",
+    "etag": "W/\"1338-1zTaND1AFooAJL+y7PjjLTfeBXo\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6957fffb1c508c5d5e70f1a0",
+      "status": "Draft",
+      "customer": {
+        "_id": "6957fff81c508c5d5e70f154",
+        "email": "Darrick18@gmail.com",
+        "name": "Katrine Jensen",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 64,
+        "flat": 5869,
+        "phone": "+9803809853",
+        "createdOn": "2026-01-02T17:27:20.000Z",
+        "notes": "fAK9liIU2LOjvjK05v6he7bZJPTgN5wkv3fy17ItZHzXZ8RYCzt7Dzb1wkQfKxp2Yty9p6NeruEbZOOUWCQVMn0ykuGCOejhJ3l5MpYelohbWavJAFHCNpzRJUWKgDPFlR4CTOJdXVICcvk7oxuuwejMjRTimSgfXoHLmFwAXMx47UiX0GHM8dD1mYNT4ExOWDRlO4yrGo49debEAqEwI5L95vj2AXCV06THHmIrm6LBttJH0HSh1qrtXS"
+      },
+      "products": [
+        {
+          "_id": "6957fff81c508c5d5e70f156",
+          "name": "Shirt36683",
+          "amount": 717,
+          "price": 45224,
+          "manufacturer": "Sony",
+          "notes": "G2el2WYhn7eCBwShqS9mZisQJl0PL0Ct0L8gWgFGzzDC4gN5mXziHqeZcte47JbssouV9PdiGicrCwwjJac044oGbEdBP7nNgA8dsxjdcwMZdD5pmXIpwSpSjxtEmswumzqD0C9Qkf8J2oG6lWWJ2pagXRrY7P9BwOdQGmlA9dSOp62OTJHLSLtYhohIpjVRTNNWRj2yiEeNovrLyYHE29DT5PUey9JeuWRZNKI7Ddw2Qqth3iskaz01Uw",
+          "received": false
+        },
+        {
+          "_id": "6957fff81c508c5d5e70f15a",
+          "name": "Hat39772",
+          "amount": 437,
+          "price": 69064,
+          "manufacturer": "Amazon",
+          "notes": "CeKMJP5mNTxPk5O6njY7Av96lGf3AIC3qWuDyl4tsVNUHXupI53ZSURjXOiOWK0qtetIQNGzCfS5ocPUiGTNoveRdyQy8t3KAPCJlA68x2o9clskJZ2OsirK3OrmP4byYh4YBMQX2CCbWB0VrVn57eTjAShJdUDiYrkr5srbNUnCBkm5yxv6iJcpXL7mNdSrVTYJ1j2yWRIlZNbHP3zioQa1xE91822mH683FqYEL0wUnDG7ujWvwn0epE",
+          "received": false
+        },
+        {
+          "_id": "6957fff81c508c5d5e70f15c",
+          "name": "Fish89176",
+          "amount": 220,
+          "price": 46260,
+          "manufacturer": "Xiaomi",
+          "notes": "46CHETh1609Q8h1Stxn1ECBMEVLoZRj7Fra9pA6POLDF8ria25QFuM9Tf3TJ6q69DaT82rhn3LXxLB3Ftq5GmYgkk1xMGq7NxXOffCObVk60SaRDrqXnXsnxnCO7hPV4QPdhXsUOTWphnL8y9fLjSmRoPYLE6POfuC9hpXexiyokz632oW4vzORI3WOW5PtHTU5rPN6mpQOigaM2O2nbWUXKJ94QzQyQWYpE9iYRhDCp5jBq0fylnNAcRJ",
+          "received": false
+        },
+        {
+          "_id": "6957fff81c508c5d5e70f160",
+          "name": "Bacon99065",
+          "amount": 5,
+          "price": 50222,
+          "manufacturer": "Sony",
+          "notes": "QJQ1TyhGPnaHZBI40OiPxoe7WLgWC9M9j97SPoIvAqzkwCcOmNkdlLQ9oNiqdNm9JPltaRDeA6p2NJZVsvg4dJD6EAIONUBP2O9s7dxCaf5yNlF38X3zArkg8ibkrotZWR4HMXWZQDegHzPUPKBhiFR4np7XyXhPW55as77X1RbOGhfg8uWopM4fuPVfg7YtaMguEFAwWValZm0dMojiysM03BnUW9GxZPEYR0NleEI8OJNRUeYA8xLzcD",
+          "received": false
+        },
+        {
+          "_id": "6957fff81c508c5d5e70f15e",
+          "name": "Hat72549",
+          "amount": 297,
+          "price": 26027,
+          "manufacturer": "Xiaomi",
+          "notes": "o7GX1gAnngRBGi2IpVVVu21NjfekMnExbx0kSl7CDvYaOqWBrQJ2kQUuaVu1yNKmlrO9vjQUEKostYinhg9OneVlNSIB1DNPU7KdcbdTo1rwG6b1XgO9KPzkNjdPUv9Mpwmr5vxrZaJypogKhoNMAZHMhxZC6L1Es1wmFb3ZFbDQgLk94sTHeKwwmNIJJvD5CyC7bPrxDiftVL97LD1ngfJndwI7wYWemUEoLiT5ASURCpWR1OWUwgvrV7",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 236797,
+      "createdOn": "2026-01-02T17:27:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6957fff81c508c5d5e70f154",
+          "products": [
+            {
+              "_id": "6957fff81c508c5d5e70f156",
+              "name": "Shirt36683",
+              "amount": 717,
+              "price": 45224,
+              "manufacturer": "Sony",
+              "notes": "G2el2WYhn7eCBwShqS9mZisQJl0PL0Ct0L8gWgFGzzDC4gN5mXziHqeZcte47JbssouV9PdiGicrCwwjJac044oGbEdBP7nNgA8dsxjdcwMZdD5pmXIpwSpSjxtEmswumzqD0C9Qkf8J2oG6lWWJ2pagXRrY7P9BwOdQGmlA9dSOp62OTJHLSLtYhohIpjVRTNNWRj2yiEeNovrLyYHE29DT5PUey9JeuWRZNKI7Ddw2Qqth3iskaz01Uw",
+              "received": false
+            },
+            {
+              "_id": "6957fff81c508c5d5e70f15a",
+              "name": "Hat39772",
+              "amount": 437,
+              "price": 69064,
+              "manufacturer": "Amazon",
+              "notes": "CeKMJP5mNTxPk5O6njY7Av96lGf3AIC3qWuDyl4tsVNUHXupI53ZSURjXOiOWK0qtetIQNGzCfS5ocPUiGTNoveRdyQy8t3KAPCJlA68x2o9clskJZ2OsirK3OrmP4byYh4YBMQX2CCbWB0VrVn57eTjAShJdUDiYrkr5srbNUnCBkm5yxv6iJcpXL7mNdSrVTYJ1j2yWRIlZNbHP3zioQa1xE91822mH683FqYEL0wUnDG7ujWvwn0epE",
+              "received": false
+            },
+            {
+              "_id": "6957fff81c508c5d5e70f15c",
+              "name": "Fish89176",
+              "amount": 220,
+              "price": 46260,
+              "manufacturer": "Xiaomi",
+              "notes": "46CHETh1609Q8h1Stxn1ECBMEVLoZRj7Fra9pA6POLDF8ria25QFuM9Tf3TJ6q69DaT82rhn3LXxLB3Ftq5GmYgkk1xMGq7NxXOffCObVk60SaRDrqXnXsnxnCO7hPV4QPdhXsUOTWphnL8y9fLjSmRoPYLE6POfuC9hpXexiyokz632oW4vzORI3WOW5PtHTU5rPN6mpQOigaM2O2nbWUXKJ94QzQyQWYpE9iYRhDCp5jBq0fylnNAcRJ",
+              "received": false
+            },
+            {
+              "_id": "6957fff81c508c5d5e70f160",
+              "name": "Bacon99065",
+              "amount": 5,
+              "price": 50222,
+              "manufacturer": "Sony",
+              "notes": "QJQ1TyhGPnaHZBI40OiPxoe7WLgWC9M9j97SPoIvAqzkwCcOmNkdlLQ9oNiqdNm9JPltaRDeA6p2NJZVsvg4dJD6EAIONUBP2O9s7dxCaf5yNlF38X3zArkg8ibkrotZWR4HMXWZQDegHzPUPKBhiFR4np7XyXhPW55as77X1RbOGhfg8uWopM4fuPVfg7YtaMguEFAwWValZm0dMojiysM03BnUW9GxZPEYR0NleEI8OJNRUeYA8xLzcD",
+              "received": false
+            },
+            {
+              "_id": "6957fff81c508c5d5e70f15e",
+              "name": "Hat72549",
+              "amount": 297,
+              "price": 26027,
+              "manufacturer": "Xiaomi",
+              "notes": "o7GX1gAnngRBGi2IpVVVu21NjfekMnExbx0kSl7CDvYaOqWBrQJ2kQUuaVu1yNKmlrO9vjQUEKostYinhg9OneVlNSIB1DNPU7KdcbdTo1rwG6b1XgO9KPzkNjdPUv9Mpwmr5vxrZaJypogKhoNMAZHMhxZC6L1Es1wmFb3ZFbDQgLk94sTHeKwwmNIJJvD5CyC7bPrxDiftVL97LD1ngfJndwI7wYWemUEoLiT5ASURCpWR1OWUwgvrV7",
+              "received": false
+            }
+          ],
+          "total_price": 236797,
+          "delivery": null,
+          "changedOn": "2026-01-02T17:27:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

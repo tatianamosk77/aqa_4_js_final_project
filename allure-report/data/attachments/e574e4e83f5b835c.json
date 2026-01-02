@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 17:27:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "538",
+    "etag": "W/\"21a-YYmfVKwd0qem+fH3AsFM9xzzh8Y\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Lacey42@yahoo.com",
+      "name": "Garnett Aric",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 89,
+      "flat": 8583,
+      "phone": "+8186141726",
+      "createdOn": "2026-01-02T17:27:08.000Z",
+      "notes": "6LUIOwTa1fSElE3SVI5jQgZrKFomE1A9kD9phrGt1tOeadMBIHhrxvKALEwPJRStwqAFIlfj3kNf1QoZuy23TqDmJfGLaxcIQpDlBpqLZuNBaw884tCAxiLPdZ1nVbe917s3h2fekFE9CO3XnYuKuRt0gibYtawzC66kqAkaaUoD7GlrUP71L9vP0Ds9UsuBvBYwGO1LsaO1rjaGzCLBONoWPG9ctnQhfgQ0of7rDZrPu0EorHxKb2IJfZ",
+      "_id": "6957ffec1c508c5d5e70ec19"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

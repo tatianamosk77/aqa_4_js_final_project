@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 17:27:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-4kXiPCf/Pn8XlRcgY7oQNnJ3xKs\"",
+    "keep-alive": "timeout=5, max=70",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Zula54@yahoo.com",
+      "name": "Doyle Alessandro",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 216,
+      "flat": 6522,
+      "phone": "+8132007051",
+      "createdOn": "2026-01-02T17:27:40.000Z",
+      "notes": "CwhC8EJO498BTaNsMNzDjT6QkdlF90Pye214lH2e2AULoKUKQjtXF6UOrnAHnUCqLrIc9ByPlpw5RYCpRdIxVtZEYqfHX4HxiajTWnILRRS2d9iCaRIOjBRUANLWTU1OiEcBIPuVmWSkztxiNXvd2urlPetmvZWcwhkr8IUWwlGaBu6O30z4L8DznHXpwSMAWNzUIsI60o85eyRq37wObYwQQkv7IqttwCqs9KxqyjidhmTX25rtK9zFcR",
+      "_id": "6958000c1c508c5d5e70f493"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

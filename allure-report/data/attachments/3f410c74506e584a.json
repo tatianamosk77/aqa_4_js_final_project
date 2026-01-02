@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 17:28:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "205",
+    "etag": "W/\"cd-rAM3Bxwx1C7oBf1/wpMzjRQK0dA\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Chair22449",
+      "amount": 913,
+      "price": 64864,
+      "manufacturer": "Samsung",
+      "createdOn": "2026-01-02T17:28:18.000Z",
+      "notes": "",
+      "_id": "695800321c508c5d5e710631"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

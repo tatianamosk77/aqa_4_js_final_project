@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 17:27:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-vlDP5jK5IiMPAAto1FWfqgCSBSI\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ezekiel.Boyle@hotmail.com",
+      "name": "Adeline Ludwig",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 221,
+      "flat": 8982,
+      "phone": "+9622228821",
+      "createdOn": "2026-01-02T17:27:53.000Z",
+      "notes": "cg0KGlHr5QwsLaQZLc8mAaNWfu6YrCPMZpAHO7gFaS8VuD8UUcaDaA8L9kMiLyXPdSj0OCNXM1bVHdKB7iHvtIZii24XUv2QpOQwwqgW4MIEVi99P35mKJE3bVjzeajxAisBpzCML9kelpb6ugi3w2iwi9YT2HRxwKQNXfiN7rehkOq5esdR262ZrxPptajsSEkPFlIyota6MNMsmuRuWTIqOuwBa9UfoQp1uShV9I0XF2OWye8LAvxpwD",
+      "_id": "695800191c508c5d5e70fa04"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
