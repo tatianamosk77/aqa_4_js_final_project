@@ -17,8 +17,14 @@ export enum NOTIFICATIONS {
 export const ERROR_MESSAGES = {
   UNAUTHORIZED: "Not authorized",
   PRODUCT_NOT_FOUND: (id: string) => `Product with id '${id}' wasn't found`,
-  CUSTOMER_NOT_FOUND: (id: string) => `Customer with id '${id}' wasn't found`,
-
   PRODUCT_ALREADY_EXISTS: (name: string) => `Product with name '${name}' already exists`,
+  CUSTOMER_NOT_FOUND: (id: string) => `Customer with id '${id}' wasn't found`,
   CUSTOMER_ALREADY_EXISTS: (email: string) => `Customer with email '${email}' already exists`,
+  CUSTOMER_NOT_FOUND_WITH_ID: (id: string) => `Not found customer with ID: ${id}`,
+	ORDER_NOT_FOUND: (id: string) => `Order with id '${id}' wasn't found`,
+	INVALID_DELIVERY_DATE: "Invalid final date",
+	INVALID_ORDER_STATUS: "Invalid order status",
+  ORDER_ID_NOT_FOUND: `Order with id 'undefined' wasn't found`,
+	CANT_PROCESS_ORDER_WITHOUT_DELIVERY: "Can't process order. Please, schedule delivery",
+	CANT_REOPEN_NOT_CANCELLED: "Can't reopen not canceled order",
 };
