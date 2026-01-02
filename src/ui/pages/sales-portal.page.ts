@@ -19,7 +19,8 @@ export abstract class SalesPortalPage extends BasePage {
 
   @logStep("Wait for spinner")
   async waitForSpinners() {
-    await expect(this.spinner).toHaveCount(0, { timeout: TIMEOUTS.ELEMENT_VISIBLE });
+   await expect(this.spinner.first()).toBeHidden({ timeout: TIMEOUTS.ELEMENT_VISIBLE });
+
   }
 
   @logStep("Click toast")
