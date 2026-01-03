@@ -8,8 +8,6 @@ import { TAGS } from "data/tags";
 import { STATUS_CODES } from "data/statusCodes";
 import { UI_TEXTS } from "data/orders/uiTexts.data";
 import { AssignManagerModal } from "ui/pages/orders/assignManager.modal";
-import { ConfirmationModal } from "ui/pages/confirmation.modal";
-import { OrdersListPage } from "ui/pages/orders/ordersList.page";
 
 test.describe("[UI] [Orders] [Orders List]", () => {
   test.beforeEach(async ({ homeUIService, ordersListPage, mock }) => {
@@ -93,10 +91,13 @@ test.describe("[UI] [Orders][Modals] [Cancel Order Modal]", () => {
     await page.unroute(/\/api\/.*/);
   });
 
-  test("Cancel Order modal opens and confirms", async ({ page, orderDetailsPage, mock }) => {
-    const confirmationModal = new ConfirmationModal(page);
-    const ordersListPage = new OrdersListPage(page);
-
+  test("Cancel Order modal opens and confirms", async ({
+    page,
+    confirmationModal,
+    ordersListPage,
+    orderDetailsPage,
+    mock,
+  }) => {
     await expect(page.locator("#title .spinner-border")).toBeHidden();
     await expect(orderDetailsPage.orderDetailsHeader).toBeVisible();
 
@@ -169,10 +170,7 @@ test.describe("[UI] [Orders] [Modals] [Remove Manager Modal]", () => {
   test(
     "Should open 'Remove Manager' modal and display its basic UI",
     { tag: [TAGS.UI] },
-    async ({ page, orderDetailsPage, mock }) => {
-      const confirmationModal = new ConfirmationModal(page);
-      const ordersListPage = new OrdersListPage(page);
-
+    async ({ page, confirmationModal, ordersListPage, orderDetailsPage, mock }) => {
       const targetOrder =
         MOCK_ORDERS_LIST_API_RESPONSE.Orders.find(o => o.assignedManager) ??
         MOCK_ORDERS_LIST_API_RESPONSE.Orders[0];
