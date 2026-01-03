@@ -8,7 +8,7 @@ import { TAGS } from "data/tags";
 import { STATUS_CODES } from "data/statusCodes";
 import { UI_TEXTS } from "data/orders/uiTexts.data";
 import { AssignManagerModal } from "ui/pages/orders/assignManager.modal";
-import { ConfirmationModal } from "ui/pages/orders/confirmation.modal";
+import { ConfirmationModal } from "ui/pages/confirmation.modal";
 import { OrdersListPage } from "ui/pages/orders/ordersList.page";
 
 test.describe("[UI] [Orders] [Orders List]", () => {
