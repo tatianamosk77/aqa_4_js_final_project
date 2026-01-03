@@ -34,11 +34,6 @@ export class OrderDetailsPage extends SalesPortalPage {
   readonly commentsTabButton = this.page.locator("#comments-tab");
   readonly orderStatus = this.orderStatusBar.filter({ hasText: "Order Status" }).locator("..");
   readonly orderHistoryTab = this.page.getByRole("tab", { name: /order history/i });
-
-  readonly totalPrice = this.orderStatusBar.filter({ hasText: "Total Price" }).locator("..");
-  readonly delivery = this.orderStatusBar.filter({ hasText: "Delivery" }).locator("..");
-  readonly createdOn = this.orderStatusBar.filter({ hasText: "Created On" }).locator("..");
-  readonly processOrderButton = this.orderDetailsHeader.locator("#process-order");
   readonly reopenOrderButton = this.page.getByRole("button", { name: /reopen/i });
 
   readonly uniqueElement = this.title;
@@ -131,6 +126,7 @@ export class OrderDetailsPage extends SalesPortalPage {
 
   requestedProductsSection(): RequestedProductsSection {
     return new RequestedProductsSection(this.page);
+  }
   @logStep("Reopen order button")
   async clickReopenOrder() {
     return await this.reopenOrderButton.click();
