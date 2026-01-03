@@ -1,7 +1,9 @@
+import { BaseModal } from "../base.modal";
+import { BasePage } from "../base.page";
 import { SalesPortalPage } from "../sales-portal.page";
 import { logStep } from "utils/report/logStep.utils";
 
-export class AssignManagerModal extends SalesPortalPage {
+export class AssignManagerModal extends BaseModal {
   readonly uniqueElement = this.page.locator(".modal-content");
 
   readonly title = this.uniqueElement.locator("h5");

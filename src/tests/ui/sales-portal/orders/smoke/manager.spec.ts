@@ -25,7 +25,12 @@ test.describe("[Smoke][Sales Portal][Orders] Manager", () => {
 
   test("Add manager to order", 
     { tag: [TAGS.ORDERS, TAGS.SMOKE, TAGS.UI] },
-    async ({ ordersListUIService, orderDetailsPage, ordersListPage, addNewOrderUIService }) => {
+    async ({ ordersListUIService,
+      orderDetailsPage,
+      ordersListPage,
+      addNewOrderUIService,
+      assignManagerModal 
+    }) => {
       await ordersListUIService.openOrdersList();
       await ordersListUIService.createNewOrder();
       const response = await addNewOrderUIService.createMinimalOrderSafe(customerName);
@@ -33,7 +38,7 @@ test.describe("[Smoke][Sales Portal][Orders] Manager", () => {
 
       await ordersListUIService.openOrderDetails(orderId);
       await orderDetailsPage.waitForOpened();
-      const assignManagerModal = await orderDetailsPage.openAssignManagerModal();
+      await orderDetailsPage.clickToSelectManager();
       const selectedManagerName = await assignManagerModal.chooseRandomManager();
       await expect(assignManagerModal.saveButton).toBeEnabled();
       await assignManagerModal.clickEdit();
@@ -43,6 +48,7 @@ test.describe("[Smoke][Sales Portal][Orders] Manager", () => {
       expect(assignedManagerName).toBe(selectedManagerName);
       await ordersListUIService.openOrdersList();
       await ordersListPage.waitForTableToLoad();
+
       const orderRow = ordersListPage.getOrderRowByNumber(orderId);
       const assignedManagerCell = orderRow.locator("td").nth(5);
       await expect(assignedManagerCell).toHaveText(selectedManagerName);

@@ -24,4 +24,12 @@ export class ConfirmationModal extends BaseModal {
   async clickConfirm() {
     await this.confirmButton.click();
   }
+
+   @logStep("Click confirm button on modal form")
+  async clickConfirmSafe() {
+    // ловим кнопку по тексту, чтобы точно кликнуть нужную
+    const confirmButton = this.uniqueElement.getByRole('button', { name: /^Yes, /i });
+    await confirmButton.click();
+    await this.uniqueElement.waitFor({ state: "hidden" });
+  }
 }
