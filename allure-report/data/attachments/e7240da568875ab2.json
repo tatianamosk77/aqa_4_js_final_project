@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 12:48:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "552",
+    "etag": "W/\"228-n+ZRuhsAxij8JNoBMas35TOegpc\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Dwight.Flatley@gmail.com",
+      "name": "Stephania Marianne",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 652,
+      "flat": 8984,
+      "phone": "+6058925933",
+      "createdOn": "2026-01-03T12:48:16.000Z",
+      "notes": "eZMH0a7P8U0dUN842UvtGf2UvJzNZk1cmgnerqnRX81GQPYAqKtxAXyhB6SHNHWSXulJ7ZCsZBlFT8wZalfdciGmNyOJmIA8A90g3hg8ErdaR9QCWNI62MNCoc1dI5KU1AoJnNCFwZNnXgz3gVBag0n4dYpdbeyAB0PhG5WaFgkSQxrHgcjCrZ3ZQct8G6dinWOJVXvmSVA7svTrmbb6PXZYnW30PfbIrmCFJqlJ4ionxP93buHeMkCKRd",
+      "_id": "695910101c508c5d5e863fe5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 12:51:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "538",
+    "etag": "W/\"21a-nV7wF9rAsK3nk6kyXLAYcUI8GM4\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Dustin59@yahoo.com",
+      "name": "Faye Lindsay",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 648,
+      "flat": 69,
+      "phone": "+8704987482",
+      "createdOn": "2026-01-03T12:51:29.000Z",
+      "notes": "uisW0aZBd4blIlp5VfhK2PI3llvYR6TfjmcSnseQT2oPj6ecexYCqNxbX5lIUlWrS221wIXr7kf6Addr1Fjy6P9LUZUU6XwmrlCH9xRlQlEgEOWOc9FRtohKvjAuxKIk7OQZQFmGqxdqFdECGlA7HowcAI2a1dWlYenj9SP3lTkS14vJYqs73YsITmmYTm01J99eT4pSmZnYOd2RwZ7rKLERPj3CoTX1b3Ei2GF2jR9ILUOm3c7oQ64upb",
+      "_id": "695910d11c508c5d5e867a79"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

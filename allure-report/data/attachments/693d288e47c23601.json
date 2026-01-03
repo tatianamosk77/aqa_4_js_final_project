@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 12:48:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "556",
+    "etag": "W/\"22c-RUvAl8ipUfF4/tpxdYyYhEqnajA\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Maximo.Reichel@yahoo.com",
+      "name": "Genevieve Luigi",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 536,
+      "flat": 5431,
+      "phone": "+7330272506",
+      "createdOn": "2026-01-03T12:48:20.000Z",
+      "notes": "VhXyuC0VAOWFroyxp9KeZC4n3JMLuVzbnm0Ow0cb4XDhXS0b4iZuoypvruM60Ql2aSuyUOE5e8yibdsi60cleYim8aPlIYFDvHQWSH2GcfgNriI4a4RZyMapFzCE3FcixWGR8qhAOTxyqo8DDBjh0aphaqfxE1AcrWbcQfLbIPzFuCVWT6hZcpblUlTIqyiE3iO5a60QTBT5aTnSjfNCkEBIodl89Yp6LzKnym4ouSW05lHVJuYDw9p5Xf",
+      "_id": "695910141c508c5d5e864192"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

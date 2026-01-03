@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 12:48:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-O42HbJYOwt2SDxM0QPRM/+bwVaU\"",
+    "keep-alive": "timeout=5, max=67",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Sandrine79@yahoo.com",
+      "name": "Nathanial Sim",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 790,
+      "flat": 7529,
+      "phone": "+3671898371",
+      "createdOn": "2026-01-03T12:48:37.000Z",
+      "notes": "ZVIoYeNRNb0o1w2KwqPAuOhZ9TsiY5wHbo1ywCF1mJ6VENJeVS3AF53eotiWK9O8bioLyYoM0OLeLg4TRTI0oUWGPm1CryZQQgmQ1Hn7b0LC209CCXU21RXkd7MtKN8jVHlCi3LLTg7lzIHt7SevqJSnvMXMJ7hvaN9eRVvWhFAaVRvd2JqW76naDpmly5pLLmX5jspA0SOZpW8iMyn389jXZEJFQVJUz8AUquM7ZLMZ7wy9ApmRQm7x4q",
+      "_id": "695910251c508c5d5e86481f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

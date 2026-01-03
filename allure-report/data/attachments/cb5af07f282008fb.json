@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 12:47:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1876",
+    "etag": "W/\"754-mn3kaQTfSyktCaJi6BinVfCGmgQ\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69590ff71c508c5d5e863877",
+        "email": "Bernardo_Beer24@hotmail.com",
+        "name": "Jacinthe Corine",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 674,
+        "flat": 4188,
+        "phone": "+8991499999",
+        "createdOn": "2026-01-03T12:47:51.000Z",
+        "notes": "VREvpatctrPGQICMMCxBprMEFiiWWLHrMhTHQxgKlC2PqU5djnoZmFYVfGHNNjep5Kg1SrtuDvMoFULQNxUmSJoiwBkqrMLj5y3GosB9HfPvEWn8DoaA2RtSCVFN0CuDRzzJZQn2eyDkVTsT3sBv3z87eVbwfhEjsbPqGrmw84CsRUU4dz13w9HmsZZ7mA6gXRhoiBPoAzIK9lJ5dDnPztD6CdChhrdnLSY8PJo3Ebp9QiVmNGmNDpf6Vx"
+      },
+      "products": [
+        {
+          "_id": "69590ffa1c508c5d5e86398a",
+          "name": "Bike93620",
+          "amount": 816,
+          "price": 2856,
+          "manufacturer": "Amazon",
+          "notes": "u0n3LqGGiWs9tm4JY2s7T3fIHeTuAXiix69jkRddOOTxFzFngsEyI6ZFXolsVl4wm3kyKA9fvVne2mAi8iVHbNTfe3gAfwvHAGxrE4Py1v1awxDtpwFj0rIL6LxtlLRH3xSYrak0VnDGClVPLJVcYwBB0nx9X3XawGNUgtnRG0bkkCSXws60Jn2zVo0HrkQpwcpKkyr8RQ1eVIGhUbkYZkbWAh0fH6LkzTUU5b0el2h6quqBmilQSm8PHM",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 2856,
+      "createdOn": "2026-01-03T12:47:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69590ff71c508c5d5e863877",
+          "products": [
+            {
+              "_id": "69590ffa1c508c5d5e86398a",
+              "name": "Bike93620",
+              "amount": 816,
+              "price": 2856,
+              "manufacturer": "Amazon",
+              "notes": "u0n3LqGGiWs9tm4JY2s7T3fIHeTuAXiix69jkRddOOTxFzFngsEyI6ZFXolsVl4wm3kyKA9fvVne2mAi8iVHbNTfe3gAfwvHAGxrE4Py1v1awxDtpwFj0rIL6LxtlLRH3xSYrak0VnDGClVPLJVcYwBB0nx9X3XawGNUgtnRG0bkkCSXws60Jn2zVo0HrkQpwcpKkyr8RQ1eVIGhUbkYZkbWAh0fH6LkzTUU5b0el2h6quqBmilQSm8PHM",
+              "received": false
+            }
+          ],
+          "total_price": 2856,
+          "delivery": null,
+          "changedOn": "2026-01-03T12:47:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69590ffa1c508c5d5e863999"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

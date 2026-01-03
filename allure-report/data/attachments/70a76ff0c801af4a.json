@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 12:47:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-Cb6oVdSK4DA4EpzV4TYn8xiib/M\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Astrid.Swift@hotmail.com",
+      "name": "Desiree Jakob",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 640,
+      "flat": 3492,
+      "phone": "+0106253659",
+      "createdOn": "2026-01-03T12:47:42.000Z",
+      "notes": "oiyYZ2sCmjKQu1y6uloRni33yF7KAfpWtuzGp4IOfvGpigCyWQ405NwF3J4OfF1KtHUD8f2heTS81QlKG9vAZNco8EKyw28jm4TgvuIXqmsWtk6VG8rVQH9RICcu8vRws2qVmh8gzcz84zJyZ5MetDeaFYs74bdyW8NtgfkEjXMkQgurOVGFWJwXcHvYTMlk6QiTR3BfHe2KFLxdzcdEoiAUEQQ5cwx3zWf8gISOvSSpap6gJwDPmo4bpb",
+      "_id": "69590fee1c508c5d5e863552"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

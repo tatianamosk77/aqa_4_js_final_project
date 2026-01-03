@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 12:47:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-1KYufTJ1QZEP6i6wNb+0QmSMYBA\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Julius_Rath@gmail.com",
+      "name": "Lenore Christa",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 124,
+      "flat": 3998,
+      "phone": "+3522824588",
+      "createdOn": "2026-01-03T12:47:36.000Z",
+      "notes": "EuQZpcXMGApDDvO0wIbhfWJqpjmblZFbhOicQay6N05JBzy1mMAAauMJ30Zl3RJjLONFvBUK2d8A2kvSb62Fbxa1PbsmwBXuvXbwxs3JYBnubLHI0JkZfrzlqFomkmXtsvZc7YF0GRuitqdzBAEjwyfRI3CjupAFXo8RrNzw70WAYhSHRLlIP40QlxrGIWbiwzrQsGoYVTf8NTcCooacnlSkZ8xJUJnsecMzTOHzwnSK7Gdm11EZZnYUk0",
+      "_id": "69590fe81c508c5d5e863384"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

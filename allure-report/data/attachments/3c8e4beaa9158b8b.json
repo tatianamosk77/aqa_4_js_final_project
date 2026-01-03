@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 12:51:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-YpxrzFBJNw/sJhn/Q34iovOlkg4\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Connor.Pagac@yahoo.com",
+      "name": "Christine Orville",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 538,
+      "flat": 8574,
+      "phone": "+1385937168",
+      "createdOn": "2026-01-03T12:51:31.000Z",
+      "notes": "WREMLu47LkO6Xsir5SChjDF5qLQNrvSsQJCt3ssPBwCJgmBYqQAvoAQueREqYCvMxq104ymXH3oPzZeLBcT9Ddf0kbMinseetEMVJvgN4tMuvSrhTCIAwNPlPv8GabZ1DmQZHqrPytA9wvRDRHCrVvhPXJfNKw1AOef1GJMvUzfl4jLKMEa9OE5bxx3khH44ivz3MPAL1HwYKK35DsNQDAKCQMZiH2Q4VLYfLAsFyFhRv7dbNGDDTIYBa7",
+      "_id": "695910d31c508c5d5e867b06"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

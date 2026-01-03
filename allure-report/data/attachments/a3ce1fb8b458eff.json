@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 12:47:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-K0c8DJLP3IEJTnsRHfeBojUktQE\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Kaylee_Kuhn@gmail.com",
+      "name": "Anjali Stone",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 150,
+      "flat": 2510,
+      "phone": "+2235812362",
+      "createdOn": "2026-01-03T12:47:24.000Z",
+      "notes": "nwI1bwwvifncn49xV3D8shPOalaUNMXedlS48qleastaynvFMU3VGYGdiDN1I8NTBv7eXGWzkeNsDCbDqwTHb2Xq7LjRsIHgRQzeQQLfjmVx3NnuGvlRz5bGDKaYTLR0Y2Z1P0SVUyFPB1IwojJoutR73uq3SfSPhxxWJsbZMd1MDXX63L01m6OQZh0CwMIVdX157zqcpe3xrFp8SLI2XVbQypQQywIoeUbQ3Uxn9ONqFvFySAeIa1ydA2",
+      "_id": "69590fdc1c508c5d5e86302a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

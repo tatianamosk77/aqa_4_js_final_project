@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 12:51:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-VHzKKi+MSQWFtJqcqVIeTSdLByc\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Easton.Legros@hotmail.com",
+      "name": "Kathleen Ollie",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 348,
+      "flat": 9776,
+      "phone": "+8503415029",
+      "createdOn": "2026-01-03T12:51:28.000Z",
+      "notes": "1hVQIqoHnwCZzXXdtX13cPAsXb94DzqGkCknGtndUkhucCjbjWHrLvyjtQ73TAtFU5m1VEc1n6zYH2Fb7J7KFGBbcoz7LB6cNSki1GjIXB3x0KIXuYAFuaZOocZlV0bjhDcmV6LFClJYcNhnQDJR3YDMHVcgEC97nNhpL7flNxb53ZAgXBxFKU3YYJuOBX4W2UNQSa6ADz5VYQzQbTH9BIcNTc7VLyse5msjCxQ71VrtQULhErrsztQBgM",
+      "_id": "695910d01c508c5d5e867a6f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

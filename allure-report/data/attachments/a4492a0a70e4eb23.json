@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 12:48:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-hnRSOJ6w107+5lztHKHy+IVmb40\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jaylin13@gmail.com",
+      "name": "Charley Lyda",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 956,
+      "flat": 8810,
+      "phone": "+8928545115",
+      "createdOn": "2026-01-03T12:48:35.000Z",
+      "notes": "eEVNvRlW0xrZrvvPUscsvBU7dN8MwzAunMB4kahZUD37shIBBHqEjNgAqlC2IPTQZoCZMlqjAptWHyXs2IrUbOEj8jQWNYwzatCBbZjQK31ScckXV34qyv4zVYkTtjrjEwmhv6IZ3rzbAHSXCrxViIZE6b3QhYOhB3PlKrPikxwbRFPut6YpD6LYeb2yk7kbQMwkBOqurcg2BB0PYiddMg0y2oqok9cWFZ6xAjeAZ3CAhbHw1vFX0hSzco",
+      "_id": "695910231c508c5d5e8647c1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

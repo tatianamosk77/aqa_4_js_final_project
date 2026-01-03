@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 12:47:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-cSTS1vBJtib0DkU2pYe5R9spoyw\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Kayli.Fay@yahoo.com",
+      "name": "Lillian Francisco",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 376,
+      "flat": 5061,
+      "phone": "+0989665824",
+      "createdOn": "2026-01-03T12:47:43.000Z",
+      "notes": "Rcsmek7DUgOG4MFdM3YdYqnLmoruSm5DEdDYr0cmGmQF8Ab0VAY1o3v7944xgthjSU11iZzJvyjRlkogZIciXPfXIft6RsEju1W4mA5yOQxrt1SU0dDRyiCM9IrrmQqdeIYRxUZpzfLgyobXTYsvm6RGsoYMYbXQwb2vSupqlqBJ22QNRqskTqiWVrB43Qc3qHK49ojE9o3C19yhKGnTgIIiJS8MZfYurEwWrjSSBwRoNq1cryW7gQ0JZ6",
+      "_id": "69590fef1c508c5d5e86358d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

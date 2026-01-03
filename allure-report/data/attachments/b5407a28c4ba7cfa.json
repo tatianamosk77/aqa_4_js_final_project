@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 12:47:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-yDuWhN5TD+BwVgvjMpgUXt2b/hw\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Conrad.Kuhlman@yahoo.com",
+      "name": "Heath Maureen",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 33,
+      "flat": 2006,
+      "phone": "+3614110743",
+      "createdOn": "2026-01-03T12:47:37.000Z",
+      "notes": "ZY4jmnJCdYfjt8vwBIrSTiFKPZC8FgPNmi4XvG3yOthkMeoxC77yELoiwvq9hSv3YOYrJaBena3lsa5JV7YiUnIZBeiFWgbDxCVzrPQZIteyG2KaYj5zpJ5fMtTqKPBBRcopapro83D0dzzCRZHq1DpxhmVYPNnpXO6rkyNmBytpC4R8xcXIgj8sceTJuT5S27KkBzf0wlQEGUihzOts4qKdQMV9pqAzGtJEzWvdSvRRAtzPKuvEuRI8yw",
+      "_id": "69590fe91c508c5d5e8633e7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 12:48:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-tKRp13YsWnUMEk3+PG6wBH/hHjk\"",
+    "keep-alive": "timeout=5, max=70",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Emanuel15@hotmail.com",
+      "name": "Diamond Reid",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 417,
+      "flat": 6037,
+      "phone": "+3424634498",
+      "createdOn": "2026-01-03T12:48:04.000Z",
+      "notes": "1hgVCkMHvzijIlN1qovM9i0E9Qbe1yGrbPUKxEnBgfmpkgUjJMURm0u1131YCGW9qshq8hDXPdTvM8tXjM9CvpslCKTdy6vaf0Z1x55fv6U6kwkxlt4ZapbE3rIWW6LX5mmeJRlS6Q0j4MeqQGzcRId1rDsa9hWtGTXEYmEG9Xk5Yx6SRxjqabRXgfmDy5O9lCAbNMXvHAevRll2Etj1TSynPTVL1oLDryRpA81FiegWNFFCbjOrirCYgp",
+      "_id": "695910041c508c5d5e863cc4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

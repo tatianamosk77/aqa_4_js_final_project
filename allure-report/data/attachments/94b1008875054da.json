@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 12:48:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-vKjsQfT3EBLIdMQdstoQo8tODW4\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Dell12@yahoo.com",
+      "name": "Loy Hermina",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 997,
+      "flat": 9189,
+      "phone": "+9661809208",
+      "createdOn": "2026-01-03T12:48:34.000Z",
+      "notes": "rcliE0mw6Wtv6U8UJmyPVumpmGAZUubmhe7LGsNl7h7R0gUewibxrXyQgxXtXtUkYBdMxUMY7GbJDdTyZTf3OdJdiCjKCtc9UszV3B6OgPcp6ZhB0p8TSHUPd7DpMXtkp3fwZsM0FLuBpKr5PEMt6rCRYXqvM4KOpkpoSxWC2ncJzlEbcPonSaXMrSyurqFZOE0Nx4VifwGaXfhbvYn882Isn3IXaO5KKD78lQ2mxRUg3PwL41kSrelMRX",
+      "_id": "695910221c508c5d5e864768"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

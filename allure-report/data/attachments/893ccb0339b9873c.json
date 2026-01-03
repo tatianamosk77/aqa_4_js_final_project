@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 12:47:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-9uMlduhSbqKXKLInJsofHhtk8A4\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Dixie.Luettgen@yahoo.com",
+      "name": "Hollie Nova",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 277,
+      "flat": 2111,
+      "phone": "+5019428276",
+      "createdOn": "2026-01-03T12:47:55.000Z",
+      "notes": "ZCV6muZJBcnYcPyxfm6R9YWUwnxMXOJBBd3mz6rZouc8MGW230v7BkbyEipqlKVAXeWmzLZPYzTSRsMaW6rN7D90rdskxzaofpfXffTcDH5XRrFGgGpXdjEVKd3iiJisRRds54apt6mSgPdq5zQo46ege4LdkfdWDB3QRM9fES2DrdNlbLaNYZO6bdKugzzv7uRy98jW36hB04p5Io1RbaNPjgRzFC4YPq1CzsyZbW2s2qQc6SDOr4wpWu",
+      "_id": "69590ffb1c508c5d5e8639e3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

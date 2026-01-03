@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 12:48:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1878",
+    "etag": "W/\"756-pjbjSqW7n74Fgu59UVBl+N3Vfj0\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695910071c508c5d5e863e4b",
+        "email": "Ephraim.Jenkins@yahoo.com",
+        "name": "Ellis Duane",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 829,
+        "flat": 3668,
+        "phone": "+5787828919",
+        "createdOn": "2026-01-03T12:48:07.000Z",
+        "notes": "oCjsK3S5AWDiluAd8Ys9MjWrdOOtfAoXJuSHAkSE510CmKrndiHHmCwmjIVuLaPM21NfWZYSfBwL0ilPuaaIyaxD4m2f1k3PdAvtBToeLOSxFRYKCtw3srNebGr0AyA7CehlnvhmJZKcicC8a1eiCoxxZhCrP2YZBugMOPb2a4N51VQOADmdFzfZRgjSV9hZAbXB5j5QOoqTKNTW4QJYOabQbEx3KcqL9MnOwbN71kmfZt0HuE8dstU3VH"
+      },
+      "products": [
+        {
+          "_id": "695910081c508c5d5e863e98",
+          "name": "Cheese76500",
+          "amount": 625,
+          "price": 39474,
+          "manufacturer": "Google",
+          "notes": "36n20UAJynShyTBklNQDkKe2ilgLsCVQ2JO0dU03KwhdXMBshUgqL9NPMSogENn1oTaBBp9hi3g9Dk7jMV4frde5pNdgyrqTdt86sLHHzhrL0drZtR7tfoVUeEqFLCvefNAWNWPZvF0NnpbTlZ6X6atrMdH6Td00sR94lD9TLUoqHtAM40lKBoWO4U0NjYsBxBStruAt9B6ExYPUg6eLQcN1mRe9mmGpP3YiKAMDNg9DpmG270WnYwbTOV",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 39474,
+      "createdOn": "2026-01-03T12:48:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695910071c508c5d5e863e4b",
+          "products": [
+            {
+              "_id": "695910081c508c5d5e863e98",
+              "name": "Cheese76500",
+              "amount": 625,
+              "price": 39474,
+              "manufacturer": "Google",
+              "notes": "36n20UAJynShyTBklNQDkKe2ilgLsCVQ2JO0dU03KwhdXMBshUgqL9NPMSogENn1oTaBBp9hi3g9Dk7jMV4frde5pNdgyrqTdt86sLHHzhrL0drZtR7tfoVUeEqFLCvefNAWNWPZvF0NnpbTlZ6X6atrMdH6Td00sR94lD9TLUoqHtAM40lKBoWO4U0NjYsBxBStruAt9B6ExYPUg6eLQcN1mRe9mmGpP3YiKAMDNg9DpmG270WnYwbTOV",
+              "received": false
+            }
+          ],
+          "total_price": 39474,
+          "delivery": null,
+          "changedOn": "2026-01-03T12:48:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695910081c508c5d5e863ea9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

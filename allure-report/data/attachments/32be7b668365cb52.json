@@ -1,0 +1,155 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 12:48:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4954",
+    "etag": "W/\"135a-aPH0jfXM7+IcMYlszXwwuxRdofo\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695910071c508c5d5e863e4d",
+        "email": "Tamara57@hotmail.com",
+        "name": "Noemi Immanuel",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 781,
+        "flat": 7747,
+        "phone": "+4997752011",
+        "createdOn": "2026-01-03T12:48:07.000Z",
+        "notes": "41uV8bMmcQpe6gQXB50EavGYcuJ3HZdjMOjcM1Q8RoZ4eGHdxrJlYe3GLdB93v13BKM9FSq3Cy0jxwZw5RsUz9vwS0mzfFXInueVSR1jltTgB70yRhMsDdNL2Vu7KqFYqnbq0XivwhRcI6VHkBEuDiIaehDIF3LFpYmF6KEnaZIyQOLgrnacEFd53TuG23RKsB74cHbcAwLu3rgoCMKDFTcHA4IzrR75T1ZFhWdVzX0hNdxSucrO8lX2RF"
+      },
+      "products": [
+        {
+          "_id": "695910091c508c5d5e863ec0",
+          "name": "Towels54359",
+          "amount": 337,
+          "price": 83255,
+          "manufacturer": "Samsung",
+          "notes": "pfZT3UIBevCU6vk0ODbH1NM05dhtchzTSIjm3qf1SiLVfJPY5mKD7jPU7ve55cJ1pfweU7PvT0M53ponAG6e4p2K9mD7wEATtsMZhwq8Bo5fkO9hnYXqUwnZeZiBjHmsofRHh4uvWJAJU6LRveFJhOKTDrCunvdVJe1z3dCvlkPVAjZRMBiaYsX50xXkziBH0I7EDLb4oEShbRPVxn6FmHo5kCWjOVo6LPKCT6jcIprAVpUAAt8c0tICXY",
+          "received": false
+        },
+        {
+          "_id": "695910081c508c5d5e863ebe",
+          "name": "Shoes48325",
+          "amount": 75,
+          "price": 46585,
+          "manufacturer": "Microsoft",
+          "notes": "eaToDsZzSUwyvMgX2uvK4LpCvOBUdtqqyuKACtX83kKwTXzfyixBnWqqrKP0jxMa6liwYsrMjJKiRjE2J9i8tHTLLCMGetGTBr70KVZjQLRXbqW1MuZhxAi5cFWJ8bAQLviWR3Z9dcP0VFpesS8A6PLTkbd0l5RY4mjRyfdfOxlOWq3VfAJ2Tyz8FyREP1tSFts2BO6HVHQNvad850gNv1stZckPIsx1iBzrkzxmh71FsZDBNhM355yKlq",
+          "received": false
+        },
+        {
+          "_id": "695910081c508c5d5e863eb8",
+          "name": "Mouse82959",
+          "amount": 845,
+          "price": 61555,
+          "manufacturer": "Tesla",
+          "notes": "4fs2JLoaGe2y9CqOkxP7NgAXiA1i0npvKtGKxGqXz7WM0g2mwXxOaleLfyMM0cEsFrBFKF7keYfxiD4GJr7Z9c2QiRsobojYx0G5ZZJ6TlGIwbxmxJoWdWK8OvWJvMweu8DtM5v6hE0ULrpdpTKfJw9BPh6rUZu9oGO72CDhHT7612bPrHxdiIyJ9gyVB4upaN8yJIs2ppy2YAYga56gUdd6GUOSJj8RA0egax8mPlf9EHYVdNSMfkG2Do",
+          "received": false
+        },
+        {
+          "_id": "695910081c508c5d5e863eb6",
+          "name": "Towels6991",
+          "amount": 108,
+          "price": 34946,
+          "manufacturer": "Sony",
+          "notes": "YYacEHNHKFG8aZFJTguJVuZ5N9PVJGhAmjheHATjfZGrhjMcohuP2fCLUSs6ZtZQdpoP4aUoRCLM9K4UJlX12DvoN5EhzgyMOhDEZedkRbme22lhoNOhtv7xgHXZVeclp2JC355ZdSb8U7jVThYnVZ7OprM8IPeLfinBdzi31fRq7RVVTB90Bji8QvFpdb2jS6kGwu84rOe6CxdNKW95Yw0TbR7vXyKm14L4Kjbo9RgrSlBnNCnqBFf6og",
+          "received": false
+        },
+        {
+          "_id": "695910081c508c5d5e863eba",
+          "name": "Chicken70993",
+          "amount": 489,
+          "price": 61387,
+          "manufacturer": "Amazon",
+          "notes": "vuIV11Bqd8Mfu2HDPx5mrtjpZlzfzXZHX4B1YNcXg4GnnzxvAANVZKaNYDnlB9IYIVYYmr2zz0H9LrFjPUy0J5XzzCcgstdTxtxnIBtGqwKhoTbwEDYNbmlJFG04R4dLTYHInQrQ70fiUvoL6Q7KR2JG1wVZzKvJb0WpekKMTVOdCZkSp9DrPZZf1HKZ1vqvcXMuuD2nH8iagDiedQ0eqFV8TlCeCkLodU4sbaDzUikesTuCgwYXwVMNcW",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 287728,
+      "createdOn": "2026-01-03T12:48:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695910071c508c5d5e863e4d",
+          "products": [
+            {
+              "_id": "695910091c508c5d5e863ec0",
+              "name": "Towels54359",
+              "amount": 337,
+              "price": 83255,
+              "manufacturer": "Samsung",
+              "notes": "pfZT3UIBevCU6vk0ODbH1NM05dhtchzTSIjm3qf1SiLVfJPY5mKD7jPU7ve55cJ1pfweU7PvT0M53ponAG6e4p2K9mD7wEATtsMZhwq8Bo5fkO9hnYXqUwnZeZiBjHmsofRHh4uvWJAJU6LRveFJhOKTDrCunvdVJe1z3dCvlkPVAjZRMBiaYsX50xXkziBH0I7EDLb4oEShbRPVxn6FmHo5kCWjOVo6LPKCT6jcIprAVpUAAt8c0tICXY",
+              "received": false
+            },
+            {
+              "_id": "695910081c508c5d5e863ebe",
+              "name": "Shoes48325",
+              "amount": 75,
+              "price": 46585,
+              "manufacturer": "Microsoft",
+              "notes": "eaToDsZzSUwyvMgX2uvK4LpCvOBUdtqqyuKACtX83kKwTXzfyixBnWqqrKP0jxMa6liwYsrMjJKiRjE2J9i8tHTLLCMGetGTBr70KVZjQLRXbqW1MuZhxAi5cFWJ8bAQLviWR3Z9dcP0VFpesS8A6PLTkbd0l5RY4mjRyfdfOxlOWq3VfAJ2Tyz8FyREP1tSFts2BO6HVHQNvad850gNv1stZckPIsx1iBzrkzxmh71FsZDBNhM355yKlq",
+              "received": false
+            },
+            {
+              "_id": "695910081c508c5d5e863eb8",
+              "name": "Mouse82959",
+              "amount": 845,
+              "price": 61555,
+              "manufacturer": "Tesla",
+              "notes": "4fs2JLoaGe2y9CqOkxP7NgAXiA1i0npvKtGKxGqXz7WM0g2mwXxOaleLfyMM0cEsFrBFKF7keYfxiD4GJr7Z9c2QiRsobojYx0G5ZZJ6TlGIwbxmxJoWdWK8OvWJvMweu8DtM5v6hE0ULrpdpTKfJw9BPh6rUZu9oGO72CDhHT7612bPrHxdiIyJ9gyVB4upaN8yJIs2ppy2YAYga56gUdd6GUOSJj8RA0egax8mPlf9EHYVdNSMfkG2Do",
+              "received": false
+            },
+            {
+              "_id": "695910081c508c5d5e863eb6",
+              "name": "Towels6991",
+              "amount": 108,
+              "price": 34946,
+              "manufacturer": "Sony",
+              "notes": "YYacEHNHKFG8aZFJTguJVuZ5N9PVJGhAmjheHATjfZGrhjMcohuP2fCLUSs6ZtZQdpoP4aUoRCLM9K4UJlX12DvoN5EhzgyMOhDEZedkRbme22lhoNOhtv7xgHXZVeclp2JC355ZdSb8U7jVThYnVZ7OprM8IPeLfinBdzi31fRq7RVVTB90Bji8QvFpdb2jS6kGwu84rOe6CxdNKW95Yw0TbR7vXyKm14L4Kjbo9RgrSlBnNCnqBFf6og",
+              "received": false
+            },
+            {
+              "_id": "695910081c508c5d5e863eba",
+              "name": "Chicken70993",
+              "amount": 489,
+              "price": 61387,
+              "manufacturer": "Amazon",
+              "notes": "vuIV11Bqd8Mfu2HDPx5mrtjpZlzfzXZHX4B1YNcXg4GnnzxvAANVZKaNYDnlB9IYIVYYmr2zz0H9LrFjPUy0J5XzzCcgstdTxtxnIBtGqwKhoTbwEDYNbmlJFG04R4dLTYHInQrQ70fiUvoL6Q7KR2JG1wVZzKvJb0WpekKMTVOdCZkSp9DrPZZf1HKZ1vqvcXMuuD2nH8iagDiedQ0eqFV8TlCeCkLodU4sbaDzUikesTuCgwYXwVMNcW",
+              "received": false
+            }
+          ],
+          "total_price": 287728,
+          "delivery": null,
+          "changedOn": "2026-01-03T12:48:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6959100d1c508c5d5e863f29"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

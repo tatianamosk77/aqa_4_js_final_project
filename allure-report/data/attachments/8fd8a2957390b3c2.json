@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 12:47:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "535",
+    "etag": "W/\"217-9yzd1/qEvh2DttScdv8RoQqTL9k\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jovan.Durgan4@hotmail.com",
+      "name": "M",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 26,
+      "flat": 9062,
+      "phone": "+7432500371",
+      "createdOn": "2026-01-03T12:47:17.000Z",
+      "notes": "so1Lvi97kr04tXvi2cb4LEJ1BWhRp5JLf7RPljq6QinaTAEbq3G82Z6Zrut8aczrJc2FhbjzaSY3zNP2D9K41nhxowmc4DQhsxBymJnhuqBfJSWVScGcB6GEJVujZtucxKhUBLgosFsWReYKXFcXeTBmnRw9Lqiggu8OBS1po5DbyaYsNAmWXDTenCs9wOxafcZU5I5L5xwFkjY3nH8UrcKmFVOo7WwMrB9SFQMDhZaUu7FexMs8pm85Uc",
+      "_id": "69590fd51c508c5d5e862d57"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

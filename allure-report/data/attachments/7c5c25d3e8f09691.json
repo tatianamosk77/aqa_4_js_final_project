@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 12:47:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "675",
+    "etag": "W/\"2a3-ww3hScXRTmoDrgQlknLoQZ9B5oU\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "69590feb1c508c5d5e863485",
+        "email": "Chelsea_Kiehn34@gmail.com",
+        "name": "Daija Rahsaan",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 755,
+        "flat": 6796,
+        "phone": "+1259177722",
+        "createdOn": "2026-01-03T12:47:39.000Z",
+        "notes": "gQSQAx2UK4H5YnsfoyE89v2enzyjgpg7Gndc9z4k4UzHHyifywnFTrrM7Ln74DFdnztFtd9dyRHTKsFzbfQezrMIbGAPatYodJu3xFcfQVxa0w2jkiGDTJg3FuCLGYtam6kGpaiKFZBldh3YepyQuSVsO6dzSoASTWWrB5jncIZo63XEhTrQAvBgXznXZkZpZCUZdm7ip7aM9BWuyOFCr6iqYYb9dXPMt1Wug2Um1PQWY4SHG4ltL9fU33"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Daija Rahsaan",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

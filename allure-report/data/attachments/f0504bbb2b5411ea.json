@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 12:48:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1871",
+    "etag": "W/\"74f-2imRiOLdMyh6qJrUthtNVn5E8XI\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695910221c508c5d5e864768",
+        "email": "Dell12@yahoo.com",
+        "name": "Loy Hermina",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 997,
+        "flat": 9189,
+        "phone": "+9661809208",
+        "createdOn": "2026-01-03T12:48:34.000Z",
+        "notes": "rcliE0mw6Wtv6U8UJmyPVumpmGAZUubmhe7LGsNl7h7R0gUewibxrXyQgxXtXtUkYBdMxUMY7GbJDdTyZTf3OdJdiCjKCtc9UszV3B6OgPcp6ZhB0p8TSHUPd7DpMXtkp3fwZsM0FLuBpKr5PEMt6rCRYXqvM4KOpkpoSxWC2ncJzlEbcPonSaXMrSyurqFZOE0Nx4VifwGaXfhbvYn882Isn3IXaO5KKD78lQ2mxRUg3PwL41kSrelMRX"
+      },
+      "products": [
+        {
+          "_id": "695910231c508c5d5e8647cc",
+          "name": "Soap75533",
+          "amount": 644,
+          "price": 83320,
+          "manufacturer": "Xiaomi",
+          "notes": "qQCfP2wjTS4oxBvhn4i60F2nlsgtQ9MiPaFLcJUsFHYH4hIHmwHCzX2zme2V388Um4tUP8wYpSwAcQvbMu0UicpZD28wx9bhDcgO5hB19jsHjDOyn8bMUHwH74PWY2DKXcxgSc4WwQ9sLlx14aywMB0gjRcDjdKSfZ5oeVnEkG4i2Rvo6hg3KQX8JQaKCZTp1MXomykAxCDkVoTF6wGXTsnq2XERkxAc12KmcAj2cE3efUCX60aPa9pmus",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 83320,
+      "createdOn": "2026-01-03T12:48:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695910221c508c5d5e864768",
+          "products": [
+            {
+              "_id": "695910231c508c5d5e8647cc",
+              "name": "Soap75533",
+              "amount": 644,
+              "price": 83320,
+              "manufacturer": "Xiaomi",
+              "notes": "qQCfP2wjTS4oxBvhn4i60F2nlsgtQ9MiPaFLcJUsFHYH4hIHmwHCzX2zme2V388Um4tUP8wYpSwAcQvbMu0UicpZD28wx9bhDcgO5hB19jsHjDOyn8bMUHwH74PWY2DKXcxgSc4WwQ9sLlx14aywMB0gjRcDjdKSfZ5oeVnEkG4i2Rvo6hg3KQX8JQaKCZTp1MXomykAxCDkVoTF6wGXTsnq2XERkxAc12KmcAj2cE3efUCX60aPa9pmus",
+              "received": false
+            }
+          ],
+          "total_price": 83320,
+          "delivery": null,
+          "changedOn": "2026-01-03T12:48:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695910241c508c5d5e8647e0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

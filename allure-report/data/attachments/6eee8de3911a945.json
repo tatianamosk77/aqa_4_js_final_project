@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 12:51:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-eo4N7zHDs3jI6xzmiqEncHWYPVo\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Domenica8@gmail.com",
+      "name": "Gerda Watson",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 144,
+      "flat": 6425,
+      "phone": "+7050985123",
+      "createdOn": "2026-01-03T12:51:24.000Z",
+      "notes": "j68bSYNxCiVMCXf0zHEAlFnKg9VL6jKTQZdcFFAQx1u0Jyrj6FOi4yvDJJWkGWZrqcVlbWoo8sbtM4Wgiss26CXvGQXyro36gnjhk97NQRuwcbcRpkxDKOsAxf2vaQouBPZNwLi9C5O6WRs1IXAE3bVVd6HFzFhCrZRWiQJDHzlGjmS0ESMKfvDh14efGYk08F0JMEP74MaCsTLrQVV8TZLaDp0bR5XvWPSSQ5U5v2HbbrIDyxCUAjQE4K",
+      "_id": "695910cc1c508c5d5e8679cd"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

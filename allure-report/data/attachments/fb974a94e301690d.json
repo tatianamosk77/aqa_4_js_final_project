@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 12:48:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-PjU8K8Q9P5UWo/VLi5ULusgMVto\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Deshaun12@yahoo.com",
+      "name": "Reva Sophie",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 946,
+      "flat": 1636,
+      "phone": "+6607924758",
+      "createdOn": "2026-01-03T12:48:29.000Z",
+      "notes": "rCXmZjPbirjhakgGXZoCrfyQX3e6D6RRm2OgtI9p1cGK7o2e2VpJyXKLi18uZNUQeZPlCNhCRryZk9JNE8vsL8SwPd9mho7MHmWsHvRo3YAVX8hSZDca67ItileJflduPByhw2QLxX9oQrMuczwAbN4bNnocVlrmZj1C3YdkUBxvOSyeioPBREuXUvtjLkrGPOn3GhgXeCrj78rFVn5LaAQi7aEGZdGfn01Ga9T36VZeF7RsssjnDpm3Ik",
+      "_id": "6959101d1c508c5d5e86452f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

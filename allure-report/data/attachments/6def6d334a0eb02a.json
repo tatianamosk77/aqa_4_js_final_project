@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 12:47:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-qzNaQNsooI5VcVLMnxj5PGfHevo\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ole48@hotmail.com",
+      "name": "Jaydon Granville",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 180,
+      "flat": 3500,
+      "phone": "+4013309836",
+      "createdOn": "2026-01-03T12:47:35.000Z",
+      "notes": "eHU8cC579matXrbdlbp2ta2SrN0EzkcjUQddaMrpYLW1A4udRMMUk6AYCvJAATxcaPSamWa3eYB48BcxJTd4FTRAGKeU5sTqZSMJQtG3U3RKwzpJbQVektwMUXS1waZB3a4SryAkx6uCViVSJ2iOklvaEex5QvG0Sq8cpm3Nj7mjmxmsSfaBV9y9cFTvBzqT91Su3Os6AvAAiqr6kwF8it14N7N8ofewrw4CEaiUMOiXMtGM0aB7BM1Wxd",
+      "_id": "69590fe71c508c5d5e863351"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

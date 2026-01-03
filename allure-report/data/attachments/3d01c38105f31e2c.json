@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 12:48:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "551",
+    "etag": "W/\"227-hgPKpHUQsZTKufZJdkCbjJDc6mg\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Shyann.Kshlerin@hotmail.com",
+      "name": "Grover Gudrun",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 936,
+      "flat": 5981,
+      "phone": "+4268185726",
+      "createdOn": "2026-01-03T12:48:09.000Z",
+      "notes": "RLWuThD95Hxul3qJbrgl2FSyaoI12W4SxUpfokzmDgLJUbmU0HzTaqUxk9ElVaSWFxk8wGTHFmyhqbQzLOi8LkzPiY5xov9cxuT86uRU65ug8sSkqG5zvnCbeOPnJ2SENjOp6fWUwbNW41pbVoexBrqRMJtjIff4JUcSeObMSwTmGeMfhupwc3KZDGnFvxcirnpnQzd5uqXqK1BP8iX7lfZMS9Puv9cHLnhNTEqliKg4SH9EO9NhB92Ngo",
+      "_id": "695910091c508c5d5e863ec3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
