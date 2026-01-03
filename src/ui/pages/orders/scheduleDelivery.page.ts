@@ -1,6 +1,6 @@
 import { SalesPortalPage } from "../sales-portal.page";
 import { logStep } from "utils/report/logStep.utils";
-import { DELIVERY_TYPE, IDeliveryFormData } from "data/types/delivery.types";
+import { DELIVERY_LOCATION, DELIVERY_TYPE, IDeliveryFormData } from "data/types/delivery.types";
 
 export class ScheduleDeliveryPage extends SalesPortalPage {
   readonly title = this.page.locator("#title");
@@ -20,6 +20,7 @@ export class ScheduleDeliveryPage extends SalesPortalPage {
 
   readonly saveDeliveryButton = this.page.locator("#save-delivery");
   readonly cancelDeliveryButton = this.page.locator("#back-to-order-details-page");
+  readonly countrySelect = this.page.locator("#selectCountry");
 
   readonly uniqueElement = this.title;
 
@@ -57,4 +58,31 @@ export class ScheduleDeliveryPage extends SalesPortalPage {
   async clickCancelDelivery() {
     await this.cancelDeliveryButton.click();
   }
+
+  @logStep("Fill schedule delivery form safely (date + minimal required fields)")
+  async fillDeliveryFormSafe(deliveryData: Partial<IDeliveryFormData> = {}) {
+    // deliveryType по умолчанию DELIVERY
+    const type = deliveryData.deliveryType || DELIVERY_TYPE.DELIVERY;
+    await this.deliveryType.selectOption(type);
+    // выбираем первую доступную дату
+    await this.selectFirstAvailableDate();
+    // если доставка домой
+    if (type === DELIVERY_TYPE.DELIVERY) {
+      const location = deliveryData.location || DELIVERY_LOCATION.HOME;
+      await this.locationInput.selectOption(location);
+    }
+    //если самовывоз
+    if (type === DELIVERY_TYPE.PICKUP) {
+      const country = deliveryData.country || "USA";
+      await this.countrySelect.selectOption(country);
+    }
+  }
+
+  @logStep("Select the first available date in datepicker")
+  async selectFirstAvailableDate() {
+  await this.dateButton.click();
+  await this.datePickerDays.waitFor({ state: "visible", timeout: 5000 });
+  const firstDay = this.datePickerDays.locator(".day:not(.old):not(.disabled)").first();
+  await firstDay.click();
+}
 }

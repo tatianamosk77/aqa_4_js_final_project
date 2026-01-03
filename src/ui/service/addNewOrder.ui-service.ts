@@ -88,4 +88,25 @@ export class AddNewOrderUIService extends BaseUIService {
 
     return await this.create(formData);
   }
+
+  @logStep("Create minimal order via UI - SAFE version")
+async createMinimalOrderSafe(customerName: string) {
+  await this.addNewOrderModal.fillMinimalOrderSafe(customerName);
+  
+  const response = await this.addNewOrderModal.interceptResponse<ICreateOrderResponseBody, []>(
+    apiConfig.endpoints.orders,
+    async () => {
+      await this.addNewOrderModal.clickCreate();
+    }
+  );
+
+  expect(response.status).toBe(STATUS_CODES.CREATED);
+  const order = response.body?.Order!;
+  await this.ordersListPage.waitForOpened();
+  
+  return { 
+    order, 
+    formData: { customerName, productNames: ["first"] } 
+  };
+}
 }

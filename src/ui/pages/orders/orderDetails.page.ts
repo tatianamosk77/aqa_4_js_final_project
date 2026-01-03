@@ -1,6 +1,8 @@
 import { logStep } from "utils/report/logStep.utils";
 import { SalesPortalPage } from "../sales-portal.page";
 import { SALES_PORTAL_URL } from "config/env";
+import { DeliveryTab } from "./delivery.tab";
+import { AssignManagerModal } from "./assignManager.modal";
 
 export class OrderDetailsPage extends SalesPortalPage {
   readonly orderDetailsHeader = this.page.locator("#order-details-header");
@@ -33,6 +35,7 @@ export class OrderDetailsPage extends SalesPortalPage {
   readonly orderItems = this.page.locator("#products-accordion-section button.accordion-button");
   readonly editItems = this.page.locator("#edit-products-pencil");
   readonly reopenOrderButton = this.page.getByRole("button", { name: /reopen/i });
+  readonly deliveryTabButton = this.page.locator("#delivery-tab");
 
   readonly uniqueElement = this.title;
 
@@ -113,4 +116,19 @@ export class OrderDetailsPage extends SalesPortalPage {
   async clickReopenOrder() {
     return await this.reopenOrderButton.click();
   }
+
+  @logStep("Open Delivery tab")
+  async openDeliveryTab() {
+    await this.deliveryTabButton.click();
+}
+
+  getDeliveryTab() {
+   return new DeliveryTab(this.page);
+}
+
+@logStep("Open Assign Manager modal")
+async openAssignManagerModal() {
+  await this.clickToSelectManager();
+  return new AssignManagerModal(this.page);
+}
 }
