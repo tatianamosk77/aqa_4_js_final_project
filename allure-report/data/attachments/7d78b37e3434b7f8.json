@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:32:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1891",
+    "etag": "W/\"763-j6MHMfN/O1YSY48gDeLpiHLrisc\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695960d41c508c5d5e96aff6",
+      "status": "Draft",
+      "customer": {
+        "_id": "695960d41c508c5d5e96afc7",
+        "email": "Derrick_Legros57@hotmail.com",
+        "name": "Mina Mossie",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 400,
+        "flat": 3787,
+        "phone": "+0533681331",
+        "createdOn": "2026-01-03T18:32:52.000Z",
+        "notes": "rsT2wC2NKal0h4D3tPVyec96mgB5vjkSn1WEdVMFFD7vkjHA2BZwx0HbvyS6K0rWHhPVOX2Nfej0jKZoZAU4gClvsom1Ple8UYX2p1L7gyWx8t7BIsReOFYIfABWlfdXCertQc52HvWRj4GecPHiKES5mSiY41RpN3kr1LDggLh33a6QX2s2sUJhrKzmPMf4WmpsB3LwgvUwoCkKHERoIMSD6PclorRSmTyC2IRWXhsXWTwRtzkvSR0LZr"
+      },
+      "products": [
+        {
+          "_id": "695960d31c508c5d5e96afa0",
+          "name": "Keyboard14064",
+          "amount": 308,
+          "price": 78387,
+          "manufacturer": "Xiaomi",
+          "notes": "dn2GfbcGYcJmFC7ZnNjwWXT1wgRzu6yOUxzRHKDjsywkJHv3LyjTlN8GUFww2ig9mkJHlfLuX8vaXfKKmXL7K8GuRjerMbBkkr1NoBaK1WF1jMnB5kUoWyQP5BjCw3j1KEP8FsygXr0GIC1MtPIymBlRL4ooK3gFZINAmlOFgJYEsQC4T8R5tfAn8x0TGDxLADwYLq7X8uvYcivsxgc89RPmOpFyUm0nniVLfZo9Mj3B5IZZc8fZGGzVPG",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 78387,
+      "createdOn": "2026-01-03T18:32:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695960d41c508c5d5e96afc7",
+          "products": [
+            {
+              "_id": "695960d31c508c5d5e96afa0",
+              "name": "Keyboard14064",
+              "amount": 308,
+              "price": 78387,
+              "manufacturer": "Xiaomi",
+              "notes": "dn2GfbcGYcJmFC7ZnNjwWXT1wgRzu6yOUxzRHKDjsywkJHv3LyjTlN8GUFww2ig9mkJHlfLuX8vaXfKKmXL7K8GuRjerMbBkkr1NoBaK1WF1jMnB5kUoWyQP5BjCw3j1KEP8FsygXr0GIC1MtPIymBlRL4ooK3gFZINAmlOFgJYEsQC4T8R5tfAn8x0TGDxLADwYLq7X8uvYcivsxgc89RPmOpFyUm0nniVLfZo9Mj3B5IZZc8fZGGzVPG",
+              "received": false
+            }
+          ],
+          "total_price": 78387,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:32:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

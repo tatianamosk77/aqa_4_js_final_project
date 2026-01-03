@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:33:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "535",
+    "etag": "W/\"217-F9XVkVL0VD5vx8onDT3ykUgnmw4\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Mafalda55@yahoo.com",
+      "name": "Vern Lera",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 922,
+      "flat": 8308,
+      "phone": "+1525200548",
+      "createdOn": "2026-01-03T18:33:00.000Z",
+      "notes": "2N9HbykoPeqA6UCak7GKbLsqO1q3PCVCRi1KTaxyZuV4BhHyDaBKREi28ql2wFGsAA9DUfkZcBL3qIBT8KoPQPJHkxCSbITF4XRCMJ6HXtcvdjYJDBKzJBeSreBW4W56FaXqCz8gOYYU8mKRmdqZYhat2N1vwl9rGLBLy4UgxdvVOseDs1zdfZR5wqDWotRrHoiQcXXSFKULWl1VEMTNolI3M53h8vTPiAwUrUZU1TnpE1UHmAIkAu1yT3",
+      "_id": "695960dc1c508c5d5e96b428"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

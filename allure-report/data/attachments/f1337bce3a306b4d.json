@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:35:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-db1ljE1cTLnokPyH2EmflwCIXYw\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Vesta.Kling@gmail.com",
+      "name": "Zane Dustin",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 506,
+      "flat": 5682,
+      "phone": "+2722618185",
+      "createdOn": "2026-01-03T18:35:27.000Z",
+      "notes": "1lrQlFMcM23U5tQbpUljbZD5bOijloU7I1oagzf6r55QWZkIsdnhlV6IO37hPQeWhXyg51zv3FmndVlISHRRmH7tMRo5P8MIlBoxrxF4xG2eep97fFZjycLxkp02gbymF9nVY94Ge5rq4keGBDebCMP7ZMgBXJvq0mMr0xZ0RC9TCLI9Wsqt84AtUlR3boXsQSx71wCJqd3U68ZIjZq0L45Yze9Z0hDCppL9dOPLVBXUtlrkkMXsUV9itT",
+      "_id": "6959616f1c508c5d5e96d76b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

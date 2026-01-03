@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:32:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "536",
+    "etag": "W/\"218-di0lhoV9WrkEZYveZP3Cn4Y8LBA\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Lou80@yahoo.com",
+      "name": "Kolby Kaden",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 256,
+      "flat": 819,
+      "phone": "+4686272839",
+      "createdOn": "2026-01-03T18:32:04.000Z",
+      "notes": "DvtJanOas7PLq8FekY2S7E5USDhCiXakrgCp8O0wRRUk8Le5Y6MTEBGGOERUU5OJjXhBVONirGSU6Tat4jd8UmcHqm2dQssdDbhb7B8a7EOEVQlhPuWN17BnMonqoofQAYzwoiiMEY4aNyeJugXENCqOxgqkFtQLlhYHE1FeD6nQOuVaInaNOvToCufmKUqGQOeVq0PESbWw6d6doEtv7rzX2zIrDe4pA0oq5wJZar1NgQOrSwwmX2ctnD",
+      "_id": "695960a41c508c5d5e96981d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

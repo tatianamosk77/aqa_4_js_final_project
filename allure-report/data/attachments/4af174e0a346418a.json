@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:32:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-tn/a202aMS4B0wrpiamrpWZrurE\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ara.Thiel60@hotmail.com",
+      "name": "Mina Johnson",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 520,
+      "flat": 755,
+      "phone": "+4022908409",
+      "createdOn": "2026-01-03T18:32:00.000Z",
+      "notes": "BPSyE09Ute9GTbvgPJSChcuwJVrxfalMD9WxU68l7HcdMmYakOqWHvH7N13YRrF5wDX2E4iOhmAyDsnYiD2HRH4T9G7LrpwcO1gC20QHOc1WNxrycyeQ66SChMQmNOdiWeLPG6bjRqsUQH51JzuSYJKuOkdubdXvIdwFh9uD9XdcIAcBEZzpkRHYIXy7zsDTTfwXsKGh95SpTU6RZvUeQJoqzqNScfgOxyPsFA4XFl5I1eTrmrCahUR6c8",
+      "_id": "695960a01c508c5d5e96976b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

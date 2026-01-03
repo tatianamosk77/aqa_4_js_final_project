@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:33:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-0niz9p4RiIu7bKrzMH0gmG8Asgg\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Louie99@yahoo.com",
+      "name": "Jonatan Dayne",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 875,
+      "flat": 8018,
+      "phone": "+0858571048",
+      "createdOn": "2026-01-03T18:33:03.000Z",
+      "notes": "API3TdR61LUgOiendWszjhU1myEfSITiN73zK8gYsGKoHjyNZFlWzYAXAcK3XUeCg2k9IC2NVqZ6Uf5bSwxGkK67XOBlcJ4c23fVZ9uOzRTxGRuAZO5bIZAdOeKUcsiZRkwwHbO5Nj7w1GADtf3XAyPXQbtXHryaLUntXznX5Mif2f3dTEOvQu5ES3UokpogGgPesA5h2tFgQZhzb9gf2c0gjkzNZpUoKO8B8Sc23cTjrTn1vT8zB6mIhp",
+      "_id": "695960df1c508c5d5e96b4cb"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

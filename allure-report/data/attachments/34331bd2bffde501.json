@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:33:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "199",
+    "etag": "W/\"c7-IT3f89WoyF4ZNPPVP/ILdMrNtnI\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Fish4370",
+      "amount": 62,
+      "price": 45391,
+      "manufacturer": "Sony",
+      "createdOn": "2026-01-03T18:33:16.000Z",
+      "notes": "",
+      "_id": "695960ec1c508c5d5e96bb21"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

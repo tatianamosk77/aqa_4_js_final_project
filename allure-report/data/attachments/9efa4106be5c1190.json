@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:32:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-1BLizsOS9ASW88vulAKkfg4tr8o\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Paolo61@hotmail.com",
+      "name": "Burnice Baylee",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 251,
+      "flat": 1803,
+      "phone": "+8596321618",
+      "createdOn": "2026-01-03T18:32:34.000Z",
+      "notes": "QjExOxjG619ke8LC8V0G0XEOzcouvYABxXfJQbc6jlXnfu5zKTXS7tWd4kUPyQ7ZKJCG9BjyuVoa7P3ruplqD1zKNWenlJVpsAeuTfVlOJqazDu5z4c9wXckgknPF2ksA2zREbV1UCdDdzMbnEQER0Ft8bpbLRbaGaE5Lwtvpti5VArmkPwNO0UyktGnff1LGhm2pLwWjDWnP7LUMEi98ee7J2bZqDmN4sEMFruGOGLRLorUQrg41BkXW0",
+      "_id": "695960c21c508c5d5e96a5fc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

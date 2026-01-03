@@ -1,0 +1,161 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:32:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4163",
+    "etag": "W/\"1043-+EKvUeQ7tY6Nh/EGQtiqtL7DdTo\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695960d41c508c5d5e96aff3",
+      "status": "Draft",
+      "customer": {
+        "_id": "695960d51c508c5d5e96b069",
+        "email": "Sabina.Collier@hotmail.com",
+        "name": "Faustino Jayson",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 562,
+        "flat": 8617,
+        "phone": "+1933032820",
+        "createdOn": "2026-01-03T18:32:53.000Z",
+        "notes": "uZjBMwDhp5HtMkPidYWoMH9a1lmt6DIWkyRzr0YKEhg8KEzvYgfIrauGfwWUPfB2kjvhI0lcI3X4LdGdQHzAmheYjFHHN4JjfWLl0ueeRSbCXKZ2NPO0HCDcAnja6qSMQasFkrVpFQo6hXxrzlLfHEpccMICaEstBGFkAuPOdheTNyRPNWjupUr99ZWEqav9o6C3YbrBtsxQxrhm6dbfe6aRN2UxhWuup6WyeCiBe5jO3AFDpDERGSaJL4"
+      },
+      "products": [
+        {
+          "_id": "695960d51c508c5d5e96b06b",
+          "name": "Salad67388",
+          "amount": 49,
+          "price": 44030,
+          "manufacturer": "Microsoft",
+          "notes": "gNBZXvVNZdCZiMX1WmgeSVSlnxvnCzCXJsdnd2ZNaqBg8kmHknMzedHjtO996iousYTVY40rBgWq6LhTm2NLQUmfdJHocGspgIb0eEEFdDBHwaLsB9lvkm2C2rfIf49GTtst6h5Fu0qBHViDtpJ7pnf5k6IOJIxf6gaHEqlaNobGpcM1VW5Q18WQGe90QNbg7L0gpAQKfyhLZ3ReAm6MfVXdfbf9OK77kM2pGEqmwzeZZVKCMka4g473Lm",
+          "received": false
+        },
+        {
+          "_id": "695960d51c508c5d5e96b06d",
+          "name": "Table94559",
+          "amount": 688,
+          "price": 79979,
+          "manufacturer": "Apple",
+          "notes": "0SaX2Mkc1s85efY1vdKZ3AHqS75BUM1z6dd48X0cRXxjZmPXsjzIZ18ls0dv7jCVSMsIKjgEbbvmTqv6zpNs3l0x2VUk5eNR3lwom9YkqW6tPQAg7L8qHNBAj5MXpDgqbpHdOy1yeox8Gg4qiH9IFFRiz50zCU5h7nEbynxIoioWVCvWrD5fdBSOWmXrYBR3ii9PaPXENfbm413wFL0j4jsIcCD4RzOREJenQl4OCVOcfzXWqk2kzCeUh5",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 124009,
+      "createdOn": "2026-01-03T18:32:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695960d51c508c5d5e96b069",
+          "products": [
+            {
+              "_id": "695960d31c508c5d5e96af9e",
+              "name": "Mouse65528",
+              "amount": 287,
+              "price": 9838,
+              "manufacturer": "Google",
+              "notes": "6qvHBFW2Z7YqucmNgNeqWzcEVmvuUzlOg64zGMrQHzNnz8h6CMoXGWQmFC2lk877vg1PCQ7owdNFsQw64mjJYE18BUOMtCBURt6JP0d6Qgtl5VOVOABMn0DRe1IifWFceNYvl3utcSOg3DHg0DKTZ81kX2MnYLjol4z0mPvKkI0pfbmwYyIx1U1TIfTImrh5CyjbQLYKO0MkSChK3n4qkQSFveTs4GjYfdvBJQNfiUPwLRVJPNYn3785gm",
+              "received": false
+            }
+          ],
+          "total_price": 124009,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:32:54.000Z",
+          "action": "Customer changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695960d41c508c5d5e96afc5",
+          "products": [
+            {
+              "_id": "695960d51c508c5d5e96b06b",
+              "name": "Salad67388",
+              "amount": 49,
+              "price": 44030,
+              "manufacturer": "Microsoft",
+              "notes": "gNBZXvVNZdCZiMX1WmgeSVSlnxvnCzCXJsdnd2ZNaqBg8kmHknMzedHjtO996iousYTVY40rBgWq6LhTm2NLQUmfdJHocGspgIb0eEEFdDBHwaLsB9lvkm2C2rfIf49GTtst6h5Fu0qBHViDtpJ7pnf5k6IOJIxf6gaHEqlaNobGpcM1VW5Q18WQGe90QNbg7L0gpAQKfyhLZ3ReAm6MfVXdfbf9OK77kM2pGEqmwzeZZVKCMka4g473Lm",
+              "received": false
+            },
+            {
+              "_id": "695960d51c508c5d5e96b06d",
+              "name": "Table94559",
+              "amount": 688,
+              "price": 79979,
+              "manufacturer": "Apple",
+              "notes": "0SaX2Mkc1s85efY1vdKZ3AHqS75BUM1z6dd48X0cRXxjZmPXsjzIZ18ls0dv7jCVSMsIKjgEbbvmTqv6zpNs3l0x2VUk5eNR3lwom9YkqW6tPQAg7L8qHNBAj5MXpDgqbpHdOy1yeox8Gg4qiH9IFFRiz50zCU5h7nEbynxIoioWVCvWrD5fdBSOWmXrYBR3ii9PaPXENfbm413wFL0j4jsIcCD4RzOREJenQl4OCVOcfzXWqk2kzCeUh5",
+              "received": false
+            }
+          ],
+          "total_price": 124009,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:32:54.000Z",
+          "action": "Requested products changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695960d41c508c5d5e96afc5",
+          "products": [
+            {
+              "_id": "695960d31c508c5d5e96af9e",
+              "name": "Mouse65528",
+              "amount": 287,
+              "price": 9838,
+              "manufacturer": "Google",
+              "notes": "6qvHBFW2Z7YqucmNgNeqWzcEVmvuUzlOg64zGMrQHzNnz8h6CMoXGWQmFC2lk877vg1PCQ7owdNFsQw64mjJYE18BUOMtCBURt6JP0d6Qgtl5VOVOABMn0DRe1IifWFceNYvl3utcSOg3DHg0DKTZ81kX2MnYLjol4z0mPvKkI0pfbmwYyIx1U1TIfTImrh5CyjbQLYKO0MkSChK3n4qkQSFveTs4GjYfdvBJQNfiUPwLRVJPNYn3785gm",
+              "received": false
+            }
+          ],
+          "total_price": 9838,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:32:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

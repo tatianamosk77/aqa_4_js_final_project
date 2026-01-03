@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:35:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-qkw2/RD4XuQvNOrD0NkhyeQclOw\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Alec.Kuhlman11@hotmail.com",
+      "name": "Dayne Emmet",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 163,
+      "flat": 9378,
+      "phone": "+0876661773",
+      "createdOn": "2026-01-03T18:35:15.000Z",
+      "notes": "k70t5Ncx9F9qWzdQlaq274AbXM4pbFx8L1sOBoMfRPnl9uwIqJnYD5ELOQYHtZXGcWUvV6QHCNscqgW3NdKMZwt4kp4ySSARhIP0YXo9o0lgUimr1mIlc9QPZyFGC7lzHRXwK8E0vzkvBuoK8RHC9LPT4jT2uYLioXJfg93tnniAvpJ1Rrcu3JgtFfFmwg7rURcQW5nYEVTWRYhZdghI6pfpifDdAcIA50DTFNNRK4tsZLF85Jyr3cba2I",
+      "_id": "695961631c508c5d5e96d5a2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

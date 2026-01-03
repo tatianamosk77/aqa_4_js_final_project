@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:32:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "551",
+    "etag": "W/\"227-3LZmtRwRf40zpBe4GfYcas/Tzjs\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Norval_Gerhold32@yahoo.com",
+      "name": "Joanie Caterina",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 543,
+      "flat": 7232,
+      "phone": "+4224114824",
+      "createdOn": "2026-01-03T18:32:18.000Z",
+      "notes": "XaLxcHW81pyYrrCklkhUxgzT2v0AAN1EOoYF8oz9a8BJmSUR7YN8jewADUGFqzazymGTbx6lQccUnxQt31DmYWu84mx3mRUyc6IFsozYRfxf16zTPHp0OtVxOQeqMysEhNcoBt1jCzK4x05b7FNi2oGWANC7D4W3GMc4bwXYC46kFpOcaTbdc8HOgKebgQN0h6ABDeq5YbbughBZf8o99FY1vRF40dcynsbAT56N0c1IDA72YgXfa6dnhn",
+      "_id": "695960b21c508c5d5e969d1a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

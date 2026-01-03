@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:32:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "552",
+    "etag": "W/\"228-7bZydkZ0dirETvsanRJ+pbBEb8A\"",
+    "keep-alive": "timeout=5, max=78",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ernesto.Schulist50@gmail.com",
+      "name": "Isaias Darryl",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 890,
+      "flat": 8504,
+      "phone": "+4341087278",
+      "createdOn": "2026-01-03T18:32:10.000Z",
+      "notes": "jaLpGURaBoh6fhcNIyfECMT10GRcSCoJriuZhRJNBYmZzAZQpyllPw6eV4fbQVjW00Albl0CQOisnWBXlMa2wJCj0zCMP5StaZNgRDMEqMIifTq1lZ5y5BBCnwKHtA2wbgHcdwpwFkr0HTIn3eJdfgJ7DpSKJ3Yq6S5wWeQlWV8otfbFgTOya2VpAl9Hkuh3fdEUsOpaERyZyDMJjoWAj6MCaKWn2iBMeEQlxXjHAv20U2e2Y4S9d5NAJx",
+      "_id": "695960aa1c508c5d5e969995"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:32:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "539",
+    "etag": "W/\"21b-FRMg/fqL3ot15hYGt4QAkrx2TdE\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Boris50@hotmail.com",
+      "name": "Holly Ona",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 347,
+      "flat": 2301,
+      "phone": "+8913857815",
+      "createdOn": "2026-01-03T18:32:06.000Z",
+      "notes": "37z7EafzDqHr85wQISVl5ldz0osRk8et0poW4ECzXUSollOt5XHSaKOEDmNczQQwKVYp0fvnHaj1runqJRhFHtmeRw6yoSZrWdPHHpvEuEKCZYgcgLENmdSve4rQ9torooHd5a4gEjzFdHx2Me89Hr8nb15VhfhQ9gqMNT3OhgVI6vinEI8ppMqTiwn3u4TGRAlh2Da51LCqVOsa1ZN0RcxUi9OoIyHp4sny4GbjIcKuWvnRVtQaxiaH2G",
+      "_id": "695960a61c508c5d5e969861"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

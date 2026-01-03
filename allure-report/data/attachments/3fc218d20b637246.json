@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:35:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-GvC/2709jhb00qSQ88c9t8VqlaY\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Elenor2@yahoo.com",
+      "name": "Elmira Priscilla",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 407,
+      "flat": 2963,
+      "phone": "+5354226377",
+      "createdOn": "2026-01-03T18:35:34.000Z",
+      "notes": "zCJY8VkHYybsMp6bM5ig5ahJwXufoC5evsl3fXfPD9C5QJ20OOuMKtqEXfnfwtGS6zGruhhLVXEtTVWpo7Wq5zeyKqM222MKh0O9TQ5WwKCNY3hHONK2eu7cb8ypqsvcgasXQsZJbsrbPAZLS6ybDthSC0CxpAS66ajFnCnl0XumDCm9Is3m7d7gtK6UWKHx3IcD0tVNJIFPn96KCF7ptOLoHS4Ev953IAKdXnuloupLRvLu92PAe7RVxQ",
+      "_id": "695961761c508c5d5e96d888"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

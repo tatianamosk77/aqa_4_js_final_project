@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:32:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-VliG1y8uh5vM6ME/HysSD3xhtfg\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ryan.Rippin@hotmail.com",
+      "name": "Silas Aylin",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 606,
+      "flat": 6209,
+      "phone": "+5441451891",
+      "createdOn": "2026-01-03T18:32:02.000Z",
+      "notes": "muvmuWlleOaomPK7i4kmLROYGcWGaifTp8BJKCwVhVWDsrzfA0hELAYMfxkIweRzDaC0rcc19XCbe6kYFmhxj0nCsxE4xVpcRH9cFZQeeCyZFPFDUzzcEWawfHgK1eKKkIjmUF3axsmnRvmBjaqUNRbMiphFvFlKqlzz05o24CppP6OJEJTBtSgRzPtXUYnZ5m9uYtYxLuR0sbQ37HYgJEBpaiXcg0EIFx5fzttooYbqnLvcfAlG63v0s3",
+      "_id": "695960a21c508c5d5e9697d7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

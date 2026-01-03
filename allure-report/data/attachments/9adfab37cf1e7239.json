@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:31:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "539",
+    "etag": "W/\"21b-5nfdZQhkGC2A4Bxf3gnHT3d7Srk\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Conner22@hotmail.com",
+      "name": "Ocie Vern",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 564,
+      "flat": 9999,
+      "phone": "+2090138320",
+      "createdOn": "2026-01-03T18:31:52.000Z",
+      "notes": "PtjhEKOQaXWuGv8dqqd66bDB8Da7D7NOKE1Nz60EN6mHEIa88CVczaLcgvyHGedj9CAEg3dzK6CCAEwfuw4OWGJg2rUHDVlkiiB2aphspVDuJ4rXajYwGCL0rqqAakZR1QSecV3t0FLTsg5tL60BR7MVf05b196Tkvlg99ahGLd3Bb4xBeSPIsgHUXhaQWYHyb3YUpAEgoszypwC0q4jdGOHVhRRdCFBhpJe4Txl7qkSoYV0hPpdhUGJJx",
+      "_id": "695960981c508c5d5e969636"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

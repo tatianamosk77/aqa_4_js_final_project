@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:32:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-+dN34cZD61dI5MkCxRnuEXU1Mz4\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Julian17@hotmail.com",
+      "name": "Abby Arnaldo",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 422,
+      "flat": 2821,
+      "phone": "+5356022087",
+      "createdOn": "2026-01-03T18:32:34.000Z",
+      "notes": "fxQAQsxdC84bE9iHyOUOHpnhP8ao1rMJLhgZEq1B0RZWy5PLRPsHmXVPFe903t2UyXlY5rK1ZN864cE9dGJr736Z7MSzdR0VcySrRdKJzaVNPlREHRXECpLdeO7u3ANIsaMKPKusaX9BodbsLC3ZKla8NqefKBD6HUSIuAyQaEy2Dw4X1exKU8SKABTJi8U6uhHteX38JeWu6fXVJHUnLCb536LITwkdYdRWsf4x7CWErhbOU31v19KQLK",
+      "_id": "695960c21c508c5d5e96a5f3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

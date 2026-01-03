@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:32:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1877",
+    "etag": "W/\"755-1pecbgcEP7e8+TeclgLH/QAluuA\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695960b21c508c5d5e969d18",
+        "email": "Belle_Terry@hotmail.com",
+        "name": "Ward Rafaela",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 320,
+        "flat": 5388,
+        "phone": "+2728878990",
+        "createdOn": "2026-01-03T18:32:18.000Z",
+        "notes": "8BdjRvQtU0s2UQk70Z7UMEwr4ym4HtNdWN8BrOEYmA2WuotDMQmrpcq17KZyviGoCMjKLQRZRE2pOzy08gul13u5v9vfDc1Nn1c3zuEGqKtiFig0GaNAU4YVD2Rb1C1rm6QZQGktv8cHabs97lNT0StkU7oZJdItLU2BYY3o3KI6Ae8FGsRQTD3uNhkHUsrZVXgYBNmpij7yYWYwnJklxJrcG56RJvbBunJpSJsObyGIIWLsStxlMpVBsQ"
+      },
+      "products": [
+        {
+          "_id": "695960b21c508c5d5e969d29",
+          "name": "Shoes30336",
+          "amount": 304,
+          "price": 1689,
+          "manufacturer": "Microsoft",
+          "notes": "Eiqr5xjc0TB8kLefHIYVItdEUAnwCWMJcCrAUCQT72o9Ue4J0j2BqtyCJYsmTPDbGRTdGQow3kfNEIIDSCSa3dUxjUpZnL7j6DKBJhUkBW0V3qELUYglVHbAt8vW69BiACRsoBGabQnjPUN5vczz0XxiuYSTzXDUzbrJYTmL3KS0tf3PLFqL8fejRDz9RcmDEP4Uzvge98d1i1iGqcm0QZ5lr86mEnhsvXblYyFkvB1zfL0FuCvAM1zcY2",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 1689,
+      "createdOn": "2026-01-03T18:32:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695960b21c508c5d5e969d18",
+          "products": [
+            {
+              "_id": "695960b21c508c5d5e969d29",
+              "name": "Shoes30336",
+              "amount": 304,
+              "price": 1689,
+              "manufacturer": "Microsoft",
+              "notes": "Eiqr5xjc0TB8kLefHIYVItdEUAnwCWMJcCrAUCQT72o9Ue4J0j2BqtyCJYsmTPDbGRTdGQow3kfNEIIDSCSa3dUxjUpZnL7j6DKBJhUkBW0V3qELUYglVHbAt8vW69BiACRsoBGabQnjPUN5vczz0XxiuYSTzXDUzbrJYTmL3KS0tf3PLFqL8fejRDz9RcmDEP4Uzvge98d1i1iGqcm0QZ5lr86mEnhsvXblYyFkvB1zfL0FuCvAM1zcY2",
+              "received": false
+            }
+          ],
+          "total_price": 1689,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:32:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695960b21c508c5d5e969d54"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

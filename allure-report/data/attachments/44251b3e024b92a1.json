@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:32:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "554",
+    "etag": "W/\"22a-8gT7XBNbVGnvSWNZRsk2Gpp6XaA\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Caden.Stark78@hotmail.com",
+      "name": "Isaac Wilford",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 145,
+      "flat": 195,
+      "phone": "+0182626914",
+      "createdOn": "2026-01-03T18:32:07.000Z",
+      "notes": "H7FZjkF08raFbNHgjsT3Tu2CQfpCTkrBYbp3RV1IhxuYpy2Pp7WyS3tKxRpLySVizH460SikdXwtcVGUqpVtJ2WP1rjUkrEbgwBV7zwVChfwz8fWkDRWbSQlqI5xEI3ZBgb8ZRERglgCoEv2TKvmzHaWz1ChxGwZDB6fZGne7BGvGeTbOZuApK99qZkK2Q7DlFON9HLiZzM9BCWGSIlGryNnrMI982IYaUa2vAKcrYRtBsXIB6MzyWWnmN",
+      "_id": "695960a71c508c5d5e969872"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

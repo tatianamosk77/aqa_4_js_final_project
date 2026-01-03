@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:31:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "556",
+    "etag": "W/\"22c-vJQdzKr1B0fxfP5eS2OH9AyEZCI\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Eusebio.Turcotte@gmail.com",
+      "name": "Test Customer",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 580,
+      "flat": 8065,
+      "phone": "+9566015586",
+      "createdOn": "2026-01-03T18:31:50.000Z",
+      "notes": "6y27W5PSQbjbLhf2rcVKsJUHgo74riDkzOsoI7SSIV9LibTJL2xMcjHVMCMpqLo5QboanoFDzoCx2aNU7ZmuKPFnPxQagRqzewHgkiuaGoLzEQ1HyPIeZTrwsYQmDoLE69U4F8iFZgYTOvA1EhLMBEqISS9i8FVnlPIvp53pFr9l6hmbAqEMWoI18vxVcT3cGsLReRdJA9F8SH9TM9BpYbopDbnJxrfbfaDIVSgMwmfGtgia2i9ksVjeHi",
+      "_id": "695960961c508c5d5e9695e3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

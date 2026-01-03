@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:33:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-7cPN+qj+dz6vq/i/O3tLm6DJncc\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Devon_Hills@hotmail.com",
+      "name": "Leanna Roxanne",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 685,
+      "flat": 323,
+      "phone": "+4166374686",
+      "createdOn": "2026-01-03T18:33:00.000Z",
+      "notes": "FLZ4CavZE6TYQyur2k64hj1dsnP6qoCuOWVy4i0Mw57SludgCwpfqd7mzVSOvN9kZ9ei2pHsmg1FTTAm5jzVldbmSLmY826p5szqIO8ioZmUnE9jTOI8VA300NouM4hn7vVRg9YSKi8F0bv3QqFXZ2ZxzQXVuCNAibfRX5vN5mg2ZrU3soh2j8qwuB5aidQloGCAaDd39yS28g4udFxYUdfj03h9K0AEbdxg3SqqyrN1KgaEZCrouvFxst",
+      "_id": "695960dc1c508c5d5e96b42a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

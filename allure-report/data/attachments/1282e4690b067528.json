@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:32:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "538",
+    "etag": "W/\"21a-TY6Stcd5CWMu2ELQgTFj9uGbVRE\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Izabella33@gmail.com",
+      "name": "Hertha Elza",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 952,
+      "flat": 6814,
+      "phone": "+9335784368",
+      "createdOn": "2026-01-03T18:32:08.000Z",
+      "notes": "5qR0BEuKi28zWRSioVfSZCX7LzFKvrRzaChbkKUhJUZb0zTY4ch7NJVtqOenEPORGbP2kPtqCrIEFbj0p8YxM5kwPU9JZjhaaE0xCUwnARqCAguz9yCrQnYUW76SY57delD6racHMHGWFvXRuRNBqgpuCZroYvoE2KOQ4CIqQ6IqdJHaykQwTwxTFc5rcUpP7xcSMZnWtf1Q7xSnXbCmn8ObYxEwgGqfPREnMS0YFWm78OyRaeKEHQVPlY",
+      "_id": "695960a81c508c5d5e96989a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

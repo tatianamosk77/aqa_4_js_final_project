@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:31:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-Et4KZnx+AGMv596hi48DAeGLRXc\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Sherman51@gmail.com",
+      "name": "Lisa Rachelle",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 640,
+      "flat": 8622,
+      "phone": "+1721450816",
+      "createdOn": "2026-01-03T18:31:53.000Z",
+      "notes": "QF3M79Wlk07pFTTf2YOm2RMFUWvqktdCg4yRWOHP6b6anZw8fi6Xf0nZUD2hfgtxU6MRBfs0QVveGVVIzbnCBp9FNegBA7Sb1qkOZ12ih9T39EvwR9fr8eADzyvhvMkYMqcerG5FRcLw8ExM6ms3S1CI9qaxUqqsKfEPSKwG0mPCG6Ug26YD5vHKyBEgqSEMbyuMRKwdVHHvWtpnU89smqOGJH0Mpl35ZP0pW9C8PmmMEuyEq4dbFn8JPx",
+      "_id": "695960991c508c5d5e96967b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

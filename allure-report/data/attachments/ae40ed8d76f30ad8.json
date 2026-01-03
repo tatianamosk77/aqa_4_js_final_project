@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:32:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-LfWOuG320PEhxAlvxV3cdIVKljU\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Reinhold.Kshlerin53@gmail.com",
+      "name": "Jane Lea",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 51,
+      "flat": 1136,
+      "phone": "+0506173311",
+      "createdOn": "2026-01-03T18:32:43.000Z",
+      "notes": "gYULIg9vaI2j2xjc6llzNsDJW8gTthXwRFpdjVeT1YAneEMv7MtMd0dOwjjmZWBcJMOzGI4BWGIOCBsEsIjlcmOw9XrvfiqXFAGcHNoOlsDvygs6YmN3gGGyonL0bWKy2Nac70dtXK7MywCuaEJdfnOeDyxoqEvyhQmczuH9Brdap84ehHG66K6UiDbsaLNrkm4LYeI6zjUribDVH8zhoXbhqrM6Twgfo9gbWWOKgw3nHxf5zjlyg0PxZg",
+      "_id": "695960cb1c508c5d5e96aea9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

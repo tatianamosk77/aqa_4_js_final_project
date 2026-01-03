@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:32:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "556",
+    "etag": "W/\"22c-B9DgSLSp0SjSFUWuBM7qpjg8Mro\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Guillermo_Rogahn57@hotmail.com",
+      "name": "Nikolas Davonte",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 131,
+      "flat": 3702,
+      "phone": "+2145034597",
+      "createdOn": "2026-01-03T18:32:05.000Z",
+      "notes": "eE7NM5n8tcjONBATNrNKvB0HYa8e8WsihENKiNuLRLzFk6GpTA8NjVzNJYNPApA8QomBa5CmhXnKvbIf9LKBIVuYY2tqxvXQCoVkSl1gSGHMnVpSK48kCAuVHjdS6cW8tI8VWuqWZcz1Y21l1nTDMvhUfwpOTaJJwr23AbFeniOEtNA9M3Je6xlBAOSwOTSGgeXuwjYgBG5mQ4Ce4WxXJSnV0JkArmR0dM28Nm6Dn47PTfL973xz3PVPJe",
+      "_id": "695960a51c508c5d5e969848"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

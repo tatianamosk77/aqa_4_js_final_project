@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:32:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-reCeGOPBpwtFkRZUKi2KXCi5ccw\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695960b21c508c5d5e969d1a",
+        "email": "Norval_Gerhold32@yahoo.com",
+        "name": "Joanie Caterina",
+        "country": "France",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 543,
+        "flat": 7232,
+        "phone": "+4224114824",
+        "createdOn": "2026-01-03T18:32:18.000Z",
+        "notes": "XaLxcHW81pyYrrCklkhUxgzT2v0AAN1EOoYF8oz9a8BJmSUR7YN8jewADUGFqzazymGTbx6lQccUnxQt31DmYWu84mx3mRUyc6IFsozYRfxf16zTPHp0OtVxOQeqMysEhNcoBt1jCzK4x05b7FNi2oGWANC7D4W3GMc4bwXYC46kFpOcaTbdc8HOgKebgQN0h6ABDeq5YbbughBZf8o99FY1vRF40dcynsbAT56N0c1IDA72YgXfa6dnhn"
+      },
+      "products": [
+        {
+          "_id": "695960b21c508c5d5e969d27",
+          "name": "Bike3739",
+          "amount": 916,
+          "price": 35880,
+          "manufacturer": "Microsoft",
+          "notes": "zkvBpq3ROoI1YownhUeNloTLmeEwq9JKk2JQY0y24AZ1HYzURc11xWqqB6ICMNg8o43OZdy54gVk6K37t3XJJQuvg5g0W7JjgU0VNJlwyh1rz3KgG8afyErFUezk37xYMsq4mev4TMjpvX2uM9iR6iMMKpETAON9dFmPVVPXBORcRWxXuQdJCkH9oEBlhGXIA1N2aAIKyy6kj80JfT1oLagVcKJTjkb7L0mxYY7xTH7Z7VLZpp69dCWzAr",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 35880,
+      "createdOn": "2026-01-03T18:32:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695960b21c508c5d5e969d1a",
+          "products": [
+            {
+              "_id": "695960b21c508c5d5e969d27",
+              "name": "Bike3739",
+              "amount": 916,
+              "price": 35880,
+              "manufacturer": "Microsoft",
+              "notes": "zkvBpq3ROoI1YownhUeNloTLmeEwq9JKk2JQY0y24AZ1HYzURc11xWqqB6ICMNg8o43OZdy54gVk6K37t3XJJQuvg5g0W7JjgU0VNJlwyh1rz3KgG8afyErFUezk37xYMsq4mev4TMjpvX2uM9iR6iMMKpETAON9dFmPVVPXBORcRWxXuQdJCkH9oEBlhGXIA1N2aAIKyy6kj80JfT1oLagVcKJTjkb7L0mxYY7xTH7Z7VLZpp69dCWzAr",
+              "received": false
+            }
+          ],
+          "total_price": 35880,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:32:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695960b21c508c5d5e969d57"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

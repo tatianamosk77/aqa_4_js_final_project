@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:32:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1877",
+    "etag": "W/\"755-9UBo8kgsfgnvY7WWPmZISTi5pAQ\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695960b21c508c5d5e969d1c",
+        "email": "Theodore_Smitham40@hotmail.com",
+        "name": "Gilda Baby",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 801,
+        "flat": 197,
+        "phone": "+4314075297",
+        "createdOn": "2026-01-03T18:32:18.000Z",
+        "notes": "jfDafqyf7nodpWBtpP9mX7NjvRHiMucCpnMOaA187PGhbULKgJUpNRVtEoP8FJzN6SMSfJ8zxSBysYqa85ZVu9RyUCJpQORxymOgz40Chl30a5GgOTPzYYXPphjxGwokp9VFSrUhSvWlgrs4ul3TWAbAB2nRBD1qO1i0DVDh9IwA6OUBKCZckeiU1rnWztJbF9vZ6fdnamvjtkZyWP2KRY5kAYPFbXJSk9vMZZkqFOUZ0TLvuWPSEnebjy"
+      },
+      "products": [
+        {
+          "_id": "695960b21c508c5d5e969d25",
+          "name": "Chicken10226",
+          "amount": 97,
+          "price": 27864,
+          "manufacturer": "Google",
+          "notes": "LwS9wJPf7TnQmep6bZNmf26vsyw1ZIpXX5BIJp52VO4mfmTHHCvwZEcnXvzh3ZzhuT0Y5E3j5sKhVw4BYJ8k9X1hMoVLMKCJRMoXvqQbusfJpJdPkt88XBnSSSHGJZ7Ksq83qWIledDY8yuifwYbGyPb3rqMBK7Wf5l5Ui7lVJknKSbHYN5xzR5kHsyARswzqh5wXje1YkvR0LwI9wA4TpwoBIBysH0xH39QBQ9Y71VHcnFkYC8y9B1SWF",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 27864,
+      "createdOn": "2026-01-03T18:32:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695960b21c508c5d5e969d1c",
+          "products": [
+            {
+              "_id": "695960b21c508c5d5e969d25",
+              "name": "Chicken10226",
+              "amount": 97,
+              "price": 27864,
+              "manufacturer": "Google",
+              "notes": "LwS9wJPf7TnQmep6bZNmf26vsyw1ZIpXX5BIJp52VO4mfmTHHCvwZEcnXvzh3ZzhuT0Y5E3j5sKhVw4BYJ8k9X1hMoVLMKCJRMoXvqQbusfJpJdPkt88XBnSSSHGJZ7Ksq83qWIledDY8yuifwYbGyPb3rqMBK7Wf5l5Ui7lVJknKSbHYN5xzR5kHsyARswzqh5wXje1YkvR0LwI9wA4TpwoBIBysH0xH39QBQ9Y71VHcnFkYC8y9B1SWF",
+              "received": false
+            }
+          ],
+          "total_price": 27864,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:32:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695960b21c508c5d5e969d52"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

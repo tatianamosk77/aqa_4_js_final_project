@@ -1,0 +1,155 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:32:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4949",
+    "etag": "W/\"1355-+auhm03+8/PwjrySrc67yF4NDjg\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695960b71c508c5d5e96a047",
+      "status": "Draft",
+      "customer": {
+        "_id": "695960b71c508c5d5e969fea",
+        "email": "Keira7@yahoo.com",
+        "name": "Jedidiah Jarrett",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 637,
+        "flat": 6164,
+        "phone": "+4225903403",
+        "createdOn": "2026-01-03T18:32:23.000Z",
+        "notes": "r7Z8hkzSvyq6ZGxU6jh2CQCUbNN6jBstXEzBg3MTWBBfxh5kmHMye4odgMcLIUFb0A1LIWvMkDgh5291UOQca7n1irchD2Z3Jb7ykfngEXBiQ6sUPL7lfsGZD9DplwwQuGgokMy2t6UdUVf4WsHwqdZHUvVhYpe0bQrAGP029XrNd3KyHhyix3JdcXU0AVx9mgl5WbnAIcII30tSLCCe1aNnlcdiWcXUa4MwHcKszTfXZon2AX6FnXk6VW"
+      },
+      "products": [
+        {
+          "_id": "695960b71c508c5d5e96a008",
+          "name": "Tuna53308",
+          "amount": 770,
+          "price": 1550,
+          "manufacturer": "Microsoft",
+          "notes": "7Xb5Ns9wRJLDCMiUDyllt4diYQbqHOrftfuksKVjztUxyhlFVtrJMVCfUXG93EFcwUQkROh4WcW9R2vDaXstx7xL04YtxNog0oTMxaKJHlQcF5zTcpPR7OGIi9ctAjvpOIni0dJj4Olmx3AixRonSvNWNiqhnnTLRnygPpUbt2LKcqdeQELpw9iG7dW0CRclUIzGg37HN5rrmQZTee8hLgyAe5TxBe1e5449fpt9sh8ITDwIBgs2XeoHdT",
+          "received": false
+        },
+        {
+          "_id": "695960b71c508c5d5e96a006",
+          "name": "Chicken49623",
+          "amount": 839,
+          "price": 37738,
+          "manufacturer": "Amazon",
+          "notes": "rEzRUsIUStJHAPCI5IiipobhhhrE52aEnSf97ZJTW6ijfeTbMV7ooEfxYcunxOy25XCC0vWN64w9ymQs0TO6IQguv1SwbRIWH67cGMWIRgGZr8YXrJTKUH8HpjudUtg0mUgAR17nO0FobZwSythTvSSWJ4Xu1Fb7k6yhhYkM5rJ86DIqhXKCBXOdzC4dpFMJLBmI5JgavHrZ2KKqxPtPH7Yrs0MLDnis7ylNZj8KJLBdWIlTa9XpmNfwTW",
+          "received": false
+        },
+        {
+          "_id": "695960b71c508c5d5e96a00a",
+          "name": "Keyboard24285",
+          "amount": 806,
+          "price": 35169,
+          "manufacturer": "Amazon",
+          "notes": "9f9V35U4Peehht2cU53YO49JZfNa4329qu2krnrL7y8gw59NsMMhI4yJbZaKf0DPNnCoAOHjAF7POGWTDE8YP0c1sSuRi6qCE9UkLDdrYolvIiGjUDFc18Q4m9HEOG1rbYLkvXKeNuFr5RPSUpuMFf2ES3ZlBQoS6WMt5BKGBSRpYPISyUVvz9SyTFe1N6VGtobx8eW1KJIMvHI255F6IQMKfGWj6pLgK233MNcilIxaNzbaAPum1s4XU1",
+          "received": false
+        },
+        {
+          "_id": "695960b71c508c5d5e96a00c",
+          "name": "Table89467",
+          "amount": 201,
+          "price": 2452,
+          "manufacturer": "Xiaomi",
+          "notes": "HxsgJm2QO1FC9LKZIJDvXDvFdQdTVVhlalp3Hqi1uploSRZYdhP8wWJ4EMdIbuVP0fSqivqG5J8JEyOL1Jvr1sYj5BQtpAtlEYscs6yuq9UA8d47DiLRafx4vDUlVYx2TjBkM6mADZKMGUmMEzYIXq5dqkzuKxXodIUXtjfk4TE0Pre1RgTo2aCZZLt1ADX3NCcv8k24kLiHBxzVlBJU7PtygGyMuGVishH5jPxj3QGKi26jbwDUVbPHkz",
+          "received": false
+        },
+        {
+          "_id": "695960b71c508c5d5e96a004",
+          "name": "Fish21250",
+          "amount": 953,
+          "price": 93018,
+          "manufacturer": "Sony",
+          "notes": "22vO5SRDRSow0BmAHOX4RW7xIFGtfIoiabMiYkk4xIl1vN8YQ7uXRSwxYocmyht8RBN1wlm3NniQtu3v0yeD1w6rRzNVZelYUKL0Mp8KJwOnfIZKckNFSSb9UOXSvvEQzespAfUCuTAt2YfXCMZQ02LuiIhc72TCcqZgRINa28z3JVJjSauweItjC7Xrvu0udzKOMhTfnPk4KqfHTZZTjsHz7OngYXyV1zeZGy1W0V6hk0JmnJ0fnOHswJ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 169927,
+      "createdOn": "2026-01-03T18:32:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695960b71c508c5d5e969fea",
+          "products": [
+            {
+              "_id": "695960b71c508c5d5e96a008",
+              "name": "Tuna53308",
+              "amount": 770,
+              "price": 1550,
+              "manufacturer": "Microsoft",
+              "notes": "7Xb5Ns9wRJLDCMiUDyllt4diYQbqHOrftfuksKVjztUxyhlFVtrJMVCfUXG93EFcwUQkROh4WcW9R2vDaXstx7xL04YtxNog0oTMxaKJHlQcF5zTcpPR7OGIi9ctAjvpOIni0dJj4Olmx3AixRonSvNWNiqhnnTLRnygPpUbt2LKcqdeQELpw9iG7dW0CRclUIzGg37HN5rrmQZTee8hLgyAe5TxBe1e5449fpt9sh8ITDwIBgs2XeoHdT",
+              "received": false
+            },
+            {
+              "_id": "695960b71c508c5d5e96a006",
+              "name": "Chicken49623",
+              "amount": 839,
+              "price": 37738,
+              "manufacturer": "Amazon",
+              "notes": "rEzRUsIUStJHAPCI5IiipobhhhrE52aEnSf97ZJTW6ijfeTbMV7ooEfxYcunxOy25XCC0vWN64w9ymQs0TO6IQguv1SwbRIWH67cGMWIRgGZr8YXrJTKUH8HpjudUtg0mUgAR17nO0FobZwSythTvSSWJ4Xu1Fb7k6yhhYkM5rJ86DIqhXKCBXOdzC4dpFMJLBmI5JgavHrZ2KKqxPtPH7Yrs0MLDnis7ylNZj8KJLBdWIlTa9XpmNfwTW",
+              "received": false
+            },
+            {
+              "_id": "695960b71c508c5d5e96a00a",
+              "name": "Keyboard24285",
+              "amount": 806,
+              "price": 35169,
+              "manufacturer": "Amazon",
+              "notes": "9f9V35U4Peehht2cU53YO49JZfNa4329qu2krnrL7y8gw59NsMMhI4yJbZaKf0DPNnCoAOHjAF7POGWTDE8YP0c1sSuRi6qCE9UkLDdrYolvIiGjUDFc18Q4m9HEOG1rbYLkvXKeNuFr5RPSUpuMFf2ES3ZlBQoS6WMt5BKGBSRpYPISyUVvz9SyTFe1N6VGtobx8eW1KJIMvHI255F6IQMKfGWj6pLgK233MNcilIxaNzbaAPum1s4XU1",
+              "received": false
+            },
+            {
+              "_id": "695960b71c508c5d5e96a00c",
+              "name": "Table89467",
+              "amount": 201,
+              "price": 2452,
+              "manufacturer": "Xiaomi",
+              "notes": "HxsgJm2QO1FC9LKZIJDvXDvFdQdTVVhlalp3Hqi1uploSRZYdhP8wWJ4EMdIbuVP0fSqivqG5J8JEyOL1Jvr1sYj5BQtpAtlEYscs6yuq9UA8d47DiLRafx4vDUlVYx2TjBkM6mADZKMGUmMEzYIXq5dqkzuKxXodIUXtjfk4TE0Pre1RgTo2aCZZLt1ADX3NCcv8k24kLiHBxzVlBJU7PtygGyMuGVishH5jPxj3QGKi26jbwDUVbPHkz",
+              "received": false
+            },
+            {
+              "_id": "695960b71c508c5d5e96a004",
+              "name": "Fish21250",
+              "amount": 953,
+              "price": 93018,
+              "manufacturer": "Sony",
+              "notes": "22vO5SRDRSow0BmAHOX4RW7xIFGtfIoiabMiYkk4xIl1vN8YQ7uXRSwxYocmyht8RBN1wlm3NniQtu3v0yeD1w6rRzNVZelYUKL0Mp8KJwOnfIZKckNFSSb9UOXSvvEQzespAfUCuTAt2YfXCMZQ02LuiIhc72TCcqZgRINa28z3JVJjSauweItjC7Xrvu0udzKOMhTfnPk4KqfHTZZTjsHz7OngYXyV1zeZGy1W0V6hk0JmnJ0fnOHswJ",
+              "received": false
+            }
+          ],
+          "total_price": 169927,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:32:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

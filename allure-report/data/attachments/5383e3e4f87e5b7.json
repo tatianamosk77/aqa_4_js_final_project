@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:35:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "539",
+    "etag": "W/\"21b-07qhPmD52yzOAaa8tp/gokShZwI\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Eloy.Gerlach@gmail.com",
+      "name": "Tod Ana",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 752,
+      "flat": 9496,
+      "phone": "+4867436620",
+      "createdOn": "2026-01-03T18:35:23.000Z",
+      "notes": "YaTGL23hIehekwF9WTeSwTNDTzCWbR6UZzaSFhw0EdqnlfTOonq5YctL0LNzBIk2sVGb2m3oa7mj9RezdrUt1oy9NkQlk28TTWcfhM3xqm72LKj4VRfWCdkLoxGgfmCJv6lnhPB6V3J2C7mEVDHF3WoBfiaMQ0BPVWdIO8FntIrA2s5FD7PJbKVh8PXedTRKLLh424u89VMiZEiLMcqFoNOdBW3307jjridKoEcrFpQ5fTMq4cSpUQph2X",
+      "_id": "6959616b1c508c5d5e96d6ce"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
