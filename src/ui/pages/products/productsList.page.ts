@@ -2,9 +2,8 @@ import { IProductInTable, ProductsTableHeader } from "data/types/product.types";
 import { SalesPortalPage } from "../sales-portal.page";
 import { MANUFACTURERS } from "data/salesPortal/products/manufacturers";
 import { ProductDetailsModal } from "./details.modal";
-import { ConfirmationModal } from "./confirmation.modal";
+import { ConfirmationModal } from "../confirmation.modal";
 import { logStep } from "utils/report/logStep.utils";
-import { SALES_PORTAL_URL } from "config/env";
 
 export class ProductsListPage extends SalesPortalPage {
   readonly detailsModal = new ProductDetailsModal(this.page);
@@ -129,9 +128,9 @@ export class ProductsListPage extends SalesPortalPage {
   async clickSearch() {
     await this.searchButton.click();
   }
-  @logStep("Open products-page")
-  async open() {
-    const base = SALES_PORTAL_URL.replace(/\/+$/, "");
-    await this.page.goto(`${base}#/products`);
-  }
+  // @logStep("Open products-page")
+  // async open() {
+  //   const base = SALES_PORTAL_URL.replace(/\/+$/, "");
+  //   await this.page.goto(`${base}#/products`);
+  // }
 }

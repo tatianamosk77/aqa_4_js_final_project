@@ -1,5 +1,5 @@
 import { test as base } from "@playwright/test";
-import { Mock } from "../mock/mock"; 
+import { Mock } from "../mock/mock";
 
 export type MockFixture = {
   mock: Mock;

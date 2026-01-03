@@ -1,7 +1,6 @@
 import { IProduct } from "data/types/product.types";
 import { SalesPortalPage } from "../sales-portal.page";
 import { logStep } from "utils/report/logStep.utils";
-import { SALES_PORTAL_URL } from "config/env";
 
 export class AddNewProductPage extends SalesPortalPage {
   readonly title = this.page.locator("h2.page-title-text");
@@ -29,10 +28,9 @@ export class AddNewProductPage extends SalesPortalPage {
     await this.saveButton.click();
   }
 
-  @logStep("Open add-new-product page")
-  async open() {
-    const base = SALES_PORTAL_URL.replace(/\/+$/, "");
-    await this.page.goto(`${base}#/products/add`);
-  }
-  
+  // @logStep("Open add-new-product page")
+  // async open() {
+  //   const base = SALES_PORTAL_URL.replace(/\/+$/, "");
+  //   await this.page.goto(`${base}#/products/add`);
+  // }
 }

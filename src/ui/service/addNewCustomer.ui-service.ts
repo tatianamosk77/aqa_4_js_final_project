@@ -1,4 +1,4 @@
-import { expect, Page } from "@playwright/test";
+import { expect } from "@playwright/test";
 import { apiConfig } from "config/apiConfig";
 import { generateCustomerData } from "data/salesPortal/customers/generateCustomerData";
 import { STATUS_CODES } from "data/statusCodes";
@@ -14,7 +14,8 @@ export class AddNewCustomerUIService extends BaseUIService {
 
   @logStep("Open Add customers page")
   async open() {
-    await this.addNewCustomerPage.open();
+    await this.customersListPage.open("customers");
+    await this.customersListPage.clickAddNewCustomer();
     await this.addNewCustomerPage.waitForOpened();
   }
 

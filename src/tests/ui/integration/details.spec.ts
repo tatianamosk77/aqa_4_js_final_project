@@ -5,11 +5,12 @@ import { convertToFullDateAndTime } from "utils/date.utils";
 import { TAGS } from "data/tags";
 
 test.describe("[Integration] [Sales Portal] [Products]", () => {
-  test("Product Details",
+  test(
+    "Product Details",
     {
       tag: [TAGS.VISUAL_REGRESSION, TAGS.PRODUCTS, TAGS.INTEGRATION],
     },
-    async ({ loginAsAdmin, productsListPage, mock }) => {
+    async ({ productsListPage, mock }) => {
       const expectedProductResponse = generateProductResponseData();
       await mock.productsPage({
         Products: [expectedProductResponse],
@@ -31,8 +32,7 @@ test.describe("[Integration] [Sales Portal] [Products]", () => {
         IsSuccess: true,
         ErrorMessage: null,
       });
-      await loginAsAdmin();
-      await productsListPage.open();
+      await productsListPage.open("products");
       await productsListPage.waitForOpened();
       await productsListPage.clickAction(expectedProductResponse.name, "details");
       const { detailsModal } = productsListPage;

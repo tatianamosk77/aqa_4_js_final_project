@@ -18,11 +18,12 @@ test.describe("[UI] [Orders] [Pages/Components]", () => {
       await ordersListPage.waitForOpened();
     });
 
-      test.afterEach(async ({ page }) => {
-    await page.unroute(/\/api\/.*/);
-  });
+    test.afterEach(async ({ page }) => {
+      await page.unroute(/\/api\/.*/);
+    });
 
-    test("Should display Orders List base UI",
+    test(
+      "Should display Orders List base UI",
       { tag: [TAGS.UI, TAGS.SMOKE] },
       async ({ ordersListPage }) => {
         await expect(ordersListPage.pageTitle).toBeVisible();
@@ -41,7 +42,8 @@ test.describe("[UI] [Orders] [Pages/Components]", () => {
       }
     );
 
-    test("Should render table rows from mocked orders response",
+    test(
+      "Should render table rows from mocked orders response",
       { tag: [TAGS.UI] },
       async ({ ordersListPage }) => {
         await expect(ordersListPage.tableRows).toHaveCount(
@@ -54,7 +56,8 @@ test.describe("[UI] [Orders] [Pages/Components]", () => {
       }
     );
 
-    test("Should update table after Search (via new /api/orders mock)",
+    test(
+      "Should update table after Search (via new /api/orders mock)",
       { tag: [TAGS.UI] },
       async ({ ordersListPage, mock }) => {
         const filteredResponse: IOrderFilteredResponse = {
@@ -81,7 +84,8 @@ test.describe("[UI] [Orders] [Pages/Components]", () => {
       }
     );
 
-    test("Should allow sorting by columns without breaking UI",
+    test(
+      "Should allow sorting by columns without breaking UI",
       { tag: [TAGS.UI] },
       async ({ ordersListPage }) => {
         await ordersListPage.sortByColumn("createdOn");
@@ -97,7 +101,8 @@ test.describe("[UI] [Orders] [Pages/Components]", () => {
       await expect(ordersListPage.ordersTable).toBeVisible();
     });
 
-    test("Should navigate to Order Details from Orders List via Details button",
+    test(
+      "Should navigate to Order Details from Orders List via Details button",
       { tag: [TAGS.UI, TAGS.SMOKE] },
       async ({ page, ordersListPage, orderDetailsPage, mock }) => {
         const order: IOrderFromResponse = MOCK_ORDERS_LIST_API_RESPONSE.Orders[0]!;
@@ -129,7 +134,8 @@ test.describe("[UI] [Orders] [Pages/Components]", () => {
       await expect(orderDetailsPage.orderDetailsHeader).toBeVisible();
     });
 
-    test("Should display Order Details base UI (header + status bar)",
+    test(
+      "Should display Order Details base UI (header + status bar)",
       { tag: [TAGS.UI, TAGS.SMOKE] },
       async ({ orderDetailsPage }) => {
         await expect(orderDetailsPage.title).toBeVisible();
@@ -146,7 +152,8 @@ test.describe("[UI] [Orders] [Pages/Components]", () => {
       }
     );
 
-    test("Should display Order number and Assigned Manager section",
+    test(
+      "Should display Order number and Assigned Manager section",
       { tag: [TAGS.UI] },
       async ({ orderDetailsPage }) => {
         await expect(orderDetailsPage.orderNumber).toBeVisible();
@@ -155,7 +162,8 @@ test.describe("[UI] [Orders] [Pages/Components]", () => {
       }
     );
 
-    test("Should navigate back to Orders list from Order Details",
+    test(
+      "Should navigate back to Orders list from Order Details",
       { tag: [TAGS.UI] },
       async ({ page, orderDetailsPage }) => {
         await orderDetailsPage.backToOrdersList();
@@ -163,7 +171,8 @@ test.describe("[UI] [Orders] [Pages/Components]", () => {
       }
     );
 
-    test("Should refresh Order Details and stay on the same page",
+    test(
+      "Should refresh Order Details and stay on the same page",
       { tag: [TAGS.UI] },
       async ({ orderDetailsPage, mock }) => {
         const refreshedOrder = { ...order, status: order.status };

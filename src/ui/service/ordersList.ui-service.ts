@@ -1,8 +1,5 @@
-import { expect } from "@playwright/test";
-import { IOrderDetails } from "data/types/order.types";
 import { OrderDetailsPage, OrdersListPage } from "ui/pages/orders";
 import { AddNewOrderModal } from "ui/pages/orders/addNewOrder.modal";
-import { convertToDateAndTime } from "utils/date.utils";
 import { logStep } from "utils/report/logStep.utils";
 
 export class OrdersListUIService {
@@ -14,7 +11,7 @@ export class OrdersListUIService {
 
   @logStep("Open Orders List page as logged in user")
   async openOrdersList() {
-    await this.ordersListPage.open();
+    await this.ordersListPage.open("orders");
     await this.ordersListPage.waitForOpened();
     await this.ordersListPage.waitForTableToLoad();
   }

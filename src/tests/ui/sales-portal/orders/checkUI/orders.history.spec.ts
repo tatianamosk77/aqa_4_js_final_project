@@ -15,7 +15,7 @@ test.describe("[UI] [Orders] [Pages/Components] [History]", () => {
 
     await ordersListPage.clickOrderDetails(MOCK_ORDER_IN_PROCESS._id);
     await page.waitForURL(new RegExp(`#\\/orders\\/${MOCK_ORDER_IN_PROCESS._id}$`));
-    await orderDetailsPage.waitForSpinners()
+    await orderDetailsPage.waitForSpinners();
     await expect(orderDetailsPage.orderDetailsHeader).toBeVisible();
     await orderDetailsPage.orderHistoryTab.click();
   });
@@ -24,7 +24,8 @@ test.describe("[UI] [Orders] [Pages/Components] [History]", () => {
     await page.unroute(/\/api\/.*/);
   });
 
-  test("Should display Order History tab base UI",
+  test(
+    "Should display Order History tab base UI",
     { tag: [TAGS.UI, TAGS.SMOKE] },
     async ({ page }) => {
       const historyTab = new HistoryTab(page);
@@ -34,7 +35,8 @@ test.describe("[UI] [Orders] [Pages/Components] [History]", () => {
     }
   );
 
-  test("Should expand history row and show previous/updated values",
+  test(
+    "Should expand history row and show previous/updated values",
     { tag: [TAGS.UI] },
     async ({ page }) => {
       const historyTab = new HistoryTab(page);
@@ -54,7 +56,8 @@ test.describe("[UI] [Orders] [Pages/Components] [History]", () => {
     }
   );
 
-  test("Should expand first history row and render its data",
+  test(
+    "Should expand first history row and render its data",
     { tag: [TAGS.UI] },
     async ({ page }) => {
       const historyTab = new HistoryTab(page);

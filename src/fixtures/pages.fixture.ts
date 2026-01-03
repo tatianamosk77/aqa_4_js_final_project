@@ -32,6 +32,7 @@ import {
 import { OrdersListUIService } from "ui/service/ordersList.ui-service";
 import { AddNewOrderUIService } from "ui/service/addNewOrder.ui-service";
 import { EditOrderUIService } from "ui/service/editOrder.ui-service";
+import { ConfirmationModal } from "ui/pages/confirmation.modal";
 
 export interface IPages {
   //pages
@@ -43,7 +44,6 @@ export interface IPages {
   addNewCustomerPage: AddNewCustomerPage;
   customerDetailsPage: CustomerDetailsPage;
 
-
   ordersListPage: OrdersListPage;
   headerPage: HeaderPage;
   commentsTab: CommentsTab;
@@ -54,6 +54,7 @@ export interface IPages {
   orderDetailsPage: OrderDetailsPage;
   scheduleDeliveryPage: ScheduleDeliveryPage;
   addNewOrderModal: AddNewOrderModal;
+  confirmationModal: ConfirmationModal;
 
   //ui-services
   homeUIService: HomeUIService;
@@ -125,6 +126,10 @@ export const test = base.extend<IPages>({
   },
   addNewOrderModal: async ({ page }, use) => {
     await use(new AddNewOrderModal(page));
+  },
+
+  confirmationModal: async ({ page }, use) => {
+    await use(new ConfirmationModal(page));
   },
 
   //ui-services

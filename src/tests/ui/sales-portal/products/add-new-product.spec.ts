@@ -1,5 +1,4 @@
 import { test, expect } from "fixtures/business.fixture";
-import { credentials } from "config/env";
 import { NOTIFICATIONS } from "data/salesPortal/notifications";
 import { generateProductData } from "data/salesPortal/products/generateProductData";
 import { HomePage } from "ui/pages/home.page";
@@ -62,16 +61,16 @@ test.describe("[Sales Portal] [Products]", async () => {
     const productsListPage = new ProductsListPage(page);
     const addNewProductPage = new AddNewProductPage(page);
 
-    //login page
-    const emailInput = page.locator("#emailinput");
-    const passwordInput = page.locator("#passwordinput");
-    const loginButton = page.locator("button[type='submit']");
+    // //login page
+    // const emailInput = page.locator("#emailinput");
+    // const passwordInput = page.locator("#passwordinput");
+    // const loginButton = page.locator("button[type='submit']");
 
     await homePage.open();
-    await expect(emailInput).toBeVisible();
-    await emailInput.fill(credentials.username);
-    await passwordInput.fill(credentials.password);
-    await loginButton.click();
+    // await expect(emailInput).toBeVisible();
+    // await emailInput.fill(credentials.username);
+    // await passwordInput.fill(credentials.password);
+    // await loginButton.click();
 
     await homePage.waitForOpened();
 

@@ -1,6 +1,5 @@
 import { test, expect } from "fixtures/business.fixture";
 import { NOTIFICATIONS } from "data/salesPortal/notifications";
-import _ from "lodash";
 import { TAGS } from "data/tags";
 
 test.describe("[Sales Portal] [Customers] [E2E Add]", async () => {
@@ -22,8 +21,8 @@ test.describe("[Sales Portal] [Customers] [E2E Add]", async () => {
     }
   );
 
-    test.afterEach(async ({ customersApiService }) => {
-      if (id) await customersApiService.delete(token, id);
-      id = "";
+  test.afterEach(async ({ customersApiService }) => {
+    if (id) await customersApiService.delete(token, id);
+    id = "";
   });
 });

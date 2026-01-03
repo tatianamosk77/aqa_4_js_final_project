@@ -11,7 +11,9 @@ export class NotificationsModal {
   constructor(private readonly page: Page) {
     this.modal = page.locator("#notification-popover");
     this.modalTitle = this.modal.getByText(/notifications/i);
-    this.items = this.modal.locator('[data-testid="notification-item"], .notification-item, .toast, li');
+    this.items = this.modal.locator(
+      '[data-testid="notification-item"], .notification-item, .toast, li'
+    );
     this.readAllButton = this.modal.getByRole("button", { name: /read all/i });
     this.bellButton = this.page.locator("#notification-bell");
   }
@@ -26,7 +28,7 @@ export class NotificationsModal {
     await expect(this.modal).toBeHidden();
   }
 
-    @logStep("Open Notifications")
+  @logStep("Open Notifications")
   async open() {
     await this.bellButton.click();
     await this.waitForOpened();
@@ -37,5 +39,4 @@ export class NotificationsModal {
     await this.bellButton.click();
     await this.waitForClosed();
   }
-
 }

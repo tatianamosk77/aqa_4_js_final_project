@@ -1,4 +1,4 @@
-import { SALES_PORTAL_URL } from "./env"; 
+import { SALES_PORTAL_URL } from "./env";
 
 export const ROUTES = {
   ORDERS: `${SALES_PORTAL_URL}/orders`,

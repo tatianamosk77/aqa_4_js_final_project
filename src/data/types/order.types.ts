@@ -30,7 +30,7 @@ export interface IOrderHistoryItem {
   changedOn: string;
   action: string;
   performer: IHistoryPerformer;
-  assignedManager: IAssignedManager | string | null; 
+  assignedManager: IAssignedManager | string | null;
 }
 
 export interface IHistoryPerformer {
@@ -47,7 +47,7 @@ export interface IAssignedManager {
   username: string;
   firstName: string;
   lastName: string;
-  createdOn: string; 
+  createdOn: string;
 }
 
 export interface IOrderData {
@@ -210,3 +210,15 @@ export const HEADER_TO_SORT_FIELD: Record<OrdersTableHeader, OrdersSortField> = 
   "Assigned Manager": "assignedManager",
   "Created On": "createdOn",
 };
+
+export const headers = [
+  "Order Number",
+  "Email",
+  "Price",
+  "Delivery",
+  "Status",
+  "Assigned Manager",
+  "Created On",
+] as const satisfies OrdersTableHeader[];
+
+export const directions = ["asc", "desc"] as SortOrder[];

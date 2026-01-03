@@ -70,6 +70,12 @@ export class AddNewOrderModal extends SalesPortalPage {
     await deleteButton.click();
   }
 
+  @logStep("Delete specific product by position")
+  async deleteProductByPosition(index: number = 2): Promise<void> {
+    const deleteButton = this.deleteProductButton.nth(index - 1);
+    await deleteButton.click();
+  }
+
   @logStep("Select customer by index or name")
   async selectCustomer(indexOrName: number | string): Promise<string> {
     if (typeof indexOrName === "number") {
@@ -176,8 +182,16 @@ export class AddNewOrderModal extends SalesPortalPage {
       }
       throw new Error(`Product index ${productToSelect} is out of bounds`);
     } else {
-      await dropdown.selectOption({ label: productToSelect });
-      return productToSelect;
+      // productToSelect is a string containing the name
+      const options = await dropdown.locator("option").all();
+      for (const option of options) {
+        const fullLabel = await option.innerText();
+        if (fullLabel.toLowerCase().includes(productToSelect.toLowerCase())) {
+          await dropdown.selectOption({ label: fullLabel });
+          return fullLabel;
+        }
+      }
+      throw new Error(`Product label containing "${productToSelect}" not found`);
     }
   }
 

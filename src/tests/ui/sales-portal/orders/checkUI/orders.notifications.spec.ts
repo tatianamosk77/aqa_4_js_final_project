@@ -17,7 +17,8 @@ test.describe("[UI][Orders][Modals][Notifications]", () => {
     await page.unroute(/\/api\/.*/);
   });
 
-  test("Should open Notifications modal and display base UI",
+  test(
+    "Should open Notifications modal and display base UI",
     { tag: [TAGS.UI, TAGS.SMOKE] },
     async ({ page }) => {
       const notifications = new NotificationsModal(page);
@@ -30,8 +31,7 @@ test.describe("[UI][Orders][Modals][Notifications]", () => {
     }
   );
 
-  test("Should close Notifications modal by button", 
-    { tag: [TAGS.UI] }, async ({ page }) => {
+  test("Should close Notifications modal by button", { tag: [TAGS.UI] }, async ({ page }) => {
     const notifications = new NotificationsModal(page);
 
     await notifications.open();

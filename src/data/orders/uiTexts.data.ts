@@ -13,7 +13,7 @@ export const UI_TEXTS = {
     CANCEL_ORDER_QUESTION: "Are you sure you want to cancel the order?",
     UNASSIGN_MANAGER_CONFIRMATION: "Are you sure you want to unassign manager from order?",
   },
-  
+
   PANEL_TITLES: {
     ORDER_DETAILS: "Order Details",
   },

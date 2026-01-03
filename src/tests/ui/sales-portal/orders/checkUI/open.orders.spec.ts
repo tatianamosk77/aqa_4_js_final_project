@@ -7,7 +7,8 @@ test.describe("[UI] [Orders] [Navigation]", () => {
       await homeUIService.openAsLoggedInUser();
     });
 
-    test("Should open Orders page via navigation menu",
+    test(
+      "Should open Orders page via navigation menu",
       { tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDERS] },
       async ({ page, ordersListUIService, headerPage }) => {
         await ordersListUIService.openOrdersList();
@@ -18,7 +19,8 @@ test.describe("[UI] [Orders] [Navigation]", () => {
       }
     );
 
-    test("Should open Orders page via Home module button",
+    test(
+      "Should open Orders page via Home module button",
       { tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDERS] },
       async ({ page, homePage, headerPage, ordersListUIService }) => {
         await homePage.clickOnViewModule("Orders");
@@ -37,7 +39,8 @@ test.describe("[UI] [Orders] [Navigation]", () => {
       await expect(headerPage.uniqueElement).toBeVisible();
     });
 
-    test("Should open Orders page by direct URL",
+    test(
+      "Should open Orders page by direct URL",
       { tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDERS] },
       async ({ page, headerPage }) => {
         await expect(page).toHaveURL(/#\/orders$/);
@@ -45,7 +48,8 @@ test.describe("[UI] [Orders] [Navigation]", () => {
       }
     );
 
-    test("Should highlight active Orders menu item",
+    test(
+      "Should highlight active Orders menu item",
       { tag: [TAGS.UI, TAGS.REGRESSION, TAGS.ORDERS] },
       async ({ headerPage }) => {
         await expect(headerPage.moduleButtons["Orders"]).toHaveClass(/active/);

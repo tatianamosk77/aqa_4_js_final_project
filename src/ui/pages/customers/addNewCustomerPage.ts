@@ -1,7 +1,6 @@
 import { ICustomer } from "data/types/customer.types";
 import { SalesPortalPage } from "../sales-portal.page";
 import { logStep } from "utils/report/logStep.utils";
-import { SALES_PORTAL_URL } from "config/env";
 
 export class AddNewCustomerPage extends SalesPortalPage {
   readonly title = this.page.locator("h2.page-title-text");
@@ -35,10 +34,10 @@ export class AddNewCustomerPage extends SalesPortalPage {
   async clickSave() {
     await this.saveButton.click();
   }
-  
-  @logStep("Open add-new-customer page")
-  async open() {
-    const base = SALES_PORTAL_URL.replace(/\/+$/, "");
-    await this.page.goto(`${base}#/customers/add`);
-  }
+
+  // @logStep("Open add-new-customer page")
+  // async open() {
+  //   const base = SALES_PORTAL_URL.replace(/\/+$/, "");
+  //   await this.page.goto(`${base}#/customers/add`);
+  // }
 }

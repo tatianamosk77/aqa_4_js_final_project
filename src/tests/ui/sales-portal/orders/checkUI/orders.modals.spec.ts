@@ -8,7 +8,7 @@ import { TAGS } from "data/tags";
 import { STATUS_CODES } from "data/statusCodes";
 import { UI_TEXTS } from "data/orders/uiTexts.data";
 import { AssignManagerModal } from "ui/pages/orders/assignManager.modal";
-import { ConfirmationModal } from "ui/pages/orders/confirmation.modal";
+import { ConfirmationModal } from "ui/pages/confirmation.modal";
 import { OrdersListPage } from "ui/pages/orders/ordersList.page";
 
 test.describe("[UI] [Orders] [Orders List]", () => {
@@ -122,17 +122,21 @@ test.describe("[UI] [Orders][Modals] [Cancel Order Modal]", () => {
     await orderDetailsPage.waitForSpinners();
     await orderDetailsPage.cancelOrderButton.click();
 
- await expect(confirmationModal.uniqueElement).toBeVisible();
-  await expect(confirmationModal.title).toHaveText(UI_TEXTS.MODAL_TITLES.CANCEL_ORDER);
-  await expect(confirmationModal.confirmationMessage).toHaveText(UI_TEXTS.MODAL_CONTENT.CANCEL_ORDER_QUESTION);
+    await expect(confirmationModal.uniqueElement).toBeVisible();
+    await expect(confirmationModal.title).toHaveText(UI_TEXTS.MODAL_TITLES.CANCEL_ORDER);
+    await expect(confirmationModal.confirmationMessage).toHaveText(
+      UI_TEXTS.MODAL_CONTENT.CANCEL_ORDER_QUESTION
+    );
 
-  await expect(confirmationModal.cancelButton).toBeVisible();
-  await expect(confirmationModal.confirmButton).toBeVisible();
-  await confirmationModal.clickConfirm();
-  await expect(confirmationModal.uniqueElement).toBeHidden();
+    await expect(confirmationModal.cancelButton).toBeVisible();
+    await expect(confirmationModal.confirmButton).toBeVisible();
+    await confirmationModal.clickConfirm();
+    await expect(confirmationModal.uniqueElement).toBeHidden();
 
-  await expect(ordersListPage.toastBody).toBeVisible();
-  await expect(ordersListPage.toastBody).toContainText(UI_TEXTS.MODAL_CONTENT.CANCEL_ORDER_CONFIRMATION);
+    await expect(ordersListPage.toastBody).toBeVisible();
+    await expect(ordersListPage.toastBody).toContainText(
+      UI_TEXTS.MODAL_CONTENT.CANCEL_ORDER_CONFIRMATION
+    );
   });
 });
 
@@ -162,49 +166,52 @@ test.describe("[UI] [Orders] [Modals] [Remove Manager Modal]", () => {
     await expect(orderDetailsPage.orderDetailsHeader).toBeVisible();
   });
 
-  test("Should open 'Remove Manager' modal and display its basic UI",
-  { tag: [TAGS.UI] },
-  async ({ page, orderDetailsPage, mock }) => {
-    const confirmationModal = new ConfirmationModal(page);
-    const ordersListPage = new OrdersListPage(page);
+  test(
+    "Should open 'Remove Manager' modal and display its basic UI",
+    { tag: [TAGS.UI] },
+    async ({ page, orderDetailsPage, mock }) => {
+      const confirmationModal = new ConfirmationModal(page);
+      const ordersListPage = new OrdersListPage(page);
 
-    const targetOrder =
-      MOCK_ORDERS_LIST_API_RESPONSE.Orders.find(o => o.assignedManager) ??
-      MOCK_ORDERS_LIST_API_RESPONSE.Orders[0];
+      const targetOrder =
+        MOCK_ORDERS_LIST_API_RESPONSE.Orders.find(o => o.assignedManager) ??
+        MOCK_ORDERS_LIST_API_RESPONSE.Orders[0];
 
-    if (!targetOrder) throw new Error("No orders in mock response");
+      if (!targetOrder) throw new Error("No orders in mock response");
 
-    const updatedOrder = { ...targetOrder, assignedManager: null };
+      const updatedOrder = { ...targetOrder, assignedManager: null };
 
-    await page.route(new RegExp(`/api/orders/${targetOrder._id}.*`, "i"), async route => {
-      const method = route.request().method();
-      if (!["PUT", "POST", "DELETE", "PATCH"].includes(method)) return route.fallback();
+      await page.route(new RegExp(`/api/orders/${targetOrder._id}.*`, "i"), async route => {
+        const method = route.request().method();
+        if (!["PUT", "POST", "DELETE", "PATCH"].includes(method)) return route.fallback();
 
-      await route.fulfill({
-        status: STATUS_CODES.OK,
-        contentType: "application/json",
-        body: JSON.stringify({ IsSuccess: true, ErrorMessage: null, Order: updatedOrder }),
+        await route.fulfill({
+          status: STATUS_CODES.OK,
+          contentType: "application/json",
+          body: JSON.stringify({ IsSuccess: true, ErrorMessage: null, Order: updatedOrder }),
+        });
       });
-    });
 
-    await mock.orderById(targetOrder._id, updatedOrder, STATUS_CODES.OK);
+      await mock.orderById(targetOrder._id, updatedOrder, STATUS_CODES.OK);
 
-    await orderDetailsPage.waitForSpinners();
-    await orderDetailsPage.removeManager();
+      await orderDetailsPage.waitForSpinners();
+      await orderDetailsPage.removeManager();
 
-    await expect(confirmationModal.uniqueElement).toBeVisible();
-    await expect(confirmationModal.title).toHaveText(UI_TEXTS.MODAL_TITLES.UNASSIGN_MANAGER);
-    await expect(confirmationModal.confirmationMessage).toContainText(UI_TEXTS.MODAL_CONTENT.UNASSIGN_MANAGER_CONFIRMATION,);
+      await expect(confirmationModal.uniqueElement).toBeVisible();
+      await expect(confirmationModal.title).toHaveText(UI_TEXTS.MODAL_TITLES.UNASSIGN_MANAGER);
+      await expect(confirmationModal.confirmationMessage).toContainText(
+        UI_TEXTS.MODAL_CONTENT.UNASSIGN_MANAGER_CONFIRMATION
+      );
 
-    await confirmationModal.clickConfirm();
-    await expect(confirmationModal.uniqueElement).toBeHidden();
+      await confirmationModal.clickConfirm();
+      await expect(confirmationModal.uniqueElement).toBeHidden();
 
-    await expect(ordersListPage.toastBody).toBeVisible();
-    await expect(ordersListPage.toastBody).toContainText(/manager/i);
-    await expect(orderDetailsPage.clickToAssingManager).toBeVisible();
-  },
-);
-})
+      await expect(ordersListPage.toastBody).toBeVisible();
+      await expect(ordersListPage.toastBody).toContainText(/manager/i);
+      await expect(orderDetailsPage.clickToAssingManager).toBeVisible();
+    }
+  );
+});
 
 test.describe("[UI] [Orders] [Modals] [Assign Manager Modal]", () => {
   let targetOrder = MOCK_ORDERS_LIST_API_RESPONSE.Orders.find(o => o.status === "Draft")!;
@@ -340,7 +347,8 @@ test.describe("[UI] [Orders] [Details] [Refresh Order]", () => {
     await page.unroute(/\/api\/.*/);
   });
 
-  test("Should refresh order and stay on Order Details page",
+  test(
+    "Should refresh order and stay on Order Details page",
     { tag: [TAGS.UI] },
     async ({ orderDetailsPage }) => {
       await orderDetailsPage.waitForSpinners();

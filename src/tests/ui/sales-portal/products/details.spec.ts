@@ -12,8 +12,10 @@ test.describe("[Sales Portal] [Products]", () => {
     {
       tag: [TAGS.REGRESSION, TAGS.PRODUCTS, TAGS.UI],
     },
-    async ({ loginAsAdmin, homePage, productsListPage, addNewProductPage }) => {
-      await loginAsAdmin();
+    async ({ homePage, productsListPage, addNewProductPage }) => {
+      // await loginAsAdmin();
+      await homePage.open();
+      await homePage.waitForOpened();
       await homePage.clickOnViewModule("Products");
       await productsListPage.waitForOpened();
       await productsListPage.clickAddNewProduct();

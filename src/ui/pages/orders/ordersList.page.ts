@@ -1,6 +1,7 @@
 import { Locator } from "@playwright/test";
 import { SalesPortalPage } from "../sales-portal.page";
 import { logStep } from "utils/report/logStep.utils";
+import { IOrderInTable, OrdersTableHeader } from "data/types/order.types";
 
 export class OrdersListPage extends SalesPortalPage {
   readonly pageTitle = this.page.locator("h2[class='fw-bold']");
@@ -15,6 +16,9 @@ export class OrdersListPage extends SalesPortalPage {
   readonly tableHeaders = this.ordersTable.locator("thead th");
   readonly tableRows = this.ordersTable.locator("tbody tr");
   readonly toastBody = this.page.locator(".toast-body");
+  readonly tableHeader = this.page.locator("thead th div[current]");
+  readonly tableRowByName = (orderName: string) =>
+    this.page.locator("table tbody tr", { has: this.page.locator("td", { hasText: orderName }) });
 
   // Specific column headers for sorting
   readonly orderNumberHeader = this.page.locator(
@@ -52,13 +56,28 @@ export class OrdersListPage extends SalesPortalPage {
   readonly detailsButtons = this.page.locator('a.btn.table-btn[title="Details"]');
   readonly reopenButtons = this.page.locator('button.btn.table-btn[title="Reopen"]');
 
+  readonly tableHeaderNamed = (name: OrdersTableHeader) =>
+    this.tableHeader.filter({ hasText: name });
+
+  readonly tableHeaderArrow = (
+    name: OrdersTableHeader,
+    { direction }: { direction: "asc" | "desc" }
+  ) =>
+    this.page
+      .locator("thead th", { has: this.page.locator("div[current]", { hasText: name }) })
+      .locator(`i.${direction === "asc" ? "bi-arrow-down" : "bi-arrow-up"}`);
+
   uniqueElement = this.pageTitle;
 
-  @logStep("Open Orders List page")
-  async open() {
-    await this.openPage("ORDERS");
-  }
+  // @logStep("Open Orders List page")
+  // async open() {
+  //   await this.openPage("ORDERS");
+  // }
 
+  @logStep("Click header name from the table")
+  async clickTableHeader(name: OrdersTableHeader) {
+    await this.tableHeaderNamed(name).click();
+  }
 
   @logStep("Search for orders by text: {searchText}")
   async searchOrders(searchText: string) {
@@ -158,6 +177,28 @@ export class OrdersListPage extends SalesPortalPage {
     };
   }
 
+  @logStep("Get orders data from the table")
+  async getTableData(): Promise<IOrderInTable[]> {
+    const data: IOrderInTable[] = [];
+
+    const rows = await this.tableRows.all();
+    for (const row of rows) {
+      const [orderNumber, email, price, delivery, status, assignedManager, createdOn] = await row
+        .locator("td")
+        .allInnerTexts();
+      data.push({
+        orderNumber: orderNumber!,
+        email: email!,
+        price: +price!.replace("$", ""),
+        delivery: delivery!,
+        status: status!,
+        assignedManager: assignedManager!,
+        createdOn: createdOn!,
+      });
+    }
+    return data;
+  }
+
   @logStep("Get order number by row index: {rowIndex}")
   async getOrderNumber(rowIndex: number): Promise<string> {
     const row = this.tableRows.nth(rowIndex);
@@ -222,6 +263,5 @@ export class OrdersListPage extends SalesPortalPage {
   @logStep("Clear search input")
   async clearSearch() {
     await this.searchInput.clear();
-
   }
 }

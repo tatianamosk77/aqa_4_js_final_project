@@ -6,7 +6,8 @@ import { convertToDateAndTime } from "utils/date.utils";
 test.describe.skip("[Sales Portal] [Products] [Customer Details]", () => {
   let id = "";
   let token = "";
-  test("Customer Details",
+  test(
+    "Customer Details",
     {
       tag: [TAGS.REGRESSION, TAGS.CUSTOMERS, TAGS.UI],
     },
