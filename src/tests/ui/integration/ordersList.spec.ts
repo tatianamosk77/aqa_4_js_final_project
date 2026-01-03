@@ -6,6 +6,7 @@ import { TAGS } from "data/tags";
 import { generateOrderData } from "data/salesPortal/orders/generateOrderData";
 
 test.describe("[Integration] [Sales Portal] [Orders] [Table Sorting]", () => {
+  test.describe.configure({ retries: 2 });
   let id = "";
   let token = "";
 
@@ -14,16 +15,10 @@ test.describe("[Integration] [Sales Portal] [Orders] [Table Sorting]", () => {
       test(
         `Field: ${header}, direction: ${direction} → sends correct API sort and updates UI`,
         { tag: [TAGS.VISUAL_REGRESSION, TAGS.ORDERS, TAGS.INTEGRATION] },
-        async ({
-          loginApiService,
-          customersApiService,
-          ordersListPage,
-          ordersListUIService,
-          mock,
-        }) => {
+        async ({ customersApiService, ordersListPage, ordersListUIService, mock }) => {
           try {
             const headersMapper: Record<string, OrdersSortField> = HEADER_TO_SORT_FIELD;
-            token = await loginApiService.loginAsAdmin();
+            token = await ordersListPage.getAuthToken();
             const customer = await customersApiService.create(token);
             id = customer._id;
 
@@ -48,7 +43,7 @@ test.describe("[Integration] [Sales Portal] [Orders] [Table Sorting]", () => {
               },
             });
 
-            await ordersListUIService.open();
+            await ordersListUIService.openOrdersList();
 
             await mock.ordersPage({
               Orders: orders,

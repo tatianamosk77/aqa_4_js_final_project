@@ -20,7 +20,7 @@ test.describe("[Sales Portal] [E2E]", async () => {
       tag: [TAGS.REGRESSION, TAGS.E2E, TAGS.UI],
     },
     async ({
-      homePage,
+      homeUIService,
       customersApiService,
       addNewOrderModal,
       customersListPage,
@@ -33,11 +33,10 @@ test.describe("[Sales Portal] [E2E]", async () => {
       id_customer = customer._id;
 
       // Create Order
-      await homePage.open();
-      await homePage.waitForOpened();
-      await homePage.clickOnViewModule("Orders");
+      await homeUIService.openAsLoggedInUser();
+      await homeUIService.openModule("Orders");
       await ordersListPage.waitForOpened();
-      await ordersListPage.clickAddNewOrder();
+      await ordersListPage.clickCreateOrder();
       await addNewOrderModal.waitForOpened();
       await addNewOrderModal.selectCustomer(customer.name);
       await addNewOrderModal.selectProduct(0, "Bacon");
@@ -52,7 +51,7 @@ test.describe("[Sales Portal] [E2E]", async () => {
 
       await ordersListPage.waitForToast(NOTIFICATIONS.ORDER_CREATED);
       await expect(ordersListPage.tableRowByName(customer.email)).toBeVisible();
-      await ordersListPage.clickAction(customer.email);
+      await ordersListPage.clickOrderDetails(customer.email);
       await orderDetailsPage.waitForOpened();
       id_order = await orderDetailsPage.getOrderNumber();
 

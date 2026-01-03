@@ -11,7 +11,7 @@ export class OrdersListUIService {
 
   @logStep("Open Orders List page as logged in user")
   async openOrdersList() {
-    await this.ordersListPage.open();
+    await this.ordersListPage.open("orders");
     await this.ordersListPage.waitForOpened();
     await this.ordersListPage.waitForTableToLoad();
   }

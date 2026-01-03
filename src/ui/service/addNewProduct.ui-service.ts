@@ -14,7 +14,8 @@ export class AddNewProductUIService extends BaseUIService {
 
   @logStep("Open Add products page")
   async open() {
-    await this.addNewProductPage.open();
+    await this.productsListPage.open("products");
+    await this.productsListPage.clickAddNewProduct();
     await this.addNewProductPage.waitForOpened();
   }
 

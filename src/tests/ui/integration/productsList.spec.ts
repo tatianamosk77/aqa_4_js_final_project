@@ -5,7 +5,6 @@ import { ProductsSortField, ProductsTableHeader } from "data/types/product.types
 import { SortOrder } from "data/types/core.types";
 import _ from "lodash";
 import { convertToDateAndTime } from "utils/date.utils";
-import { ProductsListPage } from "ui/pages/products/productsList.page";
 import { TAGS } from "data/tags";
 
 test.describe("[Integration] [Sales Portal] [Products] [Table Sorting]", () => {
@@ -17,9 +16,7 @@ test.describe("[Integration] [Sales Portal] [Products] [Table Sorting]", () => {
         {
           tag: [TAGS.VISUAL_REGRESSION, TAGS.PRODUCTS, TAGS.INTEGRATION],
         },
-        async ({ loginAsAdmin, productsListPage, page, mock }) => {
-          const productListPage = new ProductsListPage(page);
-
+        async ({ homePage, productsListPage, mock }) => {
           const headersMapper: Record<string, ProductsSortField> = {
             Name: "name",
             Price: "price",
@@ -44,8 +41,7 @@ test.describe("[Integration] [Sales Portal] [Products] [Table Sorting]", () => {
             },
           });
 
-          await loginAsAdmin();
-          await productListPage.open();
+          await homePage.open("products");
           await productsListPage.waitForOpened();
 
           await mock.productsPage({

@@ -14,7 +14,8 @@ export class AddNewCustomerUIService extends BaseUIService {
 
   @logStep("Open Add customers page")
   async open() {
-    await this.addNewCustomerPage.open();
+    await this.customersListPage.open("customers");
+    await this.customersListPage.clickAddNewCustomer();
     await this.addNewCustomerPage.waitForOpened();
   }
 

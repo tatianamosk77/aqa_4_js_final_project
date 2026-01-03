@@ -29,12 +29,11 @@ test.describe("[Sales Portal] [Products]", () => {
     id = "";
   });
   test("Search by name", async ({
-    loginUIService,
     productsApiService,
     productsListUIService,
     productsListPage,
   }) => {
-    token = await loginUIService.loginAsAdmin();
+    token = await productsListPage.getAuthToken();
     const product = await productsApiService.create(token);
     await productsListUIService.open();
     await productsListUIService.search(product.name);
@@ -42,12 +41,11 @@ test.describe("[Sales Portal] [Products]", () => {
   });
 
   test("Search by price", async ({
-    loginUIService,
     productsApiService,
     productsListUIService,
     productsListPage,
   }) => {
-    token = await loginUIService.loginAsAdmin();
+    token = await productsListPage.getAuthToken();
     const product = await productsApiService.create(token);
     await productsListUIService.open();
     await productsListUIService.search(product.price.toString());
@@ -55,12 +53,11 @@ test.describe("[Sales Portal] [Products]", () => {
   });
 
   test("Search by manufacturer", async ({
-    loginUIService,
     productsApiService,
     productsListUIService,
     productsListPage,
   }) => {
-    token = await loginUIService.loginAsAdmin();
+    token = await productsListPage.getAuthToken();
     const product = await productsApiService.create(token);
     await productsListUIService.open();
     await productsListUIService.search(product.manufacturer);

@@ -1,7 +1,6 @@
 import { ICustomer } from "data/types/customer.types";
 import { SalesPortalPage } from "../sales-portal.page";
 import { logStep } from "utils/report/logStep.utils";
-import { SALES_PORTAL_URL } from "config/env";
 
 export class EditCustomerPage extends SalesPortalPage {
   readonly title = this.page.locator("h2.page-title-text");
@@ -49,9 +48,9 @@ export class EditCustomerPage extends SalesPortalPage {
     await this.deleteButton.click();
   }
 
-  @logStep("Open Edit Customer page")
-  async open(id: string) {
-    const base = SALES_PORTAL_URL.replace(/\/+$/, "");
-    await this.page.goto(`${base}#/customers/${id}/edit`);
-  }
+  // @logStep("Open Edit Customer page")
+  // async open(id: string) {
+  //   const base = SALES_PORTAL_URL.replace(/\/+$/, "");
+  //   await this.page.goto(`${base}#/customers/${id}/edit`);
+  // }
 }

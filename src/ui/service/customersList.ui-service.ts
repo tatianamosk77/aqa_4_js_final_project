@@ -47,7 +47,7 @@ export class CustomersListUIService {
 
   @logStep("Open customers page")
   async open() {
-    await this.customersListPage.open();
+    await this.customersListPage.open("customers");
     await this.customersListPage.waitForOpened();
   }
 
