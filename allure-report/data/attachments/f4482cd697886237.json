@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:00:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "562",
+    "etag": "W/\"232-e+L9dyy26143+ExAPXHUxsnH1/U\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Rosetta.Bahringer@hotmail.com",
+      "name": "Stanley Everette",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 850,
+      "flat": 8664,
+      "phone": "+9556238119",
+      "createdOn": "2026-01-03T13:00:46.000Z",
+      "notes": "PNp9Ny4SOR51mnbmPDIepcro835Ub8deH7hN0JF52h8FZccyH0YQXOamTyaGlKz1C1TTz1WKbr2Ri6KEc2so32XwPKbAlBlyhAFOoKKov8wVtoFX3AbOTK5nr6bHFYdc0P9b2o8FRexl0yJb86y8qSWQPp6bLzCkxLpRF8Ntq1FdC721j5YozSl67uiKLInlu3sRhYMQk8tWzTFa6e98eybqGCq0tJITwBgUsjJKZmpdDzkn1slcZZAXdG",
+      "_id": "695912fe1c508c5d5e873b99"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

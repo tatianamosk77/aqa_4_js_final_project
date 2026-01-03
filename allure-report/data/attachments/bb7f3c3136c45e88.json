@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:02:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "203",
+    "etag": "W/\"cb-or2izkC5YepeFsPiZuStTjx7eFk\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Bike66906",
+      "amount": 470,
+      "price": 24957,
+      "manufacturer": "Amazon",
+      "createdOn": "2026-01-03T13:02:01.000Z",
+      "notes": "",
+      "_id": "695913491c508c5d5e874e76"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

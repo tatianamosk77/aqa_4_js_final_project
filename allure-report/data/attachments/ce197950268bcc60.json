@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:00:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-PbHmwh/3v7+86vCJp4fujyH/rsU\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Forrest9@yahoo.com",
+      "name": "Beaulah Grayce",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 742,
+      "flat": 2887,
+      "phone": "+5336718992",
+      "createdOn": "2026-01-03T13:00:39.000Z",
+      "notes": "a1vO1Wx7X8uz3UlkSBPyswJTuzlQYMzSUMG1F2N2Po5FGkcAtmOyKB9U1GWUWF22fW22sb3lwuREm6sgwiI2esjbaaM9cVvnnTEqOnBqUNCv8JS3vA6W40lV8tgcrzgyliMYZNlw1X1ETOKnHqJNTsdlr4ztj7pdVsgFG90BNPECkDdfQmtvNmLP3oHjAxnPaJ0cF8CxdryaQV7FeQnx8JI3Gn1O590iTJ06dYZEaiABbbAFUzS051sNGQ",
+      "_id": "695912f71c508c5d5e873a13"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

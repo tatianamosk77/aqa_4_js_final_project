@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:01:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-u2CatmP9M2XbLwI0R20sK3M8RMw\"",
+    "keep-alive": "timeout=5, max=78",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Marta.Parker35@gmail.com",
+      "name": "Cecile Joshua",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 574,
+      "flat": 8294,
+      "phone": "+8954236801",
+      "createdOn": "2026-01-03T13:01:26.000Z",
+      "notes": "6DfX524wDlgtjERsTb1A62jVYOtq7BVNafz765IopHR1ZglQrbHRMh6JKUJLgSwTSgi5AGZnWDT9lfonjOkCj89iYGCF91KPlTxB6S0yY1dE3AxL4HzQMp9OBfCDVa9DmNbQfVDdDvJ5yvGPuzqpoxql08tcT9AoL0DqDdccmzcYo08mPOYITEJXZfJZ0BcihLQP0Tt1N8tS2dldqFHcKEyxMMss18ZDR46slKYPL45dBW4j8U3Yknr1XM",
+      "_id": "695913261c508c5d5e874659"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

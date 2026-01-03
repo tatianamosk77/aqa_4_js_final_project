@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:02:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-gwZNK5LTxFiTVK+65AI7NUGiddc\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Milan28@hotmail.com",
+      "name": "Sharon Elfrieda",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 145,
+      "flat": 7870,
+      "phone": "+6379865924",
+      "createdOn": "2026-01-03T13:02:52.000Z",
+      "notes": "dJ93UxNqtOQc5zhIDYhDnxZWqKoL36JbbjcUtWP1gI57z5vCvPCVsJD3DkZ5TdyurYOiK2Ym6GmUOQHEh5V5hXyiaLqnhhAqNbNeUJjQyfmMV4F4zHud5Cy8FQxQK40XMMQ1yeOH1fMz66Ee5OOMNNLhM19DAUUboltosGrqsxo6bRW96n94nhyUMoR0z82dLxJvF3YuJoULilrHt95NgEpz7eO94zUqf0ui39MsdkZEEQxF7k1S9z3sTY",
+      "_id": "6959137c1c508c5d5e875664"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

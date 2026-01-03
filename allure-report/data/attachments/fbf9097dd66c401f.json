@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:04:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "538",
+    "etag": "W/\"21a-phxZZl9ZlXLflsUV/vSktXGybaI\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Arvid6@yahoo.com",
+      "name": "Sasha Eldora",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 452,
+      "flat": 4124,
+      "phone": "+7758471273",
+      "createdOn": "2026-01-03T13:04:48.000Z",
+      "notes": "UXLENoZUyzpIR6QM5W2tefI1mLLCRqMizvrX4WFHfEPfr9v3vkIYORWoIENlRebOthYVmc6g03QO8RMTgkQThPPvFT0uMIpCAHSKf8bKa4Pf7L8aVrJFQMTscgIfvHulyqE4xHJKSah9nqPUo3UxUBpnYusqVVlI77szvogEjsD0RPXE2maTibAJL0KGO5qoUKnuMhKsYnvH8CA41Sg3nVIoftsaQKFyXYO7XPWZD9SfhBtQHCvZuwTKzh",
+      "_id": "695913f01c508c5d5e8774aa"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

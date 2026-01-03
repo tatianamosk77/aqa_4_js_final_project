@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:01:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-YUrh2u2vN2m4lTnSsglh/hnDHDA\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Johan_Kris@yahoo.com",
+      "name": "Erling Stefanie",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 137,
+      "flat": 1980,
+      "phone": "+3357264950",
+      "createdOn": "2026-01-03T13:01:21.000Z",
+      "notes": "xK1FVeX0e4udX1VOL2g0mAoYyRwWLot6bmk1zgQgoG4FzvChWDSrhqTgQp8leVuFbG5wDnPPMYUVcLU5Lx2AH6o2y4RFsAvCXNEAw8mOo3IBTJE5lH3lusDILuIkrsmEaepFIfhwHHdZ7SAJxEvU5kX3XiLVvfGQ2WRuuFMYbbR728RxyXiZDDuV7GKbHTf2xSqRlnwF1NURXyzJKNHuLSuYPq2obeH8owzWBgmy2U3snLqh9lxXIBnI65",
+      "_id": "695913211c508c5d5e8745a0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

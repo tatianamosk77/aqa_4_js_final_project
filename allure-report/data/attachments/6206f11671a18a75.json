@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:04:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-iGm+Ifw2QSRQLLYttSi43m7GZbk\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Estel36@hotmail.com",
+      "name": "Yasmine Joaquin",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 94,
+      "flat": 8053,
+      "phone": "+0210784193",
+      "createdOn": "2026-01-03T13:04:57.000Z",
+      "notes": "w8IvU2dX1ZNyazxGvim2SH6dr5a4fI6RfU7XRiX4N59vWnJgBnSc9NI8geBXEFbzRIpifHMaeqPI28OkfrG9Dw9QjfjE4x7jBZMNoCrrAilsncG27VujAHn9hwB1LRNu1PYESv8M3wwUstyxfWRny3vSGi36aNsBzEgXYIBLIok40bZrT1TUNEX70GACiNjaEn0rxgG0BI4TDLqiFXNuqygjCKvFu2fFRbSNnmXyNMbJd7dkEeI58ze93T",
+      "_id": "695913f91c508c5d5e8776a6"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:04:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-gnMd0LuuMbR74O65/VQSbFLzhEo\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Santos_Moore@gmail.com",
+      "name": "Gwen Lempi",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 638,
+      "flat": 5396,
+      "phone": "+7376993274",
+      "createdOn": "2026-01-03T13:04:46.000Z",
+      "notes": "8GoMt0WNyNEVYtEqpGyY8f1mVQNGOLJe9LkJMPDnNcSzTTwGcJUM0YjsI5c0W9DGChALfGG1gwIt62Lu4b6dBulG1NNwbdAYK9QMQgDvKeF1s1giSdM5mJ5tObcW1knVX948p2lpgsw6Z3bPiAYckEtOLNEqB0dMsLUQUkCgcFdVCw3Ban7rVACrutQ6oeRuSAxzyccC4OqEszsXVbRP75Zx8Lod7B1mXiCN6zwwzKsNlwSkUpMUkvPIDT",
+      "_id": "695913ee1c508c5d5e877432"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

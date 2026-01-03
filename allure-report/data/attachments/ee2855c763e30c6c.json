@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:02:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "193",
+    "etag": "W/\"c1-a0yxeCildeOTB73CIT3H4y1SjVE\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Bacon43854",
+      "amount": 34,
+      "price": 43306,
+      "manufacturer": "Samsung",
+      "createdOn": "2026-01-03T13:02:01.000Z",
+      "_id": "695913491c508c5d5e874e71"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

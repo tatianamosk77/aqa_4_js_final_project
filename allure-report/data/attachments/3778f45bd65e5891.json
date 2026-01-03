@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:00:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "529",
+    "etag": "W/\"211-lkejVkYwXITGsxvT9fHdcQt1/KI\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Bethany7@gmail.com",
+      "name": "I",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 731,
+      "flat": 405,
+      "phone": "+8475201622",
+      "createdOn": "2026-01-03T13:00:13.000Z",
+      "notes": "ys5swfyoOM4tjRaYhbgoo6YIK5HHObYVfPFqKQbJAxmLLUcbLQCCyQsPx1RbjvG7qT3nbCdfo5gTs2UHtmtA7M1SMFx2CCIhCiuWOsQWkHqAgQ5yS3cqPkRTPtoctgP4RlegrPfMGcpgOlCw3beyLjJ1r0hYnTj1TgeEmTEeLpcX064CTrbkCDQz7uXbGRaQvNirE9wt4P5Lk3jJfUzlSyVbwwFov3bmE0p0s67RaxMNbSQVBUEPnQ0CAx",
+      "_id": "695912dd1c508c5d5e873009"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

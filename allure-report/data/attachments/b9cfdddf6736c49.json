@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:04:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-D4hiFjusFth4S03jVZCy1Uy698E\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Geoffrey84@gmail.com",
+      "name": "Gabe Curtis",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 863,
+      "flat": 1602,
+      "phone": "+4454039987",
+      "createdOn": "2026-01-03T13:04:53.000Z",
+      "notes": "CcyItkPJNAJqSomcjIKwcQAEZbRGKHq7a2GDeCTIA11tcN8G6ffcKdoK7KXtpNvXmthVsPn82L5516OZrkh7GkCrif0ciFyz8lHeikbZJwpJ5Rdsc5caw0eRHIbcSXQsidzqbJDbBFaf7lylvVcRkOxu3tHNkjSF8q21yfH5imejPfrszMmMdM57MVfUOfr9GeYbqO3a1jpNjxTVkK7uV8K8HHhq3y4DVQlnqmO4yQPBwOmqJUH0mZ9kkt",
+      "_id": "695913f51c508c5d5e8775cd"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

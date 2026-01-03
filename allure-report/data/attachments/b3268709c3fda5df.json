@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:01:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-rmd28BxfzE33v2+B6LZ/suRYNo0\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Merritt28@yahoo.com",
+      "name": "Rossie Leopoldo",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 972,
+      "flat": 7840,
+      "phone": "+3131503658",
+      "createdOn": "2026-01-03T13:01:04.000Z",
+      "notes": "qMH80xJoHVfVOH7H5R2sdlejBhYIV3I0FQV5z1EncFNv1fhZ7qNig1E9pR0MWdRgEuQyAqjh69D94kzKeKlwqQLW60a7eCi22utIBTjO9Nt3w220vdaqvpI9NyJgVNYFQJQfjTNONBusoHSxnvQuHbgDgIWL4vlEaetRKUKTwzefBF7ouLUyNgOajsT6USoXpQFxD6LkKrM4BAGLhMiUYx1CnVSvQD03VtlmAKfwItPK75JriDhJItPTjs",
+      "_id": "695913101c508c5d5e874197"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

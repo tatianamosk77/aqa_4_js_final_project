@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:01:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "555",
+    "etag": "W/\"22b-RiOYzBdPCxcIor2I+TeMsf76fLk\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Brando_Altenwerth@gmail.com",
+      "name": "Anibal Ocie",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 328,
+      "flat": 7562,
+      "phone": "+1223737458",
+      "createdOn": "2026-01-03T13:01:12.000Z",
+      "notes": "KJp3o8wTNHmCwBHZs66tFTu3y8qVGj48lblzkbS0JYoPMf5lw3mokjvhrHF1nceUFKQR5CTJjiJpdNBJ3MsBjmKgrgx4exCEIlcgYgwdO6BMFFoXGye3eEDwD1XAiapkInpvbx87XkdD9eOw79xUC1hXwemELbeXVDmv9FfTx0O831boOsra8fET4zovLOn0vfNfOBQHdkwqZm7nKsVBGnlfFoW4fvPIO8R9DzN1MDpUtyZ2GdifYnQfWa",
+      "_id": "695913181c508c5d5e874354"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:01:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1888",
+    "etag": "W/\"760-lnwlSrxxqFPIuszl4+DaC6D9KH0\"",
+    "keep-alive": "timeout=5, max=67",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695913151c508c5d5e87429d",
+        "email": "Adele_Bayer68@yahoo.com",
+        "name": "Maida Abagail",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 315,
+        "flat": 2821,
+        "phone": "+6356809015",
+        "createdOn": "2026-01-03T13:01:09.000Z",
+        "notes": "BNMsXbOKz8VglrcCgOxdBSu6SxhEDD4muu267UtKea3FJrgi7DCP0FSvJrZYCwifSWVmb4Ej8yHFTxBgmkAv6WjFCVXei5HGA4iYZrISk5Xf6VvsjC6BHHlF1OzUvZh0q8ChoAmdscLQOYz4ggZKIbzMDLjuPEhlyNmmR3jUOz1BdX8TqL3RSF4p3meY8K8jn4iGFc7FjGc19S2Qb1wGDrsTsx3FoQhenp7FVKvUmo4qUjApCXeAs5ydEx"
+      },
+      "products": [
+        {
+          "_id": "695913191c508c5d5e874395",
+          "name": "Computer99657",
+          "amount": 906,
+          "price": 14422,
+          "manufacturer": "Google",
+          "notes": "t2C5QW2Darm4YaxTsgf33lkQ3fZDbPkVbuF69TMW0USrDqTemroUv29y2CTNjD5JCwmMz18Mui0415tR9DpxURki2EwSDCyfRcyvVwppy8DNqGK3k4oSCjxrH7bNrUwouA2mQDlTjypZXUtOvxeDNb4atVgN6nnAB3zDEW2Blej97yWXoX3jtiq0JiZMwBD5WaPd49soODzoLFNdrl2XIvqVldLSGMVdRFTPEkVSS7eAljEuIDQ2bA9bAk",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 14422,
+      "createdOn": "2026-01-03T13:01:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695913151c508c5d5e87429d",
+          "products": [
+            {
+              "_id": "695913191c508c5d5e874395",
+              "name": "Computer99657",
+              "amount": 906,
+              "price": 14422,
+              "manufacturer": "Google",
+              "notes": "t2C5QW2Darm4YaxTsgf33lkQ3fZDbPkVbuF69TMW0USrDqTemroUv29y2CTNjD5JCwmMz18Mui0415tR9DpxURki2EwSDCyfRcyvVwppy8DNqGK3k4oSCjxrH7bNrUwouA2mQDlTjypZXUtOvxeDNb4atVgN6nnAB3zDEW2Blej97yWXoX3jtiq0JiZMwBD5WaPd49soODzoLFNdrl2XIvqVldLSGMVdRFTPEkVSS7eAljEuIDQ2bA9bAk",
+              "received": false
+            }
+          ],
+          "total_price": 14422,
+          "delivery": null,
+          "changedOn": "2026-01-03T13:01:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695913191c508c5d5e8743ad"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

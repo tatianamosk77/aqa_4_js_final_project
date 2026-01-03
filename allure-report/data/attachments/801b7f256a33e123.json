@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:00:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-k+Rlz3fomMtFnb2VG91mKKoh/Os\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jordi.Pouros@gmail.com",
+      "name": "Alba Brooks",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 729,
+      "flat": 7171,
+      "phone": "+8141117168",
+      "createdOn": "2026-01-03T13:00:47.000Z",
+      "notes": "cIqtxQRNtTavlC8nzbTjvIMPWdk4hmoanCaqvkF0GHuNs97RXPFdaE0AzplhURvhez70vZqGdIlY9PN5nnnIlaYZCL7FQ7geWhdxA7fF7Y6FS3orShj23MgLOxLQhXKwPb0MR6H078ci4ZIrzpK16X6Tm1a4owx0GoQ4Uyt1Iu6KhJL3CW75LeTjVaYCOT0m3ucia3L0dpShDB1PVF91AGJ9HEFqKGLippNMBUVcCHhCkac0ahniARdbbT",
+      "_id": "695912ff1c508c5d5e873be0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:01:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-t5a+/fsd+9VU8ArrK8EZM+JOlTU\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jaunita32@hotmail.com",
+      "name": "Isabella Hazel",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 552,
+      "flat": 4268,
+      "phone": "+9587636393",
+      "createdOn": "2026-01-03T13:01:36.000Z",
+      "notes": "MNErKaFCEsenFcKQWcMFwWxtfs7G9Ew4VnpsOUGiBD8g1DMkhhlQNa5Rk9GEodisyWMyBITl7HeHLP7MLMUl6ATy8942GAI6aOIWcxCfUEElYSvtnQhNdVUZAnma2cQMEAbXSVXb6FAzjqJwk83G30PWYWYGcJgdzlxnbakZPgNLThNtfezXK8VFlk3AXgtf5xCVQlK1e6sbd6s6JAXR6hSHji2Xbf0xKXqqAz4eG7sile1NtdsTX4w2yt",
+      "_id": "695913301c508c5d5e874816"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

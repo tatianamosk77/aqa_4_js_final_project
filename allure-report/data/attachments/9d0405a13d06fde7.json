@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:04:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "539",
+    "etag": "W/\"21b-hU3vhn51jWU6k4rBnQZvVhZ6EEE\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Deven57@hotmail.com",
+      "name": "Isai Bobbie",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 341,
+      "flat": 406,
+      "phone": "+1866125978",
+      "createdOn": "2026-01-03T13:04:51.000Z",
+      "notes": "1IEaEzzH9cQKaoHoxKpseBVwJgq98DEpcfcasic3mDQWxpMSDnmQrxlb7ZC1H3nIkzrHSZbI1qvtaRQOMvU3HCXS6P6LF5eCeyQtN4YHSEEMQI8JpKht4R96oOkNybYd9wp4CNlJECWUpLdRUNvwrXl6TDuNYJFY4vAOXvtLj6HWHho0AKKc86INofmmiCKYQ8XSCZaRYY2rzDtIqcvn2mgSQM4y32YiLWMee7P2OkNowlS9Tnuyg5JMHp",
+      "_id": "695913f31c508c5d5e87756d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

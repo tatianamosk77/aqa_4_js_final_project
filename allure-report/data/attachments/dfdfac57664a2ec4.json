@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:01:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-M4c0zsjZoBUAI17XIWFe1QtB3eE\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Chelsey84@yahoo.com",
+      "name": "Marquis Raul",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 614,
+      "flat": 1213,
+      "phone": "+8898655153",
+      "createdOn": "2026-01-03T13:01:28.000Z",
+      "notes": "bcEtfi4wNh4WGTHbnkBCDSsc6Re36gmi2i34P5wK62H3c6UcAIxxeFyyVt7sh9AJl6tmu01QbsMVj8VrH4WZreMo8Zn7KiTahfNHr0AseLqsjrlBcizEv5SjoCAoVOP0mjwmpcac664lLFtTq2xWcvr5nmwtTsFm6RCPLtHjxjS0Qqk1Z2Urm1sgLm4jfEco7qmcSqOP8xpksYZbm16UW9IFxzKQb8FMLsqhHEMniVSidzF95TiMnoCvof",
+      "_id": "695913281c508c5d5e87466f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

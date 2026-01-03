@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:00:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-Qkyu7ea64EtGfmteW2ae0UKt91c\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Lonzo.Gleason@gmail.com",
+      "name": "Ebba Maeve",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 300,
+      "flat": 8225,
+      "phone": "+5160658802",
+      "createdOn": "2026-01-03T13:00:47.000Z",
+      "notes": "XaSQQG5cw0sYICsh21BC4HyPZL6rlFxjZALRiGV3TzTFNEs3vmzwmfACe6J1kXcTbkOH3ltcE3EtE7mwTcB7qUvR5nmbIQpGyFWkQ114OcXq0gKTGRVJHUZ4AiyWLKqddPJfpQYCfpGywlfBsXnekoalJjxr0qW6ND8E37opXuUgV6aQNb6gtG5kgX7pX4OfIrOXagRE320S3zCLA9Xh6OvmdLKdigUtbsGOk29AYzLiCCBI45Legb5QCk",
+      "_id": "695912ff1c508c5d5e873bda"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

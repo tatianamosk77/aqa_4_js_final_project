@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:00:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-QqNq3KcGEDBZZVcwSRoLxO37kB8\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ruth_Kuhn30@hotmail.com",
+      "name": "Shea Theron",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 571,
+      "flat": 2085,
+      "phone": "+7460261189",
+      "createdOn": "2026-01-03T13:00:59.000Z",
+      "notes": "kZTdyUXh4DCucu3wzCLv7VowLnAU6LmfN4MkXT9FAIw5tlojOy3TO7JSahB5dDzmbwlCfxno0mPHhZ0lM17MRbZdl6PDD6am25yHuSMBOU1TxIZwpGaYxbvFbwf2hPl4OfeyhfdBsc3u7nd3462pVVNit1d95gme3nlXb4ADGdFfqbeOt0Wa7OoCfvEjy93fiEYNfJCTi165BWZDTFfHoPZwatgmEbe1pRcZntZqLMsE2pl9uhbOfFxSyr",
+      "_id": "6959130b1c508c5d5e874078"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

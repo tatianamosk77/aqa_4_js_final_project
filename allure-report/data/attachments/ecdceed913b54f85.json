@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:00:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "554",
+    "etag": "W/\"22a-FmQKeb5BZLxxWTMVFeJSe/LuKaM\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Bernardo_Herzog@yahoo.com",
+      "name": "Frederik Kiera",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 5,
+      "flat": 9641,
+      "phone": "+4365237594",
+      "createdOn": "2026-01-03T13:00:16.000Z",
+      "notes": "rLSnUautTczLELXLYxvlueQL47D2xySiP9BZltkmgupzQwDBw6mvvOF42efrxRjUdXRxR1ebXMVzgwhf72sUJJwhubqUEHAh0HqjUXXGXsBJtSJEAMrIfEjuleeRuMv5iG9vGTOmjaki2ASupN479tqk1iCNcfo7QVD8WIBWjJQsoiy65tWtaOZCPthT8V932h3xiPlfPUMZbdhtVfjLQBAmEPMRjnzNcduAN7BTlTMWPxp9jDjeje8z81",
+      "_id": "695912e01c508c5d5e873216"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:04:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-z3Zt4eEjv9b4Vw8RJZ1gLsZpqUQ\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Quincy_Maggio@yahoo.com",
+      "name": "Forest Lance",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 239,
+      "flat": 9266,
+      "phone": "+9456721975",
+      "createdOn": "2026-01-03T13:04:50.000Z",
+      "notes": "5P6yUDpyXqyp7cmlivNGsabRxSWje0Ph2pNpPIHxU9iHQbHsSdV7GuxAKfBljjeJ8x63BDpHL3ztZShOSr565DgijpnwWBtkqlsUBdXYhkmP2iZscwsjpuUlprOzIQnwMCgEckee1ayOMdaeuclJwCsBcmSscmfD1LsOzeZWVYmY3uzaEYxCk7pwDIXr4rRXf685m3X0EpjQT8ZuUAB4gYZj7HSoGK0vAqy5KDqDYU8A5t6KUeouonmFfH",
+      "_id": "695913f21c508c5d5e87755a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

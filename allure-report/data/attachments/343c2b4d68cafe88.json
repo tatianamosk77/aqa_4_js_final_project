@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:01:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1877",
+    "etag": "W/\"755-7zxbSCNBSLCPtDdXKoTrnZA3vII\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695913221c508c5d5e8745a6",
+        "email": "Demarcus66@yahoo.com",
+        "name": "Ubaldo Keshawn",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 854,
+        "flat": 628,
+        "phone": "+0492406760",
+        "createdOn": "2026-01-03T13:01:22.000Z",
+        "notes": "XnB6AUOBiWgxQQRqQn2mLW2Z32LV4K3c2h4dvKIyF3anwHmqEIuMLhRKTflLi70xO9asuESw4hCwy85lvX452yzXEWr7pjXrJnahPWzG3ZOvV0zSoocDGLTXjS34nDQENyHcyhxO4gymVFAweRJbpjDkQZNwE70ZhVv1CQAjLJOT4VlD3PQFFXKxVGn3TuXWKiSxDgNxH0ihlg5ATlvOq70cF4VgFFzeb7wiGF4ktU2B8sUQe0kkhuVXKw"
+      },
+      "products": [
+        {
+          "_id": "695913231c508c5d5e8745af",
+          "name": "Soap63867",
+          "amount": 947,
+          "price": 21441,
+          "manufacturer": "Google",
+          "notes": "YfNyYzW6MvmmnSvfIgh41JBWY9FdfqL6gTJWROTUFskSp3WHCqBeiCFuanTCXsyeIzsgqMUamUBuI6AEfEHh8Sgxnx4B24uIJufwsUs74OtmNJ7k4alkykRXQbxI62nWAXryPQjlyff8ttWQqpnrjZBFf7cYfeM6Lj9vhFyEMwQr03Bs2jH1KwwCB3kEizyb7VHZqz2JguIiFSrAkT2rz8JdJslGyMF0PHDSNC5J9dlTsoZCYA3VvKgMTk",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 21441,
+      "createdOn": "2026-01-03T13:01:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695913221c508c5d5e8745a6",
+          "products": [
+            {
+              "_id": "695913231c508c5d5e8745af",
+              "name": "Soap63867",
+              "amount": 947,
+              "price": 21441,
+              "manufacturer": "Google",
+              "notes": "YfNyYzW6MvmmnSvfIgh41JBWY9FdfqL6gTJWROTUFskSp3WHCqBeiCFuanTCXsyeIzsgqMUamUBuI6AEfEHh8Sgxnx4B24uIJufwsUs74OtmNJ7k4alkykRXQbxI62nWAXryPQjlyff8ttWQqpnrjZBFf7cYfeM6Lj9vhFyEMwQr03Bs2jH1KwwCB3kEizyb7VHZqz2JguIiFSrAkT2rz8JdJslGyMF0PHDSNC5J9dlTsoZCYA3VvKgMTk",
+              "received": false
+            }
+          ],
+          "total_price": 21441,
+          "delivery": null,
+          "changedOn": "2026-01-03T13:01:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695913251c508c5d5e8745c6"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:00:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "554",
+    "etag": "W/\"22a-ocKIUjDLLD9cXFWazgr7uNo5YWI\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Matilde_Graham@gmail.com",
+      "name": "Demetrius Elian",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 73,
+      "flat": 674,
+      "phone": "+0835836860",
+      "createdOn": "2026-01-03T13:00:51.000Z",
+      "notes": "BdK3zOEJynGTZoHOuGRmUrYONPyum6zfvSj4W6gkFhRrUTgZu804kdxAE66hm46KrqFcRNYoSjBBFswJk5ZNc1ZmGmS64RCBs415iE8Nb9kMaA6otZjkfWXnfIZi3GSyWhBP91ocQCZ3ARBP7uRk0zAIOQ0RyebOCgXLu7shN3X3lBNUfKcfrFdEier6kBIWQjFIJmy0MyDBoXyYo6tVSopFHKPOZleH1O6JAUPX74awYVWa8F9stly8DD",
+      "_id": "695913031c508c5d5e873c62"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

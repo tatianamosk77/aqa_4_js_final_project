@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:00:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "292",
+    "etag": "W/\"124-enxxhLgnOFuPOV0P3/Ev24O/ybY\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Robert70@hotmail.com",
+      "name": "Billy Damaris",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 88,
+      "flat": 7913,
+      "phone": "+1754317416",
+      "createdOn": "2026-01-03T13:00:27.000Z",
+      "notes": "",
+      "_id": "695912eb1c508c5d5e87377b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

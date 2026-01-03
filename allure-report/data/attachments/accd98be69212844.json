@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:01:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "552",
+    "etag": "W/\"228-VxSKLPcIZO64O1BiWLRw33jEdAQ\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Omer.Kreiger@hotmail.com",
+      "name": "Alexzander Johnathon",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 8,
+      "flat": 2107,
+      "phone": "+2297519871",
+      "createdOn": "2026-01-03T13:01:41.000Z",
+      "notes": "j1mFGj5TD4EXNzYRjZjoqBBw7VJXjjUYwc8KZh7fHuihpTTMXgru6A0jhM9JyUa67qfxiF7WXlIA6GVoPJzgnFO5WKZWfGwMLCrxIppJHN39vhKSrsHFXhO80wb2t1PVvYm39aN9VuW8ANkTGk56F95NdJdPLBgoAhBKLWEjy5fSjAkXv3kI7AL9P4MihacicQzIsn6rdJWEflzLxMtuG66pedwuAxKsWS8zyMiQ962aIPKUwsW9fEMDSh",
+      "_id": "695913351c508c5d5e8749c0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
