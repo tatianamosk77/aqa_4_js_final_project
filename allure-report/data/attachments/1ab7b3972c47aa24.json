@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:15:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-ZcjD0YAphW6krFCgu0mk4PiJoz8\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Arturo.Maggio99@gmail.com",
+      "name": "Hassie Hayley",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 1,
+      "flat": 9718,
+      "phone": "+0686699999",
+      "createdOn": "2026-01-03T22:15:11.000Z",
+      "notes": "QnnAv1mIscekRceJyKcx90dwl3zOMaUBa5qLaW1qUp9UUX0TX49rcPR9e7oOf61ltkCpHRiJQGxt1tmmf9htp0eSzMgae54q91Ic8urFHnFfvxp8obsSPEq2ZHqBi8A7ewQsUXT1jsTYrU1I5HCgeDkqsg84MNPdQU1kuoUadbWR4B5yqIPWmHGO8nXdytfrDZfp0FK2i8WJ0GRj7HNxhaIXXksIj5IfV6kucctPXdN95OBDNZ4HRdzjWq",
+      "_id": "695994ef1c508c5d5e9ab070"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

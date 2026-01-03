@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:17:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "191",
+    "etag": "W/\"bf-LT5BdBsNItYuofX+b7y6FUdFrrk\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Shirt39520",
+      "amount": 666,
+      "price": 69348,
+      "manufacturer": "Sony",
+      "createdOn": "2026-01-03T22:17:20.000Z",
+      "_id": "695995701c508c5d5e9ad8e9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

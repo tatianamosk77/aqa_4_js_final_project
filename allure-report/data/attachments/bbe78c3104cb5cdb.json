@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:15:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-vc0z2unDhoj2UncqruqZThWlgxQ\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ted77@gmail.com",
+      "name": "Christopher Ines",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 231,
+      "flat": 6743,
+      "phone": "+7890782733",
+      "createdOn": "2026-01-03T22:15:48.000Z",
+      "notes": "RRGaYjXyoEELBuCLeBcmFXDimOoPbHkY0IV5xBIZiW3Y72iP2cPnnY7E482CAsTW3rpQDPCRFUeygrvPUpAVgBfXtySrFQw47r3lMoqTJ7gdsZiWHcqgzPrVuh44GIpTRKCIHVVKQOEmNPD1zDjNk7PuPvfOlQx5O2o5KPxtxFY7DGGW4gkKdCFUWG2tDCRNU7iesHRmlPvQ4BclwRgIYJFgvkd29rfnk8CqfFMMFYxRXRe02SXS07evb2",
+      "_id": "695995141c508c5d5e9ab4b9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

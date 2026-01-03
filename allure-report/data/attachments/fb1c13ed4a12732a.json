@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:15:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "690",
+    "etag": "W/\"2b2-NdnF4hKs5IkA05mJC3mJ9bDliRU\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "695995001c508c5d5e9ab1ff",
+        "email": "Hailey.Jacobs75@hotmail.com",
+        "name": "Arielle Erwin",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 743,
+        "flat": 9910,
+        "phone": "+2725296744",
+        "createdOn": "2026-01-03T22:15:28.000Z",
+        "notes": "03YLDHN1v2l7p9HqTS3kCK7irKIpLT0KqtLhnXzx5jjWYcHBwdHFGxIDox1fY8P8MWQy2SVfGhnqaO62EC8aDSj1TOO9lzWNGtx4FZgQlmjohvYCnpHXhgpyjFZpN7Uj96nmc0zwpJF9mF5M7HXkcmJlSDwBNJZ3K3OU95CiZysMrdbuyTSNLTJ7vReMWELcgZq73h2pylRaAFNO7OhYOXjOPpmzrRo1dapb6OQzBO53c14uNtuqF4YxxA"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Hailey.Jacobs75@hotmail.com",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

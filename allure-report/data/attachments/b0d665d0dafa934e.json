@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:15:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "552",
+    "etag": "W/\"228-2e4Dxrg5gpuhOk11FMmXluK0n9U\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Alba_Legros@yahoo.com",
+      "name": "Kellie Delphia",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 809,
+      "flat": 6421,
+      "phone": "+2187649998",
+      "createdOn": "2026-01-03T22:15:30.000Z",
+      "notes": "bm6j8X2evw8rasnTw9tm9aoVt9S0zzg8l5yZi1vaHXa3TG3T42ph0kd1JE6wFpJgMIKFJ9Gv4txZhvaZWtIq4XxXunrOD3BOKk9lsqzK21Ssp76hVYDXYP6Ohyko7pyP7w7zKQ9UWUniGUQnjHRFMKfoBr1zWtnS7fqJ4GAgvpFeTzJyqBiDVyjQyPCl6rLziNHpoY0nDQCK2LfdAgp1r8ez1I6yj7eV7ZoJ5MDNG3aEphrIyiSd9LBnbc",
+      "_id": "695995021c508c5d5e9ab234"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

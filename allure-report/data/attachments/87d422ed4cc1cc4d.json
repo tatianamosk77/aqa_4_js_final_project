@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:15:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1872",
+    "etag": "W/\"750-Zz81jR9+wtf+ranUHlpsIYdf3cc\"",
+    "keep-alive": "timeout=5, max=76",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6959950f1c508c5d5e9ab384",
+        "email": "Darwin_Koch@gmail.com",
+        "name": "Davonte Clara",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 684,
+        "flat": 4573,
+        "phone": "+8970998360",
+        "createdOn": "2026-01-03T22:15:43.000Z",
+        "notes": "8xDrhOlKkGWrwfV1WehI9CmbpPVDfteupfu61EEf78pnYKKfZbty3FY522aLKh5cePcpGtxxkZiEim38DKpJHyB0sJvEvCj3sEuUyEBQMt15xEuLBA2rqA7B7y9vu30jOzNefXKXIHNFe9cO0sv5wobqaVT4RNdZ9EXgXeIy0xPiIwVHnFRNYRlO6A6C0QouQD3Iu8AuR7Ts5CYJAAIAI54eUnXxxAcxg3qRupMZCvp7RsSerL0rSnvVv5"
+      },
+      "products": [
+        {
+          "_id": "695995121c508c5d5e9ab421",
+          "name": "Chair9187",
+          "amount": 715,
+          "price": 72556,
+          "manufacturer": "Google",
+          "notes": "mwFq4tblvy8ofd9mcvCdDpPJSN57C3XTh2WlKmKD4RNXB3PDxv03q6Z2ivGg8jqmpjdGR6J6TK372djpKsk3VJ04lwIwBKS90HiHuZOyaN4ZbHcbQ9btvwQBDNbBfR1tly52kWlljJSnWQYh8Rmhx3euwvF7da2HaQisngfOhED9R1YOIpUrFP8IC7uMu8pSswQuZvcg7QkAaHIe8BQO6GQNNELMK5JQGHu8kWFEjQN45vdZ3gXsMGtubL",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 72556,
+      "createdOn": "2026-01-03T22:15:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6959950f1c508c5d5e9ab384",
+          "products": [
+            {
+              "_id": "695995121c508c5d5e9ab421",
+              "name": "Chair9187",
+              "amount": 715,
+              "price": 72556,
+              "manufacturer": "Google",
+              "notes": "mwFq4tblvy8ofd9mcvCdDpPJSN57C3XTh2WlKmKD4RNXB3PDxv03q6Z2ivGg8jqmpjdGR6J6TK372djpKsk3VJ04lwIwBKS90HiHuZOyaN4ZbHcbQ9btvwQBDNbBfR1tly52kWlljJSnWQYh8Rmhx3euwvF7da2HaQisngfOhED9R1YOIpUrFP8IC7uMu8pSswQuZvcg7QkAaHIe8BQO6GQNNELMK5JQGHu8kWFEjQN45vdZ3gXsMGtubL",
+              "received": false
+            }
+          ],
+          "total_price": 72556,
+          "delivery": null,
+          "changedOn": "2026-01-03T22:15:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695995121c508c5d5e9ab438"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

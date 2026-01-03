@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:15:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-KvSQUPJeMHWNxSE3hK0zecbZ5/g\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Elvera15@gmail.com",
+      "name": "Davon Karlee",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 540,
+      "flat": 5399,
+      "phone": "+9876916081",
+      "createdOn": "2026-01-03T22:15:24.000Z",
+      "notes": "LABxEOnBHbpgSKRTQ9ETLsMguMv69y9rriaOAxt8tBpeVGtVYA6M7GBdu7gCFeHzWCTrOZRqYuRQprfRMkukscjAPKKwyiTXnGBwefUyc8FjgsGEnFpYxFDaJePfhFNeEvT4g8KE4pEvP9zvORQ1Uvrpqq7zlPSzhyd45d2D5Iic1aeb6HMWHET2CCZCNblEa0FdRWdutnhDydMRyULtU9k8TvbePqQ56mG3BKG37SbVea7NXaI5yVG6dK",
+      "_id": "695994fc1c508c5d5e9ab17d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

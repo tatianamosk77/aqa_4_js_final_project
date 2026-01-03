@@ -1,0 +1,161 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:16:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4157",
+    "etag": "W/\"103d-KnUQCQw2gZdkgZbr2RgPPDsWcJg\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6959953d1c508c5d5e9abf9b",
+      "status": "Draft",
+      "customer": {
+        "_id": "695995441c508c5d5e9ac2dd",
+        "email": "Ova_Beatty52@yahoo.com",
+        "name": "Wendell Magnolia",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 67,
+        "flat": 1763,
+        "phone": "+4243461767",
+        "createdOn": "2026-01-03T22:16:36.000Z",
+        "notes": "XxWVOU9jNdKjrgTbWlZTK4ARK88XmMwZ9hKOxXAZDh8R9NuBiShPb2seFaiGKZIf05cYjwecxbK2ZJZJ4OtuaZLLYMl0l6HgkqbC7X3T6Nz1zrZhODmM0VL3seTYUYfEnI7kVkNEuBF5HuykjbrO9csux0iSo2D4OGe0FnsW5mc6rlaIShOGkOhjhfNwguXZbv1O5wCnEbfG4ZYgNhdaVnH9AKW69ZbRNdfNgUOKRsSTBkqyFJ3AWWWfj2"
+      },
+      "products": [
+        {
+          "_id": "695995441c508c5d5e9ac2ea",
+          "name": "Car37222",
+          "amount": 135,
+          "price": 79983,
+          "manufacturer": "Apple",
+          "notes": "Hq6e7wujFbb0AcOdbRJ9TdJh5nJQEyHgH0iwDbI3d3qdo9earpMaIjaBNe4jUXIj8eqJlT26PTzcPPfyep9UAtzOdnsKYK2kPFcv8tgWejeVI5OAFDXU46VXEQ3hh4WJ1sJZUfO0Ke0EnHFq8CnGAP34GAsJ8xvJyBoTHxn703SmdWmaxP0zcwshB4bPo1dyPUvvuQmJ0ux8euMhtqZqIRX9GJJSNIiEhJAdWydQfv55eoei7D4B0rur1x",
+          "received": false
+        },
+        {
+          "_id": "695995441c508c5d5e9ac2e8",
+          "name": "Table73680",
+          "amount": 502,
+          "price": 7623,
+          "manufacturer": "Google",
+          "notes": "txW0ZOGFlDmDd8io7xzZtV29k250hr2J0rgYVca5xDFokFozQGiPrTMoeUh5eaEPdg6ktm2evgIdx4pbwnrsXm6x1By3QtruQgkua7XSyOGBIS9kkdt83mJVOeL7xgMLT4KS4v6dMtqtI0sYKE1C8pVp8TLsCnNcwz4kilrmbkbeCbWx3dTmK5vketO77wmejuQWKQAW1jD3Fv5AgWpNQw2tB1dYRZzieW6XZR8fOWHQiFWNgnxwM3fld1",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 87606,
+      "createdOn": "2026-01-03T22:16:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695995441c508c5d5e9ac2dd",
+          "products": [
+            {
+              "_id": "6959953d1c508c5d5e9abf8b",
+              "name": "Sausages58196",
+              "amount": 762,
+              "price": 23651,
+              "manufacturer": "Samsung",
+              "notes": "GiRdMCexszJiNUCs5afVsvITyBPJXkgPgoHdUKMmOJsS0oFaHuTNUNy868VV3511VScw1Tjb63g1mIxFXVRpcnh1ERce5QxXENAoamc5YMmpws9pPXROksRMmXPkWGDB0MjY6qntmQs5CZApKl1QXGFjvc5Ft1TJqvVmcLa7AIRRzs7QdKWpGkV0MnwgHjflRaRukvZ1XiPcH0fIYxL4WEKSDXls16mVCLxcXaK3aIHhB13vdys2Z7ATHq",
+              "received": false
+            }
+          ],
+          "total_price": 87606,
+          "delivery": null,
+          "changedOn": "2026-01-03T22:16:37.000Z",
+          "action": "Customer changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6959953c1c508c5d5e9abf7a",
+          "products": [
+            {
+              "_id": "695995441c508c5d5e9ac2ea",
+              "name": "Car37222",
+              "amount": 135,
+              "price": 79983,
+              "manufacturer": "Apple",
+              "notes": "Hq6e7wujFbb0AcOdbRJ9TdJh5nJQEyHgH0iwDbI3d3qdo9earpMaIjaBNe4jUXIj8eqJlT26PTzcPPfyep9UAtzOdnsKYK2kPFcv8tgWejeVI5OAFDXU46VXEQ3hh4WJ1sJZUfO0Ke0EnHFq8CnGAP34GAsJ8xvJyBoTHxn703SmdWmaxP0zcwshB4bPo1dyPUvvuQmJ0ux8euMhtqZqIRX9GJJSNIiEhJAdWydQfv55eoei7D4B0rur1x",
+              "received": false
+            },
+            {
+              "_id": "695995441c508c5d5e9ac2e8",
+              "name": "Table73680",
+              "amount": 502,
+              "price": 7623,
+              "manufacturer": "Google",
+              "notes": "txW0ZOGFlDmDd8io7xzZtV29k250hr2J0rgYVca5xDFokFozQGiPrTMoeUh5eaEPdg6ktm2evgIdx4pbwnrsXm6x1By3QtruQgkua7XSyOGBIS9kkdt83mJVOeL7xgMLT4KS4v6dMtqtI0sYKE1C8pVp8TLsCnNcwz4kilrmbkbeCbWx3dTmK5vketO77wmejuQWKQAW1jD3Fv5AgWpNQw2tB1dYRZzieW6XZR8fOWHQiFWNgnxwM3fld1",
+              "received": false
+            }
+          ],
+          "total_price": 87606,
+          "delivery": null,
+          "changedOn": "2026-01-03T22:16:37.000Z",
+          "action": "Requested products changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6959953c1c508c5d5e9abf7a",
+          "products": [
+            {
+              "_id": "6959953d1c508c5d5e9abf8b",
+              "name": "Sausages58196",
+              "amount": 762,
+              "price": 23651,
+              "manufacturer": "Samsung",
+              "notes": "GiRdMCexszJiNUCs5afVsvITyBPJXkgPgoHdUKMmOJsS0oFaHuTNUNy868VV3511VScw1Tjb63g1mIxFXVRpcnh1ERce5QxXENAoamc5YMmpws9pPXROksRMmXPkWGDB0MjY6qntmQs5CZApKl1QXGFjvc5Ft1TJqvVmcLa7AIRRzs7QdKWpGkV0MnwgHjflRaRukvZ1XiPcH0fIYxL4WEKSDXls16mVCLxcXaK3aIHhB13vdys2Z7ATHq",
+              "received": false
+            }
+          ],
+          "total_price": 23651,
+          "delivery": null,
+          "changedOn": "2026-01-03T22:16:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

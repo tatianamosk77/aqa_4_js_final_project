@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:16:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "536",
+    "etag": "W/\"218-J69cFRzN9XHsXL3KBnTL87Rmuuw\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jerod74@gmail.com",
+      "name": "Ambrose Anais",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 188,
+      "flat": 585,
+      "phone": "+0294335297",
+      "createdOn": "2026-01-03T22:16:36.000Z",
+      "notes": "RAsvpo2oR02Mjs9a0ymiMWxaYz2Cp6GhmDGemFreeesradVPoGy6yKf7BOFMShBStd6DKUrDbafcSjbCvlGZ4SBDSeNvMlNxV0OOhPJbEs54R1T980tmMxje4ZddbN6FZTmgiwTlYNAcR7bFb3zbE6dExyyHMOJT0DCgUg8Q9JuvGJAhtwI2IYwyvuUw50elwLhjn35B7E17cbaDSVZINKOepiVaqqRR5KBCy93jYn1Jwn8ditBmdPeMcB",
+      "_id": "695995441c508c5d5e9ac2ec"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

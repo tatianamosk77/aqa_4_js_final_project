@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:16:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1865",
+    "etag": "W/\"749-iHOcTP3NLhW+WURCt/Oid7GSLO4\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6959953c1c508c5d5e9abf87",
+      "status": "Draft",
+      "customer": {
+        "_id": "6959953c1c508c5d5e9abf55",
+        "email": "Elton54@yahoo.com",
+        "name": "Lexie Bethel",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 753,
+        "flat": 3990,
+        "phone": "+3009238914",
+        "createdOn": "2026-01-03T22:16:28.000Z",
+        "notes": "VPM2oN4mSLnV9rribshPGSxDZv1Fd6vqiOAgKWJ4IZANGsKSzzNN7iNabLRCJJgGJ83AgCHClUrLtksmi2xJELinOZpdblz9JjnD2f502RXVy3W1BwmEVWfywSD3WI4ATM8TQYzWlkB2B6wYkGgNqw054Y26N0DOb67VL1XQUemvosAEeHxefFA4wI0E8zEBLqrvT5oZTQ1Y3BM5XYo1PgqwWbVjpAzCgD50wAZtIKnp6hhNruMuMmvh4f"
+      },
+      "products": [
+        {
+          "_id": "6959953c1c508c5d5e9abf7c",
+          "name": "Ball72165",
+          "amount": 200,
+          "price": 95576,
+          "manufacturer": "Apple",
+          "notes": "eCI0ynQhlQeNBMatQuTJaGYPvN0DNkz7KiWNkDiOYcCx2hROC6jr5F2oCCiDNcpkZITbExt6SpTaEUpT2ptcuklxFqLQKW2ggqOunN8cycGQeuDjcg9MiMtJgY1qr9Mvq1qjYLa1Ox1hn8QLwDqsQOmM6mGqOoaTJAc3J7ZaIWKJrOLfYQUQMbWlaP9ejaWsydNBPwzfBwLfI4oppw5dpqN5C2xUXb5C5E0fZmQCqW7xlgo13KAvc9Zx7s",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 95576,
+      "createdOn": "2026-01-03T22:16:28.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6959953c1c508c5d5e9abf55",
+          "products": [
+            {
+              "_id": "6959953c1c508c5d5e9abf7c",
+              "name": "Ball72165",
+              "amount": 200,
+              "price": 95576,
+              "manufacturer": "Apple",
+              "notes": "eCI0ynQhlQeNBMatQuTJaGYPvN0DNkz7KiWNkDiOYcCx2hROC6jr5F2oCCiDNcpkZITbExt6SpTaEUpT2ptcuklxFqLQKW2ggqOunN8cycGQeuDjcg9MiMtJgY1qr9Mvq1qjYLa1Ox1hn8QLwDqsQOmM6mGqOoaTJAc3J7ZaIWKJrOLfYQUQMbWlaP9ejaWsydNBPwzfBwLfI4oppw5dpqN5C2xUXb5C5E0fZmQCqW7xlgo13KAvc9Zx7s",
+              "received": false
+            }
+          ],
+          "total_price": 95576,
+          "delivery": null,
+          "changedOn": "2026-01-03T22:16:28.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

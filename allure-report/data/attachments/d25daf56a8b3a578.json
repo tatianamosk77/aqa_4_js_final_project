@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:15:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-3UYnKZSkQRjeQtejUlESjJ1M06Y\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Mariana.Thiel@hotmail.com",
+      "name": "Jarrod Filiberto",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 232,
+      "flat": 1,
+      "phone": "+7669291256",
+      "createdOn": "2026-01-03T22:15:11.000Z",
+      "notes": "5cui93VSqIqOIBeDoHwUkMLqqGoco93H6cmxOZ4QTGmWh62SjQd8s32sJ9CK0W89CwtP0PetjV708shTPbtY15n0Ufy41Sp4ZVoJKpfI6qiYgyYPnpnWxM4if9cLiGlee4OBOsBM5VsKDGfhVPofTDfX4BBdJRb0j6hJLJ7AwooCDW4Q0FWNbIdyEYptZF3VRz0RRDWlACcTPpP9O13WkpyNpAunWOIChK22w7fP44UMy2y0AtaI3uIp0y",
+      "_id": "695994ef1c508c5d5e9ab06a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

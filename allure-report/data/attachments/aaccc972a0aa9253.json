@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:15:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-DZeP3u0rKrVGH6I2HvbmsANE3wI\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Connor.Gibson93@gmail.com",
+      "name": "Rosie Rey",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 132,
+      "flat": 627,
+      "phone": "+6950955184",
+      "createdOn": "2026-01-03T22:15:44.000Z",
+      "notes": "ILT5gfM6HxyOxTo68zW5hJLB17yrKD09tY5fZKEfwVIEgDF3OYQy6cABkkX3DAfz0huRtKpASK1NzIYbR2y6jusOPZdsnlSTx2RD5aLJkursRE4EkM1kdOXIYIUlQ7GiItIlJWcgb9EH8Aln2PztzlnORRHUAVj8djEHm5bXOMZtp7hxjk8GivGfm5p5pCWkl7I8P06Jmk7cOVhHAL9AKrFvbNtehNmg8hzWBCF51ZfruAY7xPig6RGb7b",
+      "_id": "695995101c508c5d5e9ab3b8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

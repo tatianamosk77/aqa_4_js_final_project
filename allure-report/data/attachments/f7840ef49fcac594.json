@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:16:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-B1uWtRV3L1yUzgfHCi0wbbs6/S0\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Haley73@hotmail.com",
+      "name": "Daphne Citlalli",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 760,
+      "flat": 4675,
+      "phone": "+2663580491",
+      "createdOn": "2026-01-03T22:16:46.000Z",
+      "notes": "3U7skUn6e3ZebbDTP4uWSSQoZYMJDxiLeY92yfoNMiSU1MODmwPbLFs4G2X1kfZDJQiAFFsf8xRBHlGFhEonVBPpAAchD0KWDAWgaYs9XzxDHAIKG2VFaaO2M4NnRN6MUYbdqHyWegAkpiO3CKHRO6F6ZF71u15vuctxhyap09jP6Ff8eB4UUUMOF3X8NWn0KuGJaqvBMDUTTHbGoHbBYunvKOSmk4HjJwlhBDOhUB7JkaFwhICeIQNZIR",
+      "_id": "6959954e1c508c5d5e9ac815"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

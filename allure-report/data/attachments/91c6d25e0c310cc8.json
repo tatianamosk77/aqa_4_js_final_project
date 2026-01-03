@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:15:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1871",
+    "etag": "W/\"74f-zTS7oW85qQgcCzqmF6lV8VDw4m4\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695995181c508c5d5e9ab593",
+        "email": "Amy_Stamm96@gmail.com",
+        "name": "Abbey Percival",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 39,
+        "flat": 3731,
+        "phone": "+9753553688",
+        "createdOn": "2026-01-03T22:15:52.000Z",
+        "notes": "D6rZUw1se8NWA6LdZ9AUImmQWTTcm12uPGWJAwvmvrHurmKDGhAzHuNu0KT2hEGv3h3WNxCtxCIhvNRXTe6Pf3p7y3UFoKoCy5FJKitv0TzLnhS8M0qIskOkDiHXT8qThiEM9xj3DrS0mKPqnDOl9dxkJrUZM89nwHiTcDiRWrh8YKNWMT2z4bCzDryYrnlhL94Ivt7bx9jkPzRMDpd7uS07LLToSeLQDhkqeoIvbGmWKlcZcBItDHOSZ5"
+      },
+      "products": [
+        {
+          "_id": "695995191c508c5d5e9ab5da",
+          "name": "Bike97867",
+          "amount": 670,
+          "price": 43327,
+          "manufacturer": "Google",
+          "notes": "dsaauELNjz7lYP1VI5KUUECFnDTLK4VI2NhhGCDZ1bje1AlxLkfM0MSlCawXkJrEQD4F9GdIKy4Ri57lUqk5piF3UfTrKlrEweixilMvxHegcFbsZFdbMAgjiIlzKqiBO8q9DNer9XeapojVfINlJNurVuYvNIkyA4oeHnS9XbCXI7VitvJFNGww7frgkK8MLHMkvgJFjxfNZ2b9hjgBYPDf4MjUtrNNZ1Kfz52e5klL2ok9UrKEUB5s1I",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 43327,
+      "createdOn": "2026-01-03T22:15:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695995181c508c5d5e9ab593",
+          "products": [
+            {
+              "_id": "695995191c508c5d5e9ab5da",
+              "name": "Bike97867",
+              "amount": 670,
+              "price": 43327,
+              "manufacturer": "Google",
+              "notes": "dsaauELNjz7lYP1VI5KUUECFnDTLK4VI2NhhGCDZ1bje1AlxLkfM0MSlCawXkJrEQD4F9GdIKy4Ri57lUqk5piF3UfTrKlrEweixilMvxHegcFbsZFdbMAgjiIlzKqiBO8q9DNer9XeapojVfINlJNurVuYvNIkyA4oeHnS9XbCXI7VitvJFNGww7frgkK8MLHMkvgJFjxfNZ2b9hjgBYPDf4MjUtrNNZ1Kfz52e5klL2ok9UrKEUB5s1I",
+              "received": false
+            }
+          ],
+          "total_price": 43327,
+          "delivery": null,
+          "changedOn": "2026-01-03T22:15:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6959951a1c508c5d5e9ab60b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

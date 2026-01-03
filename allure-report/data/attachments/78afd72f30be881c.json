@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:15:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-B9QpTWuTmJzfSsXc7QfiAoiSMZc\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Maud2@yahoo.com",
+      "name": "Caleb Brooks",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 807,
+      "flat": 3028,
+      "phone": "+4436741424",
+      "createdOn": "2026-01-03T22:15:25.000Z",
+      "notes": "WTHSl4P1SeiLlLZrX2FSTWUCS9wDBbNUyAWNp4DDbDKuqfiAZQhrirddVjk6gEX4Lv4PVzLVKWFG63IEhFVKZU8F0iyOCwafLm8GiDtSodWGh32DdulMzlVPDygpgK4EfBluu68bhaGGnVrjisXQXyBxByG99apY4owttBVuvjnPP6O7R123SAj4KPujsc7fr7w1DbBbO8JGFyZKDszZuW9k08KjtpZQLYtKUvvkOd4YL16YK1vfbGafgs",
+      "_id": "695994fd1c508c5d5e9ab19c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

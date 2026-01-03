@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:15:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "559",
+    "etag": "W/\"22f-wkh8a9AQ0XUF9OBs9bydbaQJw/I\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Fausto_Huels-Sawayn24@hotmail.com",
+      "name": "Jeremie Triston",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 329,
+      "flat": 7221,
+      "phone": "+7959731236",
+      "createdOn": "2026-01-03T22:15:37.000Z",
+      "notes": "vcwVQdsFHkqSIEKfszZ1evRdXtI2YvyWzrKS3NLrAYhJSBJkRI0lsxrXXZlAIdLtVcnknQGqOVJG9oHqrQIMJpHSroOxY4KH9vau9o9e0FH5sQzr9yxVvj4mju07NSOctUMtQMmScuhbsKpNzwYZy2ezDfSDBk7sOLOhQRTSCpwISVh9wi4MsoMdwwcMIlbapbiK1KrD1Nc3hkN2ZC6NuzqF8VF1EOEaMGjw8UoDFTWFKzBfkRu8GKqAie",
+      "_id": "695995091c508c5d5e9ab29d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

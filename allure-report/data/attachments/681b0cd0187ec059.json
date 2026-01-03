@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:15:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "537",
+    "etag": "W/\"219-MWlYCMwmdyj251GdlMuPvIScmqs\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Vivienne7@yahoo.com",
+      "name": "Jody Gabriel",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 791,
+      "flat": 424,
+      "phone": "+1305695879",
+      "createdOn": "2026-01-03T22:15:33.000Z",
+      "notes": "4tYPJV5lBRXxm1mWTZWPthScBM9PbaK7qwRmblUQOwrOs8vWP4UutGgG1xAh691wzfKFrm28F9qYGpBBE02H3pWAVXDhiQ1qUQQkFzoWMGCSQdXOKGGEdFUEgPNKT8EyaJJGB2BXjO3OedEfFocd2Vf1IdSSmCJtUdw1AmnUfF456e30cWv9an5Ko7hW4SGxu9D0goQsfYX4Ap6iPnjFJpkDNiUrNuyMmRHthQwESPgTADNUEqJ9c144Kb",
+      "_id": "695995051c508c5d5e9ab251"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

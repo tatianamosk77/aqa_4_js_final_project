@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:16:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1890",
+    "etag": "W/\"762-D42QKiREZNDViQqMH/AsdOEBFaw\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6959954e1c508c5d5e9ac819",
+        "email": "Dawson.Hudson5@hotmail.com",
+        "name": "Anahi Regan",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 34,
+        "flat": 5414,
+        "phone": "+5091218381",
+        "createdOn": "2026-01-03T22:16:46.000Z",
+        "notes": "uCBqA1VcPfGkV8TPrfNgq8VQD0M1zLBTZGiAZRSuHvAxYBFwKklOiWrWV0nl7h2jNvoCVr1xAbU9xA49ITSDiSqEJk729sWJYzhR7CtlUQHfLpIwlbvBWlmZjErmsAxOFU2eu3hrYqwaKaLkk7O5UFuU0XkqiwSsDup5RLITGHR8m9mXBHZvnR6TwcplX4XOvmjMPcKJgtnTZF5oY7KwtB6C42CrR3rnpfiJf2D9JLEjCUHfThmKnsFAkD"
+      },
+      "products": [
+        {
+          "_id": "6959954f1c508c5d5e9ac83d",
+          "name": "Keyboard95214",
+          "amount": 744,
+          "price": 78551,
+          "manufacturer": "Samsung",
+          "notes": "Jp9cIK0TtcOBnBhTxb1syWu9j5pht7G4JmNbmykuqPi65Q5791shDW8uAXkopjyyZEDjTP7VvJ81TP30cLrb70rh1BlurCiI8PvUfPJdnUssVyffb1Gw45dEW6utt9I4wJkz7jaxQi9yeeDROb5ZK7qdDiMP2FmF6BupVCXwwcoNyKTFVFcVELHEEcqbBZbFYDuNmKUtdJja2v6Lz2D45Rs3R9fHGNt9k1UuhuUDAyIjZdC5Qg5J3PU13J",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 78551,
+      "createdOn": "2026-01-03T22:16:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6959954e1c508c5d5e9ac819",
+          "products": [
+            {
+              "_id": "6959954f1c508c5d5e9ac83d",
+              "name": "Keyboard95214",
+              "amount": 744,
+              "price": 78551,
+              "manufacturer": "Samsung",
+              "notes": "Jp9cIK0TtcOBnBhTxb1syWu9j5pht7G4JmNbmykuqPi65Q5791shDW8uAXkopjyyZEDjTP7VvJ81TP30cLrb70rh1BlurCiI8PvUfPJdnUssVyffb1Gw45dEW6utt9I4wJkz7jaxQi9yeeDROb5ZK7qdDiMP2FmF6BupVCXwwcoNyKTFVFcVELHEEcqbBZbFYDuNmKUtdJja2v6Lz2D45Rs3R9fHGNt9k1UuhuUDAyIjZdC5Qg5J3PU13J",
+              "received": false
+            }
+          ],
+          "total_price": 78551,
+          "delivery": null,
+          "changedOn": "2026-01-03T22:16:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695995531c508c5d5e9acb45"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

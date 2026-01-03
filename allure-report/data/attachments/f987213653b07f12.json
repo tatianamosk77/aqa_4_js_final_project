@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:16:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2937",
+    "etag": "W/\"b79-F+uaBHJHoOOvXathvA+NH4iDkMg\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695995381c508c5d5e9abe01",
+      "status": "Draft",
+      "customer": {
+        "_id": "695995361c508c5d5e9abcd5",
+        "email": "Van_Hirthe83@hotmail.com",
+        "name": "Thea Mckenna",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 424,
+        "flat": 2702,
+        "phone": "+2493593492",
+        "createdOn": "2026-01-03T22:16:22.000Z",
+        "notes": "oihNHSRzvjWTlNFFZrjMr73xhfiHsODyidpUbQC0revSawyVJl34eTsKb6U1dgOPmZf4JTAFSf36vHWLtjWbMCdFaNXAkWspucU5pTDQ3EvdrBX3x7GAZv1XJUePGno7NQGrkB5thVopsjNmqEcVo04EQMyeeJn8l42CFf9n8ldiGPdSowCZiFcgSbBpDYXHUdULbAk2wNE9zT2pwF1kN9TbgdGNkPC0HwWiMVC06H9HGeFdeGYwFImOFi"
+      },
+      "products": [
+        {
+          "_id": "695995371c508c5d5e9abdc6",
+          "name": "Towels39778",
+          "amount": 390,
+          "price": 71441,
+          "manufacturer": "Amazon",
+          "notes": "f9DNkrgIF876i3mUhZIVP3je0EWtDvpS31prT4VzfzB7RwE5nvQ1qrUEWNjatmdGjfoaExghH9MhETQoDeYufSoP6MqcJyFzW4g6GjAeuJeBrvXiclGz7O30rdhncVdSuq75WolI6tWALZHVPDrFHBuoX6t7Ze9gR8Ouk1VHrpsollj9Rs1lP0BDGiZXLRCYc2MezyR5TmauBXPEbaaSMl6NGkFWb8QXI337qXuUsBjlDmVE46vEVMRaHC",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 71441,
+      "createdOn": "2026-01-03T22:16:24.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695995361c508c5d5e9abcd5",
+          "products": [
+            {
+              "_id": "695995371c508c5d5e9abdc6",
+              "name": "Towels39778",
+              "amount": 390,
+              "price": 71441,
+              "manufacturer": "Amazon",
+              "notes": "f9DNkrgIF876i3mUhZIVP3je0EWtDvpS31prT4VzfzB7RwE5nvQ1qrUEWNjatmdGjfoaExghH9MhETQoDeYufSoP6MqcJyFzW4g6GjAeuJeBrvXiclGz7O30rdhncVdSuq75WolI6tWALZHVPDrFHBuoX6t7Ze9gR8Ouk1VHrpsollj9Rs1lP0BDGiZXLRCYc2MezyR5TmauBXPEbaaSMl6NGkFWb8QXI337qXuUsBjlDmVE46vEVMRaHC",
+              "received": false
+            }
+          ],
+          "total_price": 71441,
+          "delivery": null,
+          "changedOn": "2026-01-03T22:16:24.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "695995361c508c5d5e9abcd5",
+          "products": [
+            {
+              "_id": "695995371c508c5d5e9abdc6",
+              "name": "Towels39778",
+              "amount": 390,
+              "price": 71441,
+              "manufacturer": "Amazon",
+              "notes": "f9DNkrgIF876i3mUhZIVP3je0EWtDvpS31prT4VzfzB7RwE5nvQ1qrUEWNjatmdGjfoaExghH9MhETQoDeYufSoP6MqcJyFzW4g6GjAeuJeBrvXiclGz7O30rdhncVdSuq75WolI6tWALZHVPDrFHBuoX6t7Ze9gR8Ouk1VHrpsollj9Rs1lP0BDGiZXLRCYc2MezyR5TmauBXPEbaaSMl6NGkFWb8QXI337qXuUsBjlDmVE46vEVMRaHC",
+              "received": false
+            }
+          ],
+          "total_price": 71441,
+          "delivery": null,
+          "changedOn": "2026-01-03T22:16:24.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337ce1c508c5d5e95335d",
+        "username": "student14@gmail.com",
+        "firstName": "Bill",
+        "lastName": "Schuppe",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:26"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

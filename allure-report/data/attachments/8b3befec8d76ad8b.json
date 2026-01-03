@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:15:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-iktRqO+tVvdcq7/txcXrXWChvS4\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Adah.Ritchie@gmail.com",
+      "name": "Earnest Mabel",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 904,
+      "flat": 4808,
+      "phone": "+5542024598",
+      "createdOn": "2026-01-03T22:15:05.000Z",
+      "notes": "YbZmTgADfTtoxoFqLimIP0opM9C95jfTx6rI7savyTsKjCoBkG4nuBjijuiM5PuIsHLTkZInwOHXDVjVcWD3RKaChyaJ7eaF3TqN5kgwYtikZdc5RqzSyRwdQkrZ91w6eNowb8tNyjHQVpwtpL9ANHUZYLFsDkr0aOcwJ7YQ4FS0kdJOkkgaOk6oCfG54FOg5gKjJGsUkrqWXNmmEgV5Sh0aaYc761YcJICW9LC2cw6DsRPCl9fknSLcKB",
+      "_id": "695994e91c508c5d5e9aafe7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:15:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-14Y8ny6W8hSdQQ7jABDtO6zxPk4\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Hector.Prohaska@hotmail.com",
+      "name": "Test Customer",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 241,
+      "flat": 5131,
+      "phone": "+7777877491",
+      "createdOn": "2026-01-03T22:15:06.000Z",
+      "notes": "U98m9RyKZhMKhPURSA4tEDtKwETn8z98ZRKDItZdIpmILFXZhPSrYTGGKALpUw1R6NbKYQN5y4LaEtjtnDd7Rz69cQGdkfm2rfV8E9miGMqYaC1ahV3aKS34sWPDJBbt0SxGqPmnDMbptrqJIyxFkZzqzkc5m54eFni5AYbxo7KLiG7HtpJqOpuASGy1XhrkHYSjedb7NbEwFHkgsNEj8L0PJF4hpCxq7UsTzIoIaxuBnEzZ2xC06Ljjw4",
+      "_id": "695994ea1c508c5d5e9ab010"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

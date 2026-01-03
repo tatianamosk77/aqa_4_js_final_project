@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:16:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-QYxrfCJRRlESu8zCn3ZGMigvUEY\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Twila_Hagenes@gmail.com",
+      "name": "Vena Moses",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 28,
+      "flat": 8460,
+      "phone": "+1151983587",
+      "createdOn": "2026-01-03T22:16:07.000Z",
+      "notes": "B7sgleynutYIaFgvr8LdWBJEsKasuljrujWLUELTAgLAYmanEnk1m1vk4lDerzY9a2Z2ILqbUKmKjfW0Cj9AbvBLpNYGzaUxPcpNNcZGDOGbfrC1wnmfp6fKzRy047Wo3hfy1vjKM1yvAx01He7A1xgKxo18GskB1EXzog25oPkmkuAcOTPfV6Q7CUQOq3tKS92zS5DiSvdM5qPIvUY2yEGtOqHKs79Ol5boPrjkh7lztcMtAGOXcO18ZK",
+      "_id": "695995271c508c5d5e9ab9cc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

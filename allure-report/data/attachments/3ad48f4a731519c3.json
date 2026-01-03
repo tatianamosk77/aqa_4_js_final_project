@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:16:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-GBjK6BPIt6oekd0vwteg2P+bOOY\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Heidi_Dach@yahoo.com",
+      "name": "Keeley Rafael",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 172,
+      "flat": 9304,
+      "phone": "+4521340046",
+      "createdOn": "2026-01-03T22:16:22.000Z",
+      "notes": "IXDzLQuMLv6kaWXMGl8VhHhd1tPjyABEfUeGjmJtzvFH0zPiCDZ2H3QIUsBqIFVAMCLtXKLgLxlAWaw77k6RSx3ep13vYWMdLfWyILe8jwy3GVvMpPeQGK7y1ahJXjKhn0nOUTZX1L4Ffii1hKXLEPzFYLOuaQzork6xAI3njQY5TLRbpP3kNzeHH9SbZ2mNGHedjjrXSsx7Uxxvvu8dAS6vKagTGqs2uLOOAHIKvQFYdknQ42qvsUYKNp",
+      "_id": "695995361c508c5d5e9abcd3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

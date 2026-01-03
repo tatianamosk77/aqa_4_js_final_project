@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:16:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-W062wiZxjJ4WSumyPqSC+w5WQBo\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Van_Hirthe83@hotmail.com",
+      "name": "Thea Mckenna",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 424,
+      "flat": 2702,
+      "phone": "+2493593492",
+      "createdOn": "2026-01-03T22:16:22.000Z",
+      "notes": "oihNHSRzvjWTlNFFZrjMr73xhfiHsODyidpUbQC0revSawyVJl34eTsKb6U1dgOPmZf4JTAFSf36vHWLtjWbMCdFaNXAkWspucU5pTDQ3EvdrBX3x7GAZv1XJUePGno7NQGrkB5thVopsjNmqEcVo04EQMyeeJn8l42CFf9n8ldiGPdSowCZiFcgSbBpDYXHUdULbAk2wNE9zT2pwF1kN9TbgdGNkPC0HwWiMVC06H9HGeFdeGYwFImOFi",
+      "_id": "695995361c508c5d5e9abcd5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

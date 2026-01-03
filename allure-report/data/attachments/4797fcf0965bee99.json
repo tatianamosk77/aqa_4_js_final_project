@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:16:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1879",
+    "etag": "W/\"757-4c6VC+Z5o0YuUyTrh5u0MmxIqpM\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6959952b1c508c5d5e9ababe",
+      "status": "Draft",
+      "customer": {
+        "_id": "695995291c508c5d5e9aba76",
+        "email": "Dangelo.Hoeger49@gmail.com",
+        "name": "Hayden Helene",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 405,
+        "flat": 5215,
+        "phone": "+0835265493",
+        "createdOn": "2026-01-03T22:16:09.000Z",
+        "notes": "4dsPL3j0JQng5ksajZw4fYpyzU0qqyYVAalET3T4LuFNbPbAVmKmjkKq8xIWn8VTO6aQFuEBnqLkFzWcxGsVVjsbL3TaWCSnmuxFPqsSVyXfm80xAp67aVCkJ6RCY0wn5n5yAqdHfkvak3xzdd9FIj0kPrSfCLJx6vsIGpHyXzC6kINPXNjYICe8GeF1utIsN15H9lsMJziUvPxP8fhbqFRef0rWMrFwseY36V1iHILRWtVyFEflg5oLzH"
+      },
+      "products": [
+        {
+          "_id": "6959952a1c508c5d5e9aba90",
+          "name": "Salad92059",
+          "amount": 443,
+          "price": 62877,
+          "manufacturer": "Amazon",
+          "notes": "delztAlBQ10rilEdf0Q02Jq9GXjDUYwXBWfaCipSST9nXe9k5ZMn6NxuV2BitLrQD0MyyqNEylUdrRrUAn9hcSyMCGOFTXC6vbkUNU9ngzeJ3evBnRsoHymd4oBbkmlMEy5dlcZosi9LjG0bpDqKLbqSvY4B6NXicusVS1qHfT4FD9ZIl1FsYEyYBpugEkfAzZNvnpJ08n1G53xoYoTSuaMICz9hQq0sdhx53ZNGNJtqgRYwLF7B0QGeKO",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 62877,
+      "createdOn": "2026-01-03T22:16:11.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695995291c508c5d5e9aba76",
+          "products": [
+            {
+              "_id": "6959952a1c508c5d5e9aba90",
+              "name": "Salad92059",
+              "amount": 443,
+              "price": 62877,
+              "manufacturer": "Amazon",
+              "notes": "delztAlBQ10rilEdf0Q02Jq9GXjDUYwXBWfaCipSST9nXe9k5ZMn6NxuV2BitLrQD0MyyqNEylUdrRrUAn9hcSyMCGOFTXC6vbkUNU9ngzeJ3evBnRsoHymd4oBbkmlMEy5dlcZosi9LjG0bpDqKLbqSvY4B6NXicusVS1qHfT4FD9ZIl1FsYEyYBpugEkfAzZNvnpJ08n1G53xoYoTSuaMICz9hQq0sdhx53ZNGNJtqgRYwLF7B0QGeKO",
+              "received": false
+            }
+          ],
+          "total_price": 62877,
+          "delivery": null,
+          "changedOn": "2026-01-03T22:16:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

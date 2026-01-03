@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:15:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "538",
+    "etag": "W/\"21a-FHocuNmMqPmF501z9NC4GvHiZFA\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Taurean_Little@hotmail.com",
+      "name": "n",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 120,
+      "flat": 3097,
+      "phone": "+4456797565",
+      "createdOn": "2026-01-03T22:15:05.000Z",
+      "notes": "eg5cpNwE6BLUaTrwhp2XNzeOfFCEIoWuMnaF8A4ZpGnPn0ciFGzP2lIsUVqbgpdfYNTh94CiReFdeyOozIHuzXqAyOkGTQIgH3ru7vptagiWwAVLWn3oCCp1Q8KyfYgdZoAXUFKNuKToZ1h2bW4aHrzIzdrH7VXJ5UbBcaWSu5J4JjfZ1G45OGCEoEatCNbialKPgY4tNAlvSrniuucHB0XlVQcNI4U0jpvFezlr9EkeNTqR9ihDg5oIUj",
+      "_id": "695994e91c508c5d5e9aafe5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

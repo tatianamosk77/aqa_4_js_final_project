@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:15:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "554",
+    "etag": "W/\"22a-uu7pjMAvMBLz67HS9H4dREOHFL4\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Joanie27@hotmail.com",
+      "name": "Rebekah Alexander",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 471,
+      "flat": 9194,
+      "phone": "+6624159037",
+      "createdOn": "2026-01-03T22:15:24.000Z",
+      "notes": "w0PzoHeDXqUMzduaItn5iDS4sJrPBqaS0cnCrjcKS3odcMEmjnK37lSEpJ3GzC7QDypIRXuOQx717OYOMZdkdteRFUpzA96CnkyhasxCVYwMcMDJPLcbzFpSPWQSBGIuhYN3KGDriQcrcJjntZgn6QwEXxeREC7PwanqMoNGtEJ2K0pnsCWr0eipwIGiiQeCKxf1N8dorJo6R9h8RJgCvwFufQ951PNDhNSXJxqxQLD9CNuGhJllTqJ7On",
+      "_id": "695994fc1c508c5d5e9ab17b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

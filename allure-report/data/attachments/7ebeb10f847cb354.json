@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:16:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-F96G9l5UOOocw1XIv6G2IloZufM\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6959954e1c508c5d5e9ac817",
+        "email": "Joe_Reichert61@hotmail.com",
+        "name": "Alene Anika",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 826,
+        "flat": 9096,
+        "phone": "+0576688639",
+        "createdOn": "2026-01-03T22:16:46.000Z",
+        "notes": "MqtYD8tvKYcuJId6baUAHT2SoZXCsu1iYS4HZH2mUJ32o4OfuqnVe9P8ki8jIt4ZiwfOQWA5wsnUjSn07qI9nR29q65lkymBTdF5J4N1Njp7kb1jWl5JVybfN4FyQphYLa09tBSz6Q6mWgoJD2irxdP82dTRd0mCLIWCENW7JRqSj4zVOqblgejDnFjwx2ShFoIRwKRHe7E4raebVZUGMCOHaofmU7kwD3XTWaj3ZzKhpsX6ppj9RJyrEh"
+      },
+      "products": [
+        {
+          "_id": "6959954f1c508c5d5e9ac83f",
+          "name": "Chair77476",
+          "amount": 138,
+          "price": 32447,
+          "manufacturer": "Microsoft",
+          "notes": "PTLuJsZNnzJez1cLrH6DaB4y7Cg2m41wTEYptIKs4PeNVQeHGtVHLsNyirZF82op929y6kNzufymEFNQnKYzsyp2Niglg0ZgoSFN9ICblNsUqF4ziTQ2sXwOy1xWmMPBOdkJ6W5c2rrce1KyO60vBoIuJDKa1YanLREU1qKCxNP6VMUCzoJTBqxRVQDzfSNDn1H6oKEq2uNRz7VA77fGc2QvqbRCKExLM46aEeEvYgm9tSmE28hvIkaJHN",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 32447,
+      "createdOn": "2026-01-03T22:16:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6959954e1c508c5d5e9ac817",
+          "products": [
+            {
+              "_id": "6959954f1c508c5d5e9ac83f",
+              "name": "Chair77476",
+              "amount": 138,
+              "price": 32447,
+              "manufacturer": "Microsoft",
+              "notes": "PTLuJsZNnzJez1cLrH6DaB4y7Cg2m41wTEYptIKs4PeNVQeHGtVHLsNyirZF82op929y6kNzufymEFNQnKYzsyp2Niglg0ZgoSFN9ICblNsUqF4ziTQ2sXwOy1xWmMPBOdkJ6W5c2rrce1KyO60vBoIuJDKa1YanLREU1qKCxNP6VMUCzoJTBqxRVQDzfSNDn1H6oKEq2uNRz7VA77fGc2QvqbRCKExLM46aEeEvYgm9tSmE28hvIkaJHN",
+              "received": false
+            }
+          ],
+          "total_price": 32447,
+          "delivery": null,
+          "changedOn": "2026-01-03T22:16:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695995531c508c5d5e9acb3d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

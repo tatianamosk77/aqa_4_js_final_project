@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:15:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "295",
+    "etag": "W/\"127-vviPgkZycarMd2Vo7ak9MB/CHls\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Iva98@hotmail.com",
+      "name": "Nils Tessie",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 555,
+      "flat": 4828,
+      "phone": "+4153375335",
+      "createdOn": "2026-01-03T22:15:13.000Z",
+      "notes": "",
+      "_id": "695994f11c508c5d5e9ab0b4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

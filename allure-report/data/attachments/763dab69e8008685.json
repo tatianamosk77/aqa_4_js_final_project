@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:15:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "553",
+    "etag": "W/\"229-8xNJ/9G9txdGGXoQzFMvq7ov3ds\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Wilfredo88@hotmail.com",
+      "name": "Rosella Darien",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 216,
+      "flat": 5131,
+      "phone": "+4468603814",
+      "createdOn": "2026-01-03T22:15:38.000Z",
+      "notes": "71qz2s8L50JDYVNz7LUf4W6aI8vfihH2lzIGEb2E7wJMeFN5f7XGT5IrD6hD1JI1NExMhnLevYr0F6ZDN7yJx2Wj9BA2dQlsDpgmJDOtuRbXxYIG8OuUuiPQP0t1oUzzzuy51kZtJiQQumE4OFkiwMaM3wAKDVhC4B5dJWL9E6OToB1FELRlN7WB7puhvikgI5pNVpgqsOSBLekHYolg3gCexgwjNUwANg8GmQ3PuC7VwJu5plfmt8RPGJ",
+      "_id": "6959950a1c508c5d5e9ab2ae"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

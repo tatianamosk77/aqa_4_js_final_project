@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:15:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-ySvTGsV8hcu462j2chUZYSGgKrw\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Unique.Schumm@hotmail.com",
+      "name": "Enrique Gloria",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 400,
+      "flat": 6671,
+      "phone": "+7831832910",
+      "createdOn": "2026-01-03T22:15:38.000Z",
+      "notes": "cTkTI2sxwx54F9eV2nsDR9Njrt20KQQkG3CmXGv1C5iHol4gDXoTiWzgSMuSywjmYIhBoKK0LvQtKFB699bTxowfoxqu8jEiEMprRP4yalXNVOTMYgo7Wj6rW3cFc7WJ7YegwdFPpeveqvKp5rasypxWcwKebs9QX8gAxTLWIYvP0fVTydHZZUpZh2KKq8BY7MB67K5RLtJT3JwD3YK6e9VIJKW2xjUb5wFaMrEfhekDlmiYZWVBPf8EnT",
+      "_id": "6959950a1c508c5d5e9ab2a9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

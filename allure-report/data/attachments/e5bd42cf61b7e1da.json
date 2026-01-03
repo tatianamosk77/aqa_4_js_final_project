@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:15:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-dWqFuUXErxSLu9GE7lUoG7T09WQ\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Evie_Braun@yahoo.com",
+      "name": "Alfred Coy",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 120,
+      "flat": 3431,
+      "phone": "+2326732964",
+      "createdOn": "2026-01-03T22:15:36.000Z",
+      "notes": "upaNcbKHphHYQd5aEmfOPXwujP40p9tHJqhIOoFeAxu69PBg8ELObSMZ2NZSfhvXeBKFYE9DZITOuvjnbrxMxv4sAgFjw1wc0Lj5B5GB7sl1v5FzRyagjvpcP8aawUTsAmXjowos0wPHbuSsKM1MsmWOZzqTKpFcAT4KnKE1fZr7ANh0x1jVbLlPqI7kf2T8ImsuI1qCFbeoDFPnPItWvABiqN93iN769sYHGfr7nhQcD5PUgrAeFSEhSV",
+      "_id": "695995081c508c5d5e9ab28b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 22:16:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-wbfZTBV2DE/r+n8sD0EIHr3GRr8\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Euna.Marks@gmail.com",
+      "name": "Rhianna Lorna",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 203,
+      "flat": 5754,
+      "phone": "+9492445177",
+      "createdOn": "2026-01-03T22:16:18.000Z",
+      "notes": "wotFQojRb25bzKbK4BkEAq04WXCHkbzBM2D7wDBsPPtJ78DqV7QlTuX7FbnywAKyotb9zAUWTDjXVbnRUWnKzFRzy8uYIXLN52YpYGKJDH3BmU9bxcylAcun1gjaHVQbI1EqTfkt4bZRtZY35Z1QH4flIVKsLJQPLys86BRYUkwR0yfQ33GyErDYzWQpHWTYyEF28XBPCYTzRxF5KAdpDHHyb2ev1nxomUrgqSQRtGoID1LdFM0RCZyi8q",
+      "_id": "695995321c508c5d5e9abc3c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
