@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:22:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-e4vgrxECViOeJtEnJ3AJKP1skc8\"",
+    "keep-alive": "timeout=5, max=53",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Brooks_Quigley38@yahoo.com",
+      "name": "Maeve Ocie",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 895,
+      "flat": 5990,
+      "phone": "+1227444160",
+      "createdOn": "2026-01-03T18:22:44.000Z",
+      "notes": "WcCzmR6wxkWX8fcWIQlQxeZi6H9P764L7AsV4h3hIWC6CADYjSgZ9HlWsg5OCuWv9QVmgXu4ye5ieCslfbwFOQMyPJPeKWawqRSy9z73qs4Vd2lBxl3F4mkANzeBMZFyemDOyynVoJpyK2UViKffm4nkH2tsI3FWK6WhHrNC8PmTqjvxQzJMm8XM5YI1Qo8ZwWqpNtYeuffvwfn7PkUVYwgShruRsrHvClZ3F9Wk0A6cYQKBEeHxocVgkm",
+      "_id": "69595e741c508c5d5e966493"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

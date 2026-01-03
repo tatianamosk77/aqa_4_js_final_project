@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:22:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "539",
+    "etag": "W/\"21b-BAgDexwURQJBHPtMyWvZhbnDscM\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jewel29@gmail.com",
+      "name": "Nestor Rick",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 500,
+      "flat": 4033,
+      "phone": "+7021482253",
+      "createdOn": "2026-01-03T18:22:29.000Z",
+      "notes": "9hISMfBPmfSXeqRJB8BmnQAm2l8HHxilRiSyy2gM8GxlFwDN2em7d6u24UoyIhwFgaP2tM8wWkwNxyMa5ffMtmFGJRIZpmlaILh4PNJMvCp6Vdh3jUZ1yUUJUP0e3jC7wftwowx5W3txfJdO8pXQwre2top8y6yw6PAldCxNSIa6FJJi0T06XNbjjSbwPbV9nN92WBqXSd5E1d5eq0mwPtjBGL0VHYCTjrygCtcpTo234ksAACTpi0ELOF",
+      "_id": "69595e651c508c5d5e965f1b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

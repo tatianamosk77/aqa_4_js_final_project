@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:22:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "684",
+    "etag": "W/\"2ac-j6KKhit6I1WiF7xBOV/97fyHm1M\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "69595e611c508c5d5e965e95",
+        "email": "Ned_Mayert49@hotmail.com",
+        "name": "Katlynn Carrie",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 56,
+        "flat": 9281,
+        "phone": "+8841255733",
+        "createdOn": "2026-01-03T18:22:25.000Z",
+        "notes": "c0u2GNPOj5uFvhUJF5pEE3agOdpI7obZUbTxuJgJqr6kQeFrNgPYuhUrxm30EpaeZQj0P2ZGg73zhT4fKscJXjxUW5JANUwjOGbr5zsUKdba469cMV70hHO9Ypws1hUjHRgZh0JKrvPCyTBB270Vr6ofNwStNiJmRCjQK6rFBs4cltG6rlXwrDOSZQP24fzZNfDIE4ozq4v2KFEgd8s1XRASUGq8CHUdR5V8AYVlpbL0DCzIDu7WTor4Xa"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Ned_Mayert49@hotmail.com",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:22:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1876",
+    "etag": "W/\"754-vHrkurYtxPk2CQRNnH9S18jiunY\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69595e6b1c508c5d5e9660eb",
+      "status": "Draft",
+      "customer": {
+        "_id": "69595e6b1c508c5d5e9660bd",
+        "email": "Alexane.Maggio@gmail.com",
+        "name": "Margaret Heidi",
+        "country": "France",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 46,
+        "flat": 6243,
+        "phone": "+9778223008",
+        "createdOn": "2026-01-03T18:22:35.000Z",
+        "notes": "8jn6mTXWgNzMahEURmLSrUpjSTHM0UogTU98Kt8mCqTD7YnDhPPw9a0N3s1M2QyewZfCfJ9gc2eWnJ4ElYvMF8oZGdOzDNnANiM38PfDKMiudeIS4n0HsRl9wul6VzW6v0Z2Azr2MvHUA2R9ckMUF4GVQSQ2Mxd3JNEDjacFavAY5CcIPxgmQNTDBaUuTE0nvYxbRFg32vkXP69ArPvwnpn12KU8HNp9INRu7bTQLUIVqpW3nBaRU9vkxf"
+      },
+      "products": [
+        {
+          "_id": "69595e6b1c508c5d5e9660cb",
+          "name": "Salad79598",
+          "amount": 646,
+          "price": 70511,
+          "manufacturer": "Google",
+          "notes": "0HAGWfe60HmcrOVAA34qocX75X31eVEIyHiZBORvzSG6kp0Z5AxTGiGPRRdQDVyFk3KXWcdplifWVifhKjSG7c17rrxeDsCB6Bn4x39cLpn7I8rCokLKzNfLJ3oENGWZT9R2nXM0HIotJI5PV7QNPoQdL0rMWQCv8E1LC82B8bDn0e52yyQj3ERoxAeYk968EPldeGtVvM9hsdTACMHXrSHHVUYI1TBiAmBEpUx6QBaJHEfJ790SBMTJzJ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 70511,
+      "createdOn": "2026-01-03T18:22:35.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69595e6b1c508c5d5e9660bd",
+          "products": [
+            {
+              "_id": "69595e6b1c508c5d5e9660cb",
+              "name": "Salad79598",
+              "amount": 646,
+              "price": 70511,
+              "manufacturer": "Google",
+              "notes": "0HAGWfe60HmcrOVAA34qocX75X31eVEIyHiZBORvzSG6kp0Z5AxTGiGPRRdQDVyFk3KXWcdplifWVifhKjSG7c17rrxeDsCB6Bn4x39cLpn7I8rCokLKzNfLJ3oENGWZT9R2nXM0HIotJI5PV7QNPoQdL0rMWQCv8E1LC82B8bDn0e52yyQj3ERoxAeYk968EPldeGtVvM9hsdTACMHXrSHHVUYI1TBiAmBEpUx6QBaJHEfJ790SBMTJzJ",
+              "received": false
+            }
+          ],
+          "total_price": 70511,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:22:35.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

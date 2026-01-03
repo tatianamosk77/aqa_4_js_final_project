@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:22:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-iB3j5yEHdoGZ1tK55RT1ILJiz+8\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Granville33@gmail.com",
+      "name": "Elouise Gerson",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 698,
+      "flat": 2174,
+      "phone": "+0863459008",
+      "createdOn": "2026-01-03T18:22:47.000Z",
+      "notes": "P8FJ3evTmQbLqmcxWkdX4NNCVCEVFo7ogAqZoPVrj33CXgPDKtuIlen2Qbkq8ZT7m3oJykBwzducETHC05iJupPdj9RlC1LZWRFpz0HIpCma6g6SJDctzfhqZeBqjCg1dRUY7429c44yBRjqQcdcG0JfIx6DzFSxZdB9fhMACuyxekofHsMw4lgE4UU5Fz6XKynoUhCLQkPPdl8XeZ3TQDuugyb3kQPHqsJPPPJGrpiNrO9dh3SlockcZK",
+      "_id": "69595e771c508c5d5e96665e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

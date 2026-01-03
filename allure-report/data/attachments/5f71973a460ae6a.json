@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:22:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-0hENu2tPYEVG8Q+vAw8XoIsX0ms\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Rosalind_Olson14@yahoo.com",
+      "name": "Lura Adriel",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 695,
+      "flat": 9772,
+      "phone": "+3828763477",
+      "createdOn": "2026-01-03T18:22:29.000Z",
+      "notes": "6qhgCWVOeKiBXG46T1tMW2CERleHVE5DVJARCiYpQFXjhPVacqaNK7liPeCwmCZJflph1FCZFLUgMvQgWRwFRzjwUIU7uchDUazJnzTq4nsCh1n6Mi0i844GOiUbLGpJ9sI6064MBYc0vbMJ93WGZiWi1p59xncg6COd78BCvNo6Y34zIXhAqRpC5oRHuN909a4PzeIVMGeeAkNbA7MLAxvHXQMVrNVj4KIoZ4khKqSHH5Bt3M0CqhPVFQ",
+      "_id": "69595e651c508c5d5e965f24"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

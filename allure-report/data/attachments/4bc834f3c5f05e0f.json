@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:22:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-OjF4TEhxYuOD49CMbL52p+LEodw\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Alexane.Maggio@gmail.com",
+      "name": "Margaret Heidi",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 46,
+      "flat": 6243,
+      "phone": "+9778223008",
+      "createdOn": "2026-01-03T18:22:35.000Z",
+      "notes": "8jn6mTXWgNzMahEURmLSrUpjSTHM0UogTU98Kt8mCqTD7YnDhPPw9a0N3s1M2QyewZfCfJ9gc2eWnJ4ElYvMF8oZGdOzDNnANiM38PfDKMiudeIS4n0HsRl9wul6VzW6v0Z2Azr2MvHUA2R9ckMUF4GVQSQ2Mxd3JNEDjacFavAY5CcIPxgmQNTDBaUuTE0nvYxbRFg32vkXP69ArPvwnpn12KU8HNp9INRu7bTQLUIVqpW3nBaRU9vkxf",
+      "_id": "69595e6b1c508c5d5e9660bd"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

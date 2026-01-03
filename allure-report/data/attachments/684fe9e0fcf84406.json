@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:22:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "539",
+    "etag": "W/\"21b-u6KSbEvOm84+zFHzBIv2IkaXtd4\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Nikki55@gmail.com",
+      "name": "Daryl Elisa",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 442,
+      "flat": 9772,
+      "phone": "+4679081159",
+      "createdOn": "2026-01-03T18:22:49.000Z",
+      "notes": "KeukkgoLB3VjofwAbq11Pr8l8194x1TEFeBL17A1VhvOkscZQgjWTuRknVrXMrAgLQChOUxQM8av5HocMFUwUgfPNb7yJjmiqDQVoWkJEmBFOV2nQxo3qDF34N6GdhHv0wUJtFqKU2mOGJFD0WJK8oQTS6aUvgu1fQFhry4KvpetPIYGxFyywMnNk62KmGd4RHD7t7DWgQdfUCaWT6odwRSEqrNLrWdWvqNihzeq4jJSb97fmifnwGD5mG",
+      "_id": "69595e791c508c5d5e9666e7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

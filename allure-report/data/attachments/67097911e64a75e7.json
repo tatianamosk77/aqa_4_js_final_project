@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:22:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "293",
+    "etag": "W/\"125-c7gwzN6G6bTP1xjI0rqsxxyjLyI\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Howell_McCullough-Ruecker@yahoo.com",
+      "name": "Ola Maida",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 473,
+      "flat": 4865,
+      "phone": "+6503074884",
+      "createdOn": "2026-01-03T18:22:18.000Z",
+      "_id": "69595e5a1c508c5d5e965d34"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

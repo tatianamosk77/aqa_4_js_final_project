@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:24:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-f6AHXtrIcmk2JhMbkthQvASioTU\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Virgie63@gmail.com",
+      "name": "Alysa Wilford",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 902,
+      "flat": 2732,
+      "phone": "+7598828707",
+      "createdOn": "2026-01-03T18:24:26.000Z",
+      "notes": "Sh149ogBFtIHby10tOxHo2Y6L1fJaZsoUlT7OJQtYiBiUwqU9E5wzqDmWo0sTdwREfebawqZLZvfZbKx4zHEiTVZKypP04Y2brZQf671Hh4MyEwBa2Sh21nC5kunSmP2Ny8axnEm3Fg25SvSrdMiPjT2OEcUOZ1fVj5bcOBfpP35N20ErZc2dd8yiDVlvQxq22fEobaBFMptBbUNMOSYdak42Q8A7EWETVNIMcmxzdTTXFLcAwG6Mh2zGI",
+      "_id": "69595eda1c508c5d5e968034"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

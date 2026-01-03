@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:22:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-x6NJIbHrnMmQK1MhSHOOE+ysET4\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Maude_Kuhic@yahoo.com",
+      "name": "Shea Eveline",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 619,
+      "flat": 7845,
+      "phone": "+1531742187",
+      "createdOn": "2026-01-03T18:22:43.000Z",
+      "notes": "lGS6NoDFb9Q8yYASUjjtoYuF2n60SRy7AyeRpaFP0A63Kbz9hqIiZR7ejSqg3hr6qha7xgyvUu9GZGLE8ZTpTK2ITMNVbWhSbXyguXhJqIXZZgWQCPB00yfL3XZR3t5diq3K2eITLgIETa3BLJeZzRmdVaIUC86ZtYcayZgB8HvDbVN6HGqk6AQbRUbjRMHxFhpJEZ9wmWoretsBunZx7uGdatb7JdKBMs5eeK1ZVZnInuf9Cbo2SdnpBd",
+      "_id": "69595e731c508c5d5e966437"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

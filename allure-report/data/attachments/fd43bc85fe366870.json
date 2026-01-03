@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:22:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-/GvDbv4VgPPZhoxXHcVRa/yYJqs\"",
+    "keep-alive": "timeout=5, max=72",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Otis_Dietrich@gmail.com",
+      "name": "Jackeline Vance",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 650,
+      "flat": 6437,
+      "phone": "+4052451712",
+      "createdOn": "2026-01-03T18:22:32.000Z",
+      "notes": "HMom2SEytv2wijRCyR6EP68z6NpsIC7b5yh6WNV9Rf9M6iP86RuCyuDKmDZG7qVJIZIXBVwJpFL2fKOc5we6IrgN7nvliB4CdSsgyhcYXzl9UiLZITOrNEUQMWasB0OnoPnG1ycaqWXvVbuLBayO9I4mosQJ8gCVCRJUT98grR8ptCgGZIVuPbzC70lib0a81TLIazmyJ4JRHLOU0YP6hlQBgcFmG4YePNq1hohICnIlYyDqmZKLsvoaZS",
+      "_id": "69595e681c508c5d5e965fea"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

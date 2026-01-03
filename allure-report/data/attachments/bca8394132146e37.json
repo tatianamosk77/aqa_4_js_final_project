@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:22:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-jiYT1jHj3s1SRDGiiMmXXIdq4l4\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Stephen_Cummings3@yahoo.com",
+      "name": "Marge Lionel",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 181,
+      "flat": 3568,
+      "phone": "+1772880507",
+      "createdOn": "2026-01-03T18:22:24.000Z",
+      "notes": "VOSoSMyTxxB8S5SuKTnAtJjvC63H4AGWClrSgJB5Ug2xZZWx533QhbHyuNAywEUBvb1jflCm5wm54ABFwvQ2MCy2ZR3L8o8kz6fKFHdLT6glaX0Yme4DyhepmMRxMDO7a1pygujTNMxqakF9xEdcuLQzqAANw2cDymeB25MQgml0P9fZQdkDiIbWjMgonaEKA5JMGTkhJ3lpbN3koiMp0Px2X8cIt1xANDfTD3IKvHPqiHooZE4uIZ9iTv",
+      "_id": "69595e601c508c5d5e965e21"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

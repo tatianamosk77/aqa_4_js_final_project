@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:23:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "554",
+    "etag": "W/\"22a-9mzbYvfqqES2qTLFenuBgvJGdLw\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Luigi_Greenholt-Marks@yahoo.com",
+      "name": "Afton Charley",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 955,
+      "flat": 1447,
+      "phone": "+7090548921",
+      "createdOn": "2026-01-03T18:23:21.000Z",
+      "notes": "KUqJzd3FUVHPtIsYPfYkFSCMsMVQMZv6BnPYwhZA5KnZHP2FbnRHnDDxgGnwwRT6Eb4jVeA3Yvguoewq5sE9QAMByOYdOk33SdbOP8LtiRoE6OzU4i5p8xZhgiA219pEJNBGIQBYyW1N2d6J0ERZDXcq2cEoe68sIQSadealzLFv9ka7ETfGk93ABmAM37ju0aRjAMzk21XE3OAJhzTMID0LNYBMN2Q4w8lz3u0vGN9vRQEFLBH2UnQhMe",
+      "_id": "69595e991c508c5d5e9672d9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

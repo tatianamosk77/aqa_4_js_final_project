@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:22:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-5PyUjZV+QwqYZGbONhbRyzMYmBc\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Junius.Fisher@hotmail.com",
+      "name": "Jess Marina",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 215,
+      "flat": 8913,
+      "phone": "+5645788252",
+      "createdOn": "2026-01-03T18:22:23.000Z",
+      "notes": "TGs5sUaEJnfNdiceS1mkLlj8STHRzCpkyTptT2Un87fM3fqyjzVaPcWWVEdNMefdwHP9sGFEB9wugbxAWm04MucjXZ5JR1JMdMvUrnLemLEsZcaDN5k89yL05CCscAW2630ghj97ryHEH2n8dgtBBM4uOqr4EK0PJkqM7yNIcy8QFZCn4t2zmCSGq5Ecw1YTWmwn2ncwVDdIjIHvm5jYTFhTL3tLJxby1WMyo5efDc6FE81fsSCZ9i5bED",
+      "_id": "69595e5f1c508c5d5e965e11"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

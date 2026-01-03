@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:22:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-CQGzcmkA3Ilj8yu2geIfOW9uVdc\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Dillan.Boyle@yahoo.com",
+      "name": "Alford Candice",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 262,
+      "flat": 971,
+      "phone": "+4454764109",
+      "createdOn": "2026-01-03T18:22:18.000Z",
+      "notes": "U8jzAGW6biTJjh8NGtNxv7jrlbggolmlsdvuZO0330tqEvEze2orLNePikb3uEZqcFnitKSnSlQnBmnogT8CgbAULTyYiKY71iwIhssJ0F1kAc7YxoAQSUKW0Q5RyFXEyz4LOGXTzf46lqTa8L82yd5RYr3t0lW7LPiwHebKMEhAkazv6rbSPZxBdxm0NcOWII0SLubHTbojJSjoiS2C8k8ePVnkUxuOve5wGrV6CvSN2Unbq1dGgBpcp7",
+      "_id": "69595e5a1c508c5d5e965d2d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

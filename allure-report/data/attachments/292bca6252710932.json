@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:22:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "207",
+    "etag": "W/\"cf-V3BdtjJt2n+N4tV1NT4IQKQoz2E\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Shirt60823",
+      "amount": 203,
+      "price": 66257,
+      "manufacturer": "Microsoft",
+      "createdOn": "2026-01-03T18:22:57.000Z",
+      "notes": "",
+      "_id": "69595e811c508c5d5e966ac1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

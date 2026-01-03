@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:22:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-Jb/NCTn2RokjiAdr9ovzVtnXYDs\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Albin96@hotmail.com",
+      "name": "Yasmin Charlene",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 367,
+      "flat": 2974,
+      "phone": "+6297506286",
+      "createdOn": "2026-01-03T18:22:42.000Z",
+      "notes": "GmVkntc5NVk7Nm8nEKushUQkZs8NCKB52weJZs33NtxhRcOc4wPsrcOwCArpEASG2wa1C80AGMMKToHFZEgpyiJAQzJogI2OCjt9Ruxbd5wynjqmo5PTd20ewF5K0YNeMRDGARLJheREuB7tmwhdrT1bYAg38oban9FGnG6Y7N7cWlKlg7gCeOJMXsaOCRo3vS8JTJ5X0D8Mmyvi1pS3xCM4nhmx5196a4DfZwejx6JlyrqqNnAgOpgFHj",
+      "_id": "69595e721c508c5d5e9663aa"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

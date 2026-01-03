@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:22:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-BYqOQiQ+ZzJ6PE475sSrnNi+OVU\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Wyatt.Zboncak@hotmail.com",
+      "name": "Test Customer",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 490,
+      "flat": 4197,
+      "phone": "+8383621499",
+      "createdOn": "2026-01-03T18:22:16.000Z",
+      "notes": "ggfKdkgZqG8Dz6PaEzFJYTM13h3tY7ZWbbP17vP6J2M6z8lrT8HUDQkzHlanO7ABPZ8XnfJQUNlxs5UEO4aCsTTS2hELA573MNUIlMoEOtHjFSSBeXtj6INTf94h6GrUl1UgBAfSdUFz5t0JpftqRVj1yAr9GQBdF4bguOadGGfNIwwZfcaTVhca8qeVNSNYYUQC9Tw6mJO7H62ZnpfkVBll8FDsJN1S9xMIr6xZC1WeTtza9V7QPY8afj",
+      "_id": "69595e581c508c5d5e965ca5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

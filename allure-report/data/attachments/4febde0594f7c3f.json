@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:22:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "551",
+    "etag": "W/\"227-qU8mLlC+Ew9A9tXDOeJ93BZG51g\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Derick.Bradtke@gmail.com",
+      "name": "Triston Violette",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 668,
+      "flat": 2504,
+      "phone": "+7780411694",
+      "createdOn": "2026-01-03T18:22:41.000Z",
+      "notes": "EZRh34vpE88hCajX4sjKn2hzGSM4dnmqaU0upgBOPYXzCvsy29KG49DoFRT9enRE0NV4beLrirIsBHPSJfccIs9LEwWWjcUJrdCvhJsY0hK1RIbnreTZT2nvmZ0lbdeu6lWvskZE7Svk8XYu275gDO3sra8Ev44XsnEG6CdSD8J7nzkmhr7fTx6BLffDjw2ix8a2AmuLXP3ih4vDdUoN9oOkaErh7mezOANMsyzIzL4bLDgB4ubkHPoL62",
+      "_id": "69595e711c508c5d5e96633c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

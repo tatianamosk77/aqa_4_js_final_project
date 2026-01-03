@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:22:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "553",
+    "etag": "W/\"229-LrwGcUPTTCypG0Ih+uMFfpFJebM\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Dannie_Wehner79@hotmail.com",
+      "name": "Katrine Faustino",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 571,
+      "flat": 3068,
+      "phone": "+7785617002",
+      "createdOn": "2026-01-03T18:22:28.000Z",
+      "notes": "LFdNkAxETZnAtJ3AEYhqWJYHDRshagsmdA8dNja2Oj6wz2wmrjU2QbV9gWyzak9JFpTYMrFngrP0Z98bfyIzMnGagTBNm2czrrgCZ2z4cy7w9E1PPWHRpGRu8dqw9hW4ebvvMSjcgjo7GidyCzCrbNGSSfH2A71sRV7HzWaKwHGKYm3fy1FitFGWbPtoQnTaLUGHEN2PTeC9lqH3K3FkJV9p9HXDhAkR9REdfCxDh550KcmPpw7Mad7VDC",
+      "_id": "69595e641c508c5d5e965f00"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

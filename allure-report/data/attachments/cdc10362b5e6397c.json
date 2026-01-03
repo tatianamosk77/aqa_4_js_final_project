@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:24:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-Z8+ZoLlkDxwL2cltKuME59+Ht7Y\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Hattie58@gmail.com",
+      "name": "Vella Ozella",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 341,
+      "flat": 3612,
+      "phone": "+1939727224",
+      "createdOn": "2026-01-03T18:24:32.000Z",
+      "notes": "rb8rEpiy245hLgIPniQ8P0PT7vFRgziJ0sYjtVwBaOAmyaI9oTbE7Qwc3bOxXzbMszTKNv7UBCNSUHpVLVos8wmn3rulYWyoJSoQgCBP6CJik5dKltJIaqJQQX19Ze21ocVajkIX2TbPMkcnVasleyVT7RIgZ6kJa7w7GAqPfPktrLoCkoBquh0jPtq4alkijLJKSxpryYpf0ToqcaXcaHgRULM69c9fl93tapFUpivQdDwiMAUihxcLOc",
+      "_id": "69595ee01c508c5d5e968119"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

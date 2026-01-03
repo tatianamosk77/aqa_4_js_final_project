@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:22:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-d0GyJrszKvHSE9ioqw6QjuNUKWU\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69595e771c508c5d5e96664a",
+        "email": "Mia.Cormier80@hotmail.com",
+        "name": "Kaitlin Graciela",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 734,
+        "flat": 4975,
+        "phone": "+5503677195",
+        "createdOn": "2026-01-03T18:22:47.000Z",
+        "notes": "1qDIZaxqzdt6O1HJQ9XfiJjpXu0hLR6lJfh21Eb87fwMy74A8ueMXgJAQcHwn7rqWx6FU7DTMnrtQ9VQr3pzSLHVVuLZMfG41dZ6g8vR6fvppkj3BNQQHYNnzlejhFKCY7W9xqgG8nCvzcYon40yTnOpZN76jj1arU1dYjyAfQhHaPywmkPDX1yCoeiLCqABNL3MlCxhY8ocCSaKJUhR2F1Y7zFRc5R9ctdc1GFiNTWTHZ3qBfN6Qs5jCr"
+      },
+      "products": [
+        {
+          "_id": "69595e771c508c5d5e96664c",
+          "name": "Chair81006",
+          "amount": 906,
+          "price": 13338,
+          "manufacturer": "Samsung",
+          "notes": "8qwoEEypgOf5ojZc4siuOQLiAZDwnNLaXBrFFpi4LCEOGTb1DhtYpQJFTs2irurJDMhRPUBajyHbgTNQX2L9pLFt1hjCQyoLQs8HUu7D3is6v1H3w01jbBacQqzLW2GDNpCwvecAyvVsoBa4W2Cfv7FDvRlvPkrS4kVOXDWSPAAgp6GsSLxxFIqk8pM3W149Iylo7yuupDf7seenVefMmA7SVuYVYV6ugxgIVJFIgrjVGZy5KNLo0EF1vN",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 13338,
+      "createdOn": "2026-01-03T18:22:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69595e771c508c5d5e96664a",
+          "products": [
+            {
+              "_id": "69595e771c508c5d5e96664c",
+              "name": "Chair81006",
+              "amount": 906,
+              "price": 13338,
+              "manufacturer": "Samsung",
+              "notes": "8qwoEEypgOf5ojZc4siuOQLiAZDwnNLaXBrFFpi4LCEOGTb1DhtYpQJFTs2irurJDMhRPUBajyHbgTNQX2L9pLFt1hjCQyoLQs8HUu7D3is6v1H3w01jbBacQqzLW2GDNpCwvecAyvVsoBa4W2Cfv7FDvRlvPkrS4kVOXDWSPAAgp6GsSLxxFIqk8pM3W149Iylo7yuupDf7seenVefMmA7SVuYVYV6ugxgIVJFIgrjVGZy5KNLo0EF1vN",
+              "received": false
+            }
+          ],
+          "total_price": 13338,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:22:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69595e771c508c5d5e96665a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

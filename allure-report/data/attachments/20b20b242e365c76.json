@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:24:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-YrdKMxj1Jgo2CEFuoUbQw6acmGo\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Horace.Keebler@gmail.com",
+      "name": "Meta Berry",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 495,
+      "flat": 5698,
+      "phone": "+6911794273",
+      "createdOn": "2026-01-03T18:24:26.000Z",
+      "notes": "CvSHp796IKLONLs0DGeyalqd7GvnVRyOyHUbZdHvY6d2pwW513kmX4Fvi7W2LsDZRd9f81hLJFmG699iWqgY7SNDpC9pukCAmzS91VUgh0JzIaTa5vCYwcQpoSgQtbjWDkqrdGKiWsfM8nQT7ONDhUyXVCvr1oerGhnajB0mkNX9xSdGMrB7qyvFl2St65ep3D5OrSAKJvFHjrKhH4Inv7XFodxQrhf3VGEnTEgnUnvwT7E5n8vOKvgVHD",
+      "_id": "69595eda1c508c5d5e968032"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

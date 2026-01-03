@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:22:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-+CrMIiQ1wLSPRrBLXgLaXcCqe4U\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Dedric_Effertz24@yahoo.com",
+      "name": "Korey Elian",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 959,
+      "flat": 9999,
+      "phone": "+6432056727",
+      "createdOn": "2026-01-03T18:22:18.000Z",
+      "notes": "OGSVc5MQZGQexIr8GgyBM7S8EGSembvpaLT7iIDbUFrHGweAk0W4slVETjiMYeyBtBVghF8M1cPhrowZy3AwdElmbDLQjd84ilnPl992VF9PEHinbeqwQKOvuUHaPEpLofOGbIFXqs6PyBFahpsZiqmRBylk9t5jjjcM2gBJMwGOWDQ6tbySqQhChZWspJNsWsQ7uqNlTz83S82eOZop2QPn7TxLnJFviWlg4g2DhPXj2A6CX38G8aKzs8",
+      "_id": "69595e5a1c508c5d5e965cec"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

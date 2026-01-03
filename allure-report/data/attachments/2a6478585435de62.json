@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:22:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-1MLipQ+ArZL5JSx5Lh4OlweiGNY\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Carli82@hotmail.com",
+      "name": "Corrine Luis",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 422,
+      "flat": 8742,
+      "phone": "+7615704150",
+      "createdOn": "2026-01-03T18:22:28.000Z",
+      "notes": "ApcAclNjIQBDobqXPm1B7w3DoGWDRMVIwh38Y2J2jf9Ri6ka5fH0RrWFOLVaqF3WHemU5obNvP5H4zM3HTGx2whTYEX78Eou56HFouuCVqXvrSrzhv7pQQVX4cNzIDHZ8rNW1YtcFTG5Hh7EV6wlKqVCGEkhClLwGSOmyFfHUjvb5a5LmsVNnMKqSVHe1qVBkQyUdgFSsXSLBqFtF6Q05Skgb29XZ4EBB82KClIzSs9JNuJUjMLeyCyNla",
+      "_id": "69595e641c508c5d5e965f0b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
