@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 07:20:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-yJTDpLHHX41Flp9Q5jTJp0Mdbec\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Osborne95@gmail.com",
+      "name": "Wade Wilton",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 775,
+      "flat": 6264,
+      "phone": "+0818001672",
+      "createdOn": "2026-01-04T07:20:00.000Z",
+      "notes": "gnagb26E3z0TXgVsHzCqI8TAzlzS4ICZdxtI05UxkgwZj6USHN08dODJytVYfYS5OF9K2trdSS93oK63tWr94S3sCHHQ02BjSzGjP6NrSB7IrnAIWMq6DPSpQ5lkL7qySBKlCZQTCTBXUXr9TZWREsfyyglCQ8IeefPf5nAQ5KBRgjCuVhGnBpqk0FgOIyGaYVdGczmmTvvH643hojFd4qe7EsXYeBaMtV3iJlslTXjYbyVoKLBRlmgdFS",
+      "_id": "695a14a01c508c5d5e9f5618"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

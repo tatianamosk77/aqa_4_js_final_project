@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 07:30:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-TujHSmRLktLdNZJ1rtjPwQO26Fo\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Keith.Dibbert@yahoo.com",
+      "name": "Melody Rashawn",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 112,
+      "flat": 5327,
+      "phone": "+2363617490",
+      "createdOn": "2026-01-04T07:30:58.000Z",
+      "notes": "Ol0GAcryXgY3GbVWzKWv78W1TdIm8mW2kYF2P3Pr9Zlu6f6QrtAwezULOoNNv1wsP8dvbv0h9HXUs9xYYeCm04t70sCLKA2xi9fxWquiIj5VW7nvLFYXF27TplAHBdoH8Zv3ssIGjIG0QtkYBwZZO1EXHzJW9j8ChpuyNigsNfdLeieXnp0uEU39hlFHBVJqzozQKuASwJ6XillLU4t4abidurzciFX77KfkFyqbHQ9cZ1elnRah8ZV3sq",
+      "_id": "695a17321c508c5d5e9fff5d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

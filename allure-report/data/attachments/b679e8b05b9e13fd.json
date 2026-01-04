@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 07:19:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-FlJTDFZhQssTj1KAswnCw31ZBys\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Natalia56@yahoo.com",
+      "name": "Amanda Okey",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 112,
+      "flat": 3022,
+      "phone": "+8351499312",
+      "createdOn": "2026-01-04T07:19:56.000Z",
+      "notes": "saoxUyHXglybcH8kXyPYM6SLZEMp8YXrfrEnIq9lsSKARVcTxYHwUFW0yUkuNnqNWDBQZdM7bkDnqUXIisO5YtlkI4aynEsQfq50RlSkDqMCLKvI3rjUe86QByqm4MbX5vYMEBkOb6pVxgUwMzKva0YHgOZ6wcm3QHZipOUP6zuNLVuxT9DoylCuDQEwdQHUqX3EijekF00rGtfI2GVsloJJ1hAoXrhexJk4OhO1bEBJZlMm7IVPLmVReB",
+      "_id": "695a149c1c508c5d5e9f55e8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

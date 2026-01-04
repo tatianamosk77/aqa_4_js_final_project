@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 07:20:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "535",
+    "etag": "W/\"217-vquK4l+joRIG3rtSg2ikdivL2nE\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Lois12@gmail.com",
+      "name": "Lou Cyrus",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 415,
+      "flat": 5646,
+      "phone": "+3188072565",
+      "createdOn": "2026-01-04T07:20:39.000Z",
+      "notes": "W8MC3acBBW4WgdSd0lNNzfd6jamvBHmhRDMnCqWosfbRtY1uIJJcpabI4qfFrWSUomxxhoyYUsH1txp09oh0zPcc7peWy10jfgrkL2ZKLZRXv62oaE37gPB7S0xPoyAyyzUTCw4Dlefu3ijJmJSRASADH6Ci5DwNh8LA5G0PANXBzBOkerLtNVQJeiBrzZfA0NcNxVY33TRPNKA8TxqjF3eKUqWd0e3AWbNyBYU8GjytvbkLJemG510rVN",
+      "_id": "695a14c71c508c5d5e9f59ae"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

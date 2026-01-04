@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 07:24:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-2+ajl4R9lemcgnVWj3v94g1W2pU\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Olga_Rodriguez@yahoo.com",
+      "name": "Lorna Zaria",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 408,
+      "flat": 2297,
+      "phone": "+5078557154",
+      "createdOn": "2026-01-04T07:24:51.000Z",
+      "notes": "sERd8R3ucxec95Qgo5whBu32ohnNndgQDBZuCdJnGZkFZgfvp403GHtIkl7h37Z5Glk2k3pD2OivIhA2sYRBvXEFsMqSlRTYLcW7VJcNfr2aQkc1MmXEP8677PckLkbklelTUqmLQr1PEfHs30YFlbN5uLAIC4894b92H9cJz4XsFtGPCMuB2ewC2r2OieS7rDKzA7y88qpsEJdrld5NV3ksbPRZMj36DKTr2Uc8eRpW0xgZRs9qCgGYwO",
+      "_id": "695a15c31c508c5d5e9f948a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

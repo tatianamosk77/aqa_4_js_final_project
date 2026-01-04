@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 07:19:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "551",
+    "etag": "W/\"227-yPQxqICRxx/pwKUBuv0gU0lh5kk\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ronny.Fahey@hotmail.com",
+      "name": "Geovanni Annalise",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 999,
+      "flat": 5058,
+      "phone": "+1636753447",
+      "createdOn": "2026-01-04T07:19:30.000Z",
+      "notes": "Vllld370Yv33J2unGl8lFDi4KGHuqd5OCFU9z8sEMKrhXiFdVVOwdaUVmws510ZXkIgUkOzN7czmTND6YmSAOfQbMYtdJSMQjM1NmBU05hclLh1v6VVX4ablRIcpMNOXrkhBtkZz8QKcbUdmxoszhguMXSlWFOdQdTgyOokow6KOoJa083fQIWW8kWlBF5SzuFyFISF8funmuIQGuP0TM6ckdsoalaAN4WNrsXMkBMcTiHdiNB44VhYF7r",
+      "_id": "695a14821c508c5d5e9f540d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

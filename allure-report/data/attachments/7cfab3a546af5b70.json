@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 07:31:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-+MjtXwxXp8k9iQWRUhr/37z4Wxw\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Maye_Turcotte@yahoo.com",
+      "name": "Rachel Kelly",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 520,
+      "flat": 6777,
+      "phone": "+7317813450",
+      "createdOn": "2026-01-04T07:31:39.000Z",
+      "notes": "7dtNdrjwyAYx08uQPyYRPDplbEnzZYqQP9JLdlu2gvULWRCCKE2zVrqhufhiFzVE1ZRUuDzVGRcFFSVEH1inCYrHcijFJIoYMwsmJ4oENh1ceux0ahnnqS7iyugQiIRRGJBnHynDy8lV8Rgiez3fbHrV6bIgfkuojKawenk8mQ011VyorJgfXbgfpQYrzUGvooK5mVT9GkH1URa33Q9qVIadBYhIcuePVRKKvPWnIbmhAuzl8FjzUZRTNg",
+      "_id": "695a175b1c508c5d5ea0031d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

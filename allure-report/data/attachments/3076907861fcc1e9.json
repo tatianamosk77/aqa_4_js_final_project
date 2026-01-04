@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 07:19:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-CmyyGUkxcdXkkFqDGVOyilJNBLI\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Verlie23@gmail.com",
+      "name": "Terrance Rahul",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 818,
+      "flat": 7809,
+      "phone": "+5452169753",
+      "createdOn": "2026-01-04T07:19:26.000Z",
+      "notes": "rgowP78OzrL7mna7EUEvWGac7a7FStb5W8AjGLyeyxqC7EywNi3RfRSn2OacDxzkh2wMbRN8W2JnnkKhwqnUIMb8hOb6qfrNc4OTlsMBJtc39EYGD0eFSYUHK7JJbcQa7vqtZVVcFAQDc60YpsM1ULX3335ykQ9GjebMYAlhiUNBZv466SXt712ShT1NBWetZdGxrY8tqLVB3HwL35SDHrtznrRdfbXo5ZXuS8QB9zqxprpVmFXo1uXZDq",
+      "_id": "695a147e1c508c5d5e9f53b5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

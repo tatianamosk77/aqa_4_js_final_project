@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 07:19:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-ulJB6z64b2EzdZtPe6ELOPzrOqw\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Bernardo80@gmail.com",
+      "name": "Mellie Clotilde",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 186,
+      "flat": 5147,
+      "phone": "+1337593054",
+      "createdOn": "2026-01-04T07:19:32.000Z",
+      "notes": "hieMrRi618VX3XxX7PJBuoRKVowDH8oOUqqhdMcrpZ3bxqDpHSfKFthlUegufOTfO73Ly3UjpJda0sIXPinMKAvE8XJrr61d7jALwwljEop0VQgTTdKLMoGvGebYG8OaDEopAR5DfPxROyEVH0bKbQNjbOdx2zM5XOAbBtkwDHpCBFr1qhR8C8E8hrl24nbh36gH74yFpyGHREhu59t8d5B8F4ITahfoYOUMmg0DGH5mLVVOhCeOwL9Flo",
+      "_id": "695a14841c508c5d5e9f5441"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

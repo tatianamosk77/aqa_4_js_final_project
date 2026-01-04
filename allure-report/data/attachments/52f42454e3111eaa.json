@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 07:21:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-oSg3Uzp6vNq3Q1lwBJhxGPPaE5I\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695a14df1c508c5d5e9f6073",
+        "email": "Frieda_Hudson44@gmail.com",
+        "name": "Larue Rosario",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 358,
+        "flat": 279,
+        "phone": "+9682293107",
+        "createdOn": "2026-01-04T07:21:03.000Z",
+        "notes": "I7lkkwiHcKyeXzynygsVuayciriet2llw0B8HQ7XMbJlBZrRvZVvqnVV1FsQ3yfdJFC1IBI11Uz6BH1pGbPOokcazrrrJgTgunLagANWSuwUaY3rnDJwKt4qkWNX9u0Vi13HhOnuwGRRoJb9WsWzYfinhmCVLrMVGsQbi6WHJYNydeuSWHAcTDGykA7KsKmMwrLoqHf0IA0RjoTVhetuOguo5bxWfVBVO5zB9haAu239vwZyNkmyO8wKyE"
+      },
+      "products": [
+        {
+          "_id": "695a14e01c508c5d5e9f607d",
+          "name": "Shirt30982",
+          "amount": 554,
+          "price": 72036,
+          "manufacturer": "Amazon",
+          "notes": "iWTVVSwQKoqH64E6ctMJyvJfGbjzgeUvGXFBy2llMP7EJat6kMLp02HhtBsrwxPSyq7g7aojQUujIPKEXhplePHfmiN5yOfYWKmqdEaHLDYH5LYsXCCZqBrHZQSgZEiWtp4lQwQV0HQ0GlI85M73gtmQApxc4alXKa5qSpMaMlF4UNWfyYOX90W04IerB9jyAEtAqp7lqVCE6AIf7FlKaHaYHjvMCh0QC5yasqi37Jn0SJaoRgIi0m2N2M",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 72036,
+      "createdOn": "2026-01-04T07:21:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a14df1c508c5d5e9f6073",
+          "products": [
+            {
+              "_id": "695a14e01c508c5d5e9f607d",
+              "name": "Shirt30982",
+              "amount": 554,
+              "price": 72036,
+              "manufacturer": "Amazon",
+              "notes": "iWTVVSwQKoqH64E6ctMJyvJfGbjzgeUvGXFBy2llMP7EJat6kMLp02HhtBsrwxPSyq7g7aojQUujIPKEXhplePHfmiN5yOfYWKmqdEaHLDYH5LYsXCCZqBrHZQSgZEiWtp4lQwQV0HQ0GlI85M73gtmQApxc4alXKa5qSpMaMlF4UNWfyYOX90W04IerB9jyAEtAqp7lqVCE6AIf7FlKaHaYHjvMCh0QC5yasqi37Jn0SJaoRgIi0m2N2M",
+              "received": false
+            }
+          ],
+          "total_price": 72036,
+          "delivery": null,
+          "changedOn": "2026-01-04T07:21:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695a14e11c508c5d5e9f609c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

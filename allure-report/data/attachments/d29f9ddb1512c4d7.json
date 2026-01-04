@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 07:19:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-o2LzJe5qEDe+fhMszwI62Yg6D/Y\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Christina73@yahoo.com",
+      "name": "Kris Tremayne",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 516,
+      "flat": 3514,
+      "phone": "+4587353897",
+      "createdOn": "2026-01-04T07:19:45.000Z",
+      "notes": "c4pxoE24bSgRW4ez8Gg8ob77vdX0CGTWLaxgpDGBwdfYv0A2XqbplyB3sHFthmFH7IkxZqE6f2d012qGTVAKMRTmVYGtI7UP2fxPv2KTuBIK2H0nvIfq4a9J2RNmkTozVujXVw0ayKJ5jv0G0DAzLaHtTY1EoqkDyptz7vAoFZOBCpIgPKaWWFXWbW4AVWPnNl6lzYmiu1KRxl2KqjmyA8jPD12tdWmZrkbQmCVhMqxLBEmXmtQuOeDkaS",
+      "_id": "695a14911c508c5d5e9f550a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

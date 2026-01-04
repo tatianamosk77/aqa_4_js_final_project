@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 07:20:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-oV4zhHVFq40yBCOAjn3WlG1/XWM\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Lauren44@hotmail.com",
+      "name": "Nathaniel Erin",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 555,
+      "flat": 3110,
+      "phone": "+3853731120",
+      "createdOn": "2026-01-04T07:20:29.000Z",
+      "notes": "1DDUkgqeYLdzlCLnsotabn3sCPBbF6BeB0yC1bfnLC82Ku7gVAWkwCsP7big58CFU6QTBlIepMYr1kpskWmNqJ4PNV4Z368KuzPBOoDoHhGWwFtcfEpexeafdlDa40Zk7ZoLNKlVWOmPdmnOu35wneb5NptFkTerJGiUw6wAjZF0TaNoQQy2PjULWy9JA4BIGXl88dupRWxoVygQFmZ8qIYsUNnyJekjsjsBuslGCAGiDBxczUErUC3ozM",
+      "_id": "695a14bd1c508c5d5e9f58d5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

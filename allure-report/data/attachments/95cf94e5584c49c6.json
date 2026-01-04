@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 07:25:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "89",
+    "etag": "W/\"59-AX+OfC4siOLMJBBmq9HQ8gQaaiU\"",
+    "connection": "close"
+  },
+  "body": {
+    "IsSuccess": false,
+    "ErrorMessage": "Not allowed to delete product, assigned to the order"
+  }
+}

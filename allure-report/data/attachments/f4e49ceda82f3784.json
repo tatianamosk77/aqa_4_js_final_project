@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 07:20:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-T/jTBkrbTPlQCKk2y6YDwV9lGFI\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Aurore.Daniel97@yahoo.com",
+      "name": "Edmond Moises",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 473,
+      "flat": 3523,
+      "phone": "+8622711792",
+      "createdOn": "2026-01-04T07:20:54.000Z",
+      "notes": "8CFXPHFD2C9yNVXT2lFyoHJhr0ZEfXW4DsZNdqgo58mOStfpMKxrZCjrGOhtRrkcVHbmsZKW4cRTVzsDiLZmajuwagoOBsML99IgSGc1adqrqGg4p0qWxvyopD5KqyCHxARE3GaQJ0Cj1Z619JD58Ryx0zpetetePWQNwuzC6F44jYCtBzgraYWFfYnnuRMay21Qsr1PiESj0uO5oo90xScD05msIur9BQhV5Xz7NRfMX3sZBpz1S7LnxM",
+      "_id": "695a14d61c508c5d5e9f6014"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

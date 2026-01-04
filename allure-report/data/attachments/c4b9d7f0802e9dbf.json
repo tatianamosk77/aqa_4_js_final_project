@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 07:20:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-BwJsYNeka2L6EKoCdIuXzcqA4I4\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Craig_Dooley@hotmail.com",
+      "name": "Luna Libbie",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 373,
+      "flat": 5740,
+      "phone": "+4199949456",
+      "createdOn": "2026-01-04T07:20:33.000Z",
+      "notes": "GKzxOWDtuFGYBkl10QlRrtLTM3Q5hFNQu9yb552xzRWaazYbCSLzDNc1qw4kQ7krcrdCNAPW6dfhNEYBNjYdFLEgo5g640UjO3uI4V6FemFNFZzXdZNfioyu7qkCo7wITJAUCU31kKkF7Ah96JybIXCDdPbT6dZzTbotsWrxj4XfecRP5nLzVzWW2yShz2Ff03sfCbe6GpXv83HxGf76ln6CQxWVFx6jSgb5LOZkd7hz3mboLrxDlKtYcb",
+      "_id": "695a14c11c508c5d5e9f590d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

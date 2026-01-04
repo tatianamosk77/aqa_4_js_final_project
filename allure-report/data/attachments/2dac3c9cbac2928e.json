@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 07:20:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-nilsUA7mjHO1CnLlwJoERqbLXUM\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Drake.Kertzmann@gmail.com",
+      "name": "Melba Adriana",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 607,
+      "flat": 3690,
+      "phone": "+0500487340",
+      "createdOn": "2026-01-04T07:20:01.000Z",
+      "notes": "fLsP99hJkNgASIIigmjZkieRoB75lJvIVgG6inJ7fbAzV3eSOdc3jxjUdmrsYfSVzW5asygbmzKETP5ZawtTN7gO1L1eHxSjiyXxVw5Bvd9rRJ0HJMUBexe3A4iVI4etfR30y1B0sPxffhuHYshPgeIL22frCTCMduLfG8RRdj5SbHUO1y2kKBxcSMGJBHlfxfydud3qa9HLfjt8fLolKf89UuMUO9OiZMvANlW5FCUWB67XIsUy58nVQc",
+      "_id": "695a14a11c508c5d5e9f5624"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 07:23:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "553",
+    "etag": "W/\"229-4KdefAo+jcVlOsFGzfoyTIfzr94\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Moshe.Hills-Schmeler90@gmail.com",
+      "name": "Khalil Annamae",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 341,
+      "flat": 9170,
+      "phone": "+6453131859",
+      "createdOn": "2026-01-04T07:23:26.000Z",
+      "notes": "Kgq3zTvXaEXlP2cfduvo0lsbOK1r4tteCyOs70jybNdESpd0qUNVQ5YMLxLH7bwA6sL9kwy1mogZ31TMWBqgTNZNzFqGvA7ufi87TFKHUvaAxuYkloHCn4exIhWmYP54gBaTZBc3FC3Uu3VnP84YwBKsRKzyqKIu3lefsNghWmJ0WOCSCukxKI4TfUtOaxdVAo24slcqNJfddhC7dbcEg19nlV1FfTLUNbZexO9jgP7X7g8L3RZD4f67Dp",
+      "_id": "695a156e1c508c5d5e9f8443"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

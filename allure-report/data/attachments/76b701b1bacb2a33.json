@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 07:19:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "554",
+    "etag": "W/\"22a-TCr/h9YlJX/12KK5PiSyILlWFX8\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Desmond.Mitchell50@hotmail.com",
+      "name": "Test Customer",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 206,
+      "flat": 9497,
+      "phone": "+2474094806",
+      "createdOn": "2026-01-04T07:19:24.000Z",
+      "notes": "aTjZx2o7r1FNs9IPa3JgqbA2EccIfqqzSxkeKNx72fOCPrT5Z8kLOBx8aQxegZFFwCyNdbPgTqO6alRMQUyg53G4DF4f3YbsKpzqb2uaLtXpqf1WzuPbDkq8JhK7eDXegoilibz3YqeYb619sh4gIf9N2NOtIyMVLAMjp1ITn4NZyU1B7IAZncLKflDw9hkPj1dxbnr0RDWLf6npyXuggAGwVFlPoieaNXpxM5Q4DcvbOdHxcsirDO2OII",
+      "_id": "695a147c1c508c5d5e9f53a4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

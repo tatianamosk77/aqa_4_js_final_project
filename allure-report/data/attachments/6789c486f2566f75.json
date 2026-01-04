@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 07:28:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "557",
+    "etag": "W/\"22d-kDEbS4O94Ifs9C6hncPX9nlTVdw\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Rodrigo.Stoltenberg96@hotmail.com",
+      "name": "Elody Alberta",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 767,
+      "flat": 3994,
+      "phone": "+0745213259",
+      "createdOn": "2026-01-04T07:28:53.000Z",
+      "notes": "WIEn1lb9khyoSWNCtp6uXfcHa7ZBc8fnar2DAkhvUSbLnOxe1fG49SZUc7yKdYyuVA2lwqbCXBw8os4eMODy6oodkevb9B9j8UUp3ABHLeJNAA1lzFcUe6UdAxUxdGqnHXrVs7zj6ZnZuNGBzMaeBoJ2r2raOM4E73Xdi8ZiBsG6ieWv6L6xdBhML7zfbHUHJfOzgOT4wehtpLqOlwV93HGxtGAskZdFhfstuQxFPtYRAI9MIbrCsR3R7t",
+      "_id": "695a16b51c508c5d5e9fe387"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

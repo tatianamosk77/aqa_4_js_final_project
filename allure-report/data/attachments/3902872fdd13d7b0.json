@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 07:23:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-2/C0sEO4Q1uNzmSt2Cd5tJBUUL0\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Cory_Jaskolski@yahoo.com",
+      "name": "Maxwell Davonte",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 961,
+      "flat": 7269,
+      "phone": "+6737965338",
+      "createdOn": "2026-01-04T07:23:25.000Z",
+      "notes": "0VCR2egjm8e64q7stYVikV2TteHeaqiaOZ10nt87EdjfDvSjN8FIVOWl94h2nhyeZpF90N53Eg69GPPsB4RMYyg9QylOHFBOa3BygyrhxrWdpJdtAU0LZKqlAMGqV82od42cI2OnIfmoxwhKaoyMhgyJKwE6uGmFDX15zt4kqO9S5NbSBmelkHUC8iqFmoknKwtyFDJiBanjlwOH71FgGZkvQkfWcnLRmReA274OGRi5qgL4htg2vXUm8a",
+      "_id": "695a156d1c508c5d5e9f843d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

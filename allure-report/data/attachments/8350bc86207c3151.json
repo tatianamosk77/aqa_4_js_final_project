@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 07:20:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1886",
+    "etag": "W/\"75e-BREmlzRPhoB2/N12PwvQzpuko5c\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695a14a81c508c5d5e9f568c",
+        "email": "Baby_Wilkinson94@gmail.com",
+        "name": "Jaclyn Tristin",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 787,
+        "flat": 4674,
+        "phone": "+9148168800",
+        "createdOn": "2026-01-04T07:20:08.000Z",
+        "notes": "X5xq0yxVEdVuOetxw26UcHPacFI6HcUQVvXJgEeNI8ezAE3731jtT3PT0LPTsPXQ7AKh2bC3H4MC8Gkv0bt9GmkFMYLopZiAlzmyIX7hpK4FRzBeEzMZpWGBUkQqFD6pEz83ZokWfCNKlLVaYEMTi7fH4f54kZrOJghz6VfLLN5FIv6FAsqGi3pnxRFj5i27xTHwnzXWjO4i4DgUlSUIEi3jjYyQKwuDOkEzSTqp11Dh7Vais2crErZFbh"
+      },
+      "products": [
+        {
+          "_id": "695a14ac1c508c5d5e9f56b8",
+          "name": "Shirt34775",
+          "amount": 814,
+          "price": 81861,
+          "manufacturer": "Xiaomi",
+          "notes": "H3KYlLW3sBmT28hsGhe0V5kASnXizamJ8yDYnNincRA5T50cH3COFZgx3Ljzbqnt4sFyiolVjP6lgloDS6nv7pcMWO7uF8ODXLJkv7o7oJCi8xbFSEzfVFvQ8DkuCcw6debEbvOfVZLlpvoITPG9GzGYq3ugYvmN5YVsXPfKs6SLtZ8ClRprGojWZ3HlTr5dTO79JmvEBqvTaGhMwjfUsFcjsXewzafhUjWlMJ3OSWFfI26Ms9UO35Sojr",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 81861,
+      "createdOn": "2026-01-04T07:20:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a14a81c508c5d5e9f568c",
+          "products": [
+            {
+              "_id": "695a14ac1c508c5d5e9f56b8",
+              "name": "Shirt34775",
+              "amount": 814,
+              "price": 81861,
+              "manufacturer": "Xiaomi",
+              "notes": "H3KYlLW3sBmT28hsGhe0V5kASnXizamJ8yDYnNincRA5T50cH3COFZgx3Ljzbqnt4sFyiolVjP6lgloDS6nv7pcMWO7uF8ODXLJkv7o7oJCi8xbFSEzfVFvQ8DkuCcw6debEbvOfVZLlpvoITPG9GzGYq3ugYvmN5YVsXPfKs6SLtZ8ClRprGojWZ3HlTr5dTO79JmvEBqvTaGhMwjfUsFcjsXewzafhUjWlMJ3OSWFfI26Ms9UO35Sojr",
+              "received": false
+            }
+          ],
+          "total_price": 81861,
+          "delivery": null,
+          "changedOn": "2026-01-04T07:20:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695a14ad1c508c5d5e9f56c2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

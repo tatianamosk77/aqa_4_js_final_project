@@ -1,0 +1,161 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 07:21:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4155",
+    "etag": "W/\"103b-fsFCPV+ASw+d3kCRcjSGrkkhpwY\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a14d31c508c5d5e9f5b88",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a14d61c508c5d5e9f6014",
+        "email": "Aurore.Daniel97@yahoo.com",
+        "name": "Edmond Moises",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 473,
+        "flat": 3523,
+        "phone": "+8622711792",
+        "createdOn": "2026-01-04T07:20:54.000Z",
+        "notes": "8CFXPHFD2C9yNVXT2lFyoHJhr0ZEfXW4DsZNdqgo58mOStfpMKxrZCjrGOhtRrkcVHbmsZKW4cRTVzsDiLZmajuwagoOBsML99IgSGc1adqrqGg4p0qWxvyopD5KqyCHxARE3GaQJ0Cj1Z619JD58Ryx0zpetetePWQNwuzC6F44jYCtBzgraYWFfYnnuRMay21Qsr1PiESj0uO5oo90xScD05msIur9BQhV5Xz7NRfMX3sZBpz1S7LnxM"
+      },
+      "products": [
+        {
+          "_id": "695a14dc1c508c5d5e9f601c",
+          "name": "Chicken42292",
+          "amount": 3,
+          "price": 7189,
+          "manufacturer": "Xiaomi",
+          "notes": "WMrKPVo9NZHxcSoDN6CXyrZAbgxDsKhjwVgZvO0SqVrWFetI09nVxP0O9mJJRl2QafQBCXAn3acxyB2salVNMcTnt7sS5RE717jQysI0hAQ8udOlSQYnYzzdELKQoxGg2zjg1B3rVi7PNirKG6bhpb2Uj0cxUsKdQc8sKh6SAJkJP9KvbM9Onzv9jhwNtsbSdsWaYGzxOivt6LU6O9vGMNQa2KzHEaYZHarXNZHKL46IhbML4X4lnmH9Fv",
+          "received": false
+        },
+        {
+          "_id": "695a14db1c508c5d5e9f601a",
+          "name": "Cheese26567",
+          "amount": 805,
+          "price": 1329,
+          "manufacturer": "Xiaomi",
+          "notes": "0VWnjxMtRD24lhK5fEz75AtscVP2J6QSBDZVstHUpN5zE4UD6IGkpdx68qWiTbyabxHhOzeN6W6HhPx8osYTbFr48rDBCKZuqIJf6t68JKt9XN4won7id4hJALxNycratphkSq0wX5UBIXnVZW6xcxRlnCDekhYQI65zwNqF1NQVW6IplwAT585Za6fBOqyZrhviLDMzqIqOnagEUttDZH0CHnAYx2ZlxhQGPIPu2Mq73tV0xWSGXFxAZZ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 8518,
+      "createdOn": "2026-01-04T07:20:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a14d61c508c5d5e9f6014",
+          "products": [
+            {
+              "_id": "695a14d31c508c5d5e9f5b80",
+              "name": "Computer92781",
+              "amount": 972,
+              "price": 32807,
+              "manufacturer": "Sony",
+              "notes": "xCzaZW56o4F2NchBgrBv1uVRMZp512yRXkY5BwUh9i3A3ACmqVZXffqd0i5RgbkFbHBRiTaYTr3QddYnud2zGWmRpoYBcZhPzLjow6HaI8tBWdLqv21vrSm5aaWRfTQEfYHPeTuFc4GCRo8ArpdJQwVZczM72uXQe6rEwNR1XEhlQQiB6aeeM9oDlgwQo0lmterEflx4cBvRfi3R64Z9u21L9oXwO8P3Ndq8nGA8yWkelOIEAVKx12bVTQ",
+              "received": false
+            }
+          ],
+          "total_price": 8518,
+          "delivery": null,
+          "changedOn": "2026-01-04T07:21:00.000Z",
+          "action": "Customer changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a14d11c508c5d5e9f5b7e",
+          "products": [
+            {
+              "_id": "695a14dc1c508c5d5e9f601c",
+              "name": "Chicken42292",
+              "amount": 3,
+              "price": 7189,
+              "manufacturer": "Xiaomi",
+              "notes": "WMrKPVo9NZHxcSoDN6CXyrZAbgxDsKhjwVgZvO0SqVrWFetI09nVxP0O9mJJRl2QafQBCXAn3acxyB2salVNMcTnt7sS5RE717jQysI0hAQ8udOlSQYnYzzdELKQoxGg2zjg1B3rVi7PNirKG6bhpb2Uj0cxUsKdQc8sKh6SAJkJP9KvbM9Onzv9jhwNtsbSdsWaYGzxOivt6LU6O9vGMNQa2KzHEaYZHarXNZHKL46IhbML4X4lnmH9Fv",
+              "received": false
+            },
+            {
+              "_id": "695a14db1c508c5d5e9f601a",
+              "name": "Cheese26567",
+              "amount": 805,
+              "price": 1329,
+              "manufacturer": "Xiaomi",
+              "notes": "0VWnjxMtRD24lhK5fEz75AtscVP2J6QSBDZVstHUpN5zE4UD6IGkpdx68qWiTbyabxHhOzeN6W6HhPx8osYTbFr48rDBCKZuqIJf6t68JKt9XN4won7id4hJALxNycratphkSq0wX5UBIXnVZW6xcxRlnCDekhYQI65zwNqF1NQVW6IplwAT585Za6fBOqyZrhviLDMzqIqOnagEUttDZH0CHnAYx2ZlxhQGPIPu2Mq73tV0xWSGXFxAZZ",
+              "received": false
+            }
+          ],
+          "total_price": 8518,
+          "delivery": null,
+          "changedOn": "2026-01-04T07:21:00.000Z",
+          "action": "Requested products changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a14d11c508c5d5e9f5b7e",
+          "products": [
+            {
+              "_id": "695a14d31c508c5d5e9f5b80",
+              "name": "Computer92781",
+              "amount": 972,
+              "price": 32807,
+              "manufacturer": "Sony",
+              "notes": "xCzaZW56o4F2NchBgrBv1uVRMZp512yRXkY5BwUh9i3A3ACmqVZXffqd0i5RgbkFbHBRiTaYTr3QddYnud2zGWmRpoYBcZhPzLjow6HaI8tBWdLqv21vrSm5aaWRfTQEfYHPeTuFc4GCRo8ArpdJQwVZczM72uXQe6rEwNR1XEhlQQiB6aeeM9oDlgwQo0lmterEflx4cBvRfi3R64Z9u21L9oXwO8P3Ndq8nGA8yWkelOIEAVKx12bVTQ",
+              "received": false
+            }
+          ],
+          "total_price": 32807,
+          "delivery": null,
+          "changedOn": "2026-01-04T07:20:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

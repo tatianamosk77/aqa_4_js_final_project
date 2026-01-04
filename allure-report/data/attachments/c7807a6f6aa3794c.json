@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 07:20:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-0+mF6d9PAsG/rF+RGdVinsz56B0\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Carmen.Pfeffer0@yahoo.com",
+      "name": "Dion Verner",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 180,
+      "flat": 6196,
+      "phone": "+5951975593",
+      "createdOn": "2026-01-04T07:20:39.000Z",
+      "notes": "Waaa84RANzLHEdraCTEwMLVZ52RO1nIcS7u1lt5Y9yjlPK8R3JCv70xEgxQkGR6CTwuYlYrON2K0FWQ7ZLhQAe2GdPfB0K3QlmQISWjUZT2oGzKKwi64qLPhW3daTnaj6ajKF7hGyqCLW44gQ7SEe0z9Mb7dOdjSLHIUi9dgYH3s46E2pauIBjDXYWRkPRQFNvfJzRaZlAzuJq9Fdr4spHMvrKlyOJoCDKqgRY869Hb1P2dYrvRsaOAQbC",
+      "_id": "695a14c71c508c5d5e9f59a1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

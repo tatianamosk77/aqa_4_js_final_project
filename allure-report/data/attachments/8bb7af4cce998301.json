@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 07:19:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-mPLc4EGmLFeKt6rjpPBNO9MORqQ\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Patrick.Hills23@yahoo.com",
+      "name": "Mariela Timothy",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 973,
+      "flat": 2024,
+      "phone": "+5398928766",
+      "createdOn": "2026-01-04T07:19:53.000Z",
+      "notes": "yrVwkhKZLmzZHQQZ952gYuFYAjVm4LzzY4OOWgP2xUBx8z2uqIMLoYjNg56WUZMMjZO7s2rHbg4U1uuyiG1iJgrW6gAeuoqy5lh57ErMaSyiKLLs0K278f6I5ZMnAqBY431MUh3IXkknUwZX7g0e03WmusLU8mkkaQmHS9yKXEta6pJol9j8z7N8uDiDgVzWyEJuKdVHWYeWAhRCoSpMocW8BTSxTQ0ocnc0xhgNiuu9SQgIPgAbRnpNH9",
+      "_id": "695a14991c508c5d5e9f55cf"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 07:19:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4108",
+    "etag": "W/\"100c-x0gPF6i+uI7vgiP3BtnZ0jOp2hU\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Orders": [
+      {
+        "_id": "695a14971c508c5d5e9f5578",
+        "status": "Draft",
+        "customer": "695a14921c508c5d5e9f5521",
+        "products": [
+          {
+            "_id": "695a14971c508c5d5e9f5568",
+            "name": "Bike46388",
+            "amount": 49,
+            "price": 63552,
+            "manufacturer": "Apple",
+            "notes": "WAz29COvTXCmMkyX40tNdg6Pb7moJZSz4eRPB7T6B17B1mTTVOBrtKEfOYSLIsinVU00juAjaMujtpWb3y20VSim4l7HiRNc97Yp6UTwanh6f8wk4HOqYlKWpCZ3DGqlkUkMg0wb1EeJBJbo6hpPyxyuLz98gf2j8DLdHz1K6RILd3M30kHSQxBcxX1TlIxq7gBGxyq3Hp7IjBDryWn9zJD0ODhRQJN8t7SSsGncCa0opFwotk4EyFWwUj",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 63552,
+        "createdOn": "2026-01-04T07:19:51.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "695a14921c508c5d5e9f5521",
+            "products": [
+              {
+                "_id": "695a14971c508c5d5e9f5568",
+                "name": "Bike46388",
+                "amount": 49,
+                "price": 63552,
+                "manufacturer": "Apple",
+                "notes": "WAz29COvTXCmMkyX40tNdg6Pb7moJZSz4eRPB7T6B17B1mTTVOBrtKEfOYSLIsinVU00juAjaMujtpWb3y20VSim4l7HiRNc97Yp6UTwanh6f8wk4HOqYlKWpCZ3DGqlkUkMg0wb1EeJBJbo6hpPyxyuLz98gf2j8DLdHz1K6RILd3M30kHSQxBcxX1TlIxq7gBGxyq3Hp7IjBDryWn9zJD0ODhRQJN8t7SSsGncCa0opFwotk4EyFWwUj",
+                "received": false
+              }
+            ],
+            "total_price": 63552,
+            "delivery": null,
+            "changedOn": "2026-01-04T07:19:51.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337ce1c508c5d5e95335d",
+              "username": "student14@gmail.com",
+              "firstName": "Bill",
+              "lastName": "Schuppe",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:26"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      },
+      {
+        "_id": "695a14971c508c5d5e9f5588",
+        "status": "Draft",
+        "customer": "695a14921c508c5d5e9f5521",
+        "products": [
+          {
+            "_id": "695a14971c508c5d5e9f5568",
+            "name": "Bike46388",
+            "amount": 49,
+            "price": 63552,
+            "manufacturer": "Apple",
+            "notes": "WAz29COvTXCmMkyX40tNdg6Pb7moJZSz4eRPB7T6B17B1mTTVOBrtKEfOYSLIsinVU00juAjaMujtpWb3y20VSim4l7HiRNc97Yp6UTwanh6f8wk4HOqYlKWpCZ3DGqlkUkMg0wb1EeJBJbo6hpPyxyuLz98gf2j8DLdHz1K6RILd3M30kHSQxBcxX1TlIxq7gBGxyq3Hp7IjBDryWn9zJD0ODhRQJN8t7SSsGncCa0opFwotk4EyFWwUj",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 63552,
+        "createdOn": "2026-01-04T07:19:51.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "695a14921c508c5d5e9f5521",
+            "products": [
+              {
+                "_id": "695a14971c508c5d5e9f5568",
+                "name": "Bike46388",
+                "amount": 49,
+                "price": 63552,
+                "manufacturer": "Apple",
+                "notes": "WAz29COvTXCmMkyX40tNdg6Pb7moJZSz4eRPB7T6B17B1mTTVOBrtKEfOYSLIsinVU00juAjaMujtpWb3y20VSim4l7HiRNc97Yp6UTwanh6f8wk4HOqYlKWpCZ3DGqlkUkMg0wb1EeJBJbo6hpPyxyuLz98gf2j8DLdHz1K6RILd3M30kHSQxBcxX1TlIxq7gBGxyq3Hp7IjBDryWn9zJD0ODhRQJN8t7SSsGncCa0opFwotk4EyFWwUj",
+                "received": false
+              }
+            ],
+            "total_price": 63552,
+            "delivery": null,
+            "changedOn": "2026-01-04T07:19:51.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337ce1c508c5d5e95335d",
+              "username": "student14@gmail.com",
+              "firstName": "Bill",
+              "lastName": "Schuppe",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:26"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      },
+      {
+        "_id": "695a14971c508c5d5e9f5596",
+        "status": "Draft",
+        "customer": "695a14921c508c5d5e9f5521",
+        "products": [
+          {
+            "_id": "695a14971c508c5d5e9f5568",
+            "name": "Bike46388",
+            "amount": 49,
+            "price": 63552,
+            "manufacturer": "Apple",
+            "notes": "WAz29COvTXCmMkyX40tNdg6Pb7moJZSz4eRPB7T6B17B1mTTVOBrtKEfOYSLIsinVU00juAjaMujtpWb3y20VSim4l7HiRNc97Yp6UTwanh6f8wk4HOqYlKWpCZ3DGqlkUkMg0wb1EeJBJbo6hpPyxyuLz98gf2j8DLdHz1K6RILd3M30kHSQxBcxX1TlIxq7gBGxyq3Hp7IjBDryWn9zJD0ODhRQJN8t7SSsGncCa0opFwotk4EyFWwUj",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 63552,
+        "createdOn": "2026-01-04T07:19:51.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "695a14921c508c5d5e9f5521",
+            "products": [
+              {
+                "_id": "695a14971c508c5d5e9f5568",
+                "name": "Bike46388",
+                "amount": 49,
+                "price": 63552,
+                "manufacturer": "Apple",
+                "notes": "WAz29COvTXCmMkyX40tNdg6Pb7moJZSz4eRPB7T6B17B1mTTVOBrtKEfOYSLIsinVU00juAjaMujtpWb3y20VSim4l7HiRNc97Yp6UTwanh6f8wk4HOqYlKWpCZ3DGqlkUkMg0wb1EeJBJbo6hpPyxyuLz98gf2j8DLdHz1K6RILd3M30kHSQxBcxX1TlIxq7gBGxyq3Hp7IjBDryWn9zJD0ODhRQJN8t7SSsGncCa0opFwotk4EyFWwUj",
+                "received": false
+              }
+            ],
+            "total_price": 63552,
+            "delivery": null,
+            "changedOn": "2026-01-04T07:19:51.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337ce1c508c5d5e95335d",
+              "username": "student14@gmail.com",
+              "firstName": "Bill",
+              "lastName": "Schuppe",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:26"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      }
+    ],
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

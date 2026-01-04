@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 07:30:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-1pnNkqAM5BNFuaM8JX5kNp+YO10\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Lucious_Dach@hotmail.com",
+      "name": "Mossie Otto",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 569,
+      "flat": 1266,
+      "phone": "+3616937449",
+      "createdOn": "2026-01-04T07:30:50.000Z",
+      "notes": "SgG7lw5w1vsCVL83E5QKIXrEaT7nrMkm6GBEGT6cCAHtwhwZzVjMayjgkBhoP8Tpa1RT1pXBP9tuU88gCjIhPh3M1NooJCSy60rrOoM8Tx6FZ53jQYZtyc2V2aUEZ5qxeq8NSpJYFDQ4GziVER2Dvy4gmSS0Gc9BjMr5g4ScJGEJZcC8H86qutBq6pGQLzCoZCZ8PLoCybMTXfiK4rNEDDngObHBulHKg08DfJjjWvp6YLicXNGryO2yFo",
+      "_id": "695a172a1c508c5d5e9ffde7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

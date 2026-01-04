@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 07:30:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-daTQ9PhesTTzMjee+ysb4thaZdU\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Kendall.Deckow@yahoo.com",
+      "name": "Kathleen Tre",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 131,
+      "flat": 36,
+      "phone": "+5244108517",
+      "createdOn": "2026-01-04T07:30:48.000Z",
+      "notes": "rv9GLJWKcUSMrYfGRHkTRPMoKRiCd2ta2QCh5kDjxp3ZHX0sXU9hfto7y02US9KzpbTl4BBRJS7PFjDerfxVi8ShPjG6dq9BURMieH2LEUISzq9KOataQMiircMEre8W00TP2OXh9jXZDA9u1fTwprLgwbK2E3bnEzEKRtOblYcMbu4DJMteQGfzoVOjq5OWLsg6sXtHmYUe85p8W9Ez8USJ4IpQ19UhCY5a93E7UxW6nIvv92uiRbtNRH",
+      "_id": "695a17281c508c5d5e9ffd77"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

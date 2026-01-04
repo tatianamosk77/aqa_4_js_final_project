@@ -1,0 +1,68 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - alert [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]: Order was successfully created
+      - button "Close" [ref=e5] [cursor=pointer]
+  - generic [ref=e7]:
+    - banner [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - img
+          - generic [ref=e11]: Sales Portal
+        - link "Home" [ref=e13] [cursor=pointer]:
+          - /url: "#/home"
+        - link "Orders" [ref=e15] [cursor=pointer]:
+          - /url: "#/orders"
+        - link "Products" [ref=e17] [cursor=pointer]:
+          - /url: "#/products"
+        - link "Customers" [ref=e19] [cursor=pointer]:
+          - /url: "#/customers"
+        - link "Managers" [ref=e21] [cursor=pointer]:
+          - /url: "#/managers"
+      - generic [ref=e23]:
+        - button " 5" [ref=e25] [cursor=pointer]:
+          - generic: 
+          - generic [ref=e26]: "5"
+        - button "" [ref=e27] [cursor=pointer]:
+          - generic: 
+        - link "User" [ref=e29] [cursor=pointer]:
+          - /url: "#/managers/undefined"
+          - strong [ref=e30]: User
+        - button "" [ref=e31] [cursor=pointer]:
+          - generic: 
+    - generic [ref=e32]:
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - heading "Orders List" [level=2] [ref=e36]
+          - button "Create Order" [ref=e37] [cursor=pointer]
+        - generic [ref=e38]:
+          - generic [ref=e39]:
+            - searchbox "Search" [ref=e40]
+            - button " Search" [disabled]:
+              - generic: 
+              - text: Search
+          - button " Filter" [ref=e41] [cursor=pointer]:
+            - generic: 
+            - text: Filter
+          - button "Export" [ref=e42] [cursor=pointer]
+      - generic [ref=e45]:
+        - status [ref=e48]:
+          - generic [ref=e49]: Loading...
+        - table [ref=e51]:
+          - rowgroup [ref=e52]:
+            - row "Order Number Email Price Delivery Status Assigned Manager Created On Actions" [ref=e53]:
+              - columnheader "Order Number" [ref=e54]
+              - columnheader "Email" [ref=e55]
+              - columnheader "Price" [ref=e56]
+              - columnheader "Delivery" [ref=e57]
+              - columnheader "Status" [ref=e58]
+              - columnheader "Assigned Manager" [ref=e59]
+              - columnheader "Created On" [ref=e60]
+              - columnheader "Actions" [ref=e61]
+          - rowgroup [ref=e62]:
+            - row "No records created yet" [ref=e63]:
+              - cell "No records created yet" [ref=e64]
+```

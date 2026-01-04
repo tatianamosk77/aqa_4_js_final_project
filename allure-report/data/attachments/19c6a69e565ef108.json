@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 07:20:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-6xlzBhxN/pjH+5h58mX8c7CNKIY\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Gerardo48@hotmail.com",
+      "name": "Antwan Jimmie",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 483,
+      "flat": 1611,
+      "phone": "+4263893279",
+      "createdOn": "2026-01-04T07:20:44.000Z",
+      "notes": "7PaGauvAmmWSVVRUOnpZJz0MuySwe4KgQh8X7GapdxucWwvF0wzjOnMrmJlu4GWQ3EHFQg824AG3UDXoZWuEf6ZcmGLJj4krKhgYZGab9kLDw9oDBrVGBBTd99pVOSQlzxfeKjIkYbR5Qisxmlqw5ayoDCVQHBBbsL4DQ8PcmF5Rxja8dAHqcAuNveyz8JypZd21nuSBUfaiiQCNnHBZw0h91TwX6q0RRrzjvMFs1AdTKMIk1KtpgVXQZ1",
+      "_id": "695a14cc1c508c5d5e9f5aa3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

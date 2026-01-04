@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 07:20:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-qwAmqlqd79zF9OVuTkj+dc/u7Ok\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Benedict.Padberg@hotmail.com",
+      "name": "Candice Jimmy",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 36,
+      "flat": 3736,
+      "phone": "+7878224325",
+      "createdOn": "2026-01-04T07:20:17.000Z",
+      "notes": "XoM2ZVqFECdSX5jz2jjWpO4HF1PVvT6WX5hC6tl80XRblZHNh2C2Oexmm8dqb0iTk704adD3M8LoKNejFhUHQPy3guqtnBSOsff7TLRMhRt3nmvvMnp64xSNqquzFBZas1rd3cXQmib8ccdJieHDNIfAjnVk1s36sPHWEjR550XUmLqL4LL5O3zsEgu2jD92pYnGjIKOnVM1Zxl2QjDOvROg2t1ZCYUfvN1h9gfur2OTn18sRqt2yVpoRZ",
+      "_id": "695a14b11c508c5d5e9f573f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

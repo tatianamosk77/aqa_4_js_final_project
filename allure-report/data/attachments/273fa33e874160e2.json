@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 07:30:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "556",
+    "etag": "W/\"22c-LyqQ/eXQ+DQXdWt4Wv4u7RfbRco\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Valentina_Jaskolski78@gmail.com",
+      "name": "Tanya Francesco",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 390,
+      "flat": 4409,
+      "phone": "+3580463914",
+      "createdOn": "2026-01-04T07:30:48.000Z",
+      "notes": "yFfKis4pnDoM2dPnA0MAZYLIfLCBmYRL8bgN7ohDxNBCbj9MJ3ZiZu2LkUgqZvh4s5lrmbMjdPyLfsOUqIUFbPbHBZe4x24RWE3kmmhgAQ3Uu39AH9B0mbTKcxRvN6FWSEnMBjiA7bhGicJRj3fbqiypdJB09yg8FOUgOgtjgQeF8vqQmq4zO9EzZMhQ6sqW2zOWzP6yfSk7HDaAeECnnX2TqVXwveGw1MEyVSB0weL7flNupYlXZeIy7J",
+      "_id": "695a17281c508c5d5e9ffd72"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

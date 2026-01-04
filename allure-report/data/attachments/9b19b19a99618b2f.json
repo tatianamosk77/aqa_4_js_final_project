@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 07:20:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-XXLCRXrnH7IhpA3qhdy6PpcFHl8\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Theresa28@hotmail.com",
+      "name": "Alta Bernardo",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 709,
+      "flat": 7570,
+      "phone": "+9743782837",
+      "createdOn": "2026-01-04T07:20:03.000Z",
+      "notes": "NsbNChivjoyuTNUyebfSwnbaiPnnP5AJGALne3l7r5DzOF88K7ZxuaSR8wk87TTqrrq648uYX5dq3U3kb3uzaEVLSQ7qu9fm7SocsZPEzEJplOpsdKx0b0yxFfkyvV2xZCrxmre0KE5FsG1dTNbSMf4O55Pec5jvV44RSO1Qwr9QAmsvF0vajLykyKE49LwVnUQjdI1EHCeoGUWD1mNaQ5gdG2FuxFuld7uC7Uw3yzh1krss3ALoW53A8I",
+      "_id": "695a14a31c508c5d5e9f563f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

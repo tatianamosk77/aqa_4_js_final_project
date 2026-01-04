@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 07:19:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "558",
+    "etag": "W/\"22e-lGN24qdCtnua1kzl495m2IY3G/U\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Lloyd.Cartwright@hotmail.com",
+      "name": "Kieran Declan",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 190,
+      "flat": 8712,
+      "phone": "+1569381392",
+      "createdOn": "2026-01-04T07:19:58.000Z",
+      "notes": "wbVFYWqt0oTWMj5cIUmy7hHAWhpz2L2B7oIQh0leHxvumofrO2hVqziH9ldq5PmAthKtPJGhDHDzmY61Dmfe8B4PvOFEgZtJXmHZTqZ1xJTc33xYKeR0xeq3zJZNCzdqZeTEWKWlzuv2eQ3xIZVOI7lbtZ1804PlN6GCHOHTCCYcmouMg8YBXkVDPFcVSTQNPET2oEV6N97ivp7hee4LkFzGkTxL3Q4HSKiDnj73aLZtEBU2nNolqAlqNk",
+      "_id": "695a149e1c508c5d5e9f5601"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

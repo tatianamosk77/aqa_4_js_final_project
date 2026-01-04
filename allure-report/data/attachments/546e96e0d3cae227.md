@@ -1,0 +1,129 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - img
+        - generic [ref=e7]: Sales Portal
+      - link "Home" [ref=e9] [cursor=pointer]:
+        - /url: "#/home"
+      - link "Orders" [ref=e11] [cursor=pointer]:
+        - /url: "#/orders"
+      - link "Products" [ref=e13] [cursor=pointer]:
+        - /url: "#/products"
+      - link "Customers" [ref=e15] [cursor=pointer]:
+        - /url: "#/customers"
+      - link "Managers" [ref=e17] [cursor=pointer]:
+        - /url: "#/managers"
+    - generic [ref=e19]:
+      - button " 5" [ref=e21] [cursor=pointer]:
+        - generic: 
+        - generic [ref=e22]: "5"
+      - button "" [ref=e23] [cursor=pointer]:
+        - generic: 
+      - link "User" [ref=e25] [cursor=pointer]:
+        - /url: "#/managers/undefined"
+        - strong [ref=e26]: User
+      - button "" [ref=e27] [cursor=pointer]:
+        - generic: 
+  - generic [ref=e28]:
+    - generic [ref=e29]:
+      - link " Orders" [ref=e30] [cursor=pointer]:
+        - /url: "#/orders"
+        - generic: 
+        - text: Orders
+      - generic [ref=e31]:
+        - heading "Order Details" [level=2] [ref=e33]
+        - generic [ref=e34]:
+          - status [ref=e37]:
+            - generic [ref=e38]: Loading...
+          - generic [ref=e39]:
+            - generic [ref=e40]:
+              - generic [ref=e41]:
+                - generic [ref=e42]: "Order number:"
+                - generic [ref=e43]: "-"
+              - generic [ref=e44]:
+                - generic [ref=e45]: "Assigned Manager:"
+                - generic [ref=e47]:
+                  - link "Anatoly Karpovich" [ref=e48] [cursor=pointer]:
+                    - /url: "#/managers/67c4ea03c38902141f13ee94"
+                  - button "" [ref=e49] [cursor=pointer]:
+                    - generic: 
+                  - button "" [ref=e50] [cursor=pointer]:
+                    - generic: 
+            - button "Cancel Order" [ref=e53] [cursor=pointer]
+          - button "Refresh Order " [ref=e56] [cursor=pointer]:
+            - text: Refresh Order
+            - generic: 
+          - generic [ref=e57]:
+            - generic [ref=e58]:
+              - text: Order Status
+              - text: Draft
+            - generic [ref=e59]:
+              - text: Total Price
+              - text: $0
+            - generic [ref=e60]:
+              - text: Delivery
+              - text: "-"
+            - generic [ref=e61]:
+              - text: Created On
+              - text: November 24, 2024 1:15 AM
+    - generic [ref=e62]:
+      - generic [ref=e63]:
+        - status [ref=e66]:
+          - generic [ref=e67]: Loading...
+        - generic [ref=e68]:
+          - heading "Customer Details" [level=4] [ref=e69]
+          - button "" [ref=e70] [cursor=pointer]:
+            - generic: 
+        - generic [ref=e71]:
+          - generic [ref=e72]:
+            - generic [ref=e73]: Email
+            - generic [ref=e74]: "-"
+          - generic [ref=e75]:
+            - generic [ref=e76]: Name
+            - generic [ref=e77]: "-"
+          - generic [ref=e78]:
+            - generic [ref=e79]: Country
+            - generic [ref=e80]: Belarus
+          - generic [ref=e81]:
+            - generic [ref=e82]: City
+            - generic [ref=e83]: "-"
+          - generic [ref=e84]:
+            - generic [ref=e85]: Street
+            - generic [ref=e86]: "-"
+          - generic [ref=e87]:
+            - generic [ref=e88]: House
+            - generic [ref=e89]: "-"
+          - generic [ref=e90]:
+            - generic [ref=e91]: Flat
+            - generic [ref=e92]: "-"
+          - generic [ref=e93]:
+            - generic [ref=e94]: Phone
+            - generic [ref=e95]: "-"
+          - generic [ref=e96]:
+            - generic [ref=e97]: Created On
+            - generic [ref=e98]: 2024/11/22 01:27:00
+          - generic [ref=e99]:
+            - generic [ref=e100]: Notes
+            - generic [ref=e101]: "-"
+      - generic [ref=e102]:
+        - status [ref=e105]:
+          - generic [ref=e106]: Loading...
+        - generic [ref=e108]:
+          - heading "Requested Products" [level=4] [ref=e109]
+          - button "" [ref=e110] [cursor=pointer]:
+            - generic: 
+        - generic [ref=e113]:
+          - button "-" [ref=e114] [cursor=pointer]
+          - generic [ref=e115]: Not Received
+    - generic [ref=e116]:
+      - status [ref=e119]:
+        - generic [ref=e120]: Loading...
+      - tablist [ref=e122]:
+        - tab "Delivery" [ref=e123] [cursor=pointer]
+        - tab "Order History" [ref=e124] [cursor=pointer]
+        - tab "Comments" [ref=e125] [cursor=pointer]
+```

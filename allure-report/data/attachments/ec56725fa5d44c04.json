@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 07:23:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-SpB5BM9fASx4m0DMk2oePOqJpzY\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Gavin44@gmail.com",
+      "name": "Maryam Mackenzie",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 665,
+      "flat": 2200,
+      "phone": "+7671053266",
+      "createdOn": "2026-01-04T07:23:25.000Z",
+      "notes": "HymILRaIu8QuiEijKJCfIkiT3HgmEr5un4MGtfcRksgjgKZwpfqybxREButlLkxR5FQUgDUfb6NO7tduny4XV0ObJk3aF4iKMHZQXQ6EKqzcSJARYIYPQz1gLjbV0p3RtORGoDoSMiFO5s8E7rlVwJydXosi1uJUZF58TY1f1owAXKM2RG5IxR9mQfA6qCuIv3JLbBLlkBdaN9xbQptAcNijYyAiFuFyQl01xDT8OE7yYYtsITNpHpiL7P",
+      "_id": "695a156d1c508c5d5e9f8441"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

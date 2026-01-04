@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 07:20:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-L4Xc710E0z5HgBxSQyIndya6VfQ\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695a14bf1c508c5d5e9f5900",
+        "email": "Erna.Considine22@yahoo.com",
+        "name": "Gonzalo Edwardo",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 537,
+        "flat": 9600,
+        "phone": "+3312791651",
+        "createdOn": "2026-01-04T07:20:31.000Z",
+        "notes": "F7Odj6jKbcXoTQhppL4Eg6Ep5HIsbTEQQDeHrKoqP71DEgqVx9uEasSykj2W02w4xhqpouSusHhSOUHYkUDzeQYTxde1t8uJc6QAuuLUg216zhVbxmj5IAYDFjJhHeQ4YAjrarakSslu5UAxWXKNRbQhQ4gTUTPOC44RB2g0Zi782Z4Dl935stEn5msubhC080lYa5tXFgNuUqLrNgDJCSfxdp4798mCi12pZjenDwyWJmvp3gx81PWvsF"
+      },
+      "products": [
+        {
+          "_id": "695a14c21c508c5d5e9f590f",
+          "name": "Tuna16848",
+          "amount": 238,
+          "price": 30416,
+          "manufacturer": "Samsung",
+          "notes": "3ngn07W4ZVRBJzFH5B7I6zDlmxKrKzEjfEshV9aqzKl0QIlqD6cEbphU1uHHXks5CGv2ul4WYxReDK47TO9OKQYzkCpQCznJcfaQ3ZMbU6Ari6JcJ5EPizZamyaWhIxZzMAZCrMtUxQbIHcUsJIel5kXWpGdhXclNdfjlYHRXl3kOHOKcwgkCyt14vr2hQKM3e0l5Gejw3OKQFueY0UShu5kNAtHmjpmzjpamXsALPp3aHNrIdSNsFom8G",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 30416,
+      "createdOn": "2026-01-04T07:20:35.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a14bf1c508c5d5e9f5900",
+          "products": [
+            {
+              "_id": "695a14c21c508c5d5e9f590f",
+              "name": "Tuna16848",
+              "amount": 238,
+              "price": 30416,
+              "manufacturer": "Samsung",
+              "notes": "3ngn07W4ZVRBJzFH5B7I6zDlmxKrKzEjfEshV9aqzKl0QIlqD6cEbphU1uHHXks5CGv2ul4WYxReDK47TO9OKQYzkCpQCznJcfaQ3ZMbU6Ari6JcJ5EPizZamyaWhIxZzMAZCrMtUxQbIHcUsJIel5kXWpGdhXclNdfjlYHRXl3kOHOKcwgkCyt14vr2hQKM3e0l5Gejw3OKQFueY0UShu5kNAtHmjpmzjpamXsALPp3aHNrIdSNsFom8G",
+              "received": false
+            }
+          ],
+          "total_price": 30416,
+          "delivery": null,
+          "changedOn": "2026-01-04T07:20:35.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695a14c31c508c5d5e9f5928"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
