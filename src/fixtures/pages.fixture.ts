@@ -77,7 +77,7 @@ export interface IPages {
   addNewOrderUIService: AddNewOrderUIService;
   editOrderUIService: EditOrderUIService;
   orderDetailsUIService: OrderDetailsUIService; 
-},
+}
 
 export const test = base.extend<IPages>({
   //pages
