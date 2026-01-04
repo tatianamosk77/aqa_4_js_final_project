@@ -22,21 +22,23 @@ export class OrderDetailsPage extends SalesPortalPage {
   readonly createdOn = this.orderStatusBar.filter({ hasText: "Created On" }).locator("..");
 
   // --- ЛОКАТОРЫ МЕНЕДЖЕРА ---
-  readonly assignedManagerContainer = this.orderDetailsHeader.locator("#assigned-manager-container");
-  readonly clickToSelectManagerButton = this.page.locator('#assigned-manager-container u');
+  readonly assignedManagerContainer = this.orderDetailsHeader.locator(
+    "#assigned-manager-container"
+  );
+  readonly clickToSelectManagerButton = this.page.locator("#assigned-manager-container u");
   readonly clickToAssingManager = this.assignedManagerContainer.locator("span");
   readonly assignedManagerLink = this.orderDetailsHeader.locator("#assigned-manager-link");
-  readonly assignedManager = this.assignedManagerLink; 
+  readonly assignedManager = this.assignedManagerLink;
   // readonly editManagerButton = this.assignedManagerContainer.filter({ hasText: "Edit" });
   readonly editManagerButton = this.page.locator('button[title="Edit Assigned Manager"]');
   readonly removeManagerButton = this.assignedManagerContainer.locator("button.text-danger");
   readonly removeManagerIcon = this.page.locator('button[title="Remove Assigned Manager"]');
   readonly confirmationModal = this.page.locator('div[name="confirmation-modal"]');
-  readonly confirmUnassignButton = this.confirmationModal.locator('button.btn-danger');
-  readonly selectManagerLink = this.page.locator('text=Click to select manager');
-  private readonly modalContainer = this.page.locator('.modal-content');
-  private readonly managerList = this.modalContainer.locator('#manager-list');
-  private readonly managerListItems = this.modalContainer.locator('.list-group-item');
+  readonly confirmUnassignButton = this.confirmationModal.locator("button.btn-danger");
+  readonly selectManagerLink = this.page.locator("text=Click to select manager");
+  private readonly modalContainer = this.page.locator(".modal-content");
+  private readonly managerList = this.modalContainer.locator("#manager-list");
+  private readonly managerListItems = this.modalContainer.locator(".list-group-item");
   private readonly saveManagerButton = this.modalContainer.locator('button:has-text("Save")');
   readonly cancelUnassignButton = this.confirmationModal.locator('button:has-text("Cancel")');
 
@@ -53,15 +55,20 @@ export class OrderDetailsPage extends SalesPortalPage {
   readonly editItems = this.page.locator("#edit-products-pencil");
   readonly editCustomerButton = this.page.locator("#edit-customer-pencil");
   readonly editProductButton = this.page.locator("#edit-products-pencil");
-  readonly productNames = this.page.locator('#products-accordion-section .accordion-button');
+  readonly productNames = this.page.locator("#products-accordion-section .accordion-button");
   readonly customerNameValue = this.page
     .locator("#customer-section")
     .locator(".c-details", { hasText: "Name" })
     .locator("span.s-span:not(.strong-details)");
 
+    // --- ЛОКАТОРЫ КОММЕНТАРИЕВ ---
+  readonly commentsTab = this.page.locator("#comments-tab"); // ID из консоли/инспектора
+  readonly commentInput = this.page.locator('textarea[name="comments"]'); //
+  readonly createCommentButton = this.page.locator('button:has-text("Create")');
+
   // --- ЛОКАТОРЫ УВЕДОМЛЕНИЙ (TOASTS) ---
   readonly toastMessage = this.page.locator("div.toast-body");
-  readonly toastCloseButton = this.page.locator('.toast button.btn-close');
+  readonly toastCloseButton = this.page.locator(".toast button.btn-close");
 
   // --- МЕТОДЫ СТРАНИЦЫ ---
 
@@ -108,7 +115,7 @@ export class OrderDetailsPage extends SalesPortalPage {
 
   @logStep("Click Edit Manager (pencil icon)")
   async editManager() {
-    await this.editManagerButton.waitFor({ state: 'visible' });
+    await this.editManagerButton.waitFor({ state: "visible" });
     await this.editManagerButton.click();
   }
 
@@ -165,13 +172,13 @@ export class OrderDetailsPage extends SalesPortalPage {
   @logStep("Click edit Customer button")
   async clickEditCustomer() {
     await this.editCustomerButton.click();
-    await this.editCustomerButton.waitFor({ state: 'visible', timeout: 15000 });
+    await this.editCustomerButton.waitFor({ state: "visible", timeout: 15000 });
   }
 
   @logStep("Click edit Product button")
   async clickEditProduct() {
     await this.editProductButton.click();
-    await this.editProductButton.waitFor({ state: 'visible', timeout: 20000 });
+    await this.editProductButton.waitFor({ state: "visible", timeout: 20000 });
   }
 
   @logStep("Get all products names from orders")
@@ -198,8 +205,8 @@ export class OrderDetailsPage extends SalesPortalPage {
 
   @logStep("Close specific toast notification with text: {0}")
   async closeSpecificToast(text: string) {
-    const specificToastContainer = this.page.locator('.toast', { hasText: text });
-    const closeBtn = specificToastContainer.locator('button.btn-close');
+    const specificToastContainer = this.page.locator(".toast", { hasText: text });
+    const closeBtn = specificToastContainer.locator("button.btn-close");
 
     if (await closeBtn.isVisible()) {
       await closeBtn.click();
@@ -219,36 +226,36 @@ export class OrderDetailsPage extends SalesPortalPage {
   async getAssignedManagerName(): Promise<string> {
     const fullName = await this.assignedManagerLink.innerText();
     if (!fullName) return "";
-    
+
     return fullName.trim();
   }
 
   @logStep("Select manager from list by index: {index}")
   async selectManagerByIndex(index: number = 0) {
     const managerItem = this.managerListItems.nth(index);
-    await managerItem.waitFor({ state: 'visible' });
+    await managerItem.waitFor({ state: "visible" });
     await managerItem.click();
   }
 
   @logStep("Remove assigned manager and confirm")
   async removeManagerWithConfirmation() {
     await this.removeManagerIcon.click();
-    await this.confirmationModal.waitFor({ state: 'visible' });
+    await this.confirmationModal.waitFor({ state: "visible" });
     await this.confirmUnassignButton.click();
-    await this.confirmationModal.waitFor({ state: 'hidden' });
+    await this.confirmationModal.waitFor({ state: "hidden" });
   }
-  
+
   @logStep("Click Save button in Assign Manager modal")
   async clickSaveManager() {
     await this.saveManagerButton.click();
-    await this.modalContainer.waitFor({ state: 'hidden' });
+    await this.modalContainer.waitFor({ state: "hidden" });
   }
 
   @logStep("Click Cancel in unassign confirmation modal")
   async cancelManagerUnassignment() {
     await this.removeManagerIcon.click();
-    await this.confirmationModal.waitFor({ state: 'visible' });
+    await this.confirmationModal.waitFor({ state: "visible" });
     await this.cancelUnassignButton.click();
-    await this.confirmationModal.waitFor({ state: 'hidden' });
+    await this.confirmationModal.waitFor({ state: "hidden" });
   }
 }

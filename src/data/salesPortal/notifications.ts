@@ -14,6 +14,7 @@ export enum NOTIFICATIONS {
   ORDER_UPDATED = "Order was successfully updated",
   MANAGER_ASSIGNED = "Manager was successfully assigned to the order",
   MANAGER_UNASSIGNED = "Manager was successfully unassigned from the order",
+  COMMENT_ADDED = "Comment was successfully posted",
 }
 
 export const ERROR_MESSAGES = {
