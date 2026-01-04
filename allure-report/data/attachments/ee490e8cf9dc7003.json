@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:55:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "539",
+    "etag": "W/\"21b-eUkmCszJJpyRBQ8ZKid82un3Hj4\"",
+    "keep-alive": "timeout=5, max=75",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Lexi1@hotmail.com",
+      "name": "Jaylin Colten",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 401,
+      "flat": 593,
+      "phone": "+3992559021",
+      "createdOn": "2026-01-04T11:55:50.000Z",
+      "notes": "OIwzTIIrrTfyTT6Y0n1lNwd9EWC0DpvDoiyFreghuJtvkUAcheuDSScUJM93Inr7mcuPRRiqWTbOyvj92fykSo2WF73iy7FcoyZxF1Qk53CHgZvbRMzKB3g9McY2bf0zw28odRpI314yiTdbjGF5CDv0MN0hNPpftGRpaT6HChpY8JTd8iwOSHd1lU061AB18un3rbVJ81eQjNLSJoXsSGxA0n82TfDZksBsfI3vExSOjrXEDYHPSszM8h",
+      "_id": "695a55461c508c5d5ea5d67b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

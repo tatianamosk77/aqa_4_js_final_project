@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:55:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "538",
+    "etag": "W/\"21a-eLmIkh9MCyg7PY3kPVD+iWaHLr0\"",
+    "keep-alive": "timeout=5, max=57",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Emelia9@gmail.com",
+      "name": "Noemy John",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 382,
+      "flat": 1134,
+      "phone": "+0531977047",
+      "createdOn": "2026-01-04T11:55:44.000Z",
+      "notes": "n6Plw4Y0WWNfAXi2tfRSzBbHh8I5PJhGPTolcrnfkjTXSdpZrEnmtdgLie4QE261EkPZUtbPTOFRA6ixKyBA2JdvQ8ivuFgDHwVGPMkuiXCvPkLUae1tyU7OtOZEQCd8XGOffaGUC3RhupnbR4bfcUhF9TrKzKQYXLsH9qTxNNPLxsTwzd2FL1XDjiUyGscgqxKNhRBxhNGSjwSfojxLhP1ysKESZrMAqhSI75QHRSok4x3JInHLhotPTH",
+      "_id": "695a55401c508c5d5ea5d552"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

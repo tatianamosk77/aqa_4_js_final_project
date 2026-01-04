@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:55:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-Em2RfY6Lhpp4QOzTbyFoEayLVxU\"",
+    "keep-alive": "timeout=5, max=78",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Amari_Dare@yahoo.com",
+      "name": "Lisa Ramiro",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 745,
+      "flat": 7975,
+      "phone": "+8476784254",
+      "createdOn": "2026-01-04T11:55:45.000Z",
+      "notes": "DIbblMX3I6NysnVJYfozGysqOooZmBMypaCIqxrNUNn1j3mGRKkyAtudwVLHx7S42QkAoQ74DGT3JeVn3kzGVKicX1HurY5tAhTUStsoZyroZzhY6ceXzzHMQjtRESg51L15sdM640qeMma8PdIXYEgomZHUFskgjQXcbAcfUsTNGjhOvokNRnucjY4I6d0Qdl2i1ZcnRX7KykgTHMPQKtZTKpcDFI6xgxxJpwtrqQesGizOgMHXNlCSTe",
+      "_id": "695a55411c508c5d5ea5d5a6"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

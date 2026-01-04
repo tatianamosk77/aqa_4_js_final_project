@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 12:03:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-Vzkdz0dmSViC072sgQ9cF2Ort00\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Vinnie.Pfeffer@gmail.com",
+      "name": "Ladarius Mateo",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 711,
+      "flat": 440,
+      "phone": "+1087342362",
+      "createdOn": "2026-01-04T12:03:33.000Z",
+      "notes": "3CSsmfzFqxjh2qfnDrHUDfECnWMU5CUC5c1pCfQrH9aV9PitgyP4lTXhifgIDpDPox2UM967RNKHDETwuV8dbWIKnCJnwgZUxiems9BApPLRIUO3BjBONuaBBA8ckUNN2W2rkz753U4oJkswQJ8UayvfWt9mLAI7fHE8AQpH6arjn3rgTqRGNptB8Asm7pZFdVaVDk6cSczAaRkLdCvxysJFRYjOeNXKucXAC7bYstZ6JrhKagg9HuTrxd",
+      "_id": "695a57151c508c5d5ea6616e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

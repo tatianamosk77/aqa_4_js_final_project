@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:59:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-7dPpxZd0DNjTYu6qNy1uKIwo0wU\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Elfrieda.Gutmann@gmail.com",
+      "name": "Kaci Brendon",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 361,
+      "flat": 2461,
+      "phone": "+1799227353",
+      "createdOn": "2026-01-04T11:59:02.000Z",
+      "notes": "STDqjhwH7hj6QXCbhEVeWY5iLiYfAu7Ohi2XALlZSV02CjjHIvO6IR1nnCLJuUIrlrpd0eEja0ZLoddJGtvKkpySSGjAyVcSLH1Sf4MxxfCpCZAzdPFnWzEI4KAI9szREyEZVrnKD09ybD89GQ265UFS2PedtGx7O31FEIY2M1k12qqeYizInFXe8rWgVokso1cTza96JjFGjVSWpjRkNGpMwCxTyg8hjDyNaLIaAtKAem3kOmIamU2cGe",
+      "_id": "695a56061c508c5d5ea6045e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

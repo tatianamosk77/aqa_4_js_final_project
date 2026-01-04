@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:54:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "662",
+    "etag": "W/\"296-CcE9FTFXtfVMnWFTWhyJhtVPDus\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "695a550d1c508c5d5ea5cc72",
+        "email": "Jamaal43@hotmail.com",
+        "name": "Aron Maia",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 357,
+        "flat": 3715,
+        "phone": "+3257884189",
+        "createdOn": "2026-01-04T11:54:53.000Z",
+        "notes": "1DZRmhWxGmezSnfqwrndRTSHMv97FFlnMgpqruKjEeaIDZazgSu24nRCniY07ZhiP0zsGomN9uEHFHAwNlgxFdbvgddzmPROqziwNX79pNrZBti7ZTPzWuJGti1zEXPKK8zNH7lX8hu9bPySzAtumpzKjy8Ok1own9g2UjAosMz9tN6NMXfzcxcmUKtBESbO28K5EOi7RGQpT4BEG0AosQ9LgoiDufRVJFozu37llzmS1efCsiu4Ngk9bE"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Aron Maia",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

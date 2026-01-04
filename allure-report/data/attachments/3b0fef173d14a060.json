@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 12:06:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "536",
+    "etag": "W/\"218-9lsNRWKyR+dae2s7auYkseogyyo\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Andy61@gmail.com",
+      "name": "Celia Oda",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 485,
+      "flat": 5351,
+      "phone": "+2214983674",
+      "createdOn": "2026-01-04T12:06:33.000Z",
+      "notes": "N0leDGPmO3ywKzcWiUuAZNjiMKosOId1jgWD8ZewFN5DWEkyNKHwqVXrnDPJ9KW5IhwOBreRLt7MB3JKk0LnJKEM2x2EQId1NpuYdqEAYo6kYhrX4iI0jCevYGuK56z5E0T3rrdTlXZsHqkczvsvOPPWeaGzFnzM0ac7VBJHvw9s24fDQmH3iQmVeQnKCzyQ4VfgMmLrUfyK2rZNVfetiPzBwhkkPEFZ3hIUxYWoVwUJ9i6XsoxFFgIdlm",
+      "_id": "695a57c91c508c5d5ea6b684"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:55:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-oeTnt4JCqCwzkyhzWtvJEmWTlcw\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Asa_Hegmann@hotmail.com",
+      "name": "Walker Olaf",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 786,
+      "flat": 3918,
+      "phone": "+9167612172",
+      "createdOn": "2026-01-04T11:55:48.000Z",
+      "notes": "z0ZosgPXKNbsdkkFuFmnyg7INcGpZvZe9wdO9TqOXsNjdx4q4grhVv4JACYW5hjxmZiNgqSRTMQYcMUXeQ2rSQG6uIZXKw1Ahft30PLjeog13jaoZzt1IlxNGE8WrJhV9OiIdgZ8fTW1G2ClNYmUYlyE3NunttyZ5Sa4MbOa3uXxBFIzr9TpCx3ZQ0ZnlAxr7dSBcQJYWiuRVK1HGOmKr9L79MPq2YWOI0WA26nWzbOwTtsWQmwd4iVSLB",
+      "_id": "695a55441c508c5d5ea5d660"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

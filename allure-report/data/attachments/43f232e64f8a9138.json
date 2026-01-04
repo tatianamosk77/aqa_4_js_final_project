@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:55:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1865",
+    "etag": "W/\"749-iLCaH/pA9vd/EQ0hIiDNs73TThQ\"",
+    "keep-alive": "timeout=5, max=77",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695a552a1c508c5d5ea5d007",
+        "email": "Crawford90@yahoo.com",
+        "name": "Brook Jasper",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 301,
+        "flat": 2507,
+        "phone": "+1632498492",
+        "createdOn": "2026-01-04T11:55:22.000Z",
+        "notes": "3ahBpkVGPjMkvIh1FyfB0jv4BHRE8o8pCNsCOheMLjGsqBYyQvQZT1owi4D8vP1eZB99rltySzGzKwV7Kn1a8tmCfMRQHKHhGItPmvTVFTT71PZRCN6fG2OlknheLeYMxarXi8xQg5UWqk0fN6PLadKHiG3XacUk5ftFZPJ0AnhFHON9c8N2grPj9tgFINb2Rkh5iDuE1JNx7N5JNhCmhGoam07xcRSbZm68VN7lc2Hm3EWALue14pDWux"
+      },
+      "products": [
+        {
+          "_id": "695a552d1c508c5d5ea5d07b",
+          "name": "Car48030",
+          "amount": 517,
+          "price": 94043,
+          "manufacturer": "Tesla",
+          "notes": "vwtuZhLldTooFyPcH8CCjhrAMJp3s72EYPwAJzQHzXhk5EkhdDex8ioVYTB4tXPPvTXH5HtHtNwEGv6x5BvB7TVvBfW5IaXVCgIZEipiIaBbPgvVDAMIJgFlGoDerADuiTmcJ2t4E6rJAdhoEV2QvcZhFlLB0MwOc9HPhqdNcCTw2oennRbUWIuOGaxBYxx3lTNmZKFygRh23TO1YxlUXH0RMyPqvTZatsY7o6IE0S1XNr3fDxHcvAbZcw",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 94043,
+      "createdOn": "2026-01-04T11:55:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a552a1c508c5d5ea5d007",
+          "products": [
+            {
+              "_id": "695a552d1c508c5d5ea5d07b",
+              "name": "Car48030",
+              "amount": 517,
+              "price": 94043,
+              "manufacturer": "Tesla",
+              "notes": "vwtuZhLldTooFyPcH8CCjhrAMJp3s72EYPwAJzQHzXhk5EkhdDex8ioVYTB4tXPPvTXH5HtHtNwEGv6x5BvB7TVvBfW5IaXVCgIZEipiIaBbPgvVDAMIJgFlGoDerADuiTmcJ2t4E6rJAdhoEV2QvcZhFlLB0MwOc9HPhqdNcCTw2oennRbUWIuOGaxBYxx3lTNmZKFygRh23TO1YxlUXH0RMyPqvTZatsY7o6IE0S1XNr3fDxHcvAbZcw",
+              "received": false
+            }
+          ],
+          "total_price": 94043,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:55:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695a552f1c508c5d5ea5d104"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

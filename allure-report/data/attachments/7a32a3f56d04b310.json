@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:57:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "539",
+    "etag": "W/\"21b-GljtLYVgcO2Dv1PGRNUQ438yO/U\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ines32@yahoo.com",
+      "name": "Jesse Dudley",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 628,
+      "flat": 2327,
+      "phone": "+8042693660",
+      "createdOn": "2026-01-04T11:57:39.000Z",
+      "notes": "BDnKdyx8vJRbQok3VC1OhMdFfXXPrLF2qc9O6f0YSkvhhnKtKyPQo6PHU5EHBdQqa2fCiRk2VKZHwVBKrxZtbri3W46xPi3Mck2rSduwiar755NdgLzSjryodhQVwvwcKm4sXotu8Hs4TN3kfulmzLeSuVFzsqp7pfTv2u7lH6RGxMO48uS1BtvGTtULSkNjn8DmsgTq5Im64S5msI57CBEu9xp3p9zcpbDR3HgKV86BgpdkgZ8wLrVj8f",
+      "_id": "695a55b31c508c5d5ea5f420"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

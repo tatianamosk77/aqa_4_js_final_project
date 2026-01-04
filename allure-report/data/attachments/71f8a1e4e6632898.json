@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 12:06:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-ai0q3wTZJEhiVbqygUzL6wMxtPI\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Karl89@yahoo.com",
+      "name": "Kraig Maeve",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 601,
+      "flat": 3128,
+      "phone": "+8536871162",
+      "createdOn": "2026-01-04T12:06:26.000Z",
+      "notes": "nSKVeEOc7gNSNxlkSGGh2XRlEbOtfWq13u6VmXVoZQE3obAvzkjoy3DdwfGGlLEST5arg46kFJMyNTEHbilDtlUpHyMy2QyYJbSLx3hQWkuTfXXinGGuQFbHzZHGhW8bY74XZ95p7L1IB6Lb6msFzXCnoo3qrVyciyikDirz1bc7el8rCvXZp9Q8cyOYEpMY4qhkbol0pc280SaAngRmtLtgh9Uiqygj0dmxCNx2Hd7uZfbH0YI3ijoTRh",
+      "_id": "695a57c21c508c5d5ea6b374"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

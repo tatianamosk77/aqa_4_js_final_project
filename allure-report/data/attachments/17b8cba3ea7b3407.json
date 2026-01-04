@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:56:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "551",
+    "etag": "W/\"227-Z9yQgxCZ2R/q22sVz7HuAFawmcE\"",
+    "keep-alive": "timeout=5, max=39",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Caitlyn_Bradtke@hotmail.com",
+      "name": "Jarrod Jordon",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 705,
+      "flat": 8114,
+      "phone": "+8135035506",
+      "createdOn": "2026-01-04T11:56:30.000Z",
+      "notes": "ABDnqbRFlSIuOVabgbyQMJvABEDKiNKlJBBNB7zRil3hrKAudfyqSDfBUS5dNeqeY6RWpZN2JyVb0QuzWoLdsDoJv0mHWz6seZEFMxMmcPCBH5qgX6GfzfwbTPwGQtdSp5h44khOQZsmJR2zFxsPxauvRn97M2aTWkdnl7EIE9qCgIt7Coh9fOtZltFSc09ahITkPYphNZaJBnznhFiwAcEqYrJD3rOEMk0ST4clziBz6pVVIu2rGW24eR",
+      "_id": "695a556e1c508c5d5ea5e07e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

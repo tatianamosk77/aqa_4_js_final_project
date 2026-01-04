@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 12:01:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-VFwD3rzuF2s8zcwi+H1sAEAfi34\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Conrad_Barrows@yahoo.com",
+      "name": "Steve Gust",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 422,
+      "flat": 3282,
+      "phone": "+6931850672",
+      "createdOn": "2026-01-04T12:01:11.000Z",
+      "notes": "MC2sIsq6wtVgdnqyfZSVdGJPFgWy7LaDpgqn5fl2COmdfsdyZEYGA4BXyLljO9LNFVpeocGBnGGeeskR6ZKoSg01ctDpjdNbZpoCIkzwB4sYuKLthtmnde0hNxJZPSKfIQWomnLSzdctuixhjOJN44OaCq5a4lqFYVObAvsEWxJ8FA5z7WfSYQymyWgf9txE5JCAjtXnZn78TJ5GwwQMKtZiQiALoUu0atZGKdNWlqJYbJrxzwX1tNxCT6",
+      "_id": "695a56871c508c5d5ea626aa"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

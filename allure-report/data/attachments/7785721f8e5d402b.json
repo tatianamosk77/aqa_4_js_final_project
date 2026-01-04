@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:54:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-WQ22YfFKjBWMAuCeW+pEYieuR5w\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Everett_Tremblay@yahoo.com",
+      "name": "Herminia Bettie",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 999,
+      "flat": 7712,
+      "phone": "+3715732188",
+      "createdOn": "2026-01-04T11:54:27.000Z",
+      "notes": "evaAffBmof5lzPBsKt7YAfP2dqjaWXNyHCjFKxXeDGiKLiO4x3XlIFFdDW2KSeGetRTnnuC6I6ufN9mUZNbd6ltEaoHGT8MsztxfXBALcJqs62dG2Mm0pAWIAB8cL7nEC0ya97bjtvhpRHcuaeTgNbbIg7NulIdJrFnq2vrW53PTAuqG2Oy8ZCRu5XDzoXWMFDRkTSw612ZckEUi0ZcJ1YINe3knwTVDMWHUxpud2sFi6gXQ3IVCIeR2zW",
+      "_id": "695a54f31c508c5d5ea5c929"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

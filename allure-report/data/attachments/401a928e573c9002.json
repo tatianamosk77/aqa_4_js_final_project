@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:55:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-p3XZRL4MCO/wEviY3+KAJ7wcQJc\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695a55281c508c5d5ea5cfee",
+        "email": "Jonathan_Vandervort-OConnell@yahoo.com",
+        "name": "Cody Tad",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 290,
+        "flat": 7477,
+        "phone": "+2332748946",
+        "createdOn": "2026-01-04T11:55:20.000Z",
+        "notes": "HlrOnXv3DL186u1NsgIpa9vLHxlwNnbQ2zLSNb3D7dvrIdqzbcGj6UZJvaYqqRh6VBbPt8g8oPJBDxwdKivEaoNXIbCIrvwCq4X0PLGAuz4QVSCbLL3objOPZDkGkCXUVYg4RsBZza6ZNLjXmfe5Wv3xqQm9OSrKD291bho29rnAtArTOpJZxbXbxwYUboFcq2g7ebtV2GOqRpQHjAcB7txJLS6BdZB4lcRlghkATA0vTHZbCDC6bmGbQT"
+      },
+      "products": [
+        {
+          "_id": "695a552d1c508c5d5ea5d038",
+          "name": "Bacon70258",
+          "amount": 140,
+          "price": 60201,
+          "manufacturer": "Xiaomi",
+          "notes": "2enxennZBaqmGmbymBDZDrNCqumVrZ9WFQO5OF4w21w9zXH8XyObJCYQWSScgpoFCAPAn2lOWn1kYuJ8KUaSNJIkh46GdcSMEgJA5ciRBqIZSuCP4HwCN8G8ecI1wA9i2r18j8cdkNx0MuvHoQchxz9tLnGoXJkRhsfkrLvtRHe0AFF1yYPPQx7MwduS8dN9HMiwi7pvOMaTNnT7M90vqOu6l44QIwD4rq7WgBkZF1dGjK87cG5KKBXU53",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 60201,
+      "createdOn": "2026-01-04T11:55:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a55281c508c5d5ea5cfee",
+          "products": [
+            {
+              "_id": "695a552d1c508c5d5ea5d038",
+              "name": "Bacon70258",
+              "amount": 140,
+              "price": 60201,
+              "manufacturer": "Xiaomi",
+              "notes": "2enxennZBaqmGmbymBDZDrNCqumVrZ9WFQO5OF4w21w9zXH8XyObJCYQWSScgpoFCAPAn2lOWn1kYuJ8KUaSNJIkh46GdcSMEgJA5ciRBqIZSuCP4HwCN8G8ecI1wA9i2r18j8cdkNx0MuvHoQchxz9tLnGoXJkRhsfkrLvtRHe0AFF1yYPPQx7MwduS8dN9HMiwi7pvOMaTNnT7M90vqOu6l44QIwD4rq7WgBkZF1dGjK87cG5KKBXU53",
+              "received": false
+            }
+          ],
+          "total_price": 60201,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:55:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695a552e1c508c5d5ea5d0b2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

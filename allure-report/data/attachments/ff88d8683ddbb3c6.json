@@ -1,0 +1,155 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:55:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4945",
+    "etag": "W/\"1351-Ej3BBJVQmQdD8+RvkFZ+KexIzSo\"",
+    "keep-alive": "timeout=5, max=73",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695a553f1c508c5d5ea5d4c8",
+        "email": "Kacey84@hotmail.com",
+        "name": "Rosa Florida",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 472,
+        "flat": 4649,
+        "phone": "+4230367925",
+        "createdOn": "2026-01-04T11:55:43.000Z",
+        "notes": "A2AWZ3iJry7QFR3wYpWyJVFjkGiDuYGTvkZWPEvnSb1e0y4QGQcA2cBiSOvdSos43HErnEc6DiDQEhkfgF2CiaxRP3lA4ZuuYc9a650kPZsuF3cMvXxoaudrKekMwifoUzvLEBGyKBgaHrbcTOkiS1rQMhwKHWvV0yGXo2OeIlJrjYJ4fvW1IRWfnkOuqzWMfGuk8BK7HWOH5grgggqtdirp7SuY7KBc1StIEbKMOtk63QRdJzoDtwRqVO"
+      },
+      "products": [
+        {
+          "_id": "695a55371c508c5d5ea5d372",
+          "name": "Chicken38147",
+          "amount": 915,
+          "price": 57355,
+          "manufacturer": "Google",
+          "notes": "2qBxTJ322XtCrFCsouOF1FiI1v3kPfB5WELU4S0PLCbL24vBD3oONesFW5qfOsRX0cTs6NWbH0UFItdNmCD9wEHlRpSOsrEGaOUhQdEzGgJdimXTKFLtOTqNymQWzcKwONXqVAF78S4zL3EI4RBkpg9OyG2AUFdj89dIzEsLanUJ850yhfpObu3IdKZ53oeReMP6sBlvbbZJk6MEM3R24TxID2ry0YWh7GZTyLwUNUdJAANOYj3rnV2Xls",
+          "received": false
+        },
+        {
+          "_id": "695a55371c508c5d5ea5d374",
+          "name": "Towels71004",
+          "amount": 699,
+          "price": 94088,
+          "manufacturer": "Amazon",
+          "notes": "4fouplUP0o3hA2CQD7x18acI7UByCEl6C4EmlSYZoTM8j6GlO2AXR3C2dYNGuLWWaVbMztPGFHHkAW47HxUmwIlg2WYVsbh5yf7BiAoEw8KEJuJzOXNpxoKCrCN35Q9axtZ5loJbgHt7flE5ImqH5zMLLGLBCXPP23cz0dsOcAq9E4EywSkc0OUOo9pGmanhhkuEvNHZAu3b04sHEta0yQ21SWXGKlkVEax2BidKajLSqdTHXl8OBdF3pE",
+          "received": false
+        },
+        {
+          "_id": "695a55371c508c5d5ea5d377",
+          "name": "Car78118",
+          "amount": 573,
+          "price": 21307,
+          "manufacturer": "Apple",
+          "notes": "f9WbGomfYMR5gJXPxR4V1uFCcpK4fuZ7GviYnSR83D2ukzNySiDXJT8pFwyTxF1hXrjz90v1tyAwRDqwNPaQ7VoKNQEIFFrAcwT4L7dNtbzwYOlDxzPa5WDZDojQkqSP1zDTFBJEX3uT5bzepjzB4d22YqDMrUyVKtVj5UNSP8Ort1VrQ7EgmLdE8AJhUwVGVGOXzgVezcioXQd7OUnJ2YA2MuiaAfl77hwEsWPsoAMDj4WDk55ismkVNf",
+          "received": false
+        },
+        {
+          "_id": "695a55371c508c5d5ea5d379",
+          "name": "Pants20601",
+          "amount": 930,
+          "price": 41350,
+          "manufacturer": "Xiaomi",
+          "notes": "kK8Gh3hSh4L0U8AuIF1dNEgRUWb2JCcG28yNNLDXUq4dFihfXNbaT9vN0wuMOTICY8rHG9k8DPg2wlovVP97fl13DCDD2ypnTbtgv5pVRpJebnTRRdZhZAhlnzwRUlbHZnBYEOsLBw3TdQ8Ddn4WNoFeTOrhembq9oXduYwO1TA96Jjcs0qc7FZbav3TEOHUBJ8eYK0c6COBeBt4lPXCfluMQWea7a3Z8d5sMb3oJZ83YjIx0wPt9rrlgQ",
+          "received": false
+        },
+        {
+          "_id": "695a55371c508c5d5ea5d37c",
+          "name": "Towels80988",
+          "amount": 478,
+          "price": 36486,
+          "manufacturer": "Tesla",
+          "notes": "ZQKKfeZxrAnyktpqJsUjMExFS4pAPmrKfIyJiIVUGOZuAK9O7FcFIsNksOz5Zdt5MkTQzCr8DzlLIp7IDQDbGPGLKrtSh9mkgcv9cnkjI97r2HyrrDfuwXIGcu72TqPVu9RqhUw1C6MKCrR4n6isBOFbUXuO7tYERgwSfTaZ0ZijG59bWAi08WmSqgjMNr1goqpHfrW3wKTzC9dXQwB0L82DvGOl6fZqdNZOlasjLwUjGknIWig55cZGiG",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 250586,
+      "createdOn": "2026-01-04T11:55:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a553f1c508c5d5ea5d4c8",
+          "products": [
+            {
+              "_id": "695a55371c508c5d5ea5d372",
+              "name": "Chicken38147",
+              "amount": 915,
+              "price": 57355,
+              "manufacturer": "Google",
+              "notes": "2qBxTJ322XtCrFCsouOF1FiI1v3kPfB5WELU4S0PLCbL24vBD3oONesFW5qfOsRX0cTs6NWbH0UFItdNmCD9wEHlRpSOsrEGaOUhQdEzGgJdimXTKFLtOTqNymQWzcKwONXqVAF78S4zL3EI4RBkpg9OyG2AUFdj89dIzEsLanUJ850yhfpObu3IdKZ53oeReMP6sBlvbbZJk6MEM3R24TxID2ry0YWh7GZTyLwUNUdJAANOYj3rnV2Xls",
+              "received": false
+            },
+            {
+              "_id": "695a55371c508c5d5ea5d374",
+              "name": "Towels71004",
+              "amount": 699,
+              "price": 94088,
+              "manufacturer": "Amazon",
+              "notes": "4fouplUP0o3hA2CQD7x18acI7UByCEl6C4EmlSYZoTM8j6GlO2AXR3C2dYNGuLWWaVbMztPGFHHkAW47HxUmwIlg2WYVsbh5yf7BiAoEw8KEJuJzOXNpxoKCrCN35Q9axtZ5loJbgHt7flE5ImqH5zMLLGLBCXPP23cz0dsOcAq9E4EywSkc0OUOo9pGmanhhkuEvNHZAu3b04sHEta0yQ21SWXGKlkVEax2BidKajLSqdTHXl8OBdF3pE",
+              "received": false
+            },
+            {
+              "_id": "695a55371c508c5d5ea5d377",
+              "name": "Car78118",
+              "amount": 573,
+              "price": 21307,
+              "manufacturer": "Apple",
+              "notes": "f9WbGomfYMR5gJXPxR4V1uFCcpK4fuZ7GviYnSR83D2ukzNySiDXJT8pFwyTxF1hXrjz90v1tyAwRDqwNPaQ7VoKNQEIFFrAcwT4L7dNtbzwYOlDxzPa5WDZDojQkqSP1zDTFBJEX3uT5bzepjzB4d22YqDMrUyVKtVj5UNSP8Ort1VrQ7EgmLdE8AJhUwVGVGOXzgVezcioXQd7OUnJ2YA2MuiaAfl77hwEsWPsoAMDj4WDk55ismkVNf",
+              "received": false
+            },
+            {
+              "_id": "695a55371c508c5d5ea5d379",
+              "name": "Pants20601",
+              "amount": 930,
+              "price": 41350,
+              "manufacturer": "Xiaomi",
+              "notes": "kK8Gh3hSh4L0U8AuIF1dNEgRUWb2JCcG28yNNLDXUq4dFihfXNbaT9vN0wuMOTICY8rHG9k8DPg2wlovVP97fl13DCDD2ypnTbtgv5pVRpJebnTRRdZhZAhlnzwRUlbHZnBYEOsLBw3TdQ8Ddn4WNoFeTOrhembq9oXduYwO1TA96Jjcs0qc7FZbav3TEOHUBJ8eYK0c6COBeBt4lPXCfluMQWea7a3Z8d5sMb3oJZ83YjIx0wPt9rrlgQ",
+              "received": false
+            },
+            {
+              "_id": "695a55371c508c5d5ea5d37c",
+              "name": "Towels80988",
+              "amount": 478,
+              "price": 36486,
+              "manufacturer": "Tesla",
+              "notes": "ZQKKfeZxrAnyktpqJsUjMExFS4pAPmrKfIyJiIVUGOZuAK9O7FcFIsNksOz5Zdt5MkTQzCr8DzlLIp7IDQDbGPGLKrtSh9mkgcv9cnkjI97r2HyrrDfuwXIGcu72TqPVu9RqhUw1C6MKCrR4n6isBOFbUXuO7tYERgwSfTaZ0ZijG59bWAi08WmSqgjMNr1goqpHfrW3wKTzC9dXQwB0L82DvGOl6fZqdNZOlasjLwUjGknIWig55cZGiG",
+              "received": false
+            }
+          ],
+          "total_price": 250586,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:55:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695a553f1c508c5d5ea5d4f9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

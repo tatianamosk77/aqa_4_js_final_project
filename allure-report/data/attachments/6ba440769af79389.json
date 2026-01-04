@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:56:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1894",
+    "etag": "W/\"766-WcBGawG6IXJzAJAT0z3zEF83jD4\"",
+    "keep-alive": "timeout=5, max=54",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695a556b1c508c5d5ea5dfcd",
+        "email": "Sally_Satterfield-Schowalter@gmail.com",
+        "name": "Mark Ernestine",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 319,
+        "flat": 4527,
+        "phone": "+6323153774",
+        "createdOn": "2026-01-04T11:56:27.000Z",
+        "notes": "yjhJzmVRHfFxfBQRnIVxughQNNBKVDefb9d11gEUgkvoGBpo1os9UBIidMDfsjWYFE9sgcS118KU3f9v0xkSbwga9hJTQv6cF4KH3aOBB56BqW93I6RDKWBrar5F3zoQWpb3D78mO5yjOIIsvkwYLd3BH2JUa8w5ozq0NQGP38ycUHzY0WcyYdRvtWOle1C6IolBwY6LRQiOVp1ThVY2dkzEqbDJxQSkWEcKCKN3yUiRzswsKF8S53hYaR"
+      },
+      "products": [
+        {
+          "_id": "695a55681c508c5d5ea5de74",
+          "name": "Hat30987",
+          "amount": 604,
+          "price": 31537,
+          "manufacturer": "Microsoft",
+          "notes": "GYpMIj9WXtTtNty2pboHbBPUcYboXXgGpfjET8ToQwStxFgl8Uy4dTSFExVIUI9f9wlvJl3zsD9EJ81evgmBVmuzwCxf5Z2RhmmIl57tQ1ynLPC1N60aZK8HYdRMokQwjSnakH1Scgv2Tqv3YE2RUMIQpy1Qj17LaWolUpIU4yTUAeDw5fW4SoUOmxrF5jhgAklMLPcTgP1CkQgCpEJoIspquI1c2IfV8aQ5rDFN65jkMOqZlJ9wYU6P4r",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 31537,
+      "createdOn": "2026-01-04T11:56:28.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a556b1c508c5d5ea5dfcd",
+          "products": [
+            {
+              "_id": "695a55681c508c5d5ea5de74",
+              "name": "Hat30987",
+              "amount": 604,
+              "price": 31537,
+              "manufacturer": "Microsoft",
+              "notes": "GYpMIj9WXtTtNty2pboHbBPUcYboXXgGpfjET8ToQwStxFgl8Uy4dTSFExVIUI9f9wlvJl3zsD9EJ81evgmBVmuzwCxf5Z2RhmmIl57tQ1ynLPC1N60aZK8HYdRMokQwjSnakH1Scgv2Tqv3YE2RUMIQpy1Qj17LaWolUpIU4yTUAeDw5fW4SoUOmxrF5jhgAklMLPcTgP1CkQgCpEJoIspquI1c2IfV8aQ5rDFN65jkMOqZlJ9wYU6P4r",
+              "received": false
+            }
+          ],
+          "total_price": 31537,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:56:28.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695a556c1c508c5d5ea5dffa"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

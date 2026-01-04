@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:55:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "539",
+    "etag": "W/\"21b-UATwtGL1LdrFDp6FmgMHyKx80+Y\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Geo_Howell@hotmail.com",
+      "name": "Kurtis Ila",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 287,
+      "flat": 9030,
+      "phone": "+8480995486",
+      "createdOn": "2026-01-04T11:55:04.000Z",
+      "notes": "BNnrQWRPpxShmlzkqrzNN93rgyBTz5g5IausH9aPpeDva2JtzFlnCxXPViR8vmEuKpGT25T5GVJExyCx7WzDVHeYPPd6bCEczbeAFcouEJH8mDSv08XyAyWtDCrdACZUhY5XWaD527KJzb09tdXVTMZFAnm2WwYFPWhXLSh5woJCyxYtob8mJdcUelWgBHrvpvAXUrU8AG8URprBxsbDoqmHy9sikDwS3FSPOyaR57w36YwN7LZ86PGeoO",
+      "_id": "695a55181c508c5d5ea5ce07"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

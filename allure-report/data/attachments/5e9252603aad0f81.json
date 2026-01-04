@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:54:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-RwXbKZYJXlo9JdYFj466X2fQvSc\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Grayson0@yahoo.com",
+      "name": "Mohammad Juana",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 693,
+      "flat": 2460,
+      "phone": "+2414206330",
+      "createdOn": "2026-01-04T11:54:45.000Z",
+      "notes": "yjuS1tXO5PnrwAqoo7n14Z7Da64bVyqwUJB83RJicxHgkESTlGKbQFPF8iCRPefKNZ9631mNWiryoN7tz4JN8SqGWMlL8Sy6tbFJMbYsN6gSzgSMwNQyFWACcjGTeY44R523sUYHJz1BEpdkTuoUCOBQXVzmtChg3Vox7K93Twf07mUreBDgGSGWMok4zt1m99w3ikMqvRnqTMzLOYF9D9XrZjNVuDTgIjVJ46Ob7NHmrb7OTIinuJ6rWo",
+      "_id": "695a55051c508c5d5ea5cb19"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

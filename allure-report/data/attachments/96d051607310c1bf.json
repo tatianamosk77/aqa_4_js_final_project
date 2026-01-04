@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 12:06:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-ceXYSOnQ8rlwQNrA22KoNjdVJ5c\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Macy44@yahoo.com",
+      "name": "Amaya Hal",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 804,
+      "flat": 465,
+      "phone": "+4231092615",
+      "createdOn": "2026-01-04T12:06:13.000Z",
+      "notes": "3L0ws7r7NIuZtOfmjOevYdBuHvC0TsOuPB5xBO8lw3JvsoG3yJ7PgdITu48sHFc9t6Td2JScGZfmEs8YV3szcviTy5xltcnuXbigLFBSyFMNHciR55JIOtTf65UT35m3tTjqAPGlfwAxBGvlvYCS0DQmkn4WO1AtClNfzGSpmPyEZOYT1RrmslbpqsalmXaklr8RkWCJwwBIjMBP6u6sIZvT7ZlpvTgf7chWSThztze1lAvoo0mWT1j8FH",
+      "_id": "695a57b51c508c5d5ea6ae0d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

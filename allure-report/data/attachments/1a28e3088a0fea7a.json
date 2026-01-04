@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:54:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "559",
+    "etag": "W/\"22f-BXAby8+aIZhcaWuwywiqKzVbOZE\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Tyler_Hickle-Schumm40@hotmail.com",
+      "name": "Emanuel Kenyatta",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 650,
+      "flat": 3063,
+      "phone": "+3364175616",
+      "createdOn": "2026-01-04T11:54:47.000Z",
+      "notes": "3CFlKsDozYdgpEZmXffD7zte0HBG8wgvnhqppkpOHFdvirgHdEYxklUEmEZH0TKi7BEvwNVJnbRHky86pTXlAl5nHcNchN1fgztQ5oTnIqGhacYuj9LVOtzOtbhrbWOLIRWs6c4dDHAp3k5pzRyVfXpzIKN2cMVeqLeZLGkm5GDCUVvIDLZfc6y37DOPpg06moFdTMnT7DV2p9LwtQRqD6DQlZqWnp1VG2yQqi1SDydFZpGm0v5qyJYyeE",
+      "_id": "695a55071c508c5d5ea5cb31"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

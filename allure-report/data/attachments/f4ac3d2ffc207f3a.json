@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:59:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-YL032yfE+38adI/KNcFKSOXFlo4\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Rebeka48@hotmail.com",
+      "name": "Daniella Ethyl",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 935,
+      "flat": 1625,
+      "phone": "+3148985466",
+      "createdOn": "2026-01-04T11:59:02.000Z",
+      "notes": "kRtPOM6YV1ajtjXnWGpZFw5SSn8mO2imTkXB49Ee3l6urJkOWMCSO7iCJTI1132q66BM5X2nIl5o57ZhW8RXVnPteTjRNuSjkddNXo5LecJPgrN9OklGCXVo8pgE9jFgqFviwldNUwf6wibQxiE1O1W0hR9TqNGN4cLgw9i7R6pwOdYgVZfiG4SLAiMp0M2zfhMaKGadOs3t0YkMskNGSpbAHCN5nqVRplguiDhep5k4K9QQBGu3NazaWA",
+      "_id": "695a56061c508c5d5ea60458"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

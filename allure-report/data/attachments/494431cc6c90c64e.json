@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:54:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-4zCgSVS3PEyFxqsDedMM8wCbumc\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Minerva.Bins@gmail.com",
+      "name": "Rocio Santiago",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 771,
+      "flat": 8535,
+      "phone": "+8706723744",
+      "createdOn": "2026-01-04T11:54:57.000Z",
+      "notes": "cJYPlLVHXPe2LVIdqI4k5E5axwIY5GwGh0RYiHi8Y4qEuKDAAwVGPwRD38v9txboC80bLUmNaxRThxQRoHl9cdxUDaLftswTRDgITXui0xtAgAqPPCbV7k7vbByTPexMHiMES8AaRLlO3ZOHfCSZfXEuR18FvXp7RLQNyUhje7zFrVSVuHlqzxOgkC7CC9uFWrY8WpKsh4H7hnZyqEmxmmB5CC7nygAH98kKQN3t7oyKOCujsBr64RMSoz",
+      "_id": "695a55111c508c5d5ea5cd24"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

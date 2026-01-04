@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:55:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1874",
+    "etag": "W/\"752-Iucb6Yw8TOxBaaTUPmG3m8x7IXw\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a553c1c508c5d5ea5d405",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a55371c508c5d5ea5d392",
+        "email": "Vance_Bailey@yahoo.com",
+        "name": "Enoch Weldon",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 545,
+        "flat": 8952,
+        "phone": "+4824492653",
+        "createdOn": "2026-01-04T11:55:35.000Z",
+        "notes": "HCDKGWR6XYlXShzFgZ3HSZmv4mBK5Skv0rpcMTgCsBO2En2Qu8Ifc5CoRdXs3Xp26NwySOTAfSXrCZ4adntD6vqzBHV75Xw9ChCz8b1ydMUr1VcolqFRfima5lQcgLzO2IqO5BqgssP6zF4AyKi2Vn4hRviWbpiJw7zviRHTkcYtcy7MwCIuoqMVMtxyFdwwu1W01IBURSlpwM3xvsL5FJ4i8kXiwJsQlFzdhxE3DwQIhV7uFEy4dhkfHZ"
+      },
+      "products": [
+        {
+          "_id": "695a55341c508c5d5ea5d22d",
+          "name": "Ball55541",
+          "amount": 435,
+          "price": 98584,
+          "manufacturer": "Samsung",
+          "notes": "e5tjEnS8gYPjHWLnWmwj1EVQsXdMjOMp7viki2lurEOcA2A4Pvuaa6eTXHrZPgkTUR7LFy7SMdgrKp63NPfqCf5SAgPfGAE8DQkXcoZ2Csfrv66C4635bF9ozvNr9v9tYZqGgiAzKZj8SwjHAS0ODl8fSGqZcheaYXn3195sfveDwIprReRZ6kgXZqbhop9ui4XYZSjRYqdm6404A2Obivq7hUh4Ck3PvDWGxNFFQDP38J4PDCB2tuHAR0",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 98584,
+      "createdOn": "2026-01-04T11:55:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a55371c508c5d5ea5d392",
+          "products": [
+            {
+              "_id": "695a55341c508c5d5ea5d22d",
+              "name": "Ball55541",
+              "amount": 435,
+              "price": 98584,
+              "manufacturer": "Samsung",
+              "notes": "e5tjEnS8gYPjHWLnWmwj1EVQsXdMjOMp7viki2lurEOcA2A4Pvuaa6eTXHrZPgkTUR7LFy7SMdgrKp63NPfqCf5SAgPfGAE8DQkXcoZ2Csfrv66C4635bF9ozvNr9v9tYZqGgiAzKZj8SwjHAS0ODl8fSGqZcheaYXn3195sfveDwIprReRZ6kgXZqbhop9ui4XYZSjRYqdm6404A2Obivq7hUh4Ck3PvDWGxNFFQDP38J4PDCB2tuHAR0",
+              "received": false
+            }
+          ],
+          "total_price": 98584,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:55:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

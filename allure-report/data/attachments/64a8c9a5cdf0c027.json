@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:59:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "552",
+    "etag": "W/\"228-bJTKDHnCF+hT3LZO7q93fJsU8oI\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jovany.Wilkinson@gmail.com",
+      "name": "Eleanora Lourdes",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 65,
+      "flat": 2816,
+      "phone": "+2513550456",
+      "createdOn": "2026-01-04T11:59:02.000Z",
+      "notes": "vt84XBaXO05K48tn452cYX4lTykP0PdrKnxR5m4RW9RaOILedhgvlpoeLaUOgiqIaxgmsFemXXAzv4MWgLc1JYoqirETrv8GJMTz0z8si19HFB4TfUwuNbbjgeJb1U0IBjhLqlYpnRU2LSx5GBiJNLIFiCRKB7Xo4QkQdeLaehxKFaDyQS2B5iW80vupZguwySuSvjinyEGgRbFd8vypNaJX6mFOqKNvVe5yUeDilnvgB6nUQNCL5eOwtn",
+      "_id": "695a56061c508c5d5ea60456"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

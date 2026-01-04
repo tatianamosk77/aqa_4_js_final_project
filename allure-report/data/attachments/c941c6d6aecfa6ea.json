@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:57:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-IbdB+uNa2xjNCQ/eDd8LxCJtTqM\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Furman_Brown@hotmail.com",
+      "name": "Quentin Dorcas",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 280,
+      "flat": 7788,
+      "phone": "+7214984956",
+      "createdOn": "2026-01-04T11:57:07.000Z",
+      "notes": "ZBvjnbXNh5EuBhzbOoL7wECSj9kORSluzushNKh94qnHpUBqxC5yOUhTkNCQrxiXij3c6zXajWQ6vPOXglnyHzLLEvzFJlehj6stVWwTsWIHatnhFnFNt3W803lY4ujjJrZhURC0mijDtgHTMPxJMa2fFeJRHEGroQ2urno4XM8BL1zCXJv0zEAXFAGh71qmO4y4hGIemzCFx0WRtWIXPlxrBABBXZ4NRFIrhi02guNYtWWCUbr3iaxoRG",
+      "_id": "695a55931c508c5d5ea5ee41"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

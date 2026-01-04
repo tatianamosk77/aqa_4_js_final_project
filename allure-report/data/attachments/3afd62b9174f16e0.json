@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:56:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-ymEqUhmALRnzjwuois1rX93f6s0\"",
+    "keep-alive": "timeout=5, max=62",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Cesar.Emard24@hotmail.com",
+      "name": "Walton Miller",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 348,
+      "flat": 2130,
+      "phone": "+2156474721",
+      "createdOn": "2026-01-04T11:56:13.000Z",
+      "notes": "1fFhvxB1EObSBGbx9KsprkCHQhvuNbSphEyMrUxFYUvutGbKUaK3JNrfT7BSQZzCRNtnS1RLbENtnDdviK7Nh2gglxlWVRbZZ4WoB5A2UbIgpap5ijfmo7a2aprSkWVVdoiU3RKf6gwsz45eLnvzWgfrvgGEmjIP8eZNaOBgeZiWFfU38tKJz5lEMfGku7nmxtIRDvaWrB5XDVQGBqfi2iAxTh0c13w1BroTXqnceMKPpb4H5TIdCBgZEN",
+      "_id": "695a555d1c508c5d5ea5dc23"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

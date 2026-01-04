@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 12:06:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-P4Rj2EYUrhudD1uII4VFSube3zg\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Vanessa_Medhurst@hotmail.com",
+      "name": "Jonas Amie",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 411,
+      "flat": 309,
+      "phone": "+0926493833",
+      "createdOn": "2026-01-04T12:06:26.000Z",
+      "notes": "KI1IgYjrx6sfw5pRTTyYVvoUVKXAGALaISQJtU4r2gP6MNZdb7499Q1FLyMs6Xw3VnDIqZ6FTxFNL5YFusFpIFCJ3veQvsPGOwwWZg7qbJWvd42gYiRJW4n1zk3Osemfl9aAydpoixHvw48Rxp1TurdA8GDQQog6SdGgjBNWCSq8xLJa3luZ8tFs8CyvfTNc7YllTJQCfKwHnGxJW7XMNk3UJ14c2aa9cVDBV6Do7dCqeTAyvLjBp5o5cd",
+      "_id": "695a57c21c508c5d5ea6b376"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:54:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-QBh3/mdqNcQ+FT6yfzVn/CjJz+M\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Alf_Ernser83@hotmail.com",
+      "name": "Mylene Harmon",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 959,
+      "flat": 5061,
+      "phone": "+0196404832",
+      "createdOn": "2026-01-04T11:54:49.000Z",
+      "notes": "FxLLuGQeT4miClkVH1f7woNEzNeNYmGR8ucJlV6Coxd3ja04k0jAIfG8mITbGcyrOE7kAGv7oPFmLkRPGKa2PV0YAquFwvcaSzA6Zn6u8I6AKNUb5zZJoXOxgKax4eExJd8gLKqd9J2M6CZkFgt0tAXaGgS13FmNYiuRvydtkickwQswgQOy2dQgHMg1gak6W8TvDYQ211RmSJtgAzPWHfNBaNQ4QKDQGGSHZ4RiB2WrkNyM6iC71LWgh7",
+      "_id": "695a55091c508c5d5ea5cbbd"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

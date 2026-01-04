@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:56:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "539",
+    "etag": "W/\"21b-0Ln0Htvh+PhdjFEqtCE8KxQo1hg\"",
+    "keep-alive": "timeout=5, max=78",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Nora1@yahoo.com",
+      "name": "Westley Fritz",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 193,
+      "flat": 4728,
+      "phone": "+0800485494",
+      "createdOn": "2026-01-04T11:56:26.000Z",
+      "notes": "DvlDkkhzfsNxhhS4uEcaWGZcFPz9L3PWbJhKjO0afe8zYW5trkpkz4t8Gg2bok1rtG7IMQY9IBiO22ZOe0gkAtx3qZJOFEa0iIGGPniTX1zl6sQB18j8ZM405QHDYX6Gjy4QvZxxhgZvEQFtOm48HvsA3diUF8AgtkyY5m04K0y3GM57yeQeZI7JpCmWTW5tdSqAP4YiyCKzuztN7MdmCLmPTNIfeQXc2p41m3e98nNb4basZO9rcPzSl6",
+      "_id": "695a556a1c508c5d5ea5df48"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

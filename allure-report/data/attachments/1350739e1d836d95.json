@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:55:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-pc+2nfop/K5awX86CBiUFfA2qCc\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Lindsey21@hotmail.com",
+      "name": "Delphia Hattie",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 647,
+      "flat": 2296,
+      "phone": "+6394785745",
+      "createdOn": "2026-01-04T11:55:05.000Z",
+      "notes": "ATNRyzaLInZ3rLDnSUEwddLb1IpHk2gCvP4HtnHntVp3lyhcVDXsSuXi1wJ2XIcDCIb3TxLjHMUT0XbVigNLI9Jp5YhgwcStGic331ZD2ilFYT8F9aYoIaH6ZCcyFmoVNfvPS30V7OaAUfbbIAo6y9gZDZ1bdHaCpGX8f9HgUAtcllumqCntmSDdqCIf5EKc8XonwhIqL9ewEEQ9E3v5LEoWqiMdAfTZnJJVybzzCy5wIroB9grHXSIsjQ",
+      "_id": "695a55191c508c5d5ea5ce2e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

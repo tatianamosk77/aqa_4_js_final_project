@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:54:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-BJPleUufeqUN+IG2M1w+aQyapq4\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Linda75@yahoo.com",
+      "name": "Caterina Devon",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 850,
+      "flat": 1513,
+      "phone": "+1445900962",
+      "createdOn": "2026-01-04T11:54:27.000Z",
+      "notes": "U8bK3MqplWLUAUIsnTOUPdzfTLA1hcWDNKniGGujCVNQxGk9ax5puTw4pAckTUyU9ZvWdeGdPPlX10o9IPYeAbSGuZFjfEBgFueeuyNS5WQhLnUASXAyQiPuD5SFBTC0lkf99bGseKAWNyBhtDP7FsBgS7lTH3ETiymfD5DktOqttN1MyhCegjGhzPsO83VGHVX1MLp9xR3XDPkVaNS4eXDR2crU1Tet7JNNKGdIelJsKcNnqI7wzCMwk5",
+      "_id": "695a54f31c508c5d5ea5c952"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

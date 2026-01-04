@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:56:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-/pe5s50MEf4O6pT0EwmSeWQXfGY\"",
+    "keep-alive": "timeout=5, max=46",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Rosamond.Hessel63@hotmail.com",
+      "name": "Clark Gregg",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 670,
+      "flat": 7030,
+      "phone": "+1146277394",
+      "createdOn": "2026-01-04T11:56:13.000Z",
+      "notes": "d5PLH0PP64hLATO5WIAKap1xGuybIJrTgMuQKwHNJ785GD0VE1EYG4AURbCmE6sYrSXjWaynsixG7bGBJSi9xG8zGM6lMGBpjOBRqcltcoHxI3hUwnb86gQr7jfEL0NZVtJo4BKAiO4Es339c5YcP5oD9pd8D73XHJ85rDgLiiruL2cy6gWZjHtVdcE6Hqv7WSVGBF8cyYq5ub4WrMpPh9dyY3Uri0Sd9kvEoyEiIUTdII405yfoHFVAY1",
+      "_id": "695a555d1c508c5d5ea5dc25"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

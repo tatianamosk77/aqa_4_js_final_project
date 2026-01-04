@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:54:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "536",
+    "etag": "W/\"218-m8MlB14g7bp7rcL0Y8dN/OJy9Ug\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Una.Cremin@hotmail.com",
+      "name": "Guy Kip",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 720,
+      "flat": 3765,
+      "phone": "+0976250636",
+      "createdOn": "2026-01-04T11:54:54.000Z",
+      "notes": "xI6wgTBR9Gq7l6GxtY2rH9DR9fgysQDUXp2t4QukK3DldFkVZqedW49ZehMNDNLTLHnRJXggbAQ75m1MGv8KZUEnvKqrr7mj0AWrgrlb8x4ch441F2SXCnY9vlPyfcxMe1fVQs1uwSyRw5il3RgNucqrgDjVfqsi7l5VfXLoomnXROFy0ostelYun36de4QngByLrh3ppe77ua6Iz1qT6ROfzRmB8FEzbpmEb3fifleSFpUNZdNAU2geGK",
+      "_id": "695a550e1c508c5d5ea5ccb8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:54:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "278",
+    "etag": "W/\"116-UYAVUJJwYMk8R2I55T2R08bJGTA\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Wilber87@yahoo.com",
+      "name": "Boyd Astrid",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 941,
+      "flat": 7068,
+      "phone": "+6143581359",
+      "createdOn": "2026-01-04T11:54:31.000Z",
+      "_id": "695a54f71c508c5d5ea5c9ad"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:54:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "538",
+    "etag": "W/\"21a-f3mVXfnAhK0ruEtps7CMNyB5dzI\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Anahi92@gmail.com",
+      "name": "Caterina Nelda",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 650,
+      "flat": 6290,
+      "phone": "+2642324847",
+      "createdOn": "2026-01-04T11:54:59.000Z",
+      "notes": "M2RE2tjNmemAab3b71wNEHlgej8KWGHz9q9FU6yht0bNvqtaw3pj0lHyu6ENpG9QyiCgf1z4tCvRV0GWmUiIrlcRP2dswKQwbttzg5FsMmHAtlRAO9dQaRgEueXerXkU9yPNQ6HQhFZCXFAIIIEtLrGTu4bIiBFl2R14w8eh18PfluHNexCYO2bCmNfxRjJxmpDwBTKV8olfdCMjgcsOdPvzSri4wZMSBR5gLkXyePCAAfXpzmpv0ra7G8",
+      "_id": "695a55131c508c5d5ea5cd40"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

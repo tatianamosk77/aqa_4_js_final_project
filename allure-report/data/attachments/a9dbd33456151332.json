@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 12:01:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "538",
+    "etag": "W/\"21a-mXcf04S6sd1SLa/6dv+JRT+s+e0\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jaleel47@yahoo.com",
+      "name": "Jack Dorothea",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 610,
+      "flat": 6919,
+      "phone": "+5723264192",
+      "createdOn": "2026-01-04T12:01:11.000Z",
+      "notes": "x5qjzEWfRwVJB8lQFNtc2fT4BwniRdnQqpumCqIBdekc5pkAt160sY6ZaTEbJ6i6mFC4L6KDQ9qrhxb3FcJiqXB5lToSuZJHszDCU9vqymoMQgtQHSdMHiQAtVgIZLr6b4LOCOtSB5yA7uijMnjkhipJtIbZfZSvQ11Y8rdnC1guNJc0CQkBrM5YKdb7nS2tG47VeTNPLLek2UYtqc1EIk79MTqQldFPcjof4TFGAHcOuQfKHpdZp2DBAB",
+      "_id": "695a56871c508c5d5ea626ac"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
