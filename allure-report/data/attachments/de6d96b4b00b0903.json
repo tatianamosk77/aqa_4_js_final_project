@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:26:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-Y1hxp/YA3QGr+f0GszVW87bbMSY\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Thea_Legros36@yahoo.com",
+      "name": "Louie Perry",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 77,
+      "flat": 9999,
+      "phone": "+6771760736",
+      "createdOn": "2026-01-04T11:26:32.000Z",
+      "notes": "1Xq9n5amDvXR3t1Mds3uYvzGztUHpXwKvaiatAYcZWf5EvUUoDcVd5Xf7Gglal4pND2dNgiVdK9LYkJfpGkCXmDNdogRfq57GgiwEkysdzyuPFSZi9uKVau85AntSGcWmS4sLO7q5Jr9SSgnLNkgHuRvLV0FjNXjKnOnh8KS709axvVdGSP1qeOBsBDIyxiRArIWA2CpDkt1xnruZf5S0Mtw72ATeRXc2HdGjGskISFOKOodo8d9RoeKVu",
+      "_id": "695a4e681c508c5d5ea40735"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

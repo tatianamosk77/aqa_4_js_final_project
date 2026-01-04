@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:30:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "536",
+    "etag": "W/\"218-d967Whs+gj9z/JwQ/EAC+DkA++c\"",
+    "keep-alive": "timeout=5, max=64",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Gerard8@gmail.com",
+      "name": "Jessica Efren",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 20,
+      "flat": 2257,
+      "phone": "+4784311862",
+      "createdOn": "2026-01-04T11:30:27.000Z",
+      "notes": "5Q5uHIb6ZDtc7BmGwUkWOBuM0xsLI59bPuymVWG99LykrM7xzO1l5fHzEA5isncQ1AU8ImOAz8kR6MQeK8lfJZA1yAjmwIpzrrktmohv4rXHsISNv3RSb2ltlqMAAAEHPCW0bVqRoYXV4rVajHkw2PQX2Y39QhiYvXZcx6z7Rhp9JBnEXF34dwQ1wJYzaWQPVBKNhJzhVUczTDUQM94WBSltCNNSr583spz7Wy8bSCusYPfc4YWCaIStA0",
+      "_id": "695a4f531c508c5d5ea44b40"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:26:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "551",
+    "etag": "W/\"227-KE/omrtipC0v88TykWcujspHCik\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Brady_Daugherty@gmail.com",
+      "name": "Sherman Katheryn",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 316,
+      "flat": 1767,
+      "phone": "+9598423910",
+      "createdOn": "2026-01-04T11:26:16.000Z",
+      "notes": "gfaWeLrDcirMVIFJS5NyCqZwuiXiu3d7ISKPrPYnbPIB7GGjMhPmmDDD4QNSLianlJOdbBegh7X1RVcIQPTSCZJbijG5SyTG1nwINoQMO4Omw2OJCfymlHxc2PxEoZaBp85Aofo57WaiA43G813uhe164MraYWL50o4njhvGXhWb0WgkkrtzAZzRzdGnfxtcYRHCJldOTbeVW3IGNBoUqKKMwDRbNx7ALzI45tRW1PoQs0lPMeXjQjiqYY",
+      "_id": "695a4e581c508c5d5ea404d1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

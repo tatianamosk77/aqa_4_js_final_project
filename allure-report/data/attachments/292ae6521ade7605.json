@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:29:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1868",
+    "etag": "W/\"74c-LFtYyQ1MJzXwINgi4unfZ1PSZXE\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a4f0d1c508c5d5ea435b0",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a4f041c508c5d5ea4354d",
+        "email": "Oma.Bosco85@gmail.com",
+        "name": "Quentin Oran",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 107,
+        "flat": 1322,
+        "phone": "+4394206382",
+        "createdOn": "2026-01-04T11:29:08.000Z",
+        "notes": "hxdBcoTnd0QFR1vDjd9SqKjwSBjOxG9XwjX1X8we85zYs8oUQGaM1VbMNG4DgeL56Wy0NYIPop8UMQCiz9RnARrmOpL0uSNgO0FVEkaQq2XtzSwHdWVWnzUPRS0lt1U6EcL8TfvRVdyoJbQnbVgBHuNId5afvsh88ScgPl1mwfaZhVPgah6v3V7E4a9oppSRiA9KzQHOsu7Ua582kltXS6WH7L1CtsOplcVTrFMk6oADOXK3WHw7KLbRao"
+      },
+      "products": [
+        {
+          "_id": "695a4f031c508c5d5ea43535",
+          "name": "Pizza88513",
+          "amount": 63,
+          "price": 20589,
+          "manufacturer": "Apple",
+          "notes": "mx7XS1JB4dP0NYjKe3tdurvJxIl1O2dEbWG52Gi9gipSSU2f7Di8RHaf7bn5O61Tk3vYaDRjktC57HFAjVadUJO5BhF1mTBg81jBs38BeRpw9kJXnYcZCE2H2B1oZIoqERQFMF63nNOEHML9rESpKUPDFtQbH5QaHgJ9FWgeDaDmNaMWlinCQExTJNlOegwpePGQkX5tO7mbBOeaU5Q1ft8w8s8041YZodSv1ZPJYaNFPoFztRGxuVSogY",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 20589,
+      "createdOn": "2026-01-04T11:29:17.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a4f041c508c5d5ea4354d",
+          "products": [
+            {
+              "_id": "695a4f031c508c5d5ea43535",
+              "name": "Pizza88513",
+              "amount": 63,
+              "price": 20589,
+              "manufacturer": "Apple",
+              "notes": "mx7XS1JB4dP0NYjKe3tdurvJxIl1O2dEbWG52Gi9gipSSU2f7Di8RHaf7bn5O61Tk3vYaDRjktC57HFAjVadUJO5BhF1mTBg81jBs38BeRpw9kJXnYcZCE2H2B1oZIoqERQFMF63nNOEHML9rESpKUPDFtQbH5QaHgJ9FWgeDaDmNaMWlinCQExTJNlOegwpePGQkX5tO7mbBOeaU5Q1ft8w8s8041YZodSv1ZPJYaNFPoFztRGxuVSogY",
+              "received": false
+            }
+          ],
+          "total_price": 20589,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:29:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

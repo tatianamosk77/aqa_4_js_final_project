@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:45:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "553",
+    "etag": "W/\"229-kjGrYxZDZT1z2Kot29QvxyDxXd4\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Lorenzo_OConner47@yahoo.com",
+      "name": "Charles Victoria",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 622,
+      "flat": 6506,
+      "phone": "+1043740702",
+      "createdOn": "2026-01-04T11:45:50.000Z",
+      "notes": "i816x3XyKVpLOwej9vChyhNVdTfkrAZ8dopvZtiMmVun8227dyC4PQ4IgXt6N5NXER9FAh9LySa56Fh8qGIpdAAfh5xLVN8iJjTrTJsLSFGljCFns9PEzEozmVPXhnI51MLHUH34OQHAfbK07xiFwxBa0XNxE5z3S0UUooIUDTUCCWtx1gBFeBdi5ZA0xa5TH9o16xlloOfgRiAjcS3AEIGm133av29quz69BH7CLbr28gqSZkmTryDZLa",
+      "_id": "695a52ee1c508c5d5ea59bd2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:32:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-h1Atl1iAUYIEsiGaEJaGr8RY/5E\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Maudie24@hotmail.com",
+      "name": "Reid Layne",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 290,
+      "flat": 7994,
+      "phone": "+5065929428",
+      "createdOn": "2026-01-04T11:32:04.000Z",
+      "notes": "rrZ6gWHO8kYmBwamzagRY6ietWbWC2uJIWYpyXhVJV5CY5fdtuOmhng2v9dnWORxKYKNDMiZccDC6E7UMeMGOB5fAI0gbqJaSuBbrWkldmhDdSxlthlvBvoFklcC97CfLw5CEkWeSje8kWLtgX9ypIdJv97sFCcePBYxadHb0cnLKgYUsgjX8CCWVnOCkko3nZRd2zKxhi2RUm3WVOGA2IRCk8L5xRLggGEbHgSHFakNTUcHw8zpxEQLhQ",
+      "_id": "695a4fb41c508c5d5ea4724e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

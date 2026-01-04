@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:29:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-jYktokueIz4pOfLAKNEYG6t/aoc\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Oma.Bosco85@gmail.com",
+      "name": "Quentin Oran",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 107,
+      "flat": 1322,
+      "phone": "+4394206382",
+      "createdOn": "2026-01-04T11:29:08.000Z",
+      "notes": "hxdBcoTnd0QFR1vDjd9SqKjwSBjOxG9XwjX1X8we85zYs8oUQGaM1VbMNG4DgeL56Wy0NYIPop8UMQCiz9RnARrmOpL0uSNgO0FVEkaQq2XtzSwHdWVWnzUPRS0lt1U6EcL8TfvRVdyoJbQnbVgBHuNId5afvsh88ScgPl1mwfaZhVPgah6v3V7E4a9oppSRiA9KzQHOsu7Ua582kltXS6WH7L1CtsOplcVTrFMk6oADOXK3WHw7KLbRao",
+      "_id": "695a4f041c508c5d5ea4354d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

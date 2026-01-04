@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:37:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "538",
+    "etag": "W/\"21a-sWJ2beqawBjWu4ePbKx5d8SLQqU\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Tiara33@hotmail.com",
+      "name": "Velma Shayne",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 816,
+      "flat": 7517,
+      "phone": "+2462330562",
+      "createdOn": "2026-01-04T11:37:57.000Z",
+      "notes": "qmjLVu4B6jOi7IESwgEES7fkVcn3TstJc2tnJlhWMh0QMpPkyreNsEQZcVo8M5gBv7YaCblcl9g9nDISagHuaL512wJLbZ0aYdRWF9iC2IOr70QNoLA0QTog3kFvB73bh0WuWvR852wKwWwrq83YRDmLjjeeh0vN2BwvFAsHZUxNlCK1xiOg9vCcCiwOSJyixoiplqSuALuygwLCM9An9n0QjV1oC8DsOtWJLya0LXrphG05bLjDqDg0Bc",
+      "_id": "695a51151c508c5d5ea4fad6"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

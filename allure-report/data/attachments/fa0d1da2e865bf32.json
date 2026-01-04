@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:38:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-gRHNxhEXvAMJklz0tw3xrobqVjw\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Carson36@hotmail.com",
+      "name": "Anastasia Geo",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 158,
+      "flat": 4569,
+      "phone": "+4674911325",
+      "createdOn": "2026-01-04T11:38:41.000Z",
+      "notes": "xZdVeu1n5f52j4TWKIV945w3RO9X3Ah0vuE51IgPjKje1bIuH0iVXBzmKV3KSHAGf5QYCQBIIE97TKz8ePkq3t1hwjLNmRte88vm8IkfN6ZUzpuu36t08xlXdDCJfHkiF0vJo3ajNEMa0jGEf6KXB6Y8Uwu5qukB0jf7bF28BPPE21PgrKT56scvpISWg3IEprYE0tmBi5Dba9XHd7aD1jCmolca9KjR23niibkl2jwEVklVCbfLGqZxHv",
+      "_id": "695a51411c508c5d5ea51146"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

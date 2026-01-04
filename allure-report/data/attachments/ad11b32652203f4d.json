@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:29:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1869",
+    "etag": "W/\"74d-tHzjZ8UBUDjFQN0gmq4pM4Hx4GA\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a4f291c508c5d5ea43dc8",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a4f221c508c5d5ea43d66",
+        "email": "Katrine43@gmail.com",
+        "name": "Laverna Tomasa",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 308,
+        "flat": 1278,
+        "phone": "+8149932527",
+        "createdOn": "2026-01-04T11:29:38.000Z",
+        "notes": "UJx00DSHEIqhS5vwuSwEwuVGYSsKzliwWhWL04yBc1pPByVgtJe2kEsvPms1SAXktXVDIlJ5rX1IcDEdO1XH7LrSb0CGC7UdIHI1ZWVAFHue81S5wwhxMhlMfwF8SdQmVeKxnCRH1iDyZqQwrn7Qvgc5H8s6ClXDWWpEgE7bNaaiLXG9Lcz9T0HLj7kyMQHmtA0OqzPv78RNHNuXjcbGeIr7yl8IOHzaa4tAdCV8znaji2KDSxPfCNbGxG"
+      },
+      "products": [
+        {
+          "_id": "695a4f211c508c5d5ea43d57",
+          "name": "Shirt37352",
+          "amount": 923,
+          "price": 43827,
+          "manufacturer": "Sony",
+          "notes": "yG5pIx2S4oZngYE8E1G2sifoIjrMZ7Oj7ee582hePAQfH1TMwO4kPAOv0Raq6tyjTxgokgHipR3i4y747TImmeubB92T5PBU603X9wSDfK8NmQCMBZ3QOnMNg1LpsCV1CxmOKdd0vPOuxpTXtYJtxJxjydVf849K9oTqjks23XG6fOYpudnSs8P7VLCbHSi13veRuclcRy7klhFakNmSG3Q4xWPfbZmhaAfYgoWi0iOG0TahVHOLU6vX8T",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 43827,
+      "createdOn": "2026-01-04T11:29:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a4f221c508c5d5ea43d66",
+          "products": [
+            {
+              "_id": "695a4f211c508c5d5ea43d57",
+              "name": "Shirt37352",
+              "amount": 923,
+              "price": 43827,
+              "manufacturer": "Sony",
+              "notes": "yG5pIx2S4oZngYE8E1G2sifoIjrMZ7Oj7ee582hePAQfH1TMwO4kPAOv0Raq6tyjTxgokgHipR3i4y747TImmeubB92T5PBU603X9wSDfK8NmQCMBZ3QOnMNg1LpsCV1CxmOKdd0vPOuxpTXtYJtxJxjydVf849K9oTqjks23XG6fOYpudnSs8P7VLCbHSi13veRuclcRy7klhFakNmSG3Q4xWPfbZmhaAfYgoWi0iOG0TahVHOLU6vX8T",
+              "received": false
+            }
+          ],
+          "total_price": 43827,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:29:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

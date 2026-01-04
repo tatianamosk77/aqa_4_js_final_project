@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:28:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-H3YJPYxLFSNYiK3TC71HMsYp7Qk\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Chester.Batz@hotmail.com",
+      "name": "Bernice Golda",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 388,
+      "flat": 4295,
+      "phone": "+2059343982",
+      "createdOn": "2026-01-04T11:27:59.000Z",
+      "notes": "DuXVnHwjlCIkYB2eVtQSxKP8Zm4mEsPEonf4WtwRyeT2QxDnxI2q4Z5TJYEkkWZUOxa3wgJz6WukIah6c0wn30l9Wx2QvNL3kBBGOLjlIjDERNnWA7A0PFq7X9pewSp9zselWrnux13GimAA0Q6OP7WYW42JtEwoqE0uvrfUYt1nrgrpnndQn8PbIql4D7PH0ZlcaXCpyXE5d9GFXHldGwWlLCxApdvpq6SZK7ZBrYfeJbGMJa3upJ9Auj",
+      "_id": "695a4ebf1c508c5d5ea4210d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

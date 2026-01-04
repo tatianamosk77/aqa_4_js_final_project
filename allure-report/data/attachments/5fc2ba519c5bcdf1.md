@@ -1,0 +1,220 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - img
+        - generic [ref=e7]: Sales Portal
+      - link "Home" [ref=e9] [cursor=pointer]:
+        - /url: "#/home"
+      - link "Orders" [ref=e11] [cursor=pointer]:
+        - /url: "#/orders"
+      - link "Products" [ref=e13] [cursor=pointer]:
+        - /url: "#/products"
+      - link "Customers" [ref=e15] [cursor=pointer]:
+        - /url: "#/customers"
+      - link "Managers" [ref=e17] [cursor=pointer]:
+        - /url: "#/managers"
+    - generic [ref=e19]:
+      - button " 5" [ref=e21] [cursor=pointer]:
+        - generic: 
+        - generic [ref=e22]: "5"
+      - button "" [ref=e23] [cursor=pointer]:
+        - generic: 
+      - link "User" [ref=e25] [cursor=pointer]:
+        - /url: "#/managers/undefined"
+        - strong [ref=e26]: User
+      - button "" [ref=e27] [cursor=pointer]:
+        - generic: 
+  - generic [ref=e28]:
+    - generic [ref=e30]:
+      - generic [ref=e31]:
+        - heading "Products List" [level=2] [ref=e32]
+        - link "+ Add Product" [ref=e33] [cursor=pointer]:
+          - /url: "#/products/add"
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - searchbox "Search" [ref=e36]
+          - button " Search" [disabled]:
+            - generic: 
+            - text: Search
+        - button " Filter" [ref=e37] [cursor=pointer]:
+          - generic: 
+          - text: Filter
+        - button "Export" [ref=e38] [cursor=pointer]
+      - generic [ref=e40] [cursor=pointer]:
+        - text: Samsung
+        - generic [ref=e41]: 
+    - generic [ref=e44]:
+      - table [ref=e46]:
+        - rowgroup [ref=e47]:
+          - row "Name Price Manufacturer Created On  Actions" [ref=e48]:
+            - columnheader "Name" [ref=e49]:
+              - generic [ref=e51] [cursor=pointer]: Name
+            - columnheader "Price" [ref=e52]:
+              - generic [ref=e54] [cursor=pointer]: Price
+            - columnheader "Manufacturer" [ref=e55]:
+              - generic [ref=e57] [cursor=pointer]: Manufacturer
+            - columnheader "Created On " [ref=e58]:
+              - generic [ref=e59]:
+                - generic [ref=e60] [cursor=pointer]: Created On
+                - generic [ref=e61]:
+                  - generic: 
+            - columnheader "Actions" [ref=e62]
+        - rowgroup [ref=e63]:
+          - row "Mouse28430 $39161 Samsung 2026/01/04 11:40:01   " [ref=e64]:
+            - cell "Mouse28430" [ref=e65]
+            - cell "$39161" [ref=e66]
+            - cell "Samsung" [ref=e67]
+            - cell "2026/01/04 11:40:01" [ref=e68]
+            - cell "  " [ref=e69]:
+              - button "" [ref=e70] [cursor=pointer]:
+                - generic: 
+              - link "" [ref=e71] [cursor=pointer]:
+                - /url: "#/products/695a51911c508c5d5ea53465/edit"
+                - generic: 
+              - button "" [ref=e72] [cursor=pointer]:
+                - generic: 
+          - row "Towels90938 $54268 Samsung 2026/01/04 11:39:57   " [ref=e73]:
+            - cell "Towels90938" [ref=e74]
+            - cell "$54268" [ref=e75]
+            - cell "Samsung" [ref=e76]
+            - cell "2026/01/04 11:39:57" [ref=e77]
+            - cell "  " [ref=e78]:
+              - button "" [ref=e79] [cursor=pointer]:
+                - generic: 
+              - link "" [ref=e80] [cursor=pointer]:
+                - /url: "#/products/695a518d1c508c5d5ea530fe/edit"
+                - generic: 
+              - button "" [ref=e81] [cursor=pointer]:
+                - generic: 
+          - row "Bacon49933 $26815 Samsung 2026/01/04 11:39:57   " [ref=e82]:
+            - cell "Bacon49933" [ref=e83]
+            - cell "$26815" [ref=e84]
+            - cell "Samsung" [ref=e85]
+            - cell "2026/01/04 11:39:57" [ref=e86]
+            - cell "  " [ref=e87]:
+              - button "" [ref=e88] [cursor=pointer]:
+                - generic: 
+              - link "" [ref=e89] [cursor=pointer]:
+                - /url: "#/products/695a518d1c508c5d5ea53100/edit"
+                - generic: 
+              - button "" [ref=e90] [cursor=pointer]:
+                - generic: 
+          - row "Tuna6645 $45236 Samsung 2026/01/04 11:38:19   " [ref=e91]:
+            - cell "Tuna6645" [ref=e92]
+            - cell "$45236" [ref=e93]
+            - cell "Samsung" [ref=e94]
+            - cell "2026/01/04 11:38:19" [ref=e95]
+            - cell "  " [ref=e96]:
+              - button "" [ref=e97] [cursor=pointer]:
+                - generic: 
+              - link "" [ref=e98] [cursor=pointer]:
+                - /url: "#/products/695a512b1c508c5d5ea50704/edit"
+                - generic: 
+              - button "" [ref=e99] [cursor=pointer]:
+                - generic: 
+          - row "Bacon64645 $54188 Samsung 2026/01/04 11:35:43   " [ref=e100]:
+            - cell "Bacon64645" [ref=e101]
+            - cell "$54188" [ref=e102]
+            - cell "Samsung" [ref=e103]
+            - cell "2026/01/04 11:35:43" [ref=e104]
+            - cell "  " [ref=e105]:
+              - button "" [ref=e106] [cursor=pointer]:
+                - generic: 
+              - link "" [ref=e107] [cursor=pointer]:
+                - /url: "#/products/695a508f1c508c5d5ea4ba50/edit"
+                - generic: 
+              - button "" [ref=e108] [cursor=pointer]:
+                - generic: 
+          - row "Sausages85451 $33561 Samsung 2026/01/04 11:35:15   " [ref=e109]:
+            - cell "Sausages85451" [ref=e110]
+            - cell "$33561" [ref=e111]
+            - cell "Samsung" [ref=e112]
+            - cell "2026/01/04 11:35:15" [ref=e113]
+            - cell "  " [ref=e114]:
+              - button "" [ref=e115] [cursor=pointer]:
+                - generic: 
+              - link "" [ref=e116] [cursor=pointer]:
+                - /url: "#/products/695a50731c508c5d5ea4b316/edit"
+                - generic: 
+              - button "" [ref=e117] [cursor=pointer]:
+                - generic: 
+          - row "Chicken30154 $65043 Samsung 2026/01/04 11:35:11   " [ref=e118]:
+            - cell "Chicken30154" [ref=e119]
+            - cell "$65043" [ref=e120]
+            - cell "Samsung" [ref=e121]
+            - cell "2026/01/04 11:35:11" [ref=e122]
+            - cell "  " [ref=e123]:
+              - button "" [ref=e124] [cursor=pointer]:
+                - generic: 
+              - link "" [ref=e125] [cursor=pointer]:
+                - /url: "#/products/695a506f1c508c5d5ea4afbd/edit"
+                - generic: 
+              - button "" [ref=e126] [cursor=pointer]:
+                - generic: 
+          - row "Car59195 $60718 Samsung 2026/01/04 11:34:43   " [ref=e127]:
+            - cell "Car59195" [ref=e128]
+            - cell "$60718" [ref=e129]
+            - cell "Samsung" [ref=e130]
+            - cell "2026/01/04 11:34:43" [ref=e131]
+            - cell "  " [ref=e132]:
+              - button "" [ref=e133] [cursor=pointer]:
+                - generic: 
+              - link "" [ref=e134] [cursor=pointer]:
+                - /url: "#/products/695a50531c508c5d5ea4a766/edit"
+                - generic: 
+              - button "" [ref=e135] [cursor=pointer]:
+                - generic: 
+          - row "Tuna71207 $27876 Samsung 2026/01/04 11:34:27   " [ref=e136]:
+            - cell "Tuna71207" [ref=e137]
+            - cell "$27876" [ref=e138]
+            - cell "Samsung" [ref=e139]
+            - cell "2026/01/04 11:34:27" [ref=e140]
+            - cell "  " [ref=e141]:
+              - button "" [ref=e142] [cursor=pointer]:
+                - generic: 
+              - link "" [ref=e143] [cursor=pointer]:
+                - /url: "#/products/695a50431c508c5d5ea4a2af/edit"
+                - generic: 
+              - button "" [ref=e144] [cursor=pointer]:
+                - generic: 
+          - row "Chicken81999 $23620 Samsung 2026/01/04 11:34:12   " [ref=e145]:
+            - cell "Chicken81999" [ref=e146]
+            - cell "$23620" [ref=e147]
+            - cell "Samsung" [ref=e148]
+            - cell "2026/01/04 11:34:12" [ref=e149]
+            - cell "  " [ref=e150]:
+              - button "" [ref=e151] [cursor=pointer]:
+                - generic: 
+              - link "" [ref=e152] [cursor=pointer]:
+                - /url: "#/products/695a50341c508c5d5ea49df2/edit"
+                - generic: 
+              - button "" [ref=e153] [cursor=pointer]:
+                - generic: 
+      - generic [ref=e154]:
+        - generic [ref=e155]:
+          - generic [ref=e156]: "Items on page:"
+          - combobox [ref=e157]:
+            - option "10" [selected]
+            - option "25"
+            - option "50"
+            - option "100"
+        - generic [ref=e158]:
+          - button "" [disabled]:
+            - generic: 
+          - button "1" [ref=e159] [cursor=pointer]
+          - button "2" [ref=e160] [cursor=pointer]
+          - button "3" [ref=e161] [cursor=pointer]
+          - button "4" [ref=e162] [cursor=pointer]
+          - button "5" [ref=e163] [cursor=pointer]
+          - button "6" [ref=e164] [cursor=pointer]
+          - button "7" [ref=e165] [cursor=pointer]
+          - button "8" [ref=e166] [cursor=pointer]
+          - generic [ref=e167]: ...
+          - button "13" [ref=e168] [cursor=pointer]
+          - button "" [ref=e169] [cursor=pointer]:
+            - generic: 
+```

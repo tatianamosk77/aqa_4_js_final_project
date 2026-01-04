@@ -1,0 +1,155 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:29:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4933",
+    "etag": "W/\"1345-HdIEyR5dq+yTQRyBz6oj5aLEjmI\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a4f0d1c508c5d5ea435c7",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a4f051c508c5d5ea4355f",
+        "email": "Ivy_Koss81@hotmail.com",
+        "name": "Terrence Erik",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 290,
+        "flat": 3077,
+        "phone": "+5058374632",
+        "createdOn": "2026-01-04T11:29:09.000Z",
+        "notes": "1ZG2q8mqI8xKr57awFNfp4elLE6B2MutRUZ4PiEeP4bvHCVODROHQ3zYzklCHihR7Kw3e2ZZw5Ozz5ioh9uJFUflkNwfw8jnb9xFNxz1kSFhOvXNoaG2uxU0fcRBYJKXpnJ7UAlC2uR5F75E4aAJrlMBFT0DDJ4q0oFrGHDEPgAeI0PmVEs0UUs1KMEzpe93IWzChwGjVxB5kirSc5S1ZkCWeB6wtVHq3A1O3JAw0HS63A5gBNyM5hb4Z1"
+      },
+      "products": [
+        {
+          "_id": "695a4f041c508c5d5ea43543",
+          "name": "Car62183",
+          "amount": 871,
+          "price": 8795,
+          "manufacturer": "Apple",
+          "notes": "ykgSeCMy05uC1JJaIo3o1WQwOTNJkGzLiNmxAcgYtZCmCWILYeBOHtM0GZgfx3k6fl2oU6PotyCsItJrZgas28szphLeTiGxTv9cXUuAG4mg253gifBjErPyWgXJPXsmZf2rAPDtzZ78NWPUhL1owLE0pxjOmqka2wb02W4hrSioMB0ySmQ24LvFqQgHP7j0cscUtPMRqyeFEZfuTcjn1NfjObTqXEbivQM9J12XeyXYNhD3w8zpb9fo1R",
+          "received": false
+        },
+        {
+          "_id": "695a4f041c508c5d5ea4354b",
+          "name": "Chair66047",
+          "amount": 780,
+          "price": 67577,
+          "manufacturer": "Samsung",
+          "notes": "RSNRNSx0GOrdfcW0y11yJahC9GD80aCU522EF2cRxO81ZcdQSdKhUNuB3x5NDMGSFAoQIi7RBShhZqeIeVggFD8Ztk2JU1HVFx7322pzBDpRffmHipmsxBXZIJUJSYFHgZmxy6hlCXdDyb7LnHHdXDg9cDnZkXWooObKNhFXraNYGKaSAopFfXWDzj45v6EbbtMCKcwTLLfcEKd6QEfmbhGaR2g48hqzMTUcOMMx9Ji8h4edXKCBiDqwOD",
+          "received": false
+        },
+        {
+          "_id": "695a4f041c508c5d5ea43545",
+          "name": "Table216",
+          "amount": 701,
+          "price": 24219,
+          "manufacturer": "Amazon",
+          "notes": "x2w5gPHlSLnqg8uRYA7I6WwDFfcGsp0zKfrVgYfbOZHpaPwK8GyqItTgqiEJMQQcXclA2JjpBMhrqQlD6FsbijaLi4yys0Oze8YBgjz16IMwfzPRLVWhXnG5keGkOtTSlMFbvnvA2dOVC7yWqP8fnzaGY25WewwIhuTlmTwXGihrmNIblFQiaP6cVrkq7pVVArK0VanvAKkJvph9356dZJ5hegpWnvqjlpMM0QKg3JeS4MWZ4u7pPhQ7Cc",
+          "received": false
+        },
+        {
+          "_id": "695a4f041c508c5d5ea43549",
+          "name": "Salad32651",
+          "amount": 662,
+          "price": 49572,
+          "manufacturer": "Apple",
+          "notes": "xUomPVRU6clYihHP6JDxf7rhBcxnvYXqhU8fp2yA9uD852ZoQtiUZZ0M2x0gikkEjSwLI3p7GnDpaqx40e1huAjNKBMlAraFqNLHE70fnoBSZvAEtU17RAlwXdxmZCWzzGMeSbzfydoqUz0X0wllMDVzEZKqFPlS4XfcnjKMs5lhyqLbY8ZXqsg40abVLXesbyj4HPW9rD42zGMqgvWraSbRVRCPDHB94aVWUvNTXhVFErV4bMy5UcsrDl",
+          "received": false
+        },
+        {
+          "_id": "695a4f041c508c5d5ea43547",
+          "name": "Salad3946",
+          "amount": 764,
+          "price": 79443,
+          "manufacturer": "Apple",
+          "notes": "X157g0kRE0cfx3EWyoJuLE71S549FUt37yaFZGeqqS8q0Gd9XvFH6f6PygpBodslrr3PivmpNh0C5tpP9ygaiviI4FM7aENvGqGo0eBPBwckSCuS6QMyvofNsSX0DtdAYgNdSbpOjfMaTVaeuIBhUhc6RwLaFBI3zz9vRREyKlR3b3a4AGRy7YwAzyTBhKAd8GULFwIoAxULENfhI8xsQSkU7pJ1ObSxawolKXb9brB36XMgv6IueTukDQ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 229606,
+      "createdOn": "2026-01-04T11:29:17.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a4f051c508c5d5ea4355f",
+          "products": [
+            {
+              "_id": "695a4f041c508c5d5ea43543",
+              "name": "Car62183",
+              "amount": 871,
+              "price": 8795,
+              "manufacturer": "Apple",
+              "notes": "ykgSeCMy05uC1JJaIo3o1WQwOTNJkGzLiNmxAcgYtZCmCWILYeBOHtM0GZgfx3k6fl2oU6PotyCsItJrZgas28szphLeTiGxTv9cXUuAG4mg253gifBjErPyWgXJPXsmZf2rAPDtzZ78NWPUhL1owLE0pxjOmqka2wb02W4hrSioMB0ySmQ24LvFqQgHP7j0cscUtPMRqyeFEZfuTcjn1NfjObTqXEbivQM9J12XeyXYNhD3w8zpb9fo1R",
+              "received": false
+            },
+            {
+              "_id": "695a4f041c508c5d5ea4354b",
+              "name": "Chair66047",
+              "amount": 780,
+              "price": 67577,
+              "manufacturer": "Samsung",
+              "notes": "RSNRNSx0GOrdfcW0y11yJahC9GD80aCU522EF2cRxO81ZcdQSdKhUNuB3x5NDMGSFAoQIi7RBShhZqeIeVggFD8Ztk2JU1HVFx7322pzBDpRffmHipmsxBXZIJUJSYFHgZmxy6hlCXdDyb7LnHHdXDg9cDnZkXWooObKNhFXraNYGKaSAopFfXWDzj45v6EbbtMCKcwTLLfcEKd6QEfmbhGaR2g48hqzMTUcOMMx9Ji8h4edXKCBiDqwOD",
+              "received": false
+            },
+            {
+              "_id": "695a4f041c508c5d5ea43545",
+              "name": "Table216",
+              "amount": 701,
+              "price": 24219,
+              "manufacturer": "Amazon",
+              "notes": "x2w5gPHlSLnqg8uRYA7I6WwDFfcGsp0zKfrVgYfbOZHpaPwK8GyqItTgqiEJMQQcXclA2JjpBMhrqQlD6FsbijaLi4yys0Oze8YBgjz16IMwfzPRLVWhXnG5keGkOtTSlMFbvnvA2dOVC7yWqP8fnzaGY25WewwIhuTlmTwXGihrmNIblFQiaP6cVrkq7pVVArK0VanvAKkJvph9356dZJ5hegpWnvqjlpMM0QKg3JeS4MWZ4u7pPhQ7Cc",
+              "received": false
+            },
+            {
+              "_id": "695a4f041c508c5d5ea43549",
+              "name": "Salad32651",
+              "amount": 662,
+              "price": 49572,
+              "manufacturer": "Apple",
+              "notes": "xUomPVRU6clYihHP6JDxf7rhBcxnvYXqhU8fp2yA9uD852ZoQtiUZZ0M2x0gikkEjSwLI3p7GnDpaqx40e1huAjNKBMlAraFqNLHE70fnoBSZvAEtU17RAlwXdxmZCWzzGMeSbzfydoqUz0X0wllMDVzEZKqFPlS4XfcnjKMs5lhyqLbY8ZXqsg40abVLXesbyj4HPW9rD42zGMqgvWraSbRVRCPDHB94aVWUvNTXhVFErV4bMy5UcsrDl",
+              "received": false
+            },
+            {
+              "_id": "695a4f041c508c5d5ea43547",
+              "name": "Salad3946",
+              "amount": 764,
+              "price": 79443,
+              "manufacturer": "Apple",
+              "notes": "X157g0kRE0cfx3EWyoJuLE71S549FUt37yaFZGeqqS8q0Gd9XvFH6f6PygpBodslrr3PivmpNh0C5tpP9ygaiviI4FM7aENvGqGo0eBPBwckSCuS6QMyvofNsSX0DtdAYgNdSbpOjfMaTVaeuIBhUhc6RwLaFBI3zz9vRREyKlR3b3a4AGRy7YwAzyTBhKAd8GULFwIoAxULENfhI8xsQSkU7pJ1ObSxawolKXb9brB36XMgv6IueTukDQ",
+              "received": false
+            }
+          ],
+          "total_price": 229606,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:29:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

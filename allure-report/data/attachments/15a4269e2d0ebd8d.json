@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:29:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1882",
+    "etag": "W/\"75a-K5Fwlqjx47kT0dXt/towMiJ4+R4\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695a4f301c508c5d5ea4405f",
+        "email": "Nikita_Ledner@yahoo.com",
+        "name": "Romaine Joaquin",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 231,
+        "flat": 1146,
+        "phone": "+5164850707",
+        "createdOn": "2026-01-04T11:29:52.000Z",
+        "notes": "AedgcLY8bhCxK27h9BIk8f66rYHfAJEq5MhSfHq0ccRyjtcZPSWK6p1VaBAm9w34Irxv7xxwJfJeuPzViGdV4pCFa6PXfxKHsE7Ilh90qCEuF7IWaWC0JUXVzi6JF0YLWE4Xdhvn21bowN07dPWNCJHvO3Kd1AB58WOFGt3ciQyLXge2viGwc0POdfqlT5GrjJoEXDcULgOZpRR13XyrNovaKEIb1CfrK2tdml674j4kWWfC6F7b2tixrd"
+      },
+      "products": [
+        {
+          "_id": "695a4f301c508c5d5ea44052",
+          "name": "Keyboard19543",
+          "amount": 950,
+          "price": 32549,
+          "manufacturer": "Tesla",
+          "notes": "0GyqsMUt2SnyZVsYc3SQS5pZS3nHg0vHFcjabPT5FbOFaeE1s0Kr1olBMQEnI9OBgBP5oxn8mKFnTCs2MbyAoZC5Ugt4sIq0WjLu5V2wY8OP2Uwbu9krCjzPZ5eGUfyIQ0Aqs0HKCPz5EtqAYnU0mmAoJdxEnfhn4m2VVyXQfSIDLpKcUBXSObj5hlIbsPQ5avygg2npJFHO8H1TqfYZlwniAZw6NPFw1denh0iiA0XCOpAkpZtG2jKDnQ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 32549,
+      "createdOn": "2026-01-04T11:29:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a4f301c508c5d5ea4405f",
+          "products": [
+            {
+              "_id": "695a4f301c508c5d5ea44052",
+              "name": "Keyboard19543",
+              "amount": 950,
+              "price": 32549,
+              "manufacturer": "Tesla",
+              "notes": "0GyqsMUt2SnyZVsYc3SQS5pZS3nHg0vHFcjabPT5FbOFaeE1s0Kr1olBMQEnI9OBgBP5oxn8mKFnTCs2MbyAoZC5Ugt4sIq0WjLu5V2wY8OP2Uwbu9krCjzPZ5eGUfyIQ0Aqs0HKCPz5EtqAYnU0mmAoJdxEnfhn4m2VVyXQfSIDLpKcUBXSObj5hlIbsPQ5avygg2npJFHO8H1TqfYZlwniAZw6NPFw1denh0iiA0XCOpAkpZtG2jKDnQ",
+              "received": false
+            }
+          ],
+          "total_price": 32549,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:29:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695a4f301c508c5d5ea4407d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

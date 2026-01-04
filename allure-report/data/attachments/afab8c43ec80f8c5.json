@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:30:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "195",
+    "etag": "W/\"c3-uhjlpldxcM610SV9HgvhcSVP59A\"",
+    "keep-alive": "timeout=5, max=73",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Chicken21669",
+      "amount": 567,
+      "price": 10703,
+      "manufacturer": "Xiaomi",
+      "createdOn": "2026-01-04T11:30:48.000Z",
+      "_id": "695a4f681c508c5d5ea45306"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

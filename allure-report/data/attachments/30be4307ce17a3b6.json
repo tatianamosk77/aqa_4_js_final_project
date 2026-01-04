@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:40:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-wGufhYWyrcTkId0GblJad1I0nig\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jayson75@hotmail.com",
+      "name": "Retha Fredrick",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 921,
+      "flat": 2226,
+      "phone": "+0421126585",
+      "createdOn": "2026-01-04T11:40:31.000Z",
+      "notes": "UoLpoNmT58DEAZGjoBNrwOb9g4aoWL6M38cmEtCxwjO9GVcrpo6Ay53684XqSTbcsboZ30ScYkgW4F0uidD5cfqfnbMNwo4FOeMaTHCkP0DyivjHKDhn57uqx0Hwtp1XTvNn8MrIuGln07i805dd7oIunpgLCQ7sBH4y6JURiHw4D9W9VO05dcXJTNP0eLluOq6x9NXxmio9whiGiAHuTSasSKkyV9HQDO5v9yesPivxEnGHdBGVrVu62j",
+      "_id": "695a51af1c508c5d5ea53df9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

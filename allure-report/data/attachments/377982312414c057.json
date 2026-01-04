@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:30:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "538",
+    "etag": "W/\"21a-LXFiIwvXXuWMDak17+GgCcue9Ks\"",
+    "keep-alive": "timeout=5, max=69",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Antwan83@yahoo.com",
+      "name": "Ezra Janis",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 509,
+      "flat": 4968,
+      "phone": "+4119834809",
+      "createdOn": "2026-01-04T11:30:15.000Z",
+      "notes": "aH56r1rLanCXVyaRZTqbwq4bLJr0pYBMFYd1jNtw2YP2Naiy5PdY7cW8MT6CatS1VpUmQKjB5q3GArB7ubJcMAjE9X6SDCzX3AuwFwn83vlLERRQLw9VbrzuIm5TBgiLuJd2uOWLoLJjNGuDGzOlC4nokfbUwIIKzlgK6grc4YbRizTvCVJVftcfd0KJHVXxdv1DhIG9YwxCy8bdVI7xnlkqzqqa4JoV2G4ZNJE3mSct5icWFsEiTKGlqz",
+      "_id": "695a4f471c508c5d5ea44703"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

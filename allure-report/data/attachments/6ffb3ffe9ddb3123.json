@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:40:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "553",
+    "etag": "W/\"229-RRQE9flXlcwySL1T8HxnsfS+aKE\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Clarabelle.Schuster@hotmail.com",
+      "name": "Juliet Claudie",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 220,
+      "flat": 43,
+      "phone": "+0028230097",
+      "createdOn": "2026-01-04T11:40:25.000Z",
+      "notes": "9ezSU18d9ePmDZUzPYReK2lm9Bts3eEnKaYBLba8yw94rAMIObr0STiIovtZtZOtSdFP46l0mccw7HVEHOtCYqEATOVW6meLwbmxuiRNm742TDfJAvnFHI73nIowFn8fyAZBj8ssRfev74l2EakYcecYkQuUUQXC43V8gaeg1kfPSDgnbHKw9w6LhUoh3ELoxBKDbFIvPG7yyF5muWkgqxNZNoHHP7sjKm3oPZUyYeRQmEqgFMyfRzaxsm",
+      "_id": "695a51a91c508c5d5ea53b80"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

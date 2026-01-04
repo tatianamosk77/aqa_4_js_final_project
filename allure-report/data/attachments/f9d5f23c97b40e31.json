@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:30:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-L/TGepj1CuB/tV8x4OAYdn1LBVQ\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695a4f3f1c508c5d5ea443b0",
+        "email": "Rhiannon2@hotmail.com",
+        "name": "Abbey Kaitlyn",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 383,
+        "flat": 3802,
+        "phone": "+6223196789",
+        "createdOn": "2026-01-04T11:30:07.000Z",
+        "notes": "FeKJvtZsZKS2Vz95PVjjOGtxh72ReA80h1x22RwzFqp0ElcoEftBLZBXtkWbXr0E1rt8N1f275iGF0vloVM2O7HrWskE8mxpFDONElbxv4l3taAYbCzNyD95d0FX0Q8gmOf12UpMQnKmLoeIPYKePaZrgF7xsyCqkUDTdm1C3C94ulfOslVgKtwunR5BdFeGmzZoXHi9nvHUCXYcemBuPKAzhDpwmFPLXf6cXrsutnD0JtQ6CYqeu40Fwy"
+      },
+      "products": [
+        {
+          "_id": "695a4f3f1c508c5d5ea443cd",
+          "name": "Table55227",
+          "amount": 644,
+          "price": 93672,
+          "manufacturer": "Microsoft",
+          "notes": "yARLz7isRWky140InVzjV2tGDx3bmca77rDlKBnAjDOOWyKpQuHWpvfWEv9F2IX0uauAKUyWvO61kaLpO7NCBWwyxjMttDGqGkrRWftm1C9tqvCIHwWTBPdEvBUlGubY7Ap6aIYDbgeFOIINmqwEa4cuRMZnOvCAr4zxRTLG1CfgP2QgiFTavNvUkU23iMGQM8qw4V1uqSppgazNKZd51Mj4l4rURLV0kB5xqOZBzilKyWYElwvq36OdK7",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 93672,
+      "createdOn": "2026-01-04T11:30:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a4f3f1c508c5d5ea443b0",
+          "products": [
+            {
+              "_id": "695a4f3f1c508c5d5ea443cd",
+              "name": "Table55227",
+              "amount": 644,
+              "price": 93672,
+              "manufacturer": "Microsoft",
+              "notes": "yARLz7isRWky140InVzjV2tGDx3bmca77rDlKBnAjDOOWyKpQuHWpvfWEv9F2IX0uauAKUyWvO61kaLpO7NCBWwyxjMttDGqGkrRWftm1C9tqvCIHwWTBPdEvBUlGubY7Ap6aIYDbgeFOIINmqwEa4cuRMZnOvCAr4zxRTLG1CfgP2QgiFTavNvUkU23iMGQM8qw4V1uqSppgazNKZd51Mj4l4rURLV0kB5xqOZBzilKyWYElwvq36OdK7",
+              "received": false
+            }
+          ],
+          "total_price": 93672,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:30:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695a4f411c508c5d5ea4457b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

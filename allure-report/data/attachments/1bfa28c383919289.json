@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:27:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-TNgvDqdtrfxHsO4AsfJecNawHl8\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Parker.Olson@gmail.com",
+      "name": "Camylle Hortense",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 197,
+      "flat": 2900,
+      "phone": "+7460015504",
+      "createdOn": "2026-01-04T11:27:33.000Z",
+      "notes": "xCB2TL8StyTMClMdfxy6F2Fv75dQ0Zfp7XixQJPJQkpctKNwVBccZfxjymk9vsp6DVcwaaI00QaqNgil4UQkwrJVrv8WIa47RbzYmVnXPRlH280ePil7FvzzhpRUmeaHUjAaz1xylTD3MuHpMZBwbT2lDl9Zw3vNFv4acTsJ5qRKoGS2MwuF3MmGG4sXvHg8MDfxZ9mO59PHsWQG9LLjuKiLDvyczWIC35auNcVzuFDzBOmMbEm7Q7zLzg",
+      "_id": "695a4ea51c508c5d5ea41a44"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

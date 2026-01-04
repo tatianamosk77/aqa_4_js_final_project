@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:26:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-os8r7+tAgCatw0U1SnZwaMyaCAQ\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Adan.Murphy@hotmail.com",
+      "name": "Test Customer",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 511,
+      "flat": 3538,
+      "phone": "+7233999352",
+      "createdOn": "2026-01-04T11:26:17.000Z",
+      "notes": "neyqFi8oJlh2O4phMcjzUo4wwW6DgrlOrF7D3SAFVB0qB6fNrspw8gBIhiFmavzSa5IcVdBxV3fTkU5K5nH6cqoko4UqruR5DB2U5ea6ukLXuuWfof47INLozG0NWo8zNYrqNjYGrxE2D53noUCnd0fj7lzNtgQETMbxlESc7ZSkC9zAZNFx3dKG2FlXrRlaxxvkCaMJAYDm4ZSnusXE1vwx1oJ7Fq9kuMzLQpkGfmRKdbpC7uZWVfhumq",
+      "_id": "695a4e591c508c5d5ea4053a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

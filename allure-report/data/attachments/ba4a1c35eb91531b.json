@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:26:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-ZF5spwPWkLFyU6NFPhii6nVsh20\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Allene_Robel75@yahoo.com",
+      "name": "Mathias Bert",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 125,
+      "flat": 8381,
+      "phone": "+2498903095",
+      "createdOn": "2026-01-04T11:26:16.000Z",
+      "notes": "kOLlF4W2liDLGcuQmChozXEvB9y7W4HB2x8qmd6nYNHUkohZNcKP4RBubWS0LUDsMSEVYIInT8vwIP6x2ZyW8yQ0vnoZcvxOFpohfIR3MR7U7GKOvTyiQz4SQT5pYuem7eV44i86qRSlNHEHwXRaOiqfizVpObK0MdciRVML8E6OZ50jeIumq5a8yBTAQv3BOo5jNQisok91icOPCquUdvk8LbeDPM3jdDD2TwytS3jbaFRXJUAsxB4GS7",
+      "_id": "695a4e581c508c5d5ea40502"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

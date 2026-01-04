@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:35:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-vBujTWQHHqbu3rUcwjUwp7MdSxk\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Kennedy.Rempel@gmail.com",
+      "name": "Neal Kraig",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 498,
+      "flat": 4713,
+      "phone": "+3630437194",
+      "createdOn": "2026-01-04T11:35:28.000Z",
+      "notes": "3xj5ZIz1dwpLpT3q0HcTgmxA9JQLoU5AdDDoIP7yYvNmHDW1uwTBxszsSVHWOZ3kuqOBG8RAZrB2paL9dQEaIKXMdOeH7Hvn52hbbZmmIcdCtLd1xjYumZliqPideIQBLNtCLxIsuyN3koqigwz0bjrojV14fLOsPhSSwQKVpdl8CJKV2lvICbqYMRi8EPOM010eqfFSKtlb3R7QUDx9hX36DMDmTWzBi2oJ3DEDPHR5eYdzR2wr0UBjAB",
+      "_id": "695a50801c508c5d5ea4b677"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

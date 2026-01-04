@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:28:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-c7piJ+g3tCrBJPG1RzUkVIhr4cc\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Amos.Rohan@yahoo.com",
+      "name": "Gavin Erica",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 102,
+      "flat": 8790,
+      "phone": "+7545806786",
+      "createdOn": "2026-01-04T11:28:02.000Z",
+      "notes": "7cLeCvwz5LbN8m10ZLUsJFWknAPAd7fUcaVge1orXKdvQaJFwb9gFgoIgGl7qAsS5BkkhxSifZhgIOLmwCodpytElBtumfIZfIUgYBJerlppt98oxEt2PHgF5BEyfEWikUtpHTI5hf2oVS6MIe1k5lDgaB0efdmHhtMTwbDYj2JUD1h0OW4splkIAgrF9vmgjnUTdSv7Iya5IZwwLWIvtQ7q9HHfMf3oTkhRb9oDjRt3ZRONH4uUjNg3nI",
+      "_id": "695a4ec21c508c5d5ea42339"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

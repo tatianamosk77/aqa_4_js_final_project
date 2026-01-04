@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:32:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "538",
+    "etag": "W/\"21a-Jh5DlQbGCzeemZ3H/I2kflpiV8g\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Liam84@yahoo.com",
+      "name": "Lambert Myra",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 469,
+      "flat": 7295,
+      "phone": "+7613758860",
+      "createdOn": "2026-01-04T11:32:04.000Z",
+      "notes": "i6b1xrVl6Kb259GapfZ9YJ0KySSgeFSbFAI44Hw5C4yTWjCfv8IZ7CUeULpElQEn2YdwWGhqe6XczREPc35EW761hPRniplfeu0kEZhAFUvXPbKBTWsV5O1DcBw2agWxsEMR8bNk6UEdClHBjDExyXRWeGZ2hczDUurx0GUWKIOWBuMVy7LHMVPndu5qilQRyoJnu0zDOV4WxrGFCPTr0Ajw5g7a1j9hV4A0PRmjLzOQg1RFiA4G2CTI7S",
+      "_id": "695a4fb41c508c5d5ea4724c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

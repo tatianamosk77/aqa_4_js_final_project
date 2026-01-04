@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:42:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-Kdfk4cu2KvJuXt3ddSvve6G8bLk\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Elias.Wehner60@hotmail.com",
+      "name": "Maida Osvaldo",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 58,
+      "flat": 566,
+      "phone": "+1281205766",
+      "createdOn": "2026-01-04T11:42:32.000Z",
+      "notes": "RwtD227c5L4ALgFhBtNZjjEMnhojIFIKurlXSiDCVkENPIioKKAxGLBGT8zSvoNPViKt9eDmBRBdYwvOlPZ6ftJS9J2l87TiIyqZ82toQXvmQQVPlDCeqT7K04aP45jkHiactOl75NYmbLObXTsfeq6LLPqySO5Ua0dGqoRvQpR3cFvndlOz51ck22C36OhK59Obb4gJgVe9QxNpufrqaTUuqWl2Yi2SjKkPUwtmJ8ugGEUu51Rci6ghDL",
+      "_id": "695a52281c508c5d5ea56dae"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

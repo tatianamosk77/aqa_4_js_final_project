@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:27:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "555",
+    "etag": "W/\"22b-B+bQRIOVSZAyZbEQwG9SdBPMmzM\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Gilbert.Kertzmann22@hotmail.com",
+      "name": "Eleanore Karine",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 856,
+      "flat": 203,
+      "phone": "+3407358143",
+      "createdOn": "2026-01-04T11:27:08.000Z",
+      "notes": "BfFsx5bRiU2yoau3ZuqsrdlSwZz4nHHajtEEYstQUi1rppel3eBfaQ1eBlzbh7y0CJTLuPVoPxHvrrOszgXY3XMoXaubvHhFqGCoXCJEfvuPzxCj9aRRcoLyLDzJrpAME2AUgqFJGh5spAHlYxtWdkQCi9XCrj70uO4iwJq62bUcGZmWIYMSE22vhBZ13foQ5AvV5oqDSwsnIWCtvm2X3NwD9RrX41TdHmqlgqftpRaSJ25Pqy7wpa7kCP",
+      "_id": "695a4e8c1c508c5d5ea410e0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

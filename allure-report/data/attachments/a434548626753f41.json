@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:30:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "552",
+    "etag": "W/\"228-bKzPEt/WF+AydIF5+2PWdrT3seU\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Lenny_Douglas@yahoo.com",
+      "name": "Kiera Odessa",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 715,
+      "flat": 4282,
+      "phone": "+3649597452",
+      "createdOn": "2026-01-04T11:29:54.000Z",
+      "notes": "Nip2iO4eCpCPdDCWy5TLFSMxOB5B60ddyExrwDdXI0cJTw52YFcR1FSD5568Ryg08l0yrE1ZfWGCU7uhomb56v1y7ITfpAofTfvqKb6mkbWiS1zKP9AQ9ki0HVKAlVoUVX5LpRq8OYhEttkvyHWvocIleDaeUGwfVtOI5mneCQNuw3NOm1cyPHeSjzUYfkju3D8ElHfn5FzAZePzrNrnAdz7OI1gmndkQiJTkAe3XQYcJpYyzKeiDrAu5b",
+      "_id": "695a4f321c508c5d5ea440a6"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

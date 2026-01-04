@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:27:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "553",
+    "etag": "W/\"229-3iPCBUX92XWHuuKl7UsGfFog2rM\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Johathan.Schneider72@hotmail.com",
+      "name": "Jayde Bria",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 666,
+      "flat": 3251,
+      "phone": "+4183878002",
+      "createdOn": "2026-01-04T11:27:29.000Z",
+      "notes": "kDVyzoWqU99PmIZ9CLTOjuP5OJK1Goe2jAlr8UaMMckVkuEvicJIDkfHd4HRAqRCMeG4rWf1zqO36enC2w2I5LbJyNQ41nt8o9wlezlAIcDTEytQXWg5eTQMFGvo8LheEuKEj4Xc28Yx5w31Ana2fGysqy43rcA0m6yCqaNbcbNcwU9jniZP2c6i2pqEqLmzsid1Z3YTFU1MC889dX7r4aynH6emwOghqHxdCaTibpVagih0SFF7fvFPta",
+      "_id": "695a4ea11c508c5d5ea4186f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

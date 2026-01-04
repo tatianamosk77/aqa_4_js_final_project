@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:45:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "551",
+    "etag": "W/\"227-ofIiD60RYMAY5bBTH2XAK2r0geY\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Terrence.Grady3@hotmail.com",
+      "name": "Clemens Evans",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 472,
+      "flat": 4092,
+      "phone": "+1732756628",
+      "createdOn": "2026-01-04T11:45:52.000Z",
+      "notes": "BhgSdo5fqhBCmloznbIkjrhEuH8uBzBYbkcVMPuWD2qHyOAA7iwHLk4KW6NXqMJAUve33D1hCCeNljeqZRw9SiJ800ZeoxIO4CTwKDtZZJHNIF5XRE32h7EJsQFuK6IBak2SYhS2LzlY0bFcTalup4sbaQ2C515eTqeXfQxZ2qpL8LQG4GUr1ygNC6tm3mZlA0ddRIhBCuwPRzXOn1PNOPrj45AhLi5oddUybY36UYLSwsVnb5AVZ7kAZF",
+      "_id": "695a52f01c508c5d5ea59c0d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:35:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-elZ8GYcnli76Wkh7wmONGVjayWk\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jacky_Kreiger6@gmail.com",
+      "name": "Rasheed Ardella",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 463,
+      "flat": 8389,
+      "phone": "+8095473942",
+      "createdOn": "2026-01-04T11:35:30.000Z",
+      "notes": "Q0bbVcokJS426j6XJ7yulV09Cw5NuXzKZPHzPgpDIS64NzBnl5V5Lf5qe8qZLEmMgVYYNQpRc7AOhMyZfszxaIFKUKctUyWw4AfzPvBUt5mxdkJ5gi5eoHatYTH3VFrq3xA5MkQBPwkEDgR2G1vVEBZi6N0HwA04wEK6r5YP86Or895trnO5s1VPpzURvJ63sXuaGlP7hidqr23egI3HgXWv0DVXa5owWX0wWnDbZKzIRut2XiIk89hlaP",
+      "_id": "695a50821c508c5d5ea4b84c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

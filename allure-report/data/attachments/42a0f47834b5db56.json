@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:28:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2938",
+    "etag": "W/\"b7a-wUS98FExYQOAY7zVJNaNlAD8I4w\"",
+    "keep-alive": "timeout=5, max=62",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a4ef91c508c5d5ea4316f",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a4ef01c508c5d5ea430ed",
+        "email": "Gunnar46@hotmail.com",
+        "name": "Blanche Iva",
+        "country": "France",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 493,
+        "flat": 4050,
+        "phone": "+5726673002",
+        "createdOn": "2026-01-04T11:28:48.000Z",
+        "notes": "cBpbL98yxbUgemdpzUxfEzVOcr3nK36xdp9y7nDntBkvsKA1zlD3IbkXjRR712vrjMDG7nSstMdQ9pO8doYkI3wRwMYoYQq5cyLr69x3T2XkraCBSudNQdngzSs7nOaKKvLjBTdfzM82VUyvR03Q1GxmFAm4F9HreX90N5Xvnimi8u7tx3xgOc958MCagYLcHwte9nX0jBhYZOqtCvFEhj8zpZSZE6JF1OtYSqgKgnSMJHQOZUzEiS47P8"
+      },
+      "products": [
+        {
+          "_id": "695a4eef1c508c5d5ea430dd",
+          "name": "Keyboard96786",
+          "amount": 689,
+          "price": 89051,
+          "manufacturer": "Google",
+          "notes": "vvyeweV8PoMxwzElNfZFiqkM3Nr5EnY2UYGfjGB1leDGvZ8TSlg61VY31dJtslq2vRlecea2yiBL4B7lH5Bp87ZwZNSmWjFDK4bnrvuArXSsMOispVVJmED90hhEjK738JPSPhioThmCjlhb8FZdJ0TkPujivoe08Hae7MkRmtYlOVU233zwSDtnLBFkzVpRmQk2t06AUfFDkiVwSKGQ6YA9BxgjkblNDvBkXkMT463DBf3PKjtB2aJFDa",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 89051,
+      "createdOn": "2026-01-04T11:28:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a4ef01c508c5d5ea430ed",
+          "products": [
+            {
+              "_id": "695a4eef1c508c5d5ea430dd",
+              "name": "Keyboard96786",
+              "amount": 689,
+              "price": 89051,
+              "manufacturer": "Google",
+              "notes": "vvyeweV8PoMxwzElNfZFiqkM3Nr5EnY2UYGfjGB1leDGvZ8TSlg61VY31dJtslq2vRlecea2yiBL4B7lH5Bp87ZwZNSmWjFDK4bnrvuArXSsMOispVVJmED90hhEjK738JPSPhioThmCjlhb8FZdJ0TkPujivoe08Hae7MkRmtYlOVU233zwSDtnLBFkzVpRmQk2t06AUfFDkiVwSKGQ6YA9BxgjkblNDvBkXkMT463DBf3PKjtB2aJFDa",
+              "received": false
+            }
+          ],
+          "total_price": 89051,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:28:58.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "695a4ef01c508c5d5ea430ed",
+          "products": [
+            {
+              "_id": "695a4eef1c508c5d5ea430dd",
+              "name": "Keyboard96786",
+              "amount": 689,
+              "price": 89051,
+              "manufacturer": "Google",
+              "notes": "vvyeweV8PoMxwzElNfZFiqkM3Nr5EnY2UYGfjGB1leDGvZ8TSlg61VY31dJtslq2vRlecea2yiBL4B7lH5Bp87ZwZNSmWjFDK4bnrvuArXSsMOispVVJmED90hhEjK738JPSPhioThmCjlhb8FZdJ0TkPujivoe08Hae7MkRmtYlOVU233zwSDtnLBFkzVpRmQk2t06AUfFDkiVwSKGQ6YA9BxgjkblNDvBkXkMT463DBf3PKjtB2aJFDa",
+              "received": false
+            }
+          ],
+          "total_price": 89051,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:28:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337ce1c508c5d5e95335d",
+        "username": "student14@gmail.com",
+        "firstName": "Bill",
+        "lastName": "Schuppe",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:26"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

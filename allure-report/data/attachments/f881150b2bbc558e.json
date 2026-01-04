@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:28:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-AqXWNC8834llZJ4uUC4IQY2cC2k\"",
+    "keep-alive": "timeout=5, max=69",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Kyra.Orn@hotmail.com",
+      "name": "Rodger Blaise",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 800,
+      "flat": 7007,
+      "phone": "+3112882841",
+      "createdOn": "2026-01-04T11:28:42.000Z",
+      "notes": "zgecUT1gx5mbDposs6SnGIVdTqpCz1JLweaE3L6As6UU1zHlXmtb63iMNw3HUmkl7wzC4eusRlmwD4M75wMrmeqbTmccaWOgj601jT5MXTKVC0Jo1d5uLb9Xu3AaivoGXnATV3r71Yle5A6D6U3JX6t030r1CUYNBeo0isxq3biLqOIUa3DqS4IvzmpfF0dXJIV7g0PgjNRH0AJEURBFiVQFwn3IDK2Jkdpqjudhz4FvbztCekuA9NueUq",
+      "_id": "695a4eea1c508c5d5ea42c24"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

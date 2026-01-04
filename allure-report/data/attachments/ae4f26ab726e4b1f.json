@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:29:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1974",
+    "etag": "W/\"7b6-IMb9XBe595wkOIJOHxsnTdkf7hQ\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a4f291c508c5d5ea43dce",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a4f211c508c5d5ea43d50",
+        "email": "Jaclyn_Bogan81@hotmail.com",
+        "name": "Sheridan Reuben",
+        "country": "France",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 382,
+        "flat": 989,
+        "phone": "+5961426576",
+        "createdOn": "2026-01-04T11:29:37.000Z",
+        "notes": "yXofhIUvjUsUAOdexR1SyDavtShN6HN1hdYL7bzGIMghIJeQn3O0yoeJkSdPx9Xg78sbWcsZZqF630GVuzyrckv3wUuQEBVWhNeda78Rc1nDx6yRRYwAJp7FT7vdrxB6HLGtjuyGSXG6oD4QeobcivMhMHrKxg8ZcHCXwMML7gzjSrn7FujeDdd0wvXoUy5rHrx0fDZrcTWmCbQVqH5a11Aka2Kic863a3wQmMgdPJMN3NjligV8SRvBfi"
+      },
+      "products": [
+        {
+          "_id": "695a4f201c508c5d5ea43bf5",
+          "name": "Hat65409",
+          "amount": 624,
+          "price": 12692,
+          "manufacturer": "Google",
+          "notes": "avLgjxFAQ0RQAolruNTMdmVLQPvmWzXnevCeL3M852GY6wkUwQ1qDRX2LRtz7dkDjHdrtY4ZMvKpvl7fOPe6W3EwGj2MA5Xz8RoClpGNgrT71ZxXHd0aPspBxLq807XxbDuCZh99KksagwXRathz3p4p9hKoBshAhVPNv00kyJVj30bRR2IlRuwZBaaF1MKIEQyRalnpuV8gS0DgMhFXe5eXweKjuZt7pmbqshgGSfe9sKIKT02jRoYkef",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 12692,
+      "createdOn": "2026-01-04T11:29:45.000Z",
+      "comments": [
+        {
+          "text": "autotest comment",
+          "createdOn": "2026-01-04T11:29:46.000Z",
+          "_id": "695a4f2a1c508c5d5ea43e23"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a4f211c508c5d5ea43d50",
+          "products": [
+            {
+              "_id": "695a4f201c508c5d5ea43bf5",
+              "name": "Hat65409",
+              "amount": 624,
+              "price": 12692,
+              "manufacturer": "Google",
+              "notes": "avLgjxFAQ0RQAolruNTMdmVLQPvmWzXnevCeL3M852GY6wkUwQ1qDRX2LRtz7dkDjHdrtY4ZMvKpvl7fOPe6W3EwGj2MA5Xz8RoClpGNgrT71ZxXHd0aPspBxLq807XxbDuCZh99KksagwXRathz3p4p9hKoBshAhVPNv00kyJVj30bRR2IlRuwZBaaF1MKIEQyRalnpuV8gS0DgMhFXe5eXweKjuZt7pmbqshgGSfe9sKIKT02jRoYkef",
+              "received": false
+            }
+          ],
+          "total_price": 12692,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:29:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

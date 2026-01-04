@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:29:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-D11bwMYfjbcMpnHB7lDqtJn4oVI\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Katrine43@gmail.com",
+      "name": "Laverna Tomasa",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 308,
+      "flat": 1278,
+      "phone": "+8149932527",
+      "createdOn": "2026-01-04T11:29:38.000Z",
+      "notes": "UJx00DSHEIqhS5vwuSwEwuVGYSsKzliwWhWL04yBc1pPByVgtJe2kEsvPms1SAXktXVDIlJ5rX1IcDEdO1XH7LrSb0CGC7UdIHI1ZWVAFHue81S5wwhxMhlMfwF8SdQmVeKxnCRH1iDyZqQwrn7Qvgc5H8s6ClXDWWpEgE7bNaaiLXG9Lcz9T0HLj7kyMQHmtA0OqzPv78RNHNuXjcbGeIr7yl8IOHzaa4tAdCV8znaji2KDSxPfCNbGxG",
+      "_id": "695a4f221c508c5d5ea43d66"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:27:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "667",
+    "etag": "W/\"29b-2aBkJEYh+zslZYQ5LaN5Sg9QTyE\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "695a4e951c508c5d5ea413f7",
+        "email": "Abdullah17@gmail.com",
+        "name": "Dessie Cleta",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 739,
+        "flat": 9672,
+        "phone": "+9525041633",
+        "createdOn": "2026-01-04T11:27:17.000Z",
+        "notes": "0pO6F8RckNjT5uRoh9qr4dNPHVw1wse6gfDEc9s8eL3JGJ1wR7hQeN3JR5tV5IvijMjNaJXaV6OqNFJB21ZWIZLwqNS7mVN3Ru32Meb5xMa8UfcGhPzFykIDhQVn5xzeJj4iUu6yxLXEOgSDdW16TM1fm19GPCEg1Fz2Hto0wtg3XeOHkoEMI63TDc79BN44JByVia1oKx0sdLTf7MJZ6uYNtS4l8wD0S2k6Su15f2jPde9T0NNae0Nlur"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Dessie Cleta",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
