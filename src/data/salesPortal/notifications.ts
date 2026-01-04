@@ -12,6 +12,8 @@ export enum NOTIFICATIONS {
   ORDER_CREATED = "Order was successfully created",
   ORDER_NOT_CREATED = "Failed to create an order. Please try again later",
   ORDER_UPDATED = "Order was successfully updated",
+  MANAGER_ASSIGNED = "Manager was successfully assigned to the order",
+  MANAGER_UNASSIGNED = "Manager was successfully unassigned from the order",
 }
 
 export const ERROR_MESSAGES = {

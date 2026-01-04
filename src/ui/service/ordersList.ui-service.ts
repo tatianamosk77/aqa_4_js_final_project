@@ -16,6 +16,10 @@ export class OrdersListUIService {
     await this.ordersListPage.waitForTableToLoad();
   }
 
+
+
+  
+
   @logStep("Clear search")
   async clearSearch() {
     await this.ordersListPage.clearSearch();

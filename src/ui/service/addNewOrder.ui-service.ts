@@ -88,4 +88,60 @@ export class AddNewOrderUIService extends BaseUIService {
 
     return await this.create(formData);
   }
+
+  @logStep("Create an order via UI [Stable]")
+  async createStable(customerName: string, products: string[]) {
+    await this.addNewOrderModal.fillOrderFormStable({
+      customer: customerName,
+      products: products
+    });
+
+    const response = await this.addNewOrderModal.interceptResponse<ICreateOrderResponseBody, []>(
+      apiConfig.endpoints.orders,
+      async () => {
+        await this.addNewOrderModal.clickCreate();
+      }
+    );
+    
+    expect(response.status).toBe(STATUS_CODES.CREATED);
+
+    const order = response.body?.Order;
+    if (!order) {
+      throw new Error("Order is undefined in response");
+    }
+
+    await this.ordersListPage.waitForOpened();
+
+    return { order };
+  }
+
+  @logStep("Create minimal order via UI [Stable Precondition]")
+  async createMinimalOrderStable(customerName: string, productName: string) {
+    await this.addNewOrderModal.selectCustomerByNameStable(customerName);
+    await this.addNewOrderModal.selectFirstAvailableProductStable(0);
+
+    // Создаем Promise для ожидания именно POST запроса
+    const responsePromise = this.page.waitForResponse(
+      (res) =>
+        res.url().includes(apiConfig.endpoints.orders) && 
+        res.request().method() === "POST",
+      { timeout: 10000 }
+    );
+
+    await this.addNewOrderModal.clickCreate();
+    const response = await responsePromise;
+
+    expect(response.status()).toBe(STATUS_CODES.CREATED);
+
+    const body = await response.json() as ICreateOrderResponseBody;
+    const order = body?.Order;
+
+    if (!order) {
+      throw new Error("Order creation failed in UI Precondition: No order in response body");
+    }
+
+    await this.ordersListPage.waitForOpened();
+    return { order };
+  }
+
 }

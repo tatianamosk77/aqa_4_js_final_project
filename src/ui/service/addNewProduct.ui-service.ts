@@ -33,4 +33,28 @@ export class AddNewProductUIService extends BaseUIService {
     await this.productsListPage.waitForOpened();
     return response.body.Product;
   }
+
+  @logStep("Create a product via UI [Stable]")
+  async createStable(productData?: Partial<IProduct>) {
+    const data = generateProductData(productData);
+    await this.addNewProductPage.fillForm(data);
+    
+    const responsePromise = this.page.waitForResponse(
+      (res) =>
+        res.url().includes(apiConfig.endpoints.products) && 
+        res.request().method() === "POST",
+      { timeout: 10000 }
+    );
+
+    await this.addNewProductPage.clickSave();
+    const response = await responsePromise;
+    
+    expect(response.status()).toBe(STATUS_CODES.CREATED);
+    
+    const body = await response.json();
+    await this.productsListPage.waitForOpened();
+        
+    return body.Product as IProductResponse['Product'];
+  }
+
 }
