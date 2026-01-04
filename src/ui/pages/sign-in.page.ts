@@ -8,12 +8,6 @@ export class LoginPage extends SalesPortalPage {
   readonly loginButton = this.page.locator("button[type='submit']");
   readonly uniqueElement = this.page.locator("#signInPage");
 
-  // @logStep("Open login page")
-  // async open() {
-  //   await this.page.goto(ROUTES.SIGNIN);
-  //   await this.waitForOpened();
-  // }
-
   @logStep("Fill credentials")
   async fillCredentials(credentials: Partial<ICredentials>) {
     if (credentials.username) await this.emailInput.fill(credentials.username);

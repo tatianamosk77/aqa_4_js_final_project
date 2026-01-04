@@ -3,11 +3,6 @@ import path from "path";
 
 const authFile = path.resolve(process.cwd(), "src", ".auth", "user.json");
 
-// test("Login as Admin", async ({ page, loginUIService }) => {
-//   await loginUIService.loginAsAdmin();
-//   await page.context().storageState({ path: authFile });
-// });
-
 test("Login as Admin via API", async ({ page, loginApiService }) => {
   const token = await loginApiService.loginAsAdmin();
   await page.context().addCookies([
