@@ -61,7 +61,7 @@ export interface IPages {
   editCustomerModal: EditCustomerModal;
   editProductsModal: EditProductModal; 
   assignManagerModal: AssignManagerModal;
-},
+
 
   //ui-services
   homeUIService: HomeUIService;
@@ -77,7 +77,7 @@ export interface IPages {
   addNewOrderUIService: AddNewOrderUIService;
   editOrderUIService: EditOrderUIService;
   orderDetailsUIService: OrderDetailsUIService; 
-}
+},
 
 export const test = base.extend<IPages>({
   //pages
