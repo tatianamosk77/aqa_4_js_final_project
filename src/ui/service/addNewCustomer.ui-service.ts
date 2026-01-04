@@ -33,4 +33,30 @@ export class AddNewCustomerUIService extends BaseUIService {
     await this.customersListPage.waitForOpened();
     return response.body.Customer;
   }
+
+
+
+  @logStep("Create a customer via UI [Stable]")
+  async createStable(customerData?: Partial<ICustomer>) {
+    const data = generateCustomerData(customerData);
+    await this.addNewCustomerPage.fillForm(data);
+    // Ждем именно POST запрос, чтобы не перехватить GET (200) от списка
+    const responsePromise = this.page.waitForResponse(
+      (res) =>
+        res.url().includes(apiConfig.endpoints.customers) && 
+        res.request().method() === "POST",
+      { timeout: 10000 }
+    );
+
+    await this.addNewCustomerPage.clickSave();
+    const response = await responsePromise;
+
+    // Ожидаю, что придет 201
+    expect(response.status()).toBe(STATUS_CODES.CREATED);
+    
+    const body = await response.json();
+    await this.customersListPage.waitForOpened();
+    
+    return body.Customer as ICustomerResponse['Customer'];
+  }
 }

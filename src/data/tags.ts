@@ -1,6 +1,7 @@
 export enum TAGS {
   SMOKE = "@smoke",
   REGRESSION = "@regression",
+  CRITICAL_PATH = "@critical_path",
   PRODUCTS = "@products",
   UI = "@ui",
   API = "@api",

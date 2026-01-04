@@ -1,4 +1,4 @@
-import { Locator } from "@playwright/test";
+import { expect, Locator } from "@playwright/test";
 import { SalesPortalPage } from "../sales-portal.page";
 import { logStep } from "utils/report/logStep.utils";
 import { IOrderInTable, OrdersTableHeader } from "data/types/order.types";
@@ -122,6 +122,11 @@ export class OrdersListPage extends SalesPortalPage {
     await detailsLink.click();
   }
 
+  @logStep("Click on details button by index: {index}")
+  async clickOnDetailsButtonByIndex(index: number) {
+    await this.detailsButtons.nth(index).click();
+  }
+
   @logStep("Navigate to order details page for Order Number: {orderNumber}")
   async navigateToOrderDetails(orderNumber: string) {
     await this.clickOrderDetails(orderNumber);
@@ -176,6 +181,25 @@ export class OrdersListPage extends SalesPortalPage {
       createdOn: (await cells.nth(6).textContent()) || "",
     };
   }
+
+  @logStep("Get order data from the table by Order Number: {orderNumber}")
+  async getOrderDataByNumber(orderNumber: string) {
+    const row = this.getOrderRowByNumber(orderNumber);
+    await row.waitFor({ state: "visible" });
+    
+    const cells = row.locator("td");
+
+    return {
+      orderNumber: (await cells.nth(0).textContent())?.trim() || "",
+      email: (await cells.nth(1).textContent())?.trim() || "",
+      price: (await cells.nth(2).textContent())?.trim() || "",
+      delivery: (await cells.nth(3).textContent())?.trim() || "",
+      status: (await cells.nth(4).textContent())?.trim() || "",
+      assignedManager: (await cells.nth(5).textContent())?.trim() || "",
+      createdOn: (await cells.nth(6).textContent())?.trim() || "",
+    };
+  }
+
 
   @logStep("Get orders data from the table")
   async getTableData(): Promise<IOrderInTable[]> {
@@ -263,5 +287,27 @@ export class OrdersListPage extends SalesPortalPage {
   @logStep("Clear search input")
   async clearSearch() {
     await this.searchInput.clear();
+  }
+
+
+  @logStep("Click on details button of a random order in the list")
+  async clickOnRandomDetailsButton() {
+    const count = await this.detailsButtons.count();
+    
+    if (count === 0) {
+      throw new Error("No orders found in the list to click details");
+    }
+    const randomIndex = Math.floor(Math.random() * count);
+    await this.detailsButtons.nth(randomIndex).click();
+  }
+
+  @logStep("Get order with the status 'Draft' and open details page")
+  async openFirstDraftOrder() {
+    
+    const draftOrderRow = this.tableRows.filter({ 
+      has: this.page.locator('td', { hasText: 'Draft' }) 
+    }).first();
+    
+    await draftOrderRow.locator(this.detailsButtons).click();
   }
 }

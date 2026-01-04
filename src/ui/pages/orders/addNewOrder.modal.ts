@@ -313,6 +313,67 @@ export class AddNewOrderModal extends SalesPortalPage {
     };
   }
 
+  @logStep("Select customer by name [Stable]")
+  async selectCustomerByNameStable(customerName: string): Promise<string> {
+    await this.page.waitForLoadState('networkidle'); 
+        
+    await this.uniqueElement.waitFor({ state: "visible" }); 
+    await this.customerDropdown.waitFor({ state: "visible" });
+      
+    await this.customerDropdown.selectOption({ label: customerName });
+    return customerName;
+  }
+
+  @logStep("Select product by name [Stable]")
+  async selectProductByNameStable(position: number, productName: string): Promise<string> {
+    const dropdown = this.productDropdownBy(position);
+    await dropdown.waitFor({ state: "visible" });
+    
+    const options = await dropdown.locator("option").all();
+    for (const option of options) {
+      const fullLabel = await option.innerText();
+      if (fullLabel.toLowerCase().includes(productName.toLowerCase())) {
+        await dropdown.selectOption({ label: fullLabel });
+        return fullLabel;
+      }
+    }
+    throw new Error(`Product "${productName}" not found in dropdown at position ${position}`);
+  }
+
+  @logStep("Fill order form [Stable]")
+  async fillOrderFormStable(options: { customer: string, products: string[] }): Promise<void> {
+    await this.selectCustomerByNameStable(options.customer);
+    
+    if (options.products && options.products.length > 0) {
+      for (let i = 0; i < options.products.length; i++) {
+        const productName = options.products[i];
+        if (!productName) {
+           throw new Error(`Product at index ${i} is undefined or empty`);
+        }
+
+        if (i > 0) {
+          await this.clickAddProduct();
+        }
+        
+        await this.selectProductByNameStable(i, productName);
+      }
+    }
+  }
+
+  @logStep("Select first available product [Stable]")
+  async selectFirstAvailableProductStable(position: number = 0): Promise<string> {
+    const dropdown = this.productDropdownBy(position);
+    await dropdown.waitFor({ state: "visible" });
+
+    const options = await dropdown.locator("option").all();
+    if (options.length === 0) throw new Error("No products available in dropdown");
+
+    const productName = this.extractName(await options[0]!.innerText());
+
+    await dropdown.selectOption({ index: 0 });
+    return productName;
+  }
+
   @logStep("Fill minimal order safe - NO CHANGES to existing methods")
 async fillMinimalOrderSafe(customerName: string): Promise<{
   customerName: string;

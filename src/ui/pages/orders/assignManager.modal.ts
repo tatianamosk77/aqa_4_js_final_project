@@ -8,7 +8,8 @@ export class AssignManagerModal extends BaseModal {
 
   readonly title = this.uniqueElement.locator("h5");
   readonly closeButton = this.uniqueElement.locator("button.btn-close");
-  readonly saveButton = this.uniqueElement.locator("button.btn-primary");
+  // readonly saveButton = this.uniqueElement.locator("button.btn-primary");
+  readonly saveButton = this.uniqueElement.locator("#update-manager-btn");
   readonly cancelButton = this.uniqueElement.locator("button.btn-secondary");
 
   readonly inputCustomerOrder = this.uniqueElement.locator("#inputCustomerOrder");
@@ -30,6 +31,11 @@ export class AssignManagerModal extends BaseModal {
 
   @logStep("Click create button on AssignManagerModal")
   async clickEdit() {
+    await this.saveButton.click();
+  }
+
+  @logStep("Click Save button on AssignManagerModal")
+  async clickSave() {
     await this.saveButton.click();
   }
 
@@ -68,8 +74,28 @@ export class AssignManagerModal extends BaseModal {
     return managerName;
   }
 
+  @logStep("Choose a different manager from the list")
+  async chooseDifferentManager(): Promise<string> {
+    await this.managerList.waitFor({ state: "visible" });
+    
+    const otherManagerLocator = this.managerItems.filter({ 
+      hasNot: this.page.locator('.active') 
+    }).first();
+    
+    if (await otherManagerLocator.count() === 0) {
+      throw new Error("No other managers available to select");
+    }
+
+    const managerText = await otherManagerLocator.innerText();
+    const managerName = this.extractManagerName(managerText);
+    
+    await otherManagerLocator.click();
+
+    return managerName;
+  }
+
   private extractManagerName(fullText: string): string {
-    const namePart = fullText.split("(")[0]?.trim();
-    return namePart || fullText.trim();
+    const namePart = fullText.split("(")[0];
+    return namePart ? namePart.trim() : fullText.trim();
   }
 }
