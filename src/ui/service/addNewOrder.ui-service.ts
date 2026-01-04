@@ -89,7 +89,6 @@ export class AddNewOrderUIService extends BaseUIService {
     return await this.create(formData);
   }
 
-<<<<<<< HEAD
   @logStep("Create an order via UI [Stable]")
   async createStable(customerName: string, products: string[]) {
     await this.addNewOrderModal.fillOrderFormStable({
@@ -145,7 +144,6 @@ export class AddNewOrderUIService extends BaseUIService {
     return { order };
   }
 
-=======
   @logStep("Create minimal order via UI - SAFE version")
 async createMinimalOrderSafe(customerName: string) {
   await this.addNewOrderModal.fillMinimalOrderSafe(customerName);
@@ -166,5 +164,4 @@ async createMinimalOrderSafe(customerName: string) {
     formData: { customerName, productNames: ["first"] } 
   };
 }
->>>>>>> main
 }
