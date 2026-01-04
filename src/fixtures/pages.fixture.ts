@@ -34,14 +34,10 @@ import { OrdersListUIService } from "ui/service/ordersList.ui-service";
 import { AddNewOrderUIService } from "ui/service/addNewOrder.ui-service";
 import { EditOrderUIService } from "ui/service/editOrder.ui-service";
 import { ConfirmationModal } from "ui/pages/confirmation.modal";
-<<<<<<< HEAD
 import { EditCustomerModal } from "ui/pages/orders/editCustomers.modal";
 import { EditProductModal } from "ui/pages/orders/editProducts.modal";
 import { OrderDetailsUIService } from "ui/service/orderDetails.ui-service";
-=======
-import { AssignManagerModal } from "ui/pages/orders/assignManager.modal";
 
->>>>>>> main
 export interface IPages {
   //pages
   loginPage: LoginPage;
@@ -51,7 +47,6 @@ export interface IPages {
   addNewProductPage: AddNewProductPage;
   addNewCustomerPage: AddNewCustomerPage;
   customerDetailsPage: CustomerDetailsPage;
-
   ordersListPage: OrdersListPage;
   headerPage: HeaderPage;
   commentsTab: CommentsTab;
@@ -63,14 +58,10 @@ export interface IPages {
   scheduleDeliveryPage: ScheduleDeliveryPage;
   addNewOrderModal: AddNewOrderModal;
   confirmationModal: ConfirmationModal;
-<<<<<<< HEAD
   editCustomerModal: EditCustomerModal;
   editProductsModal: EditProductModal; 
-  assignManagerModal: AssignManagerModal
-
-=======
   assignManagerModal: AssignManagerModal;
->>>>>>> main
+},
 
   //ui-services
   homeUIService: HomeUIService;
@@ -155,14 +146,8 @@ export const test = base.extend<IPages>({
     await use(new ConfirmationModal(page));
   },
   assignManagerModal: async ({ page }, use) => {
-<<<<<<< HEAD
     await use(new AssignManagerModal(page));
   },
-  
-=======
-  await use(new AssignManagerModal(page));
-},
->>>>>>> main
 
   //ui-services
   homeUIService: async ({ page }, use) => {
