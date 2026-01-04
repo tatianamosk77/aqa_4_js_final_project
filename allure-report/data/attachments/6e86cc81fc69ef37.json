@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:17:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-ebyvPseXTT5iQMzIWjPG+MTQHrY\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Adriel10@gmail.com",
+      "name": "Daniella Vivien",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 77,
+      "flat": 5658,
+      "phone": "+4467497826",
+      "createdOn": "2026-01-04T22:17:26.000Z",
+      "notes": "7Eq2DN16eOz2zcrLEztf2JU0UyuiylLsVGCf32ws92JpnjoWDbOAvenwqCnFMivwdxj6s6sWt4qZHWraW4AdU2FCVpQLIz4LCyFXHbuPO49pPFSNS0oApoTZVYIhOuz30uLv5nLYKqZJ4MhneyH55BC0qjD0uz50Fz7UutkBDv3KiQ7TsAZBROkaPmXleRtZ0oBYFbIR7bwrNG4SIXlJX3yPgnVchzUlxcAhzRV56hW0uGUNfHSZP7PGHs",
+      "_id": "695ae6f61c508c5d5ea8f7e2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

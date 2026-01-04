@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:15:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-JmwJ7qpNcs4EQ8j8S31AN1btwCs\"",
+    "keep-alive": "timeout=5, max=72",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Leila.Kshlerin@hotmail.com",
+      "name": "Lulu Dameon",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 768,
+      "flat": 7234,
+      "phone": "+6833255136",
+      "createdOn": "2026-01-04T22:15:26.000Z",
+      "notes": "X61AX3JHK4b6fWWpYYHtiDOOSOGvVtRPYEYRyqGr7ut3QcDH3fTMUsxHlTlmtPiL4uX2mtXTN05EyvWejWUMI2FusIRSbR4Uf68BYSJ2SWHZXrCpyX26xUPlPo2dsNkZZ0sNKsgg8QfqpljLRFPaIqLzfoCS5xeNyJwZ38AY332yLJgK9OJy7lWiLsJgEkiiBP9HfidZepk36prl6pS8Mtr4QyDviYWTMYHqhVAAYCnKJgNe5ea4Cv54cZ",
+      "_id": "695ae67e1c508c5d5ea8c596"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

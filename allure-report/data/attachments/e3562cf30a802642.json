@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:15:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "534",
+    "etag": "W/\"216-FIpBH/qw2MGDxx/5i66YK9n0ogw\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Alva23@gmail.com",
+      "name": "Diego Urban",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 180,
+      "flat": 4539,
+      "phone": "+2984425891",
+      "createdOn": "2026-01-04T22:15:40.000Z",
+      "notes": "YEI8QaEWO3cA3Diddn9u78WfTQCuXuYDrLC3TCQ57BZ0S2JiyisdsXAdX7S48gL7rHDdGeSfy2JALu4GxhOUrR58FRpq4zEsi0957SPo9oqxtMCWL4wtybZZ9FLPfEwXKXkw2F5kx68B9OY86jWeAsHHQ9jUdXJ7DRUHF6cT47oX2sQpuCzLh4mBFeF8ZsoiBKmeWdJp5q2bABGSURDWptnSt0MkrqmhPone7nlB3Hx2NJIQuCwszD1xhE",
+      "_id": "695ae68c1c508c5d5ea8cba3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

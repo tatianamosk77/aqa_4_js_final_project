@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:15:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-b1wthfwrjzdIX8UcucgdVRCQowk\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Karl_Walker8@hotmail.com",
+      "name": "Ivory Otha",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 950,
+      "flat": 6036,
+      "phone": "+3486289490",
+      "createdOn": "2026-01-04T22:15:19.000Z",
+      "notes": "jvlJrrt1emWmoVrFnRwQbfqC86X6WxFPjDZ7C8smwsehjyymhu2ktF9usXX4HcFx8Ocx4vgfAN5EfCeMqWaUjqsJd1Y1hQn6GfhUKFBzd2kOdfEoU5FLW7M0UfbevLD2SoCIngaxuS8rIL2iu6xjeBVExLf8uVeKdS1f0OvxzebjQQRzaKH2KkuOW67Iyo9izFk5WTE7Pj5mEhll9aeyiDlpDXvmk0IPNWmKHx3syURUsl0lzJ71R31BRb",
+      "_id": "695ae6771c508c5d5ea8c399"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

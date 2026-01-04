@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:15:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "539",
+    "etag": "W/\"21b-JpuaQghoYDuZCCp5YwZ1HgyfHbY\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Clark48@gmail.com",
+      "name": "Olen Lisette",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 363,
+      "flat": 130,
+      "phone": "+3814180536",
+      "createdOn": "2026-01-04T22:15:24.000Z",
+      "notes": "UsiCgQZWt0X3mFGpCE0OW34j87CkdqtEQVs4bxzVcHM3ioyCp3NLlNYfVxTK6fmJTmsbeodRr4JRGa2Zx7EOOarlhVxItD1rGM6yCuIBVPeQSrqS3qTA9DDUsMrbOfRd5d3jyicprklsG5o0jrzw8TG6s4zBLm4WbglepLbjPWM7qMCrDttWw6GKfrwQ4RDilgEPIsYb3LjDmdhSXnv8pXsZHqTfegMFa0wknbcp3Gjh0bIQ9irtO4ny90",
+      "_id": "695ae67c1c508c5d5ea8c4ed"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

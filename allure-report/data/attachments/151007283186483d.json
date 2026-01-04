@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:15:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-pxaFIt3NL/RZk10la6OyEw1bYpM\"",
+    "keep-alive": "timeout=5, max=74",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Taryn43@hotmail.com",
+      "name": "Tiana Efrain",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 56,
+      "flat": 2537,
+      "phone": "+3368456144",
+      "createdOn": "2026-01-04T22:15:26.000Z",
+      "notes": "AjqgFdaqjDloabuOJbwbSlSLAmy8X70DGJSOVp8AnFWTu7kheK2fH4pVGwP3QkM8kMF4JbtWxWPHIPKfswEQbKFSKtAYPUIfTTYU6r9fJtjCIZjmzlW4Wx1qHecApfJUgajb3dQFJAyx3AlAKhvigWZwGY1hX85NbP0NApYeQOgdKQSJKgtZHRyyaKzRBePiWxanEEgkiXVIZ326Iu7vtj35RvRNUV16VPu0DNqiGMikXsmHehcdHoPDmc",
+      "_id": "695ae67e1c508c5d5ea8c573"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

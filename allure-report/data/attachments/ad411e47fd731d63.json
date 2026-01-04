@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:15:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-cjVbZmkyF+AdDxpu5zU8vx6VNr4\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Rose81@yahoo.com",
+      "name": "Rhett Osborne",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 853,
+      "flat": 5286,
+      "phone": "+0481676097",
+      "createdOn": "2026-01-04T22:15:59.000Z",
+      "notes": "E0gZyx4xS4uGkBI12j7tRVSk5D1VBu4fKhRqNd5OIzWANjdkcwwR597WJ9uOQk2IRLWjnEN1oGS5IjVoDkc4dK12u2D408HuYUuV3ovDqJJFp4oMw712x8GzPf24iYBLw0fp7jJl84dCRj3HoYc6w51m3xhpzf5l231ipjnzhEDxyiTo0f8xOesmnXi6TvXCPzUFCl8BLfP3wqxjrnjwJbR86pDeeqbfeZJbIhNJB8UDJWGwXKrXidkoxi",
+      "_id": "695ae69f1c508c5d5ea8d217"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

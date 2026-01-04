@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:15:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-k7bxKSdbXw1v7cOIBG7tOxn+n8U\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Manley.Beahan@yahoo.com",
+      "name": "Antonio Melvina",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 725,
+      "flat": 9999,
+      "phone": "+0540084047",
+      "createdOn": "2026-01-04T22:15:15.000Z",
+      "notes": "X30Sglou9UfEk70yVSbpUhNQAGMnIORYiwRICsnSHhEN4Ef8s9nC5oGKIMHR1Ckl6JYoHniAooomsple8ogi2yfex9qvrh94iI07nTkLVU36SQxGys91GhOZI9rM6fyWK7CEWPYQ6Sl3HGPhLQ0h8XXdy4LS6eBg748k1dTR0MmCQMBgg27QxqEJTuyr1Oet1pjwniaaEKwtYDfkKoTiCxY5jZkyTCA4TpGliY18ryIllPXSFjPY6rODrS",
+      "_id": "695ae6731c508c5d5ea8c296"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

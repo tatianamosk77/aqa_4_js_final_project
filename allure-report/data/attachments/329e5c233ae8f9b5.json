@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:15:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-/xHwaUF64wEo68dOBqJlPQZdSZQ\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Raymond.Howell@yahoo.com",
+      "name": "Juvenal Ayla",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 880,
+      "flat": 1584,
+      "phone": "+2788669924",
+      "createdOn": "2026-01-04T22:15:39.000Z",
+      "notes": "2kp1qnISvGGnPgqGq7iIN0rVR2D1bnAkAbCntoSoKQKMXlVcYGs1ugNx6HqFg3fglIeSCCjLRnatFkqjXAuB2NrNCgDDGj7x4AGHgfUVFjGEmR7LxD8mIEfg7RYYQdGktD0BDWnruzYMrbbmEZHzXAGuWuwBfp4OPZbOyI1Cgw1Qet4osj5Hi3sx3WNDo5Nc9DDrve6z94KCzG3KXK1VVWS5NNPQYDxLYEFE4TeH4zUubeX833igObMABI",
+      "_id": "695ae68b1c508c5d5ea8cb1a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

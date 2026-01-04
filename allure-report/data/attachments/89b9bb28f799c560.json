@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:15:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-qF2pnWV3FWDOQq7u8OsYceZP2Mg\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Michale_Wehner@yahoo.com",
+      "name": "Karley Lionel",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 999,
+      "flat": 8992,
+      "phone": "+1550445694",
+      "createdOn": "2026-01-04T22:15:15.000Z",
+      "notes": "E6nP62QTji6GyH5xJkEGJKMQ99hDOGZ6PUC0hkSSAIYvSdKFvZC0xuQK5dFEVihU1M9ctr6PgaOZ9SkcsmnVbXKJ1F4KDAEkWXGibUVyWV15FGXZtA5l6PoR4s2mHqcc40ehEQkENjhhqLqs0s8aZiAzCVwvVXqKo0H0JReRKJxBQcHJzK8h7DktnUNPgwHaIEuPMV9ETvMDRx9sE4HI2qBPBY4GOAEyNIPXOQ0AtRcdle7q2UybmXLm4b",
+      "_id": "695ae6731c508c5d5ea8c2bc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

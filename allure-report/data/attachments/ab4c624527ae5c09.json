@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:15:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-aaiFP9MVkN7+1qHsHboPhHR7o54\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Lily79@hotmail.com",
+      "name": "Sarina Elroy",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 20,
+      "flat": 4802,
+      "phone": "+1441644159",
+      "createdOn": "2026-01-04T22:15:36.000Z",
+      "notes": "LmGqJFdb0xQoi4fIJQdY2lNAacrmNbzO7Ohf3cl00JyeqAqCGdfcWyOZKRkkgRoh5KifpEBpojyLNKPRp4y8pSEInxMqyVXOr9f4AU9WvW9wuHJBky08X8fXFYFf0Ij0v8v8xEzk1z49tHz2sTMunOxnRd8CYSGgf7cuMEHyHhjlzo0KnmPlc9r7cUnrzSZABauzpmZSVXVOsIRLbhli4AIEJH9UpO5KT41EnrsFrKQzmAEqcWWI3WC5S6",
+      "_id": "695ae6881c508c5d5ea8c9c8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:15:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-+mPaETxED3F9e07vIDqd6UrSQCk\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Samir.Gottlieb93@hotmail.com",
+      "name": "Peggie King",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 233,
+      "flat": 6516,
+      "phone": "+2864081863",
+      "createdOn": "2026-01-04T22:15:29.000Z",
+      "notes": "Z0dxf2UkPVwomlpeNnDNPIE7ZC4kW0T23YEHDHGcJj9gzchXLmvQsFrtZYgO2wrfrUnwbsAUO6lbA2rVNVcFlxGhJ6VL4fWDYf8IsMzFfYEYWi9XMO08COvgzSTwpsruFQhyaAlwd6fd2vzORuiFLMNX9aZGaPIFd0BiEwSwV4yF4DQkCFy1KEryftJ6Fw3YLsOFpL2enWUadRKm3D1T1oIABlRfGnq4GUKmrScK4zfY4YSOVSNr6TnD4D",
+      "_id": "695ae6811c508c5d5ea8c657"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:15:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "556",
+    "etag": "W/\"22c-qeGSEUzlnveaQfgRTOh5jnW9pfc\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Trystan_Hettinger-Hermiston@gmail.com",
+      "name": "Toby Jesse",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 897,
+      "flat": 801,
+      "phone": "+4511490575",
+      "createdOn": "2026-01-04T22:15:19.000Z",
+      "notes": "sSVmLmMUJsaREBLpGG4EVmhTrFlFEsdMHPe5YBNOgwt48w2eQKiFVON1BubXzykHWBDjKSD72MQLQ6zMn2yp0OhsZQ5bM6mVJj1Hks6otcnexiHuzbBh11GYX0AydjiaVOkYiG9UFWNRSx8meaC5SGd2pE1e9pKxSin60tQxBM9DGYYATpvTAwTePyc3JEQUfo6hvexPeLX3s3SXMAil8edw7myXxXF7oDX08l7Q3TyvsOZawm3OhjdL5z",
+      "_id": "695ae6771c508c5d5ea8c3a2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

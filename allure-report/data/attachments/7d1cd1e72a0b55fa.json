@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:15:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1878",
+    "etag": "W/\"756-+7l+s3SX2cBQkbMpY8rmnHVeMLo\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695ae6851c508c5d5ea8c849",
+        "email": "Sigrid43@gmail.com",
+        "name": "Cordell Shemar",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 262,
+        "flat": 9957,
+        "phone": "+9145882191",
+        "createdOn": "2026-01-04T22:15:33.000Z",
+        "notes": "wsPjKxXvAZbYfFUwGplAntV6jfKJvgfpYKABR8dkv0s75QPAzvSrEE0JtM1v3tatU2KesCKEq8hTwpC3SheagtrH16mk0bgVBHSxmCSAuI4psjZwhUTRH1pUjDkl5V8jr4xQ9c26zBANRCIqLuXFEavL1HCAQXRUxqInBrt902scyJDv2WEOANnx8vgyRil7o2KJdIm51mrjSDgth072q7vgazViePvskxCN4nGRiRmqrFQfUvCmQQHBwG"
+      },
+      "products": [
+        {
+          "_id": "695ae6851c508c5d5ea8c84d",
+          "name": "Keyboard22332",
+          "amount": 371,
+          "price": 80220,
+          "manufacturer": "Google",
+          "notes": "qr148afGJngUmS2BUUKQS5B1S8K3T3lwb51E8E8HhZObp2opoYTv7mcPlHM0En7rzthEKHn8m7u9tY0UsqRxt38mxSz0qNXdjllq5WxFhP8WrfnjtagR2TwosJxjsv956kieI9wMQVjxWwmoI7wDOC5LUzlOYJVBsfPj8L3v1dPIlXOmy9fC8DCIibytJKbF6o1mqK91v29vP88LeuHgRLzQnhD7diP7PJBfVn5EkTtYbOQgGEzeFebITJ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 80220,
+      "createdOn": "2026-01-04T22:15:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695ae6851c508c5d5ea8c849",
+          "products": [
+            {
+              "_id": "695ae6851c508c5d5ea8c84d",
+              "name": "Keyboard22332",
+              "amount": 371,
+              "price": 80220,
+              "manufacturer": "Google",
+              "notes": "qr148afGJngUmS2BUUKQS5B1S8K3T3lwb51E8E8HhZObp2opoYTv7mcPlHM0En7rzthEKHn8m7u9tY0UsqRxt38mxSz0qNXdjllq5WxFhP8WrfnjtagR2TwosJxjsv956kieI9wMQVjxWwmoI7wDOC5LUzlOYJVBsfPj8L3v1dPIlXOmy9fC8DCIibytJKbF6o1mqK91v29vP88LeuHgRLzQnhD7diP7PJBfVn5EkTtYbOQgGEzeFebITJ",
+              "received": false
+            }
+          ],
+          "total_price": 80220,
+          "delivery": null,
+          "changedOn": "2026-01-04T22:15:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695ae6851c508c5d5ea8c873"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

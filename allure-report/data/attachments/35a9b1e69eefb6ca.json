@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:18:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-qfTJ0v6o0I4DHn88egcKBOUImuM\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Katarina46@gmail.com",
+      "name": "Makenna Khalid",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 99,
+      "flat": 7027,
+      "phone": "+4406532366",
+      "createdOn": "2026-01-04T22:18:47.000Z",
+      "notes": "EIxQXQqAKsRtKBEP8kuBrMIbbLDb7FQ008EcB6nejUeRK4gJ8myJEphNu6ddBnhHtirM1XvPxMXluJwtcsGFoE4Uzk2V39mSUM9Bf8Wk1dRFco7P7zqBVLc0K6IS6sJgNF2cF6WcInyuC8p2EWQDgtH1bi1zodofOlMiTiFLfegWYIQ1AOUKfbteSsn2EmijuvBYxqLXZBwKzrWqUWOuywbeI1EUj3IKyBtUqrS4Ns7NP4G17DK7k0qiJL",
+      "_id": "695ae7471c508c5d5ea9263e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

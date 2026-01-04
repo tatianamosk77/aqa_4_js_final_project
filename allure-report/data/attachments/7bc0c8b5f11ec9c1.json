@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:15:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-Bp+lPlO9D5mXa/6ADfPR0m1ph9w\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Maudie34@hotmail.com",
+      "name": "Aliyah Walter",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 365,
+      "flat": 8715,
+      "phone": "+0201526952",
+      "createdOn": "2026-01-04T22:15:35.000Z",
+      "notes": "BVAeFIATu2Dutluk9fiIscJAMmm05eEbXQdn0nwklLaW2v7QBaaK9yxCxycVqKTJXLEvspXayBuUzlD5HJbR3nuxvud18xYeWEdEUpgSKbtuQHa8hnykSM40tU52h4DdQxwuJLE3aUDYSTSUhzUSdlA6UzapoGxtYsAhmvqdFDO5PTf8IdFec2NLYjxkZQGvp8jeGuRrMW1m07CxUhrpx0il51J2oMvzdVqljgCKSFDheiDhuqvpIzvx8E",
+      "_id": "695ae6871c508c5d5ea8c91b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

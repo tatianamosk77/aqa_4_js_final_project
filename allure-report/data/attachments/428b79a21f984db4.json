@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:18:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "557",
+    "etag": "W/\"22d-tGHiT4pwDIPGz7AGYLUq3WcnfIw\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Keenan.Tromp16@hotmail.com",
+      "name": "Napoleon Price",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 386,
+      "flat": 8870,
+      "phone": "+9333050916",
+      "createdOn": "2026-01-04T22:18:54.000Z",
+      "notes": "45tZBEKgLd4HfUiI3wuXMSBzbw69QFSEtqbHUepU4vwwbkmrzwkxhubNzSKc7XHWXQvNrc1L9yLkEkdRuHx5MpvhbIFf6rguYjDQn9n2AYCGrkD0GqezX2TkkAQTtgY5rYhMqbCu2aO0UsmyRVOOPTMSpOBgTVoNNNrU0JBkwGZIOxXL7GUkk4zI0wRdw3hGGpoqgpPA3oeMhl0kN9xetSzEseFPBz72RBe0tM3ikdX5a4yDc6LDmCW747",
+      "_id": "695ae74e1c508c5d5ea92b25"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

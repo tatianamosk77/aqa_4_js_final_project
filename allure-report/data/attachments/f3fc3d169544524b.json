@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:15:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "557",
+    "etag": "W/\"22d-igGOMProBTXOZEymsLrv6tkSXlk\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Theresia_Kling@gmail.com",
+      "name": "Yesenia Anderson",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 950,
+      "flat": 4835,
+      "phone": "+3455019363",
+      "createdOn": "2026-01-04T22:15:14.000Z",
+      "notes": "0o3r6N56g3EMRsIU89GTu3sU1xz3abYgNzWaShbVyg1m6AjLxLejOZVmU9Ju4gomQOAmEVo6IRjjnhGopZ10zo6khAnimigCQe3pMAnVkMnJ3zAfyiUtXBW5fAY4dXWlXBIbXf0yFtkbDO1cfmSKOIHne5UbBLL9rrx1GnrjI2H2XR6U9a4voBffu20QSfacie9s68FLJBcGCDB66DLMSr9EZryyHN7bvCeLZx2c08Nj7xZnr32cBFJKkv",
+      "_id": "695ae6721c508c5d5ea8c220"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

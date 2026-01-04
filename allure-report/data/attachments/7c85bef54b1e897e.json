@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:15:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "208",
+    "etag": "W/\"d0-FWI30U5MCHZMthdezu5/t2iwY9I\"",
+    "keep-alive": "timeout=5, max=41",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Chicken90930",
+      "amount": 405,
+      "price": 2915,
+      "manufacturer": "Microsoft",
+      "createdOn": "2026-01-04T22:15:44.000Z",
+      "notes": "",
+      "_id": "695ae6901c508c5d5ea8cddb"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

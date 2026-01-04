@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:15:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "538",
+    "etag": "W/\"21a-BLMG6I+3frn/1SmN8EgRoabO98c\"",
+    "keep-alive": "timeout=5, max=76",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Natalia62@gmail.com",
+      "name": "Lura Oran",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 406,
+      "flat": 925,
+      "phone": "+1854185911",
+      "createdOn": "2026-01-04T22:15:39.000Z",
+      "notes": "SwE1deNbhp6yDNf3PqFPMff8eV8fsCZtawpBf99wuhhZppAhpMDU1uIH5HbhXOMb9XGeRtArO3jI5PrNCQl4qfFBICOmd3zbyP6ZWi0voD6p7llzjiA1e23W0qVYY1iNG4BQfe2eyQYPtGQ0PAMlhcBTAdmvSzOtlR9xHHKBXgtIdTNaYuHe8xpGOxj2ZJA4mptzmg8ZD55rQ5DJpiyF2DfOCUiUR1ZzPMDJajDbpXMBNP1J0S97ovodVo",
+      "_id": "695ae68b1c508c5d5ea8cb50"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

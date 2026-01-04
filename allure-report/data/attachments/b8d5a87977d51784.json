@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:21:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-G7uJnGO3OsXZCK39cLf0xXmkLgM\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Stewart2@gmail.com",
+      "name": "Chad Emelie",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 920,
+      "flat": 6771,
+      "phone": "+9569151100",
+      "createdOn": "2026-01-04T22:21:17.000Z",
+      "notes": "K78oOvQoY4YDvY609Y5nfmHPLRLuBC3QZyauhfmwU6OhJZjgAc6x3fO8qEnif43Y9KWAOWjE1onb6nXJHpI6LqydTjexWoqM30m7v0135ZLc1JUSlwGjQO39ZGDjq4hLPbMAA2KR07Mjo3y2znYJVHIezFcwhlD5Ia14hm1kzgj5SkjXVRVHlT7r23mMlcDMkeLaYxUl2lhSrnqY6ORcOw4b2I9MWTHSG4rimeVaMAYVxBZkb9Rds7YOss",
+      "_id": "695ae7dd1c508c5d5ea96872"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

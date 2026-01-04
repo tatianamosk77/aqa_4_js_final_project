@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:15:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "673",
+    "etag": "W/\"2a1-cNqSuXRzxpuTQdeOOLph5g9aZGw\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "695ae6791c508c5d5ea8c43b",
+        "email": "Christ17@gmail.com",
+        "name": "Norwood Demond",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 999,
+        "flat": 2709,
+        "phone": "+0588842413",
+        "createdOn": "2026-01-04T22:15:21.000Z",
+        "notes": "DJbeEJiELGD3u6u3BC6RtDbseopntk2KDQyXWlwo9GLLAUDaxuEyNaQ7nqE4bT8w4aPu8USA24zi0H8kScp0g15j5wq4Y7WdpH131xthchi76WtBOWUDEhvAuviRGumWo2Ly5lzdh1A8bzfnNHM39ierzKqEDOyGMeevkvjFuisS3edfejOeUWtGtM9ZWvyMuB6NdfgHgTh8eSJlMoKRGdfCBOEMGrll4xBSJ5HhRS1QoXEqiw2wfYHaDC"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Christ17@gmail.com",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

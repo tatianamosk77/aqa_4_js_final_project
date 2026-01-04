@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:15:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-MKL80NCIzjW0Dx/FiI61tvoVNjc\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Rudolph_Hyatt@yahoo.com",
+      "name": "Lina Jamie",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 160,
+      "flat": 2064,
+      "phone": "+0923104343",
+      "createdOn": "2026-01-04T22:15:21.000Z",
+      "notes": "mrY70RhodpdJ4yJq3BAYH0Je0OdBmMzRFdQ23rBOLO5C1kpVADtWMZ1QHtR6Gphp2XjkV4bjG3WGINg87vqoszvXHJZe9UkoyFVc1EZBOs9fIMjvbF1lLwbyJ0WpinrrgpNfQ9AXbxe1eJc7Occy2kiWo2VMDRH7qT2azibxIwjGw4q6bgU0aTHOqgrlC34yQ7raGJWuVDeE4uSj7QkXLD9qvLO1xANFhuinlRE2AZSu9Z9ChW24jw6gjE",
+      "_id": "695ae6791c508c5d5ea8c45b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:15:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-XW4QpXuFQM2w6hFQqQelRuGnvk8\"",
+    "keep-alive": "timeout=5, max=66",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Damian21@hotmail.com",
+      "name": "Ila Jermey",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 649,
+      "flat": 3222,
+      "phone": "+9925823704",
+      "createdOn": "2026-01-04T22:15:28.000Z",
+      "notes": "cABU7Ux3yw6EY6fDYyAbTzjGBaWzgbrbGfz2OTdn3Z5AFaqkE9uhj25Bl9jRM19DBhWC1DZNU0m2sziQ4TrFoYsiVeUaptv0eZrSwnbCxPouqZw8TwBUX6bu9PPM8XriNJR5ZzQRwfQ2s2zy5L6LvYNbASS5wa6QD4mATiAMw3n2yiKmxJseJX5m4E1dvyKpmMjL2NvKMnJEKPyS4Ax7eabACnnRYmXNBVsG9zc3QuYS1UXJiq4cTd5Liy",
+      "_id": "695ae6801c508c5d5ea8c632"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

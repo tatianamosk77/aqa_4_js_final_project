@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:15:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-oow5ADtZg68pKVPlF0xxeD/RbkM\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695ae6861c508c5d5ea8c8d6",
+        "email": "Micaela37@hotmail.com",
+        "name": "Alysha Julius",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 447,
+        "flat": 1138,
+        "phone": "+8786368489",
+        "createdOn": "2026-01-04T22:15:34.000Z",
+        "notes": "yfG3DZJ2pMAVVZLPXj7jaBJ13reK7kJHjvENJaYoO27OAAO88JV8DaPdO2j6PELe9hcvMRNE1imsc49hoGa3uaFy9gjjtuanKbM2ExBsKgm7bEdxrRfflxK0rq3V4byMHnQfO8BylvFXonZthdwa6ViETliGGEs4Fbgvl4a72bdYppV6SegsMSUtk9k2XMLHPtTQ3KjDyLOtUcaG2kMcq6EzwJJmrOf7Dc9p54zhrsqVgyT3m1AsLFQh6P"
+      },
+      "products": [
+        {
+          "_id": "695ae6861c508c5d5ea8c8dd",
+          "name": "Chicken50749",
+          "amount": 713,
+          "price": 17315,
+          "manufacturer": "Microsoft",
+          "notes": "8XE5c0t0mRA1rE3u5DxbtzUpTJUGqqKZPlNwr6CoDgDwfqkotIOXIsROBJ78a4jbSi3upqDIu3MN7zghz9153FHC1RDqCBPzqh9j9SeoPw9JJfzpIavw7gyvPn7H08RRjwYyeHZDSVVI7c2yGY1A3Zj3ZoZwO4O4MW6IneMeoYV8Pu3dBVaBTQfBPEtMzX18f8hMjU9Q05CJTsmAaFsCzXhcrhtGiEo8whPaGhSKp8cijHNQsadoAGnqtG",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 17315,
+      "createdOn": "2026-01-04T22:15:35.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695ae6861c508c5d5ea8c8d6",
+          "products": [
+            {
+              "_id": "695ae6861c508c5d5ea8c8dd",
+              "name": "Chicken50749",
+              "amount": 713,
+              "price": 17315,
+              "manufacturer": "Microsoft",
+              "notes": "8XE5c0t0mRA1rE3u5DxbtzUpTJUGqqKZPlNwr6CoDgDwfqkotIOXIsROBJ78a4jbSi3upqDIu3MN7zghz9153FHC1RDqCBPzqh9j9SeoPw9JJfzpIavw7gyvPn7H08RRjwYyeHZDSVVI7c2yGY1A3Zj3ZoZwO4O4MW6IneMeoYV8Pu3dBVaBTQfBPEtMzX18f8hMjU9Q05CJTsmAaFsCzXhcrhtGiEo8whPaGhSKp8cijHNQsadoAGnqtG",
+              "received": false
+            }
+          ],
+          "total_price": 17315,
+          "delivery": null,
+          "changedOn": "2026-01-04T22:15:35.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695ae6871c508c5d5ea8c90a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

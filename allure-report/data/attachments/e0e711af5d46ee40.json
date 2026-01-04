@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:15:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-72f4EIw9tHc2O8SsDum2TCEEFXw\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ramona_Kling@gmail.com",
+      "name": "Kelley Earl",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 135,
+      "flat": 7702,
+      "phone": "+2022253120",
+      "createdOn": "2026-01-04T22:15:31.000Z",
+      "notes": "dyqEE5zwVPgl8ioDUbNwTLoLJgO4qfpC4nxcgY8CIu2RCV6VklIQfwEicjVEqtK0nBfhXV6P8RUtHSujE1AyGrMbiFHLciIgT8RLDKMqiVxPPpaEvuuXxlpsq5gyTZFgpsYQMYtY9ByzbPApHjNGnfZINXg04UTCoQP6P4jatToN0wXEgdUtr5c5m6zK1EXkFgDMH2BEGLYK2RwRqpthfNnkHk4LKY6K8ow7grU1AJvgKEpIIdLJPdsUh2",
+      "_id": "695ae6831c508c5d5ea8c74d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

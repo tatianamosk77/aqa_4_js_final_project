@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:15:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-LBVLosyM+EHeDXPnYLOZ1IerqBE\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Dave.Lindgren@yahoo.com",
+      "name": "Abbigail Timothy",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 651,
+      "flat": 1296,
+      "phone": "+7225865366",
+      "createdOn": "2026-01-04T22:15:14.000Z",
+      "notes": "KiicWHnDPJ2GvtlFcgQVzWsZqTNygi5Fs5xOeBBhjVMBhcah0UeQlHjKQGMyj5716pjsTnjvqGccVkOLHIENYm4QVQzQ0JFaKKAScubarWnPSfBzgcUuBIGtu0vufvvq6Y8mShJvg9p6ZHx46iA8ePzbqzACMVdeqAawplbf2nPEcxtFnpAP5aMuR9wCL04dyP7koTCOj8AxwsfoUxWG6QIbbUe4qkyrzgiqJ7UO6I1HRVMzjFngWQFvv4",
+      "_id": "695ae6721c508c5d5ea8c24d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

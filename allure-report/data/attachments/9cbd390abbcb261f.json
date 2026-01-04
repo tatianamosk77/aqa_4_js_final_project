@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:15:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "553",
+    "etag": "W/\"229-TZ2W3BLQpvBs7Bfy1uQ1sIDC6Ak\"",
+    "keep-alive": "timeout=5, max=53",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Viviane_Jakubowski@hotmail.com",
+      "name": "Alivia Rafael",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 46,
+      "flat": 7962,
+      "phone": "+3275692498",
+      "createdOn": "2026-01-04T22:15:35.000Z",
+      "notes": "36Mh9uxBW6udZeEAx2ChchIWsHU4UwfzG4UosEz4MkLQxXhOrko64NER89mSlUcH7dyuVCie8ko1K04Q3HS5vnTgJOJGAef3zXgxAjGt6oMla3doPVJOTjhqrWX3tvWunWK9xyzWjzOCuEawkF49nibmH3zoiO5n97N3iqQK5RAjuflREPbppLkca9wV4JiYJBgNNDjbCVOBBF5hmuCfMKviXzxzNnSe6fqBd5wvtcOqqVGTWds1fAX6hb",
+      "_id": "695ae6871c508c5d5ea8c949"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

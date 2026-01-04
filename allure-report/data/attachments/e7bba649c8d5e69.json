@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:15:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-4qKD68pB1FCpsYsplN3ZF+aFS2g\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Rodrick_Morissette@yahoo.com",
+      "name": "Leif Arnold",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 314,
+      "flat": 3169,
+      "phone": "+5489208418",
+      "createdOn": "2026-01-04T22:15:30.000Z",
+      "notes": "Aa5ohtL7azRBnfGfAL6pF8Hz4d6ynAt5kZc3TX1TXOwr1LDDDcJD6sYUXZ3odyVHFicO6UZyOQph5hyy7jYkKl3GtkqaxHFaBEIU0NywYvFh6RxbaSP1cFEDPGI91CRW50hGzwwbCPnPf3o6lgP3p1T6jFg5AT2FybFMrhrDay1330AMXB0pPPxBuK1z65D3Qwx2kw4q50MRh16ZeozkGipFHqi2tHko6lNMJWULbDPF7PnoXNN1cmuumu",
+      "_id": "695ae6821c508c5d5ea8c6d4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

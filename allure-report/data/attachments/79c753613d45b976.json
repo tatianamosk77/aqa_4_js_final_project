@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:15:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "555",
+    "etag": "W/\"22b-h47nXyrPL7k+BqJ2dn0FF0VNPsU\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jordy.Schimmel@hotmail.com",
+      "name": "Terrill Greg",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 602,
+      "flat": 7717,
+      "phone": "+2631746663",
+      "createdOn": "2026-01-04T22:15:23.000Z",
+      "notes": "hTbu19ZPO3SUozCZISPgeNhQdmgmpBmuGkqd8BHxCh0lTm8iP2ZxZrMxt79uiZQ2x6KlgdVrCug3IocgHELvEXhrENtxdFY5lgwWHfhDBpAbOvIv5Qu6pPz2MAn14rCzHtyyCPUtlNdgB002eRWhkdfGnMusNP5N5REjyj0bUrDYL05gd3cpTGd0n5nH9N0gEJZROy2su6UYpqqRMhrZhRomBImqNglcXAERUNxaZOMIeBRUj5aruRhQic",
+      "_id": "695ae67b1c508c5d5ea8c4c4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

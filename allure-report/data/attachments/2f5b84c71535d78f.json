@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:15:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-5hkAuu2IQfUOetdPnk0JSPaccLc\"",
+    "keep-alive": "timeout=5, max=77",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Christiana63@yahoo.com",
+      "name": "Shanny Adalberto",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 449,
+      "flat": 2324,
+      "phone": "+0070169261",
+      "createdOn": "2026-01-04T22:15:24.000Z",
+      "notes": "M4wG7sLNz2wT6poTJ2CqAVIJOYDLNbRYya4rRm7HTZEKdGnnYiRjaExDCH96VLfTk1pSXmcq0LjSwVr7UqsPlyS0Bnw12Kggmqu6yTXvyac71eucy7R7kB88xUpTF0cXZogi5cO1MQqJmNDdovSyQwCNoIDY9wL4ebjqGS0ozaWaiJpRVtoaOp7rjOzHq9JoW52aeFR6jmlxN68ydwZLUjPu9Mu69hCKRqf2Ru69wAmbXcqFV0sQuOJkH3",
+      "_id": "695ae67c1c508c5d5ea8c503"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

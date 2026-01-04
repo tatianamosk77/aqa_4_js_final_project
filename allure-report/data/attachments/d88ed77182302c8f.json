@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:15:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "527",
+    "etag": "W/\"20f-Hh9JWIagBfgs8c+dKMGFsswjCYc\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Deron26@hotmail.com",
+      "name": "A",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 937,
+      "flat": 6261,
+      "phone": "+1915933562",
+      "createdOn": "2026-01-04T22:15:13.000Z",
+      "notes": "QOehzfXrwYqTVUUdsvW5orhSYFY8pdOvQkWhJx16LvMU0AfTsanB42jT93pJVtmsLy56iBKPNqW6tA105NYk3l4J0RziOMVsfzJ3Kt782T5J8xttC4ilPeVZwYTkQI7L0SnL2hJLRbkhpXGcxr7kC6XasOpOP9DWLjFtLksDlN73X9BwCLo8QLKCUCYdgDkxyP0fIYBXAk7qVScRvwwHunm1SOqNKv97RgUhhshxDKBTkyNFkisqRosDYy",
+      "_id": "695ae6711c508c5d5ea8c216"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

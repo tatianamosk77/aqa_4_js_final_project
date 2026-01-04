@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:15:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-qFJAokPNey3UnV2JzplJeAcge9I\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Donato_Connelly@yahoo.com",
+      "name": "Omer Isaias",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 498,
+      "flat": 8355,
+      "phone": "+0374536967",
+      "createdOn": "2026-01-04T22:15:39.000Z",
+      "notes": "CMWjA6FrU4mJGz6e3P1srSSzdpLRzTcsZMImpgqkxlBJlNON7R6Uh5zHUYUulWmwVtEHEMoaYxrYUdCz01Ei3pq3aRHrgMT9tCmxZX6UqUqahEhXtUa1VWjFagPfv0eAjsNlgu3fyIsq2IMwgzDuYyBTk98xeE8T4vjczMeEztOpoAD5xayRs8IKdg7IUpFwRemmq4SOonmY2rlybwBtpefYbuI6NgNa7C056SO9UubvefUbjFDpwqX5X9",
+      "_id": "695ae68b1c508c5d5ea8cb63"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

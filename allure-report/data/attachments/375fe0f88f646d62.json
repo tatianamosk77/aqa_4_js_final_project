@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 22:15:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-QCaZwj++OH74eXLdWVE+CQhyEoU\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Karina72@hotmail.com",
+      "name": "Tess Derrick",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 112,
+      "flat": 3446,
+      "phone": "+0532196173",
+      "createdOn": "2026-01-04T22:15:32.000Z",
+      "notes": "rrMU4NeIu67QewsRfNc5upHQKi7ZqZhDNUX41FYuHIepPDvICI2G8ErXAFtEIG9RUynwbrAFFkEssEaj5BelhC5jlhoB9f49aTWNcJcQyLK1q2aZCHdfWD24uhJniWoDgzPx5qtMmWOqIBBQF8eJtYwMEJc30J8yMGOcr0rEjx5OBfyhh28ohkDApeoecoNo5Ar7Ty5wvC5spXllSvTc5u3qvJdYEWmgkmFyZSjcFz6gnVP4b8mDUU5S6a",
+      "_id": "695ae6841c508c5d5ea8c813"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
