@@ -271,9 +271,9 @@ test.describe("[UI] [Orders] [Modals] [Assign Manager Modal]", () => {
     page,
     orderDetailsPage,
     mock,
+    assignManagerModal
   }) => {
-    const assignManagerModal = new AssignManagerModal(page);
-
+    
     const nameRe = /Jackeline\s+Padberg/i;
     const updatedOrder = { ...targetOrder, assignedManager: MOCK_MANAGER_JACKLINE };
 

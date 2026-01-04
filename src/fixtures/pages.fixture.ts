@@ -33,6 +33,7 @@ import { OrdersListUIService } from "ui/service/ordersList.ui-service";
 import { AddNewOrderUIService } from "ui/service/addNewOrder.ui-service";
 import { EditOrderUIService } from "ui/service/editOrder.ui-service";
 import { ConfirmationModal } from "ui/pages/confirmation.modal";
+import { AssignManagerModal } from "ui/pages/orders/assignManager.modal";
 
 export interface IPages {
   //pages
@@ -55,6 +56,7 @@ export interface IPages {
   scheduleDeliveryPage: ScheduleDeliveryPage;
   addNewOrderModal: AddNewOrderModal;
   confirmationModal: ConfirmationModal;
+  assignManagerModal: AssignManagerModal;
 
   //ui-services
   homeUIService: HomeUIService;
@@ -131,6 +133,9 @@ export const test = base.extend<IPages>({
   confirmationModal: async ({ page }, use) => {
     await use(new ConfirmationModal(page));
   },
+  assignManagerModal: async ({ page }, use) => {
+  await use(new AssignManagerModal(page));
+},
 
   //ui-services
   homeUIService: async ({ page }, use) => {

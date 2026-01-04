@@ -1,5 +1,6 @@
 import { Locator } from "@playwright/test";
 import { SalesPortalPage } from "../sales-portal.page";
+import { ScheduleDeliveryPage } from "./scheduleDelivery.page";
 
 export class DeliveryTab extends SalesPortalPage {
   readonly uniqueElement = this.page.locator("#delivery");
@@ -109,4 +110,11 @@ export class DeliveryTab extends SalesPortalPage {
       rowElement: row,
     };
   }
+  
+  async openScheduleOrEditDelivery(): Promise<ScheduleDeliveryPage> {
+    await this.scheduleDeliveryButton.click();
+    const page = new ScheduleDeliveryPage(this.page);
+    await page.waitForOpened();
+    return page;
+}
 }
