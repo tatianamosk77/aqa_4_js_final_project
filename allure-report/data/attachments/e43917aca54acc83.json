@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 09:22:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-hW4AMy7I57X64kt9aHtAVe+0coM\"",
+    "keep-alive": "timeout=5, max=73",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Allie_Little@yahoo.com",
+      "name": "Kian Joshuah",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 836,
+      "flat": 2580,
+      "phone": "+5332884887",
+      "createdOn": "2026-01-04T09:22:24.000Z",
+      "notes": "X02cyHyKV5JSCy1CjoapVUSggQJiRSFRnHrYp7SzRAJYgGCnchvmvUyOLV74PaHPonc8lSeMTuCYK3HgLW5ubo7YaCinA0u9shYwi3xr78pUrMEkk9LMMX7CMJayhKocW26GsLe0O63t7AsCDffYtgi94kfzpldiQADEbhaI3wnuNfVn8c6SKLp3eAhHZNu7s55wAIZZwRRRBCjqoFksrIw3CpYbhdhUCJzyZDrjwCSVpKHcROxPZe6NLE",
+      "_id": "695a31501c508c5d5ea13402"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

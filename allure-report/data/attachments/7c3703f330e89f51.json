@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 09:22:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "537",
+    "etag": "W/\"219-av84mfi7s/NeXXpJ57hFGq4uuPk\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Marcia.Bauch5@gmail.com",
+      "name": "Macie Ron",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 3,
+      "flat": 7701,
+      "phone": "+9769392220",
+      "createdOn": "2026-01-04T09:22:33.000Z",
+      "notes": "9jAHRHOlcROMgGV404voPnOVawb8a87oxsuKsanePOt2mMIYDBIDB0HtWBQwLgsphUIAoYlEDXz69g4X7uLrkA3CX1bmQzz4lRaCNksnwDZq7n4spIVPUJKlEfh5Eg992y0V7bKRIY6BaMK4mBzRZ3QYBPPSwiKQDoIHl0AHQmoNgNg677YPxW8zkL2Ngy0U6XBLKEEXxxkP9qNvpmrc7skVqfBxJDC8I51qUdYyFYVIscpoza4iJSSY4Z",
+      "_id": "695a31591c508c5d5ea1366b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

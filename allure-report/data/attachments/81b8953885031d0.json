@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 09:25:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-p0ExborWuDMFvF1u44zQzIbUoVw\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Dolly55@hotmail.com",
+      "name": "Wilfred Israel",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 672,
+      "flat": 5054,
+      "phone": "+0526105805",
+      "createdOn": "2026-01-04T09:25:20.000Z",
+      "notes": "FSdSwVt5gJc2bFZGHIimD7joFJiUtMK5178TzNs8Dcdt49geLCqBnp7rxQSVECHgOhc5eIquXus4zU5oaHp3TukjKKLUV9hSKFao9QtGewdQU2nRe8pMe0nrY1Q3IYFZCygk9ePJ85SknQMnAh0qhqDolQY12nJOq1M2KOECghO0fMrdc2ty6Q1g9Dh6uXpfyHNysKs2qVkWt54r9OQL1SGeIYDXqjOKBPRnEANg1Xbnl6TO45B086SMUM",
+      "_id": "695a32001c508c5d5ea14986"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

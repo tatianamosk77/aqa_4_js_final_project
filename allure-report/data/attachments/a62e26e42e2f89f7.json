@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 09:21:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-8z++ZbQG6ronHlNVtfx6uGDN43A\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jack26@hotmail.com",
+      "name": "Kevon Janis",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 947,
+      "flat": 9473,
+      "phone": "+3303476112",
+      "createdOn": "2026-01-04T09:21:57.000Z",
+      "notes": "ZgNjjaSPsscN8mdoJCPmWRRTajSm6xDrEtPzodGk7rYZKSiJkcymNCdp4lheKeqWKgMrV1ux6P7bjC4TXkNeQQMcbgm0QAeYIS0txxL1fUTrkTCUXCuo0kN9h0sxLDgkbtnVgl3EnTPe9yXya1Q1F6GSudVWMvSHdZ29P274LUysWsgT269DlN4p7XkvMRqOtMFEzi1sVCE4ldqkVZA7oFp3lIEEFjFGXj8kV09NEIaJHXOVEjjdyn9i6f",
+      "_id": "695a31351c508c5d5ea12e17"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

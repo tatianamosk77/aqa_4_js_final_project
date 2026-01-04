@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 09:21:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "299",
+    "etag": "W/\"12b-JSWkQwwCvNzZTR/e59TOkpKs3RU\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Gilbert42@yahoo.com",
+      "name": "Frederique Pasquale",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 740,
+      "flat": 3973,
+      "phone": "+6335465442",
+      "createdOn": "2026-01-04T09:21:09.000Z",
+      "notes": "",
+      "_id": "695a31051c508c5d5ea129fc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,147 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic:
+    - alert [ref=e2]:
+      - generic [ref=e3]:
+        - generic [ref=e4]: Order processing was successfully started
+        - button "Close" [ref=e5] [cursor=pointer]
+    - alert [ref=e6]:
+      - generic [ref=e7]:
+        - generic [ref=e8]: Products were successfully received
+        - button "Close" [ref=e9] [cursor=pointer]
+  - generic [ref=e11]:
+    - banner [ref=e12]:
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - img
+          - generic [ref=e15]: Sales Portal
+        - link "Home" [ref=e17] [cursor=pointer]:
+          - /url: "#/home"
+        - link "Orders" [ref=e19] [cursor=pointer]:
+          - /url: "#/orders"
+        - link "Products" [ref=e21] [cursor=pointer]:
+          - /url: "#/products"
+        - link "Customers" [ref=e23] [cursor=pointer]:
+          - /url: "#/customers"
+        - link "Managers" [ref=e25] [cursor=pointer]:
+          - /url: "#/managers"
+      - generic [ref=e27]:
+        - button " 4" [ref=e29] [cursor=pointer]:
+          - generic: 
+          - generic [ref=e30]: "4"
+        - button "" [ref=e31] [cursor=pointer]:
+          - generic: 
+        - link "User" [ref=e33] [cursor=pointer]:
+          - /url: "#/managers/undefined"
+          - strong [ref=e34]: User
+        - button "" [ref=e35] [cursor=pointer]:
+          - generic: 
+    - generic [ref=e36]:
+      - generic [ref=e37]:
+        - link " Orders" [ref=e38] [cursor=pointer]:
+          - /url: "#/orders"
+          - generic: 
+          - text: Orders
+        - generic [ref=e39]:
+          - heading "Order Details" [level=2] [ref=e41]
+          - generic [ref=e42]:
+            - generic [ref=e44]:
+              - generic [ref=e45]:
+                - generic [ref=e46]: "Order number:"
+                - generic [ref=e47]: 695a324c1c508c5d5ea14fb0
+              - generic [ref=e48]:
+                - generic [ref=e49]: "Assigned Manager:"
+                - generic [ref=e51] [cursor=pointer]: Click to select manager
+            - button "Refresh Order " [ref=e54] [cursor=pointer]:
+              - text: Refresh Order
+              - generic: 
+            - generic [ref=e55]:
+              - generic [ref=e56]:
+                - text: Order Status
+                - text: Partially Received
+              - generic [ref=e57]:
+                - text: Total Price
+                - text: $101423
+              - generic [ref=e58]:
+                - text: Delivery
+                - text: 2026/01/07
+              - generic [ref=e59]:
+                - text: Created On
+                - text: January 4, 2026 9:26 AM
+      - generic [ref=e60]:
+        - generic [ref=e61]:
+          - heading "Customer Details" [level=4] [ref=e63]
+          - generic [ref=e64]:
+            - generic [ref=e65]:
+              - generic [ref=e66]: Email
+              - generic [ref=e67]: Margaretta73@gmail.com
+            - generic [ref=e68]:
+              - generic [ref=e69]: Name
+              - generic [ref=e70]: Darrel Jenifer
+            - generic [ref=e71]:
+              - generic [ref=e72]: Country
+              - generic [ref=e73]: Great Britain
+            - generic [ref=e74]:
+              - generic [ref=e75]: City
+              - generic [ref=e76]: testCity
+            - generic [ref=e77]:
+              - generic [ref=e78]: Street
+              - generic [ref=e79]: testStreet
+            - generic [ref=e80]:
+              - generic [ref=e81]: House
+              - generic [ref=e82]: "255"
+            - generic [ref=e83]:
+              - generic [ref=e84]: Flat
+              - generic [ref=e85]: "5494"
+            - generic [ref=e86]:
+              - generic [ref=e87]: Phone
+              - generic [ref=e88]: "+7055556357"
+            - generic [ref=e89]:
+              - generic [ref=e90]: Created On
+              - generic [ref=e91]: 2026/01/04 09:26:27
+            - generic [ref=e92]:
+              - generic [ref=e93]: Notes
+              - generic [ref=e94]: sIU7MiaK0zZihex51lrKwkzqWSjcN2dL693Kh4851gMWxrnhaOSlPDME0VmBrz3bccXJjy3spGjxrJg23BNmiHrg8bNCdKjxo3zvlnoec0vbttDzkJlMfzDb1ENRZiRfehIaO5X8VmDeXbpa1ZhNr8mlkD9mX3o8siUjByTfp9gX9sZJZFLWctjkmnfGBUnyxkUMeBqUzu25WwFc1iiAjw87Ao0gVjeT3QvGk16UHlWrQiYV6RZ3gi0PBB
+        - generic [ref=e95]:
+          - generic [ref=e96]:
+            - heading "Requested Products" [level=4] [ref=e98]
+            - button "Receive" [ref=e100] [cursor=pointer]
+          - generic [ref=e101]:
+            - generic [ref=e103]:
+              - button "Bike94436" [ref=e104] [cursor=pointer]
+              - generic [ref=e105]: Received
+            - generic [ref=e107]:
+              - button "Cheese97184" [ref=e108] [cursor=pointer]
+              - generic [ref=e109]: Not Received
+      - generic [ref=e111]:
+        - tablist [ref=e112]:
+          - tab "Delivery" [ref=e113] [cursor=pointer]
+          - tab "Order History" [ref=e114] [cursor=pointer]
+          - tab "Comments" [ref=e115] [cursor=pointer]
+        - tabpanel "Delivery" [ref=e117]:
+          - heading "Delivery Information" [level=4] [ref=e118]
+          - generic [ref=e119]:
+            - generic [ref=e120]:
+              - generic [ref=e121]: Delivery Type
+              - generic [ref=e122]: Delivery
+            - generic [ref=e123]:
+              - generic [ref=e124]: Delivery Date
+              - generic [ref=e125]: 2026/01/07
+            - generic [ref=e126]:
+              - generic [ref=e127]: Country
+              - generic [ref=e128]: Great Britain
+            - generic [ref=e129]:
+              - generic [ref=e130]: City
+              - generic [ref=e131]: testCity
+            - generic [ref=e132]:
+              - generic [ref=e133]: Street
+              - generic [ref=e134]: testStreet
+            - generic [ref=e135]:
+              - generic [ref=e136]: House
+              - generic [ref=e137]: "255"
+            - generic [ref=e138]:
+              - generic [ref=e139]: Flat
+              - generic [ref=e140]: "5494"
+```

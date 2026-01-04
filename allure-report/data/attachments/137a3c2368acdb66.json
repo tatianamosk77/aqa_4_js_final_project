@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 09:21:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-oV9H357xxB5E8V3zr2kH4CXkr68\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Rahul.Doyle-Fay@gmail.com",
+      "name": "Bernadine Josefa",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 57,
+      "flat": 3322,
+      "phone": "+3472063745",
+      "createdOn": "2026-01-04T09:21:38.000Z",
+      "notes": "R0t1acITb6OkbZbgtSfbDNzAYGKaQT9idV1W1YgInvK74LiZrDHRV52pz7UfpggQsvJWQRqidvj4zERkGuvZKMsc54TqBxKOCN98fYrkiaOqgw002xx9VpQNhVDPH1HUo93dxjUnTBEjZfRUNcQwRHKl5So8yTYqTUq0PNcQAdk5V9bY3ZRZemOme7Mym3Tfn1NzdCd2dJbJQH13DN3axJivVaypMNZkH7XFO4nIwlpOVbRHs8dUYrvOTG",
+      "_id": "695a31221c508c5d5ea12bb4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

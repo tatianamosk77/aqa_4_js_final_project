@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 09:25:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-Y1pmThB21TXyqV5/HdF6zrhDlR0\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jeffery84@hotmail.com",
+      "name": "Arely Earl",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 483,
+      "flat": 35,
+      "phone": "+5551104300",
+      "createdOn": "2026-01-04T09:25:05.000Z",
+      "notes": "dGukaOJmi8VXG20tTdYu4R7bRSWzk7dgdSF3y7ASAQzoqbJJFHxZpnw4unC26U2rpha6FPUSnUjVFsZNzBe4kECDBe6IpVYJ1cDzo37bMz95VlOpgERHr7FeNp2VeVOlirdpPrIByDuHSqs8WQ9VmbFEPlXnXc2Z8SNSA52nF1hhbIVHYQgESFiweFknkTs2kz80OVOmuH6CMcqFXQN4RXI9zhMmwzNha9VULnJFXpC7uo0QOPTqbXsG4t",
+      "_id": "695a31f11c508c5d5ea147c5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

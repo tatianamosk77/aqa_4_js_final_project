@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 09:21:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "552",
+    "etag": "W/\"228-HL+VIeCwwPkHcYqW+BQxBGLG5V4\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jackeline_Hansen@yahoo.com",
+      "name": "Salvatore Belle",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 800,
+      "flat": 8272,
+      "phone": "+3382659246",
+      "createdOn": "2026-01-04T09:21:41.000Z",
+      "notes": "swjc1gW9sgnmwOdybJlV3undsY9FTHhIkdYVj0eN8fgvZ93GIC6XRfWLTJ7MoPd65GNWMGyGv1AtwkdDQvejgeGwjiZE8CZ2zeWOLdzZu5rYPkYwEgG4RS1DWR4TzxP94zLuANWnmQL7psFQn28s9Td8ucLpTMjaZVPLe0ztY8iwEYC2VSUCDyMlfThlCXKANvTje4oaJJ4gicosvLVvyAKxZhHHrldKbB5nJtYlxW9KF7al4fflM3tIqx",
+      "_id": "695a31251c508c5d5ea12bcf"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

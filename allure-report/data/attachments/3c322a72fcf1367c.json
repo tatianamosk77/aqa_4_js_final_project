@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 09:22:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1970",
+    "etag": "W/\"7b2-olOPlANuzvCF/lWZtt3iyV53rxM\"",
+    "keep-alive": "timeout=5, max=55",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a314b1c508c5d5ea13285",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a314b1c508c5d5ea1325e",
+        "email": "Jennings78@hotmail.com",
+        "name": "Trevor Magnus",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 465,
+        "flat": 4951,
+        "phone": "+1559981090",
+        "createdOn": "2026-01-04T09:22:19.000Z",
+        "notes": "0YfdA2KDpxPvKMDbf7ULGLuap1087jBhwzjql4k4LTbYOEARexiJ4UhWKinIeHqcqdD0yDgK4Bic9Tl9OloBq9SmqvRLW1DY21GMkTx2kmhjso6LI7Uhs8l394JPrSzwdIZR140BGrrxskREVRzLF7QHlwtfkjPbS29tbzg7yabcASDP6J10tsgjQUwLAjn34qcFAU2SmC6VpJK1zmny8OrP7rusUwHjWYEl2s3qD3YIviePnTzmQrXVrg"
+      },
+      "products": [
+        {
+          "_id": "695a314a1c508c5d5ea13238",
+          "name": "Shoes35639",
+          "amount": 648,
+          "price": 15226,
+          "manufacturer": "Amazon",
+          "notes": "doNAvtUnYKCwsv68VLVq1GdpU9xcKXNFQjykObjQqa8cOC4fRhkcKGemVp5WvAg5pZy4L0j0KI47Qe2gRgyK6oMLoW45GzIxCgF86lEbw0CN5kFIa9U15JWfWC00Qgk9kbfN0Zfjxx6chvEe9rSiFLWetSUsbKbFdZJdy1GNVVhkMtdWJRq9jZZZ5CPgbO2tu1M9ZmAomEvWLjX4vwD62cGkhd1tUdQzQzHf8Z9Ipf3odMPYsyagShix0E",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 15226,
+      "createdOn": "2026-01-04T09:22:19.000Z",
+      "comments": [
+        {
+          "text": "autotest comment",
+          "createdOn": "2026-01-04T09:22:19.000Z",
+          "_id": "695a314b1c508c5d5ea132ca"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a314b1c508c5d5ea1325e",
+          "products": [
+            {
+              "_id": "695a314a1c508c5d5ea13238",
+              "name": "Shoes35639",
+              "amount": 648,
+              "price": 15226,
+              "manufacturer": "Amazon",
+              "notes": "doNAvtUnYKCwsv68VLVq1GdpU9xcKXNFQjykObjQqa8cOC4fRhkcKGemVp5WvAg5pZy4L0j0KI47Qe2gRgyK6oMLoW45GzIxCgF86lEbw0CN5kFIa9U15JWfWC00Qgk9kbfN0Zfjxx6chvEe9rSiFLWetSUsbKbFdZJdy1GNVVhkMtdWJRq9jZZZ5CPgbO2tu1M9ZmAomEvWLjX4vwD62cGkhd1tUdQzQzHf8Z9Ipf3odMPYsyagShix0E",
+              "received": false
+            }
+          ],
+          "total_price": 15226,
+          "delivery": null,
+          "changedOn": "2026-01-04T09:22:19.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

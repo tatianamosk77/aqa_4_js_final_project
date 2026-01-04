@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 09:22:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-h9N5El7zHkYv8TI2tod7iTnF1Cc\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Maurice_Brakus47@yahoo.com",
+      "name": "Edmond Ahmad",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 721,
+      "flat": 8256,
+      "phone": "+3099430384",
+      "createdOn": "2026-01-04T09:22:05.000Z",
+      "notes": "5F1MoDfVfhRGE04a9grykuGq2WF4rumvl7B1wJvWfmFITpUObgbUwJTw5FdCZQJPvJ6CcMl7Hg80MfwZPafOAtznp08izvUdUxs0DbEPRiXERihi6E1KHKmOauwjhAkxjdjD5ceSac7bjTiv70cL8MPyZtmWidUpB8rsmlDoaRJqHLCPhim3RuDyTlgKuPn5yY3Axo9hT5GMgwsEnxbKLaHLQ43z41bYLhZB45pBxBIz4vu7ieEU6FeNFO",
+      "_id": "695a313d1c508c5d5ea12f9d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

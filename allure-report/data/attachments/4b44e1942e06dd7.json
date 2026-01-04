@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 09:21:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-XicrBGIepCgiOO9ahYCohnT+B5A\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ivy.Hilpert@hotmail.com",
+      "name": "Timothy Aniyah",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 830,
+      "flat": 9279,
+      "phone": "+3442353192",
+      "createdOn": "2026-01-04T09:21:08.000Z",
+      "notes": "eGmWj3gCdM0GiZsNMkXLLv3YccimIJLLKVToEDXLrzizp7HINYhDmyVY60TcqmLL8182CsGRdjFVCv7xQ1aHdWt6LjESKZ7fvKm1WB3JtpQpQun6SZl7dJA8UsPrJNzYAt4FHTSVRqmphBI1Ade3wM5Lha7D54Q09SRDHQi3Hk6rLrCBeysIcgCnYBtB3rbzTI9UoLwyLkT3JpfIIcDfZOG8ud16rmjR5n7BndqJ2FE5vwKRzcK6aHTHHc",
+      "_id": "695a31041c508c5d5ea129ec"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

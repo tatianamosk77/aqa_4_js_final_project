@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 09:27:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-yKb+M4b/T6OaZHVS7s//qeYeWIk\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ben.Herman50@hotmail.com",
+      "name": "Dillan Garland",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 85,
+      "flat": 5329,
+      "phone": "+7431724946",
+      "createdOn": "2026-01-04T09:27:56.000Z",
+      "notes": "ymD6Q1fUuM47dm7sVl35WG7DsxxDE6ojXiRl9y0cs4CzuQMTElFKNgaVJQJOemr3kYoG08RFeGCHd76PwECN68N8vkUSMczg7km06alOa7wFxklAIASpAdjt1k66kiu6pvPa7YcmzsS3UXr7nitcGMx9xUORLGE7fNMZrcDRwcZb1JKnQvGHMau51Sikn3v9J378GoxNyygQolLHeVTeQkcKByxruay8T2paZU5Snns8JqpGHHbiFAFkvO",
+      "_id": "695a329c1c508c5d5ea152fa"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

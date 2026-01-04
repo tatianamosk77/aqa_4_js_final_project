@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 09:24:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-n7tOgD6c0m1HdXG2ZePavNJYosA\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Travis_Renner@yahoo.com",
+      "name": "Marietta Jordane",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 86,
+      "flat": 6278,
+      "phone": "+7308522676",
+      "createdOn": "2026-01-04T09:24:13.000Z",
+      "notes": "EjaPPiuFyzlCgSvsJAlg4C86o9o9HhdDvc9TMn5axzWtJXhFSv54mjTfffTqeGrTEiQyPuT1iJapobSkmbyeTB6r2fS8PtVtarXa7wCZJAM7RI3Oe5gGgx4DOkXqPtvgOTzvl97lb8byVd4sXmEtqCuTbPKANkpaG6J5rU1ZBxQ4yTLHe1rZy9SpJcM7nzgxhiLiCErkgOI8PJTV8cCzyHxbMVdfZnPhYI2vOzm2DwD843SUPAzykmSUT4",
+      "_id": "695a31bd1c508c5d5ea14184"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

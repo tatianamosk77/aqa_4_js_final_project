@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 09:24:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-2OJ9RsP4bYfNFUyiyKIOAkNPfoE\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Dora52@gmail.com",
+      "name": "Garnet Christy",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 278,
+      "flat": 9434,
+      "phone": "+2343960494",
+      "createdOn": "2026-01-04T09:24:26.000Z",
+      "notes": "dJRF6aduwtW3gTP9zlVef57iXjjOVEZhIn4QM6M72CDBClLAD50PSzzkzZj1u2aouzikMbqOiuZyiLzV4sWcmyPgi9xXScCWOhzOGZCbLIwBSA2QuRK6LjG9uNHecp1gcQ2KqQ0YFbgcdrc2nbLbKvOeXgpuYyIpdoXNWTEKrdXoR7TOtUFlqVMC4uClWz98ORutCTe3QYbaJ6RO3kZ0oWhLp2riRPe1QVrcOpS1l3mugEVLIz6IJhKHpc",
+      "_id": "695a31ca1c508c5d5ea1429a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

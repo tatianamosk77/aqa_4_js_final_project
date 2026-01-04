@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 09:21:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-Dd2olsYO3JzT1ZBNGxyb6G6DLJU\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Hayley.Berge@hotmail.com",
+      "name": "Remington Samson",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 1,
+      "flat": 4395,
+      "phone": "+5161230389",
+      "createdOn": "2026-01-04T09:21:05.000Z",
+      "notes": "mQDheb7GAYzuKF0L3ZH6TOErLa02ZvxyahLYCJdCB4cl80VgPcXX9EBruCd5LrQxLtSnbC2jXUzp73tCvQt1mrANmRC30Nva3Bg9H4MVtgI8kRWTIIm3yqKerFXedSk8astJuVRMjkMb7OhjdBtfeWUQQe7xmLs5r6qiOynfPpWIjV2qmeX9wQW2LfhKRtiGGlAPXM8lME2Za48S8udWQ9Ilp7GdJzlfXEt7ed4kCYO8bWF7Ycdt5ehpoD",
+      "_id": "695a31011c508c5d5ea129b7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

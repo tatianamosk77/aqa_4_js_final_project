@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 09:26:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "555",
+    "etag": "W/\"22b-e1RcfpQYFzTe20184zfYe9xlbNQ\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Adelle.Marquardt11@gmail.com",
+      "name": "Orrin Fred",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 347,
+      "flat": 4525,
+      "phone": "+5254921292",
+      "createdOn": "2026-01-04T09:26:46.000Z",
+      "notes": "05IlxxRutgmirj7MAhTezYTc7bCXQQy1oGV2s5FiIvGFrPqVwGUG9uVjDu3hYMHndpEBCDojUOdH87BqGCaNc9q2pjo5yzUF4waXUcJbd9SZkI1EktABwjVJnOJhfikd6UA5IoYmr9twnNAanX52gMwhtvO5zP5FdE5HamSwsI6c4Zh0uL8DeTlDfUyiOiw0rtdTfUnr3RA13o6ALJYatrvc69CJodHBUsyXIGNkoP42XajF0mq7fnXM51",
+      "_id": "695a32561c508c5d5ea15081"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

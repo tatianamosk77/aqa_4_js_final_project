@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 09:26:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-xg2qn5QQ9IBf0Ds2mqGA1UG1jro\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Norval.Ullrich@hotmail.com",
+      "name": "Destinee Jennyfer",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 102,
+      "flat": 9044,
+      "phone": "+2791431620",
+      "createdOn": "2026-01-04T09:26:39.000Z",
+      "notes": "Kh6v6vsZKNxzVgGoQadbzBtlM0iqVIl38Mk901iwxYaJXdRXXahdm0yz6G2KBk4Fw4jK7dBRjhZNXgPvRp2T4pE5Cb92DkSSkUqDJll6bVsgvUoccdThDGpLROq73XP7ZUIU1GXKongkwOisQB9zCggk3tFBLtnLr63nQ0Gl4MdrqkCjaCiO9wjPt3dx90DHejXIvKHbsKTOXwsJH0kcYu7fX14ubbBGdi24EpQNLyPyfcVkKhN6EmhXIP",
+      "_id": "695a324f1c508c5d5ea14fcf"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

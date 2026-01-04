@@ -1,0 +1,159 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 09:21:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4787",
+    "etag": "W/\"12b3-1Do+D1LQTQzqZKjzFDvGyt5ty/0\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "695a311d1c508c5d5ea12b81",
+        "email": "Rickey.DuBuque40@gmail.com",
+        "name": "Dayne Gerhard",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 383,
+        "flat": 285,
+        "phone": "+0806260018",
+        "createdOn": "2026-01-04T09:21:33.000Z",
+        "notes": "7LMPnQgEcBFBBMd6szX4tohYy8uXXcPJ9Q3ZNqmZCbAwONbocIPKlJluj5EvYdeJK2ZqiZ54smc8uJXnnoMKdtb1RusgNP1ddQY3hE8H1N85Qq0A7wAeyZMyKS1Ti2g9R6fi6f2wzZQMVsaMmYTP2B8jUJFxuGx9APzMIkOtbgbsoO3t3K7yHUkJPGceT3vcf7vsNrMtzC51y7VpTsidU6bogOAUHV6c1B2a3DAIHdeqwPhZcIkjWeXbfl"
+      },
+      {
+        "_id": "695a23791c508c5d5ea0ce14",
+        "email": "Cielo43@hotmail.com",
+        "name": "Ulises Demetris",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 797,
+        "flat": 7468,
+        "phone": "+4302011491",
+        "createdOn": "2026-01-04T08:23:21.000Z",
+        "notes": "LNctwooth8b2Eqhc9z9GV1M1lSsHkbQbNRQ5S7EFWOJXUVQRqHY1ZjUCAKtKixfRVGVzgLPzHH6mPASrySE20YCinY8DerhoS6aJQZr7asiHOOYfg46bSx1BtySIa4lHPBey4tYPD7ZVn6A9YOMJiTFkzYsjRxG3xZIQ1GkUISSyztYltadZAxDXqm4faTgkv3IGdxpJjfpVM36YhOVjtq8lW49akJwooaCvUjI7G7MGIifVBohJz9NVqq"
+      },
+      {
+        "_id": "695a236c1c508c5d5ea0cc31",
+        "email": "Filiberto_Ankunding56@hotmail.com",
+        "name": "Bailey Angie",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 155,
+        "flat": 8943,
+        "phone": "+0637249015",
+        "createdOn": "2026-01-04T08:23:08.000Z",
+        "notes": "8wXP3cr75BwoAMkLaIlUEQ163mab5wpi06IEluB0V8VEtMX9lRurmNg3KYL2ONw5BZ4rQlfIdNpADky6NQpreuI8KhZUx8si5hv1oR4OMU8QFZODHu0CEzfXuWLY4whyCRd3L6SKWFX5FW2ovTNiGn3XNyRZr9XApIPK94fJtAtwF5GugAMpdfgcsQYLoEkfV3Z7oYJoOBZujMkeNbpPKGoZ0DIJE8UEcBN3iixBYvM2l7PPnsgPiDy4U3"
+      },
+      {
+        "_id": "695a236c1c508c5d5ea0cc35",
+        "email": "Cynthia80@yahoo.com",
+        "name": "Vito Johanna",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 770,
+        "flat": 405,
+        "phone": "+7262803440",
+        "createdOn": "2026-01-04T08:23:08.000Z",
+        "notes": "YRvfPUnRdw2Vu1DUUACnvn3veXKO30AsDWiueXGjtGKwqeEV5e0VQMFtzUgSmfodV238LnGIqF2T18065ngwbrfDD09v0se1ZlpFKvfeV2JEVozTBMJ8fmiShSB7j4kNOTm8EKiCZZGrLZWxQZFGCltkNRH9PNuBwPcHmIn1BTblAOFwG5sUO88CiQ8vd6QHL8jm1MbPOAa8fPfcZnqV1US5cIvpkuDg2oSB5B4lbXQs14Dathv5hs54m4"
+      },
+      {
+        "_id": "695a23641c508c5d5ea0cb91",
+        "email": "Misael_Lemke-Deckow9@gmail.com",
+        "name": "Candace Mitchel",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 963,
+        "flat": 4292,
+        "phone": "+5994825232",
+        "createdOn": "2026-01-04T08:23:00.000Z",
+        "notes": "jy6dQrr8UMaZdFYLZjbyJTVGD7Yf4AU1wNsCdh0g1Dama1kiud8rcS8ubhDiP2616WsXwSrEHeDNQ14jZwMWWnsTNXaJpUxLOZtxIxUUIb7oIXxtq4sLQR7XQ74vYIGZHxuWiADfLjzC294HqPwo1KRHjJT0yVpnlYQMMGAXJHLHbJh6K4dhgVU9LbZAUgsGsOARWxV5j8SaLEiEj23VedgjFUupQ5hZVis9euL5ihmFdAfBeBthodv1IH"
+      },
+      {
+        "_id": "695a235d1c508c5d5ea0cac7",
+        "email": "Patience.Ebert@yahoo.com",
+        "name": "Reese Francesco",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 799,
+        "flat": 9487,
+        "phone": "+9179926842",
+        "createdOn": "2026-01-04T08:22:53.000Z",
+        "notes": "FQQq9DDc1dRCNn8oWOH53F63FsO0kWe3WzIjuC9x9RCroq0uianmZ1XSAO28dWRiIdwPXjq6redHlRlRP27gp8RMD3DJJI5S47I4xXVqExC6nr5IKyyUWi53Njmtewsmv18DZGLWUnW2cFRKfmeAs86Mi7X7BtvP3zmgIrVieRnKZrMFTDPByYbH42IiJLWD2GqiKh4OkOorwm8c50Y5iR40mf7M5WXZXHRkfKTW5vLmXwEtfQNG18ooSG"
+      },
+      {
+        "_id": "695a23531c508c5d5ea0c9d5",
+        "email": "Bella.Daniel70@hotmail.com",
+        "name": "Kelsie Judge",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 638,
+        "flat": 3447,
+        "phone": "+5680370864",
+        "createdOn": "2026-01-04T08:22:43.000Z",
+        "notes": "ZwJHTI9FXbXq4IfFTSf9RZ9xC1jAZ7rdor0IsPbUVHxhWaRJeQwmXafVwgraSFME8HiVWj8FxtBBmml9FrO8yLM9xruTjlvkuigU9x2c82qoUEJBSpFbrlcoFWcTIAk3rtj8twcZWl9vC6dCdnewZIB06rAbpiiirotdqnjP0yRzVrw0Gre1NJlPLYauvSKNVKJkizq3YjHL7GITykLaYObW3nNqzBcZkMCTcLtvGcsES3zsJMDLAQOdm2"
+      },
+      {
+        "_id": "695a210f1c508c5d5ea05066",
+        "email": "Helen.Maggio77@hotmail.com",
+        "name": "SrBYAKctsoGbGThsECJiahRKR",
+        "country": "USA",
+        "city": "lHBLYFqWHuVrUYHU",
+        "street": "6FkGJPnzf3eEmIvihXFbcO",
+        "house": 130,
+        "flat": 5,
+        "phone": "+0476400769",
+        "createdOn": "2026-01-04T08:13:03.000Z",
+        "notes": "jSFjzlJa6V3Eqwh2cPFiOMhb0No1hnpIXF3bvnXWMzkb6ClXeYUfMRAiLVjlvNUmIbWO48anO"
+      },
+      {
+        "_id": "695a20b31c508c5d5ea03375",
+        "email": "Gudrun66@gmail.com",
+        "name": "LZPiNVxCcdDhvqayUoMr",
+        "country": "USA",
+        "city": "huqlRxviIjiKic",
+        "street": "HVY0PF4t",
+        "house": 101,
+        "flat": 9,
+        "phone": "+8454155120",
+        "createdOn": "2026-01-04T08:11:31.000Z",
+        "notes": "OSaXc4T4lqS18kxuD2dJrswEU0IHl2MCe4I4SBfLhUGP1MzojXizoAJqbpRQ"
+      },
+      {
+        "_id": "695a16701c508c5d5e9fcd33",
+        "email": "Xzavier_Moen7@gmail.com",
+        "name": "Zora Winifred",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 919,
+        "flat": 4563,
+        "phone": "+7821037866",
+        "createdOn": "2026-01-04T07:27:44.000Z",
+        "notes": "oz1ZveyUgeAUOrIpaLx85rSdYkd1uRfKFpNjGS2qWoZYCO2TsPUybLT51EO9fPtjDXAgGEm0T40JNbjOEpMeP2DWOgy0iN9VGy3gov567kRvNn0Kfesrz7MvNbAdwq0sC53tNIqMpWDdkWn9OGsyOKoPGk2jzyPHQvdF7YRrLrF44zj308Oz29AJhwFLpwWm70sRQjQfG6dy9Kexy6a9TXkFmxCDaBWYUrsoJePkbEOWJU6wpBI9aEcPvu"
+      }
+    ],
+    "total": 684,
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "country": [],
+    "sorting": {
+      "sortField": "country",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

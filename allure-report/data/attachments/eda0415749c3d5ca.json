@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 09:25:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-UtuV8v+RoTdWTpmJSIuCnyH8kAg\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Lilyan.Streich@yahoo.com",
+      "name": "King Jessie",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 887,
+      "flat": 571,
+      "phone": "+8288617789",
+      "createdOn": "2026-01-04T09:25:12.000Z",
+      "notes": "27H898WwguboglFVpprpsb8Zhs6Qb8h0kBAyOgUstLM9Phx7jZOrZqay7K3MwWMYqTHva5TFUnHkJHvdfrhdxwuYlaOZPKj29GfeN2WzdDW7IcHkpzn7uVmD84mOal4wsl1QpphAybu3A4rWOXrEoxg8weEoEymaqRsYMirple4mY1TCXXrHFRvb9FUYsbiCIo4lULn107BhOgtVqc710ckngTeDQTmtIgR75qfuGfduPhRUfS1vTrNh78",
+      "_id": "695a31f81c508c5d5ea148c0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

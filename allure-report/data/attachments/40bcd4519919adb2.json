@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 09:21:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "535",
+    "etag": "W/\"217-3xHX0FUJHNKJaCeJwhl+cDHMtE4\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Sonia36@yahoo.com",
+      "name": "Krista Jevon",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 41,
+      "flat": 3934,
+      "phone": "+4877551136",
+      "createdOn": "2026-01-04T09:21:51.000Z",
+      "notes": "yxHLA5IDX579OzeQqC6PLHtRjHiKe7ysC7moTjypywnZfV0vcOXl0fUO8GYyl399112yGzpTJTAID8xPMf1hLhOWtYCPdHR6PWcxmBmpcm1froIDrFOxAvTo5xQOrjoK2luVSG2gJN6Hli0tJBFogiGtpqCvTnE9gYkxtRwmPRI3ZInGbRajJbglZImqpX8gdKBtKEHrZxgszfN0uF8wi7w1s5Iv6aeyxOGmFhpIUQb37w8UiQg8Gbm1wh",
+      "_id": "695a312f1c508c5d5ea12cf2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

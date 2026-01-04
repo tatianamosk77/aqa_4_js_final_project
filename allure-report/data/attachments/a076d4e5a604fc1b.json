@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 09:21:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "535",
+    "etag": "W/\"217-Qs7spslCO8ix233oPfJ2hIcDyFY\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Barton1@gmail.com",
+      "name": "Tom Enos",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 976,
+      "flat": 7773,
+      "phone": "+5885072659",
+      "createdOn": "2026-01-04T09:21:44.000Z",
+      "notes": "Mfo9MkLqSjCbf0oxeGxoFZeIJtnfLJKU1DROGb3jolIt0uHCTMKFiVFt8zMJebtvWnpn7o2JOyoZhuswOuDgMEJ4gkCI8CMs58JRWjA79RyRERZtpxpcg6emH11yCHtZV2ZVQwWOfSw7bJRFWrX03sO23U2SwoRGYzuqoWKQfx2YgXnhfrHBz6LX8bfd5ihNXxB9zmFOeQ3VowXfEilGfEyegqIkJmnA1tAGRtPlKSXCF9jgrnJLdbDSZE",
+      "_id": "695a31281c508c5d5ea12bf5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

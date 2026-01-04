@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 09:24:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "567",
+    "etag": "W/\"237-wvhI8aoVJjHAWzv0kb9bpWZAklw\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Frederic.Mosciski-Ferry63@hotmail.com",
+      "name": "Geoffrey Emil",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 661,
+      "flat": 6428,
+      "phone": "+5892338898",
+      "createdOn": "2026-01-04T09:24:13.000Z",
+      "notes": "0gruzCF3G39S5FLjjIEzfMixnTqD5LIxzNdC9ddiBuGLA5qCZS8mg2YYiyBQWhoTof1eLJPJmYDGQVTrTCHOqekfMcfvpHHOJwlRdQTMIq7rsg2j5Ha3xESP3E0UFDvfbZoHrSkFBQB0s8tqrSiM6muprIP5X7XGVhnKTuL8xp08pO0S0uSrePLFVZ64u0EbXXmJemAsiOu8Pq2EHRTAW9gLYmxZywpNrKgL5DDxUaBnYaKZgxGESRzdqu",
+      "_id": "695a31bd1c508c5d5ea14186"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

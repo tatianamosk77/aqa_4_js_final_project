@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 09:21:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "556",
+    "etag": "W/\"22c-qMaXfJM4kG8Z7TFzIm1ti0GCzag\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jessie_Mosciski-Tremblay@gmail.com",
+      "name": "General Donna",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 883,
+      "flat": 826,
+      "phone": "+6724804205",
+      "createdOn": "2026-01-04T09:21:23.000Z",
+      "notes": "2taaJZ2PHHA7cUYna0En9akDAw8sJJYIXIGBwwKCk1uBXAk7yCqTTD1TS4LMI1GFjPQJpjRvzdPQPtkaPOps4JZT4YRUm28MpD4Qao3QhpF4jp1SQHZoUnPdclY8Wq7G2B1dBwfOx0a8OsRUQBMx3UMo8fhQyKRTEcHy5gq3QpbbhlJAbV1yXvVAwS6s19PmagqgQIbhzK2E54fQWWM3Hhy8fBw6lImmcGl8ALmGQypib9aSNd5Us8etRl",
+      "_id": "695a31131c508c5d5ea12ab5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

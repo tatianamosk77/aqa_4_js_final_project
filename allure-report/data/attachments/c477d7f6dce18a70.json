@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 09:20:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-1G37qu5snKp2f9tE3u7zs59AP/8\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Elian65@hotmail.com",
+      "name": "Test Customer",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 515,
+      "flat": 3038,
+      "phone": "+9912500379",
+      "createdOn": "2026-01-04T09:20:58.000Z",
+      "notes": "nM24OI0aerb4eq9bbz5pkDqEKmNLa3X9Zi3AATxCJjCA2fqnkXoyZMjr07t1ZHHPFUsIVZSK4UVqIqO3a7DLxhEtwcCohdSmXun6sUaKwlpShN70e4rhbqswfWd2MdZWjLLH9d0064sKaLXV6QlACl8Lm46ps8qi8juci4vVzkUbd5aCwuh5gAfp2ZdPUo8fGTdBnCf2Dve2fZpGxPmf69HPPT23VAHNpo1kXYzMoMR6UVUzwOG3kg9P19",
+      "_id": "695a30fa1c508c5d5ea12944"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

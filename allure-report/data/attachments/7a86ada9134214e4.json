@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 09:22:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1881",
+    "etag": "W/\"759-9gCO0BrH4zjkueng9f7lq3bXXvM\"",
+    "keep-alive": "timeout=5, max=73",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695a315e1c508c5d5ea13742",
+        "email": "Francesca10@hotmail.com",
+        "name": "Mckenzie Luz",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 116,
+        "flat": 5489,
+        "phone": "+9984139181",
+        "createdOn": "2026-01-04T09:22:38.000Z",
+        "notes": "fYlVeRnnpJtctQaY95gy2mRZWfUESEfGZFeD6A7jRLHUAgZnap1wcy9UUwAHDk0TfngIR0C9TzkG1OTr2ZfSdZpXk5XlgkiCXIVz3aqsXU5228hjZbu5huKXDxN5Gv777fatsozGjYluicox4te80OIxrBp2nN9SC1gEDPQFvx360WjaDXOIf7iHvVRJDPr2Ps3zhYk9qBEuayrW2HiF0jmku1pQTuxYVG5b3FgX4STIO68Wf17RMos6Sd"
+      },
+      "products": [
+        {
+          "_id": "695a315c1c508c5d5ea13720",
+          "name": "Sausages75041",
+          "amount": 643,
+          "price": 99336,
+          "manufacturer": "Google",
+          "notes": "0Y7gjzEQQfm2Y1WY3viA0agh1QySFn2Evt57vHeoQZ5LNu2vhbrpiAQlTnOJ7d20unXtCrFYOJNEG9SIdvl11YuFHFCBNCvZfUjgIGRYUwT9j61PPz3FCsjWxlDbCfvfpZ5Kp3qSkRRvfQQI0VobvZmXs77lPx0OMP2M2ybK4cAzPeY5KQjsDl30kfhCAtsd3DUXrwbk9GB4jmszf9kvkBjOSLtGGUYeOm4ENvUvMhm1NNgbuW0if6zrok",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 99336,
+      "createdOn": "2026-01-04T09:22:38.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a315e1c508c5d5ea13742",
+          "products": [
+            {
+              "_id": "695a315c1c508c5d5ea13720",
+              "name": "Sausages75041",
+              "amount": 643,
+              "price": 99336,
+              "manufacturer": "Google",
+              "notes": "0Y7gjzEQQfm2Y1WY3viA0agh1QySFn2Evt57vHeoQZ5LNu2vhbrpiAQlTnOJ7d20unXtCrFYOJNEG9SIdvl11YuFHFCBNCvZfUjgIGRYUwT9j61PPz3FCsjWxlDbCfvfpZ5Kp3qSkRRvfQQI0VobvZmXs77lPx0OMP2M2ybK4cAzPeY5KQjsDl30kfhCAtsd3DUXrwbk9GB4jmszf9kvkBjOSLtGGUYeOm4ENvUvMhm1NNgbuW0if6zrok",
+              "received": false
+            }
+          ],
+          "total_price": 99336,
+          "delivery": null,
+          "changedOn": "2026-01-04T09:22:38.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695a315e1c508c5d5ea13760"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

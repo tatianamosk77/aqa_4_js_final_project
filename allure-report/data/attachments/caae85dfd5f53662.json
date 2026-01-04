@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 09:22:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "537",
+    "etag": "W/\"219-CSSAZWuFOePV1ZCqMOX/8u0UDR8\"",
+    "keep-alive": "timeout=5, max=66",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Melody9@yahoo.com",
+      "name": "Pink Darby",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 25,
+      "flat": 2274,
+      "phone": "+6301126603",
+      "createdOn": "2026-01-04T09:22:34.000Z",
+      "notes": "YG7cj5rR34EMOBBvRggYPoiOM4k3UI6XC6M5O5vrSpaPwiQp3m44sfNR3CpSI2RKkAxEy3B3vzlWvRwFKDsasLy7bn4q7XV9U2Dl18AYeDtvOpUQR7ixrdTw6txxcg2x3sYjKcqFrj8f19fUt9uFQYskM0b5q3900bxghOvsVm6aZxG2Mo1lTyKXWmfe4EI0EgT3sYeHfW1vP6zBXhaMlkRHBim5hzWIpi2WgxLlP9gkE1dRgIlHCk1SxJ",
+      "_id": "695a315a1c508c5d5ea136ac"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

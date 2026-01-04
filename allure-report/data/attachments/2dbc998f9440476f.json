@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 09:21:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-H3tcz0TqwrncrP0Me2+dH2q8/nw\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Dayne.Blick15@yahoo.com",
+      "name": "Ryan Diego",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 459,
+      "flat": 2562,
+      "phone": "+9617058737",
+      "createdOn": "2026-01-04T09:21:47.000Z",
+      "notes": "qnE4NFhd7adgoqr2lMtsWgOKnIZg4WBjtHe3KR105nX8MXPqXfIn4M5J152ieVepuzFaKZ54tgX2guEthBazwkAH7S9wbi0POqzpvyphSFtT6EcKMyQD48l5mgDeESp5h2KigLHKr6FByW8lxqyUO3i4rNmqQZSll9Fd3wte3eRiYCofuhJILstoWv4ttNGOQjoLJgsrqJcHb9AXWNko9LunLEuuJ8YQZjrG5kN7ZgpHv7EoFOfeQ8faN9",
+      "_id": "695a312b1c508c5d5ea12c3c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

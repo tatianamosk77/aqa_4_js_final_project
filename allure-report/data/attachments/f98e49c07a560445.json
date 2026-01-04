@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 09:20:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "555",
+    "etag": "W/\"22b-TuQJSBulZ6zt+tcIuaudpn/4i7I\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jerrold.Torphy@hotmail.com",
+      "name": "Aurelie Lulu",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 434,
+      "flat": 8954,
+      "phone": "+7586434170",
+      "createdOn": "2026-01-04T09:20:57.000Z",
+      "notes": "cAKAvu9qpKNoVymvdZ4y82kIcAfKU4Po1qKdpWVY0ZN3uqpOBVdyRuPHFpx8LLj541lfGHFS1V8BpuH6QSCpyxs4e7grMXENdpuOsy2OF27jR23KpptkN5RTpexaVTkDnB1BZZCEGDVvdwHA5aiRBA3I9Vy2dALZq4dGHIFPaXIAGX82tjGFEYYx3hEFzS69WDyy4RSDMpisFCtjXpcBKpKRNVXmH8nSltMVmvt4zpcRkjN97Xn5qFiHbE",
+      "_id": "695a30f91c508c5d5ea1292c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

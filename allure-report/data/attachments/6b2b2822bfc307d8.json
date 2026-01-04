@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 09:22:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-g1oRwhWEq2fFYFv5owVhuzmH6+0\"",
+    "keep-alive": "timeout=5, max=61",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jeffrey_Rau@hotmail.com",
+      "name": "Susie Garry",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 555,
+      "flat": 9626,
+      "phone": "+6431028781",
+      "createdOn": "2026-01-04T09:22:05.000Z",
+      "notes": "xR1iUNXXP0jCVC3tc2EQ0gRAGRTHHxUlODlIepzJiqsdqEhQUsNv605e1BkQEIWtCbn7y7bBxQWCOjRHJh7MedsK9RCUsMOAMfvTgYB8YhAH9zZ5QCXa1d6qAC5cHQn2iqQHlZtTAzRu376LIKBlOi6JDjJyRaIGFgKz9UHZ5SHeiscgBlSrpsEGY88B5veRmZyHY062p9YD8tGdvE7V3beBxQJOHMRScPpN5gSVjTXMjijbLr6rkw7qNR",
+      "_id": "695a313d1c508c5d5ea12fb5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

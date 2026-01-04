@@ -1,0 +1,161 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 09:22:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4142",
+    "etag": "W/\"102e-kLFfOny4XuE/6aSHzEV501WW344\"",
+    "keep-alive": "timeout=5, max=64",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a31561c508c5d5ea135ee",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a315a1c508c5d5ea136ac",
+        "email": "Melody9@yahoo.com",
+        "name": "Pink Darby",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 25,
+        "flat": 2274,
+        "phone": "+6301126603",
+        "createdOn": "2026-01-04T09:22:34.000Z",
+        "notes": "YG7cj5rR34EMOBBvRggYPoiOM4k3UI6XC6M5O5vrSpaPwiQp3m44sfNR3CpSI2RKkAxEy3B3vzlWvRwFKDsasLy7bn4q7XV9U2Dl18AYeDtvOpUQR7ixrdTw6txxcg2x3sYjKcqFrj8f19fUt9uFQYskM0b5q3900bxghOvsVm6aZxG2Mo1lTyKXWmfe4EI0EgT3sYeHfW1vP6zBXhaMlkRHBim5hzWIpi2WgxLlP9gkE1dRgIlHCk1SxJ"
+      },
+      "products": [
+        {
+          "_id": "695a31591c508c5d5ea13642",
+          "name": "Bacon61019",
+          "amount": 360,
+          "price": 26393,
+          "manufacturer": "Xiaomi",
+          "notes": "j43pgubTMId5CkX6siIrrqDvbqEuO92wqopKzaaFioJECvIISYAdNQRJHQGtCP6dVLlNctmNpCPMU3RZ14lpSQQIU1RMYJ7AdYk3OspxFxaSUPUiUASeUiOnANKojBHPL7xziy3x42GSe1QANN7TbTBczcx0tQkcphtE3RphcyUFLaGyDlP5kajsfn7oUkCgkV2jM37nu5xO1IhxJtWcG7qJKx5JJR1GYaZJA7DC5F0is5XmHG54YCln3l",
+          "received": false
+        },
+        {
+          "_id": "695a31591c508c5d5ea13662",
+          "name": "Salad40753",
+          "amount": 848,
+          "price": 70917,
+          "manufacturer": "Amazon",
+          "notes": "HLH4eeVyNhlFLKhRq1W6wZsvJ1nAla6z6CiCcDcPkqZnWJBN8c3PAhivRWxt111xHB6Cbrb3SORUF8m4qKumh7Z6ZdFLa1b5ZzgIUgXsNZWuhOg2gJ0NTKi57akhIJQy1JOkUzuKzDM1wrC06x2lsTgGn0xiikwRgUU75PjLctxxa8g0tYaMNHka26oJEZx65a5GSP2OsMPQMAKs5gxTj2fGMae594t6CQxzUlDYSKLDV2eM87Pnt6grYE",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 97310,
+      "createdOn": "2026-01-04T09:22:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a315a1c508c5d5ea136ac",
+          "products": [
+            {
+              "_id": "695a31551c508c5d5ea13588",
+              "name": "Car32349",
+              "amount": 151,
+              "price": 19160,
+              "manufacturer": "Google",
+              "notes": "9kUwQcsUCNqxMJReJWu4DB0QxT3pRulHijt9SCyDoUcVMrdJLwOWAVjJGI5CQ6myCccMkyf0wVLReenvdGBfxXxMnpZQGINksuNSqsvPxnnMI93VDdcXoEL34BcAgc5dzPXhwexoOTsOV357Wyi37cN5I9jCfYOpv9h5CTFmz4IozZzaO0oqGmj1fudLAa5Lb9oJqEi4QZGD84hAta0TQcDXaDJMJevlwCB1dVWRvDdPLQ9BcyhRGzLgin",
+              "received": false
+            }
+          ],
+          "total_price": 97310,
+          "delivery": null,
+          "changedOn": "2026-01-04T09:22:34.000Z",
+          "action": "Customer changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a31561c508c5d5ea135df",
+          "products": [
+            {
+              "_id": "695a31591c508c5d5ea13642",
+              "name": "Bacon61019",
+              "amount": 360,
+              "price": 26393,
+              "manufacturer": "Xiaomi",
+              "notes": "j43pgubTMId5CkX6siIrrqDvbqEuO92wqopKzaaFioJECvIISYAdNQRJHQGtCP6dVLlNctmNpCPMU3RZ14lpSQQIU1RMYJ7AdYk3OspxFxaSUPUiUASeUiOnANKojBHPL7xziy3x42GSe1QANN7TbTBczcx0tQkcphtE3RphcyUFLaGyDlP5kajsfn7oUkCgkV2jM37nu5xO1IhxJtWcG7qJKx5JJR1GYaZJA7DC5F0is5XmHG54YCln3l",
+              "received": false
+            },
+            {
+              "_id": "695a31591c508c5d5ea13662",
+              "name": "Salad40753",
+              "amount": 848,
+              "price": 70917,
+              "manufacturer": "Amazon",
+              "notes": "HLH4eeVyNhlFLKhRq1W6wZsvJ1nAla6z6CiCcDcPkqZnWJBN8c3PAhivRWxt111xHB6Cbrb3SORUF8m4qKumh7Z6ZdFLa1b5ZzgIUgXsNZWuhOg2gJ0NTKi57akhIJQy1JOkUzuKzDM1wrC06x2lsTgGn0xiikwRgUU75PjLctxxa8g0tYaMNHka26oJEZx65a5GSP2OsMPQMAKs5gxTj2fGMae594t6CQxzUlDYSKLDV2eM87Pnt6grYE",
+              "received": false
+            }
+          ],
+          "total_price": 97310,
+          "delivery": null,
+          "changedOn": "2026-01-04T09:22:34.000Z",
+          "action": "Requested products changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a31561c508c5d5ea135df",
+          "products": [
+            {
+              "_id": "695a31551c508c5d5ea13588",
+              "name": "Car32349",
+              "amount": 151,
+              "price": 19160,
+              "manufacturer": "Google",
+              "notes": "9kUwQcsUCNqxMJReJWu4DB0QxT3pRulHijt9SCyDoUcVMrdJLwOWAVjJGI5CQ6myCccMkyf0wVLReenvdGBfxXxMnpZQGINksuNSqsvPxnnMI93VDdcXoEL34BcAgc5dzPXhwexoOTsOV357Wyi37cN5I9jCfYOpv9h5CTFmz4IozZzaO0oqGmj1fudLAa5Lb9oJqEi4QZGD84hAta0TQcDXaDJMJevlwCB1dVWRvDdPLQ9BcyhRGzLgin",
+              "received": false
+            }
+          ],
+          "total_price": 19160,
+          "delivery": null,
+          "changedOn": "2026-01-04T09:22:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

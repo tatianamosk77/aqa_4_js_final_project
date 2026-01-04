@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 09:22:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1879",
+    "etag": "W/\"757-BfhWNlHfeB+p7ItaT9JsHEMuGzc\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695a313d1c508c5d5ea12f9d",
+        "email": "Maurice_Brakus47@yahoo.com",
+        "name": "Edmond Ahmad",
+        "country": "Canada",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 721,
+        "flat": 8256,
+        "phone": "+3099430384",
+        "createdOn": "2026-01-04T09:22:05.000Z",
+        "notes": "5F1MoDfVfhRGE04a9grykuGq2WF4rumvl7B1wJvWfmFITpUObgbUwJTw5FdCZQJPvJ6CcMl7Hg80MfwZPafOAtznp08izvUdUxs0DbEPRiXERihi6E1KHKmOauwjhAkxjdjD5ceSac7bjTiv70cL8MPyZtmWidUpB8rsmlDoaRJqHLCPhim3RuDyTlgKuPn5yY3Axo9hT5GMgwsEnxbKLaHLQ43z41bYLhZB45pBxBIz4vu7ieEU6FeNFO"
+      },
+      "products": [
+        {
+          "_id": "695a313c1c508c5d5ea12f97",
+          "name": "Towels39786",
+          "amount": 714,
+          "price": 46906,
+          "manufacturer": "Xiaomi",
+          "notes": "SGW4E58daYcZZPFq5LvKSkdCcpGhSo0xiyBrqXgwd8x8fFLwPAm4qdoViKFRkD8wCTLjogDMpj8Sy5TsLyFOvsFONyXoz3gpbWeozvtQ7ZJvJTMwoTM5oyh7tuJUBb9xC3rsU30maJ22rJG7M6F7Wb77QF3PmDIY1dp9aiLRPHXy64PeUXqnPaaLWNovPeoZvh8n7VrPtrllfG8i3ayWIhlPOlHmQqQogKzkDZbWQ1qde57dldsci3JlHw",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 46906,
+      "createdOn": "2026-01-04T09:22:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a313d1c508c5d5ea12f9d",
+          "products": [
+            {
+              "_id": "695a313c1c508c5d5ea12f97",
+              "name": "Towels39786",
+              "amount": 714,
+              "price": 46906,
+              "manufacturer": "Xiaomi",
+              "notes": "SGW4E58daYcZZPFq5LvKSkdCcpGhSo0xiyBrqXgwd8x8fFLwPAm4qdoViKFRkD8wCTLjogDMpj8Sy5TsLyFOvsFONyXoz3gpbWeozvtQ7ZJvJTMwoTM5oyh7tuJUBb9xC3rsU30maJ22rJG7M6F7Wb77QF3PmDIY1dp9aiLRPHXy64PeUXqnPaaLWNovPeoZvh8n7VrPtrllfG8i3ayWIhlPOlHmQqQogKzkDZbWQ1qde57dldsci3JlHw",
+              "received": false
+            }
+          ],
+          "total_price": 46906,
+          "delivery": null,
+          "changedOn": "2026-01-04T09:22:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695a313d1c508c5d5ea12fd0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

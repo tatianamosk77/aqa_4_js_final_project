@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 09:21:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-I3RY+DxNNNnjAa1DZxI0ZVLqIPI\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Donny.Wilkinson@gmail.com",
+      "name": "Godfrey Wendy",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 360,
+      "flat": 3427,
+      "phone": "+8979829566",
+      "createdOn": "2026-01-04T09:21:59.000Z",
+      "notes": "ZwbwQGsMWIHLfL4m7SYJtKXxWEkxOTMdqsGHQ04H2aVCJzBNs5UVAHQ5PiBuPpvyrngNQ6nqV393hu8vquYoYmjyWFcDfdXA30dxmcThdRS8c1nM17vkzkSw4se7VuFX6FSPmt0oMPB7OdsOl9wEn7PXsU6YvYN0iXzz0aqFseIZcxe6q3tOx7MkwMmM8E0s3YyB4DHiajjo8vIarSyIomTrWPZ9nv6b8z89LAIQyzDYEjxMHNvQDoncX9",
+      "_id": "695a31371c508c5d5ea12e3b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

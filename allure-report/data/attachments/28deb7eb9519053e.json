@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 09:22:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-J2h1MPajYaQ5sj2SeHAMrDzMlCI\"",
+    "keep-alive": "timeout=5, max=75",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Florencio85@hotmail.com",
+      "name": "Travis Macie",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 71,
+      "flat": 2050,
+      "phone": "+6407793012",
+      "createdOn": "2026-01-04T09:22:05.000Z",
+      "notes": "ZKhwfENkcx7xNfe37fUPanIU85ELgquKyu6AIf1bYSEmYOFQHjcgpwHZq39tAONXb9rzsCAKQi2yJd2no9rHiZl3dcBTqnURqo4Is5Z8OvEfxp0bDvMW42eXplTeYiwAvv7zaXYALJtGp7H9xLvwIFspf8RJju4C8cpdTT8lBeGpTskqq1LBgh7WVF6QG0Hd56GPw5nSNCx2P0OaMdj7BKuJnZf29L16wOoineLXlUsHg0mbO90Gu0ABsL",
+      "_id": "695a313d1c508c5d5ea12fa1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

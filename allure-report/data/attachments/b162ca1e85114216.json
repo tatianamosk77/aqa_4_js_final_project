@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 09:21:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "676",
+    "etag": "W/\"2a4-ZEtvPg/GOB9C1CElft77z4liqcw\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "695a31191c508c5d5ea12b4c",
+        "email": "Lavina_Roberts32@yahoo.com",
+        "name": "Rafael Stuart",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 361,
+        "flat": 5988,
+        "phone": "+9808904160",
+        "createdOn": "2026-01-04T09:21:29.000Z",
+        "notes": "HyLUZCipXKD7UR2BknnO2PcJDQdagW8LXiKVQbkUXBiMF1JPelhMdDXlUsOwemMVFeHipZ5MFk771lVuSal0TlZh20JgpxDaWjoVBZQGPriWMNSSVb5gcGnFLyVRc1uKqGzvHzTExv6lK2IzNmgsWgfHVw2wj1FSO1L9kOZOvlEw3fM0iVIIIm65WnzZCDfdcwq1XS0Cqb7bfkAsNC0wHC9jZmGEqCC56AEdlJW6ZxgKW2IbVviiVSdN3z"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Rafael Stuart",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

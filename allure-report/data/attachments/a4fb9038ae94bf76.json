@@ -1,0 +1,73 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 09:21:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1406",
+    "etag": "W/\"57e-Y8KGXrvLpP7BJxW7fQYzqDnIHV0\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Orders": [
+      {
+        "_id": "695a31171c508c5d5ea12b01",
+        "status": "Draft",
+        "customer": "695a31151c508c5d5ea12ac4",
+        "products": [
+          {
+            "_id": "695a31171c508c5d5ea12af1",
+            "name": "Mouse55170",
+            "amount": 659,
+            "price": 64680,
+            "manufacturer": "Tesla",
+            "notes": "PTEJO49gJhr7Ymuz1AvGbKIzcDzKrPwrdGuILoftvxh4eeXzxHByRGfAur8CUoQR3wOg29NnLnJJfyemzwAMxMW5bZnZGM1F6JJelhV0eEC52KgRD8RR0zg8wYyH4Ronqy2WVXeWrqBQfRRKW3vrB81itU0o9Sp00JZC5lnpLIFWuQh9kaK9UKh9XAHuGJ7adNyT0dmuWEozoB0AL7MOfJ0MSXSkG2a8gdEkbONJQDkX083yIUA4Ut7nqX",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 64680,
+        "createdOn": "2026-01-04T09:21:27.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "695a31151c508c5d5ea12ac4",
+            "products": [
+              {
+                "_id": "695a31171c508c5d5ea12af1",
+                "name": "Mouse55170",
+                "amount": 659,
+                "price": 64680,
+                "manufacturer": "Tesla",
+                "notes": "PTEJO49gJhr7Ymuz1AvGbKIzcDzKrPwrdGuILoftvxh4eeXzxHByRGfAur8CUoQR3wOg29NnLnJJfyemzwAMxMW5bZnZGM1F6JJelhV0eEC52KgRD8RR0zg8wYyH4Ronqy2WVXeWrqBQfRRKW3vrB81itU0o9Sp00JZC5lnpLIFWuQh9kaK9UKh9XAHuGJ7adNyT0dmuWEozoB0AL7MOfJ0MSXSkG2a8gdEkbONJQDkX083yIUA4Ut7nqX",
+                "received": false
+              }
+            ],
+            "total_price": 64680,
+            "delivery": null,
+            "changedOn": "2026-01-04T09:21:27.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337ce1c508c5d5e95335d",
+              "username": "student14@gmail.com",
+              "firstName": "Bill",
+              "lastName": "Schuppe",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:26"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      }
+    ],
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
