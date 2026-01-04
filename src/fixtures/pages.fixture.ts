@@ -18,7 +18,6 @@ import { LoginUIService } from "ui/service/login.ui-service";
 import { ProductsListUIService } from "ui/service/productsList.ui-service";
 import { EditCustomerUIService } from "ui/service/editCustomer.ui-service";
 import { CustomerDetailsPage } from "ui/pages/customers";
-import { AssignManagerModal } from "ui/pages/orders/assignManager.modal";
 import {
   AddNewOrderModal,
   CommentsTab,
@@ -62,8 +61,6 @@ export interface IPages {
   confirmationModal: ConfirmationModal;
   editCustomerModal: EditCustomerModal;
   editProductsModal: EditProductModal; 
-  assignManagerModal: AssignManagerModal
-
   assignManagerModal: AssignManagerModal;
 
   //ui-services
@@ -151,9 +148,6 @@ export const test = base.extend<IPages>({
   assignManagerModal: async ({ page }, use) => {
     await use(new AssignManagerModal(page));
   },
-  
-  await use(new AssignManagerModal(page));
-},
 
   //ui-services
   homeUIService: async ({ page }, use) => {
