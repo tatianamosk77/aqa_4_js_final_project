@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:57:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-7rfYTqFcRiw4BhNN82UthUeMKFY\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Rae_Kihn@gmail.com",
+      "name": "Aisha Asa",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 658,
+      "flat": 5849,
+      "phone": "+8192552201",
+      "createdOn": "2026-01-04T11:57:11.000Z",
+      "notes": "7Fd9O0M5G49fO82SHItuZuFoQXXdg6IVtWgyxwkitFCO9JvloYPviMxPEo4f9cAdCgRClMrbJBmqExaly6NBL8vtieNyFJZtHAqhqIJWI3F4ohlZECKlZkHtzDRxzpqqGtB1gGcD1OtXMxsGLOGMn22CwaBzWKPmj2DiEOJ2aVGasu2FEXBSZgpXrqfxzCV48M1SoWxlT6fNyfgABQNpeVzHXo8hRHGlO9waU7JdnHoKhkhLJdnfa3wga1",
+      "_id": "695a55971c508c5d5ea5ee64"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:55:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-5mAi1Vi98oYt6nj+F/PqH0oqaaw\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Doris_Rogahn@gmail.com",
+      "name": "Jude Efrain",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 359,
+      "flat": 9703,
+      "phone": "+7139590082",
+      "createdOn": "2026-01-04T11:55:32.000Z",
+      "notes": "ZemlzkpHTMyMyTfP2fAATgQGdBIL24uMbKQRLJQmVrpyMzsoaDsVKM1BAnZn4SKUfOW2eDUr747LKnQvhhnRiX4eO3n2441tWrJw52u4si1vyjyjXXuHrk6tVh7LS7Z23VwznpsspAMnezdQlxjvbwpHjjgzl0J6djJNbUa4Nuwu6HN3LQ8OWs1uDZ3QHIkq7d7KM7pHs3KhKiCFBbM4Ea5Jmmuhok6QRG5AgdUhro3S4LJRDSekCE5X9y",
+      "_id": "695a55341c508c5d5ea5d234"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

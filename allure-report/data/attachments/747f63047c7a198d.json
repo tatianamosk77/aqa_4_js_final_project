@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:55:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-q9RTfl/nS72WKD9647XqP8eBnMM\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Gerry_Jacobi@yahoo.com",
+      "name": "Kian Teagan",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 167,
+      "flat": 9906,
+      "phone": "+8577037088",
+      "createdOn": "2026-01-04T11:55:48.000Z",
+      "notes": "khfIbmDClXYDbH7m4Fitpn6E0xYcx8NrMl7X64DVwkOVzjBUIrto6eZTl4NBkX0l61M1qmm6AIKrogfohI3sIs9mjWppok5svnMpXja3SGtcRYGab4I5zfo57GoXjReka7UTXehjGUr5TCnWqL3a4hIiTIvhtS86uXNQKUrUARaMAIWDbVfWayCIkdaUoP2xxsBUIEAHwuZL2YNjZ9Ro3wlr8rhvqzbUhfUxX1yc2LMnIRwF0hzBJqyJeD",
+      "_id": "695a55441c508c5d5ea5d66b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

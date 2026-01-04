@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 12:06:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "90",
+    "etag": "W/\"5a-S7dThBJJgBjpMfzHSWIcvfeXl4I\"",
+    "connection": "close"
+  },
+  "body": {
+    "IsSuccess": false,
+    "ErrorMessage": "Not allowed to delete customer, assigned to the order"
+  }
+}

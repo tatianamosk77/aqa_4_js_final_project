@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 12:03:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "539",
+    "etag": "W/\"21b-s6rEppdNtPiCjUewwLMgtgTdiVA\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Mona97@yahoo.com",
+      "name": "Emil Scottie",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 503,
+      "flat": 4825,
+      "phone": "+8415976234",
+      "createdOn": "2026-01-04T12:03:31.000Z",
+      "notes": "P0QAQfDDnEVTzZcfCXBoCJG8ChkRhkJEzP28dscxJCrbvnYoHy7q8pVuMrQ3TGIvuY74jVleNwUhWe5pY2u8Ujk91PuykJqinktgEYj8mlOubrRDMYzcu1oJsM0IXktSg2x9AtRdxUTzFJfeLtYMpoz5s82RTMYVEBKw8Gdr34P47CxbFdk0uH74GYOdcCsHZC2Z54d2YW0L0s7rTHbQbvNwCaHGT75zxV2kKq2hNcDiKFgt8spU0OrPkR",
+      "_id": "695a57131c508c5d5ea66071"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

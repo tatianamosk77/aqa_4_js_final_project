@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:54:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-PDbsOFeg1/AzFgvtzJeSYxwei3w\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Guido_Herzog42@hotmail.com",
+      "name": "Oswaldo Raquel",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 395,
+      "flat": 2277,
+      "phone": "+6921489618",
+      "createdOn": "2026-01-04T11:54:57.000Z",
+      "notes": "D2qwTX3s7EoU3jyQDRta7Kx9GG4pZ4wvlREQrG8XCh60uLRHsIk8kPSVdus3M9cPwuu3a6hAYsLe7DOV8nBwPrALDPnKkLEEbFZylULFC6VE8p3NpaicHZqNEnowZVZRbtpVUaopYAFDSUfEJFlEOL4TzYjObqZgdrH91v7TPCCGgB58spg5hztQ7qBj9VFOAmZvaI7J7FlgQ6PBN5W2LtdbkpfkncZpIg1mA3i3z0Yz1prSxqCkgEk08e",
+      "_id": "695a55111c508c5d5ea5cd22"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

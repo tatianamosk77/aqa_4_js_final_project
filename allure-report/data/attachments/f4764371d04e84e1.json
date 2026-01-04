@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:54:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1870",
+    "etag": "W/\"74e-zFxh/tjEozKTAtWfcDWSqA99YKI\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695a550b1c508c5d5ea5cbfe",
+        "email": "Keara54@gmail.com",
+        "name": "Junius Junior",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 799,
+        "flat": 9195,
+        "phone": "+2568709945",
+        "createdOn": "2026-01-04T11:54:51.000Z",
+        "notes": "t6xlwWShS2PuzvCMwt7Hh7S5k7e15URzdv2ryavlPR7JpTtj4jICbkFDku2f1OnxB1Mp3oAXxkybB4bNtGkvW9lFNcgjVt4BuGAKjYURAdspu1CMJulxPuA01MNv6Qjv7S94IbgT0Ngcju3JjFIryAlfaXEWcZcSVd0OUDRxN7gwvRruNQjLDjiTi07PvFKn2N4EtPT2VDGmLT78TMWZKWmtW1tAPv3YU4xgUpuwjnJcfehypOKwY7sOkM"
+      },
+      "products": [
+        {
+          "_id": "695a550b1c508c5d5ea5cc0d",
+          "name": "Pizza59922",
+          "amount": 276,
+          "price": 53111,
+          "manufacturer": "Amazon",
+          "notes": "Ytw1gGM9Qfe4qwHfR0DKRQtO1jTyV28Rz11e2NRQy8XTghumZk1a7U7KHieEBUTJpaNzvL342nfkXYxqMay1TVOHSzQ4QQlS5y81b4aD20ao4CWH34uCIQWN0ohPBwx9SU4pt4Bv3Ok9qeAp6HVYPfYFEBxBDVbSMdFBMWHOhX3G3b4r9fpMI0ulr4ihR455dFScDuj4zOXlWy59dAN7ZkzwFgtWN2rccPsEhpDmENV3uFDYYFusZmE0pj",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 53111,
+      "createdOn": "2026-01-04T11:54:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a550b1c508c5d5ea5cbfe",
+          "products": [
+            {
+              "_id": "695a550b1c508c5d5ea5cc0d",
+              "name": "Pizza59922",
+              "amount": 276,
+              "price": 53111,
+              "manufacturer": "Amazon",
+              "notes": "Ytw1gGM9Qfe4qwHfR0DKRQtO1jTyV28Rz11e2NRQy8XTghumZk1a7U7KHieEBUTJpaNzvL342nfkXYxqMay1TVOHSzQ4QQlS5y81b4aD20ao4CWH34uCIQWN0ohPBwx9SU4pt4Bv3Ok9qeAp6HVYPfYFEBxBDVbSMdFBMWHOhX3G3b4r9fpMI0ulr4ihR455dFScDuj4zOXlWy59dAN7ZkzwFgtWN2rccPsEhpDmENV3uFDYYFusZmE0pj",
+              "received": false
+            }
+          ],
+          "total_price": 53111,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:54:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695a550c1c508c5d5ea5cc47"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

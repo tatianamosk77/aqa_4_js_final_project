@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:56:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-jMmotxfWKHucxDIOmmUx9ncyDdc\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695a555a1c508c5d5ea5db1d",
+        "email": "Nikolas_Halvorson94@gmail.com",
+        "name": "Judy Sandrine",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 897,
+        "flat": 3178,
+        "phone": "+7693147306",
+        "createdOn": "2026-01-04T11:56:10.000Z",
+        "notes": "iSKlU2AYoxE1WZaui3uMJSqpzIsysDq6xPW83Zy7wRIHiTWr9fov4fudzywRnkpgjsEiisjopj1qd4ssCGLsQLba2AlDdScFskIv84P38x9tLAnznPiJOIJlUiOG6Vu8s426VLkb4E3P8klO3MoahhfAqxRuk4BBSp1GiL5hPqq0i4yOlPQcYbcGiWJiXJyK3TjaJ5YGerk2IY8PNnN71G0AhwAHI9XFTQ58t1jhhHoR8G1uFsIO1Lr2AW"
+      },
+      "products": [
+        {
+          "_id": "695a55521c508c5d5ea5d9b2",
+          "name": "Tuna69928",
+          "amount": 568,
+          "price": 68788,
+          "manufacturer": "Microsoft",
+          "notes": "dFmK5ffFyk1TZYV6vWSvw3UCJQruqIhRcLmxRTxq1uSfK9dcMExFfFvi3eZO7dERJoa1NO7zb8aa9EuPenl5Nya8QYJOkgTq0bUd2FLF7ZFMZiX4EAexL2AyFkRPTvxrkEU1MedVMuHtWnrzkG18fAd8QgG3XXaaUqzMkwK58ynKkFTIxsMIw56EbND4f1hoHG2NxZzNjyVG1UuADQQeS9Gmz874iVp5GYaIBzJg1n8fnSxCrUSAXm7V7G",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 68788,
+      "createdOn": "2026-01-04T11:56:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a555a1c508c5d5ea5db1d",
+          "products": [
+            {
+              "_id": "695a55521c508c5d5ea5d9b2",
+              "name": "Tuna69928",
+              "amount": 568,
+              "price": 68788,
+              "manufacturer": "Microsoft",
+              "notes": "dFmK5ffFyk1TZYV6vWSvw3UCJQruqIhRcLmxRTxq1uSfK9dcMExFfFvi3eZO7dERJoa1NO7zb8aa9EuPenl5Nya8QYJOkgTq0bUd2FLF7ZFMZiX4EAexL2AyFkRPTvxrkEU1MedVMuHtWnrzkG18fAd8QgG3XXaaUqzMkwK58ynKkFTIxsMIw56EbND4f1hoHG2NxZzNjyVG1UuADQQeS9Gmz874iVp5GYaIBzJg1n8fnSxCrUSAXm7V7G",
+              "received": false
+            }
+          ],
+          "total_price": 68788,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:56:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695a555a1c508c5d5ea5db34"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

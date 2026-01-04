@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:56:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-RbMa0bJe8YAbOS38pGUGB6oM0cM\"",
+    "keep-alive": "timeout=5, max=47",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Conrad55@gmail.com",
+      "name": "Aylin Louisa",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 337,
+      "flat": 8649,
+      "phone": "+6244904713",
+      "createdOn": "2026-01-04T11:56:27.000Z",
+      "notes": "tMKaWCe35xlGha7rj1fxvDpDfsjxdWeCXuo69cey7reZeMLiNpEpSXQWrAngtZsGx1t2hxO4faARWPRjPLwY0KH8Y5SpO4MGXlaRbkRdiD30WayYQQJEtjytiYdfC7WRu0CF1SgYO3Tbt9yaNGzPLnzF1ZF78MQXCeMqykg3d4gCVFfrXdpPvrXiJvKqDHusdrgA5BytbKiQYqIYrCCe1RhWv0gxI61daqvlKuDaGBZyYtS9p66o1bwhhC",
+      "_id": "695a556b1c508c5d5ea5dfba"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:56:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4161",
+    "etag": "W/\"1041-ef9G2geRLKFNyXP8uDgmMU3NEWo\"",
+    "keep-alive": "timeout=5, max=43",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a556b1c508c5d5ea5dfe2",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a55701c508c5d5ea5e0ff",
+        "email": "Clemmie_Hackett@yahoo.com",
+        "name": "Osborne Marjolaine",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 749,
+        "flat": 5978,
+        "phone": "+4426035152",
+        "createdOn": "2026-01-04T11:56:32.000Z",
+        "notes": "KGjHrRiUpCXkJrds5q0dzKwj1q6FU5urwqqPn4dBhat7iWWlBwvzflbGcDFZRIbCHyEogCFcZY17lhrZCzGDk07kpDqpcQkhTFLmprpsqmtrbWzAxdsskbkK79Bqo51dIM0hpdyWVj2GbTIY50GfTC3rfswrGu9BXheO6bbMPy0rUlBbcmSoGaofymvNjCeoEXIrBTQPhfG8APVJvP94C5hgBOHkTozmt9KWnVjpW8BNbsfnfgnZg7Ymtm"
+      },
+      "products": [
+        {
+          "_id": "695a556c1c508c5d5ea5e023",
+          "name": "Gloves16701",
+          "amount": 21,
+          "price": 73327,
+          "manufacturer": "Samsung",
+          "notes": "pi3rweJBgKz6e9Eg8hKTBaIhAFPUiBFA3Ku77URP1we77SXcfJo5mVrcFzER41kPQZyBhQ0IC9EzO0WLJ8VvbMKJX2SGV8pTFvpeunVrzdaN1CyVdSpeMp432TUyS0OTsR4Drkb2ySRUHrj6aHZNmGpezBcylkLwZlT9vq9sa74R7BlSKTGSPxETJ1roIF9Nii71FySlYdDuixZ9kPvoY7koFr2ymgBsSC73Paw3X64VWLGbzRdvzc64iR",
+          "received": false
+        },
+        {
+          "_id": "695a556c1c508c5d5ea5e04b",
+          "name": "Chair74991",
+          "amount": 362,
+          "price": 19675,
+          "manufacturer": "Samsung",
+          "notes": "nWX39C35XGo8qkZ3a1DC8uEhvXRMMj8QXdRKB8vB6rE0YScxLkPmzIeoOtKz4AjSruJTQliL7kaAZCa0GBV2fI6aJXKgECsQVQQg5RAZm9VIhJdww8IXw5wkWRtmv1P5QjXOxTnhilF2RCQoHGNI2Gv68BKJCV9yX2q450VmJOSnYDRkpf1DJWUDVNzTf07gIAa0Egri4RGUScwJjIqfW1mX7mWXhRxAsnBNsnnMg5OozxAoDmz9UmkBqP",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 93002,
+      "createdOn": "2026-01-04T11:56:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a55701c508c5d5ea5e0ff",
+          "products": [
+            {
+              "_id": "695a55671c508c5d5ea5de4d",
+              "name": "Soap90057",
+              "amount": 270,
+              "price": 37403,
+              "manufacturer": "Amazon",
+              "notes": "VLmhaqIxO0bFLGecZQRd027klxuyM7KKqyIMrEdXVoutlXLAYu1FaA3ZJybBzYLlXwsQvRVEZv8BRGcG1Bh5Kn6Wx0rmUSb11F7r0V0wfyBBjG1n7GfnAYd2KDKy5x3XxWRID2DjVRpDHwhJnNijZmY2Ds6shtdMjoFSFxF7YN8uvtu2Rb0Lip81TSrbh4TkYpeySgyIXz2r2CLh8KMaSxByCq3trpjE6E4t9AINAw23dSn9i0LaYPtSpq",
+              "received": false
+            }
+          ],
+          "total_price": 93002,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:56:37.000Z",
+          "action": "Customer changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a556b1c508c5d5ea5dfba",
+          "products": [
+            {
+              "_id": "695a556c1c508c5d5ea5e023",
+              "name": "Gloves16701",
+              "amount": 21,
+              "price": 73327,
+              "manufacturer": "Samsung",
+              "notes": "pi3rweJBgKz6e9Eg8hKTBaIhAFPUiBFA3Ku77URP1we77SXcfJo5mVrcFzER41kPQZyBhQ0IC9EzO0WLJ8VvbMKJX2SGV8pTFvpeunVrzdaN1CyVdSpeMp432TUyS0OTsR4Drkb2ySRUHrj6aHZNmGpezBcylkLwZlT9vq9sa74R7BlSKTGSPxETJ1roIF9Nii71FySlYdDuixZ9kPvoY7koFr2ymgBsSC73Paw3X64VWLGbzRdvzc64iR",
+              "received": false
+            },
+            {
+              "_id": "695a556c1c508c5d5ea5e04b",
+              "name": "Chair74991",
+              "amount": 362,
+              "price": 19675,
+              "manufacturer": "Samsung",
+              "notes": "nWX39C35XGo8qkZ3a1DC8uEhvXRMMj8QXdRKB8vB6rE0YScxLkPmzIeoOtKz4AjSruJTQliL7kaAZCa0GBV2fI6aJXKgECsQVQQg5RAZm9VIhJdww8IXw5wkWRtmv1P5QjXOxTnhilF2RCQoHGNI2Gv68BKJCV9yX2q450VmJOSnYDRkpf1DJWUDVNzTf07gIAa0Egri4RGUScwJjIqfW1mX7mWXhRxAsnBNsnnMg5OozxAoDmz9UmkBqP",
+              "received": false
+            }
+          ],
+          "total_price": 93002,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:56:37.000Z",
+          "action": "Requested products changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a556b1c508c5d5ea5dfba",
+          "products": [
+            {
+              "_id": "695a55671c508c5d5ea5de4d",
+              "name": "Soap90057",
+              "amount": 270,
+              "price": 37403,
+              "manufacturer": "Amazon",
+              "notes": "VLmhaqIxO0bFLGecZQRd027klxuyM7KKqyIMrEdXVoutlXLAYu1FaA3ZJybBzYLlXwsQvRVEZv8BRGcG1Bh5Kn6Wx0rmUSb11F7r0V0wfyBBjG1n7GfnAYd2KDKy5x3XxWRID2DjVRpDHwhJnNijZmY2Ds6shtdMjoFSFxF7YN8uvtu2Rb0Lip81TSrbh4TkYpeySgyIXz2r2CLh8KMaSxByCq3trpjE6E4t9AINAw23dSn9i0LaYPtSpq",
+              "received": false
+            }
+          ],
+          "total_price": 37403,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:56:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

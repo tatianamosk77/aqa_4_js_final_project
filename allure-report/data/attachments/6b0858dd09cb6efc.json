@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 12:05:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-h1usDF5sRailOCixFJs7kOcN7dI\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ewald57@hotmail.com",
+      "name": "Omer Orie",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 154,
+      "flat": 9501,
+      "phone": "+0241698281",
+      "createdOn": "2026-01-04T12:05:54.000Z",
+      "notes": "giUL4VHrQoxUDukBciHuV7k79sS0rHLBcsm504OYDHHrVyBeFkZ47JuTJQuxxnI59PXOuF2MRJgHzZvJvPDPVi37UtGeMJW4M2yUHTVnpPJUg8SDArHtI8CEVniv17gtlwJFANE7friV0PIzoZ1aOJq7VVebc1Zbsr2vg9fb8I8txIlPOFNej8GTV9614xtQMHLAVScojtoLTZ1RqcNuYtJg3SR8oOAI0Yvg50tdwiCXPj1i3rH1PIVMZa",
+      "_id": "695a57a21c508c5d5ea6a52b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

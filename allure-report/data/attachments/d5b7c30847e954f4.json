@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:54:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-VjKJMYWDwvZYsLM98b6d4qG1cmg\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Terry15@yahoo.com",
+      "name": "Jalon Berenice",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 999,
+      "flat": 7161,
+      "phone": "+2028138139",
+      "createdOn": "2026-01-04T11:54:31.000Z",
+      "notes": "jE6XJreYz4eULK7twxhwNzgjVY1rjS3BEq66ynOad9WA3R5XTzbJJ7bP8CzJwqYVS6lWzSjrWDRZAz7sADYBGLnuJwoA7OU1a56dUrzTy0Oeruu6yX54xAJn48R8Ul79uDGHu3hS1lyr7iYXycodBGCEoGq6AUupn1LkblWNueMr6JClwOAJNSNS40s8Dbi6QE3fotDd56OFwHAfQo449oUbUP4NEBhbs5EBC0sSJzX1d2ekrAKxoOobhQ",
+      "_id": "695a54f71c508c5d5ea5c998"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:57:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-H/lX8HS62itpZrlBmGR2VxalD4U\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Leon.Rowe@hotmail.com",
+      "name": "Allison Eryn",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 691,
+      "flat": 3213,
+      "phone": "+9006413684",
+      "createdOn": "2026-01-04T11:57:11.000Z",
+      "notes": "9EQ1MzMVvDMrEQnOxgg4NNFtwl80W1FMhkEsj2VGjtJX8FyA68Fl0rR7aNEjwV2C9V5bh6RE97SzcO7DNW09r4YbLPNEhgkCIUD9vLksCAaGUItL2Hni0mTaXIf5jhus7oOyOShqQP77QbBLL5AwWgsubIo5dVNsHlSJPMV3SVyhx938V1TBcZkre2j4Pn6yOTyScV1mSAEstJvhI8gH0ortqmphBLK3yX1PkHMxke6njEGmp9Y07uXAeU",
+      "_id": "695a55971c508c5d5ea5ee66"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

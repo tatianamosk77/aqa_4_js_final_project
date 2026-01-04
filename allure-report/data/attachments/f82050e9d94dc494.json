@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:55:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-/0KE7TFSl1tUI8TM89Zngf5dm78\"",
+    "keep-alive": "timeout=5, max=73",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Josiane.Brekke@yahoo.com",
+      "name": "Malachi Giles",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 765,
+      "flat": 99,
+      "phone": "+2312705892",
+      "createdOn": "2026-01-04T11:55:46.000Z",
+      "notes": "0qcVddna7sIdfGFb7ACQ52YJ0EzHtSnypLSzuqaCuUZaAuBMt6bYPpRYyGbojxRHoBmmcL5O6BoIGwjQjilRJ0Y26te7MiETbDvtphROjFzBWaYwVWpo1q52dYj4mNeVoOybCPXJIEHrPbE2XUIDttnQhPKAuvomaD5mRdzFQtPYq7TksNrPOZgFbgOaXm5WD720MTASDFaD0QtXIKXK3viTJeUnFBvFaXsJiOMXQeuXleMDn31Up1eBAg",
+      "_id": "695a55421c508c5d5ea5d5d9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

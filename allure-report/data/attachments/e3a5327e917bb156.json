@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 12:05:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-0SaeLsT1CaOpP3LTIPMrGRh3dIA\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Verona87@yahoo.com",
+      "name": "Sammie Myra",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 920,
+      "flat": 2325,
+      "phone": "+2159170110",
+      "createdOn": "2026-01-04T12:05:45.000Z",
+      "notes": "PSC7GCmkkmgkaLm4Oq3kIv7QRi7AtvhKwv9SmWTdE14AceHtN2SJP4S0zYy5FuQgNtdPBVgDBcV9h20uoLEz1ufCFtGGsMRW6L7rpNuOuQ1j5rMgRtFouPccrd6MrKJ5UeS0IF0AIe62SEPM9YrDHaPo6UJFxE76lfQtvBOUhd0zkdnimJ9cIXSzORiNTWSEQFSMrdfUCSd9inPjDm6AXropG5pLT5Tax7m0pRjipO1ShvcbIkei2LAPIk",
+      "_id": "695a57991c508c5d5ea6a0dc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

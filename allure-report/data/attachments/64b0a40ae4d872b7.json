@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 12:05:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-RErtgNVToALedW9+YcZxpJ/ZVqg\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Heber88@yahoo.com",
+      "name": "Caterina Melody",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 311,
+      "flat": 1329,
+      "phone": "+3497560038",
+      "createdOn": "2026-01-04T12:05:41.000Z",
+      "notes": "YNlMxOy1snZfnDyOVWZGTa3VQ0AVrYYuv9wXlCh6XNAxzzRX8S4T5w6AuNEUpVek8sJmPOZbmSVHNvQK2CIkxv8mLzIxGrvVv1iughf7hTeIen0PO6Ygc3GlZZBlOJCoJHbWaLjjjSR9jzumUsr719z03BODhnPQ74MHIAnQyvo8mXsiX5NWB3SBaDaLuMHG6HyBw04uWYjI09V5DQLeP2PLBdxesreZpVSdm7jBIaEXfSu5jQcAkoRXmi",
+      "_id": "695a57951c508c5d5ea69e74"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

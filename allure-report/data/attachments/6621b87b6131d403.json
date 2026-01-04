@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:55:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-DkshWYPU73SZpqeqGc+uwNBx/5w\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Oliver24@yahoo.com",
+      "name": "Amiya Justice",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 533,
+      "flat": 4233,
+      "phone": "+4410508008",
+      "createdOn": "2026-01-04T11:55:15.000Z",
+      "notes": "SfQLfV8QmMUQV14aiken0WwJ4jj7QldEBV6Diu851k0C2ZOsLaDgjBcjPR8xPHia4eu2ctaJ8dkv68kp5EhdVJ4oPUhlxMu7nzLdElJOL2jVkhZ27qG0Wl3YUMxGAgJhR1UMGmeAw2aQskJUMQ6KVOkSfQzRcKWmZfPtt13RLxm3GmaUgxmrWLMOsVtHjv04EOxHkjbGxb7irq7mONtY3dsZAJMvAqvfDvNjdAS96GDS2jiO03ymclkdqz",
+      "_id": "695a55231c508c5d5ea5ced7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

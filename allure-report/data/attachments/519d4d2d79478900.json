@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:56:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-Y3jhV6aP4ahAW0sRuLWn/ebs700\"",
+    "keep-alive": "timeout=5, max=51",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Bernadette16@hotmail.com",
+      "name": "Beaulah Daniela",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 889,
+      "flat": 7967,
+      "phone": "+7279758848",
+      "createdOn": "2026-01-04T11:56:10.000Z",
+      "notes": "pPV17GUZVqutT4lthZU9qaPEb3rtaTGUao9c1BUznhFrUtCemFDu5s7oQdBexrpIfrzkhj1LETvTmsgJiooieR5qEaWt53392Tn1sMIo1AOqjY01ABY97mgdyOF7CGlT2z2YaZeJn3lrhm7yiLXplGLGMr6gCycIhLOy9B8sbDeApHfpt6fbDZhzAQfmMWOiRVj7um6UymXudKZzlOyQEEqbRMD8dnqy4vLlAQA2PJoff6EidT2869oZcf",
+      "_id": "695a555a1c508c5d5ea5db1f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:56:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-BLDWOnGRAk63ptJO0Vij+qj/IpE\"",
+    "keep-alive": "timeout=5, max=57",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ross.Wuckert@hotmail.com",
+      "name": "Hosea Elinor",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 406,
+      "flat": 5529,
+      "phone": "+8376826712",
+      "createdOn": "2026-01-04T11:56:41.000Z",
+      "notes": "ePsfZ1yLTIQnXKBBuhx1T4LW2Fp33Hg05utrg7Mdr78mvyGLE2RybXLhZZUEei25DCNKkRI8cOqzigLjLNnqxGdkIClp0i37XplhpzyH8l3tKMzSKnLDWhNyVaJLmbB3boovvcQVeAfCM2bD3ktow3qv57dIZhnBgYNBx5IdiBBjgjznybVwk3CZF4vekLeJdGzIKRaTvGlvyiS5ZCkeV0fPeUHsLFta8CJkysPZpTyCedEPTS2IVOaf8P",
+      "_id": "695a55791c508c5d5ea5e3f5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

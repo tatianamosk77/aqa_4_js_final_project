@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:54:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-lbwB9u1vRXNk9xbRfAA1pOT0NZo\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Matteo.Walsh-OHara@yahoo.com",
+      "name": "Test Customer",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 910,
+      "flat": 9480,
+      "phone": "+9250877134",
+      "createdOn": "2026-01-04T11:54:22.000Z",
+      "notes": "ox0BVeP38TpOIQ9A3RwenFl8vFzKGJOlY4CUvrRr1g72SgvWZygKtVQCu6vV6vFuuTJp6Lk1M3yKNgJgUhoV2PqSs4FnpJlOtVHp7F42GIihik5vLNAmhj1omob0iErZAFW90KCGlfj4PHQlxUSSJFv7DnY0Vh6uXzh4qtnSimmTFcjbLpTa2UKpAcKs0D2d8rJoPEP57dq1e65XLs7mFIYIxLOyLjeuDnrfSJNPCediDdb1nxr2v3dIfP",
+      "_id": "695a54ee1c508c5d5ea5c8a3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

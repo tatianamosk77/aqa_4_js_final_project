@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:56:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-heb4eP7ayC/CggZtdCgMpp3wxFs\"",
+    "keep-alive": "timeout=5, max=76",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Lorenz73@yahoo.com",
+      "name": "Haskell Ernie",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 594,
+      "flat": 8499,
+      "phone": "+3747134617",
+      "createdOn": "2026-01-04T11:56:11.000Z",
+      "notes": "dFumQ2bUI7WYbusknJS3KkFoOS5CuuMUbhrL3buMO3hWh7f7PABYxWODG1byr58OTPf9wXP9VttNTBQY2oHIi6SW91j9gT7yLjZn6E9LSIMYzJwbPaXlxLataRIZuLUkB1gjS2XV0900qWoWFHhUZyFAqxHFzE3Re6rsnvv9Q1sltatAa58y160H2XMXH7yIM3ksEqJd6lQncPCIiYepBECKcMnrKMIGnoVCK1DxEm3VYCE9wTPber0ETg",
+      "_id": "695a555b1c508c5d5ea5dba6"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

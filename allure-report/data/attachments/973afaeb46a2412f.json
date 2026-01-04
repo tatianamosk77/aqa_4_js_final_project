@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:54:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "532",
+    "etag": "W/\"214-OaVV8T6TS1as9dwBwSbaH3ZZv7k\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Sean_Bergstrom@gmail.com",
+      "name": "Fredy Elise",
+      "country": "USA",
+      "city": "testCity",
+      "street": "H",
+      "house": 29,
+      "flat": 5507,
+      "phone": "+5274964962",
+      "createdOn": "2026-01-04T11:54:26.000Z",
+      "notes": "Zc47VdVvHp6AlsgnnjMjnDHTcXfEt3t1NgRTS7fq7h2e9VQB4gdKHFAhYaxc3QRjFjLJ5unuOHoye7IO0esXxmtgMmwtAeDGVnXQrJvOewVdoDg3EPzuTFZzX472hab9JuNfmiAPMaAdmcNeCYjaByHy2ssxyb4AXKbil4LxJD5zQn11Mw99lC3d4zAOJIqLd0NmWZWE1JJ3ticpmhV7gJs8nIIDMvZKJ99RJSdzP2cfXE1sZG57cmBz4O",
+      "_id": "695a54f21c508c5d5ea5c90c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

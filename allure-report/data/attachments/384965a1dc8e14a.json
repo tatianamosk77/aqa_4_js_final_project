@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:58:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-G32CZBEmBtVov2taL3qo0g2WePA\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Alva63@gmail.com",
+      "name": "Alfred Abelardo",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 668,
+      "flat": 1428,
+      "phone": "+8674213088",
+      "createdOn": "2026-01-04T11:58:53.000Z",
+      "notes": "ImtZO5MMvJuk0kYMC9Itr3t5DZd2cTOESVxKfSXyRz02Y9N3apM2oZvzDCwy26CKsdWAqKFKKRzrRWkweYDxBloCf02FvyUgtCfyWgRCeN0Sh32YwPPaFsEaEsrymFawAC5QZIFOwNJZhTCtQGLljzo2blQaEkgpfvnkggjm1FdNkaHRiz6xV4lBCj9wkaJta6uj274Rmii73u6R2gg6CW0AS9DCT7byjAJKAY9kXM74R4QkGJpa0RDZkp",
+      "_id": "695a55fd1c508c5d5ea6028f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

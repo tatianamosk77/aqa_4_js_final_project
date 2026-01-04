@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 12:01:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-0J+wQYFAq+xJQcEJisGPDdbSvAc\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Mafalda_Haag63@yahoo.com",
+      "name": "Mona Rickie",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 330,
+      "flat": 280,
+      "phone": "+7957283473",
+      "createdOn": "2026-01-04T12:01:22.000Z",
+      "notes": "hhu9uJZ8P2eokj3HRYP7DHQ1QM1h0kAIiEPsUtoyKlEtf1FRgIn39YQMUECp7fgPg50ImTMuK46hI5cVUfDHiF6i36NISOEtVl0UqKMoM87vNafjUnh3jkfSfNzf9ikMxJYvXoYH6RAJ973LVvugmhFha1YDIuYxPoBC1vHAkB9Kx3SyjqWRmTx5B2bpMmxhT7dUPlqimBxTfPsiUIXDkGBgFiuWvjipAbt6Ie4IWQrfaRYgIcNwwJygCF",
+      "_id": "695a56921c508c5d5ea62aae"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

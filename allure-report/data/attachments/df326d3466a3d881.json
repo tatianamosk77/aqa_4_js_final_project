@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:56:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "552",
+    "etag": "W/\"228-JKRThjHYYiGdfPDx7FTk3SWx7sU\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Nikolas_Halvorson94@gmail.com",
+      "name": "Judy Sandrine",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 897,
+      "flat": 3178,
+      "phone": "+7693147306",
+      "createdOn": "2026-01-04T11:56:10.000Z",
+      "notes": "iSKlU2AYoxE1WZaui3uMJSqpzIsysDq6xPW83Zy7wRIHiTWr9fov4fudzywRnkpgjsEiisjopj1qd4ssCGLsQLba2AlDdScFskIv84P38x9tLAnznPiJOIJlUiOG6Vu8s426VLkb4E3P8klO3MoahhfAqxRuk4BBSp1GiL5hPqq0i4yOlPQcYbcGiWJiXJyK3TjaJ5YGerk2IY8PNnN71G0AhwAHI9XFTQ58t1jhhHoR8G1uFsIO1Lr2AW",
+      "_id": "695a555a1c508c5d5ea5db1d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

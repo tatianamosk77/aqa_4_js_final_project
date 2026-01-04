@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:56:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1892",
+    "etag": "W/\"764-QobUyhzdcrsXwkCoe0FvkcwkjrY\"",
+    "keep-alive": "timeout=5, max=54",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695a555d1c508c5d5ea5dc32",
+        "email": "Declan_Ondricka-Parisian@hotmail.com",
+        "name": "Shyanne Brandy",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 195,
+        "flat": 3532,
+        "phone": "+1512641336",
+        "createdOn": "2026-01-04T11:56:13.000Z",
+        "notes": "Mwai4kkMAMCATnnCQgkvT5TP374VHq20dPbmpokco4TVPdGXHJ8Y9DN4YKy36i0wbNzYpXa0UoHSY6QESuQSPlqzZep7p6Rq06HMhWCALNe7g0JgFAFOsEjfqcNTtyXdt4l4vl8W0GFSwBidJuS1fq9VPHM2jYu1UnbYa0McWDeaiEkgyG86gAffDa4u0WVxtFWqzVHJslKkH44Pz9hT9EJGDvovxVE96TSlnhYOctDpFntLj37Mah7zxB"
+      },
+      "products": [
+        {
+          "_id": "695a55591c508c5d5ea5db13",
+          "name": "Shirt29390",
+          "amount": 451,
+          "price": 7180,
+          "manufacturer": "Google",
+          "notes": "MkYiMK64RpIo9wJFIA5Iy6pqwwr3CsJEexFZphwRt4GIxDJItpGBux7r2Z8vFZJRySACaDfGZTVcBfBXdHzlrjLlzlePX5L5NTuK4qMhB2jC6I1LXvpqe74JCiUx6DBEE7KdNx9ugpq93J4HupBY9sqZ0jimZV3LK55xskNPHiDEh57EWxyElhuOGwQgITvsbuHXjaNMoIwij0zhdfNxoqeqDRBKPOnQx2DhLGEGCNjtmCP3L1v7ohA7cz",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 7180,
+      "createdOn": "2026-01-04T11:56:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a555d1c508c5d5ea5dc32",
+          "products": [
+            {
+              "_id": "695a55591c508c5d5ea5db13",
+              "name": "Shirt29390",
+              "amount": 451,
+              "price": 7180,
+              "manufacturer": "Google",
+              "notes": "MkYiMK64RpIo9wJFIA5Iy6pqwwr3CsJEexFZphwRt4GIxDJItpGBux7r2Z8vFZJRySACaDfGZTVcBfBXdHzlrjLlzlePX5L5NTuK4qMhB2jC6I1LXvpqe74JCiUx6DBEE7KdNx9ugpq93J4HupBY9sqZ0jimZV3LK55xskNPHiDEh57EWxyElhuOGwQgITvsbuHXjaNMoIwij0zhdfNxoqeqDRBKPOnQx2DhLGEGCNjtmCP3L1v7ohA7cz",
+              "received": false
+            }
+          ],
+          "total_price": 7180,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:56:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695a555d1c508c5d5ea5dc89"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

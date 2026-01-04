@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:56:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "532",
+    "etag": "W/\"214-/ejYs82mOxY+1f/w/AGup+fhQJc\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jessy52@yahoo.com",
+      "name": "Jules Ima",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 35,
+      "flat": 6912,
+      "phone": "+2597721776",
+      "createdOn": "2026-01-04T11:56:41.000Z",
+      "notes": "SnUJbTkZmzflEtOO6UxDUFYyZNGsGy0KoGZUVfurZLJgxcZo1Zpkk1a9H40qnfBa5JDGHZgg0BzifF6OdmD5B3AH5bIUfUNTKzydN7fjbmccNMZYXRHIBeqMxKlM33eCh4Ft6CYMwpUGgeZdvfE7nlim77sMjr7yYO8Z4EMlglJxNL7Jj4tFZkvui3kIyPxuHtQxU0N4SRXIvNM8SIWhpBY5NS3Rl89BBSvHQMhh5omY5U7auwYItO1iy5",
+      "_id": "695a55791c508c5d5ea5e3f3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

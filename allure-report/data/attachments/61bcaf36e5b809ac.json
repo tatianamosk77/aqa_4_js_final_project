@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:54:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-whwAyDusQNFNTq+KDmxfYlCfwPE\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Joanne_Conroy@gmail.com",
+      "name": "Brooklyn Lacy",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 1,
+      "flat": 9032,
+      "phone": "+9462005424",
+      "createdOn": "2026-01-04T11:54:31.000Z",
+      "notes": "RR0TMk8zgNQIr7qSR0Uk2dzzabbUkgfXUs07dzxhlfCVojInZDMNrUYNaciAt1MoEcWu7epKI6t17J60KlTOOrKc4BQJG0wGY2GP16wvwFrAnfLFN5zyyjMJqcwjzSFfBciRBFQGRgUJbDCBP004NKu6CgI8nsB8MFxeFHbPqpWPeXcW1XiYXL7NyAecIbsSW8s1Jvz9k5Lfkzr0zIK3GgcPdrjaWGGkhCLLsYHTLbFPQqoRkVU0MbKSlE",
+      "_id": "695a54f71c508c5d5ea5c994"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

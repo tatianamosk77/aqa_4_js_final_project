@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:56:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3410",
+    "etag": "W/\"d52-jmAJX17kDU4l1NojjVzJK3ZSiLo\"",
+    "keep-alive": "timeout=5, max=29",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695a557a1c508c5d5ea5e45f",
+        "email": "Edgar21@yahoo.com",
+        "name": "Dameon Alfonzo",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 278,
+        "flat": 1790,
+        "phone": "+1698716332",
+        "createdOn": "2026-01-04T11:56:42.000Z",
+        "notes": "h0ssXe8AkmhQL8YrzmZXyPYKzoPk2rq5U3CRaxaS2KZqARpxsk13fAw3CnWfn2PdJLfhZGBOZHGXHIT7BV0401G7OXTAhVAfdl5fvk0sNrGnk6Eit7DHMnoiH9pMeExrPDQST2mj5uIOUm1YdjeewCf5JX4whHiFNB9uXveHlFqIqzq3rCUyKv5xd0pV9Zr0jh0DURCX5PLbwz3iSatLQqXBbEIfrbwDbih7FxFh4FrKwWGHAzM1pWuy3X"
+      },
+      "products": [
+        {
+          "_id": "695a55771c508c5d5ea5e2c7",
+          "name": "Salad84051",
+          "amount": 249,
+          "price": 91574,
+          "manufacturer": "Amazon",
+          "notes": "kZ6PcGz1X7OFYyyz4TRKhrGs4l2mRINGX1Fv1I8neWLJ2Ya8oBVM2o7t3zZiOTqHZH2ZO4zNjPRD6Zgv8TSK9ArV42q5vG1xwloQtlmsuQMwpBTjAjqQgNPACjZz00Gd7jONZGtfVXcpbvKsBYnrxxGuivQTFngn1Y6C7tzTtCwI1H6lTibl5tELbR0oqSjFQ59IiFnsHBcsMXeEe9botQKUPtXK7YKU3bcijmmANaLHrWpZe2rw6uKtZG",
+          "received": false
+        },
+        {
+          "_id": "695a55771c508c5d5ea5e2cb",
+          "name": "Computer49766",
+          "amount": 54,
+          "price": 91319,
+          "manufacturer": "Google",
+          "notes": "XJormf7tf79ZJZICD9CkmsnMGHp2LhubeqyPCnbsYofqT4LGTqRom9oaNimaRTMgsmuzyfJbBhMevZguwKgyAzY3RTRR5M0iAEQpAdU9Wec5onZIoxuyDFE9SEJfQZdk7ZMOID90Trmsty9cGUay5LzOSaa05kqPJ9kkjL8jyacd1rOrWVc15CjunmWctco9WEhgBRNnEwnw6SkFDdUBmVyQMDHxiLTuWRnuoKJAUC76du3hTFzYp3JhBd",
+          "received": false
+        },
+        {
+          "_id": "695a55771c508c5d5ea5e2c9",
+          "name": "Mouse61775",
+          "amount": 974,
+          "price": 5148,
+          "manufacturer": "Google",
+          "notes": "gAxiuoua2ug8Q79hsaWvqIhWDw0Si3YSLhk6juIG3HqIRF3LBMCaNv4G8eN3jRV2lF9CbwbFVNLcwfgRnc2JfqLcEd9uALFO8Vbom1mgvcSFFzjWn4ZFspKwxq4OAGmF5c7hlGtB6gKky2ijLYi4QStFHGsXI4W8XtGhXFxXClzCwbeKa1ULzGdre3yLRAQJ4NsVCOULPjdUuuY9Xia7IeHg7OjnmiqfxSmJvbHBlQiJledsjlkUaJz5Pp",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 188041,
+      "createdOn": "2026-01-04T11:56:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a557a1c508c5d5ea5e45f",
+          "products": [
+            {
+              "_id": "695a55771c508c5d5ea5e2c7",
+              "name": "Salad84051",
+              "amount": 249,
+              "price": 91574,
+              "manufacturer": "Amazon",
+              "notes": "kZ6PcGz1X7OFYyyz4TRKhrGs4l2mRINGX1Fv1I8neWLJ2Ya8oBVM2o7t3zZiOTqHZH2ZO4zNjPRD6Zgv8TSK9ArV42q5vG1xwloQtlmsuQMwpBTjAjqQgNPACjZz00Gd7jONZGtfVXcpbvKsBYnrxxGuivQTFngn1Y6C7tzTtCwI1H6lTibl5tELbR0oqSjFQ59IiFnsHBcsMXeEe9botQKUPtXK7YKU3bcijmmANaLHrWpZe2rw6uKtZG",
+              "received": false
+            },
+            {
+              "_id": "695a55771c508c5d5ea5e2cb",
+              "name": "Computer49766",
+              "amount": 54,
+              "price": 91319,
+              "manufacturer": "Google",
+              "notes": "XJormf7tf79ZJZICD9CkmsnMGHp2LhubeqyPCnbsYofqT4LGTqRom9oaNimaRTMgsmuzyfJbBhMevZguwKgyAzY3RTRR5M0iAEQpAdU9Wec5onZIoxuyDFE9SEJfQZdk7ZMOID90Trmsty9cGUay5LzOSaa05kqPJ9kkjL8jyacd1rOrWVc15CjunmWctco9WEhgBRNnEwnw6SkFDdUBmVyQMDHxiLTuWRnuoKJAUC76du3hTFzYp3JhBd",
+              "received": false
+            },
+            {
+              "_id": "695a55771c508c5d5ea5e2c9",
+              "name": "Mouse61775",
+              "amount": 974,
+              "price": 5148,
+              "manufacturer": "Google",
+              "notes": "gAxiuoua2ug8Q79hsaWvqIhWDw0Si3YSLhk6juIG3HqIRF3LBMCaNv4G8eN3jRV2lF9CbwbFVNLcwfgRnc2JfqLcEd9uALFO8Vbom1mgvcSFFzjWn4ZFspKwxq4OAGmF5c7hlGtB6gKky2ijLYi4QStFHGsXI4W8XtGhXFxXClzCwbeKa1ULzGdre3yLRAQJ4NsVCOULPjdUuuY9Xia7IeHg7OjnmiqfxSmJvbHBlQiJledsjlkUaJz5Pp",
+              "received": false
+            }
+          ],
+          "total_price": 188041,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:56:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695a557b1c508c5d5ea5e494"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

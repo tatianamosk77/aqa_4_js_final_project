@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:58:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-Eqg5OVNsWeXJYM1e3Djm3xWv8HY\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Melody18@hotmail.com",
+      "name": "Kathryne Coy",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 848,
+      "flat": 8399,
+      "phone": "+4515822518",
+      "createdOn": "2026-01-04T11:58:37.000Z",
+      "notes": "3c8rNisZ9nvxhLM8dyL4HwflO89p8tQfXYgnJ3x6ChOx26fLzPIUGmUNlpb75hChT5e4IqwaAOYhFeyhlonj1QJxeKRRMzxchVcW1G9SRLg5brYOtLzAoKglxnOTFBg6q83zU18DD2TUG3d34fVyBSpqs37g7lhI3D4lsI3B7b3CuZeUAUhmLbhuvGIIsXzZa0re4orJTWstl6R0a13zEWcFzV6FEtdA3AXrt5a7WBoG4j088DlI6Xol8A",
+      "_id": "695a55ed1c508c5d5ea5ff78"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:55:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-snZ454at8A8E2FZMbbO9Uj7uxBU\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Edgar_Graham@hotmail.com",
+      "name": "Anne Rudy",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 899,
+      "flat": 1658,
+      "phone": "+9637239346",
+      "createdOn": "2026-01-04T11:55:58.000Z",
+      "notes": "CvQjCVWUiYG1OULDSWZdFwfzucdXMLMl60Tf1obBaLnnaoShPiEzruFOJIKbUTqyj3vCvawZquTgsOtiHRfGhAPcd2SybQok2YyZAs1pOrsJQIiU4rsg8uf79kP7x6FRrd2o960j0i7xaUsrPJ7ElixO0n2xqfEa0SzPcaUfmIf3hV3SCQnAf3B0kj1ODIqiiLQ8mYUeFj5rAdx9DHHLP0oRGi7XadqxDhW7AILOGfuBSoxlI2vj3QqrDm",
+      "_id": "695a554e1c508c5d5ea5d896"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

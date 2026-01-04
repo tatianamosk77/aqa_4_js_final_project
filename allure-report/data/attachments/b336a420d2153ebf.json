@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 12:05:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-9iZu2QfYS89Kr9xCQWyZ2WHzVqw\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Gregory0@gmail.com",
+      "name": "Javier Myron",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 644,
+      "flat": 9969,
+      "phone": "+8546378790",
+      "createdOn": "2026-01-04T12:05:43.000Z",
+      "notes": "pO9G8p4LRdQzobijpkUUPmyE7NErsCV5BouApFDrV3nSyFI0BWLK1jvYyBGPBo8hvQXILwnPsyqbJXYTc0n3B72tfpF3Y6PnZGtOyRFyrISVFT2mV0jhnONDFSpAWFnoR3JjEPJldGnWeRpQT0gqrupbSfWPpdSH3AKZWvTrOh6MpefHOOAmJeQJiKYisfOkAoR8RA6sxUGmrgeDq03GurchEx8oDsWIu6TGLJGRRRP7qy7Ye33b6rp8F8",
+      "_id": "695a57971c508c5d5ea69f6e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:57:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-UfEtlmiyQ5taa2dynZ+mWqliEOU\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Giovanna_Carter@gmail.com",
+      "name": "Karolann Joelle",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 90,
+      "flat": 7896,
+      "phone": "+9481910887",
+      "createdOn": "2026-01-04T11:57:11.000Z",
+      "notes": "ikTZtqjwEiRF28o19bJhxOp7BrIYSCc1QRo9F22VU5g7y0nDBopkgySw6h0WRrgHrOxnF3bcd53JKF84t5XOQTx5pn95WKLncpOgE7awqlTgdxaFiCJm3R8y8MgHUuKTevCRqTvaYmURUIEZAPnauOaSQ8E5ZZaXGyKqnH12gHMEu75aLn4HJ2NFySsrc6Q4ZT54zsc2XvH69eIBINVbVRX8FGtnjF3SugdRZ6IChybXf9N3ozGZg42HRt",
+      "_id": "695a55971c508c5d5ea5ee62"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

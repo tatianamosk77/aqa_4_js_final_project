@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:55:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-ShNEQWhgCBCOocGw2ezh6zkDH0s\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Gia_Rowe@gmail.com",
+      "name": "Aditya Fausto",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 780,
+      "flat": 1492,
+      "phone": "+2286291455",
+      "createdOn": "2026-01-04T11:55:30.000Z",
+      "notes": "Tkk2vPd4hmg1Vw2okMzdc3U7yZf8bLTtL1ApA4EW7wPy9Qpwa2f92J83EujMOGt8bW0nRV2ASGQe7SCgBczCLY0raN7wZfoWuIOb1eTftasDWPTqmwF9vhvQJL2CuFj7UM9oHij3yQ8ZB6tVvwwfiL8DwB6ubEQg9WFteluOcnuZeJZEDqYFMguIZmtwiwimHyS5RbdBRdk9dvnga1KYsYzVLsqfszgPrdKDYHHhhC0Z9M2k5sVmv9q7Co",
+      "_id": "695a55321c508c5d5ea5d1c1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

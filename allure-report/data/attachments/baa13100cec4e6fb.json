@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:55:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-lD7CcGCCqZozvcs8tyYFOqbw2Iw\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695a55281c508c5d5ea5cfe6",
+        "email": "Malinda70@yahoo.com",
+        "name": "Courtney Barney",
+        "country": "France",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 549,
+        "flat": 2530,
+        "phone": "+3330727262",
+        "createdOn": "2026-01-04T11:55:20.000Z",
+        "notes": "cijUjdhj3ptjK4E8U1Vus3eK9e3f3tG1hmqkP9gKeUqb7JS7D0ROhm5LzUmn8kGxdFxevYPXKYhiFb9lLrNsKwAKv0sCxqR2kEjAwmL9xPRfWzhYhgIqls2vSnYdBTdJCQAk80WRn4LydJLVm7eu9AWkCmEZv3Pe6iDt4xpWna8vhY5m0i2nRiwGukqhAlYYWbZIX1C6GUIQFGtjQjsw1w0GsgEReRmUASWmdtZqvCoNLBwbDgsPXEggq9"
+      },
+      "products": [
+        {
+          "_id": "695a552d1c508c5d5ea5d036",
+          "name": "Computer7548",
+          "amount": 128,
+          "price": 70955,
+          "manufacturer": "Microsoft",
+          "notes": "RR2ISg7r3AdfJrxbX90ltK9WQJNqMSsQgrZhPfsr5K1vEiSbnd7GFyGeiD3setUzPKIeT1mkh8II2ImWmvTg04KpVgZElpU1SESYOuJJblSGkVOKtaOREp2bi6yqbtPsw8PCRPD9nvfZOOdGFiHp9Xt9ThsDxoNh6uScPkoBRPz2fzRdSxIvvvWeqd8VIGXUNVR726Qe2bNOWSQkI39gPFeFFJQgxdE6bc8DwEgcLgOWNYfFIcGbr6quSj",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 70955,
+      "createdOn": "2026-01-04T11:55:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a55281c508c5d5ea5cfe6",
+          "products": [
+            {
+              "_id": "695a552d1c508c5d5ea5d036",
+              "name": "Computer7548",
+              "amount": 128,
+              "price": 70955,
+              "manufacturer": "Microsoft",
+              "notes": "RR2ISg7r3AdfJrxbX90ltK9WQJNqMSsQgrZhPfsr5K1vEiSbnd7GFyGeiD3setUzPKIeT1mkh8II2ImWmvTg04KpVgZElpU1SESYOuJJblSGkVOKtaOREp2bi6yqbtPsw8PCRPD9nvfZOOdGFiHp9Xt9ThsDxoNh6uScPkoBRPz2fzRdSxIvvvWeqd8VIGXUNVR726Qe2bNOWSQkI39gPFeFFJQgxdE6bc8DwEgcLgOWNYfFIcGbr6quSj",
+              "received": false
+            }
+          ],
+          "total_price": 70955,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:55:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695a552e1c508c5d5ea5d0b7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

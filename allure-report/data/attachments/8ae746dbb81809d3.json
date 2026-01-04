@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 12:05:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-WdpAknLA2v+/v8jUikf6yQY+VNY\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Lucile.Cronin@hotmail.com",
+      "name": "Lamont Josue",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 206,
+      "flat": 7559,
+      "phone": "+3465918903",
+      "createdOn": "2026-01-04T12:05:31.000Z",
+      "notes": "N4fGIeIYGgYKu6F3f8i9Bynou0gk8tihQzfZxT8XfwiAum79ub7A6g8IdKWscf2iLAdjGK0ueJhb2AiMD7TpzgR4tugbsAj5971MOuoVOXQunLD6wbulpPoPDkDhSyXAmKTVE99YYWAEgS9IrwAlyt3pVCmDPGpVdW2ulSQZK04NXZe8htXQ5Ph1K3kOKvzLkeFXvJwKlVCR93vgDDkYJXseVF276oO7ab7MWNvfVec8Oz4t77sPrJbx9A",
+      "_id": "695a578b1c508c5d5ea69ac7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

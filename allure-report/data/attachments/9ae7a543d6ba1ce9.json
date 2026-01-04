@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:54:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-nVVMiazDQGFHVmre/oCoNAqm4l4\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Kristian86@yahoo.com",
+      "name": "Noelia Oscar",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 250,
+      "flat": 9495,
+      "phone": "+0193398930",
+      "createdOn": "2026-01-04T11:54:59.000Z",
+      "notes": "jPVJAvc5Hgd1mkRBE27slaIp54kTbL28dIdwcmDOs54ix6iOst03emeZZlVV1LDpANEv2PIlQghQOXY54Yogfbb4OAIiC6CDu7ij2aFOCpYLIkHxD30tKzQVgI7QHmfp28ZLINAJFdyJ5YxbAuQXoC4rGqbjTbV5JA4aWYu1YmXnan4e5VnETd24lo6IBwBmJhiyuIC1pOC1aQ1Bs3OwhJgE39CrrKEjWtRLSvVdGLt9j1D7v0IYP4yhMw",
+      "_id": "695a55131c508c5d5ea5cd49"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

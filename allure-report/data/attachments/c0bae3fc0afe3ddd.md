@@ -1,0 +1,125 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - img
+        - generic [ref=e7]: Sales Portal
+      - link "Home" [ref=e9] [cursor=pointer]:
+        - /url: "#/home"
+      - link "Orders" [ref=e11] [cursor=pointer]:
+        - /url: "#/orders"
+      - link "Products" [ref=e13] [cursor=pointer]:
+        - /url: "#/products"
+      - link "Customers" [ref=e15] [cursor=pointer]:
+        - /url: "#/customers"
+      - link "Managers" [ref=e17] [cursor=pointer]:
+        - /url: "#/managers"
+    - generic [ref=e19]:
+      - button " 9" [ref=e21] [cursor=pointer]:
+        - generic: 
+        - generic [ref=e22]: "9"
+      - button "" [ref=e23] [cursor=pointer]:
+        - generic: 
+      - link "User" [ref=e25] [cursor=pointer]:
+        - /url: "#/managers/undefined"
+        - strong [ref=e26]: User
+      - button "" [ref=e27] [cursor=pointer]:
+        - generic: 
+  - generic [ref=e28]:
+    - generic [ref=e29]:
+      - link " Orders" [ref=e30] [cursor=pointer]:
+        - /url: "#/orders"
+        - generic: 
+        - text: Orders
+      - generic [ref=e31]:
+        - heading "Order Details" [level=2] [ref=e33]
+        - generic [ref=e34]:
+          - status [ref=e37]:
+            - generic [ref=e38]: Loading...
+          - generic [ref=e39]:
+            - generic [ref=e40]:
+              - generic [ref=e41]:
+                - generic [ref=e42]: "Order number:"
+                - generic [ref=e43]: 695a571d1c508c5d5ea664bd
+              - generic [ref=e44]:
+                - generic [ref=e45]: "Assigned Manager:"
+                - generic [ref=e47] [cursor=pointer]: Click to select manager
+            - button "Cancel Order" [ref=e50] [cursor=pointer]
+          - generic [ref=e52]:
+            - button "Process Order" [ref=e53] [cursor=pointer]
+            - button "Refresh Order " [ref=e54] [cursor=pointer]:
+              - text: Refresh Order
+              - generic: 
+          - generic [ref=e55]:
+            - generic [ref=e56]:
+              - text: Order Status
+              - text: Draft
+            - generic [ref=e57]:
+              - text: Total Price
+              - text: $60454
+            - generic [ref=e58]:
+              - text: Delivery
+              - text: 2026/01/07
+            - generic [ref=e59]:
+              - text: Created On
+              - text: January 4, 2026 12:03 PM
+    - generic [ref=e60]:
+      - generic [ref=e61]:
+        - status [ref=e64]:
+          - generic [ref=e65]: Loading...
+        - generic [ref=e66]:
+          - heading "Customer Details" [level=4] [ref=e67]
+          - button "" [ref=e68] [cursor=pointer]:
+            - generic: 
+        - generic [ref=e69]:
+          - generic [ref=e70]:
+            - generic [ref=e71]: Email
+            - generic [ref=e72]: Garrett85@yahoo.com
+          - generic [ref=e73]:
+            - generic [ref=e74]: Name
+            - generic [ref=e75]: Diamond Otilia
+          - generic [ref=e76]:
+            - generic [ref=e77]: Country
+            - generic [ref=e78]: Great Britain
+          - generic [ref=e79]:
+            - generic [ref=e80]: City
+            - generic [ref=e81]: testCity
+          - generic [ref=e82]:
+            - generic [ref=e83]: Street
+            - generic [ref=e84]: testStreet
+          - generic [ref=e85]:
+            - generic [ref=e86]: House
+            - generic [ref=e87]: "644"
+          - generic [ref=e88]:
+            - generic [ref=e89]: Flat
+            - generic [ref=e90]: "4079"
+          - generic [ref=e91]:
+            - generic [ref=e92]: Phone
+            - generic [ref=e93]: "+2793760690"
+          - generic [ref=e94]:
+            - generic [ref=e95]: Created On
+            - generic [ref=e96]: 2026/01/04 12:03:31
+          - generic [ref=e97]:
+            - generic [ref=e98]: Notes
+            - generic [ref=e99]: hoLEhfFrWTNiPYfLVsApzLDyol1bQjJ8OIcikKIrt73CVyQ8fsu5x9c6rpdNo8AQDKRfiSYp4CkABqDwY8dpnUPRvFc0Z1UYrUdX9tupZB3nZIMzq03cStTqdj7taWPFvzaH5XrXKOOwzxXIqvh0haa8Y5B2m8spSWf96ax0lvUINraLtUeyNt8g9Lq53uWkGD5raWhoIfa3gobx5bhPluCxNvzjiN6tY25FwsR0pamXOt4zjwpP9TOGMK
+      - generic [ref=e100]:
+        - status [ref=e103]:
+          - generic [ref=e104]: Loading...
+        - generic [ref=e106]:
+          - heading "Requested Products" [level=4] [ref=e107]
+          - button "" [ref=e108] [cursor=pointer]:
+            - generic: 
+        - generic [ref=e111]:
+          - button "Chicken55776" [ref=e112] [cursor=pointer]
+          - generic [ref=e113]: Not Received
+    - generic [ref=e114]:
+      - status [ref=e117]:
+        - generic [ref=e118]: Loading...
+      - tablist [ref=e120]:
+        - tab "Delivery" [ref=e121] [cursor=pointer]
+        - tab "Order History" [ref=e122] [cursor=pointer]
+        - tab "Comments" [ref=e123] [cursor=pointer]
+```

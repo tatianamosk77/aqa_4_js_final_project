@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 12:03:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-h77OHc+j64CdzcFKTT3iZXHFDkE\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Garrett85@yahoo.com",
+      "name": "Diamond Otilia",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 644,
+      "flat": 4079,
+      "phone": "+2793760690",
+      "createdOn": "2026-01-04T12:03:31.000Z",
+      "notes": "hoLEhfFrWTNiPYfLVsApzLDyol1bQjJ8OIcikKIrt73CVyQ8fsu5x9c6rpdNo8AQDKRfiSYp4CkABqDwY8dpnUPRvFc0Z1UYrUdX9tupZB3nZIMzq03cStTqdj7taWPFvzaH5XrXKOOwzxXIqvh0haa8Y5B2m8spSWf96ax0lvUINraLtUeyNt8g9Lq53uWkGD5raWhoIfa3gobx5bhPluCxNvzjiN6tY25FwsR0pamXOt4zjwpP9TOGMK",
+      "_id": "695a57131c508c5d5ea66062"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

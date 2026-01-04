@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 12:02:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "551",
+    "etag": "W/\"227-d1CVwAkSQYu6z2zqBCeNUH5jrmI\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Billy_Macejkovic@hotmail.com",
+      "name": "Theodore Kennedy",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 195,
+      "flat": 2113,
+      "phone": "+1009434991",
+      "createdOn": "2026-01-04T12:02:57.000Z",
+      "notes": "u3lPNJNwcASWxxIUWIqMBJeSAa8QJXBaAXEZu6kajempHVOQekK08xJfCwhvrzVG7cuXjuNuuHzF9zUMoJ9OFypWN1MCsw6oANFgTMQG97UaxaUAC4o1jvl49lOMyQ4tFCSs3VtztXjYcU77FUGGigKPwQNK3HqI7HGNtOvFceu9cPeqPJpQxBTwQ6jUopqB0sIQmt35XuwhyMvmoPALTZGIj8liDK6DHors8pGs8AcobomTvOEDwmpcR7",
+      "_id": "695a56f11c508c5d5ea65309"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

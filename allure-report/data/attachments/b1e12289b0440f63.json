@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:56:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-dXsSs5pHhOsRHv1sJrmlB07AHhs\"",
+    "keep-alive": "timeout=5, max=70",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Darius.Wyman56@hotmail.com",
+      "name": "Dale Billie",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 843,
+      "flat": 343,
+      "phone": "+6659332005",
+      "createdOn": "2026-01-04T11:56:18.000Z",
+      "notes": "ni1kRrJ39Eji8YK7Siv3wlj15rPSOGwAuPySfSsLFOH1luleTmtERsHZ51LqhVJ3oTsq1tirPdvyAuXZMYRrYiKVcY3wOPfIHUwscSzebwT3Px35TGLNm8dHnyxv0tBg81VlO5WKUPh8qwLarHtcGF0SphOlByK93LJqD8GE5mRYMAHQpYdlsRTXVnQDjh0w4ijlnVaWb5H4273PWxdthj0mxvIdYlQ7Ho9AArFQKDhuqhn54Gb3abjbMY",
+      "_id": "695a55621c508c5d5ea5dd18"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 12:01:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "539",
+    "etag": "W/\"21b-CiA4XQgPtw2bxta9zK6vmz2OI+c\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Raul83@gmail.com",
+      "name": "Noah Caroline",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 776,
+      "flat": 7198,
+      "phone": "+3361573707",
+      "createdOn": "2026-01-04T12:01:04.000Z",
+      "notes": "zbT0KJnbhNNx32wHEgup2toxdZIIShSQJTCJoUkgISNShdBvWk77e0bEC5JBSgzecNhZ0OhTrOWbV8VtKCUoSXthh4mph9RQ14W8SZPmk2miCt8PYrUHyI7S9t1USXS9d69gLQyZcfqs9yYzotoivaKmoAlpi7i6j5R47IbyKMg5wHlvBHm5EcIRPpZm1k1kKa9MBwtM1MVZyMPFvWRUcY0mszltIPDhFPNw671U7lDBWqo0HsPWiRiS8V",
+      "_id": "695a56801c508c5d5ea62451"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

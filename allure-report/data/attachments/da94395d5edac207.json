@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:54:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-dN0I9JC5lZIHfT3GMeSrIaQdkHs\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Giovani9@hotmail.com",
+      "name": "Jay Esperanza",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 574,
+      "flat": 7693,
+      "phone": "+6141059720",
+      "createdOn": "2026-01-04T11:54:56.000Z",
+      "notes": "0te4frg1Yeuy5ZhMUe53hQMUxhlcTsewuX5cHohExXnyLl8Azu1HNaPepBGmwOGborUONfwTVTqVkxhhXKNwHbVfNqxeeekF2C8mRbjEx6PufzVSsMR1eFL3PxjKZnnNAVXdFB7yrIFsT8zn3TQvtQFny9DU522Hg5s3UCNNfY21blzQv5u13UmYdSvUBP8DGs4LsES6d8BkCJkXLtbnUdHhQplyes0PSFHvHKIUrGCTidxeYZUe7mtA8C",
+      "_id": "695a55101c508c5d5ea5ccf5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

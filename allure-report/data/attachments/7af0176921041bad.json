@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 12:05:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-RXp+Ngx9Booh8YTbrfJso6XsbrU\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Elmo_Gutkowski@hotmail.com",
+      "name": "Roger Trisha",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 653,
+      "flat": 6909,
+      "phone": "+8427532524",
+      "createdOn": "2026-01-04T12:05:43.000Z",
+      "notes": "VRO4g9VrImOveWN07q0OA5NqJAgOHVKhHsE5iDPWJU8s491yNtXobXETHli95PckFwhgEt0syAy9AREwxitxvbA9osZCFY5SjHSSZJUK0pIHTUwX9ofmpXrwT1tts5JDJWhuumV0FM1CqUboMbRCRKYsKuOnJJAfC4fifQCrlKQPZi40YRMSFTwTX1bAOXjNeJgsxLFMoTegTEMpgjFQqYxopzJ3mtYbfBI6T10Ab5JUo6FrotBIy6GCcC",
+      "_id": "695a57971c508c5d5ea69f70"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

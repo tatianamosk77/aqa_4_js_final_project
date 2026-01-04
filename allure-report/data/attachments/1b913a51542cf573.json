@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 12:01:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-ZjQMF/o+Ly9Gbd2YA3iLyqA7HjQ\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Tatum50@hotmail.com",
+      "name": "Dominique Luther",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 321,
+      "flat": 8628,
+      "phone": "+0850820660",
+      "createdOn": "2026-01-04T12:01:04.000Z",
+      "notes": "OupOGzVr2CDHCdfig8l6bQwF2gFFMsDcRCm5h47N1jDRkmHdqqu7sBcd8KjjhIBRqGe51cUtgJVOSuM21oxDnXcJrlbWzJap8j6NxZF6XkUCB3ltM7DE1jNUwEN3RDCZIed1qfTYxQhnJyD7ziqTTT3JO3zhY4q00YmB5fxIMTUEiJYi3MHVzVKM1YWWfC7y6ciPlcO97Trekyc7dkGMpryhqP7iyQ4dBlALvVyx7vCt55cnhAs6wM0KIv",
+      "_id": "695a56801c508c5d5ea62453"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

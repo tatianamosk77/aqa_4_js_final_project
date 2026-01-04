@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:54:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "551",
+    "etag": "W/\"227-e1GKHfTJG/gD1nzhAhAC/sAJ9no\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Adelle.Schroeder@hotmail.com",
+      "name": "Mireya Amara",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 472,
+      "flat": 4564,
+      "phone": "+0623468810",
+      "createdOn": "2026-01-04T11:54:49.000Z",
+      "notes": "F9B0dSpzX1mc778TkRiUOVfjjeJa6AA1ZiEsG9LSqmL8PrNEE4PwnGc57fZCvtL4PbDBdTjre4fi1D59nKrtFymwP4AmhreVmrM0WjyTW9WUBKgECD9qMPu76nmVzk2HrS79G5XSJf4qbeuYbLwUxZm6v1dgNwaIpEAOBrve4PK57VC7FqGdBIslHxmyOGEzBuMyeh6up7AxTE0ioRjH7hPJBZ2gPWepR8GRgvMp6zMT4Vp7EwKyebd2oO",
+      "_id": "695a55091c508c5d5ea5cb8c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:58:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-rkKt4/bdkTGZKNwpJ4z5KrC0BI0\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Kane.Hoeger31@yahoo.com",
+      "name": "Dayton Zion",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 707,
+      "flat": 1264,
+      "phone": "+5714941438",
+      "createdOn": "2026-01-04T11:58:47.000Z",
+      "notes": "YrgZ0yQKoVgM0G5DpwwcSo7EQrH7qQRMYE95PSEe7nin6sYRJRhjc6TmHD64Ly62tHphlD909REvz4KJzqzpQNtQoV5tI29Vpn5cALVJBmCi698ivCvcjLO0EafWVu9TxZMHJCnVn7d0I7IjVTOZViM3HxLxLxPW856f4vZTwFhb12dYwymWtGq6vzoEIIhbCCZOrXuXfzCy6ps0lBX50YjywPm4kfr4EDTiIVPJWzgkTKug2iuHVod9PE",
+      "_id": "695a55f71c508c5d5ea60111"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

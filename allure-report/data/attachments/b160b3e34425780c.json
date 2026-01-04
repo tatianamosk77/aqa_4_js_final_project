@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 12:05:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "539",
+    "etag": "W/\"21b-fg1FNdYSu5iQ3/8+8r9iyqvBrx0\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Rossie57@hotmail.com",
+      "name": "Jordan Layla",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 443,
+      "flat": 6677,
+      "phone": "+5501596835",
+      "createdOn": "2026-01-04T12:05:26.000Z",
+      "notes": "o0zD0dmtyIHvx4aOed9SGfoF4IPFG182vAi9HBiDjkVoQplVKtNDMPzDgPijEoQ89QCI8xjUuBFDNGK33CWx3sabCXj7Tp8tZ3kFqKKy9CkuFRRKDj8oqiMERR0gUriHsrLakpYFHlyFZVn0RSTov89UiuaEa0txWOZJyGEkfo2ZRhTgvliakSVD6bzTFUOgLvxiClcBlvhAsNmzenUwZh53GV4lm2O4I0OGzkqrzfZyluMrjcKiSBB69o",
+      "_id": "695a57861c508c5d5ea69893"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
