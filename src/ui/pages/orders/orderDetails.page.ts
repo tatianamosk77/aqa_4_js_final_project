@@ -2,6 +2,8 @@ import { logStep } from "utils/report/logStep.utils";
 import { SalesPortalPage } from "../sales-portal.page";
 import { SALES_PORTAL_URL } from "config/env";
 import { expect } from "fixtures";
+import { DeliveryTab } from "./delivery.tab";
+import { RequestedProductsSection } from "./requestedProducts.section";
 
 export class OrderDetailsPage extends SalesPortalPage {
   // --- ЛОКАТОРЫ ХЕДЕРА ---
@@ -58,6 +60,10 @@ export class OrderDetailsPage extends SalesPortalPage {
     .locator("#customer-section")
     .locator(".c-details", { hasText: "Name" })
     .locator("span.s-span:not(.strong-details)");
+  readonly reopenOrderButton = this.page.getByRole("button", { name: /reopen/i });
+  readonly deliveryTabButton = this.page.locator("#delivery-tab");
+  readonly receiveProductsButton = this.page.locator("#start-receiving-products");
+  readonly saveReceivedProductsButton = this.page.locator("#save-received-products");
 
   // --- ЛОКАТОРЫ УВЕДОМЛЕНИЙ (TOASTS) ---
   readonly toastMessage = this.page.locator("div.toast-body");
@@ -251,4 +257,43 @@ export class OrderDetailsPage extends SalesPortalPage {
     await this.cancelUnassignButton.click();
     await this.confirmationModal.waitFor({ state: 'hidden' });
   }
+
+  @logStep("Open Delivery tab")
+  async openDeliveryTab() {
+    await this.deliveryTabButton.click();
+}
+
+  getDeliveryTab() {
+   return new DeliveryTab(this.page);
+}
+@logStep("Start receiving products")
+async startReceivingProducts() {
+  await this.receiveProductsButton.click();
+}
+
+@logStep("Get visible order status text")
+async getOrderStatusText() {
+  const status = this.orderStatusBar
+    .locator("div")
+    .filter({ hasText: "Order Status" })
+    .locator("span")
+    .nth(1);
+
+  return await status.innerText();
+}
+
+@logStep("Receive first product")
+async receiveFirstProduct() {
+  await this.receiveProductsButton.click();
+  await this.page.locator(".received-label input[type='checkbox']").first().check({ force: true });
+  await this.saveReceivedProductsButton.click();
+}
+
+@logStep("Receive all products")
+async receiveAllProducts() {
+  await this.receiveProductsButton.click();
+  await this.page.locator("#selectAll").check({ force: true });
+  await this.saveReceivedProductsButton.click();
+}
+
 }
