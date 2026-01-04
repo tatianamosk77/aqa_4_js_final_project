@@ -50,6 +50,30 @@ export class AssignManagerModal extends BaseModal {
     return this.managerItems;
   }
 
+  @logStep("Choose a random manager from the list")
+  async chooseRandomManager(): Promise<string> {
+    await this.managerList.waitFor({ state: "visible" });
+    const managerElements = await this.managerItems.all();
+
+    if (managerElements.length === 0) {
+      throw new Error("No managers found in the list");
+    }
+
+    const randomIndex = Math.floor(Math.random() * managerElements.length);
+    const chosenManager = managerElements[randomIndex];
+
+    const managerText = await chosenManager?.innerText();
+
+    if (!managerText) {
+      throw new Error("Manager element has no text");
+    }
+    const managerName = this.extractManagerName(managerText);
+
+    await chosenManager?.click();
+
+    return managerName;
+  }
+
   @logStep("Choose a different manager from the list")
   async chooseDifferentManager(): Promise<string> {
     await this.managerList.waitFor({ state: "visible" });
@@ -69,7 +93,6 @@ export class AssignManagerModal extends BaseModal {
 
     return managerName;
   }
-
 
   private extractManagerName(fullText: string): string {
     const namePart = fullText.split("(")[0];
