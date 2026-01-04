@@ -26,6 +26,7 @@ export class OrderDetailsPage extends SalesPortalPage {
   readonly clickToSelectManagerButton = this.page.locator('#assigned-manager-container u');
   readonly clickToAssingManager = this.assignedManagerContainer.locator("span");
   readonly assignedManagerLink = this.orderDetailsHeader.locator("#assigned-manager-link");
+  readonly assignedManager = this.assignedManagerLink; 
   // readonly editManagerButton = this.assignedManagerContainer.filter({ hasText: "Edit" });
   readonly editManagerButton = this.page.locator('button[title="Edit Assigned Manager"]');
   readonly removeManagerButton = this.assignedManagerContainer.locator("button.text-danger");
