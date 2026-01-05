@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:17:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-NHP/eLLYiaPqTNQ10HH+NmxDpbA\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Rowan.Zieme@gmail.com",
+      "name": "Werner Liam",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 270,
+      "flat": 464,
+      "phone": "+2303514028",
+      "createdOn": "2026-01-05T22:17:05.000Z",
+      "notes": "9OW4LmPEon8oCEJKzkRUOKfY7fEmKIiOIi3W4X1s4w0ByZxLbC4GzcdkpAiWWLEdCa6Ujj43k1a6lWgR4kXjsyiGILXZIo3Rp2ASWiBO3dbwyEdXXJKAZZIpDgu5myuTVN5A4yETrLVXmgaxk9r8X4kSvNbUQAquImJzf29pcUxUQcsIKL7IKJgPtWa8lTXdB2dmgshqSzhF0Cbk59U8MzMpQYscKEnFjzZtchZhvsrEN8um7kvHuU9LJ5",
+      "_id": "695c38611c508c5d5eaa284c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

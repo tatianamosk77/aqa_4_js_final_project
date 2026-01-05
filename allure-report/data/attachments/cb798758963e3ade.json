@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:17:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "556",
+    "etag": "W/\"22c-m+YOsRRg3MBQ+QJ14rbWwKPNDz4\"",
+    "keep-alive": "timeout=5, max=74",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Brycen.Rolfson34@gmail.com",
+      "name": "Austen Arlene",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 866,
+      "flat": 2992,
+      "phone": "+4223824424",
+      "createdOn": "2026-01-05T22:17:10.000Z",
+      "notes": "p1XhgYyOW1BTtsBnFybdDU5dyZCyTvDjvx8xLQeAFwOpXAcuTMvpE6wGbZlJgB9RAlyOonTBZ34RZj84A33SkeFaidS2FC2dDeki2v9jubU6WPvF2hN86O5j25SlqmxQ0vIzNENl6u1DH6KtJw6E0oO8wrRjYPzIKujAqadEoB4tNP3ImpP35PiahuGVawyJpDyuUvdDv1BxDi0gwVYKjWaNTRoL6lyb7LLq5TkEZuMGnODwdF5zjNDQ6w",
+      "_id": "695c38661c508c5d5eaa2aef"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

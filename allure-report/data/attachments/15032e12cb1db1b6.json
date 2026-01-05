@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:17:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-Pz6PMXH+3t1csHUlmwZ68jOdD4A\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Felipa_Spinka@hotmail.com",
+      "name": "Ashley Presley",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 968,
+      "flat": 9171,
+      "phone": "+1691755370",
+      "createdOn": "2026-01-05T22:17:03.000Z",
+      "notes": "C5HIlMOZziqDODgJuR4W8qs7D22vXaSnk2Hj2lXwiTK1oAEi59HniFlOyyGexKyahrXMcV8OSwv48WoNxya9gdkL8Di36Rq7wJ7NSAIF901E67GOkVK6yFsIYbA10w0wx29RsLBDOtqPlS7ono19xhEfesugnoOuY91WGMMCj8vQTbPYhDlAfhGDxbYGRTQo6ylF3AjnuEnp3ZH4lPJyZQ30Hx9ilglHaB0x7iQlzhZxbkVEUBWaj6nuJJ",
+      "_id": "695c385f1c508c5d5eaa2773"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

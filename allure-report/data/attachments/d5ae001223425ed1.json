@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:28:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "554",
+    "etag": "W/\"22a-yBd8s7O3sTiaa+nBwr9o8Dwh4/4\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jacinthe_Runolfsdottir@gmail.com",
+      "name": "Maegan Nona",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 749,
+      "flat": 5443,
+      "phone": "+1070518644",
+      "createdOn": "2026-01-05T22:28:05.000Z",
+      "notes": "Kue57t3ucBrRHYTc38CkIt51FQuMozKvO6di6RRfVpxTPXCvXkqDMoDxJhSy9oJSvr9dS2mxzVMjK4B7GCZWmBX8xVVuiIte8OY86uDu3IFYdlHVpjaMFMVxq7qLW1mcbzFQ6APtGCx2enOtEaRQyfyD4pEeYafnUnQpUDhAHIBKFxyI4vDYY8PsWEOo9PljwOmzdJjIsNn3Hizk6btJjSVPmesLgAREDEyfshlsn7mArwgPAkiqPKmwds",
+      "_id": "695c3af51c508c5d5eaac4be"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

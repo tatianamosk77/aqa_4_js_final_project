@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:28:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "557",
+    "etag": "W/\"22d-6tkbwuDPtoptePtlP0IyDOe1BNg\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Johathan_OConner75@yahoo.com",
+      "name": "Torrey Donny",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 942,
+      "flat": 1640,
+      "phone": "+6653120539",
+      "createdOn": "2026-01-05T22:28:14.000Z",
+      "notes": "pHbY3WFEJqf82qXsD16VTqIptUeUGmN1Md5RYxYJIhLFniMhTvAVRh86XDMJSsuDNQQnpI3d1utJIJNf3saTTGGFaQdkDkX8umvlPGANVuPkR1qP3crG0JqBYYuN6tHkQW81i0gtRTfHGMAKZH1w0yfBgJOlClRHxBscWq50nwyv1aE8mLPK6Lyh6ex3f6o0dVBO0tCAd6jhsY3GhMYrSmhZLx1S9zLVCYi17NgWYfDMNQf4ygS1YcS6Qk",
+      "_id": "695c3afe1c508c5d5eaacaeb"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

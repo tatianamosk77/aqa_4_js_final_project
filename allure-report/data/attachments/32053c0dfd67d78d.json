@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:16:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-u5JnMOe8KdMAE0oEU/LlmG58jpA\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Waldo.Gutmann@gmail.com",
+      "name": "Dwight Lawrence",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 953,
+      "flat": 5226,
+      "phone": "+8348330971",
+      "createdOn": "2026-01-05T22:16:56.000Z",
+      "notes": "WzhmBQUIDzTLkdQCnkQgxiWemPAYrCw4Xfy02ZdKdNIcDyogsFKq8i47QjwTBokE1TwcqyhKHtnJYkRWWnUWoYRYHRPOHguMMN9O1S6EF0WdQVDdJFFzkTxSZIEUevZkwM4slG9jkyR0NNUfiHzfeldTRdIEVDbuSxfJrJQwEjbjuWjX5w2hKeBpGKD0Aailc7DvtlfR1zJOXqteOyhUbZ0E565mDvR5cZlOHdwAb0WmQaLXgqxgMFpVNq",
+      "_id": "695c38581c508c5d5eaa257c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

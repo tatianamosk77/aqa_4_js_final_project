@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:27:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "538",
+    "etag": "W/\"21a-gx45UNQNFIxMjC3v7frSHr7hSWo\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Frederick9@hotmail.com",
+      "name": "Hank Nash",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 683,
+      "flat": 8323,
+      "phone": "+7463645468",
+      "createdOn": "2026-01-05T22:27:34.000Z",
+      "notes": "Ukj7Jaq8np7bAVwVbqgjZc3HMRHSkBe8q1UdDUFsNmuq0LTT4U9iX3zWIMpgMndTQW862LfEzN9JfeNKnAyLdKyOaG5uLOORUGBfnu81ikbYimEWREweINNZUNOzggwzFm5i45BmP8E6hPt3igogKCTkMAi1TmLKjh6EhQa9VKBuqw1rTOC1RnV7yMCegsWQKLarC2E5RrknlUqcrmL0mIlGSLHKCPV0OIwue6tVeakdmm32xylFyIL7eL",
+      "_id": "695c3ad61c508c5d5eaab290"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

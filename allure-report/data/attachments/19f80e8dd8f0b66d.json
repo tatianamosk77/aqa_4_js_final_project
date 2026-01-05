@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:29:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-pwO0IJxT5ZIBW6Ru198buzCwglI\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Camila22@yahoo.com",
+      "name": "Stanley Nicklaus",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 680,
+      "flat": 7272,
+      "phone": "+7956230882",
+      "createdOn": "2026-01-05T22:29:18.000Z",
+      "notes": "Yvfvsg7v6K6xh9ihNCUYM8mSK57uKuvMA4pgs657aOhG1vQN3ZJ42loMEVx0DzQeQ61Y5x65bOUJCqX2Lzh7cSD70lKtjJzvfVntF05daf6e9XwJ6EfbOwNy0FIhrQfE4Ld5AkykFGez66DzaDFndIhaqYGDOmGGD3oUevC5eCZkOj6thK4nkL8sHaUjc4Xi6gkUdqdEUWlIreRv38h3fLYB1O606r8hjC2afymAygtNVyn7GGZlJaFFRJ",
+      "_id": "695c3b3e1c508c5d5eaaee74"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

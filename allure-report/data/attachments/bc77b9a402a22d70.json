@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:16:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "555",
+    "etag": "W/\"22b-P9fEseIYU7hZTISsuBljcrk70xI\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Vito_Bartoletti23@yahoo.com",
+      "name": "Haylee Lola",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 595,
+      "flat": 5076,
+      "phone": "+7603248090",
+      "createdOn": "2026-01-05T22:16:47.000Z",
+      "notes": "ueGkabwhMMCV0lgcLmvOMrkvPHPsyP9NwwfegOT9enkIBlhnQ3tvSaBZy5mGYSBhoy7YF11cM4zxsudcW4A2QrOSEaD7uZocpsILmgEuY52HNZFt3LuHzBIG0vcpzFsu5MdF66N07zevyvmL4gtpZow0bqy8xUvGbBFmyvF6pmm6eJxPE0G1vjCjbcjahykvH7i0SsIEntcB9VDCi5IWhn5rCaOgcIxR3nVdKXmSpBulArf6GN9ZIyf3rx",
+      "_id": "695c384f1c508c5d5eaa23b9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

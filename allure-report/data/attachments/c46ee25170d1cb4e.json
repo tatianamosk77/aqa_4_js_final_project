@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:17:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "199",
+    "etag": "W/\"c7-t/DSa+r486VX6/pDro31tOCNq58\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Computer48448",
+      "amount": 743,
+      "price": 78889,
+      "manufacturer": "Microsoft",
+      "createdOn": "2026-01-05T22:17:19.000Z",
+      "_id": "695c386f1c508c5d5eaa2e62"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

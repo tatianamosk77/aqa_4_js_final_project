@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:16:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-FjSe+z74y7FLCaHzmulq+u3JtAI\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Camren.Waters@gmail.com",
+      "name": "Diana Daisy",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 773,
+      "flat": 4931,
+      "phone": "+6672424034",
+      "createdOn": "2026-01-05T22:16:48.000Z",
+      "notes": "T1FWyO7RBjuEAX63kigeX2F3oDRRZBTrkIgxk5UQKChukW5avEC8Tjz0tZQ41cM70NBx6bBeT56l44ipvNTmyXFlh9yZfvANOXRuhluEPQr8RjRlcob0hD9TfDZuxiKnOpo9OM5jrlw9p5DqMP1oO2CoGdcE5QdkFJvzQC2c49QtUpys3mI9sOWIni0enHuLnHueistEFTGBg838rRRUSbwqx6K6of4pWf60lORx2KfpRghcyfwn9ZiNJ3",
+      "_id": "695c38501c508c5d5eaa23de"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

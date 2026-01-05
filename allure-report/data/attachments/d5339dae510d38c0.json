@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:26:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-O1cb/NXCOZM/FSXVTpHKg221eyA\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Marcia_Roberts@yahoo.com",
+      "name": "Arianna Jedediah",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 978,
+      "flat": 151,
+      "phone": "+8780183992",
+      "createdOn": "2026-01-05T22:26:09.000Z",
+      "notes": "Wx0nA0rihHEoOnRPVgQq1TljXaWyRCFDaqiB5LtwGfKIR4pMh05K7QJcxiIgEkWvwsd8AtibOlm5MNbXhPwmxmDZ4dDspPOASxR8Gtg4U7ZgvDfpzcHDCWrBIadEdGjRW7WKKeoB7WLfo2xiYlPDE44sQAhr7r2zmSWeh6UU5huScpmKZtXfAVqtWonXLAjjRP98ZQSh58Grxzjw3MfOkGul5hKm2qGn5k1yopcd2qw138bWzBFmoarDZl",
+      "_id": "695c3a811c508c5d5eaa8d0f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

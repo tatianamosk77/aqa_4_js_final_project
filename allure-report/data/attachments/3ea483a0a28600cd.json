@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:17:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1873",
+    "etag": "W/\"751-D2Q4UnYPCFJyiRuIqV3YmpGfnNM\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695c385d1c508c5d5eaa26f9",
+        "email": "Mathew45@hotmail.com",
+        "name": "Adelia Maximillia",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 61,
+        "flat": 9696,
+        "phone": "+7299857975",
+        "createdOn": "2026-01-05T22:17:01.000Z",
+        "notes": "gt91ofjL6D4DUkQxpopRr4LuZORDNBLH4ehN0QRw0itBpL9X5CJ3H3ZDuXy6WiPfewkCDL9nUuzWsLbX8HjojypdaKpLY4Fg1dPuGSltQuqXRIRwcvfevbEjVridco5sVRKI2lyTFgtGMrq2mbAo0nCrskf5FAlbHxL6AG7JoelaWnXccEKOyImAOrrkHySScAUYEQbuYikpRBpVBU2Ivaq7WjvfsSCBNV5vOuHyHXeAfbAIn72BrKF6xp"
+      },
+      "products": [
+        {
+          "_id": "695c385d1c508c5d5eaa2702",
+          "name": "Salad77265",
+          "amount": 800,
+          "price": 53770,
+          "manufacturer": "Apple",
+          "notes": "6hgJ5q892YQbc8fwbEKqrQhda3pwDkXuaXIfJ9hMKYnhdf32ER8IftYJ9eDUEavy6oQLjGr8WLIYC2dcswaems2JWUH0qLw2yTWpv1QLKFZYDGxS4vlBbT8X7kDybqt4Gv7tgNbsMnwTuPrT1HE0Wg3orvaMxQYUjBmWHGXr7ASB02oShsZXsQFXysU6AsJeldKHxq71mMBHExYBgxwPKfijeGRsIEBoN4FLXW2mpCa9MDg1QzjQdfajr4",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 53770,
+      "createdOn": "2026-01-05T22:17:01.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695c385d1c508c5d5eaa26f9",
+          "products": [
+            {
+              "_id": "695c385d1c508c5d5eaa2702",
+              "name": "Salad77265",
+              "amount": 800,
+              "price": 53770,
+              "manufacturer": "Apple",
+              "notes": "6hgJ5q892YQbc8fwbEKqrQhda3pwDkXuaXIfJ9hMKYnhdf32ER8IftYJ9eDUEavy6oQLjGr8WLIYC2dcswaems2JWUH0qLw2yTWpv1QLKFZYDGxS4vlBbT8X7kDybqt4Gv7tgNbsMnwTuPrT1HE0Wg3orvaMxQYUjBmWHGXr7ASB02oShsZXsQFXysU6AsJeldKHxq71mMBHExYBgxwPKfijeGRsIEBoN4FLXW2mpCa9MDg1QzjQdfajr4",
+              "received": false
+            }
+          ],
+          "total_price": 53770,
+          "delivery": null,
+          "changedOn": "2026-01-05T22:17:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695c385d1c508c5d5eaa2712"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

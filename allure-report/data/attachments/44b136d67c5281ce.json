@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:17:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-h5LZqH+Xw8icg/mBsFL/xvCykC0\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Donato37@yahoo.com",
+      "name": "Maureen Mckenna",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 769,
+      "flat": 277,
+      "phone": "+9888892007",
+      "createdOn": "2026-01-05T22:17:12.000Z",
+      "notes": "Tn7dZMjleO5l6QouhYNDlcJoTkDvmqhPIfUHKVfpn9coOOVlbVWlADMHTHkcHHjt9Ymyq6Shdw7wu25lytZtGKFzXbMOaQ2Y6qjld5alkfKLvThophKlChb1e3rcf7kgY9nhf7jfIbyYCP556Oqxje4i9xEFPGe2ZqA309Oa07Q4jGL27MJIT1z6lZrRbHP5pD7V4ryCH8tt0vpVwx0Rg5Ehjmo7hyWI0gaVDhvOSOsdBceUMZarWe7QlX",
+      "_id": "695c38681c508c5d5eaa2b77"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

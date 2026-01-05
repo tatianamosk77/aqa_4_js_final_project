@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:16:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-Gk9BeGv7n+d4FieIAexeXJ6PzNE\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Linnea.Bergstrom94@gmail.com",
+      "name": "Cesar Lacey",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 999,
+      "flat": 2517,
+      "phone": "+8185076827",
+      "createdOn": "2026-01-05T22:16:33.000Z",
+      "notes": "YvGGkub1DeMSkFlUYjeViFvD1AnVLb6C4xQTixyUqxtaaaIo1L8nUnCteRVjDRuuSuOvisxNSviLzlMBrBDZXrwvUd2EgtXISFxSE4TBAC6QpOvZn0SzSMI2Td08l706kXPs5lO40Khkk17Lifg4QBnUoRk4DbfejSPI77JWKvIQGKdxM2AbQiFjLDHnCCcLQJLLlH9Mp6Hqc8NLuShPncPrfm3fTDSc5itid7CUWWnV8PZryBEZrKXQ3g",
+      "_id": "695c38411c508c5d5eaa21ca"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

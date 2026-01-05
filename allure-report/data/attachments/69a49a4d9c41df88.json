@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:16:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-Vbo3tCc0RCWDbW0Wri/1zk5n7QA\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Renee.Cummings@yahoo.com",
+      "name": "Nelle Lafayette",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 550,
+      "flat": 3208,
+      "phone": "+9131251128",
+      "createdOn": "2026-01-05T22:16:41.000Z",
+      "notes": "tlL5cuvjpGzIiwCnh7VrbSiG3WJlQZNqO9y3aFULnmeUR9wRIii5crYOapxZPuz0eFNWBFuGE4vveYueqvxcLLcUsGe6y68KEycsoSq76o8D7lkLoB6JxtkP6939F1Q4sTbteRER7bG9hOtNfjFNV6kNId68ECm8dPNPMaw6JfhoBvIMhdonsZw9ILFCXSbXkjzH98Oa2sBubyKyylpx7WDWxzOrOSZGqrkNFZKWRuOsAwAeIGnrkuIGAb",
+      "_id": "695c38491c508c5d5eaa22c3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

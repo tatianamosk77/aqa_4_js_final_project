@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:16:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-ZuYQzNEkWFr0k98pYF28pdFNScQ\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Pattie.Windler@hotmail.com",
+      "name": "Morris Kris",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 473,
+      "flat": 4279,
+      "phone": "+9990552657",
+      "createdOn": "2026-01-05T22:16:40.000Z",
+      "notes": "5rwNBPiHdKFSMWQw8gD4UHawuPAz8RbFvvsJVL1hemaK8riJXWGVYyqCrCcrJlwO2TZM9odxrKypk3yoelDu6cEq32rb9GVLHErGJ06kDQNq8AsBvDX88CzJRtVf8LhVF313Jn1OL75rQCyRO4jFHSQv9b0b4yuVzenQGqbRKHqvqqjd6ENdD7QOMawVh27bbCoUzuMDdXrx1uTwiw4UrPyKvzkbV8BGir4CgKACxOtRUsThNynN4Os1q9",
+      "_id": "695c38481c508c5d5eaa229a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

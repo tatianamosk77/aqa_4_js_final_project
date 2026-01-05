@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:16:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1886",
+    "etag": "W/\"75e-DjWqVu2W2jfnU9H4y5aKJCljUSo\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695c38511c508c5d5eaa23f4",
+        "email": "Davin_Ondricka-Kerluke19@gmail.com",
+        "name": "Orval Seamus",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 888,
+        "flat": 6436,
+        "phone": "+2789579040",
+        "createdOn": "2026-01-05T22:16:49.000Z",
+        "notes": "VQHqxLd2k3eBZM3bOX9rP4lMaBaXhoeZ0956YdpkJvwmRgj8bZZotOBLzorrO5zq8H5shmpR67hEj5qtS6nRp4GiqUbbd8qW6U3L9AA79PUyiS1bqPSxBD7MkD4BDA0jRqSPhUO85bSRvbXKABNzQMtTYYMBWoPl1y2Y16jQuCrXjsquUYGhvnLXQj3dgm3Nb7dQ21MZB5uaFFr6xRY2PBUjvQpW5KG3aNhdLOrBFOiEXjAIKiElFBKu1h"
+      },
+      "products": [
+        {
+          "_id": "695c38521c508c5d5eaa2414",
+          "name": "Car51136",
+          "amount": 438,
+          "price": 74957,
+          "manufacturer": "Apple",
+          "notes": "FXizdaVWL0dplV9ssRsYCg33u9pH8v9RKb1VFd6oVNgTeNp7VVoD3htDOqIbt2t9r2AuPx6pEOlfqqbOIA2G7bMCW5sxGji7giw4ROrGQAyN939M83oocWmboNWNbJ7isYObPSLhcFTBmFk701t2Mn3PMG3hc6TF5y1963ibHl3G92I6KopKto2Z1UN8tPbaX3PPAqFUu3WH31z70XzAN6Ks53p6jji91v8rJ2hR5gsOyL8UIAsEoBUlGr",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 74957,
+      "createdOn": "2026-01-05T22:16:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695c38511c508c5d5eaa23f4",
+          "products": [
+            {
+              "_id": "695c38521c508c5d5eaa2414",
+              "name": "Car51136",
+              "amount": 438,
+              "price": 74957,
+              "manufacturer": "Apple",
+              "notes": "FXizdaVWL0dplV9ssRsYCg33u9pH8v9RKb1VFd6oVNgTeNp7VVoD3htDOqIbt2t9r2AuPx6pEOlfqqbOIA2G7bMCW5sxGji7giw4ROrGQAyN939M83oocWmboNWNbJ7isYObPSLhcFTBmFk701t2Mn3PMG3hc6TF5y1963ibHl3G92I6KopKto2Z1UN8tPbaX3PPAqFUu3WH31z70XzAN6Ks53p6jji91v8rJ2hR5gsOyL8UIAsEoBUlGr",
+              "received": false
+            }
+          ],
+          "total_price": 74957,
+          "delivery": null,
+          "changedOn": "2026-01-05T22:16:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695c38521c508c5d5eaa2425"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

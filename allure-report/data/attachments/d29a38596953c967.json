@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:16:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "533",
+    "etag": "W/\"215-w624B30tSaKs1DwAuadgUG0mOIE\"",
+    "keep-alive": "timeout=5, max=71",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Anais81@gmail.com",
+      "name": "Jesse Beth",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 758,
+      "flat": 390,
+      "phone": "+2144600033",
+      "createdOn": "2026-01-05T22:16:54.000Z",
+      "notes": "YfOvW1PSlwQgKBx1p0hKMP6neUSFiPTcohOKON3ALGShG3yWBD9rJp2UZ5opcMG3GJQiNLkZ8slB8W2z0hx2mjrPYPketlItKhWrjGC69wwHAsCQuxPP26V66GijYFAtykynS7RNXMqeXqeCQdl3SwxPhv57x4byKT5FAHku4Qgf7tHq0AARwXolHBJttNWs7II7qeA2Hgsn6ZW4jFd09VkbA9BC8DL2Pklx8ul6xDDh1cm435pRqQqiOx",
+      "_id": "695c38561c508c5d5eaa24c0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

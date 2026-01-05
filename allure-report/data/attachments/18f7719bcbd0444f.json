@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:16:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-02hrnB4mpnexh6lMw+Eb2eY1/Fc\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Norval90@hotmail.com",
+      "name": "Brenden Lew",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 615,
+      "flat": 2500,
+      "phone": "+7982465953",
+      "createdOn": "2026-01-05T22:16:41.000Z",
+      "notes": "ymJkuaP2q18iGUPxHGk82qO3fmneUyNUyQQJbXWFMRyOmmCKtxS8NSGETvCIiojsSvkYPoB3u0PU5uM8R6dDJMdUBAOMsLB8QXqTMWrQopFTVKZI3oNBV3YxBs7bqaWkSFF8KqSIiMXM4t4oP2Q3YEXH8T2dGPZSfMTTWAffrbB3DVbuH0RESqMwau35k3ARGzt2uMzQSHafLosvp8rDotAZqVjs6ccd3r4SoKb0NATVpaiNaob9X3MtLF",
+      "_id": "695c38491c508c5d5eaa22c1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

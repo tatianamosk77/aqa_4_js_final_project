@@ -1,0 +1,179 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:16:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4120",
+    "etag": "W/\"1018-RvjMXkWhQ2lQC2RZgXcegbNEJLY\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Orders": [
+      {
+        "_id": "695c384a1c508c5d5eaa22f7",
+        "status": "Draft",
+        "customer": "695c38491c508c5d5eaa22c1",
+        "products": [
+          {
+            "_id": "695c384a1c508c5d5eaa22db",
+            "name": "Gloves18044",
+            "amount": 244,
+            "price": 73329,
+            "manufacturer": "Sony",
+            "notes": "X5fkcROWuEx9PDBbGl5vja66lBRuQSu9tWRmdFfKUExH0dSKcPZPWWnYCwpZQT8ydeCXRmauTPXynYLXWowNXveKmANOMPg13lEsZo0DsE7LWI52NkeCUy7Is5Fl8Oq96B5mxWaqRS1qf8MyLayg8Qxek8S8av2WPATO4FSFOO4K4NwfY1cXUw6iGdvPpSWGti2XYbPt8Vgjv1g2jvZYfFTrpGOKeKZjtX5mDulycnTZVfWj5KPZakyUMQ",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 73329,
+        "createdOn": "2026-01-05T22:16:42.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "695c38491c508c5d5eaa22c1",
+            "products": [
+              {
+                "_id": "695c384a1c508c5d5eaa22db",
+                "name": "Gloves18044",
+                "amount": 244,
+                "price": 73329,
+                "manufacturer": "Sony",
+                "notes": "X5fkcROWuEx9PDBbGl5vja66lBRuQSu9tWRmdFfKUExH0dSKcPZPWWnYCwpZQT8ydeCXRmauTPXynYLXWowNXveKmANOMPg13lEsZo0DsE7LWI52NkeCUy7Is5Fl8Oq96B5mxWaqRS1qf8MyLayg8Qxek8S8av2WPATO4FSFOO4K4NwfY1cXUw6iGdvPpSWGti2XYbPt8Vgjv1g2jvZYfFTrpGOKeKZjtX5mDulycnTZVfWj5KPZakyUMQ",
+                "received": false
+              }
+            ],
+            "total_price": 73329,
+            "delivery": null,
+            "changedOn": "2026-01-05T22:16:42.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337ce1c508c5d5e95335d",
+              "username": "student14@gmail.com",
+              "firstName": "Bill",
+              "lastName": "Schuppe",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:26"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      },
+      {
+        "_id": "695c384a1c508c5d5eaa2312",
+        "status": "Draft",
+        "customer": "695c38491c508c5d5eaa22c1",
+        "products": [
+          {
+            "_id": "695c384a1c508c5d5eaa22db",
+            "name": "Gloves18044",
+            "amount": 244,
+            "price": 73329,
+            "manufacturer": "Sony",
+            "notes": "X5fkcROWuEx9PDBbGl5vja66lBRuQSu9tWRmdFfKUExH0dSKcPZPWWnYCwpZQT8ydeCXRmauTPXynYLXWowNXveKmANOMPg13lEsZo0DsE7LWI52NkeCUy7Is5Fl8Oq96B5mxWaqRS1qf8MyLayg8Qxek8S8av2WPATO4FSFOO4K4NwfY1cXUw6iGdvPpSWGti2XYbPt8Vgjv1g2jvZYfFTrpGOKeKZjtX5mDulycnTZVfWj5KPZakyUMQ",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 73329,
+        "createdOn": "2026-01-05T22:16:42.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "695c38491c508c5d5eaa22c1",
+            "products": [
+              {
+                "_id": "695c384a1c508c5d5eaa22db",
+                "name": "Gloves18044",
+                "amount": 244,
+                "price": 73329,
+                "manufacturer": "Sony",
+                "notes": "X5fkcROWuEx9PDBbGl5vja66lBRuQSu9tWRmdFfKUExH0dSKcPZPWWnYCwpZQT8ydeCXRmauTPXynYLXWowNXveKmANOMPg13lEsZo0DsE7LWI52NkeCUy7Is5Fl8Oq96B5mxWaqRS1qf8MyLayg8Qxek8S8av2WPATO4FSFOO4K4NwfY1cXUw6iGdvPpSWGti2XYbPt8Vgjv1g2jvZYfFTrpGOKeKZjtX5mDulycnTZVfWj5KPZakyUMQ",
+                "received": false
+              }
+            ],
+            "total_price": 73329,
+            "delivery": null,
+            "changedOn": "2026-01-05T22:16:42.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337ce1c508c5d5e95335d",
+              "username": "student14@gmail.com",
+              "firstName": "Bill",
+              "lastName": "Schuppe",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:26"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      },
+      {
+        "_id": "695c384b1c508c5d5eaa2325",
+        "status": "Draft",
+        "customer": "695c38491c508c5d5eaa22c1",
+        "products": [
+          {
+            "_id": "695c384a1c508c5d5eaa22db",
+            "name": "Gloves18044",
+            "amount": 244,
+            "price": 73329,
+            "manufacturer": "Sony",
+            "notes": "X5fkcROWuEx9PDBbGl5vja66lBRuQSu9tWRmdFfKUExH0dSKcPZPWWnYCwpZQT8ydeCXRmauTPXynYLXWowNXveKmANOMPg13lEsZo0DsE7LWI52NkeCUy7Is5Fl8Oq96B5mxWaqRS1qf8MyLayg8Qxek8S8av2WPATO4FSFOO4K4NwfY1cXUw6iGdvPpSWGti2XYbPt8Vgjv1g2jvZYfFTrpGOKeKZjtX5mDulycnTZVfWj5KPZakyUMQ",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 73329,
+        "createdOn": "2026-01-05T22:16:43.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "695c38491c508c5d5eaa22c1",
+            "products": [
+              {
+                "_id": "695c384a1c508c5d5eaa22db",
+                "name": "Gloves18044",
+                "amount": 244,
+                "price": 73329,
+                "manufacturer": "Sony",
+                "notes": "X5fkcROWuEx9PDBbGl5vja66lBRuQSu9tWRmdFfKUExH0dSKcPZPWWnYCwpZQT8ydeCXRmauTPXynYLXWowNXveKmANOMPg13lEsZo0DsE7LWI52NkeCUy7Is5Fl8Oq96B5mxWaqRS1qf8MyLayg8Qxek8S8av2WPATO4FSFOO4K4NwfY1cXUw6iGdvPpSWGti2XYbPt8Vgjv1g2jvZYfFTrpGOKeKZjtX5mDulycnTZVfWj5KPZakyUMQ",
+                "received": false
+              }
+            ],
+            "total_price": 73329,
+            "delivery": null,
+            "changedOn": "2026-01-05T22:16:43.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337ce1c508c5d5e95335d",
+              "username": "student14@gmail.com",
+              "firstName": "Bill",
+              "lastName": "Schuppe",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:26"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      }
+    ],
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

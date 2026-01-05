@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:16:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "688",
+    "etag": "W/\"2b0-Gbc6f0TCWzE9zBDa9KqqWY7530E\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "695c384b1c508c5d5eaa2334",
+        "email": "Lincoln_Legros18@yahoo.com",
+        "name": "Trent Monroe",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 824,
+        "flat": 1087,
+        "phone": "+1809535870",
+        "createdOn": "2026-01-05T22:16:43.000Z",
+        "notes": "auq2j9XSMRWp6NtbxdPxVg8l4CfcrR5qD4cZiS2wvAwCGBS11Upj71iWf3b23KB7FBlLsuEcFN7KZfA2m0OrNvHcvsYSIqq6BMykuqdMXoViHHbTLkJAV9jV8Z6wQUrQVqVyXimmOpxBGNQsvjkCr74neWWQl9UHg9DxWJjpZicRinD6a0U5zOcFGBmP86rhgvgSxFdScqEtVFCNIMfXIpDx0G6d6HvF3BOxAtGrPBkZ7HswmlNJWUw4tH"
+      }
+    ],
+    "total": 1,
+    "page": 1,
+    "limit": 10,
+    "search": "Lincoln_Legros18@yahoo.com",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

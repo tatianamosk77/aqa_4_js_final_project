@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:17:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-s3IZ7H47pmVNEfNlzSOJkKuhjIU\"",
+    "keep-alive": "timeout=5, max=77",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Montana_Mante@gmail.com",
+      "name": "Hardy Cory",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 914,
+      "flat": 504,
+      "phone": "+1682530404",
+      "createdOn": "2026-01-05T22:17:13.000Z",
+      "notes": "KCMjaOj2y7qXpcYE2lnJ8Gh7DBRTORJVd45cuxke2ap0et7cT1iseQ9lzufflFp3SK00VHfH65Rw0egje4SZQEqzsIX5C8t5nJIY5nmOt61UTHVo2qCowwGi5Dfvyq1PXy5sVJIRnfM1WDDvpkY634hxZ5JAQZm1sEFgZxTztPzp8p9Ts5RIVQtN5vQMDFiPwx4Gho7lvojO6bREDLjemsnhpQcu5RxAgkUZj6xc3q0Rz0IkXeGwED2akt",
+      "_id": "695c38691c508c5d5eaa2ba9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

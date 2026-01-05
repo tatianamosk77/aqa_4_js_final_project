@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:16:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-GhD7QDOktWKu+mHWY/ZB/u2q1o4\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Wendy_Berge@hotmail.com",
+      "name": "Test Customer",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 857,
+      "flat": 2010,
+      "phone": "+3584492551",
+      "createdOn": "2026-01-05T22:16:31.000Z",
+      "notes": "yZdWPjVyy6ldRsNDcgsyygfSn9uqjeeq9wC3fHvyaipzCYj9kfU51NDTohl0oDNGHQpqeB4FlQzeoE5VEC86n0rabClsMyirenXUTOmQieHmJ8j3A3kPdq2O8tXmmha6pMtADafSHG81axz8VaRCDoAIX7hvccfnghPfzeT6WeGDMZf0hr8L5oO0lbjM2UNF1MdP3virOm6ortbVPupEsfnsiniovD1yc0BttL4bAttgscGR6VR1ClFTgj",
+      "_id": "695c383f1c508c5d5eaa2145"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:17:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4157",
+    "etag": "W/\"103d-d+f39T+tLN/JbPq+echtbhoc/t4\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695c38631c508c5d5eaa2926",
+      "status": "Draft",
+      "customer": {
+        "_id": "695c38641c508c5d5eaa2953",
+        "email": "Wellington.Feil@yahoo.com",
+        "name": "Terry Nedra",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 472,
+        "flat": 4340,
+        "phone": "+1774378448",
+        "createdOn": "2026-01-05T22:17:08.000Z",
+        "notes": "UJI35f04kZieooYPFWHnBj2zW3nwkjGZjTPwvWDda8YxQvq1lzI4AWwT0JcwKlpOngjlWuAcg1CcAZCq7AIuSBH9t1uxOoDZDeG5UaThq9QnNHXNLjmzZcbXnNPUFrj4Au9sM5Qb7Ybc50EFRuQB7zLj4b8Jr7BNzOGv4OXAC2k67wBhL5rww810SzVgipr4WLU0tf7Be2KD4Z9Oxtpij3qetiol63prLoRGi4kusDU00VrWvl9YrxJxmM"
+      },
+      "products": [
+        {
+          "_id": "695c38641c508c5d5eaa2955",
+          "name": "Keyboard92870",
+          "amount": 747,
+          "price": 13550,
+          "manufacturer": "Tesla",
+          "notes": "cjZaAoSHnaMiued2lG0qrBsY2RuTSR8nC3jFzODgfwJKVISW1GXJNYHUWyYnGvDwl911HmNhduhpWlG6UsOdiDMXvon8PncnVBiIjQ0ZCmhX50MaW0Q9KJyRqiNoTXrlSVujLeVyb2M0EVS6uUrXPj9TtseJw3YqKGkdqfOOTlYCMIFA34zud6zBuFYXa2ndE9QVCAjfkxPh7hCd7AiMzGGIv2GiemINO5piDWMmXoo4jpR3Lr8wsjdXBp",
+          "received": false
+        },
+        {
+          "_id": "695c38641c508c5d5eaa29b0",
+          "name": "Hat45600",
+          "amount": 178,
+          "price": 61037,
+          "manufacturer": "Microsoft",
+          "notes": "CGr0gJCU8N70c9hBZTaxSzJj0cr7WMGYTM11mmK5XUD6isDXaYhjrOoaN9j4DO8v1PT8lyiInwMmJisoPWLYq24Hp0ponWdP5kj0Gq6oD9rio8aaZSpe5GwwLKO81xz3djwjfR1c3jy4p3YKs23f9K5Vnp61v4jGQVqt4hXWQV7kMlVTTIE6UeCRcmnfl4Oj8yfhY5tEWcHIHYEBlAiqWHAZ2sTpjoGdohIkPj9OgR3hpHm7xJa1DlZ9FE",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 74587,
+      "createdOn": "2026-01-05T22:17:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695c38641c508c5d5eaa2953",
+          "products": [
+            {
+              "_id": "695c38631c508c5d5eaa2904",
+              "name": "Car27046",
+              "amount": 812,
+              "price": 12770,
+              "manufacturer": "Google",
+              "notes": "nbf3INbxDbR8qjxsc4G46pPP7C5Ojxl2MvQycAhYqZB0aLbRsm4njicmHf320MMdbR91OZX0U20Rkb0FPwrP6coLmRmL4xz9ycyOYuRgO0R96I6RVgy2gK7u52wnW7RliIQN0LJR6xr26bjOH6ouSa8lL51VDpOZIBvuQ6b0T8PzQ5nNz7xABOPNk87WWRem0aQC4dT8jE1mr49TbvFJYh2bxnjOFVC3c6dTZIFeaFgCcDwzlgZPbjlnIh",
+              "received": false
+            }
+          ],
+          "total_price": 74587,
+          "delivery": null,
+          "changedOn": "2026-01-05T22:17:10.000Z",
+          "action": "Customer changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695c38631c508c5d5eaa28fc",
+          "products": [
+            {
+              "_id": "695c38641c508c5d5eaa2955",
+              "name": "Keyboard92870",
+              "amount": 747,
+              "price": 13550,
+              "manufacturer": "Tesla",
+              "notes": "cjZaAoSHnaMiued2lG0qrBsY2RuTSR8nC3jFzODgfwJKVISW1GXJNYHUWyYnGvDwl911HmNhduhpWlG6UsOdiDMXvon8PncnVBiIjQ0ZCmhX50MaW0Q9KJyRqiNoTXrlSVujLeVyb2M0EVS6uUrXPj9TtseJw3YqKGkdqfOOTlYCMIFA34zud6zBuFYXa2ndE9QVCAjfkxPh7hCd7AiMzGGIv2GiemINO5piDWMmXoo4jpR3Lr8wsjdXBp",
+              "received": false
+            },
+            {
+              "_id": "695c38641c508c5d5eaa29b0",
+              "name": "Hat45600",
+              "amount": 178,
+              "price": 61037,
+              "manufacturer": "Microsoft",
+              "notes": "CGr0gJCU8N70c9hBZTaxSzJj0cr7WMGYTM11mmK5XUD6isDXaYhjrOoaN9j4DO8v1PT8lyiInwMmJisoPWLYq24Hp0ponWdP5kj0Gq6oD9rio8aaZSpe5GwwLKO81xz3djwjfR1c3jy4p3YKs23f9K5Vnp61v4jGQVqt4hXWQV7kMlVTTIE6UeCRcmnfl4Oj8yfhY5tEWcHIHYEBlAiqWHAZ2sTpjoGdohIkPj9OgR3hpHm7xJa1DlZ9FE",
+              "received": false
+            }
+          ],
+          "total_price": 74587,
+          "delivery": null,
+          "changedOn": "2026-01-05T22:17:10.000Z",
+          "action": "Requested products changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695c38631c508c5d5eaa28fc",
+          "products": [
+            {
+              "_id": "695c38631c508c5d5eaa2904",
+              "name": "Car27046",
+              "amount": 812,
+              "price": 12770,
+              "manufacturer": "Google",
+              "notes": "nbf3INbxDbR8qjxsc4G46pPP7C5Ojxl2MvQycAhYqZB0aLbRsm4njicmHf320MMdbR91OZX0U20Rkb0FPwrP6coLmRmL4xz9ycyOYuRgO0R96I6RVgy2gK7u52wnW7RliIQN0LJR6xr26bjOH6ouSa8lL51VDpOZIBvuQ6b0T8PzQ5nNz7xABOPNk87WWRem0aQC4dT8jE1mr49TbvFJYh2bxnjOFVC3c6dTZIFeaFgCcDwzlgZPbjlnIh",
+              "received": false
+            }
+          ],
+          "total_price": 12770,
+          "delivery": null,
+          "changedOn": "2026-01-05T22:17:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

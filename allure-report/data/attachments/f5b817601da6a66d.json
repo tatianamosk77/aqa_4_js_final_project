@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:16:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-btWrzTu8DImsq3Stzg5kN/EW7sI\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Filomena95@gmail.com",
+      "name": "Rogers Vivian",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 320,
+      "flat": 1505,
+      "phone": "+3256915080",
+      "createdOn": "2026-01-05T22:16:34.000Z",
+      "notes": "DiP2hjc0Hj9yZCI9v5z4YeFn3wiHKaMyiZHVqM8Smrxo79PQcYyPBXvot9x9TEW4fdoImwsn4kRrWBjqsqAbbhXMFsUw9UcOU0DP4XrfCaxGAFFRHLTmaRPFsnlGOhABQnN5E84tPRcf1gYwO36IcVAo6kD8lKoUjGWlmuIDtyG3DUrSEVd0nTbFbFIho32GVFFfWeh0G2b768LGdjNBp8qNuifJGqHN3vyevEo9o15s0Y8q0k8hcYcFJa",
+      "_id": "695c38421c508c5d5eaa21d4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

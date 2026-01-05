@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:16:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-gnUbqTmzLmI6proP3IqAYeG4XA4\"",
+    "keep-alive": "timeout=5, max=78",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jeanie71@hotmail.com",
+      "name": "Cullen Aileen",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 164,
+      "flat": 8471,
+      "phone": "+6239040263",
+      "createdOn": "2026-01-05T22:16:50.000Z",
+      "notes": "jZldc97HYOWcrwdS8dZeJKLmSyfh0I6EWjMYtEBhF0HFdIUbANnriFn1Nb56cbvXjAuUiU3DG0BNXmO9ZOA1i4JqBAunyUeJo31694Qp1HJcrusxoONon3ZFBkYDzkjR8tHIAkjfLr9jFvYlNE5C8ci9uaTz8iLnYN7xlc6ne2IrXCpaGMd2MlgPdCdXHGvK6UI8UHOCZ7szdhYLiQi3iS4sV28S1T1PM9GvuzjEqTKuy4uT6mxqj3WFMd",
+      "_id": "695c38521c508c5d5eaa242e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

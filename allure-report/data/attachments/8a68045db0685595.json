@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:16:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-eoXB0hUYBWKSXv1K3yF2YVkNMo4\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Astrid21@gmail.com",
+      "name": "Collin Destiney",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 256,
+      "flat": 4661,
+      "phone": "+1579718324",
+      "createdOn": "2026-01-05T22:16:30.000Z",
+      "notes": "Mjl6OPfxp7UA57aafSyqaLJl9H0fw1Gfpy1R2pVmRA5GUo5oAWQtYYCMEqiLokpt0QVOR55YmnL8nP1Oiie3TaQsnFtNvzzVzdmNyxeA1AHc58cMc5o0MSDyymdUDnmH5ygyPqdd8qbLC40A0j0q96BwJ5of2qpX9tlyJCVSP2ejtwD3OXPHy50jEXvdW6n527Xznqscb8aBOhyt2nZwNWzdsnZHzluRQZzPyrKlDxmcomRALRzk0SGMwj",
+      "_id": "695c383e1c508c5d5eaa2129"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

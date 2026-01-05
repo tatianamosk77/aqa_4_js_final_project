@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:16:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-P6L5QLoZeGONNe96u+QiLqQCvrc\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Rogers65@gmail.com",
+      "name": "Neva Johnathan",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 312,
+      "flat": 1937,
+      "phone": "+9304809518",
+      "createdOn": "2026-01-05T22:16:45.000Z",
+      "notes": "7gPMpuw03oZn6fuF5jWkXQNPDzofcNvLiMvkearqRROzzoTpqlzUrQlOl9fQHoOq85lmZcp1fFZ7TTMnwcf2FeWuzFr3i3GeCPd60ZJXg3Nb4cTMHclP0aGMosJJXNG9XezaFxYdfILKMOKtVKTgClVnM6ArTgoY5AZavIk45JH8pJfkhHUHxwZZesqE8Txbo89y9wTLNraG0RqT1NwJ7X4pRyHfIvP5MxSRMgIOhT755ZD6veKK5Zxlnj",
+      "_id": "695c384d1c508c5d5eaa2386"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

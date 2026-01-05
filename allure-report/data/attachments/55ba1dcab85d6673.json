@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:16:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "561",
+    "etag": "W/\"231-fS75eYpR+iGdSrY2h7+LFcwRWV4\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Sally.Torp-Considine62@yahoo.com",
+      "name": "Jesse Peyton",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 248,
+      "flat": 6231,
+      "phone": "+1109787061",
+      "createdOn": "2026-01-05T22:16:55.000Z",
+      "notes": "UH2Y4vtzdLJEItm5Tr62T0OzNCNuerjKhd6LUjdvJ90haWB7LqOuJvaNhvQdXt6biVGyMs3X1K4XrU2RP5DwbwvYDFa088wo4gLyPu9pZV8clpT4VIsksRzuLO4HhJ1X1mYmkz7a6V1amtOk1IVmwn4ASvcS1kz6Nn1rVatS1G6r8U1jxYeGddhyxahaJiQBNpXLKp1AaMjKPGGfhKdVF0olt0ZXdWyMrlJaYuvyTFCntHUb83xj49KMYf",
+      "_id": "695c38571c508c5d5eaa2538"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

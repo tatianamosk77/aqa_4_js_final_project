@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:26:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-dJMhCgOGBeKQFMqIAmt6RjLiwVI\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jalon38@gmail.com",
+      "name": "Newell Rogers",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 129,
+      "flat": 1865,
+      "phone": "+8813752953",
+      "createdOn": "2026-01-05T22:26:33.000Z",
+      "notes": "VrGUl5wyrCOuEBviCrtnAx7GkRo6XgdyeQARvzShUUMyZCvzNrkAUs8bs8hwJSqcHWFgZvFB67uYErWvJGZiySaoCwxQCWRqZxcHNfhY3s7iJoYRvL1Lg1UAdKQIn7b3CNwdohI9ACZr2Dj0TGrgtkFjASwsKZqFk0VtO9UM0TP8cQfFmxoPrs2PBhoB1RcZ7PWv4q0WWE02KjQx5K5DaLPlUHYMv68LTuZ6YnjXi1ehEGs6qyLEDbAIqA",
+      "_id": "695c3a991c508c5d5eaa92a0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

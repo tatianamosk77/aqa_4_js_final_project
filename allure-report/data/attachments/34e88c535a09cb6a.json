@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:17:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-YslSo6aXQjoX1ziGBguhvGo6kuI\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695c38671c508c5d5eaa2b02",
+        "email": "Jaylin_McLaughlin5@hotmail.com",
+        "name": "Berry Rosella",
+        "country": "France",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 645,
+        "flat": 1732,
+        "phone": "+1758976814",
+        "createdOn": "2026-01-05T22:17:11.000Z",
+        "notes": "Ke965dVRMHl1i7tuUU0PwVbiJw3pDjVcuvJBC86DAFs2mECXvHYQS3Pi6YtoHsChwALYNgWhDNhBhHQyl9EFKeCXSOjTouSrcjOCVC3kmsBpaGRm5WL1exHeprEytqTD3tSbIfAOTTXbsBHfjGdcO0kexjyvhYH7j2k6csBgWHhHzGfVUa7JjTlEGw3BJ7k4kDe0YAeveUrwwZRn2kqCEYq71bOOPGs10D5a3pZXrC8riIwMzbjna7aC2z"
+      },
+      "products": [
+        {
+          "_id": "695c38671c508c5d5eaa2b0b",
+          "name": "Bacon96105",
+          "amount": 695,
+          "price": 63354,
+          "manufacturer": "Apple",
+          "notes": "fOVEyLGqH4wRJdz2ajvolgi3ymkvtokdz0MKgxsY8dVZJ5fJiLW6kh1c6CEVDvqa3ckRgOA0uttuGy1zT65FKC8xxEjcpj0w3zuF5j69piNAokciDYizXWPuSktyCyQ59iTFR7Tphe0YXzVdkjQSI260ygxmq0cQdZaQJOdwVaBDgTszpxB55iWfB2MMNyOJZj4P3dmz3j41H2Q5590WFs0lSKK7uyDVlfwOICLwWqDCQKZvGfbLI1U2xr",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 63354,
+      "createdOn": "2026-01-05T22:17:11.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695c38671c508c5d5eaa2b02",
+          "products": [
+            {
+              "_id": "695c38671c508c5d5eaa2b0b",
+              "name": "Bacon96105",
+              "amount": 695,
+              "price": 63354,
+              "manufacturer": "Apple",
+              "notes": "fOVEyLGqH4wRJdz2ajvolgi3ymkvtokdz0MKgxsY8dVZJ5fJiLW6kh1c6CEVDvqa3ckRgOA0uttuGy1zT65FKC8xxEjcpj0w3zuF5j69piNAokciDYizXWPuSktyCyQ59iTFR7Tphe0YXzVdkjQSI260ygxmq0cQdZaQJOdwVaBDgTszpxB55iWfB2MMNyOJZj4P3dmz3j41H2Q5590WFs0lSKK7uyDVlfwOICLwWqDCQKZvGfbLI1U2xr",
+              "received": false
+            }
+          ],
+          "total_price": 63354,
+          "delivery": null,
+          "changedOn": "2026-01-05T22:17:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695c38671c508c5d5eaa2b19"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

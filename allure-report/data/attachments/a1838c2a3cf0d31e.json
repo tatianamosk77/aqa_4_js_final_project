@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:16:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1890",
+    "etag": "W/\"762-5OjBHuEynn4ic8Q7sAj1yA7HdLE\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695c38571c508c5d5eaa2538",
+        "email": "Sally.Torp-Considine62@yahoo.com",
+        "name": "Jesse Peyton",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 248,
+        "flat": 6231,
+        "phone": "+1109787061",
+        "createdOn": "2026-01-05T22:16:55.000Z",
+        "notes": "UH2Y4vtzdLJEItm5Tr62T0OzNCNuerjKhd6LUjdvJ90haWB7LqOuJvaNhvQdXt6biVGyMs3X1K4XrU2RP5DwbwvYDFa088wo4gLyPu9pZV8clpT4VIsksRzuLO4HhJ1X1mYmkz7a6V1amtOk1IVmwn4ASvcS1kz6Nn1rVatS1G6r8U1jxYeGddhyxahaJiQBNpXLKp1AaMjKPGGfhKdVF0olt0ZXdWyMrlJaYuvyTFCntHUb83xj49KMYf"
+      },
+      "products": [
+        {
+          "_id": "695c38581c508c5d5eaa2551",
+          "name": "Table49650",
+          "amount": 440,
+          "price": 89158,
+          "manufacturer": "Amazon",
+          "notes": "RcQvVVEbDG4DLPE6nOcmGLJsNiQ6R2ePGisSd7lhntVHYvNkAEcovwF5jScJ1B4HT2ipNJHFXe57gCLFesBn9ipxXGC2VqaVtZxaYJ8NhVC8eJLeaSxAHb612TZ12A5K11cWCanq1YnS9H0Ua9ti2sBQmwsQtjLrRk2H2y2PJFv6jvtDZR3MWVvwNcWx27Kh2xOufWOht9sCwBDOAeVA4GxHoYEploxoH9qQBhdgALCwUITeFPb9FNrapV",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 89158,
+      "createdOn": "2026-01-05T22:16:56.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695c38571c508c5d5eaa2538",
+          "products": [
+            {
+              "_id": "695c38581c508c5d5eaa2551",
+              "name": "Table49650",
+              "amount": 440,
+              "price": 89158,
+              "manufacturer": "Amazon",
+              "notes": "RcQvVVEbDG4DLPE6nOcmGLJsNiQ6R2ePGisSd7lhntVHYvNkAEcovwF5jScJ1B4HT2ipNJHFXe57gCLFesBn9ipxXGC2VqaVtZxaYJ8NhVC8eJLeaSxAHb612TZ12A5K11cWCanq1YnS9H0Ua9ti2sBQmwsQtjLrRk2H2y2PJFv6jvtDZR3MWVvwNcWx27Kh2xOufWOht9sCwBDOAeVA4GxHoYEploxoH9qQBhdgALCwUITeFPb9FNrapV",
+              "received": false
+            }
+          ],
+          "total_price": 89158,
+          "delivery": null,
+          "changedOn": "2026-01-05T22:16:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695c38581c508c5d5eaa256a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

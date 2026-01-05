@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:25:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-vbwpFYl6zxEvnx8oaguCvBL5vrU\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Dandre.Kerluke78@hotmail.com",
+      "name": "Gus Earline",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 532,
+      "flat": 3790,
+      "phone": "+7161046018",
+      "createdOn": "2026-01-05T22:25:32.000Z",
+      "notes": "21icoQL3IESeH2K2ZzFzYNcOsTOquAoiXjVMLYUg871eEwatQsTuY2ngXjZBKg80Idrm6estQoUju2neEB7b1KSxSaz2XgpadscIbGxwS2WVLNq2MyuktHLk1eYEWj2dhohZWQaNCzR8EzJhg14qtLd29wHhCE2jtla3E3KyAm8Mybrvyq0vFI4s5aFOBPAnUpWjthtswdYveoOglzfEFrT1CygXm8NRzlsj1RxuyqRQtGTkUwm1jpNSQx",
+      "_id": "695c3a5c1c508c5d5eaa848e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

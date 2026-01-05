@@ -1,0 +1,73 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:16:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1408",
+    "etag": "W/\"580-6g+lm+LadMi43QGOzvqAmWZGpW0\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Orders": [
+      {
+        "_id": "695c384a1c508c5d5eaa22fb",
+        "status": "Draft",
+        "customer": "695c38491c508c5d5eaa22c3",
+        "products": [
+          {
+            "_id": "695c384a1c508c5d5eaa22dd",
+            "name": "Shirt28015",
+            "amount": 418,
+            "price": 71433,
+            "manufacturer": "Xiaomi",
+            "notes": "T9PnfUzYg7k7S55lYezu85givcjn62MU0pcUZG4RUlZ0eEunTUlwTc1JWa5jZ8iGmEIjGJoKHHV8bH19lh0CLCx7GFDExDiRM8fMnmxSdacPnJdJNz1vw4QT7mQtxE7vkKUCec4W5ZoBocdtwiHdf0vs3oLQQQsMQYTgGCzRTjrktR8bnfLgBpY3yItlGZUDZy645z63jnHyPGlnrODs8AGZqTH0FXvcpNbn1FEqL5lwHp3J54VtxMUgDT",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 71433,
+        "createdOn": "2026-01-05T22:16:42.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "695c38491c508c5d5eaa22c3",
+            "products": [
+              {
+                "_id": "695c384a1c508c5d5eaa22dd",
+                "name": "Shirt28015",
+                "amount": 418,
+                "price": 71433,
+                "manufacturer": "Xiaomi",
+                "notes": "T9PnfUzYg7k7S55lYezu85givcjn62MU0pcUZG4RUlZ0eEunTUlwTc1JWa5jZ8iGmEIjGJoKHHV8bH19lh0CLCx7GFDExDiRM8fMnmxSdacPnJdJNz1vw4QT7mQtxE7vkKUCec4W5ZoBocdtwiHdf0vs3oLQQQsMQYTgGCzRTjrktR8bnfLgBpY3yItlGZUDZy645z63jnHyPGlnrODs8AGZqTH0FXvcpNbn1FEqL5lwHp3J54VtxMUgDT",
+                "received": false
+              }
+            ],
+            "total_price": 71433,
+            "delivery": null,
+            "changedOn": "2026-01-05T22:16:42.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337ce1c508c5d5e95335d",
+              "username": "student14@gmail.com",
+              "firstName": "Bill",
+              "lastName": "Schuppe",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:26"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      }
+    ],
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

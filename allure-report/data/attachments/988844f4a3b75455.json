@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:16:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-bKV9suqE9+2mSInXnizIN19mmVs\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Lonie44@hotmail.com",
+      "name": "Georgette Leopoldo",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 1,
+      "flat": 4657,
+      "phone": "+6044442664",
+      "createdOn": "2026-01-05T22:16:33.000Z",
+      "notes": "aSnSZPQ5lXUqX9zL9GFkGxasktPKgA8zv6HOnglmvoX7DBGdkkE3VjHC8W3BKeQpAGs9iapKEpN70drpthAEz6aYJxquytkdWzSn8FSPg8KqV6pQe49sWntubWHpBXlH4PCxLlIT0wv3ADIZlv08pn68unv9LKUj8oXbgaalVSiKeehILpTgKzbgQNpSSP5ydE3rlWLCXroUrydHHuygd9OAdnsCD8jxEYyI42c8iHiaXOv9sDfSKvSGzE",
+      "_id": "695c38411c508c5d5eaa21ab"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

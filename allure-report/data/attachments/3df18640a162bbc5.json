@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:25:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-lGqW3ZAq4w408zvjvnsYySmjy+Y\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jamir69@hotmail.com",
+      "name": "Sophie Coby",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 878,
+      "flat": 398,
+      "phone": "+0534027684",
+      "createdOn": "2026-01-05T22:25:18.000Z",
+      "notes": "u8VWvBkQPFExLIk4s3aS2vuwZZnZpifEPETsFauTIPOsIlAxnSTKdzvUinH9LvtvttOXfcZd0BRt4TVQ8yIhmk1Na7PAFb1wb1sW4NSgd5fZWay3ntnciYnIjy6e2xs7cFzAf5EsGVACPLY9KJCF47h9I2rIBwrcfsDQ7I5HibeGZc51XwvNGgUVEddu3hsv1vGuvEhg5nP2XWfG8P2gGY9MDuuIVlH7NTJAXysv70BesKwYpatSBcfwWl",
+      "_id": "695c3a4e1c508c5d5eaa826f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

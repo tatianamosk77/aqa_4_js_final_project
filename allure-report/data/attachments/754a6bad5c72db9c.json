@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "date": "Mon, 05 Jan 2026 22:16:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "97",
+    "etag": "W/\"61-+OiEe72IQbrfT0JO3dpV50io2Y0\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "IsSuccess": false,
+    "ErrorMessage": "Customer with email 'Camren.Waters@gmail.com' already exists"
+  }
+}
