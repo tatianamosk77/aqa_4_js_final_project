@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 06 Jan 2026 22:17:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1878",
+    "etag": "W/\"756-3wBCGprBeF1N8yIbl9wf4gqXDtY\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695d89ef1c508c5d5eab4845",
+      "status": "Draft",
+      "customer": {
+        "_id": "695d89ee1c508c5d5eab481b",
+        "email": "Rebecca.Heaney1@gmail.com",
+        "name": "Darlene Anissa",
+        "country": "France",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 987,
+        "flat": 5019,
+        "phone": "+4114178269",
+        "createdOn": "2026-01-06T22:17:18.000Z",
+        "notes": "90ilCfQMJRdewLvUIc4yUw6aBOx38jtn5lsPrCv9c97N1s5hHXOuIyY3APhVE1yXSgH1jxaKkgeQrYqZloWqOEu4jWx4JCRsV5hbdr7Q4JOHj06DpFLPFtYGu5WV3p65z8RPz9GcYvcAahAbWg4tWsyfjlJR0uP8rMrLOESgT8dGlln1XSR4c0zWxB45uKuvtYfFK2HULReIA0IuMC4uYexRTjECOYDIoMen1MnSOf3uKsVb4aCTH3u1wv"
+      },
+      "products": [
+        {
+          "_id": "695d89ee1c508c5d5eab4830",
+          "name": "Bacon20410",
+          "amount": 392,
+          "price": 94784,
+          "manufacturer": "Amazon",
+          "notes": "ymEVLaoTYsPRQbt99qIjRA7TbOre55DKEIt6u7QRTMdMGQaWOay67jCXKhEp0RRv2wnmoM9Kn7T9Ed8rWtmNBUMACS6kfOI9qQ6zDSQJvt1r4h9Rvk51CL5yn0ofoj5xFD3el22Usa1uGhZ29dHByIHMyQ29g5h7wM0L82JShW90Z0KiVyWVnu7rD6U2YVGt19GtsmRrcP2dXqyEIBTCBVbHgzxvfKyxfGFVmdg9X2aOU4W8cnugSwhHuX",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 94784,
+      "createdOn": "2026-01-06T22:17:19.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695d89ee1c508c5d5eab481b",
+          "products": [
+            {
+              "_id": "695d89ee1c508c5d5eab4830",
+              "name": "Bacon20410",
+              "amount": 392,
+              "price": 94784,
+              "manufacturer": "Amazon",
+              "notes": "ymEVLaoTYsPRQbt99qIjRA7TbOre55DKEIt6u7QRTMdMGQaWOay67jCXKhEp0RRv2wnmoM9Kn7T9Ed8rWtmNBUMACS6kfOI9qQ6zDSQJvt1r4h9Rvk51CL5yn0ofoj5xFD3el22Usa1uGhZ29dHByIHMyQ29g5h7wM0L82JShW90Z0KiVyWVnu7rD6U2YVGt19GtsmRrcP2dXqyEIBTCBVbHgzxvfKyxfGFVmdg9X2aOU4W8cnugSwhHuX",
+              "received": false
+            }
+          ],
+          "total_price": 94784,
+          "delivery": null,
+          "changedOn": "2026-01-06T22:17:19.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

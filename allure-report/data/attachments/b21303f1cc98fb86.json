@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 06 Jan 2026 22:16:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-JKBgbF9a9W6ISFPHR+nns0Tar3I\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Buck_Murphy@gmail.com",
+      "name": "Era Kennedi",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 23,
+      "flat": 7414,
+      "phone": "+5161018772",
+      "createdOn": "2026-01-06T22:16:53.000Z",
+      "notes": "KRV0dj4xBwXB5NgMBIyT0JH5T3hr7FpuBJmFWtDxdY6wQR4ScKohZD0bH6P79Pw4n58leK4iw5xl27VEGQOJMbkjkgC3nBz6b4CRM6de8DLVXcEFNeKZS4SMsMqry0zSuaTLErmZc2l8Cv5XuljYcX4SOTX2LskH0C8dsxyt5V9lNBldhifJp2bSS0M8pbddLADylU6lf7yl0qqEDRz8NckWXanRQx8VaBi2Q3lCqxg3obwPjW8MTPcBsp",
+      "_id": "695d89d51c508c5d5eab42af"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

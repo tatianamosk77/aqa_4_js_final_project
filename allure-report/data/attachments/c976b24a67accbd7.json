@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "date": "Tue, 06 Jan 2026 22:17:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "206",
+    "etag": "W/\"ce-cT0pX8cNcM9sSLcU7p12Mxmb10M\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Computer7983",
+      "amount": 489,
+      "price": 22748,
+      "manufacturer": "Xiaomi",
+      "createdOn": "2026-01-06T22:17:44.000Z",
+      "notes": "",
+      "_id": "695d8a081c508c5d5eab513d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 06 Jan 2026 22:16:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-yUHtyX4BsTPR2AQaFqT7pNSVcdM\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Harry.Bernier@hotmail.com",
+      "name": "Kianna Ottis",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 829,
+      "flat": 8099,
+      "phone": "+2465839135",
+      "createdOn": "2026-01-06T22:16:55.000Z",
+      "notes": "zjI3JU2XsEhwhhRUGppcVuaBBamFOv9sHz2rfIrLsRbMfpE63LL4dvAPlx8fw4eBMhAzNHXFRnQuZpc9QA7zc7T7Wa37AgGJP5qevRB6uugrgNtf1lPI35zjP4t1bowmsTR7YgGxQkVLdtREu1FIk7J2jsKTAKewXJyfqbOvbMU4TNkEPg3jOsOGAVglOdkh9JyvezFU7M6lNVcnnbQO2ghh77AX0UIBR4tDH7y7bZphIsk0vLs1zUlMkA",
+      "_id": "695d89d71c508c5d5eab42dc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 06 Jan 2026 22:16:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-gXKYLz2jpgDoo+c6Wr7aR5UED2Q\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Cyril55@yahoo.com",
+      "name": "Kristina Adrienne",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 281,
+      "flat": 2097,
+      "phone": "+1473549699",
+      "createdOn": "2026-01-06T22:16:54.000Z",
+      "notes": "c5PMZHP51D2P2NFmWeA0XUTcvhMC4zQ8BHwmnzRwaLtJ3z3IbCYvErtYwuANk4x1qZDhFdzFyNHhOZjNCLlEwuz41ptttlTSjqfW26xRKm9FTfwCc0I7tYOoGWlYU5Lz12qc0Zgb8mMyz1gxnNkPV3gef1ElXVBCrqekGzkQgrXk3tnlXgLQ9QThSH2FqTScmnR3NK6nIazgO4wi2iqg1yOIb0cJCccHaDQEw0VBtcBiyeMft9YFDXPFPD",
+      "_id": "695d89d61c508c5d5eab42b9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

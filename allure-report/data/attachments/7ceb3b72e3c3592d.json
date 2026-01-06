@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 06 Jan 2026 22:16:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "553",
+    "etag": "W/\"229-hxGvKmXiOgG/q7v7F6eqSGi8ulI\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Nikki.Ernser54@hotmail.com",
+      "name": "Marianna Carolyne",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 553,
+      "flat": 6760,
+      "phone": "+2676329052",
+      "createdOn": "2026-01-06T22:16:47.000Z",
+      "notes": "uHnFS1xGPrp9JZP34iKdgBmXbMEfzTwAjR2lfUX22E3KAh65YWqqprOtik4I7CPY0w188ZY4ve6mUM2ZO0R2WQNnlyzo4I8zDNiRXy8hsREhmrfgmRB2I46oA7ByAaqa1SjTU0Chepsqqg6qIVLp2Tbv3hhcMxJeZPwWj0UnK4gxpmyRrWN3iru3UBQyQmCojkFYaNFjuKUEkLyVrB9jejbmSH1iwnJ08IpG88vRbXCfjR01ZdI9I3hbHr",
+      "_id": "695d89cf1c508c5d5eab41d7"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

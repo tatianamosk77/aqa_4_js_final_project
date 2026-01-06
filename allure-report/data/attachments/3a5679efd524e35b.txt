@@ -1,0 +1,12 @@
+Data is valid according to the schema.
+Data is valid according to the schema.
+Data is not valid according to the schema.
+[
+  {
+    instancePath: '',
+    schemaPath: '#/required',
+    keyword: 'required',
+    params: { missingProperty: 'Order' },
+    message: "must have required property 'Order'"
+  }
+]

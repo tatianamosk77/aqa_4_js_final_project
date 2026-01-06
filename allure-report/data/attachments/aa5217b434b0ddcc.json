@@ -1,0 +1,179 @@
+{
+  "headers": {
+    "date": "Tue, 06 Jan 2026 22:16:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4132",
+    "etag": "W/\"1024-E/kFmgVBJW4jt/1rEADpx+K46FA\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Orders": [
+      {
+        "_id": "695d89d11c508c5d5eab421f",
+        "status": "Draft",
+        "customer": "695d89cf1c508c5d5eab41da",
+        "products": [
+          {
+            "_id": "695d89d11c508c5d5eab420f",
+            "name": "Gloves70997",
+            "amount": 651,
+            "price": 82832,
+            "manufacturer": "Google",
+            "notes": "7JRRpeXWZFYMvF0iC9xzjcajK9OEYVoV1SCyZygH0dEa2D4mPALzzu4FL0yhMukjdvkk5jyPErKXnHfd8nebRIR8CjQZS48N9MLJTjLGdhKh6oRl6dEgrpcGmhqg9Aqa66TPBxqgykpPqP23kqh3oSydu6r5DuqcP5UvV4b5Mg2Rr8D6AIYS1rHyaz2Dy6Bt1qN0GK4fkG9IuzbD7M18TSLkMlBpntY7liTapF57iUhYXvYLoEQsthMc3a",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 82832,
+        "createdOn": "2026-01-06T22:16:49.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "695d89cf1c508c5d5eab41da",
+            "products": [
+              {
+                "_id": "695d89d11c508c5d5eab420f",
+                "name": "Gloves70997",
+                "amount": 651,
+                "price": 82832,
+                "manufacturer": "Google",
+                "notes": "7JRRpeXWZFYMvF0iC9xzjcajK9OEYVoV1SCyZygH0dEa2D4mPALzzu4FL0yhMukjdvkk5jyPErKXnHfd8nebRIR8CjQZS48N9MLJTjLGdhKh6oRl6dEgrpcGmhqg9Aqa66TPBxqgykpPqP23kqh3oSydu6r5DuqcP5UvV4b5Mg2Rr8D6AIYS1rHyaz2Dy6Bt1qN0GK4fkG9IuzbD7M18TSLkMlBpntY7liTapF57iUhYXvYLoEQsthMc3a",
+                "received": false
+              }
+            ],
+            "total_price": 82832,
+            "delivery": null,
+            "changedOn": "2026-01-06T22:16:49.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337ce1c508c5d5e95335d",
+              "username": "student14@gmail.com",
+              "firstName": "Bill",
+              "lastName": "Schuppe",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:26"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      },
+      {
+        "_id": "695d89d11c508c5d5eab422d",
+        "status": "Draft",
+        "customer": "695d89cf1c508c5d5eab41da",
+        "products": [
+          {
+            "_id": "695d89d11c508c5d5eab420f",
+            "name": "Gloves70997",
+            "amount": 651,
+            "price": 82832,
+            "manufacturer": "Google",
+            "notes": "7JRRpeXWZFYMvF0iC9xzjcajK9OEYVoV1SCyZygH0dEa2D4mPALzzu4FL0yhMukjdvkk5jyPErKXnHfd8nebRIR8CjQZS48N9MLJTjLGdhKh6oRl6dEgrpcGmhqg9Aqa66TPBxqgykpPqP23kqh3oSydu6r5DuqcP5UvV4b5Mg2Rr8D6AIYS1rHyaz2Dy6Bt1qN0GK4fkG9IuzbD7M18TSLkMlBpntY7liTapF57iUhYXvYLoEQsthMc3a",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 82832,
+        "createdOn": "2026-01-06T22:16:49.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "695d89cf1c508c5d5eab41da",
+            "products": [
+              {
+                "_id": "695d89d11c508c5d5eab420f",
+                "name": "Gloves70997",
+                "amount": 651,
+                "price": 82832,
+                "manufacturer": "Google",
+                "notes": "7JRRpeXWZFYMvF0iC9xzjcajK9OEYVoV1SCyZygH0dEa2D4mPALzzu4FL0yhMukjdvkk5jyPErKXnHfd8nebRIR8CjQZS48N9MLJTjLGdhKh6oRl6dEgrpcGmhqg9Aqa66TPBxqgykpPqP23kqh3oSydu6r5DuqcP5UvV4b5Mg2Rr8D6AIYS1rHyaz2Dy6Bt1qN0GK4fkG9IuzbD7M18TSLkMlBpntY7liTapF57iUhYXvYLoEQsthMc3a",
+                "received": false
+              }
+            ],
+            "total_price": 82832,
+            "delivery": null,
+            "changedOn": "2026-01-06T22:16:49.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337ce1c508c5d5e95335d",
+              "username": "student14@gmail.com",
+              "firstName": "Bill",
+              "lastName": "Schuppe",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:26"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      },
+      {
+        "_id": "695d89d21c508c5d5eab4242",
+        "status": "Draft",
+        "customer": "695d89cf1c508c5d5eab41da",
+        "products": [
+          {
+            "_id": "695d89d11c508c5d5eab420f",
+            "name": "Gloves70997",
+            "amount": 651,
+            "price": 82832,
+            "manufacturer": "Google",
+            "notes": "7JRRpeXWZFYMvF0iC9xzjcajK9OEYVoV1SCyZygH0dEa2D4mPALzzu4FL0yhMukjdvkk5jyPErKXnHfd8nebRIR8CjQZS48N9MLJTjLGdhKh6oRl6dEgrpcGmhqg9Aqa66TPBxqgykpPqP23kqh3oSydu6r5DuqcP5UvV4b5Mg2Rr8D6AIYS1rHyaz2Dy6Bt1qN0GK4fkG9IuzbD7M18TSLkMlBpntY7liTapF57iUhYXvYLoEQsthMc3a",
+            "received": false
+          }
+        ],
+        "delivery": null,
+        "total_price": 82832,
+        "createdOn": "2026-01-06T22:16:50.000Z",
+        "comments": [],
+        "history": [
+          {
+            "status": "Draft",
+            "customer": "695d89cf1c508c5d5eab41da",
+            "products": [
+              {
+                "_id": "695d89d11c508c5d5eab420f",
+                "name": "Gloves70997",
+                "amount": 651,
+                "price": 82832,
+                "manufacturer": "Google",
+                "notes": "7JRRpeXWZFYMvF0iC9xzjcajK9OEYVoV1SCyZygH0dEa2D4mPALzzu4FL0yhMukjdvkk5jyPErKXnHfd8nebRIR8CjQZS48N9MLJTjLGdhKh6oRl6dEgrpcGmhqg9Aqa66TPBxqgykpPqP23kqh3oSydu6r5DuqcP5UvV4b5Mg2Rr8D6AIYS1rHyaz2Dy6Bt1qN0GK4fkG9IuzbD7M18TSLkMlBpntY7liTapF57iUhYXvYLoEQsthMc3a",
+                "received": false
+              }
+            ],
+            "total_price": 82832,
+            "delivery": null,
+            "changedOn": "2026-01-06T22:16:50.000Z",
+            "action": "Order created",
+            "performer": {
+              "_id": "692337ce1c508c5d5e95335d",
+              "username": "student14@gmail.com",
+              "firstName": "Bill",
+              "lastName": "Schuppe",
+              "roles": [
+                "USER"
+              ],
+              "createdOn": "2025/11/23 16:35:26"
+            },
+            "assignedManager": null
+          }
+        ],
+        "assignedManager": null
+      }
+    ],
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

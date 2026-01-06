@@ -1,0 +1,155 @@
+{
+  "headers": {
+    "date": "Tue, 06 Jan 2026 22:17:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4939",
+    "etag": "W/\"134b-BskNbLF9Idmb6gNz9YIixnsSPDs\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695d89e41c508c5d5eab4505",
+        "email": "Colby.Stracke@gmail.com",
+        "name": "Bernadine Kavon",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 50,
+        "flat": 1074,
+        "phone": "+9564512302",
+        "createdOn": "2026-01-06T22:17:08.000Z",
+        "notes": "9m6uHSgm9Vhd4aUihPigclPjkchCRlNcws6ctpVkFS2fXRlS0jJQokiFI5BdF6Ui5ISn2OhBV2xRgNPTf8sqnVIXOKel8Cloel5xJorRqd7QAOglQ1pTMngKIXeKz83JbSaKOjuChRoRoScHwwgEAIfwDxjbEcn04XRVvQ1HbpOWybsU5PKRk3PVACGZ8SrPQcXGoX58o4cMsJhnHROHrcFv6f0ktX8FsZ01QokbtkafKfnIAUgKIQphkK"
+      },
+      "products": [
+        {
+          "_id": "695d89e41c508c5d5eab451c",
+          "name": "Pants44954",
+          "amount": 958,
+          "price": 91622,
+          "manufacturer": "Apple",
+          "notes": "IifrYjINCsrvzpogktgKto14sSNCmIRxDWFUKvm6Zs2YqOq9NQiV36mgNej9X2R8QKfUArJWgEu7Ejtvarc1h8utAfRJw7j9W6LKi4a5STgGVJmy7jct8KNhGI5te8bZNePRaQbMlpI3hjN8cxfmgUYdMAZDoUVc5pRcHXcHyOJvEaStYE6DgAkEKd42MNkJqkcEfNaxTz6AOCLbbr5Gp1BZr5XH8EI7JfMmpWkMhUGSaIgeusVRw9oMtT",
+          "received": false
+        },
+        {
+          "_id": "695d89e41c508c5d5eab4536",
+          "name": "Chips77280",
+          "amount": 632,
+          "price": 57760,
+          "manufacturer": "Microsoft",
+          "notes": "DtR9JhxfeYb5BwzXQGUFQsWSpak9RjkAsrXFYFJ40TVaQMmntXcecFiXU26b6MbEhdQi7SpFsyEuzJoHHAbRCwfhNArW4tmziY7ttveYI1p9RQztZGhdQVPXcIzhIFtPEFJNcsKNh7faSq6J5YyOHg87Q9bkGmP39DNKAsZWqY2dKYeySsf9uB0xpkE5o8uGdqwTvy76uzfQZe3c4PsWmoA1qnVs7OKn1hKIMcodxC9sSCxCbcn8IOdTIo",
+          "received": false
+        },
+        {
+          "_id": "695d89e41c508c5d5eab4532",
+          "name": "Ball39864",
+          "amount": 422,
+          "price": 81598,
+          "manufacturer": "Sony",
+          "notes": "bMCmddjc5vNGy8HahjjwWnmPsEKoExadow2R84zsrlG4jUrH8xZo7xTsJBTtUcYIxRe4QMvDVfVarZp64pfNWyuobLEMhTGOmlQGqAC7hujK43JS89tLsIg0srGHCPHzdtfG7hmEklBhlzxvBq9cYp7OnyvH9spFmVyb2m9Cmf0EW8QfvDvnLytlYWDHx2Zg2W07zJCi75Y7JmG7aVybf0hiF2uZmmFxdnqOAjXssIybrR4pkkcUz7eMed",
+          "received": false
+        },
+        {
+          "_id": "695d89e41c508c5d5eab4534",
+          "name": "Fish15618",
+          "amount": 149,
+          "price": 1084,
+          "manufacturer": "Apple",
+          "notes": "esTaZTZjMSVj42DUhBORGhpYotSdunda8SRCn0PifMMNxEPb5dFfwYX5E4LePM6uI5pAWBNRfhnXxpph8XFfEQ0HjRva8FiKNPyXtH607UEVQtqpnZI9KbVjbvOQt78rjN6qyWlxuNxpasE86kWjx13iAQY1EjqO7iDqvVSDBdLzxisWGrVxo19CqeNzZZs7OoHVGx9a6F9iCrxku8vSGc7X6TvI9zghAZMdD9wPVVzOXAVjk403hqHGus",
+          "received": false
+        },
+        {
+          "_id": "695d89e41c508c5d5eab4530",
+          "name": "Salad75129",
+          "amount": 674,
+          "price": 74506,
+          "manufacturer": "Sony",
+          "notes": "qQp9yDguGy3n62OuEEfgJBdJIDcH7B7lPMAKRougnrJWdDaH4iKS3yHGMoDXAqMBrMgpG1AC8Bp6wrQf8jUViKQm2LMTfQ7HOgMIkF76nFGRySQcL7NUM5rBxRticRmqgD1AecNojsjQeWKR6jIMSZYxH6M7WH61TiJHjz5j3IWCfacp06RujVgzxB308hBVzBYQvHcXdxLd92OCjoGexsFNcdtypIAdO4XW99cXPJ9wlk6G3P5C1iZgb0",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 306570,
+      "createdOn": "2026-01-06T22:17:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695d89e41c508c5d5eab4505",
+          "products": [
+            {
+              "_id": "695d89e41c508c5d5eab451c",
+              "name": "Pants44954",
+              "amount": 958,
+              "price": 91622,
+              "manufacturer": "Apple",
+              "notes": "IifrYjINCsrvzpogktgKto14sSNCmIRxDWFUKvm6Zs2YqOq9NQiV36mgNej9X2R8QKfUArJWgEu7Ejtvarc1h8utAfRJw7j9W6LKi4a5STgGVJmy7jct8KNhGI5te8bZNePRaQbMlpI3hjN8cxfmgUYdMAZDoUVc5pRcHXcHyOJvEaStYE6DgAkEKd42MNkJqkcEfNaxTz6AOCLbbr5Gp1BZr5XH8EI7JfMmpWkMhUGSaIgeusVRw9oMtT",
+              "received": false
+            },
+            {
+              "_id": "695d89e41c508c5d5eab4536",
+              "name": "Chips77280",
+              "amount": 632,
+              "price": 57760,
+              "manufacturer": "Microsoft",
+              "notes": "DtR9JhxfeYb5BwzXQGUFQsWSpak9RjkAsrXFYFJ40TVaQMmntXcecFiXU26b6MbEhdQi7SpFsyEuzJoHHAbRCwfhNArW4tmziY7ttveYI1p9RQztZGhdQVPXcIzhIFtPEFJNcsKNh7faSq6J5YyOHg87Q9bkGmP39DNKAsZWqY2dKYeySsf9uB0xpkE5o8uGdqwTvy76uzfQZe3c4PsWmoA1qnVs7OKn1hKIMcodxC9sSCxCbcn8IOdTIo",
+              "received": false
+            },
+            {
+              "_id": "695d89e41c508c5d5eab4532",
+              "name": "Ball39864",
+              "amount": 422,
+              "price": 81598,
+              "manufacturer": "Sony",
+              "notes": "bMCmddjc5vNGy8HahjjwWnmPsEKoExadow2R84zsrlG4jUrH8xZo7xTsJBTtUcYIxRe4QMvDVfVarZp64pfNWyuobLEMhTGOmlQGqAC7hujK43JS89tLsIg0srGHCPHzdtfG7hmEklBhlzxvBq9cYp7OnyvH9spFmVyb2m9Cmf0EW8QfvDvnLytlYWDHx2Zg2W07zJCi75Y7JmG7aVybf0hiF2uZmmFxdnqOAjXssIybrR4pkkcUz7eMed",
+              "received": false
+            },
+            {
+              "_id": "695d89e41c508c5d5eab4534",
+              "name": "Fish15618",
+              "amount": 149,
+              "price": 1084,
+              "manufacturer": "Apple",
+              "notes": "esTaZTZjMSVj42DUhBORGhpYotSdunda8SRCn0PifMMNxEPb5dFfwYX5E4LePM6uI5pAWBNRfhnXxpph8XFfEQ0HjRva8FiKNPyXtH607UEVQtqpnZI9KbVjbvOQt78rjN6qyWlxuNxpasE86kWjx13iAQY1EjqO7iDqvVSDBdLzxisWGrVxo19CqeNzZZs7OoHVGx9a6F9iCrxku8vSGc7X6TvI9zghAZMdD9wPVVzOXAVjk403hqHGus",
+              "received": false
+            },
+            {
+              "_id": "695d89e41c508c5d5eab4530",
+              "name": "Salad75129",
+              "amount": 674,
+              "price": 74506,
+              "manufacturer": "Sony",
+              "notes": "qQp9yDguGy3n62OuEEfgJBdJIDcH7B7lPMAKRougnrJWdDaH4iKS3yHGMoDXAqMBrMgpG1AC8Bp6wrQf8jUViKQm2LMTfQ7HOgMIkF76nFGRySQcL7NUM5rBxRticRmqgD1AecNojsjQeWKR6jIMSZYxH6M7WH61TiJHjz5j3IWCfacp06RujVgzxB308hBVzBYQvHcXdxLd92OCjoGexsFNcdtypIAdO4XW99cXPJ9wlk6G3P5C1iZgb0",
+              "received": false
+            }
+          ],
+          "total_price": 306570,
+          "delivery": null,
+          "changedOn": "2026-01-06T22:17:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695d89e41c508c5d5eab4560"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

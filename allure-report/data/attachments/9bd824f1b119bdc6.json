@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 06 Jan 2026 22:17:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1874",
+    "etag": "W/\"752-6SAVpm7HLnBL/QRDrAuPjS3WTxE\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695d89eb1c508c5d5eab4716",
+      "status": "Draft",
+      "customer": {
+        "_id": "695d89ea1c508c5d5eab46e5",
+        "email": "Norberto55@gmail.com",
+        "name": "Mya Jerel",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 347,
+        "flat": 8332,
+        "phone": "+9577403491",
+        "createdOn": "2026-01-06T22:17:14.000Z",
+        "notes": "Dio5QQpvuf68YeQzc7SIlDJBhb26cSoMoONIQv8gBcp76LJza1casRKYuWDisAUEhe9OQyeRtuqGSS4f9c86ETHajq2ojhuaK3orILKFbWq0XYVAIANC0G2RV9fyOgmh8xreCDCFaxTiZXPJEqrk8uN9ACO7OzKEQlOQ5BJWfwetYJYOqsJVDSQ1WEDOk9A0QH3uAg9fpzC7nJYVg9KKp86O3Mk6hvjUlCLIDKnv4DjssleAztSyV5fkMS"
+      },
+      "products": [
+        {
+          "_id": "695d89ea1c508c5d5eab4702",
+          "name": "Bacon53826",
+          "amount": 353,
+          "price": 99878,
+          "manufacturer": "Microsoft",
+          "notes": "DfahrowWBShZogU7TIFDiskHFwWVSHotEaI1QZre549Ab7jvzkcyI491jmJ1K3WL4ZprUC5NAZuENfQP3ZYaSFqydOPk8QI8W98wnluxyvlhDQAcV1WymMjlvSwPYB9W3JYdO9qONwxaugkwRB4f471AuG0PVQCU5Y0Ok5Iv3reT0rVePwPWfhdlu1AJU90PgyySvMQoNXg8oZAeirI57oWHVsZmLX8bBDATb5ZX4kuLTuh939Jde7s7uZ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 99878,
+      "createdOn": "2026-01-06T22:17:15.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695d89ea1c508c5d5eab46e5",
+          "products": [
+            {
+              "_id": "695d89ea1c508c5d5eab4702",
+              "name": "Bacon53826",
+              "amount": 353,
+              "price": 99878,
+              "manufacturer": "Microsoft",
+              "notes": "DfahrowWBShZogU7TIFDiskHFwWVSHotEaI1QZre549Ab7jvzkcyI491jmJ1K3WL4ZprUC5NAZuENfQP3ZYaSFqydOPk8QI8W98wnluxyvlhDQAcV1WymMjlvSwPYB9W3JYdO9qONwxaugkwRB4f471AuG0PVQCU5Y0Ok5Iv3reT0rVePwPWfhdlu1AJU90PgyySvMQoNXg8oZAeirI57oWHVsZmLX8bBDATb5ZX4kuLTuh939Jde7s7uZ",
+              "received": false
+            }
+          ],
+          "total_price": 99878,
+          "delivery": null,
+          "changedOn": "2026-01-06T22:17:15.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

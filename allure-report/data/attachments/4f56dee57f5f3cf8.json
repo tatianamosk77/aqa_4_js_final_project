@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "date": "Tue, 06 Jan 2026 22:18:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "82",
+    "etag": "W/\"52-FiwCY8+gqv1vsWpnYpqBX9s1bwY\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "IsSuccess": false,
+    "ErrorMessage": "Product with name 'Bacon36049' already exists"
+  }
+}

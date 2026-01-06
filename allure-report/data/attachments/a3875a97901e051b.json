@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Tue, 06 Jan 2026 22:17:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3408",
+    "etag": "W/\"d50-4WQX25ZBz+5hZpeGGWXCYEhCLq0\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695d89fc1c508c5d5eab4bc0",
+        "email": "Dena68@gmail.com",
+        "name": "Kaycee Greta",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 569,
+        "flat": 2068,
+        "phone": "+0431688095",
+        "createdOn": "2026-01-06T22:17:32.000Z",
+        "notes": "8wzrJIigmkYfQTGswyDgWggSNA9ceLBrJLsIamFLJLADiW7Qd0e7i4ZyfgqZNP0ks2mUv4mT4a7T5nXP5Knc9vT06dv28jhihIdrfDukhnlAaXMCiiNF1XGD11tdbNxFs9xIDvifUybwL29J1JUIHkadiupqGEpoPpcqCGDYcpLfcGb3kMsum788PyQE9oEdxfFaTWYJkwFwVwQqrdTIPukqNqyipz7WzyXAvA8O8NAsRq6DWT1eAMTXTb"
+      },
+      "products": [
+        {
+          "_id": "695d89fc1c508c5d5eab4bca",
+          "name": "Gloves12134",
+          "amount": 449,
+          "price": 73240,
+          "manufacturer": "Apple",
+          "notes": "a0Sgwo6Umi8lt7YCwn6AbIGOIBGVAcOMluTpa2aklWuikwb6wFvQmBzz2i96vHImqzq2nbwOl6mXje1zluAleHcWQ8GdYi3IRhXnxkvG8gS6R4mIZv2esh5loR2dcKz51LUSrRYx8mMTTRLciyamgsp2kVC2hkhoDDiKOFzfnJ4nu61KgW6GUWglRhomtKKCAVXukAIXmQluXp5OD9SawE6Tgh5ztbJBfytGqnhSZhxMkMaNjzVWFCq3Tb",
+          "received": false
+        },
+        {
+          "_id": "695d89fc1c508c5d5eab4bd7",
+          "name": "Towels56643",
+          "amount": 118,
+          "price": 88284,
+          "manufacturer": "Xiaomi",
+          "notes": "rImn7A4n3alt2XvZKV1QxqGevX746nikgQLTfLTVYv4nZ5i7hxtFZKiflLjYkDntOzFbTvAZ8FkHHBOUEsyTJPebtByMAd363xNvkmfbX2gQw5dT7qQMC3g8g3Mvit5RXadXo3164bmxmIpEnUyPnIve5IwwZ9wmFdClOe4qMLJjeHDZHhS9mHUrX5yiBOkZxTFIwBGHxm3EASV0K2jaYsOMku4AjCix7EPPoDdF8UxvqT0lgNxBSlaWRr",
+          "received": false
+        },
+        {
+          "_id": "695d89fc1c508c5d5eab4bd5",
+          "name": "Keyboard54293",
+          "amount": 112,
+          "price": 47896,
+          "manufacturer": "Tesla",
+          "notes": "B4KzWoo5EUIfkEtPe4XF1zX0WphsiGZBXVxcRR6IcBadgTEDVg0QTtK2ZDq44bysw4fCYcOwiIfJsyJenjh3v2RtvSLlBLayOHWtm00BSihiVRDzbrwwil2G9z44hnvz7MQLvRThGHbB8fARGVQIug2SNRBkDSf26rMbME40Ow2Z83MMJar1N1Z5k8LIhjrxJbDM5JTV09h06OLskfCh4tuQDfj0jPoABMfZ3FqaYLcTC3dKR9MraRmiWO",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 209420,
+      "createdOn": "2026-01-06T22:17:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695d89fc1c508c5d5eab4bc0",
+          "products": [
+            {
+              "_id": "695d89fc1c508c5d5eab4bca",
+              "name": "Gloves12134",
+              "amount": 449,
+              "price": 73240,
+              "manufacturer": "Apple",
+              "notes": "a0Sgwo6Umi8lt7YCwn6AbIGOIBGVAcOMluTpa2aklWuikwb6wFvQmBzz2i96vHImqzq2nbwOl6mXje1zluAleHcWQ8GdYi3IRhXnxkvG8gS6R4mIZv2esh5loR2dcKz51LUSrRYx8mMTTRLciyamgsp2kVC2hkhoDDiKOFzfnJ4nu61KgW6GUWglRhomtKKCAVXukAIXmQluXp5OD9SawE6Tgh5ztbJBfytGqnhSZhxMkMaNjzVWFCq3Tb",
+              "received": false
+            },
+            {
+              "_id": "695d89fc1c508c5d5eab4bd7",
+              "name": "Towels56643",
+              "amount": 118,
+              "price": 88284,
+              "manufacturer": "Xiaomi",
+              "notes": "rImn7A4n3alt2XvZKV1QxqGevX746nikgQLTfLTVYv4nZ5i7hxtFZKiflLjYkDntOzFbTvAZ8FkHHBOUEsyTJPebtByMAd363xNvkmfbX2gQw5dT7qQMC3g8g3Mvit5RXadXo3164bmxmIpEnUyPnIve5IwwZ9wmFdClOe4qMLJjeHDZHhS9mHUrX5yiBOkZxTFIwBGHxm3EASV0K2jaYsOMku4AjCix7EPPoDdF8UxvqT0lgNxBSlaWRr",
+              "received": false
+            },
+            {
+              "_id": "695d89fc1c508c5d5eab4bd5",
+              "name": "Keyboard54293",
+              "amount": 112,
+              "price": 47896,
+              "manufacturer": "Tesla",
+              "notes": "B4KzWoo5EUIfkEtPe4XF1zX0WphsiGZBXVxcRR6IcBadgTEDVg0QTtK2ZDq44bysw4fCYcOwiIfJsyJenjh3v2RtvSLlBLayOHWtm00BSihiVRDzbrwwil2G9z44hnvz7MQLvRThGHbB8fARGVQIug2SNRBkDSf26rMbME40Ow2Z83MMJar1N1Z5k8LIhjrxJbDM5JTV09h06OLskfCh4tuQDfj0jPoABMfZ3FqaYLcTC3dKR9MraRmiWO",
+              "received": false
+            }
+          ],
+          "total_price": 209420,
+          "delivery": null,
+          "changedOn": "2026-01-06T22:17:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695d89fd1c508c5d5eab4bf2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

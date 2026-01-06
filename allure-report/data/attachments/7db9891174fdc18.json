@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 06 Jan 2026 22:17:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-s7v5qletlrB5wF9KiwLYpUPPkIc\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Nedra37@hotmail.com",
+      "name": "Matteo Name",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 723,
+      "flat": 3331,
+      "phone": "+8928323109",
+      "createdOn": "2026-01-06T22:17:29.000Z",
+      "notes": "atcLifHmMprajsVJ0DrcTasrR2XclFHhV0kMNVwu5hBKSb8MOq24VcJRrZyzqtVLL26xX1hrOywzIyVsTA8eXhpcFq35CjRqlI277wnOSKUGj07zFtoYZxYlPTBkUBEyIcEEDboHxRiP3WxpqhSXDkjIJ2spieVOxWC8m1IfPbAIYUnJGJm6As46E3OQt2lpMTyXz5Jd2ylmQZtbBUDxjBDRdMnRXvxszFA3UqR4xvn4pfozgWNN47kSYl",
+      "_id": "695d89f91c508c5d5eab4b19"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

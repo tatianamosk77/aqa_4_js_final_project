@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 06 Jan 2026 22:16:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-MDOLsFRayOy4bjLA+td9UADyKg4\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "John75@hotmail.com",
+      "name": "Rodrigo Anastacio",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 75,
+      "flat": 3754,
+      "phone": "+8287462544",
+      "createdOn": "2026-01-06T22:16:40.000Z",
+      "notes": "zSnnNLyPPeyXm5s3EW275igkJQ8NI1NNbVqPOBMzgJ9mtHmopaQWiI3vaGFg9lUOp3AurAvczdXh0pFU8FVG7CzaC75mS7YtyrqO7LsVAKl4In4fNhqfkFH3fVyAVd2dUocL47CLI3eqhw5o7S7gkR3UoAhrTzXQ4jZJ3qpGDImfrZLZztUb5BI9qsox7nd0In6xwfD1hoTdIzFukPUDtGRiKw2zK5On4wqVpc9zutaVo5Dn9ohRviPcfs",
+      "_id": "695d89c81c508c5d5eab4108"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "date": "Tue, 06 Jan 2026 22:17:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "192",
+    "etag": "W/\"c0-mg9BypPvx2MstRv+iyQZxWIP5vE\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Product": {
+      "name": "Ball75964",
+      "amount": 868,
+      "price": 80167,
+      "manufacturer": "Xiaomi",
+      "createdOn": "2026-01-06T22:17:40.000Z",
+      "_id": "695d8a041c508c5d5eab502a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

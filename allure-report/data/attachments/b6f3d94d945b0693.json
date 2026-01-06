@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 06 Jan 2026 22:16:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-5o9QfD2f1QowbsRbJO+ABwBUopI\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Felix.Collins75@gmail.com",
+      "name": "Hugh Maximillian",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 7,
+      "flat": 7014,
+      "phone": "+5929224870",
+      "createdOn": "2026-01-06T22:16:38.000Z",
+      "notes": "kGZN7Inh55AfEI6r4ronKFV0dQo4r2XDJgshcbSHI7iLVDFIQB30bMhpSF9F7kAXUWf0MfXKJout0QXFx8hjflNnAGrIFxDkr0rtjKRz5V7ujz0BfkRL5qErWRFRu8XqsWUmCzia9bobxjHqtr5wYsAar52dPJjrssbC3YFVV743ckYuYouXJwyNFhEyEdjy0fpYECOdnV6474hIBhLfLlPE7wGgleGH8iaSWavQw7mqxNGD5B69Pen6Mc",
+      "_id": "695d89c61c508c5d5eab40b1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

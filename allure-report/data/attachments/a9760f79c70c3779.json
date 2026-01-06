@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 06 Jan 2026 22:17:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-yka53+PSDk3Qd+xlOzjLFSGE0k4\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Americo_Schuster@hotmail.com",
+      "name": "Xavier Lucie",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 996,
+      "flat": 1713,
+      "phone": "+5879677016",
+      "createdOn": "2026-01-06T22:17:07.000Z",
+      "notes": "sIzteNGbc2nb8lxblgVTR87kEaU8BrHveyl5DqFsdpaxNMON6Iee56MSihKM8YJnafmB4GnkfQm7TN6DMfkYPguzq4vKizAp4yGpCJ8UKkyp66MpyEsdRQ92NhG5li6dcmVsw4IGwfmSak6UrvcroQikIR0kg19Mv9HB1eEKqdhbKYWZmm677abt0bXlklqwNGTcUpvEM8Z2fXhkxd4TjqCjzeB3Bx9AgWkBTehwIqRKUcA05ZnZKkdDXb",
+      "_id": "695d89e31c508c5d5eab44f0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

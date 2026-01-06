@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 06 Jan 2026 22:17:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1876",
+    "etag": "W/\"754-M0RQwW1Cgxm1WR/fdePdX7qo3eM\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695d89dc1c508c5d5eab436d",
+        "email": "Trystan_Walker93@yahoo.com",
+        "name": "April Jamar",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 883,
+        "flat": 1315,
+        "phone": "+2855974883",
+        "createdOn": "2026-01-06T22:17:00.000Z",
+        "notes": "OGg4X1pz64X2Gn6JqtE7YenbDfUWiIgtKwwc8eWRqMKpjrCxHpCQXf8plAVypxKbBFMRUdW3sO0uyz6OIPaWUzXEq9HgoSHQQfEQ7irMKWtbX3cBqR5EVmBpNz77mkONg2QqSj25Nj15uRn9nx1DwL1nLT9aiSyjuMHsPp6SMBzNxUSd4trGl760ke3rUf0JgwrOAheqldcEwjH7MtM3BJPym9bVdbF07O6d21GtFE9c6lyIcDKVpIJxWF"
+      },
+      "products": [
+        {
+          "_id": "695d89dd1c508c5d5eab4392",
+          "name": "Gloves99959",
+          "amount": 87,
+          "price": 76513,
+          "manufacturer": "Google",
+          "notes": "yD3Wyn11iybn3iv0NRrxeMPmq4SbpEfdAgK5fOE5VZAtQmTlafIc1fftXAGpojWnwx1cty103CzDRo9W0cnmaa3sRI2U1ZXXDX1yOaWxky50j8bxdATTxoWC5xkRSS8wo4rLCIlP6xiXkP87XCs1Z5mKAAHq4BSodsjCqt3l0kKQ0kreBwOByDjGYMadSexr4Vc3ZUJyAMl3oHUJkMi4EF3uaOIdmTMTjXQnCrLwjgmTk8YvsS9t8WKyN7",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 76513,
+      "createdOn": "2026-01-06T22:17:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695d89dc1c508c5d5eab436d",
+          "products": [
+            {
+              "_id": "695d89dd1c508c5d5eab4392",
+              "name": "Gloves99959",
+              "amount": 87,
+              "price": 76513,
+              "manufacturer": "Google",
+              "notes": "yD3Wyn11iybn3iv0NRrxeMPmq4SbpEfdAgK5fOE5VZAtQmTlafIc1fftXAGpojWnwx1cty103CzDRo9W0cnmaa3sRI2U1ZXXDX1yOaWxky50j8bxdATTxoWC5xkRSS8wo4rLCIlP6xiXkP87XCs1Z5mKAAHq4BSodsjCqt3l0kKQ0kreBwOByDjGYMadSexr4Vc3ZUJyAMl3oHUJkMi4EF3uaOIdmTMTjXQnCrLwjgmTk8YvsS9t8WKyN7",
+              "received": false
+            }
+          ],
+          "total_price": 76513,
+          "delivery": null,
+          "changedOn": "2026-01-06T22:17:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695d89de1c508c5d5eab43a2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

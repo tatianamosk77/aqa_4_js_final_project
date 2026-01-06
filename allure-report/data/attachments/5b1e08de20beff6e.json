@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 06 Jan 2026 22:16:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-d75VVJjOucss+3uy3ETa78mYPaU\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Katharina64@hotmail.com",
+      "name": "Mariano Bridie",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 250,
+      "flat": 2843,
+      "phone": "+6789467076",
+      "createdOn": "2026-01-06T22:16:49.000Z",
+      "notes": "Qtc362WbdmjXghV5T649SDsURzLwFd9oxSpeILsH1wk0x4xnT41T5gJKFAqx1xRWwqi7LPvtYJCzPgPxo8PXMjYEn692yFwGIrVkw5aZgqyFjTZcSzGaPh2hfZmPgjy1djXpXYIzIUVeTJ1dsgI5nzdEQJwyyyfZUtPbYaKNIrdf5InHUFf76irJ6AaxfVcHXTRzPlbFKK0I4l6Y6AQkgOKeDSHSA9nfy6e9skYDx5CBrBWS4rXcoLK24N",
+      "_id": "695d89d11c508c5d5eab4230"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 06 Jan 2026 22:16:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "570",
+    "etag": "W/\"23a-jBBtCn2Opup587Bc7+DLxIwUy4c\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Gino39@hotmail.com",
+      "name": "Saul Vincenza",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "Op5h1X2h8V9UCJ0W9xtndLpU2WD8e6GQxKre2XEP",
+      "house": 842,
+      "flat": 470,
+      "phone": "+2876318655",
+      "createdOn": "2026-01-06T22:16:37.000Z",
+      "notes": "oM32PUQ7YHx8g7UR1ftpYtxEmALJEYG27wW40QkzY5zQXwxp17t8Y3HV7VTygTQi17VvPL8iAu4p9KLtQtjepOPppVxvk4BIBVmwZZLruYVjl7wacUzyWHuSocsQQ8HP5Ce4Xw1CTxEZhoOlvM5zRmJ82RWWmGFhDK3RSWm3q4I85MsppGMbwclldkajLGv1aS63w7t2s6DS0mkslH4y3M3EtF4VFWbQmnZ6cjL9wBLI2Np7dbxaVYYinj",
+      "_id": "695d89c51c508c5d5eab4095"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 06 Jan 2026 22:17:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-QiGGwr377VZVNuwf1xfht4aFQ88\"",
+    "keep-alive": "timeout=5, max=76",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Brendan_Ernser71@hotmail.com",
+      "name": "Tom Orie",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 120,
+      "flat": 8051,
+      "phone": "+6953668442",
+      "createdOn": "2026-01-06T22:17:01.000Z",
+      "notes": "2WbU6tup2MfSc4t3Lu87KERD6eGBaJXnsd44vkjr79B2l9i981h456sNxkJtEXLBPJBU78Ayt2y8BuD8kxgQsfXe827aspqwazvV2BHuZgQz0qgrBDjP5PErCoN6XN1KtfTfnCjFco1XXJtZomk5ZTgi9eYaEMH75vlkHxCxGwRnLEefCcG3dIXINwAZRc0smxvW4xtqXN92TQ0VrMosc5n1uaTsa3ZD51ErQV3ct3UP2tT01SXkSwMevP",
+      "_id": "695d89dd1c508c5d5eab4377"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

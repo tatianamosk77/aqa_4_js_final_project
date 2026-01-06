@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 06 Jan 2026 22:29:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-d5j2CRWxHDSCXdWbsEXvcQbSb1U\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Scotty_Braun@hotmail.com",
+      "name": "Lessie Thad",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 577,
+      "flat": 774,
+      "phone": "+0594764132",
+      "createdOn": "2026-01-06T22:29:08.000Z",
+      "notes": "FOMn5BS0yEbQglgQ2ul7UXZHGezajSjfyKr6U3i4KbbxCa73hXRkCd7GIFUedGl4GJSM83WFFx6NTFQVddEFZYxm5T1X9hWI81gJ17gK1rLXnkVbn7n97PH2ZD0Qv0vMiZuyL7WN8QK2Ew6LCanhZt8zLN708492ZkYLTv9qv7I4C9VunVs2UstvPAnJy7pbq2otgurZksVFJbtnZH2NogsCRKKn9lVWdr9r3W8uPGetk21g1J4gwgHNTU",
+      "_id": "695d8cb41c508c5d5eac09b1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

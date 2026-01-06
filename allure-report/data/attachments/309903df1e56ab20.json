@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 06 Jan 2026 22:17:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-8XrIO/Q9H9MF6+VOVmMecpi0ogg\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Olen81@gmail.com",
+      "name": "Darwin Evangeline",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 809,
+      "flat": 7901,
+      "phone": "+0025071038",
+      "createdOn": "2026-01-06T22:17:02.000Z",
+      "notes": "9Re7ZWae3OX3pfukr81Rbym2SJx7NRmwGOFtI7fDhUM9d1OEPUspNCF4k7lkTFeCCOXGlcclFhq79FJZoDl2O7DeMKHjafTSUSDZwDjv2PHFbOkZMcJPj2yScbS41KxCxR1KDs0ypIzwKiCnb4IAS0qdHD2Rw90Mmo09NisV2I2F1tIpeeA3XWo9BT1uiO2mz96gR0zagFTK2cqgzenKsxiUXjDD1tfOiOjSMdw8VxnP5TGQf6mi2TsSnE",
+      "_id": "695d89de1c508c5d5eab43cb"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

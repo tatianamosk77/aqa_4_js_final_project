@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 06 Jan 2026 22:16:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-pgWmh+6vdTVHNT9c6bYyQqZ3hXk\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Patsy98@yahoo.com",
+      "name": "Torey Everardo",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 47,
+      "flat": 4938,
+      "phone": "+2294553208",
+      "createdOn": "2026-01-06T22:16:57.000Z",
+      "notes": "usOSc6jYT9Sy2r1wPzfNwAJv8Lm7elcc2Y0a2GplrRxC3OCHy9jivZfDAzWp6gZkrpwnLEmX8Yjgb6FBegEUCVtxZbZS5iu0govYNGumgqnvxifOGuMAFeddiyVAtBc3MhMKJS9bU9cdjweVf2z4gbvq7leZoDd2dsmerIkfkShkIScPRIYYzcVQcIuRrHZWa6wCmnFzXbPYVY2Aza7fdHazw7htbszfITtdHkglxqfCjxQx57gNio06hc",
+      "_id": "695d89d91c508c5d5eab430c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

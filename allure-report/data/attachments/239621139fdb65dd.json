@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 06 Jan 2026 22:30:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-D4tQP8EReVeDgJ/DpV/3P6zg1rs\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Terry.Schamberger@yahoo.com",
+      "name": "Ariel Dereck",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 700,
+      "flat": 6108,
+      "phone": "+8694499889",
+      "createdOn": "2026-01-06T22:30:41.000Z",
+      "notes": "iDNXoDaakoAQvztfRdzQhTSt6srGkmT5tL6zdoq1YH3xqZiajkQfhBkmVwPCM6jm7rvedL67bE9VYkS6Sdv9z76ay9CB1iu3JPq4Wn2U7pbUbtqDaU1gWJbgL7J7l4iOaWxyGGQDVhioakzVW579Av5kfK69TGoU6kzpPiCr88rCijIy86Qin6k7iOa45mFwsevX5tLkycPMW3T6v4WG3VxdKMWCzB7YNp8KFRnteaSF66hCDaz3XJVwkS",
+      "_id": "695d8d111c508c5d5eac3cf4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

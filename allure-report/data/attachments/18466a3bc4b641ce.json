@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 06 Jan 2026 22:16:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-Yn3nxp8+Gb6H6V8eSw67Xsg9/A4\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jalen_Mueller2@yahoo.com",
+      "name": "Nigel Torrey",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 868,
+      "flat": 267,
+      "phone": "+2234286227",
+      "createdOn": "2026-01-06T22:16:53.000Z",
+      "notes": "1wJ6ePnDGCTLShuMzQd1W4r0NUBCC5N2MPB6BoGHXohmmFxDoMlQEjuEsI0otnuabBPKZ70cw9gXFpZnIofo27ZKyhQZUNO26QVXVCasCXLBKjf0GXDnsOhrZPqCn0k9YclnkNNPRDvd4igwgJxVcH6k8ZLoLfojCxObqwQVw2LT8J2r7kmUluXqIj5q33noqUPrGJfTcrAi9HvUs2bNV8ociu7xNv0YHzypFLjFZLZhrhulOywbPm9raq",
+      "_id": "695d89d51c508c5d5eab42a4"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 06 Jan 2026 22:17:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1879",
+    "etag": "W/\"757-0eoCZ45A79KCT3yFfq4GsL842Xo\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695d89f91c508c5d5eab4b17",
+        "email": "Hugh_Ortiz72@hotmail.com",
+        "name": "Ford Alvah",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 51,
+        "flat": 6801,
+        "phone": "+6686913277",
+        "createdOn": "2026-01-06T22:17:29.000Z",
+        "notes": "nILktXxBvVIT8555kNDhHDjPaUJBViak7351f8cE4HCcuevxdEwbgWJ1zdmQ7CjCA73ImiT1KsdXrSfzyXMXuLim9HROEGVszKWi0g0LJkV6HQ2IVhp9OMjwhesgx7iFMDyxuCuAEVlzsm1rKMio63rQcCpKRd6BKIZUKwZbm6qbvaqpHpzO64JdOUuunN9YBAZhKDoNlHW0MOWgXwjG2qTvVxx8af3SBEXCbObQ4DIJnoAiCjDSk62AIc"
+      },
+      "products": [
+        {
+          "_id": "695d89f91c508c5d5eab4b1f",
+          "name": "Pizza67822",
+          "amount": 480,
+          "price": 38128,
+          "manufacturer": "Amazon",
+          "notes": "iNimtIAj2YEBvbCbHa2YXGa9KGwU59VQ5hL6cnT6qSWYKw3Wq9zhYDNJoRZRbmD2IPemPVxzHXO2tYcgthlx1zrtPaQWjeidTCZgeYnQEjXLuW7UX6wQqD0CPubqwYSjkmRYKBPURquKLlT3l4jOLQ4qulEPyguXjApKs9ve466tYG52irECmpjexgKrSYPDaHyQDV6EGzEvfe5D3mIZ6vlpJlqDeyh3KVCv47KsWURkXjzU8A6m3n593v",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 38128,
+      "createdOn": "2026-01-06T22:17:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695d89f91c508c5d5eab4b17",
+          "products": [
+            {
+              "_id": "695d89f91c508c5d5eab4b1f",
+              "name": "Pizza67822",
+              "amount": 480,
+              "price": 38128,
+              "manufacturer": "Amazon",
+              "notes": "iNimtIAj2YEBvbCbHa2YXGa9KGwU59VQ5hL6cnT6qSWYKw3Wq9zhYDNJoRZRbmD2IPemPVxzHXO2tYcgthlx1zrtPaQWjeidTCZgeYnQEjXLuW7UX6wQqD0CPubqwYSjkmRYKBPURquKLlT3l4jOLQ4qulEPyguXjApKs9ve466tYG52irECmpjexgKrSYPDaHyQDV6EGzEvfe5D3mIZ6vlpJlqDeyh3KVCv47KsWURkXjzU8A6m3n593v",
+              "received": false
+            }
+          ],
+          "total_price": 38128,
+          "delivery": null,
+          "changedOn": "2026-01-06T22:17:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695d89f91c508c5d5eab4b2b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

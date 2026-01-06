@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 06 Jan 2026 22:29:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-klVQ6v+OzTqDTJCsug8Aj4H4wl8\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jordan_Osinski@yahoo.com",
+      "name": "Bonita Felipe",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 120,
+      "flat": 3030,
+      "phone": "+2707970092",
+      "createdOn": "2026-01-06T22:29:08.000Z",
+      "notes": "Wd8Nb5g3tyFjzj1kXnvlTdJq6Rlu6JpssN5WDi4G0qwITU99fpVebA6dyWCCpIed06kp8aB7T8B4jYL3IlbY8Tp3YAO0jOFMo9gHZLmNeEZ21Wj7izNLaBcphqCZ4TnQAovkOSyLpYvKMy8gbZui9W9cXRb9T6pzB7J6MWYSexbP7ZBMeiMD16HVBAX0p4lRdP7OljywJEpNz6AKAWnFHJFFkgMdoWQAEPfR3kXg4hp9tOVDw8FzmOYhqF",
+      "_id": "695d8cb41c508c5d5eac09b3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

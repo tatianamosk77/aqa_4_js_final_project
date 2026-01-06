@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Tue, 06 Jan 2026 22:17:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-GZ8PaOv/Vjv6C7lv5HzoPo/lBoA\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Colby.Stracke@gmail.com",
+      "name": "Bernadine Kavon",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 50,
+      "flat": 1074,
+      "phone": "+9564512302",
+      "createdOn": "2026-01-06T22:17:08.000Z",
+      "notes": "9m6uHSgm9Vhd4aUihPigclPjkchCRlNcws6ctpVkFS2fXRlS0jJQokiFI5BdF6Ui5ISn2OhBV2xRgNPTf8sqnVIXOKel8Cloel5xJorRqd7QAOglQ1pTMngKIXeKz83JbSaKOjuChRoRoScHwwgEAIfwDxjbEcn04XRVvQ1HbpOWybsU5PKRk3PVACGZ8SrPQcXGoX58o4cMsJhnHROHrcFv6f0ktX8FsZ01QokbtkafKfnIAUgKIQphkK",
+      "_id": "695d89e41c508c5d5eab4505"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
