@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:12:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "291",
+    "etag": "W/\"123-vyr3mEFmKJcFwwxZfd81/9zVIOU\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Rogers36@yahoo.com",
+      "name": "Heloise Emmet",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 147,
+      "flat": 6763,
+      "phone": "+6881272774",
+      "createdOn": "2026-01-07T13:12:55.000Z",
+      "notes": "",
+      "_id": "695e5bd71c508c5d5eacc564"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

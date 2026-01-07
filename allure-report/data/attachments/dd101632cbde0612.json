@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-16KBm7puAiQWEfZ1EDxWBkiq8Xo\"",
+    "keep-alive": "timeout=5, max=73",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Sophia_Stokes@hotmail.com",
+      "name": "Isabella Hazel",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 116,
+      "flat": 3187,
+      "phone": "+3684508160",
+      "createdOn": "2026-01-07T13:13:49.000Z",
+      "notes": "dqIrcCHQUrHapbUxkrC1imcCz35g9ImcoTAX5ZSLc9uPn1zIUUjHkyECFreX3tNGQK6pkyJVo3gefgPR6YdvNoHPjRzs1qGybBq1dmVbwkPYQVLkmgezxxlWQCfjdwpKkSuiTSr7KJLVJYMPhbNr5sRFi22F02ysiGBypBLerYSX2k2lSUPjZhpqC7G7Ks76G5J6BoWtuMZrzKaKS0jXj7Xi8P2K1LLE4P8JTsNrd5a2gexmkG21CO4l77",
+      "_id": "695e5c0d1c508c5d5eaccf75"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

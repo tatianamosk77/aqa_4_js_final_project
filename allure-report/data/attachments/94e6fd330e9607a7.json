@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:15:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-JxktwQrCalJ7TG0JkJCrXwFQBR8\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Favian72@hotmail.com",
+      "name": "Elfrieda Antwan",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 494,
+      "flat": 701,
+      "phone": "+3702731142",
+      "createdOn": "2026-01-07T13:15:39.000Z",
+      "notes": "LVTDCsLxabWPnkj2qPlhTuqa6fSGPNyShoZX5cUqAInaLrOuEPVt7mJsvhiIBxzdRL1pHb9IqiDfyUyyNFVkIPKEZFJJjOuJzhFGsljHHTKbJJGOeBxCoVIxqikfRTV0fTh76Hbmoh8qk4k3TDuwTDNRRoZGsCtHd6VQekmKU40KJLiAx5GNWcCGAtCdQ4ugUvmULx0pniE2xX7YA7yrExxVuix8g3LZAPgvpuXx2KugnFau1r6H04Mu9x",
+      "_id": "695e5c7b1c508c5d5eacf221"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

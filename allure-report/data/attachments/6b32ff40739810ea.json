@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:15:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-pwxb/ZNFqoHb+E3Dl8gIAO0fMNU\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Nikki9@yahoo.com",
+      "name": "Adrienne Thora",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 414,
+      "flat": 8247,
+      "phone": "+6905641418",
+      "createdOn": "2026-01-07T13:15:42.000Z",
+      "notes": "Cb2IEc9EZ5NAYEvB7eafukOKPF3BbB0i3w0TGquuHjCYPTZh1XHHRWsgDoU5p03owuMSIArgOaJelrOlQAAfqHmCwXUjZXIWMN3WVzKfALMHATDhC2MqRg41vpdNE1h2HKNcFR5SNFOVMcgaeS9uDBhDSN7rScppxpxIviW9HfOWGIYrmoj5oByAp5fbdVHIyJOZr1KfHjfoHJ0jTWFsumPWtkRgaiO7V1yDrnoEff4VbGoK5y4RDwnk3O",
+      "_id": "695e5c7e1c508c5d5eacf33c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

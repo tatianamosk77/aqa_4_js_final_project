@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:20:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-e9Le8TAqZkayOWKaAVDGHpuuSU0\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Mitchel35@yahoo.com",
+      "name": "Ciara Bettye",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 535,
+      "flat": 6247,
+      "phone": "+4305699048",
+      "createdOn": "2026-01-07T13:20:45.000Z",
+      "notes": "fBsVFL22GUsT61JlckLrTL253N7WooJDC18z7Zl9Y14oYG6MwNZFdh9QtzjyeYsWr6sGEfqv9TEx6l1vHfCbTBjznMipeyRhQCcUUYdZNfc2JTPG2Jct4ReTjK7fy4LpavDfSyGeVBvmkFiuYxGnD6T9VEl9gQgYYyICC3pOnOuDtWb5GyLRsirfuYbh3v1DeuagdSZnvgFb6x26ci1B36RQhtkY9NOKTbQgmfgiQjAZMO2v4xP0j2KHmT",
+      "_id": "695e5dad1c508c5d5ead3d8c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

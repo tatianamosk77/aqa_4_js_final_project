@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1883",
+    "etag": "W/\"75b-hlBDdSOKvneBrmEBkeKKxuDvv8w\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695e5c0d1c508c5d5eaccf6d",
+        "email": "Melvina84@hotmail.com",
+        "name": "Willard Eloise",
+        "country": "Great Britain",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 945,
+        "flat": 3644,
+        "phone": "+0467344726",
+        "createdOn": "2026-01-07T13:13:49.000Z",
+        "notes": "KrE0x74sbuYz4taAYm5vynwH8yhLCjxySqUTYjlt1uxzAhMJQYNgm7RODlqeFRczy3Y3HaYD4Zj6owGBGgcfTY67bqSOYwaXtd6eJdXl6fbMcjGbx2jqDXzCbClEP7ErUDAgPHhRbSGT7Vm92dF0iaNWK9qb9huUaU7TQPeIFd68HrfLJvUp4gpQGMlLavXfilrWNQGsoFHjTKHGGaYzI7ZlTXKGk5sQaH6EJ8fDduA6zcNo19ia0nKeWG"
+      },
+      "products": [
+        {
+          "_id": "695e5c0e1c508c5d5eaccf79",
+          "name": "Sausages36784",
+          "amount": 598,
+          "price": 32271,
+          "manufacturer": "Sony",
+          "notes": "e0Z8NozOPTawgL4gW7n6NSAXGN3COwbvv4io8AnC3EqUXnCk9jmsRrsGe4a33grbLkfs0T2tUPUb2uyzNM0h2KScMjX0PgyGivYNjCrvNA1UcVoET9BbnNlVfK1Hma9sPm5Vra7KIug9R5ekAc3yMt8jYIwgGY3pCS2u6ZiIQWj17fvTObi7HAUzvL4BMtu1tZcoSIjFWIpDHszaHlPmzkcm4x9ks9XBD318n70HTKUmlFkhkoUvIStjF4",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 32271,
+      "createdOn": "2026-01-07T13:13:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695e5c0d1c508c5d5eaccf6d",
+          "products": [
+            {
+              "_id": "695e5c0e1c508c5d5eaccf79",
+              "name": "Sausages36784",
+              "amount": 598,
+              "price": 32271,
+              "manufacturer": "Sony",
+              "notes": "e0Z8NozOPTawgL4gW7n6NSAXGN3COwbvv4io8AnC3EqUXnCk9jmsRrsGe4a33grbLkfs0T2tUPUb2uyzNM0h2KScMjX0PgyGivYNjCrvNA1UcVoET9BbnNlVfK1Hma9sPm5Vra7KIug9R5ekAc3yMt8jYIwgGY3pCS2u6ZiIQWj17fvTObi7HAUzvL4BMtu1tZcoSIjFWIpDHszaHlPmzkcm4x9ks9XBD318n70HTKUmlFkhkoUvIStjF4",
+              "received": false
+            }
+          ],
+          "total_price": 32271,
+          "delivery": null,
+          "changedOn": "2026-01-07T13:13:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695e5c0e1c508c5d5eaccf8c"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

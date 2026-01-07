@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2916",
+    "etag": "W/\"b64-Zu0K8+SboZAHWbxNVCoTvVo3K0M\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695e5bf61c508c5d5eacc891",
+      "status": "Draft",
+      "customer": {
+        "_id": "695e5bf51c508c5d5eacc86a",
+        "email": "Marlin84@yahoo.com",
+        "name": "Meagan Evan",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 909,
+        "flat": 8384,
+        "phone": "+5810220733",
+        "createdOn": "2026-01-07T13:13:25.000Z",
+        "notes": "DA9fVsiqJJ5P6oO2DGNyW5CHhHTuxD6i3trXgUDtWFrpjTl63XLcEXJoCKDcBxh9PwbDZt1oLw9V9c4738VL7laBVVvFuBjU1ZPv8VziDsFhnn5GGrrsFuPmJQiVWJqlhODO6RRCldgpNy3W7PPlYVEdS2UdmCg5f8q2jVSQTkCGdUakBCDf1XCZ015rwGRHKMTKgqM0bM5IRt5LzPfdMDZiZPgdX5SGq05RY4oklIPq1bjB34izYyyw8n"
+      },
+      "products": [
+        {
+          "_id": "695e5bf61c508c5d5eacc882",
+          "name": "Car51036",
+          "amount": 615,
+          "price": 27918,
+          "manufacturer": "Sony",
+          "notes": "zuzhD7lP8ymQigRQvWNdQxt0mYmaJbxySN8mPkoWhfrKfMjdkLxSstAMUUVjwWEU3uaYmfCLVMyZsClPWkQxtnPq1ApaKZ42JMm13VbkFSYOrtBYuQ6GKWiUvnifTsAn3UgTbEq3NagjDLJozjuoKcaWpvy8OlXyIhPgApSLAoCpwk1Nkx4q2NAEyG1SXHcsv3e0aTNNrEho0vtu73TawYDuFgfXqpoi2AWXuy1nWr1rCKmlNxQM4u884o",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 27918,
+      "createdOn": "2026-01-07T13:13:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695e5bf51c508c5d5eacc86a",
+          "products": [
+            {
+              "_id": "695e5bf61c508c5d5eacc882",
+              "name": "Car51036",
+              "amount": 615,
+              "price": 27918,
+              "manufacturer": "Sony",
+              "notes": "zuzhD7lP8ymQigRQvWNdQxt0mYmaJbxySN8mPkoWhfrKfMjdkLxSstAMUUVjwWEU3uaYmfCLVMyZsClPWkQxtnPq1ApaKZ42JMm13VbkFSYOrtBYuQ6GKWiUvnifTsAn3UgTbEq3NagjDLJozjuoKcaWpvy8OlXyIhPgApSLAoCpwk1Nkx4q2NAEyG1SXHcsv3e0aTNNrEho0vtu73TawYDuFgfXqpoi2AWXuy1nWr1rCKmlNxQM4u884o",
+              "received": false
+            }
+          ],
+          "total_price": 27918,
+          "delivery": null,
+          "changedOn": "2026-01-07T13:13:26.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "695e5bf51c508c5d5eacc86a",
+          "products": [
+            {
+              "_id": "695e5bf61c508c5d5eacc882",
+              "name": "Car51036",
+              "amount": 615,
+              "price": 27918,
+              "manufacturer": "Sony",
+              "notes": "zuzhD7lP8ymQigRQvWNdQxt0mYmaJbxySN8mPkoWhfrKfMjdkLxSstAMUUVjwWEU3uaYmfCLVMyZsClPWkQxtnPq1ApaKZ42JMm13VbkFSYOrtBYuQ6GKWiUvnifTsAn3UgTbEq3NagjDLJozjuoKcaWpvy8OlXyIhPgApSLAoCpwk1Nkx4q2NAEyG1SXHcsv3e0aTNNrEho0vtu73TawYDuFgfXqpoi2AWXuy1nWr1rCKmlNxQM4u884o",
+              "received": false
+            }
+          ],
+          "total_price": 27918,
+          "delivery": null,
+          "changedOn": "2026-01-07T13:13:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337ce1c508c5d5e95335d",
+        "username": "student14@gmail.com",
+        "firstName": "Bill",
+        "lastName": "Schuppe",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:26"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

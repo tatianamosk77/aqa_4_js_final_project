@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-iDlrGCt9ei/OL/FQTgXy63xzym4\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Vidal.Kohler@yahoo.com",
+      "name": "Harrison Coleman",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 691,
+      "flat": 842,
+      "phone": "+9987218792",
+      "createdOn": "2026-01-07T13:13:33.000Z",
+      "notes": "3qPnoI24iQLP0rDYWoM1OCn0UX5UhpzTtUN7w5dn0gXtdaOLccOwO0kZgWxBmRQRh5rWTPmnY2hfRJDPZGEgOVogmDLerKUorzB0JxAW6eKvfifJIaQ3B8tDUWyKdZ0mwa9RElZgZQjKrDp059KtPNiYINv3dM0HX0cGivwW3g0nygEW9140NHvdZHgymBI0ubCJ9GXYZe5us4ICI2aJ50TtPsYhoscBf46G68BkedIGc0QizrwXWRt7zt",
+      "_id": "695e5bfd1c508c5d5eacca22"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

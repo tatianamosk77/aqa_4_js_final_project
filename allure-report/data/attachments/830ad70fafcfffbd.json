@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-MY4sNoKSUYbk8sdTx/5yBYViCts\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Amely69@gmail.com",
+      "name": "Dolores Heber",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 538,
+      "flat": 3950,
+      "phone": "+1552332536",
+      "createdOn": "2026-01-07T13:13:21.000Z",
+      "notes": "EQw17UnA5n5m8PKz9mCA44xOI6aiwv3KYCvOeeHum84KQcHlcH9mW38CD2wW10XWlbVBcwSmXgUDgqNi9SWuiWzgcPnDZ40lVpHwcm3mB6O52iL665aORSfkbEyGMAHSXYzOrjKZ4VZKJjCqvHpyfp0fvxBicugPUfnLpbGcQDyfGsvsPFSIDbnlko7GOTEqMuFnrIFIOnhDGsfXx1ZMWQse8GT6ncUwrNfTcgRx2JPvfGS2OlauqCYgvr",
+      "_id": "695e5bf11c508c5d5eacc7de"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

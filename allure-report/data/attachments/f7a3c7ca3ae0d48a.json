@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-KE6F2Ikp8ckZ/YjNqIyw0BHjgRw\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Polly_Moen@hotmail.com",
+      "name": "Lurline Grover",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 512,
+      "flat": 6029,
+      "phone": "+7119019053",
+      "createdOn": "2026-01-07T13:13:33.000Z",
+      "notes": "KlRUodswkAd9ev3Gn8XEmAuI0voonEQI9m1ZIJHfSPZjfyD3Vm2AEhDeU7J6NsjUNwi23eT9QtipXo7PS8BvCvS6tFy66UhAZ1CTnVpDmPTkS0gOsOw8kd7wZWaLKsv83XubmSlk8NoOIvxYbC3aBLDchrEGn2W99CFEfyHX5T1zm3w801Wf1e855i5AUa7dc6bngS1YZzQ7f3sa3ELNjkBaAgBBVXciQvhU8YkuAqiVogOcN5V20maPj8",
+      "_id": "695e5bfd1c508c5d5eacca08"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

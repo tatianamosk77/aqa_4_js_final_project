@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "543",
+    "etag": "W/\"21f-cOM94E0ARApFsR6NkMGn7sQ6QwE\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "River.Kilback@yahoo.com",
+      "name": "Dante Alfredo",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 867,
+      "flat": 2613,
+      "phone": "+6805467630",
+      "createdOn": "2026-01-07T13:13:03.000Z",
+      "notes": "yiO6YrZaq5eLUN6zv1paF13yM7jxXWHhEMAkn5ssQTu6acoVpAVKwZyRSfaJhyaMZFmJvjnNHAiBapDpCyGnKxroXwesb8K41sq8vH77F9B6aNfvCsKcRziT7YjBH5tdLMbyOAcgDD36qI5SiPy8F5lK3aQHwsIF8LERX7x6FPMFHn8KUSh20dI14oI5zQ2ohVvJcjFjWrcnnPWz5tzJsVZZEmRB8uuTFXIGZGZXaKPqSSk8tcKzgMmBxp",
+      "_id": "695e5bdf1c508c5d5eacc628"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

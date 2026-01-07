@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-fOaMpaz5A+awd4Llv+5/o3bnapU\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Eladio49@hotmail.com",
+      "name": "Aidan Delphine",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 314,
+      "flat": 3142,
+      "phone": "+0989027155",
+      "createdOn": "2026-01-07T13:13:49.000Z",
+      "notes": "k9VxkZeudrXSSrKI9Uz2NgP6GLb3ggLZw8Vb0rp4MKhU552uxr7E2HzSQwh4k2T3QIBpnQQ5VoDbCMyf9M7WYOutqvT4JmC7K1BojVBAqO2sk0r1Y8c8Sd3VCDwzLa6eRJggmaL1g6F1q515JXInLnyh7u2zqd4suQxVp1IdroMQ8P9vaVQ0vDN968dwiRpTk0AuTGjkKSBmyDzv1oyukbk5vyf3XzzGD4pdnSoBQWipGUdvWF5iNS1Q0D",
+      "_id": "695e5c0d1c508c5d5eaccf6b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

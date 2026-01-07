@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "554",
+    "etag": "W/\"22a-wkC1bABxr4nNhjdtNhDpitR/QV4\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Phoebe_Kautzer3@gmail.com",
+      "name": "Maria Werner",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 644,
+      "flat": 7550,
+      "phone": "+6846102444",
+      "createdOn": "2026-01-07T13:13:04.000Z",
+      "notes": "LLt1vCVB04GOYQdphLnoTIz0gM8Fo8oVE8Gly2uyAyKzHsuW5c8258Wl6RUS7yBfN12yPdnX8JF9HvLDQtv5WxBO6qgPntv9RFu3TOAXDY27IFPLg3FYw3sTOn2tN91zxXMhUBOwfujbD0bF25epnIYU1k6lq7dLxxqj9sho4TnThGYsuATHfp2LhwBWVwMVkMHCISCeGTPOPnIcUyLvnuzMDlOk6y6NsWjldH9aQD9M0G2PW5nTBS0E7a",
+      "_id": "695e5be01c508c5d5eacc62a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-/DWiA/neC2owVGWrLY4hOMHlEKg\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Braden_Klocko@hotmail.com",
+      "name": "Cheyanne Ada",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 790,
+      "flat": 3675,
+      "phone": "+4393117389",
+      "createdOn": "2026-01-07T13:13:09.000Z",
+      "notes": "SRKgpoJWxJkudcTfrIXc8T6yyDiBJWULe9umu9Zw27kns5NBvIoxTG8SWDZw64tUYVyiP2oQIh7CcJOjAQuWqvI4zOX6W09yHW5sViJTaGAxXnG5LupvXU94MTjg6sVF1B5n3m4A3KBN0YlMRz2uHGLQrhfFIF2ZXKjVF32q1ZBVg2IsdIbi4Ocs3R0HP39WrsfpUCuXlhYzAWXkQLBuuDczqFpc51EVNSuhq7HQwtxIvtOcdoGgscJ65n",
+      "_id": "695e5be51c508c5d5eacc6e8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

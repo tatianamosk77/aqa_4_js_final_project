@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "538",
+    "etag": "W/\"21a-nQIYcFV3RXUXrlwkj+Gbf9tM7v8\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Sammie71@hotmail.com",
+      "name": "Darwin Emory",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 13,
+      "flat": 5869,
+      "phone": "+2911139158",
+      "createdOn": "2026-01-07T13:13:23.000Z",
+      "notes": "uMfYtWJmeZxRd2K5w1YcZC1RjQjx6PQOwVsoVTDziCA20m2Xn7igwomDnoNWEQdAl8Vr9R3RfRVJzRE07TiqyaPBPEuitfvzCD9iE6f5qvLtc1Y88ef4ZtR6Ug5KvpVLTNo1PmS2veCYpX7JcWXKxeo5Q3D4BldcWt3916zpjJFL0AHwtZn7BNjQWEq1NdkFFE9pozfXTI7hlbkhMh0UH9kf1fvBlg1qWht0ATZTBE582EWpxog2w2s0JM",
+      "_id": "695e5bf31c508c5d5eacc819"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

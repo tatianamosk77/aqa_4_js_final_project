@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-Ey8bQuexE0f6yPz19PXM7Et6F8Q\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Keaton_Olson@gmail.com",
+      "name": "Vicenta Douglas",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 992,
+      "flat": 552,
+      "phone": "+5885069210",
+      "createdOn": "2026-01-07T13:13:30.000Z",
+      "notes": "FjiIjkaqwTQ6ioYML7xTRKsi293Np2CxgL0ISJyUqcRoSqCN5msO2XXt9JtgpOo6uzYiZiRXxBijkmDsT5nSReOqYJPS9q7veHr9EAxTLXhl2yKRcoJT5Ed5j2U9VfWJP1hlXN5s6bujyBGL1HKxUbwFjZB2QEUmEYvyKdNHqsgflMPx0BciwiNIYNDR2YnwkzUBDWVawNGuB50o8hJLArxyDoS90eg4L9T6FTSuclUe0XV65ZwhrQAL9l",
+      "_id": "695e5bfa1c508c5d5eacc97b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

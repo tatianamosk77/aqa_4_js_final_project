@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:12:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "535",
+    "etag": "W/\"217-9IewgvAIfXTEVTWg8IXia81b15g\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Aylin.Murazik6@hotmail.com",
+      "name": "M",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 732,
+      "flat": 63,
+      "phone": "+5893051214",
+      "createdOn": "2026-01-07T13:12:48.000Z",
+      "notes": "dPjAbxIK1xJpllICE6Q53HCpYC6DF7Gn9NYdoUJL7U9uQOJTf9QoXdZidtq1BtYHDGOWpa6U66aCdIbf6qp4oZGEsLRssF5X3ewBDyjnWyWyOxu6eDVfADKjizGCAWAMc2b0F9vFThgxO5WQW3V1gYps2kFGmxhDef8LyoX7XxEH4fswh7frQqZvV6QW0rCVa2eTCOlzl1pZoVlwpZgh1fVIaOCZjYJjg8Ee4FAnQa0XEa1McKYTPegcr3",
+      "_id": "695e5bd01c508c5d5eacc494"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

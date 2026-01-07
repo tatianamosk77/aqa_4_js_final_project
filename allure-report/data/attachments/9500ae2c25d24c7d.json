@@ -1,0 +1,159 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5104",
+    "etag": "W/\"13f0-V3G2X6IuQ46swk7vjLayTXVfsN0\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "695e5be61c508c5d5eacc6f8",
+        "email": "Rashawn70@hotmail.com",
+        "name": "Kaley Lura",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 76,
+        "flat": 9340,
+        "phone": "+6184386948",
+        "createdOn": "2026-01-07T13:13:10.000Z",
+        "notes": "bWhO7NDEbLyMZL9pQU3N3Zl1xNWm7ylzFE5cDRJhPtyuPbBvhejZimkQ1uay3CZe3x9isFqOZQ9mQJ19OVwmuOIcWhPKyCuyEUBwOvSGwlkdcUmEggr3n5YJNap97TaWgjrag2Dp8mkKfP57MyCexJwj2j5dNkqwuDw8rPOcqR9kYU9M5JuEnXZbMeOTaShaFAfVNJYhZP0AMB14KSMGwkLRYPwn1H9iSpf5Q1D6TztP2302V9zvsDcEjj"
+      },
+      {
+        "_id": "695e5bdf1c508c5d5eacc628",
+        "email": "River.Kilback@yahoo.com",
+        "name": "Dante Alfredo",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 867,
+        "flat": 2613,
+        "phone": "+6805467630",
+        "createdOn": "2026-01-07T13:13:03.000Z",
+        "notes": "yiO6YrZaq5eLUN6zv1paF13yM7jxXWHhEMAkn5ssQTu6acoVpAVKwZyRSfaJhyaMZFmJvjnNHAiBapDpCyGnKxroXwesb8K41sq8vH77F9B6aNfvCsKcRziT7YjBH5tdLMbyOAcgDD36qI5SiPy8F5lK3aQHwsIF8LERX7x6FPMFHn8KUSh20dI14oI5zQ2ohVvJcjFjWrcnnPWz5tzJsVZZEmRB8uuTFXIGZGZXaKPqSSk8tcKzgMmBxp"
+      },
+      {
+        "_id": "695d8d3f1c508c5d5eac5895",
+        "email": "Johnnie.Greenholt@hotmail.com",
+        "name": "Emmitt Lenora",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 839,
+        "flat": 978,
+        "phone": "+2038777219",
+        "createdOn": "2026-01-06T22:31:27.000Z",
+        "notes": "GLbtJZsOM5CtvoJBqjMmjT6m53lek9aRJXkIskT2cNrgSlEIi3T80MHFGIkgPQSEyZoK0TYj1iMlvm14pL9BZDLqPPJwXLxynyrE19yJyi6IrmQi8uLD3TyBmDRxLobInj3DYcAfxSAivf0zUS3XMduptTKvHAwXsxwjtBsqDD7QfG7nQxfgNUM4OKjEJWqZnSnX6m0sGShtx5YybOsvXrlT2v03qsLTVyJcCqzVindDLIynUNOT6JkhiW"
+      },
+      {
+        "_id": "695d8cbe1c508c5d5eac14d2",
+        "email": "Sylvia_Tremblay@hotmail.com",
+        "name": "Winfield Lorena",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 572,
+        "flat": 6405,
+        "phone": "+3388960432",
+        "createdOn": "2026-01-06T22:29:18.000Z",
+        "notes": "gFaTNUno5yAwfvs9jJowusueGBj2wG62LHwDKRicGWoBCZyS1e54roAHfYT70uJy7vFFvxnz9oo8pGnUjBZLYg6cxQsYGzOEVl1ydqvw6UciSYZL2RgPHVEvYeuyRnXF7xSJujh1EjOcOpZ3MDdjsaOE6pI16KN3PhkEQk8QKAIKOXGDH3u4vExoTaAIKzuLteP7zYscA43mafhwLOnPSSoDTrzlH46juPh8lDieR5LwhCW4dgmAnnHc9U"
+      },
+      {
+        "_id": "695d8c5f1c508c5d5eabdc94",
+        "email": "Arvid76@hotmail.com",
+        "name": "Sophie Wuckert",
+        "country": "USA",
+        "city": "Jonesburgh",
+        "street": "Nichole Motorway",
+        "house": 27,
+        "flat": 417,
+        "phone": "+12954651511",
+        "createdOn": "2026-01-06T22:27:43.000Z",
+        "notes": "FoEXA5CdJPABBGKMpt4uhNR0sI66Cejb7cXYupq8nPuucD7N7jcNZ8Csz0qsleZd3fOq6HYDJKynzfIwGrHIevb6rmaKt4W8zcQEtSfYeDodMZZDbB1ZifZB7mnyxTs2lIfH3SSDyUPBZN3D2W8s9fMIyrQtXaX63Iy059gjvwmZTCcXWIZxKxhuGVMVUBr5Jl0v3yhcVSMjgDeFGqlu2dwOe9VcHiy2RYcjhg9u76cQuicSAmFBoPQXGb"
+      },
+      {
+        "_id": "695d8c531c508c5d5eabd7b4",
+        "email": "Kyra44@hotmail.com",
+        "name": "Dereck Curt",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 184,
+        "flat": 7478,
+        "phone": "+0345492187",
+        "createdOn": "2026-01-06T22:27:31.000Z",
+        "notes": "OIXCnZ23uojZY7C2TCYaZLC2PP5iBb62IF8U9xJvnfVBX8DNc5s08V44HgRzuSWhxEvGgTBqT5zWRiInSPqtO4gtQ350jFtr9oiLb8FxiYhc4aIfmxztR5oKpN2k17u6bxBE2TmV2OQR4R7pVotFKjmndC1uea8j0I7McPxYEKuSDAkHOBngtOCdrGL993OwbQt05LhBi8v1Wmtf2YgaIrOKbnFeZB5t0HlXyKHhICahYBGkw872SpAr0c"
+      },
+      {
+        "_id": "695d89fc1c508c5d5eab4bc0",
+        "email": "Dena68@gmail.com",
+        "name": "Kaycee Greta",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 569,
+        "flat": 2068,
+        "phone": "+0431688095",
+        "createdOn": "2026-01-06T22:17:32.000Z",
+        "notes": "8wzrJIigmkYfQTGswyDgWggSNA9ceLBrJLsIamFLJLADiW7Qd0e7i4ZyfgqZNP0ks2mUv4mT4a7T5nXP5Knc9vT06dv28jhihIdrfDukhnlAaXMCiiNF1XGD11tdbNxFs9xIDvifUybwL29J1JUIHkadiupqGEpoPpcqCGDYcpLfcGb3kMsum788PyQE9oEdxfFaTWYJkwFwVwQqrdTIPukqNqyipz7WzyXAvA8O8NAsRq6DWT1eAMTXTb"
+      },
+      {
+        "_id": "695d89f91c508c5d5eab4b21",
+        "email": "Durward_Bins47@gmail.com",
+        "name": "Carlie Bartholome",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 984,
+        "flat": 3605,
+        "phone": "+4050813704",
+        "createdOn": "2026-01-06T22:17:29.000Z",
+        "notes": "ERxjqB8YZOU9E9l1FOBDrIQEYepFgQ9Ta3z5mPVAEBdJv9IconBymtVmonB8MPIJlV5zlaHp6AVOfepNSwjwKuP0rGV3GaqOOMxCntfJ9KCZeuD1c8KS3IxUIhODqeRx2Zh70wMwonx6ibOPtd8ILhsNNB7yDu8ZLu5cuC0F5YGPqIr2ZwtGEaQNjOLizAu2vV399hoAuoJWurLbS0LVWUaOSqhCWB8usuUzL5OpY4xgMYu6IBaKh0QgUm"
+      },
+      {
+        "_id": "695d89f31c508c5d5eab4a93",
+        "email": "Jovanny_Marquardt48@yahoo.com",
+        "name": "Eli Angeline",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 650,
+        "flat": 5921,
+        "phone": "+4111057190",
+        "createdOn": "2026-01-06T22:17:23.000Z",
+        "notes": "HqvgPAQZZUwSQyMdVXXYrNHUsQpoPcsulBhLs8QVJfuvK3AQBz0EDVzGHopIsJoBegkdBlL1F6HjJOWYPedtBsaDratCzBxa4qekyUd8ARGx9Jl1crwLhHlypLYAmlWf8HFmAvyvoRlrCIHniCtmP9cLhlS67Bmb6qMOFzP1L2wgOx7111PQknP25Q4eaTfFDkzkXunSDjpBoipCvDCJ51tVE77JZ1XA9BtCwPOpyTdfbYCAX87n84alGc"
+      },
+      {
+        "_id": "695d89e81c508c5d5eab4620",
+        "email": "Zaria.Stark@hotmail.com",
+        "name": "Kim Mikayla",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 984,
+        "flat": 2561,
+        "phone": "+8945775020",
+        "createdOn": "2026-01-06T22:17:12.000Z",
+        "notes": "6osvaZ5WThI0WyM63hef7GxichyT2hpSUAxs7w0EIgjLqJoEicxSLHQlvE7hByIqvfVgWZwsjlf5MQFb1VLpajzk70270jvpxQQvdsZNQriTSCREXXkmso8ryrgfO8el46RqrIHJ7xXQhozu4Ku0ONriOonpImKVu9QUIsSH8FgmTMvBnp98KCMYTTA9djwOkA4c5TofdhryCIX0FjqphHlicAhDNMAMmkd6E3NKSqj7exGQkHaWmuLofU"
+      }
+    ],
+    "total": 341,
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "country": [],
+    "sorting": {
+      "sortField": "country",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

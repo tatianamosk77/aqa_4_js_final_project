@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-F9cBI1GFw/LV2p3YDnTP0xN44D8\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Tess84@hotmail.com",
+      "name": "Keenan Vergie",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 119,
+      "flat": 297,
+      "phone": "+2667242843",
+      "createdOn": "2026-01-07T13:13:12.000Z",
+      "notes": "F4Dk3xesdjhg5mlT3wNOxVUD1hBmkDNNliuJWwCiEi3RMPKwogRsg8uJZRZ0ZzYWC8770yQQJrxiwRmJ7OLPXJlYkqx1v9KeA57dzlwKPive8RRtr50UgNf8TXFHUcHZXUbzS0uJ1OCwmJvtc8IQzJtEopyrzpTmEKof0soWfcSnEtbsUU33kAku0jmFNeuq4WhkglvNHxIP5wy4yRSAUYJUHR2CXpsh7S426nRGgEKMN9lXiXk9loF8Fc",
+      "_id": "695e5be81c508c5d5eacc710"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

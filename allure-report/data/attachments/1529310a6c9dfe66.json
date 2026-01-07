@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-IrLMpy+csy9CdCd1alf9jtiDFeo\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Brett_Strosin@yahoo.com",
+      "name": "Alessandro Royce",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 884,
+      "flat": 5220,
+      "phone": "+9411973088",
+      "createdOn": "2026-01-07T13:13:16.000Z",
+      "notes": "a3HL7yQapPlAisjrZotAW5uDfrLQctZ7mkwAHNCF9XqsPguV5aWHbwJbKpBV9Wh5Rv2ZruU0SAWgip9r3T8gwqsV9tbgQDaoslAWCXJWtpzSfp54U6hN4IJjJFHytEXsj2pXJJlwamA9uC6p7bsW3CjsWMTwszHWAZnIVfIkVhjmoS61yg0I6aGwHFqiyV5rsy13a4GKCYKh8jw9ZUnOgNkxfIQq9s9eddH3C0V1KjT4Kya74SKLZPnci2",
+      "_id": "695e5bec1c508c5d5eacc763"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

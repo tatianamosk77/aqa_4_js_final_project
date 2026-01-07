@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:20:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-+pJzKuLQg5yUKAX/ndZ5nM4p0MM\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Catharine.Schinner@hotmail.com",
+      "name": "Brendan Kenyon",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 63,
+      "flat": 2114,
+      "phone": "+5901634423",
+      "createdOn": "2026-01-07T13:20:38.000Z",
+      "notes": "Zf9EIF5KfAbXiADarW5zafQJV4GzwBx6QGl4Rg8fvWfWtaSIs4bgIfZqNNzEOEfo8f90JuyRGyZLdD1zWBvFwUtSeyhe5PMWHZ8tZOgOqD0wtkCvCpR8qGGm1s9defq5yQEit2oDg5JNBsRUwwYe7Dq3QAJfUUl4Mik3vyVFT66u4RmDJzqzIW9TdwpbKt2Llm1w37PC5QdADVxIlo8qwi8IK3ovjMwXCJrtACYr2BhkXnr4YDiaJ2foAm",
+      "_id": "695e5da61c508c5d5ead3baa"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

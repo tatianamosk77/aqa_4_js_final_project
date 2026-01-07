@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-XeUpCrhD7OFdGdXQ9aKE84KdlL8\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Brayan_Huel@yahoo.com",
+      "name": "Vance Milan",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 765,
+      "flat": 5329,
+      "phone": "+0411712537",
+      "createdOn": "2026-01-07T13:13:10.000Z",
+      "notes": "CVmF9HSjP0w06D5Qdcwr4LIT6S5qZtcRmUTcDNTWiAx8wk61xecOabJ2nZkaVFdnFiMlNY8JTJqLUOOnippOfgqm41mtpTg51yOlfQ9Mb3bZShAFCYmSivjVrBk3Fsnn5StowzzV9Ue4fHYJYMevsK6kG7lRRoQkhF9vvia0X6ddc5QVEFb9JQ8YHPRdU6jwVG5lBEXX2QOyEQfOZOLVvAxU04U4lEsrY84uQ0N2IAiD2MTUIoN2cPRQkW",
+      "_id": "695e5be61c508c5d5eacc6f3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

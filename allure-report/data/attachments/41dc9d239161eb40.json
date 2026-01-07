@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-RZDSVk4hAxwguBMG49weyBVgDno\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Coby88@hotmail.com",
+      "name": "Selena General",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 718,
+      "flat": 8226,
+      "phone": "+1245181322",
+      "createdOn": "2026-01-07T13:13:04.000Z",
+      "notes": "QibA7EC3HLZ57Zu5TMtAWr8WoQTC3RgfwsyCQfQ78kWMPLItZwigxyi0xcEuDYNlYc2KxBfD8amEF4JJSSU17C5d2Khz0fMJNXk6qRekIzrJwzpDbnjuGHfXIxsLAs6qvAVMp693qQaU040JG0IMgoUArqqksp2UPP5zLiNX9KenX6l0hJlNFB4svajB1le1oy9PH4Ame7wEybBqoKcf4LcggGDQmipQufTnhnz7zka8D0pldtrTNN0joa",
+      "_id": "695e5be01c508c5d5eacc63f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

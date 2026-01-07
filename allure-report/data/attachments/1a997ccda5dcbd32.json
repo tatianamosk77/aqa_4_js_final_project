@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "550",
+    "etag": "W/\"226-m+kgeCKGG4cVh0kRXjX+FW9+vGI\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Dean.Hodkiewicz14@hotmail.com",
+      "name": "Elva Kiara",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 827,
+      "flat": 7460,
+      "phone": "+2328579652",
+      "createdOn": "2026-01-07T13:13:09.000Z",
+      "notes": "zyHrSqx5h1w4LAwN3ELe5gVwd5x5cPaSRKp4pDPSsz6xpZob6783BMYw0B3abRfkuCAbRcEWYpDVy6el6j2YcxTRaBjGyMJEhG1atXFEh5u9gCDUdqnGJuJpluCrzzE1kUqXztgKAUHdHbgtjll3zSgMrfp5zSlUE8epDmWpBZ2vaI8WBxHV7Sp23wVel7bsjX0KoqeD2K5GkclgEgLK4SobkCnpfu6YneDzDg7U8duk2iexYmXoeCQ51x",
+      "_id": "695e5be51c508c5d5eacc6ea"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1976",
+    "etag": "W/\"7b8-Uagz8X6iAcK3r1KLhB1kHVeCHiU\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695e5c011c508c5d5eaccb12",
+      "status": "Draft",
+      "customer": {
+        "_id": "695e5c011c508c5d5eaccac6",
+        "email": "Dedric.Gorczany7@yahoo.com",
+        "name": "Major Oswaldo",
+        "country": "Russia",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 84,
+        "flat": 2182,
+        "phone": "+2827607854",
+        "createdOn": "2026-01-07T13:13:37.000Z",
+        "notes": "NsQR5W6M49JPs5gJrhsPOyhk5GfKAQCU31Tt1xn7NWrrnSdSPZxKNfFGhhPwT7ALLqcmKPvHXsvdc4ayDexd52v2yNwRgNjHX3mbukLcHqGIjLP0f7t2qFjCbLPEmJYAwIOe9K6OmbZemCbzw3ZkRzVtgPUMzz9yOkOoWZlpK6huF1vMHRlyWhLHa2GU0M0Em6es2cxbYhhEHz1BRi6CZdkgSSmva2LSphY4fKDW8um5uVbPdiNZPe0WLG"
+      },
+      "products": [
+        {
+          "_id": "695e5c011c508c5d5eaccaf2",
+          "name": "Towels32755",
+          "amount": 405,
+          "price": 65976,
+          "manufacturer": "Tesla",
+          "notes": "GxD3bIthktfhvxU9OcLDH98pv1zQuCR9xeOvVykt2QZZJoE1atcXMQW4B40raV9FIYJyeRA4oocVTBtWXLOpA9r8dkqVIUFPxjMT33eBjae0EJ3vSGdxBO5NJk9ABcT8kKtRp0HqC80DRfgJmSFcKYjn0w58HqhxBXfR7ieTdMid6lkSFMv4qxM0nysqjE0u7hJcG1BnXFs5BgqvDYXLmBEQG1Vn2lyeO5ovVYvKfZ4ar6dXousS01BhWZ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 65976,
+      "createdOn": "2026-01-07T13:13:37.000Z",
+      "comments": [
+        {
+          "text": "autotest comment",
+          "createdOn": "2026-01-07T13:13:38.000Z",
+          "_id": "695e5c021c508c5d5eaccb2a"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695e5c011c508c5d5eaccac6",
+          "products": [
+            {
+              "_id": "695e5c011c508c5d5eaccaf2",
+              "name": "Towels32755",
+              "amount": 405,
+              "price": 65976,
+              "manufacturer": "Tesla",
+              "notes": "GxD3bIthktfhvxU9OcLDH98pv1zQuCR9xeOvVykt2QZZJoE1atcXMQW4B40raV9FIYJyeRA4oocVTBtWXLOpA9r8dkqVIUFPxjMT33eBjae0EJ3vSGdxBO5NJk9ABcT8kKtRp0HqC80DRfgJmSFcKYjn0w58HqhxBXfR7ieTdMid6lkSFMv4qxM0nysqjE0u7hJcG1BnXFs5BgqvDYXLmBEQG1Vn2lyeO5ovVYvKfZ4ar6dXousS01BhWZ",
+              "received": false
+            }
+          ],
+          "total_price": 65976,
+          "delivery": null,
+          "changedOn": "2026-01-07T13:13:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

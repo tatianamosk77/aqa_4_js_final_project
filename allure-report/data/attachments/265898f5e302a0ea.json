@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-ec7p4q1eSOwQtiHkCo7n+WyXKUg\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Dino_Bogan80@gmail.com",
+      "name": "Omer Tara",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 36,
+      "flat": 8197,
+      "phone": "+1047508781",
+      "createdOn": "2026-01-07T13:13:43.000Z",
+      "notes": "4PN8oBEpZDRwyFnQVlFUY77L1Yo8AZXZjhtR87kYF4SM0SkkuijxaJDeKafgWhlbPbXcUxpwPPyXVGVIcRWCJIFExIEnGSzPtE9a9RqSqNlPaEXfgPPNprVf8FpRAmcdOoIXpzolG2mxJC5OtQE8Sc4dN2uv4QyJJFHo6TrAemRKIEuOiK6egD7z3MyUOvBkqmoSVLSsuXNHuvAk4AruhW2ADUFBYn5tAKQulGQdPbk7budTbylt644T98",
+      "_id": "695e5c071c508c5d5eaccc88"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

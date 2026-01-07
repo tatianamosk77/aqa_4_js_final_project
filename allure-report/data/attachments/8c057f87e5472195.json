@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:12:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "551",
+    "etag": "W/\"227-39vIRQgtPpcqFsar3+2v2XYCnQ8\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Derick.Witting65@hotmail.com",
+      "name": "Mckenna Adan",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 999,
+      "flat": 3958,
+      "phone": "+1807234184",
+      "createdOn": "2026-01-07T13:12:53.000Z",
+      "notes": "rmqtI0Gg5K80hpeketRBCu9JkUpRhIFghzRHanuAb1vFFVxnJDt65toK3nTghqJf50vJzFuuW7HRbQtE8PjLI0ADUiniGkNPjQlZuWwAY9jOkNa2LVHHuyT7eAaVHamMYaFjLvwDVCy75btfjuiEcIH6wqjajXKBjKyb0DVfxc8dGMnzmuGInjKhqkOAbLrTWF4ZtnJqIw6pNRcRcKnWXLSXHTIX2WaSqxqyQJ97psz7h06ZTm1xIzogLI",
+      "_id": "695e5bd51c508c5d5eacc525"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

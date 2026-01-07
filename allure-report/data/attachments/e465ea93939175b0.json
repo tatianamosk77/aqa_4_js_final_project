@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:20:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-4iMjbI4S9eOboiwoJIDtlcmq99c\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Omer19@hotmail.com",
+      "name": "Arvilla Dolores",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 782,
+      "flat": 8790,
+      "phone": "+0244239664",
+      "createdOn": "2026-01-07T13:20:44.000Z",
+      "notes": "W1eXhPol7HNraqAvJmW8vdXmsWrFaT6mmKesmu1gAhuN79ilSUNSx7C6pP6Szhtz3Od3MRkd7n4wVGijHTLugAnqRoUWZmbptAo9VpU8SMj2x6H5jP49w6lYbSU3UQ144XvM4aApiPeyuxiuunzNivJTL5HiOq83ufb5r7xkYbglCGkAFujyZEcaKdJr5Cixdgb7AgojWWVg2GQymaoPbwws7id8WAiEhFgGrZiZfL44NEnP3Lb6lOVsZn",
+      "_id": "695e5dac1c508c5d5ead3d5e"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

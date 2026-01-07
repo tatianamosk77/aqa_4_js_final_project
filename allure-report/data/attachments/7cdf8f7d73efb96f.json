@@ -1,0 +1,159 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5150",
+    "etag": "W/\"141e-R3DoEY0hal7By52uAIsUbxZU6P4\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customers": [
+      {
+        "_id": "695e5be51c508c5d5eacc6e3",
+        "email": "Raul_Nienow-Beahan@gmail.com",
+        "name": "Meda Alexys",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 558,
+        "flat": 7705,
+        "phone": "+6001403077",
+        "createdOn": "2026-01-07T13:13:09.000Z",
+        "notes": "rneHmQWxlIFGFQK8pRuJblCK4c0DwlCXEPjQWxqiOplxGbLL9aEuzh3fMARa3kOOi8gko2CjDy8RGV9ccLkS37jMcBQeWJGVaWcwTvQA0Di4gNBBTaTXY7UHKf1d11uGLigPZaZzeqeuRfHVbe4Vh6RhWkMtYolGD9GGih1KDJcz4HVd9XiNf1KJnHIBSdhF3jXeQWxJead6F6fozf894i7865LGiYNX9R37oXYTBhjjOxZOSSRUe6303B"
+      },
+      {
+        "_id": "695e5be31c508c5d5eacc688",
+        "email": "Jeramie.Terry@yahoo.com",
+        "name": "Destin Price",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 660,
+        "flat": 8368,
+        "phone": "+2834856738",
+        "createdOn": "2026-01-07T13:13:07.000Z",
+        "notes": "HkV6AKmutol7wCipcV6ZAtaTMFmBNlwvD39lZxWQV7vFHchuMHClFUtg5XmXGrsXegNL3AINQm3jmUt6ISPMQmbzX38BoT3TrIBWld8pmxHPFYsbJ8TiFXZ34HgUEMeSmBwRjk4UUIHQwjB1IBqmDroZKJ5HUUlXlC9X369Xe6ZgKfdGShcgm2u7AHX23JxmnneIIJcukNYbJsWfgeWdeaVNUuu9sbXeod6SYNyrEKAYiJDvmeQ3OoZ1JA"
+      },
+      {
+        "_id": "695d8d241c508c5d5eac46b6",
+        "email": "Richmond80@hotmail.com",
+        "name": "Hilton Cora",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 461,
+        "flat": 7473,
+        "phone": "+1821566839",
+        "createdOn": "2026-01-06T22:31:00.000Z",
+        "notes": "dIhDcFi0vLhodGHmp3AIZtOt6V2nivoW05p9XMk2oKuZ1kgDOm6R8EGflz08LckO9QwKzLGXAAfM2N69s1UQTCtFjwBmLmLNSWcGgfqz4levsnSGp3BcnYPyK0kE0LRplUVgX13FPBgWbC7JrimgdVsfY2N6gAC7EM3ap3eiB1IT2imP3M11VGzCK1LvXvc6RQB5M07CXhdMJ6ro19z84j0GoqY3BEOCVgLmsg1xIBlpwv2yEtGUzeZgev"
+      },
+      {
+        "_id": "695d8d151c508c5d5eac3f5a",
+        "email": "Ardella_Sawayn@yahoo.com",
+        "name": "Jamaal Aileen",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 997,
+        "flat": 1253,
+        "phone": "+1930484381",
+        "createdOn": "2026-01-06T22:30:45.000Z",
+        "notes": "hPX3IhFU0hSn4bQQm2MPzRgL1RFvq6itvYGBSiBvdQ50tB8uKVlDsawT5J57Ludie6qwBHZGe5V0igw6rs7v2F7YDF4ERk3hlFOCAr3MnSqh1lW5IM337IpHPpRlto058WTy2unWYpY6KieiT2Ib5YCTPqbhEOq3ohqJXIlucZCt4DS90lUipZzh8GriylBRQwv0xz17S4eBo3tf4YUYx1VzIvYUp6Dmw34or4aKyC7O5BWbpqm8Bao4pt"
+      },
+      {
+        "_id": "695d8cfe1c508c5d5eac359e",
+        "email": "Manuela_Kilback42@gmail.com",
+        "name": "Robert Dorian",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 704,
+        "flat": 3178,
+        "phone": "+3952540500",
+        "createdOn": "2026-01-06T22:30:22.000Z",
+        "notes": "fp3c8YkkQ5ORUU6en1YvSTYrZtAPF56czVk6iG5TIbmGy1yQZPTcAxaOE0D0QShrDbx9YgmLSDRarxkLCHCRyMQfxErGOBshLp0npOhLIFipIzNbmlMfxAL81BMm5UDU20eJ0tFaHnLFcnRn5yMBRKpeUhEVrzUiPMeHksn8gsE0vSX8g7KXqim2hFJSTrHyXLs0zRV7p2dG35vxWNJq4xYSi2uOJz2UIbTR9QkIm6ABDGLZU6zODMvxka"
+      },
+      {
+        "_id": "695d8ccf1c508c5d5eac1c3e",
+        "email": "Judd_Rodriguez8@gmail.com",
+        "name": "Xander Hilario",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 565,
+        "flat": 1067,
+        "phone": "+1555383444",
+        "createdOn": "2026-01-06T22:29:35.000Z",
+        "notes": "YeTJOGrS109czc1srfwAb2fd01eHvOl2stXB5EU0wYS1uWVJijXwj1C6hQrMB7GMpug1xYMywZ9N4t3Hofz4cxXWyAs36cWs845HrLY9uAi77W7Sdt3qCmvgVZr0QwJTOtUfi2VUtNxNi4N5hBzrlZgiqbLeHdncM2Q5nBmoq51tbkCRR1BEBaZexDoV4Ua7e1XeoWpNhS2wa2LYdA3cHrZ3T8anbXQDuSrg6JzNaX2R8JfQH3D829JwLz"
+      },
+      {
+        "_id": "695d8cb41c508c5d5eac09b1",
+        "email": "Scotty_Braun@hotmail.com",
+        "name": "Lessie Thad",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 577,
+        "flat": 774,
+        "phone": "+0594764132",
+        "createdOn": "2026-01-06T22:29:08.000Z",
+        "notes": "FOMn5BS0yEbQglgQ2ul7UXZHGezajSjfyKr6U3i4KbbxCa73hXRkCd7GIFUedGl4GJSM83WFFx6NTFQVddEFZYxm5T1X9hWI81gJ17gK1rLXnkVbn7n97PH2ZD0Qv0vMiZuyL7WN8QK2Ew6LCanhZt8zLN708492ZkYLTv9qv7I4C9VunVs2UstvPAnJy7pbq2otgurZksVFJbtnZH2NogsCRKKn9lVWdr9r3W8uPGetk21g1J4gwgHNTU"
+      },
+      {
+        "_id": "695d8cb41c508c5d5eac09b3",
+        "email": "Jordan_Osinski@yahoo.com",
+        "name": "Bonita Felipe",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 120,
+        "flat": 3030,
+        "phone": "+2707970092",
+        "createdOn": "2026-01-06T22:29:08.000Z",
+        "notes": "Wd8Nb5g3tyFjzj1kXnvlTdJq6Rlu6JpssN5WDi4G0qwITU99fpVebA6dyWCCpIed06kp8aB7T8B4jYL3IlbY8Tp3YAO0jOFMo9gHZLmNeEZ21Wj7izNLaBcphqCZ4TnQAovkOSyLpYvKMy8gbZui9W9cXRb9T6pzB7J6MWYSexbP7ZBMeiMD16HVBAX0p4lRdP7OljywJEpNz6AKAWnFHJFFkgMdoWQAEPfR3kXg4hp9tOVDw8FzmOYhqF"
+      },
+      {
+        "_id": "695d8c7a1c508c5d5eabe958",
+        "email": "Dell34@yahoo.com",
+        "name": "Raheem Hettinger",
+        "country": "Belarus",
+        "city": "Lizafurt",
+        "street": "S 10th Street",
+        "house": 17,
+        "flat": 615,
+        "phone": "+19282554032",
+        "createdOn": "2026-01-06T22:28:10.000Z",
+        "notes": "mSywV3OCCqLQD6vtRLZTaDswT5oK1dEFaCUDs5qQfqHvTiBMPcsfYyvX9qlHzcO79zeYUT8dqVDoHttOG3anmH2o8vsv84mVIlRbCWoE1ue5F5bgi7pPljtGltPAAf3BspgcrKO1E2GZsDeMwjtb9Jq94O4aPKkovs89ffbCPVgH7v9Q2A4qo0SQOcBlEv2evrnV3vqhiFRMbARhCn0KMo3uYxRT02iPehFOUOyOEGnrSc0kRgiMWsg55B"
+      },
+      {
+        "_id": "695d8c711c508c5d5eabe591",
+        "email": "Erwin46@yahoo.com",
+        "name": "Austen Pagac",
+        "country": "Belarus",
+        "city": "Hudsonton",
+        "street": "Elenor Landing",
+        "house": 22,
+        "flat": 99,
+        "phone": "+13372989774",
+        "createdOn": "2026-01-06T22:28:01.000Z",
+        "notes": "Emo5evaE25wfSsYHb3V0XIZWcve16m4Ty4EWOVMcG6SXMawtIsapaeP0PgRwvOZ6LIapgPTIQY6xyt21r3nhpzhFh1oVjJQl58SyWrgGX13wssKKKLjAehAuqPyq0BRZpMw3aU8OpLwxTgmAvmvLd4h9oxmx67yjLlApkCe5CnVsT1XqP508JXgsb85eGC9qe6uuH5SYRqfavU18egeArS5yJuOahfr3RIotdY360NECQ2qhciiUt95Sd4"
+      }
+    ],
+    "total": 43,
+    "page": 1,
+    "limit": 10,
+    "search": "Belarus",
+    "country": [],
+    "sorting": {
+      "sortField": "createdOn",
+      "sortOrder": "desc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

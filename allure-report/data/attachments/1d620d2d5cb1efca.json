@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "95",
+    "etag": "W/\"5f-HAKcjcY/q9TS4WvQgZ33atneQ+4\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "IsSuccess": false,
+    "ErrorMessage": "Customer with email 'Webster74@hotmail.com' already exists"
+  }
+}

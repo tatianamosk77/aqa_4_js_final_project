@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-F4USkv0IBLIqdKbwSwYqAJoaXbs\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Antone18@yahoo.com",
+      "name": "Jennifer Theo",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 110,
+      "flat": 8134,
+      "phone": "+5969230522",
+      "createdOn": "2026-01-07T13:13:11.000Z",
+      "notes": "2wPpkeQf4mhs3rNIQIchhWsRmMFUmKeIn3JcGbMNbCy586udz59nMysj8x5jnlGV4Hd14Jac2oxCCslJ0jEjCjPl67kdE6vGONIIZcIFJMX8ThSxd24Mh1BXLsCZj9ZrczGUc1J1yqSqhTJgvwEbgTNMJXVFHY7MwVhJ6iLenfVCZbQr3GCuTvQHPHgH9yDqxfIlN2293zDwEozYvb3xPLAMpF8Y0nFfRZ4u1hVHDDlAnTkaJrs15jHrXg",
+      "_id": "695e5be71c508c5d5eacc700"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

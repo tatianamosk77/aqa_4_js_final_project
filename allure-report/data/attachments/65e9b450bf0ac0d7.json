@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-6c1HJqTrjXyzIdvdaCAFGHPghdw\"",
+    "keep-alive": "timeout=5, max=78",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jocelyn29@hotmail.com",
+      "name": "Steve Drew",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 677,
+      "flat": 8669,
+      "phone": "+9964350860",
+      "createdOn": "2026-01-07T13:13:20.000Z",
+      "notes": "ac9kXVCfKXyrk2eFX5NWcdIbHBZjPNOjDUdKDJlZMqTKzoAve86uCkk7LO2s43pg6tcO8oLOEKkYbyoAOPtGkiaseMRfKJBJC04U4CBAzdW2O3qRQdNcKIhk4soLJzoQHfTMS2AVWII7Nzlzv8VcqiOeELwfArRnr9OzXNd6fzITtgdgNMSUs2cnZ075pB2IYbdjus3VtAWObugdVaoBiQ8Pdocu2OLMrcbVLvextR0UdzEB0WMnyV1InM",
+      "_id": "695e5bf01c508c5d5eacc7c9"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

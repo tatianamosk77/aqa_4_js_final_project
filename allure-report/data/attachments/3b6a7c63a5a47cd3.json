@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1887",
+    "etag": "W/\"75f-bvU4GA0GSn4dwsL1i9fRQ0NdDmY\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695e5c0d1c508c5d5eaccf75",
+        "email": "Sophia_Stokes@hotmail.com",
+        "name": "Isabella Hazel",
+        "country": "USA",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 116,
+        "flat": 3187,
+        "phone": "+3684508160",
+        "createdOn": "2026-01-07T13:13:49.000Z",
+        "notes": "dqIrcCHQUrHapbUxkrC1imcCz35g9ImcoTAX5ZSLc9uPn1zIUUjHkyECFreX3tNGQK6pkyJVo3gefgPR6YdvNoHPjRzs1qGybBq1dmVbwkPYQVLkmgezxxlWQCfjdwpKkSuiTSr7KJLVJYMPhbNr5sRFi22F02ysiGBypBLerYSX2k2lSUPjZhpqC7G7Ks76G5J6BoWtuMZrzKaKS0jXj7Xi8P2K1LLE4P8JTsNrd5a2gexmkG21CO4l77"
+      },
+      "products": [
+        {
+          "_id": "695e5c0e1c508c5d5eaccf8f",
+          "name": "Keyboard85524",
+          "amount": 129,
+          "price": 34473,
+          "manufacturer": "Microsoft",
+          "notes": "SyPGNQg762VV0Wigrk68ekGnWhrtPsQTrsGc1QaNP7xZfgxpw4ApjOVmuxztDQycQhA8ynM5pSOSxrwGTqvE5UZtUXSn2tyfPM3wHqipY4QfWdf05C3xYnKUMkSPu6fyJ6O1binGWDivfjJQmkCNOu5txbXauyTvBIoS85jW8DZKDztiRAZf2dxrlbj8HO71zot5hTjvqavy3Ax91uyr5WXqsOSFT7NMwo4hE1p6OzeKjy1qDRqNYLTjiC",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 34473,
+      "createdOn": "2026-01-07T13:13:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695e5c0d1c508c5d5eaccf75",
+          "products": [
+            {
+              "_id": "695e5c0e1c508c5d5eaccf8f",
+              "name": "Keyboard85524",
+              "amount": 129,
+              "price": 34473,
+              "manufacturer": "Microsoft",
+              "notes": "SyPGNQg762VV0Wigrk68ekGnWhrtPsQTrsGc1QaNP7xZfgxpw4ApjOVmuxztDQycQhA8ynM5pSOSxrwGTqvE5UZtUXSn2tyfPM3wHqipY4QfWdf05C3xYnKUMkSPu6fyJ6O1binGWDivfjJQmkCNOu5txbXauyTvBIoS85jW8DZKDztiRAZf2dxrlbj8HO71zot5hTjvqavy3Ax91uyr5WXqsOSFT7NMwo4hE1p6OzeKjy1qDRqNYLTjiC",
+              "received": false
+            }
+          ],
+          "total_price": 34473,
+          "delivery": null,
+          "changedOn": "2026-01-07T13:13:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695e5c0e1c508c5d5eaccf9a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

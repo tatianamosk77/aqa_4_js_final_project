@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-a0TSPwUFpBAJbmB9x/BBEbKzlDQ\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695e5be01c508c5d5eacc632",
+        "email": "Chelsea.Streich64@hotmail.com",
+        "name": "Augustine Missouri",
+        "country": "France",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 619,
+        "flat": 4109,
+        "phone": "+3393021235",
+        "createdOn": "2026-01-07T13:13:04.000Z",
+        "notes": "oDBtPkGTm7RZVG2RGGEXM64KcxPM1tloKXaUPdgtoZ4suXL02z1VqPc3mDe0P8eSCXkjgV7dd3ba52eysg5VjMZM7IU0WEs5QUQolDz1oipvntEdGb0oUOSrnr79Ac5pRRLKZhrYpTjPEK71eXcp2mvcLkuZ5Ejt7QdmNqwFIKciT5x0G1x4TC2JIMQfVdyI0opKj6BD08TiqOVNKhItXebt8emwPIlaVRmYzDTJ2rmgAPIa52uVp7oVWG"
+      },
+      "products": [
+        {
+          "_id": "695e5be21c508c5d5eacc666",
+          "name": "Mouse76618",
+          "amount": 462,
+          "price": 9115,
+          "manufacturer": "Tesla",
+          "notes": "fZTVU5l8LeneZAMQvRdWn8Z0d20QU2CtY3ELR9gMD5KLmT1xkHLVOtr9eD9QVETBWVnrclEhR26bWVl6HVLSPrEQNJFu0WpuWjcD5hHcmTxPJcyOxaU9xMvsashTLWUUIbY0yrEdahCuty7aSz0IKzz5kEkVrMShLDR6WYz7eauXUH8PoVFkOS44zFHvpqPGWBtcYf4O3HTYjToOMeMz3arxwAUvyPMjq3zkfBrBdC11u80GLoHQkUKHCu",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 9115,
+      "createdOn": "2026-01-07T13:13:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695e5be01c508c5d5eacc632",
+          "products": [
+            {
+              "_id": "695e5be21c508c5d5eacc666",
+              "name": "Mouse76618",
+              "amount": 462,
+              "price": 9115,
+              "manufacturer": "Tesla",
+              "notes": "fZTVU5l8LeneZAMQvRdWn8Z0d20QU2CtY3ELR9gMD5KLmT1xkHLVOtr9eD9QVETBWVnrclEhR26bWVl6HVLSPrEQNJFu0WpuWjcD5hHcmTxPJcyOxaU9xMvsashTLWUUIbY0yrEdahCuty7aSz0IKzz5kEkVrMShLDR6WYz7eauXUH8PoVFkOS44zFHvpqPGWBtcYf4O3HTYjToOMeMz3arxwAUvyPMjq3zkfBrBdC11u80GLoHQkUKHCu",
+              "received": false
+            }
+          ],
+          "total_price": 9115,
+          "delivery": null,
+          "changedOn": "2026-01-07T13:13:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695e5be31c508c5d5eacc686"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

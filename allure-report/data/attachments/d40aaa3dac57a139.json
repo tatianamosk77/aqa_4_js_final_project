@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "90",
+    "etag": "W/\"5a-2WAGFdcTtQOjjQk9L9dWP/oWMdU\"",
+    "keep-alive": "timeout=5, max=78",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "IsSuccess": false,
+    "ErrorMessage": "Order with id '695e5bfddb8c85c25554f212' wasn't found"
+  }
+}

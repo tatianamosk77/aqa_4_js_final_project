@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-CUq/DKP6FrgGIaP9Yrwf/e8W7ao\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Robb.Rogahn@gmail.com",
+      "name": "Arnulfo Derick",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 722,
+      "flat": 5496,
+      "phone": "+5612367550",
+      "createdOn": "2026-01-07T13:13:33.000Z",
+      "notes": "YVQPpApQAKYvdMUrlZsqpSxU0x5nrFKaSs3FYwqE4FUC9HaqsU0D1j4R3pH54LRHG50sPPxDvEDbbJJK03I9OlceXX9ZfB1LcoFwrWAnCYBHt5RyR3ANNHVSfQTpcUFsRBm2qm93B82PBeia9rZxaNF97BMT8UAifCCn2Pfb423f8heKqrm3T4bUCUgj5Wav3fyYZ7NJzF1cpPGmwEpZtBT9NJRXyaidYSqjEIhcPR60O8BVPDbtZI2ZTZ",
+      "_id": "695e5bfd1c508c5d5eacca2b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

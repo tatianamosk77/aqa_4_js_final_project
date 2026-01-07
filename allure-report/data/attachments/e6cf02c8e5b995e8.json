@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-a7zX+iKVsf4L/7qVp3GUyr1y9is\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Dedric.Gorczany7@yahoo.com",
+      "name": "Major Oswaldo",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 84,
+      "flat": 2182,
+      "phone": "+2827607854",
+      "createdOn": "2026-01-07T13:13:37.000Z",
+      "notes": "NsQR5W6M49JPs5gJrhsPOyhk5GfKAQCU31Tt1xn7NWrrnSdSPZxKNfFGhhPwT7ALLqcmKPvHXsvdc4ayDexd52v2yNwRgNjHX3mbukLcHqGIjLP0f7t2qFjCbLPEmJYAwIOe9K6OmbZemCbzw3ZkRzVtgPUMzz9yOkOoWZlpK6huF1vMHRlyWhLHa2GU0M0Em6es2cxbYhhEHz1BRi6CZdkgSSmva2LSphY4fKDW8um5uVbPdiNZPe0WLG",
+      "_id": "695e5c011c508c5d5eaccac6"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

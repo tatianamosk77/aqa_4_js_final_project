@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:12:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "545",
+    "etag": "W/\"221-JAR9tSLpxRvLmTq7+pyadD799OA\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Kenyon.Bednar@yahoo.com",
+      "name": "Lesly Eudora",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 419,
+      "flat": 9620,
+      "phone": "+0725101114",
+      "createdOn": "2026-01-07T13:12:51.000Z",
+      "notes": "QasmP1iBLy0jIkIOqu5wLFt7YbatOygbiOW6HwpiJUoTwsY3l1L5pjFm72xeQ2KNwdMPDwW2XwGqCCBBEqTkZuCvTFfUB6gx5tSStLs3eQIrwOvjVxg0MCWV1YlIhgeveBGoepCrmvkP5Z0dgmzMzWEob1U5erDYtpR1yeZb35hdK8Z2nvxAVDoL3o9A02GsbFRa75tTiVwnAXu7DjI2ozcPQGrM6GekXe8jFvGTsjVxdSSQMnCkVRoxwR",
+      "_id": "695e5bd31c508c5d5eacc4e0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3409",
+    "etag": "W/\"d51-u96hGHvKYDgWZdupKsOa+17zeNE\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695e5c101c508c5d5eacd01a",
+        "email": "Alivia_Donnelly@hotmail.com",
+        "name": "Kenya Lazaro",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 954,
+        "flat": 7897,
+        "phone": "+2623048610",
+        "createdOn": "2026-01-07T13:13:52.000Z",
+        "notes": "5kVBPy0aa7VwyZBg6HTriZGxa6X4cAQ3EB6nszdSU2cBcVH7sMaHGUNxEXrlsa5mWgO3KZEGeugqqEQ3sLAPVFvjRCm74kPozkAyUpxD6TeIJ4QK7tRmvrExV7X8K97IFPzFIYK3NXLFVOai2ya4ryQ5puNVHlnGa4ScFjnaIjcLeXRkTimxKfVuzTXSXFwoswUXSREjSZ67I9YJ7sGo1il1LBcegiaLWcLMePwdzRjQvpf28qLcnko4ZF"
+      },
+      "products": [
+        {
+          "_id": "695e5c111c508c5d5eacd01e",
+          "name": "Computer54005",
+          "amount": 36,
+          "price": 6647,
+          "manufacturer": "Amazon",
+          "notes": "Jn2tdeF4fRTAKGuhBgMWP6Pb1InUSuCSythv8aKvSVTg2SYy9yiYjM1VI3jAnFvdfWqVD0FVY1V8eBQ5Vyn9ax7YjGCzXsU4pduqN70i90tw5hPoorMzmlVPH1Vt34zccVPUCAQzlVGa3BdhQbtiS2yrYDfhnleqTUgEsCSOHNjBEFaj8cNGUkUTNO7ld9o5c323Kpl4jb7iJwm7YXHGttlADrjSVAJYd7QK52VV9DoBG4zNTQBsON38bU",
+          "received": false
+        },
+        {
+          "_id": "695e5c111c508c5d5eacd02b",
+          "name": "Bacon94931",
+          "amount": 419,
+          "price": 20245,
+          "manufacturer": "Sony",
+          "notes": "QvwhKBC3inwbBOcfGtehiYACm7uJ7ODPIuaayFSLr8vgFMFP0yFflrqpLa6KsmN3yKAWFbzh4L6IwZxUm4n15rVZsmc6fYhKMsICPsoh5L9F6nQsMzyEPK4tlaAyuRe5xa2arhnP8TapvoHEGZxENEO7pZpr6QTUH8aTsLxlnVS8suWqIRJWUWqnbKC4l7XoRVcWgKh4isf9Je2fAArOnMpCanRI5eXA3voKrbk8orohhWtVlLkNvT2oCn",
+          "received": false
+        },
+        {
+          "_id": "695e5c111c508c5d5eacd028",
+          "name": "Bacon90498",
+          "amount": 690,
+          "price": 10258,
+          "manufacturer": "Sony",
+          "notes": "UUGjGfAGY96OLD0Vt7l67dSDkxmi5ebGIiWUjCjrpBevP4h3A0q632WYJDMbPFP0Ns9xUpwnjnM8Wra5cwBo82pwracBgn7R7CMnwmjyUuad2N2DUmhJbJ4ojKyXlGeJz9HuZh4tC6POkQNUl6uj58kiKHqq7ZXFI4H9lgqgjlHCbCYXsfElXHTsLzOCGRDKSPqJkFP6oSlicGitnK3q331dSQwrpk8RYlc5lEt5CaXhVJxUVi3aTrTprl",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 37150,
+      "createdOn": "2026-01-07T13:13:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695e5c101c508c5d5eacd01a",
+          "products": [
+            {
+              "_id": "695e5c111c508c5d5eacd01e",
+              "name": "Computer54005",
+              "amount": 36,
+              "price": 6647,
+              "manufacturer": "Amazon",
+              "notes": "Jn2tdeF4fRTAKGuhBgMWP6Pb1InUSuCSythv8aKvSVTg2SYy9yiYjM1VI3jAnFvdfWqVD0FVY1V8eBQ5Vyn9ax7YjGCzXsU4pduqN70i90tw5hPoorMzmlVPH1Vt34zccVPUCAQzlVGa3BdhQbtiS2yrYDfhnleqTUgEsCSOHNjBEFaj8cNGUkUTNO7ld9o5c323Kpl4jb7iJwm7YXHGttlADrjSVAJYd7QK52VV9DoBG4zNTQBsON38bU",
+              "received": false
+            },
+            {
+              "_id": "695e5c111c508c5d5eacd02b",
+              "name": "Bacon94931",
+              "amount": 419,
+              "price": 20245,
+              "manufacturer": "Sony",
+              "notes": "QvwhKBC3inwbBOcfGtehiYACm7uJ7ODPIuaayFSLr8vgFMFP0yFflrqpLa6KsmN3yKAWFbzh4L6IwZxUm4n15rVZsmc6fYhKMsICPsoh5L9F6nQsMzyEPK4tlaAyuRe5xa2arhnP8TapvoHEGZxENEO7pZpr6QTUH8aTsLxlnVS8suWqIRJWUWqnbKC4l7XoRVcWgKh4isf9Je2fAArOnMpCanRI5eXA3voKrbk8orohhWtVlLkNvT2oCn",
+              "received": false
+            },
+            {
+              "_id": "695e5c111c508c5d5eacd028",
+              "name": "Bacon90498",
+              "amount": 690,
+              "price": 10258,
+              "manufacturer": "Sony",
+              "notes": "UUGjGfAGY96OLD0Vt7l67dSDkxmi5ebGIiWUjCjrpBevP4h3A0q632WYJDMbPFP0Ns9xUpwnjnM8Wra5cwBo82pwracBgn7R7CMnwmjyUuad2N2DUmhJbJ4ojKyXlGeJz9HuZh4tC6POkQNUl6uj58kiKHqq7ZXFI4H9lgqgjlHCbCYXsfElXHTsLzOCGRDKSPqJkFP6oSlicGitnK3q331dSQwrpk8RYlc5lEt5CaXhVJxUVi3aTrTprl",
+              "received": false
+            }
+          ],
+          "total_price": 37150,
+          "delivery": null,
+          "changedOn": "2026-01-07T13:13:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695e5c121c508c5d5eacd040"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

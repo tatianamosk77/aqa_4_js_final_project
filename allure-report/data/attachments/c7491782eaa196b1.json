@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:12:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-hgJ8+RjCXYRIaRH16zzDWwcaep0\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Jennie50@hotmail.com",
+      "name": "Sophie Francesca",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 213,
+      "flat": 4111,
+      "phone": "+8010406948",
+      "createdOn": "2026-01-07T13:12:55.000Z",
+      "notes": "YRCmEaaNjnP0S2o7bU8sEGlN8zy41oUgnnFoJ4sUzl3VvNJ2l1Tfxjb4qdNzuKmwZK4OoGLuPuWi2exXDEbNAM1tN5KUfxLGmKvKiSIK1N3CmeDLubIatAIqG9KvPiqimQZOzynl0WrrDh2pN2T2mhVgd3czYDvZLbEUs3Q9NvNkpVQlSnSQDliRlEZ734IZ443mOK9AWeVAqgF1ONDoV5Uf3xUZ6IOJrEJx5xnTiCaKRNxb9BmA9Oacpx",
+      "_id": "695e5bd71c508c5d5eacc55f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

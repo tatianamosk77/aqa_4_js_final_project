@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1880",
+    "etag": "W/\"758-bwjGSNjxPerq+4isYv+L4K9hY1Y\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695e5bf51c508c5d5eacc871",
+        "email": "Bailey.Pfeffer43@gmail.com",
+        "name": "Carmela Federico",
+        "country": "France",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 919,
+        "flat": 560,
+        "phone": "+4229693066",
+        "createdOn": "2026-01-07T13:13:25.000Z",
+        "notes": "OALj9idEzWTFAlx91jF5kdBjWbvvj8mwAaPDG1GJpbbVYtvZmN6kyXehF92yJEQieyijDs6miQIFbmCn6G3kvTlWDCCpSkbSTThflQOMeQtR5cocAGSB3G6ORhLdQXAOMArJg4Ljca1joNZoc2PXsBpAxOA0dm8YPDk1NQ6u2mFyKSKpScKIci2Cser72sAggRwTMcDmNdjyPW1Lskup0ACn5895ZLyqh2M1PN54C9EwdMwd3Oddokdcg2"
+      },
+      "products": [
+        {
+          "_id": "695e5bf61c508c5d5eacc886",
+          "name": "Computer11351",
+          "amount": 699,
+          "price": 7258,
+          "manufacturer": "Tesla",
+          "notes": "EgCJlouciDd0ZsgyNWAjX7peBgVUcbqFJS0OVTolIe7k17UQkcWHrHNwjKo0U7QPauBt4pwGpGX8UyI7NWdiw08t5gtryxdYgMSkgGhlnmJgnYcZGevzYGfYiMWh7409ij7n9iaB3CRC7vbOukqAy05Shh9sj0dNAw5XRjbcKtcRbQaeoCi0fzrkSsbl0Flxs6O0xpcK3L0FPeJX6aZquGPJP6Bgaix8VeqmlzeKsIqQW5TjTgXvzNHFGF",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 7258,
+      "createdOn": "2026-01-07T13:13:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695e5bf51c508c5d5eacc871",
+          "products": [
+            {
+              "_id": "695e5bf61c508c5d5eacc886",
+              "name": "Computer11351",
+              "amount": 699,
+              "price": 7258,
+              "manufacturer": "Tesla",
+              "notes": "EgCJlouciDd0ZsgyNWAjX7peBgVUcbqFJS0OVTolIe7k17UQkcWHrHNwjKo0U7QPauBt4pwGpGX8UyI7NWdiw08t5gtryxdYgMSkgGhlnmJgnYcZGevzYGfYiMWh7409ij7n9iaB3CRC7vbOukqAy05Shh9sj0dNAw5XRjbcKtcRbQaeoCi0fzrkSsbl0Flxs6O0xpcK3L0FPeJX6aZquGPJP6Bgaix8VeqmlzeKsIqQW5TjTgXvzNHFGF",
+              "received": false
+            }
+          ],
+          "total_price": 7258,
+          "delivery": null,
+          "changedOn": "2026-01-07T13:13:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695e5bf61c508c5d5eacc89b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

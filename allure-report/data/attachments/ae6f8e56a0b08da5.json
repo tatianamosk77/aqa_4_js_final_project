@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:21:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "548",
+    "etag": "W/\"224-/PouyTF4r3ISk/9CpY47jd06//8\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Amber.Brown62@gmail.com",
+      "name": "Roscoe Kariane",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 766,
+      "flat": 2720,
+      "phone": "+0482021137",
+      "createdOn": "2026-01-07T13:21:25.000Z",
+      "notes": "6fVgqpUJcsUJQD6C7zqJR5zEhSPQH2MutL55FH85g8MnFCblncDBnlqanS9inIsLkujLrNEBKKJ5zntH1r5n7bW3Uc2MKlC3V2TDgIC9c4gp3NhX12FXwF44qRuW8xciG17lz5Wp9sk7eq1yPniC1V2OQc1HXcd8XtW6pliOpN0NjGzPcKn3OgThR14ZfsViY3ynGoCDjj5tMpWCxkHCiH1Skkp7Vx6SLQ4xQQ1c3M8BTYEeenriOxoBDV",
+      "_id": "695e5dd51c508c5d5ead42bf"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

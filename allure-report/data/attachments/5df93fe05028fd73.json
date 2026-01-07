@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "537",
+    "etag": "W/\"219-j9EuDFiO1wqN8lfxUgoe42f9e6w\"",
+    "keep-alive": "timeout=5, max=69",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Dale77@hotmail.com",
+      "name": "Gracie Meagan",
+      "country": "USA",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 232,
+      "flat": 762,
+      "phone": "+8388102032",
+      "createdOn": "2026-01-07T13:13:25.000Z",
+      "notes": "tfVkBpYFjADJJ2asQIHYF9ZawAH5dYsBNlDGmFxPakIECfgoKtJY85gvSkTJQu5Mnnd06Gh1JEt2F0JSlSpmm3HiuDgEuX2wjfgxSdh76rzUchBESjH9MVHVcS3JG0WDbzqQl2TGHkAmgtzpoHQ3NbgdHTJWaGUjnJlbDbPlZ4soKn8h35u28fogp1glNqfH30YSna1WpTaJ59dm0KiFcznv9m3xcO3u8EZwqnhe8J0WqzCLy1CyX7JpwO",
+      "_id": "695e5bf51c508c5d5eacc85b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

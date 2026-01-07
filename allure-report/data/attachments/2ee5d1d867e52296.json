@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:20:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-fONMafgSz8nRzE22DZQe9XrV4aE\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Mekhi.Jenkins@gmail.com",
+      "name": "Chet Ophelia",
+      "country": "Ukraine",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 385,
+      "flat": 6161,
+      "phone": "+3993917341",
+      "createdOn": "2026-01-07T13:20:36.000Z",
+      "notes": "0Fl1Xm6LQ9XNHKAl9hTCGbGx3qTnxnkC9bgKIJAgsNi5eFDPLfYxFw04bTaxxTJZVRt1SexoPjx9NYaVLGgoryzn8BBTgN8z10ODIoacha7Ks5OZB7mTZxJDTze0vnjVTbpzIQ7nkspyigODiidDPBDaRl3RX7QindnbKl1kfIS2RbIm17E9ddMNa7p3ue1z79Un5dzEVCXqoGrxWQ9WchrJT6Bm0XDseIn0jDx7JqWdPHidSdUSajVfOA",
+      "_id": "695e5da41c508c5d5ead3b6b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

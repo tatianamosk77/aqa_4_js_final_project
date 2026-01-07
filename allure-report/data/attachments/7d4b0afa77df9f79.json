@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "549",
+    "etag": "W/\"225-pQ7TbImf58AEuB5WmttE2lQBKhQ\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Robbie_Mitchell50@yahoo.com",
+      "name": "Leo Ezequiel",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 899,
+      "flat": 5389,
+      "phone": "+3664901862",
+      "createdOn": "2026-01-07T13:13:28.000Z",
+      "notes": "Qwiir8oVMuiXbhKir255RAkjRKViGUnL0Ap5lOXRhH8T5MgpjXrsEKc7uujugt0av4JgTSjPjjOvW0ybKKgbarMPmMFCx9xPSXxT2Z8U9IAG8p0qXguM6FHojf467qoDtVoBQf8Gv43nan25Hmqrmej9SxAKkW1rp3kTlS0omykVf7xh17OgroARkCXsdBUyNGdzYXbTzmMflHdxZregWirFDWwHExTLwwVqJWjt8oRA1ginL84BsZimxL",
+      "_id": "695e5bf81c508c5d5eacc929"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

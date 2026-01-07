@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1874",
+    "etag": "W/\"752-zBAsWgA+9LthFUEHZTopVdxbnGY\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695e5c0f1c508c5d5eaccfd3",
+        "email": "Chloe77@hotmail.com",
+        "name": "Lavinia Tressie",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 628,
+        "flat": 3972,
+        "phone": "+0961165456",
+        "createdOn": "2026-01-07T13:13:51.000Z",
+        "notes": "bz2pLiUB5jRY2KipuMjEbVEEfWxCWiS3cJPUJSVcicdlHgN7pDZlKvdqdhO9H4DScjMwJ5qUIRr01FlPPW8pHO1tlcUTcqf0Ndh2OfOeOn3TYQNFvLjYt39h2OFhWXHFxeGUccZ8qVzoXJEDnGz4EcDaUczUk7kP9MtoTQl4fCdAmjqQxAEBSOVzo9zuSlJqfM45Ur4uuY8qtFQVmdFw85IOE06uiHnLQkTJY40m5JGLwF2vzaNpe3VdNF"
+      },
+      "products": [
+        {
+          "_id": "695e5c0f1c508c5d5eaccff0",
+          "name": "Chair68450",
+          "amount": 161,
+          "price": 68074,
+          "manufacturer": "Google",
+          "notes": "BwOUs3WUft2FdSBMhzu1qwgzxhf9Y3EPwnmvuLwp4zC5WhjkSzfa19HwQNPU2NvoUtvHt14ZGOeQvcrgxcYOe8P8ifhBHGiw46RVTmeLupGsN0wX9gBXY8yhwd5a2bFdfBefWnB3ln2kD8Wi8nrKblXreUjRq66KOWbmce03csoGUZb35Q74oOGxSN2rYElRZEIBBpJM2wwHXkWe911sO3vkeRFINC39cUjECJ72v6hasz29mE4wPl658H",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 68074,
+      "createdOn": "2026-01-07T13:13:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695e5c0f1c508c5d5eaccfd3",
+          "products": [
+            {
+              "_id": "695e5c0f1c508c5d5eaccff0",
+              "name": "Chair68450",
+              "amount": 161,
+              "price": 68074,
+              "manufacturer": "Google",
+              "notes": "BwOUs3WUft2FdSBMhzu1qwgzxhf9Y3EPwnmvuLwp4zC5WhjkSzfa19HwQNPU2NvoUtvHt14ZGOeQvcrgxcYOe8P8ifhBHGiw46RVTmeLupGsN0wX9gBXY8yhwd5a2bFdfBefWnB3ln2kD8Wi8nrKblXreUjRq66KOWbmce03csoGUZb35Q74oOGxSN2rYElRZEIBBpJM2wwHXkWe911sO3vkeRFINC39cUjECJ72v6hasz29mE4wPl658H",
+              "received": false
+            }
+          ],
+          "total_price": 68074,
+          "delivery": null,
+          "changedOn": "2026-01-07T13:13:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695e5c101c508c5d5eaccffc"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

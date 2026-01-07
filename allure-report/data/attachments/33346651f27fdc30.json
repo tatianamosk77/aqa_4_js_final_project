@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:14:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-FD/TMgxnW6Io3MjsK+rZOTXBftc\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Trever_Schoen42@gmail.com",
+      "name": "Dave Amy",
+      "country": "Belarus",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 161,
+      "flat": 4228,
+      "phone": "+7282478109",
+      "createdOn": "2026-01-07T13:14:57.000Z",
+      "notes": "EOMiLJdR2mt4hsKizSrl2i5L7MktjNp2uMzky4iKHVmTPrT5oBgI5jLgWnCNhKgX1l1lhmhMUcVRmGlGZF7NeIkStrlRZQr5cdRPqEVbCxKZfMLsG2j9jrLTR6sT9y99kyPBAUNXWDfP5B2Mu0OsrjlcUBHxv2izrhTjJPR5tJTduldMHHwDlGuTRzaMv2BcyCB5udYE8W30vMMxR8xPxsSCdQjSYxithxooeixA2MwW2AC6JMkDGDumZu",
+      "_id": "695e5c511c508c5d5eace363"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

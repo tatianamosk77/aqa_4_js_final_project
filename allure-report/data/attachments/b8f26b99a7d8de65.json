@@ -1,0 +1,155 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4954",
+    "etag": "W/\"135a-0ORsqA8nRL/PispIHnGv449HH74\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695e5bfb1c508c5d5eacc9ba",
+      "status": "Draft",
+      "customer": {
+        "_id": "695e5bfa1c508c5d5eacc959",
+        "email": "Delores.Keeling93@hotmail.com",
+        "name": "Jess Marlee",
+        "country": "Belarus",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 285,
+        "flat": 3217,
+        "phone": "+9250592272",
+        "createdOn": "2026-01-07T13:13:30.000Z",
+        "notes": "XdbSCvs8YhRdjVSeGaZqc7HtA9Q5EmxYC84E9rQ8LRrSTFu7bg6XRpR5ECPwd4bmNTnMCk7R1Wu0MKIZ4ThPGZoOSqkV7uvF19ZO6xL0FJZ3oKcYOwUF2LqYj8YaTZXUrfL8cPMhKHJqqFD6XhofKbIAwdECkZsa1eSi9LnKxi4e5yiZeG4uorZw6yQAwSwbi3UnadJC4j36e3R3H4I3BXlDPnUexRlT7ZE7435XGTfkxW3G0HZh5zbnQD"
+      },
+      "products": [
+        {
+          "_id": "695e5bfa1c508c5d5eacc991",
+          "name": "Pizza47416",
+          "amount": 467,
+          "price": 27157,
+          "manufacturer": "Sony",
+          "notes": "1XLLm7fgYZZWw8wixQ9IlKYoy9DF96KG2Yvnbmpb2b1wLmx7iJwoTlKtoZTqvyp9LEMo4zy9Iz8kWsa5rvE80ZY2qALgNlLKyE2Uq3GCeqaTEVZXEI7UxCyfi75hAqKgHTwDZ8qk0km0lNHKAP7i1pdkXdZEarX3Wrst3BTFPtpeGcBA5BBarxj0xibIUFVMzIWjPdP6AndXh3iswA39IONcZ8GAqnzmTYobtjUKsVMNH3JXpvUuUNz2GS",
+          "received": false
+        },
+        {
+          "_id": "695e5bfa1c508c5d5eacc98d",
+          "name": "Ball54905",
+          "amount": 841,
+          "price": 12269,
+          "manufacturer": "Samsung",
+          "notes": "ZRaA8mXSJaH1yHOKrgaJ3nS8GjT8PcVggJOJy53yshgN6xUA1HOzEUntFKURtz6sVV411W3cShpKE2scXAUb2CjV0gpulkPOV6aiLt57PXyi8X4kvbbhDN1yQEQcG5MDHJhMU3HT4tJ0gWSsqpAu0U9QnicfpYTQZdx85vL5ZC1ddZ9Vw2LPdQwT7Bv7iJEPh0BCASrb4S9BIj3mfbI6ToqrLDq5RuDMAih351Xg7f2K0CxphFf6R6MfQ0",
+          "received": false
+        },
+        {
+          "_id": "695e5bfa1c508c5d5eacc98f",
+          "name": "Keyboard25243",
+          "amount": 459,
+          "price": 10034,
+          "manufacturer": "Amazon",
+          "notes": "xxiNjfLcxygjLClGp92CK3DCF5qx5wM7q7KCQIfm5cGOMP8jdne8f5bgWlSLAIhfxncFGZGCzVhcZ0tFPfd2pfQiiuJF6LsBGLSQQveHtRbm7diOnxP4t4oMfkh58TaMkMXhvRvBxTzbpazR1KAXqljQpb5uGtMu6N9Jp205rNp2AC6t6mReJ0HwHPGXf5fvkSMBaL3M6bbJqam01UCnEtInOQosNQerqRSNvtQEz50uc9iLsZCXhi4z12",
+          "received": false
+        },
+        {
+          "_id": "695e5bfa1c508c5d5eacc993",
+          "name": "Chicken23907",
+          "amount": 185,
+          "price": 26925,
+          "manufacturer": "Sony",
+          "notes": "ZcJ7CHRL33mgUJCZMsRgDnRjijIaEwcxMH30A1OnBj75z6Deyh5FZtpkUGIYOWZcL2VwACkkzV8rl6ui4FWqKgyDLx3rAVwOa5hT62rqDbkebG4MwUkMvGwrxVKHyrec4xqIBBxMGokt5FFj7YynKHF1FnTK0leFr8CdlrUctH4poKBNnhDAAjXGG60P071LYyEvMltXRPrR7qJdvYLGpkDZXJZs8314PSRobxeg73KLm3hrSQm7JD1wjC",
+          "received": false
+        },
+        {
+          "_id": "695e5bfa1c508c5d5eacc995",
+          "name": "Pizza95482",
+          "amount": 507,
+          "price": 14863,
+          "manufacturer": "Google",
+          "notes": "pxaLzdWnrw9SHjC1l1NQZmVbFQo9feJOD4Dl75Hs5HTyPEHJkefzS8iO41w0yVUcxnbJXlvRRxdWehkZdsOkzsXpOFUWYSmCXKM0B2cFkb67UyEPlen60T0eeqs963aez68fXMNC20lDDjbMDVDuAvJkqQuGUOPuu0DvtCNPX0CT5D7xf3uyRoG9d5PoJZSKTROWsIuSvni5aEVDO2VMll8TSLJjXbtpguCojsqudgyL3kM6a9HBFCOATf",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 91248,
+      "createdOn": "2026-01-07T13:13:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695e5bfa1c508c5d5eacc959",
+          "products": [
+            {
+              "_id": "695e5bfa1c508c5d5eacc991",
+              "name": "Pizza47416",
+              "amount": 467,
+              "price": 27157,
+              "manufacturer": "Sony",
+              "notes": "1XLLm7fgYZZWw8wixQ9IlKYoy9DF96KG2Yvnbmpb2b1wLmx7iJwoTlKtoZTqvyp9LEMo4zy9Iz8kWsa5rvE80ZY2qALgNlLKyE2Uq3GCeqaTEVZXEI7UxCyfi75hAqKgHTwDZ8qk0km0lNHKAP7i1pdkXdZEarX3Wrst3BTFPtpeGcBA5BBarxj0xibIUFVMzIWjPdP6AndXh3iswA39IONcZ8GAqnzmTYobtjUKsVMNH3JXpvUuUNz2GS",
+              "received": false
+            },
+            {
+              "_id": "695e5bfa1c508c5d5eacc98d",
+              "name": "Ball54905",
+              "amount": 841,
+              "price": 12269,
+              "manufacturer": "Samsung",
+              "notes": "ZRaA8mXSJaH1yHOKrgaJ3nS8GjT8PcVggJOJy53yshgN6xUA1HOzEUntFKURtz6sVV411W3cShpKE2scXAUb2CjV0gpulkPOV6aiLt57PXyi8X4kvbbhDN1yQEQcG5MDHJhMU3HT4tJ0gWSsqpAu0U9QnicfpYTQZdx85vL5ZC1ddZ9Vw2LPdQwT7Bv7iJEPh0BCASrb4S9BIj3mfbI6ToqrLDq5RuDMAih351Xg7f2K0CxphFf6R6MfQ0",
+              "received": false
+            },
+            {
+              "_id": "695e5bfa1c508c5d5eacc98f",
+              "name": "Keyboard25243",
+              "amount": 459,
+              "price": 10034,
+              "manufacturer": "Amazon",
+              "notes": "xxiNjfLcxygjLClGp92CK3DCF5qx5wM7q7KCQIfm5cGOMP8jdne8f5bgWlSLAIhfxncFGZGCzVhcZ0tFPfd2pfQiiuJF6LsBGLSQQveHtRbm7diOnxP4t4oMfkh58TaMkMXhvRvBxTzbpazR1KAXqljQpb5uGtMu6N9Jp205rNp2AC6t6mReJ0HwHPGXf5fvkSMBaL3M6bbJqam01UCnEtInOQosNQerqRSNvtQEz50uc9iLsZCXhi4z12",
+              "received": false
+            },
+            {
+              "_id": "695e5bfa1c508c5d5eacc993",
+              "name": "Chicken23907",
+              "amount": 185,
+              "price": 26925,
+              "manufacturer": "Sony",
+              "notes": "ZcJ7CHRL33mgUJCZMsRgDnRjijIaEwcxMH30A1OnBj75z6Deyh5FZtpkUGIYOWZcL2VwACkkzV8rl6ui4FWqKgyDLx3rAVwOa5hT62rqDbkebG4MwUkMvGwrxVKHyrec4xqIBBxMGokt5FFj7YynKHF1FnTK0leFr8CdlrUctH4poKBNnhDAAjXGG60P071LYyEvMltXRPrR7qJdvYLGpkDZXJZs8314PSRobxeg73KLm3hrSQm7JD1wjC",
+              "received": false
+            },
+            {
+              "_id": "695e5bfa1c508c5d5eacc995",
+              "name": "Pizza95482",
+              "amount": 507,
+              "price": 14863,
+              "manufacturer": "Google",
+              "notes": "pxaLzdWnrw9SHjC1l1NQZmVbFQo9feJOD4Dl75Hs5HTyPEHJkefzS8iO41w0yVUcxnbJXlvRRxdWehkZdsOkzsXpOFUWYSmCXKM0B2cFkb67UyEPlen60T0eeqs963aez68fXMNC20lDDjbMDVDuAvJkqQuGUOPuu0DvtCNPX0CT5D7xf3uyRoG9d5PoJZSKTROWsIuSvni5aEVDO2VMll8TSLJjXbtpguCojsqudgyL3kM6a9HBFCOATf",
+              "received": false
+            }
+          ],
+          "total_price": 91248,
+          "delivery": null,
+          "changedOn": "2026-01-07T13:13:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

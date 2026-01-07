@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1885",
+    "etag": "W/\"75d-E8Wfo269hmWvqPZ7OsoowrYFtiU\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695e5bf71c508c5d5eacc8b3",
+        "email": "Velda.Renner65@hotmail.com",
+        "name": "Desiree Loy",
+        "country": "Germany",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 580,
+        "flat": 8576,
+        "phone": "+9619600225",
+        "createdOn": "2026-01-07T13:13:27.000Z",
+        "notes": "9ukWTQuZ3F8TkMMr5kUq0DJHa0QghPrHRId9Fv8E92WZ5wu7VviH4MNpOOLXa4KhyDQ8mX8n82lo5JzHfPwSd1n9lAlUf4kepK1MPgtmzngSqXGBd91LttdEHapD0pOq0PHBsxfVekJhuywM4n4u2No297Vwf3PgVIgrF6I5ECOm52yuyLgXwfBEatzTGfWlPNcZQZYZmP9C60CP6SpxS5utDewdZZTn4BkixnVFQRXScjgfQppwEPrF3n"
+      },
+      "products": [
+        {
+          "_id": "695e5bf71c508c5d5eacc8e2",
+          "name": "Gloves30033",
+          "amount": 101,
+          "price": 56849,
+          "manufacturer": "Microsoft",
+          "notes": "HYQtvhRDhKp1OAmE0xAfUSRQjAmPdf4m2MkDo4UF2vuhfHpOW5go1iQOo92MNanZ0Lc5MkLbFOM8QIHcCUPmHvyH4DtkyRYluACngjU85zP3EcybRfMDA7VJKZTwO1vqi7slwlJyIv76H7nswKOnqa6u7mymoFMOL5QhNI7wzVLVU06CpYv0kClnTe9Bof90TDPedz341frYBJ9f02ZDgReSGDrkKETWWmpRoMwQqGPvRV1kpiSb7X15W5",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 56849,
+      "createdOn": "2026-01-07T13:13:28.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695e5bf71c508c5d5eacc8b3",
+          "products": [
+            {
+              "_id": "695e5bf71c508c5d5eacc8e2",
+              "name": "Gloves30033",
+              "amount": 101,
+              "price": 56849,
+              "manufacturer": "Microsoft",
+              "notes": "HYQtvhRDhKp1OAmE0xAfUSRQjAmPdf4m2MkDo4UF2vuhfHpOW5go1iQOo92MNanZ0Lc5MkLbFOM8QIHcCUPmHvyH4DtkyRYluACngjU85zP3EcybRfMDA7VJKZTwO1vqi7slwlJyIv76H7nswKOnqa6u7mymoFMOL5QhNI7wzVLVU06CpYv0kClnTe9Bof90TDPedz341frYBJ9f02ZDgReSGDrkKETWWmpRoMwQqGPvRV1kpiSb7X15W5",
+              "received": false
+            }
+          ],
+          "total_price": 56849,
+          "delivery": null,
+          "changedOn": "2026-01-07T13:13:28.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695e5bf81c508c5d5eacc8fa"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

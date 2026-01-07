@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-qDC+7pIEdPjQVkvsrojMC/dT044\"",
+    "keep-alive": "timeout=5, max=71",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Marlin84@yahoo.com",
+      "name": "Meagan Evan",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 909,
+      "flat": 8384,
+      "phone": "+5810220733",
+      "createdOn": "2026-01-07T13:13:25.000Z",
+      "notes": "DA9fVsiqJJ5P6oO2DGNyW5CHhHTuxD6i3trXgUDtWFrpjTl63XLcEXJoCKDcBxh9PwbDZt1oLw9V9c4738VL7laBVVvFuBjU1ZPv8VziDsFhnn5GGrrsFuPmJQiVWJqlhODO6RRCldgpNy3W7PPlYVEdS2UdmCg5f8q2jVSQTkCGdUakBCDf1XCZ015rwGRHKMTKgqM0bM5IRt5LzPfdMDZiZPgdX5SGq05RY4oklIPq1bjB34izYyyw8n",
+      "_id": "695e5bf51c508c5d5eacc86a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

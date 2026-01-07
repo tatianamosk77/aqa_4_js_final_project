@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:17:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "546",
+    "etag": "W/\"222-15duw13ei+xHx/3Y0NhV9qC0mcg\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Lincoln_Morar@gmail.com",
+      "name": "Lauretta Chaz",
+      "country": "Russia",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 745,
+      "flat": 3430,
+      "phone": "+7006362643",
+      "createdOn": "2026-01-07T13:17:44.000Z",
+      "notes": "HMEPbV23iHVge3edwt3gJpFxAbsGXc6hYNxInQxGKklwarq7Y9xMtw4Cbh0cEOIUy7derMTVAHCJwg6HXdNDbXAnOay3nuVvDikFepj00qhvhkejGxv8KmVmqKP0hRf2KYvv0ld65vAF9GdtSD8OLgadJv3Jf2IIj09GS5JParSjWEbZsxRb612QhmgXTgyY5m729mSMOJNESnQXJvUgF6giWhcy8krxvmKZzeFFjQGxI8g0SITCkZ9AeF",
+      "_id": "695e5cf81c508c5d5ead0bda"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:12:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "296",
+    "etag": "W/\"128-2C/T0GLRgN5+/J9zX9PdL1C/FaU\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Kathlyn.Steuber1@yahoo.com",
+      "name": "Jessyca Lucius",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 182,
+      "flat": 6955,
+      "phone": "+9161574825",
+      "createdOn": "2026-01-07T13:12:55.000Z",
+      "_id": "695e5bd71c508c5d5eacc561"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:18:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-TTexmrncuOL0H6mrJBbJCD+2wzI\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Lulu38@hotmail.com",
+      "name": "Domenic Jamal",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 18,
+      "flat": 5911,
+      "phone": "+8482954648",
+      "createdOn": "2026-01-07T13:18:11.000Z",
+      "notes": "OtyFbz63IPxHBu0mRffV9yAphvHGa8R3O0MbAWaVS91yTo4DYoJjBe2EO1gYBBKWRDvaO2pnyWc7XnHrsfNyTDOVzUdEoCrObpUFdhJPZKqJotKf32Ch0RWkQB1r9fwzn6V860nSwIOb4IPXhJXaHLkDbwgwqIMUdRBN8sCiDrQev8tLwvGxHrEzAz9v5KRGT5kjDsZeBJPkFmOjHqMwJpEMw1V1Qn2YXCplLZJOMwBmfTYx0jbZJfFyKp",
+      "_id": "695e5d131c508c5d5ead12e0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

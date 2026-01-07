@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "544",
+    "etag": "W/\"220-cK+IDjedCnCF8sxvg8USV6l7F4U\"",
+    "keep-alive": "timeout=5, max=76",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Kurt_Tillman@gmail.com",
+      "name": "Evalyn Abbey",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 529,
+      "flat": 3513,
+      "phone": "+1899120220",
+      "createdOn": "2026-01-07T13:13:19.000Z",
+      "notes": "LnCvIXZpQVEM8Ua4hKAShZXXO2wT8JExdo0fuB2IHlP9PAOTRf8upWF4aO4kiTzLU5rn1c5NX1sP9D0nuQc9pBEGggxOEoMW1SwugBq8r3MfoQftW82ICfx9YHJUhoLReAXwbw7g6y8cFRmEe7JjbjVwIUFL3bmbvKOIyjAeEcSCxXSgbmD368N8Zp8rrhmxHyMwwRYu83z6Zx5TJZ0MOP5Q91ZH4yQSP5s8qjxyl1jUkmDNzHFUvMrIb8",
+      "_id": "695e5bef1c508c5d5eacc7c1"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

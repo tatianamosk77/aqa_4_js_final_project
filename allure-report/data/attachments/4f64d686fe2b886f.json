@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:17:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "552",
+    "etag": "W/\"228-aWfv9ApHQRysjumLTcnPxQ05xwk\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Florencio_Kuhn70@hotmail.com",
+      "name": "Queenie Lucas",
+      "country": "Germany",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 542,
+      "flat": 9341,
+      "phone": "+0620769053",
+      "createdOn": "2026-01-07T13:17:45.000Z",
+      "notes": "5UpyDUQ41TU27BtGkElo4XykxAOkILi9ztaYUw97lbLjv0biABYgID5bsvNHa8iBY2LKPEKuErQBOaQhBA9hFXXTnhOxaC4o9kHmo1ZD2vUIhcWIBF2fSWPU1NMzwuWDSEbg8cIv9Ge2NG7PQmi2h5e2K58lJmLLS0puaouqIiGO72DZo2Y9lzV0vOd3dl0ShuWMlo4msfHokFvmz1ZpPoOQoGq8V6doXmexIPsYfLNu792IMGY4E7XovR",
+      "_id": "695e5cf91c508c5d5ead0be2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

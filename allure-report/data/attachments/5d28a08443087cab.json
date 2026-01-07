@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1864",
+    "etag": "W/\"748-1Ku1yhm4C5yyJfu3CTGlpMT4Yhw\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695e5bfa1c508c5d5eacc973",
+      "status": "Draft",
+      "customer": {
+        "_id": "695e5bf91c508c5d5eacc94f",
+        "email": "Justice58@yahoo.com",
+        "name": "Annie Frida",
+        "country": "Ukraine",
+        "city": "testCity",
+        "street": "testStreet",
+        "house": 217,
+        "flat": 3068,
+        "phone": "+1712332301",
+        "createdOn": "2026-01-07T13:13:29.000Z",
+        "notes": "fFnMBvB7iOdjm7dpKwvst1pMT10XrCSYdjbTQIWg9J8Us9ddpbKLkOiSuqXIxvoQ7vu2Z6eUw8azQWBbfwsAvZk7v3rcz7AbedxWXsTBj34za6zo8zT5yuSWxIlSsd63wlxt4xVgxk6WiID2OlCjvPNfUduIc4HOlhR7851PnNUFzZM7vnyxpus0fJmsFmgKB18MA5P1ckdaxtX9Phl3L2iXsqrh3Scdfam9m3jfxxEbFIjJCs74qU0cIb"
+      },
+      "products": [
+        {
+          "_id": "695e5bfa1c508c5d5eacc961",
+          "name": "Mouse2721",
+          "amount": 66,
+          "price": 57983,
+          "manufacturer": "Apple",
+          "notes": "VpzmABUDTB5E32W6tqFVgcrFNgczHRune7fwfpd38Q9grtaO0eoZvFTksqRVUUzdR2jdtIBwXAFsIqyff34L3XIzMfYI1sw3IzIDidarxyutFAAqq9m7MMjhGg7GOQFqVfUTKt5XmJw5ON62nwEDditINVXZWSBqtQHU3QOokicZHgtq6FRDc9GF48bfGJInQI4c6fniLClzGCyp6B2ohAf9xJfMRgg0QcAmgOeYdUD3ivjX3QqBoGdP3P",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 57983,
+      "createdOn": "2026-01-07T13:13:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695e5bf91c508c5d5eacc94f",
+          "products": [
+            {
+              "_id": "695e5bfa1c508c5d5eacc961",
+              "name": "Mouse2721",
+              "amount": 66,
+              "price": 57983,
+              "manufacturer": "Apple",
+              "notes": "VpzmABUDTB5E32W6tqFVgcrFNgczHRune7fwfpd38Q9grtaO0eoZvFTksqRVUUzdR2jdtIBwXAFsIqyff34L3XIzMfYI1sw3IzIDidarxyutFAAqq9m7MMjhGg7GOQFqVfUTKt5XmJw5ON62nwEDditINVXZWSBqtQHU3QOokicZHgtq6FRDc9GF48bfGJInQI4c6fniLClzGCyp6B2ohAf9xJfMRgg0QcAmgOeYdUD3ivjX3QqBoGdP3P",
+              "received": false
+            }
+          ],
+          "total_price": 57983,
+          "delivery": null,
+          "changedOn": "2026-01-07T13:13:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95335d",
+            "username": "student14@gmail.com",
+            "firstName": "Bill",
+            "lastName": "Schuppe",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:19:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "541",
+    "etag": "W/\"21d-A3d7qUxIjbtmJxywfe1kJLuB+rQ\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Angela87@yahoo.com",
+      "name": "Brannon Fiona",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 491,
+      "flat": 7755,
+      "phone": "+7425558448",
+      "createdOn": "2026-01-07T13:19:46.000Z",
+      "notes": "OeUvNbJbCv1rUvmLI32hVcsUdXceH35aSfWUqXnvlgDyBJJZLf0xzBbP7j0aVEjrQMO7m3unjOoYWXm82QDGziyE9frrx2i99vfInkDP64GOS5zZqlm0nANpn0kA7lcnhK2zzD0enQi0hDksOxSnCVv9cdc2dwUhI6ap2qz5yWABMDcZGQ3ItHqgfaJ1cz7WocCLU4LDRHVUNQ8kJEqgIX81vRHEqpeegjCS3NuFBdJuH0HjlT3kXgBzDT",
+      "_id": "695e5d721c508c5d5ead2da0"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

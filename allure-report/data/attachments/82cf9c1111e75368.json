@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:17:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "558",
+    "etag": "W/\"22e-GFcOTe5mkiEYR7TgIpKIcwDActE\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Philip.Dibbert@gmail.com",
+      "name": "Susanna Alexandra",
+      "country": "Great Britain",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 418,
+      "flat": 1103,
+      "phone": "+8177443505",
+      "createdOn": "2026-01-07T13:17:54.000Z",
+      "notes": "tAt2FAJw6UcDXHcqz0KTpPrvdO5zabCfHRwu5EBZAQJXCiQKm8g0HiCu1zz8FQriDdl3kYg0VjeoI4YVhrFKjwven6jRKVYUw1k1SSVoCJ6W2dGB18j0FGuXfydGtJXpWyPivi03cWhPz7dOCgOEVxTzC1tKNAmj7AW3n74LssdoERfAkSWVi2mcLNFuXQRpZdAkEu6UOaBmYoQKgdMnxB6bXFOJOdYcr5fR3W9GfGcp4MonmsJU8R0YtR",
+      "_id": "695e5d021c508c5d5ead0fc2"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

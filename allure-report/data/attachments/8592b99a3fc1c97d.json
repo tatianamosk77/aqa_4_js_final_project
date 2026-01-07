@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "542",
+    "etag": "W/\"21e-wwAvi5RCqxhLHGqTJWMBXYK4sCg\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Donnell17@yahoo.com",
+      "name": "Manuela Cayla",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 247,
+      "flat": 1545,
+      "phone": "+2848521449",
+      "createdOn": "2026-01-07T13:13:02.000Z",
+      "notes": "mSunMT2hoNDgTZt2fAOdlJ1MBqPBa1aknwqni2U3MhIK7cWAIhSgKRdfQEsweLMSI1nte0W95ev2gUOYSxdSEBtH20xpFG2b8bK2xZVYD7gqRWrtZftVovQd3ouyMZusLJOjDfJBsdKLLAaXHvNawpBBElZsSebl4vSXhYgVlryoH1yFMqPTqJCB7Tx85M0QEtc3CRWh41Yzpxv44BsvPIcTxRpMABKhy3Zmg2rYDyGfXp6crF0pBAIrix",
+      "_id": "695e5bde1c508c5d5eacc609"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

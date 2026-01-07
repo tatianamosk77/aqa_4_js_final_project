@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "547",
+    "etag": "W/\"223-H32YYkYNnNAV6Ymym8C3rlS3MI8\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Ismael.McCullough@yahoo.com",
+      "name": "Mayra Abel",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 846,
+      "flat": 3490,
+      "phone": "+1027069705",
+      "createdOn": "2026-01-07T13:13:29.000Z",
+      "notes": "qgGvnIbAcXdLBY3hJGUZS6kBGeeasCf6cBNjTbT1ocNFlLtAOdE61F2uS6jtAgpEkNMhrAcnRC1eX3rF1W09hYqjGveyq2kpZq9t6eBZMFeiv1PHZPgGHtGPD4JPwtQEqx1QdM67iLuTtwzZYY48tBl9QsehACDd9w1Vd3D3aH0X5trJDYDJc4A9ePaD3cSDDPAiSRD5x0Q8kIyT1qoOc54cZXSSOvP1VP9hA5WRkcQZpEFcbVy455MPxP",
+      "_id": "695e5bf91c508c5d5eacc955"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

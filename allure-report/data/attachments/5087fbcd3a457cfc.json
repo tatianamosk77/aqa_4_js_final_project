@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:12:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "540",
+    "etag": "W/\"21c-D0LYgaYVf4753JZHBzjPjlEt+0s\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Yoshiko92@hotmail.com",
+      "name": "Donna Lloyd",
+      "country": "Canada",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 1,
+      "flat": 3406,
+      "phone": "+6437776938",
+      "createdOn": "2026-01-07T13:12:53.000Z",
+      "notes": "LPHKikUshpZKHpWTwKVGeAVYiHX2Njtnlji5tyikYCFbDSELGh6sn2AtM3fOknB6vF3nUxDYMAUxFSpTnlsnvzxOLcLxg7mI4MXMMzUhCMHoSUy74gfarD9CC6uO6GQwz0XSH9fzH3Q9bNKosRIZmNPq0e5iAuGwfIjMMs616SpQ1YqAZwZus4pzQbqICt0sa3dOR6eFdWdxGkQ4ooVYrHpNm1ObY6FwgaCOF7QxymGB7ivDnzIzZbNKjf",
+      "_id": "695e5bd51c508c5d5eacc51d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

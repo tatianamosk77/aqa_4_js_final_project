@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "date": "Wed, 07 Jan 2026 13:13:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "551",
+    "etag": "W/\"227-qP0wTnxCzkcOuE16bR7I2Nz4cnc\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Customer": {
+      "email": "Bailey.Pfeffer43@gmail.com",
+      "name": "Carmela Federico",
+      "country": "France",
+      "city": "testCity",
+      "street": "testStreet",
+      "house": 919,
+      "flat": 560,
+      "phone": "+4229693066",
+      "createdOn": "2026-01-07T13:13:25.000Z",
+      "notes": "OALj9idEzWTFAlx91jF5kdBjWbvvj8mwAaPDG1GJpbbVYtvZmN6kyXehF92yJEQieyijDs6miQIFbmCn6G3kvTlWDCCpSkbSTThflQOMeQtR5cocAGSB3G6ORhLdQXAOMArJg4Ljca1joNZoc2PXsBpAxOA0dm8YPDk1NQ6u2mFyKSKpScKIci2Cser72sAggRwTMcDmNdjyPW1Lskup0ACn5895ZLyqh2M1PN54C9EwdMwd3Oddokdcg2",
+      "_id": "695e5bf51c508c5d5eacc871"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
